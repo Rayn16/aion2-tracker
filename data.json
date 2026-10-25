@@ -1,0 +1,336 @@
+{
+ "members": {
+  "YasuoMain": {
+   "history": [
+    {
+     "date": "2026-10-25",
+     "cp": 91891,
+     "il": 1937
+    }
+   ],
+   "server": "Tassin",
+   "level": 45,
+   "cp": 91891,
+   "il": 1937,
+   "gear": [
+    {
+     "slotPosName": "MainHand",
+     "name": "Aulamus Greatsword",
+     "grade": "Unique",
+     "enchantLevel": 13,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_GS_0028_T05.png"
+    },
+    {
+     "slotPosName": "SubHand",
+     "name": "Vakron Guard",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_U_003.png"
+    },
+    {
+     "slotPosName": "Torso",
+     "name": "Vakron Breastplate",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png"
+    },
+    {
+     "slotPosName": "Pants",
+     "name": "Vakron Greaves",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png"
+    },
+    {
+     "slotPosName": "Helmet",
+     "name": "Divine Canyon Helm",
+     "grade": "Legend",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0072_T05_Helmet.png"
+    },
+    {
+     "slotPosName": "Shoulder",
+     "name": "Vakron Pauldrons",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Shoulder.png"
+    },
+    {
+     "slotPosName": "Gloves",
+     "name": "Vakron Gloves",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png"
+    },
+    {
+     "slotPosName": "Boots",
+     "name": "Unyielding Boots",
+     "grade": "Legend",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0049_T05_Boots.png"
+    },
+    {
+     "slotPosName": "Cape",
+     "name": "Spectral Cloak",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0149_T03_Cape.png"
+    },
+    {
+     "slotPosName": "Belt",
+     "name": "Noble Belt",
+     "grade": "Unique",
+     "enchantLevel": 4,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png"
+    },
+    {
+     "slotPosName": "Necklace",
+     "name": "Aulamus Necklace",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png"
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Aulamus Earrings",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png"
+    },
+    {
+     "slotPosName": "Earring2",
+     "name": "Liberator Earrings",
+     "grade": "Legend",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png"
+    },
+    {
+     "slotPosName": "Ring2",
+     "name": "Liberator Ring",
+     "grade": "Legend",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png"
+    },
+    {
+     "slotPosName": "Ring1",
+     "name": "Liberator Ring",
+     "grade": "Legend",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png"
+    },
+    {
+     "slotPosName": "Bracelet1",
+     "name": "Ascension Bracelet",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png"
+    },
+    {
+     "slotPosName": "Bracelet2",
+     "name": "Liberator Bracelet",
+     "grade": "Legend",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png"
+    },
+    {
+     "slotPosName": "Rune1",
+     "name": "Clash Rune",
+     "grade": "Special",
+     "enchantLevel": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png"
+    },
+    {
+     "slotPosName": "Rune2",
+     "name": "Clash Rune",
+     "grade": "Special",
+     "enchantLevel": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png"
+    },
+    {
+     "slotPosName": "Amulet",
+     "name": "Revelation Amulet",
+     "grade": "Unique",
+     "enchantLevel": 4,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png"
+    },
+    {
+     "slotPosName": "Arcana1",
+     "name": "Chalice of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png"
+    },
+    {
+     "slotPosName": "Arcana2",
+     "name": "Parchment of Magic",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png"
+    },
+    {
+     "slotPosName": "Arcana3",
+     "name": "Compass of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png"
+    },
+    {
+     "slotPosName": "Arcana4",
+     "name": "Bell of Vigor",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png"
+    },
+    {
+     "slotPosName": "Arcana5",
+     "name": "Mirror of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png"
+    }
+   ]
+  },
+  "YasuoMain16": {
+   "history": [
+    {
+     "date": "2026-10-25",
+     "cp": 30991,
+     "il": 633
+    }
+   ],
+   "server": "Tassin",
+   "level": 38,
+   "cp": 30991,
+   "il": 633,
+   "gear": [
+    {
+     "slotPosName": "MainHand",
+     "name": "Avenger Longsword",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_SW_0033_T05.png"
+    },
+    {
+     "slotPosName": "SubHand",
+     "name": "Avenger Guard",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_013.png"
+    },
+    {
+     "slotPosName": "Torso",
+     "name": "Avenger Breastplate",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Torso.png"
+    },
+    {
+     "slotPosName": "Pants",
+     "name": "Avenger Greaves",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Pants.png"
+    },
+    {
+     "slotPosName": "Helmet",
+     "name": "Chaser Helm",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Helmet.png"
+    },
+    {
+     "slotPosName": "Shoulder",
+     "name": "Avenger Pauldrons",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Shoulder.png"
+    },
+    {
+     "slotPosName": "Gloves",
+     "name": "Avenger Gloves",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Gloves.png"
+    },
+    {
+     "slotPosName": "Boots",
+     "name": "Avenger Boots",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Boots.png"
+    },
+    {
+     "slotPosName": "Cape",
+     "name": "Avenger Cloak",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Cape.png"
+    },
+    {
+     "slotPosName": "Belt",
+     "name": "Noble Belt",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_018.png"
+    },
+    {
+     "slotPosName": "Necklace",
+     "name": "Chaser Necklace",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0030.png"
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Avenger Earrings",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0017.png"
+    },
+    {
+     "slotPosName": "Earring2",
+     "name": "Chaser Earrings",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0030.png"
+    },
+    {
+     "slotPosName": "Ring1",
+     "name": "Avenger Ring",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0017.png"
+    },
+    {
+     "slotPosName": "Ring2",
+     "name": "Chaser Ring",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png"
+    },
+    {
+     "slotPosName": "Bracelet1",
+     "name": "Avenger Bracelet",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0017.png"
+    },
+    {
+     "slotPosName": "Bracelet2",
+     "name": "Chaser Bracelet",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0030.png"
+    },
+    {
+     "slotPosName": "Amulet",
+     "name": "Revelation Amulet",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv3_01.png"
+    }
+   ]
+  }
+ },
+ "updated": "2026-10-25 23:11 UTC"
+}

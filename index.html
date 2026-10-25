@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aion2 Group Tracker</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#1e3a8a">
+<style>
+  :root { --bg:#fff; --fg:#1a1a1a; --muted:#666; --line:#ddd; --accent:#2563eb; --bad:#dc2626; --good:#16a34a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#eee; --muted:#999; --line:#333; --accent:#60a5fa; --bad:#f87171; --good:#4ade80; } }
+  body { margin:0 auto; max-width:900px; padding:16px; font:15px/1.4 system-ui, sans-serif; background:var(--bg); color:var(--fg); }
+  table { width:100%; border-collapse:collapse; }
+  th, td { padding:8px 6px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+  td.n, th.n { text-align:right; font-variant-numeric:tabular-nums; }
+  .muted { color:var(--muted); } .up { color:var(--good); } .low { color:var(--bad); font-weight:600; }
+  details summary { cursor:pointer; } details ul { margin:6px 0; padding-left:18px; font-size:13px; }
+  svg { display:block; }
+  .wrap { overflow-x:auto; }
+</style>
+</head>
+<body>
+<h1>Aion2 Group Tracker</h1>
+<p class="muted" id="updated"></p>
+<p><label>Raid needs item level <input id="need" type="number" min="0" step="10" style="width:6em"></label></p>
+<div class="wrap"><table>
+  <thead><tr><th>#</th><th>Character</th><th class="n">Level</th><th class="n">Item level</th><th class="n">Combat power</th><th class="n">7-day gain</th><th>Trend</th></tr></thead>
+  <tbody id="rows"></tbody>
+</table></div>
+<script>
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = n => n == null ? '–' : n.toLocaleString();
+
+function gain(h) {
+  // compare to the newest snapshot at least 7 days old, else the oldest we have
+  const last = h[h.length - 1], cutoff = new Date(Date.parse(last.date) - 7 * 864e5).toISOString().slice(0, 10);
+  const base = [...h].reverse().find(x => x.date <= cutoff) || h[0];
+  return last.cp - base.cp;
+}
+
+function spark(h) {
+  if (h.length < 2) return '';
+  const v = h.map(x => x.cp), lo = Math.min(...v), hi = Math.max(...v), w = 100, ht = 24;
+  const pts = v.map((y, i) => `${(i / (v.length - 1) * w).toFixed(1)},${(ht - 2 - (y - lo) / ((hi - lo) || 1) * (ht - 4)).toFixed(1)}`).join(' ');
+  return `<svg width="${w}" height="${ht}" aria-label="combat power trend"><polyline points="${pts}" fill="none" stroke="var(--accent)" stroke-width="1.5"/></svg>`;
+}
+
+function render(data) {
+  const need = +document.getElementById('need').value || 0;
+  const list = Object.entries(data.members).sort((a, b) => b[1].cp - a[1].cp);
+  document.getElementById('rows').innerHTML = list.map(([name, m], i) => {
+    const g = gain(m.history);
+    const gearList = (m.gear || []).map(x => `<li>${esc(x.slotPosName)}: ${esc(x.name)} +${x.enchantLevel} <span class="muted">${esc(x.grade)}</span></li>`).join('');
+    return `<tr>
+      <td>${i + 1}</td>
+      <td><details><summary>${esc(name)}</summary><span class="muted">${esc(m.server)}</span><ul>${gearList}</ul></details></td>
+      <td class="n">${m.level}</td>
+      <td class="n ${need && m.il < need ? 'low' : ''}">${fmt(m.il)}</td>
+      <td class="n">${fmt(m.cp)}</td>
+      <td class="n ${g > 0 ? 'up' : ''}">${g > 0 ? '+' : ''}${fmt(g)}</td>
+      <td>${spark(m.history)}</td></tr>`;
+  }).join('');
+  document.getElementById('updated').textContent = 'Updated ' + data.updated;
+}
+
+fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(data => {
+  document.getElementById('need').oninput = () => render(data);
+  render(data);
+}).catch(() => { document.getElementById('updated').textContent = 'No data yet. Run fetch.py first.'; });
+</script>
+</body>
+</html>

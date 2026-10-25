@@ -23,7 +23,7 @@
 </head>
 <body>
 <h1>Aion2 Group Tracker</h1>
-<p class="muted" id="updated"></p>
+<p class="muted"><span id="updated"></span> <span id="appbtns" hidden><button onclick="pywebview.api.refresh();this.textContent='Updating…'">Refresh</button> <button onclick="pywebview.api.edit_members()">Edit members</button></span></p>
 <p><label>Raid needs item level <input id="need" type="number" min="0" step="10" style="width:6em"></label></p>
 <div class="wrap"><table>
   <thead><tr><th>#</th><th>Character</th><th class="n">Level</th><th class="n">Item level</th><th class="n">Combat power</th><th class="n">7-day gain</th><th>Trend</th></tr></thead>
@@ -69,6 +69,8 @@ fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(data => {
   document.getElementById('need').oninput = () => render(data);
   render(data);
 }).catch(() => { document.getElementById('updated').textContent = 'No data yet. Run fetch.py first.'; });
+const showApp = () => document.getElementById('appbtns').hidden = false;
+if (window.pywebview) showApp(); else window.addEventListener('pywebviewready', showApp);
 </script>
 </body>
 </html>

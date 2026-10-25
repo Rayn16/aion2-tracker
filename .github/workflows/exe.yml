@@ -14,6 +14,6 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install pywebview pyinstaller
       - run: pyinstaller --onefile --windowed --name Aion2Tracker --add-data "index.html;." --add-data "icon.svg;." --add-data "members.txt;." app.py
-      - run: gh release delete latest --yes --cleanup-tag; gh release create latest dist/Aion2Tracker.exe --title "Aion2 Tracker app" --notes "Download Aion2Tracker.exe and double-click it."
+      - run: gh release delete latest --yes --cleanup-tag || true; gh release create latest dist/Aion2Tracker.exe --title "Aion2 Tracker app" --notes "Download Aion2Tracker.exe and double-click it."
         shell: bash
         env: { GH_TOKEN: "${{ github.token }}" }

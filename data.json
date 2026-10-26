@@ -6,11 +6,16 @@
      "date": "2026-10-25",
      "cp": 91891,
      "il": 1937
+    },
+    {
+     "date": "2026-10-26",
+     "cp": 91895,
+     "il": 1937
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 91891,
+   "cp": 91895,
    "il": 1937,
    "gear": [
     {
@@ -196,12 +201,17 @@
      "date": "2026-10-25",
      "cp": 30991,
      "il": 633
+    },
+    {
+     "date": "2026-10-26",
+     "cp": 39468,
+     "il": 701
     }
    ],
    "server": "Tassin",
-   "level": 38,
-   "cp": 30991,
-   "il": 633,
+   "level": 39,
+   "cp": 39468,
+   "il": 701,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -233,10 +243,10 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Chaser Helm",
-     "grade": "Rare",
+     "name": "Avenger Helm",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Helmet.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Helmet.png"
     },
     {
      "slotPosName": "Shoulder",
@@ -332,5 +342,5 @@
    ]
   }
  },
- "updated": "2026-10-25 23:11 UTC"
+ "updated": "2026-10-26 12:23 UTC"
 }

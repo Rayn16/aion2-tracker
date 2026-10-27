@@ -138,6 +138,22 @@ table.cmp th, table.cmp td { padding: 8px 10px; border-bottom: 1px solid var(--l
 table.cmp th { font: 500 11.5px var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
 table.cmp td.n { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
 .wrap { overflow-x: auto; }
+table.skills td { vertical-align: middle; }
+table.skills img { width: 32px; height: 32px; border-radius: 4px; display: block; }
+table.skills tr.next td { background: color-mix(in srgb, var(--gold) 12%, transparent); }
+table.skills .meter { min-width: 80px; }
+.dboards { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; align-items: start; }
+.dboard { margin: 0; display: grid; gap: 8px; }
+.dboard figcaption { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.dboard figcaption img { width: 24px; height: 24px; }
+.dgrid { display: grid; grid-template-columns: repeat(var(--cols), 1fr); gap: 3px; aspect-ratio: 1; background: var(--bg); padding: 6px; border-radius: 6px; }
+.dgrid i, .dk { display: block; aspect-ratio: 1; border-radius: 2px; border: 1px solid color-mix(in srgb, var(--g, var(--muted)) 55%, transparent); background: color-mix(in srgb, var(--g, var(--muted)) 12%, transparent); }
+.dgrid i.on, .dk.on { background: var(--g, var(--muted)); border-color: var(--g, var(--muted)); }
+.dgrid i.skill, .dk.skill { border-radius: 50%; }
+.dgrid i.start { background: var(--fg); border-radius: 50%; }
+.dgrid i.path, .dk.path { outline: 2px solid var(--gold-hi); outline-offset: 0; }
+.dgrid i.goal, .dk.goal { outline: 2px solid var(--gold-hi); box-shadow: 0 0 0 4px color-mix(in srgb, var(--gold-hi) 35%, transparent); }
+.dk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
 .empty { padding: 40px; text-align: center; color: var(--muted); }
 </style>
 <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
@@ -366,7 +382,7 @@ function boardPicks(m, b) {
   const skills = [...b.active.map(x => x[0]), ...b.passive];
   const rank = (n, stats) => n.name.startsWith('Skill Level Up - ') ? (skills.includes(n.name.slice(17)) ? [0, skills.indexOf(n.name.slice(17))] : null)
     : stats.includes(n.name) ? [n.grade === 'Common' ? 2 : 1, stats.indexOf(n.name)] : null;
-  const picks = {};
+  const picks = {}, boards = [];
   for (const [id, rows] of Object.entries(m.boards || {})) {
     const board = (m.daevanion?.boardList || []).find(x => x.id == id) || {};
     const nodes = rows.map(r => { const [row, col, grade, open, ...name] = r.split('|'); return { row: +row, col: +col, grade, open: open === '1', name: name.join('|') }; });
@@ -381,6 +397,7 @@ function boardPicks(m, b) {
         if (o && !o.open && n.cost + COST[o.grade] < (o.cost ?? Infinity)) { o.cost = n.cost + COST[o.grade]; o.prev = n; q.push(o); }
       }
     }
+    boards.push({ board, nodes });
     const stats = SIDE_BOARDS[board.name] || b.stats;
     const key = NORMAL.includes(board.name) ? 'Daevanion points' : board.name + ' crystals';
     for (const n of nodes) {
@@ -393,22 +410,47 @@ function boardPicks(m, b) {
       picks[key] = { key, board, node: n, first, steps, score };
     }
   }
-  return Object.values(picks);
+  for (const p of Object.values(picks)) {  // mark each pick's path so the board grid can light it up
+    for (let n = p.node; !n.open; n = n.prev) n.path = true;
+    p.node.goal = true;
+    boards.find(x => x.board === p.board).pick = p;
+  }
+  return { picks: Object.values(picks), boards };
+}
+
+// A Daevanion board as the game draws it: open nodes lit, the suggested path outlined, the goal ringed.
+const boardGrid = ({ board, nodes, pick }) => {
+  const r0 = Math.min(...nodes.map(n => n.row)), c0 = Math.min(...nodes.map(n => n.col));
+  const cols = Math.max(...nodes.map(n => n.col)) - c0 + 1;
+  return `<figure class="dboard"><figcaption><img src="${esc(board.icon)}" alt="">${esc(board.name)} <span class="hint">${fmt(board.openNodeCount)} / ${fmt(board.totalNodeCount)}</span></figcaption>
+    <div class="dgrid" style="--cols:${cols}">${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"
+      style="grid-area:${n.row - r0 + 1}/${n.col - c0 + 1};--g:${GRADE[n.grade] || 'var(--muted)'}" title="${esc(n.name)}${n.goal ? ' (goal)' : n.path ? ' (on the way)' : n.open ? ' (open)' : ''}"></i>`).join('')}</div>
+    ${pick ? `<p class="sub">Goal: <b>${esc(pick.node.name)}</b>, ${pick.node.cost} pts${pick.steps > 1 ? `, open ${esc(pick.first.name)} first` : ''}</p>` : ''}</figure>`;
+};
+const BOARD_KEY = `<p class="legend"><span><i class="dk on"></i>Open</span><span><i class="dk path"></i>Open next</span><span><i class="dk goal"></i>Goal</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Closed</span></p>`;
+
+// The build's skills as one table: level now, the goal, and which ones get the next points.
+function skillTable(m, b, picks) {
+  const list = m.skill?.skillList || [], byName = n => list.find(x => x.name === n) || { name: n, skillLevel: 0 };
+  const next = new Map(picks.map(([s, what]) => [s.name, what]));
+  const top = Math.max(...b.passive.map(n => byName(n).skillLevel));  // guides say keep passives even
+  const rows = [...b.active.map(([n, t]) => [byName(n), t, 'Active']), ...b.passive.map(n => [byName(n), top, 'Passive']),
+    ...b.stigma.filter(([n], i, a) => a.findIndex(x => x[0] === n) === i).map(([n]) => [byName(n), Math.max(...b.stigma.filter(x => x[0] === n).map(x => x[1])), 'Stigma'])];
+  return `<table class="cmp skills"><tr><th></th><th>Skill</th><th>Type</th><th class="n">Now</th><th class="n">Goal</th><th>Progress</th></tr>
+    ${rows.map(([s, t, type]) => `<tr class="${next.has(s.name) ? 'next' : ''}"><td><img src="${esc(s.icon || '')}" alt=""></td>
+      <td>${esc(s.name)}${next.has(s.name) ? `<div class="sub">Next: ${esc(next.get(s.name))}</div>` : ''}</td><td class="sub">${type}</td>
+      <td class="n">${s.skillLevel}</td><td class="n">${t}</td>
+      <td><div class="meter${s.skillLevel >= t ? '' : ' no'}"><i style="width:${Math.min(100, pct(s.skillLevel, t))}%"></i></div></td></tr>`).join('')}</table>`;
 }
 
 function nextUpgrade(m) {
   const [b, picks] = advice(m);
   if (!b) return '<section class="panel"><h2 class="ph">Next upgrade</h2><p class="hint">No build guide for this class yet.</p></section>';
-  const nodes = boardPicks(m, b);
-  return `<div class="grid2 even">
-    <section class="panel"><h2 class="ph">Next upgrade <span class="hint">${b.cls}</span></h2><div class="gear one">
-      ${picks.map(([s, what, why]) => iconCard(s.icon || '', s.name, `${what} · ${why}`, 'Lv ' + s.skillLevel)).join('')}</div></section>
-    <section class="panel"><h2 class="ph">Next Daevanion node</h2><div class="gear one">
-      ${nodes.map(p => iconCard(p.board.icon || '', `${p.key}: ${p.node.name}`,
-        `${esc(p.board.name)} board · ${p.steps > 1 ? `open ${esc(p.first.name)} first, ${p.steps} nodes to go` : 'next to what you have open'}`, `${p.node.cost} pts`, p.node.grade)).join('')
-        || `<p class="hint">${m.boards ? 'Nothing left on the build path.' : 'Node-by-node advice arrives with the next daily update.'}</p>`}</div>
-      <p class="hint">Points are counted from what was open at the last update. Refunds cost 500 Kina a node.</p></section>
-  </div>`;
+  const { boards } = boardPicks(m, b), shown = boards.filter(x => x.pick);
+  return `<section class="panel wrap"><h2 class="ph">Skill points <span class="hint">${b.cls} build · highlighted rows get the next points</span></h2>${skillTable(m, b, picks)}</section>
+    <section class="panel"><h2 class="ph">Daevanion points go here</h2>
+      ${shown.length ? `<div class="dboards">${shown.map(boardGrid).join('')}</div>${BOARD_KEY}` : `<p class="hint">${m.boards ? 'Nothing left on the build path.' : 'The boards arrive with the next daily update.'}</p>`}
+      <p class="hint">The four main boards share your Daevanion points; Ariel and Azphel use their own crystals. Counted from what was open at the last update. Refunds cost 500 Kina a node.</p></section>`;
 }
 
 function memberOverview(m) {
@@ -428,8 +470,9 @@ function memberOverview(m) {
 
 function memberSkills(m) {
   const list = m.skill?.skillList || [];
-  const group = (title, xs) => xs.length ? `<section class="panel"><h2 class="ph">${title} <span class="hint">${xs.length}</span></h2><div class="gear">
-    ${xs.map(x => iconCard(x.icon, x.name, x.acquired ? (x.category === 'Dp' ? 'DP skill' : esc(x.category)) : `Unlocks at Lv ${x.needLevel}`, 'Lv ' + x.skillLevel)).join('')}</div></section>` : '';
+  const group = (title, xs) => xs.length ? `<section class="panel wrap"><h2 class="ph">${title} <span class="hint">${xs.length}</span></h2>
+    <table class="cmp skills"><tr><th></th><th>Skill</th><th>Type</th><th class="n">Level</th></tr>${xs.map(x => `<tr><td><img src="${esc(x.icon)}" alt=""></td><td>${esc(x.name)}</td>
+      <td class="sub">${x.acquired ? (x.category === 'Dp' ? 'DP skill' : esc(x.category)) : `Unlocks at Lv ${x.needLevel}`}</td><td class="n">${x.skillLevel}</td></tr>`).join('')}</table></section>` : '';
   const used = x => x.equip && x.acquired;
   return group('Equipped active skills', list.filter(x => x.category === 'Active' && used(x)))
     + group('Equipped DP skills', list.filter(x => x.category === 'Dp' && used(x)))
@@ -443,11 +486,12 @@ function memberStats(m) {
   const stats = (m.stats || []).filter(x => x.type !== 'ItemLevel');
   const base = stats.filter(x => /^[A-Z]{3}$/.test(x.type)), god = stats.filter(x => !/^[A-Z]{3}$/.test(x.type));
   const table = xs => `<table class="cmp">${xs.map(x => `<tr><td>${esc(x.name)}</td><td class="n">${fmt(x.value)}</td><td class="sub">${(x.statSecondList || []).map(esc).join(' · ')}</td></tr>`).join('')}</table>`;
-  const boards = m.daevanion?.boardList || [];
-  return `<div class="grid2 even">
-      <section class="panel"><h2 class="ph">Daevanion boards</h2>${boards.map(b => `<div class="board"><img src="${esc(b.icon)}" alt="" loading="lazy">${bar(esc(b.name), b.openNodeCount, b.totalNodeCount)}</div>`).join('') || '<p class="hint">No data.</p>'}</section>
-      <section class="panel wrap"><h2 class="ph">Base stats</h2>${table(base)}</section>
-    </div>
+  const boards = m.daevanion?.boardList || [], b = BUILDS[Math.floor((m.skill?.skillList?.[0]?.id || 0) / 1e6)];
+  const grids = m.boards && b ? boardPicks(m, b).boards : null;
+  return `<section class="panel"><h2 class="ph">Daevanion boards</h2>
+      ${grids ? `<div class="dboards">${grids.map(boardGrid).join('')}</div>${BOARD_KEY}`
+        : boards.map(b => `<div class="board"><img src="${esc(b.icon)}" alt="" loading="lazy">${bar(esc(b.name), b.openNodeCount, b.totalNodeCount)}</div>`).join('') || '<p class="hint">No data.</p>'}</section>
+    <section class="panel wrap"><h2 class="ph">Base stats</h2>${table(base)}</section>
     <section class="panel wrap"><h2 class="ph">Deity stats</h2>${table(god)}</section>`;
 }
 

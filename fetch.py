@@ -4,6 +4,8 @@ import datetime, json, re, time, urllib.parse, urllib.request
 REGION = "eu"
 SEARCH = "https://api-search.plaync.com/aion2global/search/v2/character?keyword={kw}&region={region}&localeInfo=en-US&page=1&size=20"
 API = "https://aion2.plaync.com/api/character/{kind}?region={region}&lang=en-US&characterId={cid}&serverId={sid}"
+# characters people picked as theirs on the Profile page, kept by Premade's server: [{"n", "s", "o": owner's Riot ID}]
+CLAIMS = "https://league-proxchat.league-proxchat-server.workers.dev/aion"
 
 
 def get(url):
@@ -38,22 +40,19 @@ def board(detail):
 
 
 def members(path="members.txt"):
+    """(name, server, owner's Riot ID or "") from members.txt."""
     for line in open(path, encoding="utf-8"):
         if line.strip() and not line.startswith("#"):
-            name, server = (p.strip() for p in line.split(","))
-            yield name, server
+            name, server, owner = ([p.strip() for p in line.split(",")] + [""])[:3]
+            yield name, server, owner
 
 
-def search(keyword):
-    """Characters named like keyword in our region, for the app's Add character box."""
-    found = get(SEARCH.format(kw=urllib.parse.quote(keyword), region=REGION))["list"]
-    return [{"name": clean(c["name"]), "server": c["serverName"], "level": c["level"]} for c in found]
-
-
-def save_members(rows, path="members.txt"):
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("# One character per line: Name, Server (region eu). Lines starting with # are ignored.\n")
-        f.writelines(f"{n}, {s}\n" for n, s in rows)
+def roster(claims):
+    """members.txt plus the claimed characters; members.txt wins for a character on both."""
+    rows = {n.lower(): (n, s, o) for n, s, o in members()}
+    for c in claims:
+        rows.setdefault(c["n"].lower(), (c["n"], c["s"], c["o"]))
+    return list(rows.values())
 
 
 def main():
@@ -62,7 +61,16 @@ def main():
     except FileNotFoundError:
         data = {"members": {}}
     today = datetime.date.today().isoformat()
-    for name, server in members():
+    try:
+        claims = get(CLAIMS)["chars"]
+    except Exception as e:  # server down: keep everyone we have, just add no one new
+        print(f"claims not read: {e}")
+        claims = None
+    rows = roster(claims or [])
+    if claims is not None:  # a character nobody lists or claims any more leaves the legion
+        keep = {n for n, _, _ in rows}
+        data["members"] = {n: m for n, m in data["members"].items() if n in keep}
+    for name, server, owner in rows:
         try:
             c = find(get(SEARCH.format(kw=urllib.parse.quote(name), region=REGION)), name, server)
             if not c:
@@ -79,7 +87,7 @@ def main():
             print(f"failed: {name}: {e}")
             continue
         m = data["members"].setdefault(name, {"history": []})
-        m.update(server=server, level=c["level"], cp=info["profile"]["combatPower"],
+        m.update(server=server, owner=owner, level=c["level"], cp=info["profile"]["combatPower"],
                  il=item_level(info), gear=gear(equip),
                  # the rest of the character sheet, kept as the game sends it
                  stats=info["stat"]["statList"], title=info.get("title"), ranking=info.get("ranking"),
@@ -102,6 +110,15 @@ def demo():
                           {"row": 8, "col": 9, "grade": "Common", "type": "Stat", "open": 1, "name": "Attack"},
                           {"row": 1, "col": 1, "grade": "None", "type": "None", "open": 0, "name": ""}]}
     assert board(nodes) == ["8|8|Start|1|Nezekan - Start", "8|9|Common|1|Attack"]
+    import os, tempfile
+    with tempfile.TemporaryDirectory() as d:
+        open(os.path.join(d, "members.txt"), "w").write("# x\nA, Tassin\nB, Tassin, Me#EU\n")
+        cwd = os.getcwd(); os.chdir(d)
+        try:
+            assert roster([{"n": "a", "s": "Tassin", "o": "X#1"}, {"n": "C", "s": "Ariel", "o": "Y#2"}]) == \
+                [("A", "Tassin", ""), ("B", "Tassin", "Me#EU"), ("C", "Ariel", "Y#2")]
+        finally:
+            os.chdir(cwd)
     assert item_level({"stat": {"statList": [{"type": "X", "value": 1}, {"type": "ItemLevel", "value": 1937}]}}) == 1937
 
 

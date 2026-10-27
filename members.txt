@@ -1,3 +1,4 @@
-# One character per line: Name, Server (region eu). Lines starting with # are ignored.
-YasuoMain, Tassin
-YasuoMain16, Tassin
+# One character per line: Name, Server, Owner (the Riot ID they use in Premade, optional). Region eu. Lines starting with # are ignored.
+# Characters people pick as theirs on the Profile page are added by themselves; list one here only to add it by hand.
+YasuoMain, Tassin, Rayan1000RR#KING
+YasuoMain16, Tassin, Rayan1000RR#KING

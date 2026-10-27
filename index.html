@@ -114,12 +114,8 @@ input, select { font: 15px/1.2 var(--body); padding: 10px 12px; border: 1px soli
 .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; background: var(--c); margin-right: 6px; vertical-align: -1px; }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); }
 
-/* raid check */
-.status { display: inline-flex; align-items: center; gap: 6px; font: 600 12px/1 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; }
-.status.ok { color: var(--good); } .status.no { color: var(--bad); }
 .meter { height: 6px; border-radius: 3px; background: var(--bg); overflow: hidden; }
 .meter i { display: block; height: 100%; border-radius: 3px; background: var(--good); }
-.meter.no i { background: var(--bad); }
 
 .grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; align-items: start; }
 .grid2.even { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
@@ -155,6 +151,9 @@ table.skills .meter { min-width: 80px; }
 .dgrid i.goal, .dk.goal { outline: 2px solid var(--gold-hi); box-shadow: 0 0 0 4px color-mix(in srgb, var(--gold-hi) 35%, transparent); }
 .dk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
 .empty { padding: 40px; text-align: center; color: var(--muted); }
+.tag { font: 500 11px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--link); margin-left: 8px; }
+.player { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+.player .name { font: 700 16px/1.2 var(--display); letter-spacing: 0.04em; }
 </style>
 <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
 </head>
@@ -162,9 +161,8 @@ table.skills .meter { min-width: 80px; }
 <div class="app">
   <nav class="rail" aria-label="Sections">
     <a class="brand" href="#/"><img src="icon.svg" alt=""><span>Aion2 Tracker</span></a>
-    <a class="nav" href="#/" data-r=""><svg class="i" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg><span>Dashboard</span></a>
-    <a class="nav" href="#/members" data-r="members"><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5c2.4 0 4 1.5 4.5 4"/></svg><span>Members</span></a>
-    <a class="nav" href="#/raid" data-r="raid"><svg class="i" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg><span>Raid check</span></a>
+    <a class="nav" href="#/" data-r=""><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c.8-4.2 4-6.5 8-6.5s7.2 2.3 8 6.5"/></svg><span>Profile</span></a>
+    <a class="nav" href="#/legion" data-r="legion"><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5c2.4 0 4 1.5 4.5 4"/></svg><span>Legion</span></a>
     <a class="nav" href="#/compare" data-r="compare"><svg class="i" viewBox="0 0 24 24"><path d="M8 4v16M16 4v16M4 8h4M4 16h4M16 8h4M16 16h4"/></svg><span>Compare</span></a>
     <a class="nav" href="#/settings" data-r="settings"><svg class="i" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>Settings</span></a>
   </nav>
@@ -181,8 +179,18 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const fmt = n => n == null ? '–' : Number(n).toLocaleString('en-US');
 const signed = n => (n > 0 ? '+' : n < 0 ? '−' : '') + fmt(Math.abs(n));
 const GRADE = { Unique: 'var(--best)', Legend: '#eb6834', Legendary: '#eb6834', Epic: '#9085e9', Rare: '#3987e5' };
-let DATA = { members: {} }, LIST = [];
-const store = { get: (k, d) => { try { return localStorage.getItem(k) ?? d; } catch { return d; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch {} } };
+let DATA = { members: {} }, LIST = [], PLAYERS = [], CLAIMS = [];
+const low = s => String(s || '').toLowerCase();
+// Inside Premade's Aion 2 page this page is on Premade's own site, so it shares Premade's storage and knows, without
+// asking, your Riot ID, your friends (added in Premade, and League's friend list) and the id Premade's server knows the app by
+const premade = k => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } };
+const ME = premade('lpc-profile')?.n || '';
+const FRIENDS = new Set([...(premade('lpc-friends') || []), ...(premade('lpc-lolfriends') || []).map(f => f?.riot)].filter(x => typeof x === 'string').map(low));
+let DEVICE = ''; try { DEVICE = localStorage.getItem('lpc-device') || ''; } catch {}
+// who plays which character, kept by Premade's server (server/worker.js /aion); the daily update reads it too
+const CLAIMS_URL = 'https://league-proxchat.league-proxchat-server.workers.dev/aion';
+const nick = o => o ? o.split('#')[0] : 'Not claimed yet';
+const isMe = o => !!ME && low(o) === low(ME), isFriend = o => FRIENDS.has(low(o));
 
 function gain(h) {
   // change versus the newest snapshot at least 7 days old, else the oldest we have
@@ -254,37 +262,43 @@ function wireChart(id, series, dates, x, W, short, unit) {
 const head = (eyebrow, title, right = '') => `<header class="head"><div><p class="eyebrow">${eyebrow}</p><h1 class="title">${title}</h1></div>${right}</header>`;
 const memberLink = n => '#/member/' + encodeURIComponent(n);
 
-function dashboard() {
-  if (!LIST.length) return head('Overview', 'Your group') + `<div class="panel empty">No data yet. ${inApp() ? 'Add your characters in Settings, then Refresh.' : 'The first daily update hasn’t run yet.'}</div>`;
-  const avg = Math.round(LIST.reduce((a, m) => a + m.cp, 0) / LIST.length);
-  const top = LIST[0], best = [...LIST].sort((a, b) => b.gain - a.gain)[0];
-  const tile = (k, v, s) => `<div class="tile"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s}</span></div>`;
-  return head('Overview', 'Your group') + `
-    <div class="tiles">
-      ${tile('Members', LIST.length, 'tracked characters')}
-      ${tile('Average CP', fmt(avg), 'combat power across the group')}
-      ${tile('Strongest', fmt(top.cp), esc(top.name))}
-      ${tile('Most improved', `<span class="${best.gain > 0 ? 'up' : ''}">${signed(best.gain)}</span>`, esc(best.name) + ', last 7 days')}
-    </div>
-    <div class="grid2">
-      <section class="panel"><h2 class="ph">Combat power over time</h2>
-        ${lineChart(LIST.slice(0, 8).map(m => ({ name: m.name, color: m.color, points: m.history.map(h => ({ date: h.date, v: h.cp })) })))}
-        ${LIST.length > 8 ? '<p class="hint">Showing the top 8. Open a member for their own chart.</p>' : ''}</section>
-      <section class="panel"><h2 class="ph">Leaderboard <span class="hint">7-day gain</span></h2>
-        <ol class="rows">${LIST.map((m, i) => `<li><a class="row" href="${memberLink(m.name)}" style="--c:${m.color}">
-          <span class="rank ${i ? '' : 'first'}">${i + 1}</span>
-          <span><div class="name">${esc(m.name)}</div><div class="sub">Lv ${m.level} · IL ${fmt(m.il)}</div></span>
-          <span><div class="num">${fmt(m.cp)}</div><div class="num sub ${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</div></span></a></li>`).join('')}</ol></section>
-    </div>`;
+const tag = o => isMe(o) ? '<span class="tag">You</span>' : isFriend(o) ? '<span class="tag">Friend</span>' : '';
+const charCard = m => `<a class="card" href="${memberLink(m.name)}" style="--c:${m.color}">
+  <div><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Level ${m.level} · #${LIST.indexOf(m) + 1} in the legion</div></div>
+  <div class="stats"><div><span>CP</span><b>${fmt(m.cp)}</b></div><div><span>Item lv</span><b>${fmt(m.il)}</b></div>
+    <div><span>7 days</span><b class="${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</b></div></div></a>`;
+// claimed today, so no stats until the next daily update
+const pendingCard = c => `<div class="card" style="--c:var(--line)"><div><div class="name">${esc(c.n)}</div><div class="sub">${esc(c.s)}</div></div>
+  <p class="hint">Stats arrive with the next daily update (06:00 UTC).</p></div>`;
+const playerOf = o => PLAYERS.find(p => low(p.id) === low(o));
+const mine = () => [...(playerOf(ME)?.chars || []), ...CLAIMS.filter(c => isMe(c.o) && !LIST.some(m => low(m.name) === low(c.n)))];
+
+function profile() {
+  if (!ME) return head('Profile', 'Your profile') + `<div class="panel empty">Open this in Premade’s Aion 2 page and it knows who you are: your League account and your friends.<br><a href="#/legion">See the legion</a></div>`;
+  const chars = mine(), friends = PLAYERS.filter(p => isFriend(p.id) && !isMe(p.id));
+  const rank = PLAYERS.indexOf(playerOf(ME)) + 1;
+  return head('Profile', esc(nick(ME)), rank ? `<span class="hint">#${rank} of ${PLAYERS.length} in the legion</span>` : '') + `
+    ${chars.length ? `<section class="panel"><h2 class="ph">Your characters <a class="hint" href="#/settings">Change</a></h2>
+      <div class="cards">${chars.map(m => m.n ? pendingCard(m) : charCard(m)).join('')}</div></section>` : claimBox()}
+    ${chars.some(m => m.history) ? `<section class="panel"><h2 class="ph">Combat power over time</h2>
+      ${lineChart(chars.filter(m => m.history).map(m => ({ name: m.name, color: m.color, points: m.history.map(h => ({ date: h.date, v: h.cp })) })))}</section>` : ''}
+    <section class="panel"><h2 class="ph">Friends <span class="hint">${friends.length} in the legion</span></h2>
+      ${friends.map(p => `<div class="list"><div class="name">${esc(p.name)}</div><div class="cards">${p.chars.map(charCard).join('')}</div></div>`).join('')
+        || `<p class="hint">${FRIENDS.size ? 'None of your friends have picked their Aion 2 characters yet.' : 'Add friends in Premade (Voice, Friends) and they show here with their characters.'}</p>`}
+    </section>`;
 }
 
-function members() {
-  return head('Roster', 'Members') + `<div class="cards">${LIST.map(m => `
-    <a class="card" href="${memberLink(m.name)}" style="--c:${m.color}">
-      <div><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Level ${m.level}</div></div>
-      <div class="stats"><div><span>CP</span><b>${fmt(m.cp)}</b></div><div><span>Item lv</span><b>${fmt(m.il)}</b></div>
-        <div><span>7 days</span><b class="${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</b></div></div>
-    </a>`).join('') || '<div class="panel empty">No members yet.</div>'}</div>`;
+// players ranked by their strongest character, each with their characters, strongest first
+function legion() {
+  if (!LIST.length) return head('Legion', 'Legion') + '<div class="panel empty">No characters yet. They show up after the next daily update.</div>';
+  return head('Everyone, ranked', 'Legion', `<span class="hint">${PLAYERS.length} players · ${LIST.length} characters</span>`) + PLAYERS.map((p, i) => `
+    <section class="panel"><div class="player"><span class="rank ${i ? '' : 'first'}">${i + 1}</span>
+      <span class="name">${esc(p.name)}${tag(p.id)}</span><span class="num">${fmt(p.chars[0].cp)} <span class="sub">best CP</span></span></div>
+      <ol class="rows">${p.chars.map(m => `<li><a class="row" href="${memberLink(m.name)}" style="--c:${m.color}">
+        <span class="rank">#${LIST.indexOf(m) + 1}</span>
+        <span><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Lv ${m.level} · IL ${fmt(m.il)}</div></span>
+        <span><div class="num">${fmt(m.cp)}</div><div class="num sub ${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</div></span></a></li>`).join('')}</ol>
+    </section>`).join('');
 }
 
 function gearGrid(gear) {
@@ -497,13 +511,13 @@ function memberStats(m) {
 
 function member(name, tab) {
   const m = LIST.find(x => x.name === name);
-  if (!m) return head('Member', 'Not found') + `<div class="panel empty"><a href="#/members">Back to members</a></div>`;
+  if (!m) return head('Character', 'Not found') + `<div class="panel empty"><a href="#/legion">Back to the legion</a></div>`;
   const rank = LIST.indexOf(m) + 1, [dn, dt] = daevTotals(m), base = '#/member/' + encodeURIComponent(m.name);
   const tile = (k, v, s) => `<div class="tile"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s}</span></div>`;
   const tabs = [['', 'Overview'], ['gear', 'Gear'], ['skills', 'Skills'], ['stats', 'Stats and Daevanion']];
-  return head(`${esc(m.server)} · Level ${m.level}`, esc(m.name), `<a class="btn" href="#/compare?a=${encodeURIComponent(m.name)}">Compare</a>`) + `
+  return head(`${esc(nick(m.owner))} · ${esc(m.server)} · Level ${m.level}`, esc(m.name), `<a class="btn" href="#/compare?a=${encodeURIComponent(m.name)}">Compare</a>`) + `
     <div class="tiles">
-      ${tile('Combat power', fmt(m.cp), `#${rank} in the group`)}
+      ${tile('Combat power', fmt(m.cp), `#${rank} in the legion`)}
       ${tile('Item level', fmt(m.il), 'from equipped gear')}
       ${tile('Last 7 days', `<span class="${m.gain > 0 ? 'up' : m.gain < 0 ? 'down' : ''}">${signed(m.gain)}</span>`, 'combat power')}
       ${tile('Daevanion', dt ? pct(dn, dt) + '%' : '–', dt ? `${fmt(dn)} of ${fmt(dt)} nodes` : 'no data yet')}
@@ -513,36 +527,24 @@ function member(name, tab) {
       : tab === 'skills' ? memberSkills(m) : tab === 'stats' ? memberStats(m) : memberOverview(m)}`;
 }
 
-function raid() {
-  const need = +store.get('raidIL', 0) || 0;
-  const ready = LIST.filter(m => m.il >= need).length;
-  return head('Before the run', 'Raid check') + `
-    <section class="panel">
-      <label class="ph" for="need">Required item level</label>
-      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
-        <input id="need" type="number" min="0" step="10" value="${need || ''}" placeholder="e.g. 1800" style="width:10em">
-        <span class="hint">${need ? `${ready} of ${LIST.length} ready` : 'Type the item level the run needs.'}</span></div>
-    </section>
-    <section class="panel"><ol class="rows">${[...LIST].sort((a, b) => b.il - a.il).map(m => {
-      const ok = !need || m.il >= need, pct = need ? Math.min(100, m.il / need * 100) : 100;
-      return `<li><a class="row" href="${memberLink(m.name)}" style="--c:${m.color};grid-template-columns:minmax(0,1fr) minmax(90px,200px) auto">
-        <span><div class="name">${esc(m.name)}</div><div class="sub">IL ${fmt(m.il)}${need && !ok ? ` · needs ${fmt(need - m.il)} more` : ''}</div></span>
-        <span class="meter ${ok ? '' : 'no'}"><i style="width:${pct}%"></i></span>
-        <span class="status ${ok ? 'ok' : 'no'}">${ok ? '✓ Ready' : '✕ Not yet'}</span></a></li>`;
-    }).join('')}</ol></section>`;
-}
-
+// each side: a player (you, then friends, then the rest of the legion), then one of their characters
 function compare(params) {
-  const names = LIST.map(m => m.name);
-  const a = LIST.find(m => m.name === params.get('a')) || LIST[0], b = LIST.find(m => m.name === params.get('b')) || LIST.find(m => m !== a) || a;
-  if (!a) return head('Side by side', 'Compare') + '<div class="panel empty">No members yet.</div>';
-  const pick = (id, sel) => `<select id="${id}">${names.map(n => `<option ${n === sel.name ? 'selected' : ''}>${esc(n)}</option>`).join('')}</select>`;
+  const find = n => LIST.find(m => m.name === n);
+  const firstFriend = PLAYERS.find(p => isFriend(p.id) && !isMe(p.id));
+  const a = find(params.get('a')) || playerOf(ME)?.chars[0] || LIST[0];
+  if (!a) return head('Side by side', 'Compare') + '<div class="panel empty">No characters yet.</div>';
+  const b = find(params.get('b')) || firstFriend?.chars[0] || LIST.find(m => m !== a) || a;
+  const groups = [['You', PLAYERS.filter(p => isMe(p.id))], ['Friends', PLAYERS.filter(p => isFriend(p.id) && !isMe(p.id))], ['Legion', PLAYERS.filter(p => !isMe(p.id) && !isFriend(p.id))]];
+  const pick = (k, m) => `<select id="p${k}" aria-label="Player">${groups.filter(g => g[1].length).map(([l, ps]) => `<optgroup label="${l}">${ps.map(p =>
+      `<option value="${esc(p.id)}" ${low(p.id) === low(m.owner) ? 'selected' : ''}>${esc(p.name)}</option>`).join('')}</optgroup>`).join('')}</select>
+    <select id="c${k}" aria-label="Character">${(playerOf(m.owner)?.chars || [m]).map(c => `<option ${c === m ? 'selected' : ''}>${esc(c.name)}</option>`).join('')}</select>`;
   const diff = (x, y) => { const d = x - y; return d ? `<span class="${d > 0 ? 'up' : 'down'}">${signed(d)}</span>` : '='; };
   const slots = [...new Set([...(a.gear || []), ...(b.gear || [])].map(g => g.slotPosName))];
   const at = (m, s) => (m.gear || []).find(g => g.slotPosName === s);
-  return head('Side by side', 'Compare', `<div style="display:flex;gap:10px;flex-wrap:wrap">${pick('ca', a)}${pick('cb', b)}</div>`) + `
+  return head('Side by side', 'Compare', `<div style="display:grid;gap:8px"><div style="display:flex;gap:8px;flex-wrap:wrap">${pick('a', a)}</div><div style="display:flex;gap:8px;flex-wrap:wrap">${pick('b', b)}</div></div>`) + `
     <section class="panel wrap"><table class="cmp">
       <tr><th></th><th>${esc(a.name)}</th><th>${esc(b.name)}</th><th class="n">Difference</th></tr>
+      <tr><td>Player</td><td>${esc(nick(a.owner))}</td><td>${esc(nick(b.owner))}</td><td class="n"></td></tr>
       <tr><td>Level</td><td>${a.level}</td><td>${b.level}</td><td class="n">${diff(a.level, b.level)}</td></tr>
       <tr><td>Combat power</td><td>${fmt(a.cp)}</td><td>${fmt(b.cp)}</td><td class="n">${diff(a.cp, b.cp)}</td></tr>
       <tr><td>Item level</td><td>${fmt(a.il)}</td><td>${fmt(b.il)}</td><td class="n">${diff(a.il, b.il)}</td></tr>
@@ -559,57 +561,86 @@ function compare(params) {
     </table></section>`;
 }
 
-const inApp = () => !!window.pywebview;
-async function showTracked() {
-  const rows = await pywebview.api.members();
-  $('#tracked').innerHTML = rows.map(([n, srv]) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
-    <span><div class="name">${esc(n)}</div><div class="sub">${esc(srv)}</div></span><button class="btn small" data-n="${esc(n)}">Remove</button></div>`).join('') || '<p class="hint">None yet. Search above to add one.</p>';
-  $('#tracked').querySelectorAll('button').forEach(b => b.onclick = () => { b.disabled = true; pywebview.api.remove(b.dataset.n); });
+// Picking your characters, once: Aion 2's public pages don't say which characters belong to whom, so the search starts
+// with your League name in case you use the same one
+function claimBox() {
+  const claimed = CLAIMS.filter(c => isMe(c.o));
+  return `<section class="panel"><h2 class="ph">Your Aion 2 characters</h2>
+    <p class="hint">Pick which characters are yours. Everyone in the legion sees them, and they update every day.</p>
+    ${claimed.length ? `<div class="rows">${claimed.map((c, i) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
+      <span><div class="name">${esc(c.n)}</div><div class="sub">${esc(c.s)}</div></span><button class="btn small" data-del="${i}">Remove</button></div>`).join('')}</div>` : ''}
+    <form id="findForm" style="display:flex;gap:10px;flex-wrap:wrap"><input id="findName" value="${esc(nick(ME))}" placeholder="Character name" autocomplete="off" style="flex:1;min-width:12em"><button class="btn primary">Search</button></form>
+    <div id="found" class="rows"></div><p id="claimMsg" class="hint" hidden></p></section>`;
 }
+async function claim(body) {
+  const r = await fetch(CLAIMS_URL, { method: 'POST', body: JSON.stringify({ id: DEVICE, o: ME, ...body }) }).then(x => x.json()).catch(() => ({ error: 'Premade’s server didn’t answer. Try again in a minute.' }));
+  if (r.error) { const m = $('#claimMsg'); m.textContent = r.error; m.hidden = false; return; }
+  await loadClaims(); route();
+}
+
 function settings() {
-  return head('App', 'Settings') + (inApp() ? `
-    <section class="panel"><h2 class="ph">Update</h2><p class="hint">The app fetches fresh stats each time it opens. Fetch again now:</p>
-      <div><button class="btn primary" id="refresh">Refresh now</button></div></section>
-    <section class="panel"><h2 class="ph">Add a character</h2>
-      <form id="findForm" style="display:flex;gap:10px;flex-wrap:wrap"><input id="findName" placeholder="Character name" autocomplete="off" style="flex:1;min-width:12em"><button class="btn primary">Search</button></form>
-      <div id="found" class="rows"></div></section>
-    <section class="panel"><h2 class="ph">Tracked characters</h2><div id="tracked" class="rows"><p class="hint">Loading…</p></div>
-      <div><button class="btn" id="editMembers">Edit the list as a file</button></div></section>` : `
-    <section class="panel"><h2 class="ph">Members</h2><p class="hint">The website updates once a day. To add friends, edit <code>members.txt</code> in the GitHub repo.</p>
-      <div><a class="btn" href="https://github.com/Rayn16/aion2-tracker/edit/main/members.txt" target="_blank" rel="noopener">Edit members on GitHub</a></div></section>
-    <section class="panel"><h2 class="ph">Windows app</h2><p class="hint">Updates whenever you open it, in its own window.</p>
-      <div><a class="btn primary" href="https://github.com/Rayn16/aion2-tracker/releases/latest/download/Aion2Tracker.exe">Download for Windows</a></div></section>`) + `
-    <section class="panel"><h2 class="ph">About</h2><p class="hint">Stats come from the official AION 2 character pages (Europe). Not affiliated with NCSOFT.</p></section>`;
+  return head('Tracker', 'Settings') + (ME ? `
+    <section class="panel"><h2 class="ph">Found automatically</h2>
+      <p class="hint">From Premade: you’re <b>${esc(ME)}</b>, with ${FRIENDS.size} friends. Change your League account or friends in Premade and this follows.</p></section>
+    ${claimBox()}` : `
+    <section class="panel"><h2 class="ph">Your profile</h2><p class="hint">Open this in Premade’s Aion 2 page: it knows your League account and your friends there, so your profile sets itself up.</p></section>`) + `
+    <section class="panel"><h2 class="ph">About</h2><p class="hint">Stats come from the official AION 2 character pages (Europe), updated once a day at 06:00 UTC. Not affiliated with NCSOFT.</p></section>`;
 }
 
 function route() {
   const [path, query] = location.hash.slice(2).split('?');
   const [page, arg, sub] = path.split('/');
   const params = new URLSearchParams(query);
-  const cur = page === 'member' ? 'members' : page || '';
+  const cur = page === 'member' ? 'legion' : page || '';
   document.querySelectorAll('.nav').forEach(a => a.dataset.r === cur ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const v = $('#view');
-  v.innerHTML = page === 'members' ? members() : page === 'member' ? member(decodeURIComponent(arg || ''), sub) : page === 'raid' ? raid()
-    : page === 'compare' ? compare(params) : page === 'settings' ? settings() : dashboard();
+  v.innerHTML = page === 'legion' ? legion() : page === 'member' ? member(decodeURIComponent(arg || ''), sub)
+    : page === 'compare' ? compare(params) : page === 'settings' ? settings() : profile();
   drawCharts();
   $('main').scrollTop = 0;
-  $('#need')?.addEventListener('input', e => { store.set('raidIL', e.target.value); const pos = e.target.selectionStart; route(); const n = $('#need'); n.focus(); try { n.setSelectionRange(pos, pos); } catch {} });
-  const go = () => location.hash = `#/compare?a=${encodeURIComponent($('#ca').value)}&b=${encodeURIComponent($('#cb').value)}`;
-  $('#ca')?.addEventListener('change', go); $('#cb')?.addEventListener('change', go);
-  $('#refresh')?.addEventListener('click', e => { e.target.disabled = true; e.target.textContent = 'Updating…'; pywebview.api.refresh(); });
-  $('#editMembers')?.addEventListener('click', () => pywebview.api.edit_members());
-  if ($('#tracked')) showTracked();
-  $('#findForm')?.addEventListener('submit', async e => {
+  const go = (a, b) => location.hash = `#/compare?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
+  const top = id => playerOf(id)?.chars[0]?.name;
+  $('#pa')?.addEventListener('change', e => go(top(e.target.value), $('#cb').value));
+  $('#pb')?.addEventListener('change', e => go($('#ca').value, top(e.target.value)));
+  $('#ca')?.addEventListener('change', () => go($('#ca').value, $('#cb').value));
+  $('#cb')?.addEventListener('change', () => go($('#ca').value, $('#cb').value));
+  const mineNow = CLAIMS.filter(c => isMe(c.o));
+  document.querySelectorAll('[data-del]').forEach(b => b.onclick = () => { b.disabled = true; const c = mineNow[b.dataset.del]; claim({ n: c.n, s: c.s, del: true }); });
+  const find = $('#findForm');
+  if (!find) return;
+  find.addEventListener('submit', async e => {
     e.preventDefault();
     const box = $('#found'); box.innerHTML = '<p class="hint">Searching…</p>';
     try {
-      const hits = await pywebview.api.search($('#findName').value);
+      const r = await fetch(`https://api-search.plaync.com/aion2global/search/v2/character?keyword=${encodeURIComponent($('#findName').value.trim())}&region=eu&localeInfo=en-US&page=1&size=20`).then(x => x.json());
+      const hits = r.list.map(c => ({ n: c.name.replace(/<[^>]+>/g, ''), s: c.serverName, level: c.level }));
       box.innerHTML = hits.length ? hits.map((c, i) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
-        <span><div class="name">${esc(c.name)}</div><div class="sub">${esc(c.server)} · Level ${c.level}</div></span>
-        <button class="btn small" data-i="${i}">Add</button></div>`).join('') : '<p class="hint">No characters with that name in Europe.</p>';
-      box.querySelectorAll('button').forEach(b => b.onclick = () => { const c = hits[b.dataset.i]; b.disabled = true; b.textContent = 'Adding…'; pywebview.api.add(c.name, c.server); });
+        <span><div class="name">${esc(c.n)}</div><div class="sub">${esc(c.s)} · Level ${c.level}</div></span>
+        <button class="btn small" data-i="${i}" ${CLAIMS.some(x => isMe(x.o) && x.n === c.n && x.s === c.s) ? 'disabled>Yours' : '>This is mine'}</button></div>`).join('') : '<p class="hint">No characters with that name in Europe. Type your character’s name.</p>';
+      box.querySelectorAll('button:not(:disabled)').forEach(b => b.onclick = () => { const c = hits[b.dataset.i]; b.disabled = true; b.textContent = 'Adding…'; claim({ n: c.n, s: c.s }); });
     } catch { box.innerHTML = '<p class="hint">Search failed. Check your internet connection.</p>'; }
   });
+  // first visit with no characters: search your League name straight away
+  if (!page && !mine().length && !$('#found').innerHTML) find.requestSubmit();
+}
+
+async function loadClaims() {
+  CLAIMS = await fetch(CLAIMS_URL, { cache: 'no-store' }).then(r => r.json()).then(r => r.chars || []).catch(() => CLAIMS);
+  group();
+}
+
+// players from the characters' owners (members.txt or a claim), ranked by their strongest character
+function group() {
+  const by = new Map();
+  for (const m of LIST) {
+    m.owner = m.owner || CLAIMS.find(c => low(c.n) === low(m.name))?.o || '';
+    const k = low(m.owner);
+    if (!by.has(k)) by.set(k, { id: m.owner, name: nick(m.owner), chars: [] });
+    by.get(k).chars.push(m);
+  }
+  // the unclaimed ones go last, whatever their combat power
+  PLAYERS = [...by.values()].sort((a, b) => !a.id - !b.id || b.chars[0].cp - a.chars[0].cp);
+  $('#barCount').innerHTML = `<b>${PLAYERS.length}</b> players · <b>${LIST.length}</b> characters`;
 }
 
 function load(data) {
@@ -618,13 +649,12 @@ function load(data) {
   LIST = Object.entries(data.members).map(([name, m]) => ({ name, ...m, gain: gain(m.history), color: `var(--s${order.indexOf(name) % 8 + 1})` }))
     .sort((a, b) => b.cp - a.cp);
   $('#barUpdated').innerHTML = data.updated ? `Updated <b>${esc(data.updated)}</b>` : 'Not updated yet';
-  $('#barCount').innerHTML = `<b>${LIST.length}</b> members`;
+  group();
   route();
 }
 
 addEventListener('hashchange', route);
-addEventListener('pywebviewready', route);
-fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(load).catch(() => load({ members: {} }));
+Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({ members: {} })), loadClaims()]).then(([d]) => load(d));
 </script>
 </body>
 </html>

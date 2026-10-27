@@ -14,13 +14,13 @@
     },
     {
      "date": "2026-10-27",
-     "cp": 93956,
+     "cp": 94015,
      "il": 2001
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 93956,
+   "cp": 94015,
    "il": 2001,
    "gear": [
     {
@@ -339,7 +339,7 @@
     }
    ],
    "title": {
-    "ownedCount": 187,
+    "ownedCount": 188,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -357,8 +357,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 61,
-      "ownedPercent": 60,
+      "ownedCount": 62,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "Block +10"
@@ -1420,14 +1420,14 @@
     },
     {
      "date": "2026-10-27",
-     "cp": 61208,
-     "il": 1285
+     "cp": 62105,
+     "il": 1332
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 61208,
-   "il": 1285,
+   "cp": 62105,
+   "il": 1332,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1447,7 +1447,7 @@
      "slotPosName": "Torso",
      "name": "Bakarma Breastplate",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png"
     },
     {
@@ -1473,10 +1473,10 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Anguish Gloves",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Gloves.png"
+     "name": "Bakarma Gloves",
+     "grade": "Unique",
+     "enchantLevel": 6,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png"
     },
     {
      "slotPosName": "Boots",
@@ -1709,11 +1709,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1285
+     "value": 1332
     }
    ],
    "title": {
-    "ownedCount": 150,
+    "ownedCount": 157,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -1731,8 +1731,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 49,
-      "ownedPercent": 49,
+      "ownedCount": 52,
+      "ownedPercent": 51,
       "statList": [
        {
         "desc": "Block +10"
@@ -1753,8 +1753,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 53,
-      "ownedPercent": 50,
+      "ownedCount": 56,
+      "ownedPercent": 53,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -1778,8 +1778,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 48,
-      "ownedPercent": 49,
+      "ownedCount": 49,
+      "ownedPercent": 50,
       "statList": [
        {
         "desc": "MP +20"
@@ -1818,8 +1818,8 @@
       "id": 23,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 46,
-      "openPercent": 52,
+      "openNodeCount": 51,
+      "openPercent": 58,
       "totalNodeCount": 88
      },
      {
@@ -1827,8 +1827,8 @@
       "id": 24,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 45,
-      "openPercent": 39,
+      "openNodeCount": 47,
+      "openPercent": 41,
       "totalNodeCount": 116
      },
      {
@@ -2001,7 +2001,7 @@
       "id": 12730000,
       "name": "Punishing Benediction",
       "needLevel": 9,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -2031,7 +2031,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 5
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -2419,17 +2419,17 @@
      "3|9|Common|1|Attack",
      "3|8|Legend|1|Skill Level Up - Flash Rampage",
      "3|7|Common|1|Critical Hit Resist",
-     "3|13|Unique|0|Critical Damage Tolerance",
-     "3|12|Common|0|Max HP",
-     "3|11|Common|0|Critical Hit Resist",
-     "3|10|Rare|0|Skill Level Up - Punishing Benediction",
+     "3|13|Unique|1|Critical Damage Tolerance",
+     "3|12|Common|1|Max HP",
+     "3|11|Common|1|Critical Hit Resist",
+     "3|10|Rare|1|Skill Level Up - Punishing Benediction",
      "4|6|Common|1|Critical Hit",
      "4|5|Common|1|Attack",
      "4|3|Common|0|Critical Hit",
      "4|9|Common|0|Defense",
      "4|7|Common|1|Max MP",
      "4|13|Common|0|Max MP",
-     "4|11|Common|0|Defense",
+     "4|11|Common|1|Defense",
      "5|3|Common|0|Defense",
      "5|7|Legend|1|Skill Level Up - Annihilate",
      "5|5|Common|0|Max HP",
@@ -2558,10 +2558,10 @@
      "2|2|Unique|0|Multi-Hit Resist",
      "2|8|Unique|1|Multi-Hit Chance",
      "2|7|Common|0|Attack",
-     "2|12|Common|0|Defense",
+     "2|12|Common|1|Defense",
      "2|9|Common|1|Defense",
      "2|14|Unique|0|Multi-Hit Resist",
-     "2|13|Common|0|Max HP",
+     "2|13|Common|1|Max HP",
      "3|5|Common|0|Max MP",
      "3|4|Legend|0|Skill Level Up - Shield Smite",
      "3|2|Common|0|Max MP",
@@ -2939,15 +2939,15 @@
    "history": [
     {
      "date": "2026-10-27",
-     "cp": 62669,
-     "il": 1294
+     "cp": 63050,
+     "il": 1311
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 62669,
-   "il": 1294,
+   "cp": 63050,
+   "il": 1311,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2967,7 +2967,7 @@
      "slotPosName": "Torso",
      "name": "Bakarma Breastplate",
      "grade": "Unique",
-     "enchantLevel": 8,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png"
     },
     {
@@ -2995,7 +2995,7 @@
      "slotPosName": "Gloves",
      "name": "Bakarma Gloves",
      "grade": "Unique",
-     "enchantLevel": 6,
+     "enchantLevel": 7,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png"
     },
     {
@@ -3007,10 +3007,10 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Liberator Cloak",
-     "grade": "Legend",
+     "name": "Bakarma Cloak",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Cape.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png"
     },
     {
      "slotPosName": "Belt",
@@ -3234,11 +3234,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1294
+     "value": 1311
     }
    ],
    "title": {
-    "ownedCount": 159,
+    "ownedCount": 163,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -3253,8 +3253,8 @@
       "grade": "Legend",
       "id": 21020046,
       "name": "Even Better",
-      "ownedCount": 55,
-      "ownedPercent": 52,
+      "ownedCount": 56,
+      "ownedPercent": 53,
       "statList": [
        {
         "desc": "HP Potion Recovery increase +2%"
@@ -3278,8 +3278,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 52,
-      "ownedPercent": 51,
+      "ownedCount": 54,
+      "ownedPercent": 53,
       "statList": [
        {
         "desc": "Block +10"
@@ -3303,8 +3303,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 52,
-      "ownedPercent": 53,
+      "ownedCount": 53,
+      "ownedPercent": 54,
       "statList": [
        {
         "desc": "MP +20"
@@ -4230,7 +4230,7 @@
       "id": 17730000,
       "name": "Empyrean Lord's Grace",
       "needLevel": 9,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -4290,7 +4290,7 @@
       "id": 17790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -5862,5 +5862,5 @@
    "race": 2
   }
  },
- "updated": "2026-10-27 19:03 UTC"
+ "updated": "2026-10-27 23:02 UTC"
 }

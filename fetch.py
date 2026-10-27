@@ -31,6 +31,12 @@ def gear(equip):
             for g in equip["equipment"]["equipmentList"]]
 
 
+def board(detail):
+    """A Daevanion board as "row|col|grade|open|name" per node; the start node counts as open."""
+    return [f"{n['row']}|{n['col']}|{'Start' if n['type'] == 'Start' else n['grade']}|{int(n['open'] or n['type'] == 'Start')}|{n['name']}"
+            for n in detail["nodeList"] if n["grade"] != "None" or n["type"] == "Start"]
+
+
 def members(path="members.txt"):
     for line in open(path, encoding="utf-8"):
         if line.strip() and not line.startswith("#"):
@@ -66,6 +72,9 @@ def main():
             ids = dict(region=REGION, cid=c["characterId"], sid=c["serverId"])
             info = get(API.format(kind="info", **ids))
             equip = get(API.format(kind="equipment", **ids))
+            # every node of each open board, for the "next node" advice
+            boards = {b["id"]: board(get(API.format(kind="daevanion/detail", **ids) + f"&boardId={b['id']}"))
+                      for b in (info.get("daevanion") or {}).get("boardList", []) if b["open"]}
         except Exception as e:  # one bad member shouldn't stop the rest
             print(f"failed: {name}: {e}")
             continue
@@ -74,7 +83,7 @@ def main():
                  il=item_level(info), gear=gear(equip),
                  # the rest of the character sheet, kept as the game sends it
                  stats=info["stat"]["statList"], title=info.get("title"), ranking=info.get("ranking"),
-                 daevanion=info.get("daevanion"), skill=equip.get("skill"), petwing=equip.get("petwing"),
+                 daevanion=info.get("daevanion"), boards=boards, skill=equip.get("skill"), petwing=equip.get("petwing"),
                  pcId=c.get("pcId"), race=c.get("race"))
         m["history"] = [h for h in m["history"] if h["date"] != today] + [{"date": today, "cp": m["cp"], "il": m["il"]}]
         print(f"{name}: CP {m['cp']}, IL {m['il']}")
@@ -89,6 +98,10 @@ def demo():
     assert find(s, "YasuoMain", "tassin")["name"].endswith("</strong>")
     assert find(s, "YasuoMain16", "Tassin")["name"].endswith("16")
     assert find(s, "YasuoMain", "Nathara") is None
+    nodes = {"nodeList": [{"row": 8, "col": 8, "grade": "None", "type": "Start", "open": 0, "name": "Nezekan - Start"},
+                          {"row": 8, "col": 9, "grade": "Common", "type": "Stat", "open": 1, "name": "Attack"},
+                          {"row": 1, "col": 1, "grade": "None", "type": "None", "open": 0, "name": ""}]}
+    assert board(nodes) == ["8|8|Start|1|Nezekan - Start", "8|9|Common|1|Attack"]
     assert item_level({"stat": {"statList": [{"type": "X", "value": 1}, {"type": "ItemLevel", "value": 1937}]}}) == 1937
 
 

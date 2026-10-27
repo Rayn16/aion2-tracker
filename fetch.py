@@ -9,7 +9,7 @@ CLAIMS = "https://league-proxchat.league-proxchat-server.workers.dev/aion"
 
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "aion2-group-tracker (small friends group, daily)"})
+    req = urllib.request.Request(url, headers={"User-Agent": "aion2-group-tracker (small friends group, every 30 min)"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.load(r)
 

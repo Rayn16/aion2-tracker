@@ -187,7 +187,7 @@ const premade = k => { try { return JSON.parse(localStorage.getItem(k)); } catch
 const ME = premade('lpc-profile')?.n || '';
 const FRIENDS = new Set([...(premade('lpc-friends') || []), ...(premade('lpc-lolfriends') || []).map(f => f?.riot)].filter(x => typeof x === 'string').map(low));
 let DEVICE = ''; try { DEVICE = localStorage.getItem('lpc-device') || ''; } catch {}
-// who plays which character, kept by Premade's server (server/worker.js /aion); the daily update reads it too
+// who plays which character, kept by Premade's server (server/worker.js /aion); the update every 30 minutes reads it too
 const CLAIMS_URL = 'https://league-proxchat.league-proxchat-server.workers.dev/aion';
 const nick = o => o ? o.split('#')[0] : 'Not claimed yet';
 const isMe = o => !!ME && low(o) === low(ME), isFriend = o => FRIENDS.has(low(o));
@@ -212,7 +212,7 @@ function drawCharts() {
   for (const [id, [series, { unit = 'CP', height = 280 }]] of Object.entries(CHARTS)) {
     const box = document.getElementById(id); delete CHARTS[id]; if (!box) continue;
     const dates = [...new Set(series.flatMap(s => s.points.map(p => p.date)))].sort();
-    if (dates.length < 2) { box.innerHTML = '<p class="hint">The trend shows up after the second daily update.</p>'; continue; }
+    if (dates.length < 2) { box.innerHTML = '<p class="hint">The trend shows up after the second day of updates.</p>'; continue; }
     const W = Math.max(280, box.clientWidth), H = height, L = 48, R = series.length > 1 ? 100 : 16, T = 12, B = 28;
     const vals = series.flatMap(s => s.points.map(p => p.v));
     let lo = Math.min(...vals), hi = Math.max(...vals);
@@ -267,9 +267,9 @@ const charCard = m => `<a class="card" href="${memberLink(m.name)}" style="--c:$
   <div><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Level ${m.level} · #${LIST.indexOf(m) + 1} in the legion</div></div>
   <div class="stats"><div><span>CP</span><b>${fmt(m.cp)}</b></div><div><span>Item lv</span><b>${fmt(m.il)}</b></div>
     <div><span>7 days</span><b class="${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</b></div></div></a>`;
-// claimed today, so no stats until the next daily update
+// just claimed, so no stats until the next update
 const pendingCard = c => `<div class="card" style="--c:var(--line)"><div><div class="name">${esc(c.n)}</div><div class="sub">${esc(c.s)}</div></div>
-  <p class="hint">Stats arrive with the next daily update (06:00 UTC).</p></div>`;
+  <p class="hint">Stats arrive with the next update, within 30 minutes.</p></div>`;
 const playerOf = o => PLAYERS.find(p => low(p.id) === low(o));
 const mine = () => [...(playerOf(ME)?.chars || []), ...CLAIMS.filter(c => isMe(c.o) && !LIST.some(m => low(m.name) === low(c.n)))];
 
@@ -290,7 +290,7 @@ function profile() {
 
 // players ranked by their strongest character, each with their characters, strongest first
 function legion() {
-  if (!LIST.length) return head('Legion', 'Legion') + '<div class="panel empty">No characters yet. They show up after the next daily update.</div>';
+  if (!LIST.length) return head('Legion', 'Legion') + '<div class="panel empty">No characters yet. They show up within 30 minutes.</div>';
   return head('Everyone, ranked', 'Legion', `<span class="hint">${PLAYERS.length} players · ${LIST.length} characters</span>`) + PLAYERS.map((p, i) => `
     <section class="panel"><div class="player"><span class="rank ${i ? '' : 'first'}">${i + 1}</span>
       <span class="name">${esc(p.name)}${tag(p.id)}</span><span class="num">${fmt(p.chars[0].cp)} <span class="sub">best CP</span></span></div>
@@ -463,7 +463,7 @@ function nextUpgrade(m) {
   const { boards } = boardPicks(m, b), shown = boards.filter(x => x.pick);
   return `<section class="panel wrap"><h2 class="ph">Skill points <span class="hint">${b.cls} build · highlighted rows get the next points</span></h2>${skillTable(m, b, picks)}</section>
     <section class="panel"><h2 class="ph">Daevanion points go here</h2>
-      ${shown.length ? `<div class="dboards">${shown.map(boardGrid).join('')}</div>${BOARD_KEY}` : `<p class="hint">${m.boards ? 'Nothing left on the build path.' : 'The boards arrive with the next daily update.'}</p>`}
+      ${shown.length ? `<div class="dboards">${shown.map(boardGrid).join('')}</div>${BOARD_KEY}` : `<p class="hint">${m.boards ? 'Nothing left on the build path.' : 'The boards arrive with the next update, within 30 minutes.'}</p>`}
       <p class="hint">The four main boards share your Daevanion points; Ariel and Azphel use their own crystals. Counted from what was open at the last update. Refunds cost 500 Kina a node.</p></section>`;
 }
 
@@ -493,7 +493,7 @@ function memberSkills(m) {
     + group('Passive skills', list.filter(x => x.category === 'Passive' && x.acquired))
     + group('Learned, not equipped', list.filter(x => x.category !== 'Passive' && x.acquired && !x.equip))
     + group('Not learned yet', list.filter(x => !x.acquired))
-    || '<div class="panel empty">No skill data yet. It arrives with the next daily update.</div>';
+    || '<div class="panel empty">No skill data yet. It arrives with the next update, within 30 minutes.</div>';
 }
 
 function memberStats(m) {
@@ -583,7 +583,7 @@ function settings() {
       <p class="hint">From Premade: you’re <b>${esc(ME)}</b>, with ${FRIENDS.size} friends. Change your League account or friends in Premade and this follows.</p></section>
     ${claimBox()}` : `
     <section class="panel"><h2 class="ph">Your profile</h2><p class="hint">Open this in Premade’s Aion 2 page: it knows your League account and your friends there, so your profile sets itself up.</p></section>`) + `
-    <section class="panel"><h2 class="ph">About</h2><p class="hint">Stats come from the official AION 2 character pages (Europe), updated once a day at 06:00 UTC. Not affiliated with NCSOFT.</p></section>`;
+    <section class="panel"><h2 class="ph">About</h2><p class="hint">Stats come from the official AION 2 character pages (Europe), updated every 30 minutes. Not affiliated with NCSOFT.</p></section>`;
 }
 
 function route() {
@@ -651,6 +651,8 @@ function load(data) {
 }
 
 addEventListener('hashchange', route);
+// pick up each new update while the page stays open (GitHub Pages may serve the old file for up to 10 minutes)
+setInterval(() => fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(d => d.updated !== DATA.updated && load(d)).catch(() => {}), 5 * 60e3);
 Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({ members: {} })), loadClaims()]).then(([d]) => load(d));
 </script>
 </body>

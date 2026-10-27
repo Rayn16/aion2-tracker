@@ -121,6 +121,7 @@ input, select { font: 15px/1.2 var(--body); padding: 10px 12px; border: 1px soli
 .grid2.even { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
 .gear.one { grid-template-columns: minmax(0, 1fr); }
 .list { display: grid; gap: 10px; }
+ol.list { margin: 0; padding-left: 22px; gap: 6px; }
 .mrow { display: grid; gap: 6px; }
 .mhead { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; }
 .board { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 10px; align-items: center; }
@@ -163,6 +164,7 @@ table.skills .meter { min-width: 80px; }
     <a class="brand" href="#/"><img src="icon.svg" alt=""><span>Aion2 Tracker</span></a>
     <a class="nav" href="#/" data-r=""><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c.8-4.2 4-6.5 8-6.5s7.2 2.3 8 6.5"/></svg><span>Profile</span></a>
     <a class="nav" href="#/legion" data-r="legion"><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5c2.4 0 4 1.5 4.5 4"/></svg><span>Legion</span></a>
+    <a class="nav" href="#/classes" data-r="classes"><svg class="i" viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/></svg><span>Classes</span></a>
     <a class="nav" href="#/compare" data-r="compare"><svg class="i" viewBox="0 0 24 24"><path d="M8 4v16M16 4v16M4 8h4M4 16h4M16 8h4M16 16h4"/></svg><span>Compare</span></a>
     <a class="nav" href="#/settings" data-r="settings"><svg class="i" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>Settings</span></a>
   </nav>
@@ -320,45 +322,54 @@ const daevTotals = m => (m.daevanion?.boardList || []).reduce((a, b) => [a[0] + 
 // Build priorities from community guides (mobalytics.gg, gamesfuze.com, keengamer.com), as [skill, target level].
 // ponytail: targets the guides don't state are our estimate; tweak here as the meta moves.
 // The class comes from the first two digits of the skill ids.
+// role, weapon and about: our own words, from class overviews on noping.com and exitlag.com.
 // stats: Daevanion stat nodes worth a detour, best first (big nodes before the small ones they share a list with).
 const DPS = ['Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Critical Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'];
 const BUILDS = {
-  11: { cls: 'Gladiator',
+  11: { cls: 'Gladiator', role: 'Melee damage', weapon: 'Greatsword',
+    about: 'Front-line fighter who hits groups. Wide swings clear packs fast and life drain keeps you up, but you trade defence for damage, so watch your health in PvP where you get focused first.',
     active: [['Overhead Slam', 16], ['Rending Blow', 16], ['Sword Aura Rampage', 16], ['Mocking Blade', 8], ['Ruinous Blow', 12], ['Keen Strike', 12], ['Leaping Slam', 12]],
     passive: ['Attack Preparation', 'Experienced Counterstrike', 'Impact Hit', 'Murderous Burst'],
     stigma: [['Lunge Stance', 20], ['Zikel\'s Blessing', 10], ['Rage Burst', 5], ['Zikel\'s Blessing', 15], ['Rage Burst', 20]],
     stats: DPS },
-  12: { cls: 'Templar',
+  12: { cls: 'Templar', role: 'Tank', weapon: 'Sword and shield',
+    about: 'Holds the boss, blocks and soaks hits so the group can work. Slower pace and forgiving; good timing on blocks, taunts and defensive cooldowns is what makes a great one.',
     active: [['Pummel', 16], ['Vicious Strike', 16], ['Warding Strike', 16], ['Poach', 12], ['Punishment', 12], ['Judgment', 12], ['Shield Smite', 12], ['Shield Rush', 12], ['Annihilate', 12], ['Flash Rampage', 8]],
     passive: ['Punishing Benediction', 'Ironclad Defense', 'Enhance Health', 'Warding Shield', 'Fury', 'Insulting Roar'],
     stigma: [['Noble Armor', 10], ['Executing Blade', 10], ['Doom Shield', 10], ['Battlefield Banner', 10]],
     stats: ['Damage Tolerance', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Attack', 'Max HP', 'Defense'] },
-  13: { cls: 'Assassin',
+  13: { cls: 'Assassin', role: 'Burst damage', weapon: 'Daggers',
+    about: 'Gets in from stealth, deletes one target, gets out. Strongest in duels and picks, but hard to play well: positioning and timing matter more than on any other class.',
     active: [['Heart Gore', 16], ['Insignia Explosion', 16], ['Savage Roar', 16], ['Quick Slice', 12], ['Ambush', 12], ['Shadowstrike', 12]],
     passive: ['Exploit Weakness', 'Rear Smite', 'Assault Stance', 'Impact Hit', 'Apply Poison'],
     stigma: [['Savage Fang', 10], ['Triniel\'s Dagger', 10], ['Illusive Clone', 10], ['Swift Contract', 10]],
     stats: ['Critical Damage Boost', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Multi-Hit Chance', 'Critical Hit', 'Attack'] },
-  14: { cls: 'Ranger',
+  14: { cls: 'Ranger', role: 'Ranged damage', weapon: 'Bow',
+    about: 'Steady damage from range with traps and movement. Easy to solo with; in PvP keep distance from gap closers and kite.',
     active: [['Deadshot', 16], ['Gale Arrow', 16], ['Drill Dart', 16], ['Snipe', 12], ['Marking Shot', 12], ['Burst Arrow', 12], ['Snare Shot', 12]],
     passive: ['Focused Eye', 'Hunter\'s Resolve', 'Hunter\'s Soul', 'Rooting Eye', 'Concentrated Fire'],
     stigma: [['Vaizel\'s Authority', 10], ['Bow of Blessing', 10], ['Supporting Fire', 10], ['Griffon Arrow', 10]],
     stats: DPS },
-  15: { cls: 'Sorcerer',
+  15: { cls: 'Sorcerer', role: 'Magic damage', weapon: 'Spellbook',
+    about: 'Big magic bursts and area damage from the back line. Fragile, so stand well back and retreat early when fast classes reach you.',
     active: [['Hellfire', 16], ['Firestorm', 16], ['Blaze', 16], ['Flame Arrow', 12], ['Wish of Concentration', 12], ['Bittercold Wind', 12], ['Ice Chain', 12]],
     passive: ['Grace of Enhancement', 'Robe of Flame', 'Fire Mark', 'Robe of Earth'],
     stigma: [['Element Enhancement', 10], ['Delayed Explosion', 10], ['Fire Wall', 10], ['Cold Storm', 10]],
     stats: ['Cooldown Reduction', 'Combat Speed', 'Critical Damage Boost', 'Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'] },
-  16: { cls: 'Spiritmaster',
+  16: { cls: 'Spiritmaster', role: 'Summoner', weapon: 'Orb',
+    about: 'Fights alongside elemental spirits that add damage and crowd control. Works in both PvE and PvP; keep your spirit alive and in position.',
     active: [['Elemental Fusion', 16], ['Jointstrike: Curse', 16], ['Combustion', 16], ['Dimensional Control', 12], ['Summon: Fire Spirit', 12]],
     passive: ['Spirit Strike', 'Spirit\'s Descent', 'Consecutive Countercurrent', 'Element Unification'],
     stigma: [['Summon: Ancient Spirit', 10], ['Flame Blessing', 10], ['Jointstrike: Destructive Attack', 10], ['Jointstrike: Corrode', 10]],
     stats: DPS },
-  17: { cls: 'Cleric',
+  17: { cls: 'Cleric', role: 'Healer', weapon: 'Mace',
+    about: 'The group’s main healer: heals, cleanses, shields and resurrection. Read the fight ahead and spend big heals before damage lands, not after.',
     active: [['Healing Light', 16], ['Radiant Recovery', 16], ['Light of Regeneration', 16], ['Chain of Torment', 12], ['Condemnation', 12], ['Judgment Thunder', 12], ['Bolt', 12]],
     passive: ['Healing Enhancement', 'Empyrean Lord\'s Grace', 'Earth\'s Grace', 'Warm Benediction', 'Radiant Benediction'],
     stigma: [['Earth Punishment', 10], ['Light of Protection', 10], ['Noble Aura', 10], ['Summon Resurrection', 10]],
     stats: ['Combat Speed', 'Cooldown Reduction', 'Damage Tolerance', 'Damage Boost', 'Attack', 'Max HP', 'Defense'] },
-  18: { cls: 'Chanter',
+  18: { cls: 'Chanter', role: 'Support', weapon: 'Staff',
+    about: 'Buffs the whole group, heals a little and still hits in melee. Line your buffs up with the group’s big damage windows.',
     active: [['Dark Crush', 16], ['Spinning Strike', 16], ['Impactful Crush', 16], ['Incandescent Blow', 12], ['Onslaught', 12], ['Heat Wave Blow', 12]],
     passive: ['Attack Preparation', 'Earth\'s Promise', 'Impact Hit', 'Inspiring Spell'],
     stigma: [['Undefeated Mantra', 10], ['Power of the Storm', 10], ['Marchutan\'s Wrath', 10], ['Fracturing Blow', 10]],
@@ -461,7 +472,7 @@ function nextUpgrade(m) {
   const [b, picks] = advice(m);
   if (!b) return '<section class="panel"><h2 class="ph">Next upgrade</h2><p class="hint">No build guide for this class yet.</p></section>';
   const { boards } = boardPicks(m, b), shown = boards.filter(x => x.pick);
-  return `<section class="panel wrap"><h2 class="ph">Skill points <span class="hint">${b.cls} build · highlighted rows get the next points</span></h2>${skillTable(m, b, picks)}</section>
+  return `<section class="panel wrap"><h2 class="ph">Skill points <span class="hint"><a href="#/classes/${b.cls}">${b.cls} guide</a> · highlighted rows get the next points</span></h2>${skillTable(m, b, picks)}</section>
     <section class="panel"><h2 class="ph">Daevanion points go here</h2>
       ${shown.length ? `<div class="dboards">${shown.map(boardGrid).join('')}</div>${BOARD_KEY}` : `<p class="hint">${m.boards ? 'Nothing left on the build path.' : 'The boards arrive with the next update, within 30 minutes.'}</p>`}
       <p class="hint">The four main boards share your Daevanion points; Ariel and Azphel use their own crystals. Counted from what was open at the last update. Refunds cost 500 Kina a node.</p></section>`;
@@ -526,6 +537,40 @@ function member(name, tab) {
     <nav class="tabs">${tabs.map(([k, l]) => `<a href="${base}${k ? '/' + k : ''}" ${k === (tab || '') ? 'aria-current="page"' : ''}>${l}</a>`).join('')}</nav>
     ${tab === 'gear' ? `<section class="panel"><h2 class="ph">Equipment</h2>${gearGrid(m.gear)}</section>`
       : tab === 'skills' ? memberSkills(m) : tab === 'stats' ? memberStats(m) : memberOverview(m)}`;
+}
+
+// A guide page per class, made from BUILDS: what it does, skills in the order to level them, Daevanion picks,
+// and the gear and characters of the legion's players on that class
+const classOf = m => Math.floor((m.skill?.skillList?.[0]?.id || 0) / 1e6);
+function classes() {
+  return head('Guides', 'Classes') + `<div class="cards">${Object.entries(BUILDS).map(([id, b]) => {
+    const n = LIST.filter(m => classOf(m) == id).length;
+    return `<a class="card" href="#/classes/${b.cls}" style="--c:var(--gold-line);align-content:start"><div><div class="name">${b.cls}</div><div class="sub">${b.role} · ${b.weapon}</div></div>
+      <p class="hint">${b.about}</p><div class="sub">${n ? `${n} in the legion` : ''}</div></a>`; }).join('')}</div>`;
+}
+function classGuide(name) {
+  const [id, b] = Object.entries(BUILDS).find(([, x]) => x.cls === name) || [];
+  if (!b) return head('Guides', 'Not found') + '<div class="panel empty"><a href="#/classes">All classes</a></div>';
+  const chars = LIST.filter(m => classOf(m) == id);  // LIST is strongest first
+  const icon = n => chars.flatMap(m => m.skill.skillList).find(x => x.name === n)?.icon;
+  const row = (i, n, type, goal) => `<tr><td class="n">${i}</td><td>${icon(n) ? `<img src="${esc(icon(n))}" alt="">` : ''}</td><td>${esc(n)}</td><td class="sub">${type}</td><td class="n">${goal}</td></tr>`;
+  const order = xs => `<ol class="list">${xs.map(x => `<li>${esc(x)}</li>`).join('')}</ol>`;
+  return head(`${b.role} · ${b.weapon}`, b.cls, '<a class="btn" href="#/classes">All classes</a>') + `
+    <section class="panel"><h2 class="ph">The class</h2><p>${b.about}</p></section>
+    <section class="panel wrap"><h2 class="ph">Skills to level <span class="hint">top to bottom</span></h2>
+      <table class="cmp skills"><tr><th class="n">#</th><th></th><th>Skill</th><th>Type</th><th class="n">Goal</th></tr>
+        ${b.active.map(([n, t], i) => row(i + 1, n, 'Active', 'Lv ' + t)).join('')}
+        ${b.passive.map(n => row('', n, 'Passive', 'Keep even')).join('')}
+        ${b.stigma.map(([n, t], i) => row(i + 1, n, 'Stigma', 'Lv ' + t)).join('')}</table>
+      <p class="hint">Active skills to their goal first, two at a time; passives level together; stigmas step up in the order shown.</p></section>
+    <div class="grid3">
+      <section class="panel"><h2 class="ph">Daevanion: main boards</h2>
+        <p class="hint">First the Skill Level Up nodes for the skills above, then these stats, big nodes before small ones.</p>${order(b.stats)}</section>
+      ${Object.entries(SIDE_BOARDS).map(([k, xs]) => `<section class="panel"><h2 class="ph">Daevanion: ${k} <span class="hint">${k === 'Ariel' ? 'PvE' : 'PvP'}</span></h2>${order(xs)}</section>`).join('')}
+    </div>
+    ${chars.length ? `<section class="panel"><h2 class="ph">Gear of the legion’s best ${b.cls} <a class="hint" href="${memberLink(chars[0].name)}">${esc(chars[0].name)}</a></h2>${gearGrid(chars[0].gear)}</section>
+    <section class="panel"><h2 class="ph">${b.cls}s in the legion <span class="hint">open one for its own next points</span></h2><div class="cards">${chars.map(charCard).join('')}</div></section>`
+      : `<section class="panel"><p class="hint">Nobody in the legion plays ${b.cls} yet. When someone does, their gear and next points show here.</p></section>`}`;
 }
 
 // each side: a player (you, then friends, then the rest of the legion), then one of their characters
@@ -595,6 +640,7 @@ function route() {
   document.querySelectorAll('.nav').forEach(a => a.dataset.r === cur ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const v = $('#view');
   v.innerHTML = page === 'legion' ? legion() : page === 'member' ? member(decodeURIComponent(arg || ''), sub)
+    : page === 'classes' ? (arg ? classGuide(decodeURIComponent(arg)) : classes())
     : page === 'compare' ? compare(params) : page === 'settings' ? settings() : profile();
   drawCharts();
   $('main').scrollTop = 0;

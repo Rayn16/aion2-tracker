@@ -43,6 +43,10 @@ main { grid-area: main; overflow: auto; padding: 22px clamp(16px, 3vw, 32px) 32p
 .bar { grid-area: bar; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 22px; padding: 8px 20px; border-top: 1px solid var(--line); background: var(--bg); color: var(--muted); font-size: 13px; }
 .bar b { color: var(--fg); font-weight: 500; }
 .bar .end { margin-left: auto; }
+/* ?embed: inside Premade's Aion 2 page, which has its own sidebar and status bar, so the sections go along the top */
+.embed .app { grid-template: "rail" auto "main" minmax(0, 1fr) / minmax(0, 1fr); }
+.embed .rail { flex-direction: row; width: auto; padding: 8px clamp(16px, 3vw, 32px); border-right: 0; border-bottom: 1px solid var(--gold-line); overflow-x: auto; }
+.embed .brand, .embed .bar { display: none; }
 @container app (max-width: 760px) {
   .rail { width: auto; padding-inline: 6px; }
   .brand span, .nav span { display: none; }
@@ -136,6 +140,7 @@ table.cmp td.n { text-align: right; font-family: var(--mono); font-variant-numer
 .wrap { overflow-x: auto; }
 .empty { padding: 40px; text-align: center; color: var(--muted); }
 </style>
+<script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
 </head>
 <body>
 <div class="app">

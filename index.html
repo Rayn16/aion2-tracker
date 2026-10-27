@@ -561,15 +561,14 @@ function compare(params) {
     </table></section>`;
 }
 
-// Picking your characters, once: Aion 2's public pages don't say which characters belong to whom, so the search starts
-// with your League name in case you use the same one
+// Picking your characters, once: Aion 2's public pages don't say which characters belong to whom
 function claimBox() {
   const claimed = CLAIMS.filter(c => isMe(c.o));
   return `<section class="panel"><h2 class="ph">Your Aion 2 characters</h2>
     <p class="hint">Pick which characters are yours. They update every day and are public: this site, its GitHub repository and Premade’s server show them next to your Riot ID.</p>
     ${claimed.length ? `<div class="rows">${claimed.map((c, i) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
       <span><div class="name">${esc(c.n)}</div><div class="sub">${esc(c.s)}</div></span><button class="btn small" data-del="${i}">Remove</button></div>`).join('')}</div>` : ''}
-    <form id="findForm" style="display:flex;gap:10px;flex-wrap:wrap"><input id="findName" value="${esc(nick(ME))}" placeholder="Character name" autocomplete="off" style="flex:1;min-width:12em"><button class="btn primary">Search</button></form>
+    <form id="findForm" style="display:flex;gap:10px;flex-wrap:wrap"><input id="findName" placeholder="Your Aion 2 character's name" autocomplete="off" style="flex:1;min-width:12em"><button class="btn primary">Search</button></form>
     <div id="found" class="rows"></div><p id="claimMsg" class="hint" hidden></p></section>`;
 }
 async function claim(body) {
@@ -620,8 +619,6 @@ function route() {
       box.querySelectorAll('button:not(:disabled)').forEach(b => b.onclick = () => { const c = hits[b.dataset.i]; b.disabled = true; b.textContent = 'Adding…'; claim({ n: c.n, s: c.s }); });
     } catch { box.innerHTML = '<p class="hint">Search failed. Check your internet connection.</p>'; }
   });
-  // first visit with no characters: search your League name straight away
-  if (!page && !mine().length && !$('#found').innerHTML) find.requestSubmit();
 }
 
 async function loadClaims() {

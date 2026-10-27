@@ -287,24 +287,57 @@ const iconCard = (icon, name, sub, right = '', g) => `<div class="item" style="-
   <span class="ench">${right}</span></div>`;
 const daevTotals = m => (m.daevanion?.boardList || []).reduce((a, b) => [a[0] + b.openNodeCount, a[1] + b.totalNodeCount], [0, 0]);
 
-// Build priorities from community guides (mobalytics.gg, gamesfuze.com), as [skill, target level].
+// Build priorities from community guides (mobalytics.gg, gamesfuze.com, keengamer.com), as [skill, target level].
 // ponytail: targets the guides don't state are our estimate; tweak here as the meta moves.
 // The class comes from the first two digits of the skill ids.
+// stats: Daevanion stat nodes worth a detour, best first (big nodes before the small ones they share a list with).
+const DPS = ['Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Critical Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'];
 const BUILDS = {
   11: { cls: 'Gladiator',
     active: [['Overhead Slam', 16], ['Rending Blow', 16], ['Sword Aura Rampage', 16], ['Mocking Blade', 8], ['Ruinous Blow', 12], ['Keen Strike', 12], ['Leaping Slam', 12]],
     passive: ['Attack Preparation', 'Experienced Counterstrike', 'Impact Hit', 'Murderous Burst'],
     stigma: [['Lunge Stance', 20], ['Zikel\'s Blessing', 10], ['Rage Burst', 5], ['Zikel\'s Blessing', 15], ['Rage Burst', 20]],
-    daev: ['Blue nodes for Overhead Slam, Ruinous Blow and Rending Blow, heading for the Combat Speed and Cooldown Reduction legendary nodes',
-      'Green nodes for Attack Preparation, Experienced Counterstrike, Impact Hit and Murderous Burst',
-      'Spare points: Attack, then Critical Hit', 'MP nodes only if you keep running out of mana'] },
+    stats: DPS },
   12: { cls: 'Templar',
     active: [['Pummel', 16], ['Vicious Strike', 16], ['Warding Strike', 16], ['Poach', 12], ['Punishment', 12], ['Judgment', 12], ['Shield Smite', 12], ['Shield Rush', 12], ['Annihilate', 12], ['Flash Rampage', 8]],
     passive: ['Punishing Benediction', 'Ironclad Defense', 'Enhance Health', 'Warding Shield', 'Fury', 'Insulting Roar'],
     stigma: [['Noble Armor', 10], ['Executing Blade', 10], ['Doom Shield', 10], ['Battlefield Banner', 10]],
-    daev: ['Blue nodes for Pummel, Vicious Strike and Warding Strike first, then the rest of your rotation',
-      'Green nodes for Punishing Benediction, Ironclad Defense and Enhance Health',
-      'Orange nodes: Damage Tolerance, Combat Speed, Cooldown Reduction'] },
+    stats: ['Damage Tolerance', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Attack', 'Max HP', 'Defense'] },
+  13: { cls: 'Assassin',
+    active: [['Heart Gore', 16], ['Insignia Explosion', 16], ['Savage Roar', 16], ['Quick Slice', 12], ['Ambush', 12], ['Shadowstrike', 12]],
+    passive: ['Exploit Weakness', 'Rear Smite', 'Assault Stance', 'Impact Hit', 'Apply Poison'],
+    stigma: [['Savage Fang', 10], ['Triniel\'s Dagger', 10], ['Illusive Clone', 10], ['Swift Contract', 10]],
+    stats: ['Critical Damage Boost', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Multi-Hit Chance', 'Critical Hit', 'Attack'] },
+  14: { cls: 'Ranger',
+    active: [['Deadshot', 16], ['Gale Arrow', 16], ['Drill Dart', 16], ['Snipe', 12], ['Marking Shot', 12], ['Burst Arrow', 12], ['Snare Shot', 12]],
+    passive: ['Focused Eye', 'Hunter\'s Resolve', 'Hunter\'s Soul', 'Rooting Eye', 'Concentrated Fire'],
+    stigma: [['Vaizel\'s Authority', 10], ['Bow of Blessing', 10], ['Supporting Fire', 10], ['Griffon Arrow', 10]],
+    stats: DPS },
+  15: { cls: 'Sorcerer',
+    active: [['Hellfire', 16], ['Firestorm', 16], ['Blaze', 16], ['Flame Arrow', 12], ['Wish of Concentration', 12], ['Bittercold Wind', 12], ['Ice Chain', 12]],
+    passive: ['Grace of Enhancement', 'Robe of Flame', 'Fire Mark', 'Robe of Earth'],
+    stigma: [['Element Enhancement', 10], ['Delayed Explosion', 10], ['Fire Wall', 10], ['Cold Storm', 10]],
+    stats: ['Cooldown Reduction', 'Combat Speed', 'Critical Damage Boost', 'Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'] },
+  16: { cls: 'Spiritmaster',
+    active: [['Elemental Fusion', 16], ['Jointstrike: Curse', 16], ['Combustion', 16], ['Dimensional Control', 12], ['Summon: Fire Spirit', 12]],
+    passive: ['Spirit Strike', 'Spirit\'s Descent', 'Consecutive Countercurrent', 'Element Unification'],
+    stigma: [['Summon: Ancient Spirit', 10], ['Flame Blessing', 10], ['Jointstrike: Destructive Attack', 10], ['Jointstrike: Corrode', 10]],
+    stats: DPS },
+  17: { cls: 'Cleric',
+    active: [['Healing Light', 16], ['Radiant Recovery', 16], ['Light of Regeneration', 16], ['Chain of Torment', 12], ['Condemnation', 12], ['Judgment Thunder', 12], ['Bolt', 12]],
+    passive: ['Healing Enhancement', 'Empyrean Lord\'s Grace', 'Earth\'s Grace', 'Warm Benediction', 'Radiant Benediction'],
+    stigma: [['Earth Punishment', 10], ['Light of Protection', 10], ['Noble Aura', 10], ['Summon Resurrection', 10]],
+    stats: ['Combat Speed', 'Cooldown Reduction', 'Damage Tolerance', 'Damage Boost', 'Attack', 'Max HP', 'Defense'] },
+  18: { cls: 'Chanter',
+    active: [['Dark Crush', 16], ['Spinning Strike', 16], ['Impactful Crush', 16], ['Incandescent Blow', 12], ['Onslaught', 12], ['Heat Wave Blow', 12]],
+    passive: ['Attack Preparation', 'Earth\'s Promise', 'Impact Hit', 'Inspiring Spell'],
+    stigma: [['Undefeated Mantra', 10], ['Power of the Storm', 10], ['Marchutan\'s Wrath', 10], ['Fracturing Blow', 10]],
+    stats: ['Combat Speed', 'Damage Boost', 'Cooldown Reduction', 'Critical Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'] },
+};
+// Ariel (PvE) and Azphel (PvP) have their own stats, the same for every class
+const SIDE_BOARDS = {
+  Ariel: ['PvE Damage Boost', 'Boss Damage Boost', 'Critical Hit', 'PvE Attack, PvE Defense', 'Boss Attack, Boss Defense', 'PvE Attack', 'Boss Attack', 'PvE Accuracy'],
+  Azphel: ['PvP Damage Boost', 'PvP Damage Tolerance', 'Status Effect Chance', 'PvP Attack, PvP Defense', 'PvP Critical Hit, PvP Critical Hit Resist', 'PvP Attack', 'PvP Critical Hit', 'PvP Accuracy'],
 };
 
 function advice(m) {
@@ -322,16 +355,59 @@ function advice(m) {
   return [b, picks];
 }
 
+// ponytail: crystal cost per node grade from GameWith's planner (Common 1, Rare 2, Epic 3, Unique 4); Legend taken as Epic.
+const COST = { Common: 1, Rare: 2, Legend: 3, Unique: 4 };
+// These four share the normal Daevanion points; every other board has its own crystals.
+const NORMAL = ['Nezekan', 'Zikel', 'Vaizel', 'Triniel'];
+
+// The best closed node on each board to head for, with the cheapest path to it from what's already open.
+// Nodes link up, down, left and right. Worth a detour: build skill nodes first, then big stat nodes, then small ones.
+function boardPicks(m, b) {
+  const skills = [...b.active.map(x => x[0]), ...b.passive];
+  const rank = (n, stats) => n.name.startsWith('Skill Level Up - ') ? (skills.includes(n.name.slice(17)) ? [0, skills.indexOf(n.name.slice(17))] : null)
+    : stats.includes(n.name) ? [n.grade === 'Common' ? 2 : 1, stats.indexOf(n.name)] : null;
+  const picks = {};
+  for (const [id, rows] of Object.entries(m.boards || {})) {
+    const board = (m.daevanion?.boardList || []).find(x => x.id == id) || {};
+    const nodes = rows.map(r => { const [row, col, grade, open, ...name] = r.split('|'); return { row: +row, col: +col, grade, open: open === '1', name: name.join('|') }; });
+    const at = new Map(nodes.map(n => [n.row + ',' + n.col, n]));
+    const q = nodes.filter(n => n.open);
+    q.forEach(n => n.cost = 0);
+    while (q.length) {  // Dijkstra; a board has at most a few hundred nodes, so a sorted array is fine
+      q.sort((x, y) => x.cost - y.cost);
+      const n = q.shift();
+      for (const [dr, dc] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+        const o = at.get((n.row + dr) + ',' + (n.col + dc));
+        if (o && !o.open && n.cost + COST[o.grade] < (o.cost ?? Infinity)) { o.cost = n.cost + COST[o.grade]; o.prev = n; q.push(o); }
+      }
+    }
+    const stats = SIDE_BOARDS[board.name] || b.stats;
+    const key = NORMAL.includes(board.name) ? 'Daevanion points' : board.name + ' crystals';
+    for (const n of nodes) {
+      const r = !n.open && n.cost !== undefined && rank(n, stats);
+      if (!r) continue;
+      const score = [r[0], n.cost, r[1]], best = picks[key];
+      if (best && best.score.reduce((d, v, i) => d || v - score[i], 0) <= 0) continue;
+      let first = n, steps = 1;
+      while (!first.prev.open) { first = first.prev; steps++; }
+      picks[key] = { key, board, node: n, first, steps, score };
+    }
+  }
+  return Object.values(picks);
+}
+
 function nextUpgrade(m) {
   const [b, picks] = advice(m);
   if (!b) return '<section class="panel"><h2 class="ph">Next upgrade</h2><p class="hint">No build guide for this class yet.</p></section>';
-  const az = (m.daevanion?.boardList || []).find(x => x.name === 'Azphel');
+  const nodes = boardPicks(m, b);
   return `<div class="grid2 even">
     <section class="panel"><h2 class="ph">Next upgrade <span class="hint">${b.cls}</span></h2><div class="gear one">
       ${picks.map(([s, what, why]) => iconCard(s.icon || '', s.name, `${what} · ${why}`, 'Lv ' + s.skillLevel)).join('')}</div></section>
-    <section class="panel"><h2 class="ph">Daevanion points go to</h2><ol class="list">${b.daev.map(x => `<li>${esc(x)}</li>`).join('')}</ol>
-      ${az && !az.openNodeCount ? '<p class="hint">Azphel is open with 0 nodes. It uses its own Daevanion Crystal: Azphel, so spend those there.</p>' : ''}
-      <p class="hint">Fill the first four boards with your normal points. Refunds cost 500 Kina a node.</p></section>
+    <section class="panel"><h2 class="ph">Next Daevanion node</h2><div class="gear one">
+      ${nodes.map(p => iconCard(p.board.icon || '', `${p.key}: ${p.node.name}`,
+        `${esc(p.board.name)} board · ${p.steps > 1 ? `open ${esc(p.first.name)} first, ${p.steps} nodes to go` : 'next to what you have open'}`, `${p.node.cost} pts`, p.node.grade)).join('')
+        || `<p class="hint">${m.boards ? 'Nothing left on the build path.' : 'Node-by-node advice arrives with the next daily update.'}</p>`}</div>
+      <p class="hint">Points are counted from what was open at the last update. Refunds cost 500 Kina a node.</p></section>
   </div>`;
 }
 

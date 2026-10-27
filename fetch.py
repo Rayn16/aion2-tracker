@@ -59,7 +59,11 @@ def main():
             continue
         m = data["members"].setdefault(name, {"history": []})
         m.update(server=server, level=c["level"], cp=info["profile"]["combatPower"],
-                 il=item_level(info), gear=gear(equip))
+                 il=item_level(info), gear=gear(equip),
+                 # the rest of the character sheet, kept as the game sends it
+                 stats=info["stat"]["statList"], title=info.get("title"), ranking=info.get("ranking"),
+                 daevanion=info.get("daevanion"), skill=equip.get("skill"), petwing=equip.get("petwing"),
+                 pcId=c.get("pcId"), race=c.get("race"))
         m["history"] = [h for h in m["history"] if h["date"] != today] + [{"date": today, "cp": m["cp"], "il": m["il"]}]
         print(f"{name}: CP {m['cp']}, IL {m['il']}")
         time.sleep(3)  # be polite

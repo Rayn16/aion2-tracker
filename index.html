@@ -612,8 +612,8 @@ function route() {
     e.preventDefault();
     const box = $('#found'); box.innerHTML = '<p class="hint">Searching…</p>';
     try {
-      const r = await fetch(`https://api-search.plaync.com/aion2global/search/v2/character?keyword=${encodeURIComponent($('#findName').value.trim())}&region=eu&localeInfo=en-US&page=1&size=20`).then(x => x.json());
-      const hits = r.list.map(c => ({ n: c.name.replace(/<[^>]+>/g, ''), s: c.serverName, level: c.level }));
+      // through Premade's server: PLAYNC's search turns away other sites' pages
+      const hits = (await fetch(`${CLAIMS_URL}?q=${encodeURIComponent($('#findName').value.trim())}`).then(x => x.json())).list;
       box.innerHTML = hits.length ? hits.map((c, i) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
         <span><div class="name">${esc(c.n)}</div><div class="sub">${esc(c.s)} · Level ${c.level}</div></span>
         <button class="btn small" data-i="${i}" ${CLAIMS.some(x => isMe(x.o) && x.n === c.n && x.s === c.s) ? 'disabled>Yours' : '>This is mine'}</button></div>`).join('') : '<p class="hint">No characters with that name in Europe. Type your character’s name.</p>';

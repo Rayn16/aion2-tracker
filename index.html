@@ -515,7 +515,8 @@ function member(name, tab) {
   const rank = LIST.indexOf(m) + 1, [dn, dt] = daevTotals(m), base = '#/member/' + encodeURIComponent(m.name);
   const tile = (k, v, s) => `<div class="tile"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s}</span></div>`;
   const tabs = [['', 'Overview'], ['gear', 'Gear'], ['skills', 'Skills'], ['stats', 'Stats and Daevanion']];
-  return head(`${esc(nick(m.owner))} · ${esc(m.server)} · Level ${m.level}`, esc(m.name), `<a class="btn" href="#/compare?a=${encodeURIComponent(m.name)}">Compare</a>`) + `
+  return head(`${esc(nick(m.owner))} · ${esc(m.server)} · Level ${m.level}`, esc(m.name), `<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><span class="hint" id="liveMsg"></span>
+    <button class="btn" id="live" data-n="${esc(m.name)}">Refresh now</button><a class="btn" href="#/compare?a=${encodeURIComponent(m.name)}">Compare</a></div>`) + `
     <div class="tiles">
       ${tile('Combat power', fmt(m.cp), `#${rank} in the legion`)}
       ${tile('Item level', fmt(m.il), 'from equipped gear')}
@@ -605,6 +606,17 @@ function route() {
   $('#cb')?.addEventListener('change', () => go($('#ca').value, $('#cb').value));
   const mineNow = CLAIMS.filter(c => isMe(c.o));
   document.querySelectorAll('[data-del]').forEach(b => b.onclick = () => { b.disabled = true; const c = mineNow[b.dataset.del]; claim({ n: c.n, s: c.s, del: true }); });
+  // Refresh now: this character's sheet live from PLAYNC through Premade's server, shown until the next update brings it
+  $('#live')?.addEventListener('click', async e => {
+    const b = e.target, m = DATA.members[b.dataset.n], msg = $('#liveMsg');
+    b.disabled = true; b.textContent = 'Refreshing…';
+    const live = await fetch(`${CLAIMS_URL}?q=${encodeURIComponent(b.dataset.n)}&s=${encodeURIComponent(m.server)}`).then(r => r.ok ? r.json() : null).catch(() => null);
+    if (!live) { b.disabled = false; b.textContent = 'Refresh now'; msg.textContent = 'Couldn’t reach Aion’s site. Try again in a minute.'; return; }
+    const today = new Date().toISOString().slice(0, 10);
+    Object.assign(m, live, { history: [...m.history.filter(h => h.date !== today), { date: today, cp: live.cp, il: live.il }] });
+    load(DATA);
+    $('#liveMsg').textContent = 'Live from Aion just now';
+  });
   const find = $('#findForm');
   if (!find) return;
   find.addEventListener('submit', async e => {

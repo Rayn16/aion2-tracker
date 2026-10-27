@@ -1403,7 +1403,8 @@
      "15|14|Common|0|PvP Attack",
      "15|15|Unique|0|PvP Damage Tolerance"
     ]
-   }
+   },
+   "owner": "Rayan1000RR#KING"
   },
   "YasuoMain16": {
    "history": [
@@ -1419,13 +1420,13 @@
     },
     {
      "date": "2026-10-27",
-     "cp": 58715,
+     "cp": 58721,
      "il": 1127
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 58715,
+   "cp": 58721,
    "il": 1127,
    "gear": [
     {
@@ -2921,8 +2922,9 @@
      "6|13|Common|0|PvP Critical Hit",
      "7|5|Common|0|PvP Attack"
     ]
-   }
+   },
+   "owner": "Rayan1000RR#KING"
   }
  },
- "updated": "2026-10-27 11:29 UTC"
+ "updated": "2026-10-27 13:49 UTC"
 }

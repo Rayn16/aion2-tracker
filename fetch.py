@@ -38,6 +38,18 @@ def members(path="members.txt"):
             yield name, server
 
 
+def search(keyword):
+    """Characters named like keyword in our region, for the app's Add character box."""
+    found = get(SEARCH.format(kw=urllib.parse.quote(keyword), region=REGION))["list"]
+    return [{"name": clean(c["name"]), "server": c["serverName"], "level": c["level"]} for c in found]
+
+
+def save_members(rows, path="members.txt"):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("# One character per line: Name, Server (region eu). Lines starting with # are ignored.\n")
+        f.writelines(f"{n}, {s}\n" for n, s in rows)
+
+
 def main():
     try:
         data = json.load(open("data.json", encoding="utf-8"))

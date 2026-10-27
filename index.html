@@ -67,6 +67,7 @@ svg.i { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: rou
 .btn { font: 600 14px/1 var(--body); padding: 10px 16px; border-radius: 4px; border: 1px solid var(--gold-line); background: var(--raised); color: var(--gold-hi); cursor: pointer; text-decoration: none; }
 .btn:hover { border-color: var(--gold); }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+.btn.small { padding: 7px 12px; font-size: 13px; }
 .btn:disabled { opacity: 0.6; cursor: default; }
 input, select { font: 15px/1.2 var(--body); padding: 10px 12px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--fg); min-width: 0; }
 :is(.btn, .nav, input, select, a, .row):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -116,6 +117,18 @@ input, select { font: 15px/1.2 var(--body); padding: 10px 12px; border: 1px soli
 .meter i { display: block; height: 100%; border-radius: 3px; background: var(--good); }
 .meter.no i { background: var(--bad); }
 
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; align-items: start; }
+.grid2.even { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.gear.one { grid-template-columns: minmax(0, 1fr); }
+.list { display: grid; gap: 10px; }
+.mrow { display: grid; gap: 6px; }
+.mhead { display: flex; justify-content: space-between; gap: 8px; font-size: 14px; }
+.board { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 10px; align-items: center; }
+.board img { width: 32px; height: 32px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid var(--line); }
+.tabs a { padding: 10px 14px; color: var(--muted); text-decoration: none; font: 600 12.5px/1 var(--body); letter-spacing: 0.08em; text-transform: uppercase; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+.tabs a:hover { color: var(--fg); }
+.tabs a[aria-current="page"] { color: var(--gold-hi); border-bottom-color: var(--gold); }
 table.cmp { width: 100%; border-collapse: collapse; font-size: 14px; }
 table.cmp th, table.cmp td { padding: 8px 10px; border-bottom: 1px solid var(--line); text-align: left; }
 table.cmp th { font: 500 11.5px var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
@@ -190,7 +203,7 @@ function drawCharts() {
     }).join('');
     box.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(unit)} over time">
         <g class="grid">${ticks.map(t => `<line x1="${L}" x2="${W - R}" y1="${y(t)}" y2="${y(t)}"/>`).join('')}</g>
-        <g class="axis">${ticks.map(t => `<text x="${L - 8}" y="${y(t) + 4}" text-anchor="end">${t >= 1e4 ? Math.round(t / 1e3) + 'k' : Math.round(t)}</text>`).join('')}
+        <g class="axis">${ticks.map(t => `<text x="${L - 8}" y="${y(t) + 4}" text-anchor="end">${t >= 1e4 && hi - lo > 4e3 ? Math.round(t / 1e3) + 'k' : fmt(Math.round(t))}</text>`).join('')}
           ${xt.map(d => `<text x="${x(d)}" y="${H - 8}" text-anchor="middle">${short(d)}</text>`).join('')}</g>
         <line class="cross" x1="0" x2="0" y1="${T}" y2="${H - B}" stroke="var(--muted)" stroke-dasharray="3 3" visibility="hidden"/>
         ${lines}
@@ -261,20 +274,70 @@ function gearGrid(gear) {
     <span class="ench">+${g.enchantLevel}</span></div>`).join('')}</div>`;
 }
 
-function member(name) {
+const pct = (n, d) => d ? Math.round(n / d * 100) : 0;
+const bar = (label, n, d, sub = '') => `<div class="mrow"><div class="mhead"><span>${label}</span><span class="num">${fmt(n)} / ${fmt(d)}</span></div>
+  <span class="meter"><i style="width:${pct(n, d)}%"></i></span>${sub ? `<div class="sub">${sub}</div>` : ''}</div>`;
+const iconCard = (icon, name, sub, right = '', g) => `<div class="item" style="--g:${GRADE[g] || 'var(--line)'}">
+  <img src="${esc(icon)}" alt="" loading="lazy"><div style="min-width:0"><div class="name">${esc(name)}</div><div class="sub">${sub}</div></div>
+  <span class="ench">${right}</span></div>`;
+const daevTotals = m => (m.daevanion?.boardList || []).reduce((a, b) => [a[0] + b.openNodeCount, a[1] + b.totalNodeCount], [0, 0]);
+
+function memberOverview(m) {
+  const pw = m.petwing || {}, t = m.title || {}, [dn, dt] = daevTotals(m);
+  return `<section class="panel"><h2 class="ph">Combat power over time</h2>${lineChart([{ name: m.name, color: m.color, points: m.history.map(h => ({ date: h.date, v: h.cp })) }])}</section>
+    <div class="grid3">
+      <section class="panel"><h2 class="ph">Wings and pet</h2><div class="gear one">
+        ${pw.wing ? iconCard(pw.wing.icon, pw.wing.name, `Wings · <span class="grade">${esc(pw.wing.grade)}</span>`, '+' + pw.wing.enchantLevel, pw.wing.grade) : '<p class="hint">No wings.</p>'}
+        ${pw.pet ? iconCard(pw.pet.icon, pw.pet.name, 'Pet', 'Lv ' + pw.pet.level) : '<p class="hint">No pet.</p>'}</div></section>
+      <section class="panel"><h2 class="ph">Titles</h2>${t.totalCount ? bar('Collected', t.ownedCount, t.totalCount) : ''}
+        <div class="list">${(t.titleList || []).map(x => `<div><div class="name">${esc(x.name)} <span class="grade" style="--g:${GRADE[x.grade] || 'var(--muted)'}">${esc(x.grade)}</span></div>
+          <div class="sub">${esc(x.equipCategory)} · ${(x.equipStatList || []).map(e => esc(e.desc)).join(' · ')}</div></div>`).join('')}</div></section>
+      <section class="panel"><h2 class="ph">Daevanion</h2>${dt ? bar('Nodes opened', dn, dt) : '<p class="hint">No data.</p>'}
+        <a href="#/member/${encodeURIComponent(m.name)}/stats">See every board</a></section>
+    </div>`;
+}
+
+function memberSkills(m) {
+  const list = m.skill?.skillList || [];
+  const group = (title, xs) => xs.length ? `<section class="panel"><h2 class="ph">${title} <span class="hint">${xs.length}</span></h2><div class="gear">
+    ${xs.map(x => iconCard(x.icon, x.name, x.acquired ? (x.category === 'Dp' ? 'DP skill' : esc(x.category)) : `Unlocks at Lv ${x.needLevel}`, 'Lv ' + x.skillLevel)).join('')}</div></section>` : '';
+  const used = x => x.equip && x.acquired;
+  return group('Equipped active skills', list.filter(x => x.category === 'Active' && used(x)))
+    + group('Equipped DP skills', list.filter(x => x.category === 'Dp' && used(x)))
+    + group('Passive skills', list.filter(x => x.category === 'Passive' && x.acquired))
+    + group('Learned, not equipped', list.filter(x => x.category !== 'Passive' && x.acquired && !x.equip))
+    + group('Not learned yet', list.filter(x => !x.acquired))
+    || '<div class="panel empty">No skill data yet. It arrives with the next daily update.</div>';
+}
+
+function memberStats(m) {
+  const stats = (m.stats || []).filter(x => x.type !== 'ItemLevel');
+  const base = stats.filter(x => /^[A-Z]{3}$/.test(x.type)), god = stats.filter(x => !/^[A-Z]{3}$/.test(x.type));
+  const table = xs => `<table class="cmp">${xs.map(x => `<tr><td>${esc(x.name)}</td><td class="n">${fmt(x.value)}</td><td class="sub">${(x.statSecondList || []).map(esc).join(' · ')}</td></tr>`).join('')}</table>`;
+  const boards = m.daevanion?.boardList || [];
+  return `<div class="grid2 even">
+      <section class="panel"><h2 class="ph">Daevanion boards</h2>${boards.map(b => `<div class="board"><img src="${esc(b.icon)}" alt="" loading="lazy">${bar(esc(b.name), b.openNodeCount, b.totalNodeCount)}</div>`).join('') || '<p class="hint">No data.</p>'}</section>
+      <section class="panel wrap"><h2 class="ph">Base stats</h2>${table(base)}</section>
+    </div>
+    <section class="panel wrap"><h2 class="ph">Deity stats</h2>${table(god)}</section>`;
+}
+
+function member(name, tab) {
   const m = LIST.find(x => x.name === name);
   if (!m) return head('Member', 'Not found') + `<div class="panel empty"><a href="#/members">Back to members</a></div>`;
-  const rank = LIST.indexOf(m) + 1;
+  const rank = LIST.indexOf(m) + 1, [dn, dt] = daevTotals(m), base = '#/member/' + encodeURIComponent(m.name);
   const tile = (k, v, s) => `<div class="tile"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s}</span></div>`;
+  const tabs = [['', 'Overview'], ['gear', 'Gear'], ['skills', 'Skills'], ['stats', 'Stats and Daevanion']];
   return head(`${esc(m.server)} · Level ${m.level}`, esc(m.name), `<a class="btn" href="#/compare?a=${encodeURIComponent(m.name)}">Compare</a>`) + `
     <div class="tiles">
       ${tile('Combat power', fmt(m.cp), `#${rank} in the group`)}
       ${tile('Item level', fmt(m.il), 'from equipped gear')}
       ${tile('Last 7 days', `<span class="${m.gain > 0 ? 'up' : m.gain < 0 ? 'down' : ''}">${signed(m.gain)}</span>`, 'combat power')}
-      ${tile('Gear pieces', m.gear?.length ?? 0, 'equipped')}
+      ${tile('Daevanion', dt ? pct(dn, dt) + '%' : '–', dt ? `${fmt(dn)} of ${fmt(dt)} nodes` : 'no data yet')}
     </div>
-    <section class="panel"><h2 class="ph">Combat power over time</h2>${lineChart([{ name: m.name, color: m.color, points: m.history.map(h => ({ date: h.date, v: h.cp })) }])}</section>
-    <section class="panel"><h2 class="ph">Equipment</h2>${gearGrid(m.gear)}</section>`;
+    <nav class="tabs">${tabs.map(([k, l]) => `<a href="${base}${k ? '/' + k : ''}" ${k === (tab || '') ? 'aria-current="page"' : ''}>${l}</a>`).join('')}</nav>
+    ${tab === 'gear' ? `<section class="panel"><h2 class="ph">Equipment</h2>${gearGrid(m.gear)}</section>`
+      : tab === 'skills' ? memberSkills(m) : tab === 'stats' ? memberStats(m) : memberOverview(m)}`;
 }
 
 function raid() {
@@ -311,6 +374,9 @@ function compare(params) {
       <tr><td>Combat power</td><td>${fmt(a.cp)}</td><td>${fmt(b.cp)}</td><td class="n">${diff(a.cp, b.cp)}</td></tr>
       <tr><td>Item level</td><td>${fmt(a.il)}</td><td>${fmt(b.il)}</td><td class="n">${diff(a.il, b.il)}</td></tr>
       <tr><td>Last 7 days</td><td>${signed(a.gain)}</td><td>${signed(b.gain)}</td><td class="n"></td></tr>
+      <tr><td>Daevanion nodes</td><td>${fmt(daevTotals(a)[0])}</td><td>${fmt(daevTotals(b)[0])}</td><td class="n">${diff(daevTotals(a)[0], daevTotals(b)[0])}</td></tr>
+      <tr><td>Titles collected</td><td>${fmt(a.title?.ownedCount)}</td><td>${fmt(b.title?.ownedCount)}</td><td class="n">${a.title && b.title ? diff(a.title.ownedCount, b.title.ownedCount) : ''}</td></tr>
+      <tr><td>Wings</td><td>${esc(a.petwing?.wing?.name ?? '–')}</td><td>${esc(b.petwing?.wing?.name ?? '–')}</td><td class="n"></td></tr>
     </table></section>
     <section class="panel wrap"><h2 class="ph">Gear by slot</h2><table class="cmp">
       <tr><th>Slot</th><th>${esc(a.name)}</th><th>${esc(b.name)}</th><th class="n">Enchant</th></tr>
@@ -321,12 +387,21 @@ function compare(params) {
 }
 
 const inApp = () => !!window.pywebview;
+async function showTracked() {
+  const rows = await pywebview.api.members();
+  $('#tracked').innerHTML = rows.map(([n, srv]) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
+    <span><div class="name">${esc(n)}</div><div class="sub">${esc(srv)}</div></span><button class="btn small" data-n="${esc(n)}">Remove</button></div>`).join('') || '<p class="hint">None yet. Search above to add one.</p>';
+  $('#tracked').querySelectorAll('button').forEach(b => b.onclick = () => { b.disabled = true; pywebview.api.remove(b.dataset.n); });
+}
 function settings() {
   return head('App', 'Settings') + (inApp() ? `
     <section class="panel"><h2 class="ph">Update</h2><p class="hint">The app fetches fresh stats each time it opens. Fetch again now:</p>
       <div><button class="btn primary" id="refresh">Refresh now</button></div></section>
-    <section class="panel"><h2 class="ph">Members</h2><p class="hint">One character per line as <code>Name, Server</code>, for example <code>YasuoMain, Tassin</code>. Save the file, then Refresh.</p>
-      <div><button class="btn" id="editMembers">Edit members</button></div></section>` : `
+    <section class="panel"><h2 class="ph">Add a character</h2>
+      <form id="findForm" style="display:flex;gap:10px;flex-wrap:wrap"><input id="findName" placeholder="Character name" autocomplete="off" style="flex:1;min-width:12em"><button class="btn primary">Search</button></form>
+      <div id="found" class="rows"></div></section>
+    <section class="panel"><h2 class="ph">Tracked characters</h2><div id="tracked" class="rows"><p class="hint">Loading…</p></div>
+      <div><button class="btn" id="editMembers">Edit the list as a file</button></div></section>` : `
     <section class="panel"><h2 class="ph">Members</h2><p class="hint">The website updates once a day. To add friends, edit <code>members.txt</code> in the GitHub repo.</p>
       <div><a class="btn" href="https://github.com/Rayn16/aion2-tracker/edit/main/members.txt" target="_blank" rel="noopener">Edit members on GitHub</a></div></section>
     <section class="panel"><h2 class="ph">Windows app</h2><p class="hint">Updates whenever you open it, in its own window.</p>
@@ -336,12 +411,12 @@ function settings() {
 
 function route() {
   const [path, query] = location.hash.slice(2).split('?');
-  const [page, arg] = path.split('/');
+  const [page, arg, sub] = path.split('/');
   const params = new URLSearchParams(query);
   const cur = page === 'member' ? 'members' : page || '';
   document.querySelectorAll('.nav').forEach(a => a.dataset.r === cur ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const v = $('#view');
-  v.innerHTML = page === 'members' ? members() : page === 'member' ? member(decodeURIComponent(arg || '')) : page === 'raid' ? raid()
+  v.innerHTML = page === 'members' ? members() : page === 'member' ? member(decodeURIComponent(arg || ''), sub) : page === 'raid' ? raid()
     : page === 'compare' ? compare(params) : page === 'settings' ? settings() : dashboard();
   drawCharts();
   $('main').scrollTop = 0;
@@ -350,6 +425,18 @@ function route() {
   $('#ca')?.addEventListener('change', go); $('#cb')?.addEventListener('change', go);
   $('#refresh')?.addEventListener('click', e => { e.target.disabled = true; e.target.textContent = 'Updating…'; pywebview.api.refresh(); });
   $('#editMembers')?.addEventListener('click', () => pywebview.api.edit_members());
+  if ($('#tracked')) showTracked();
+  $('#findForm')?.addEventListener('submit', async e => {
+    e.preventDefault();
+    const box = $('#found'); box.innerHTML = '<p class="hint">Searching…</p>';
+    try {
+      const hits = await pywebview.api.search($('#findName').value);
+      box.innerHTML = hits.length ? hits.map((c, i) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
+        <span><div class="name">${esc(c.name)}</div><div class="sub">${esc(c.server)} · Level ${c.level}</div></span>
+        <button class="btn small" data-i="${i}">Add</button></div>`).join('') : '<p class="hint">No characters with that name in Europe.</p>';
+      box.querySelectorAll('button').forEach(b => b.onclick = () => { const c = hits[b.dataset.i]; b.disabled = true; b.textContent = 'Adding…'; pywebview.api.add(c.name, c.server); });
+    } catch { box.innerHTML = '<p class="hint">Search failed. Check your internet connection.</p>'; }
+  });
 }
 
 function load(data) {

@@ -1,0 +1,11 @@
+name: Probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for kw in Yasuo Ana Kai; do
+            curl -s "https://api-search.plaync.com/aion2global/search/v2/character?keyword=$kw&region=eu&localeInfo=en-US&page=1&size=50" \
+            | python3 -c "import json,sys; [print(c['serverName'], c['race'], c['characterId'][:24], c['name'].replace('<strong>','').replace('</strong>',''), c['profileImageUrl'].split('charKey=')[-1]) for c in json.load(sys.stdin)['list']]"
+          done

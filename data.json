@@ -14,13 +14,13 @@
     },
     {
      "date": "2026-10-27",
-     "cp": 93924,
+     "cp": 93956,
      "il": 2001
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 93924,
+   "cp": 93956,
    "il": 2001,
    "gear": [
     {
@@ -1420,14 +1420,14 @@
     },
     {
      "date": "2026-10-27",
-     "cp": 58721,
-     "il": 1127
+     "cp": 61208,
+     "il": 1285
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 58721,
-   "il": 1127,
+   "cp": 61208,
+   "il": 1285,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1445,10 +1445,10 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Liberator Breastplate",
-     "grade": "Legend",
+     "name": "Bakarma Breastplate",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Torso.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png"
     },
     {
      "slotPosName": "Pants",
@@ -1480,17 +1480,17 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Anguish Boots",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Boots.png"
+     "name": "Bakarma Boots",
+     "grade": "Unique",
+     "enchantLevel": 8,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Boots.png"
     },
     {
      "slotPosName": "Cape",
-     "name": "Liberator Cloak",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Cape.png"
+     "name": "Bakarma Cloak",
+     "grade": "Unique",
+     "enchantLevel": 6,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png"
     },
     {
      "slotPosName": "Belt",
@@ -1501,31 +1501,24 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Silent Necklace",
+     "name": "Liberator Necklace",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0020.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0071.png"
     },
     {
      "slotPosName": "Earring1",
-     "name": "Avenger Earrings",
+     "name": "Liberator Earrings",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0017.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png"
     },
     {
      "slotPosName": "Earring2",
      "name": "Liberator Earrings",
      "grade": "Legend",
-     "enchantLevel": 5,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png"
-    },
-    {
-     "slotPosName": "Ring1",
-     "name": "Anguish Ring",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png"
     },
     {
      "slotPosName": "Ring2",
@@ -1533,6 +1526,13 @@
      "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png"
+    },
+    {
+     "slotPosName": "Ring1",
+     "name": "Liberator Ring",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png"
     },
     {
      "slotPosName": "Bracelet1",
@@ -1547,6 +1547,13 @@
      "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png"
+    },
+    {
+     "slotPosName": "Rune2",
+     "name": "Clash Rune",
+     "grade": "Special",
+     "enchantLevel": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png"
     },
     {
      "slotPosName": "Rune1",
@@ -1603,10 +1610,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +1.4%"
+      "Status Effect Resist +2.7%"
      ],
      "type": "WIS",
-     "value": 14
+     "value": 27
     },
     {
      "name": "Justice [Nezekan]",
@@ -1629,20 +1636,20 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.4%",
-      "Endurance Penetration +0.4%"
+      "Cooldown -0.7%",
+      "Endurance Penetration +0.7%"
      ],
      "type": "Illusion",
-     "value": 4
+     "value": 7
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +0.9%",
-      "Regeneration +0.9%"
+      "HP increase +1.1%",
+      "Regeneration +1.1%"
      ],
      "type": "Life",
-     "value": 9
+     "value": 11
     },
     {
      "name": "Time [Siel]",
@@ -1674,11 +1681,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.4%",
-      "Double Chance +0.4%"
+      "MP Cost -0.5%",
+      "Double Chance +0.5%"
      ],
      "type": "Wisdom",
-     "value": 4
+     "value": 5
     },
     {
      "name": "Destiny [Marchutan]",
@@ -1702,11 +1709,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1127
+     "value": 1285
     }
    ],
    "title": {
-    "ownedCount": 137,
+    "ownedCount": 150,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -1724,8 +1731,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 45,
-      "ownedPercent": 45,
+      "ownedCount": 49,
+      "ownedPercent": 49,
       "statList": [
        {
         "desc": "Block +10"
@@ -1746,8 +1753,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 48,
-      "ownedPercent": 46,
+      "ownedCount": 53,
+      "ownedPercent": 50,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -1759,20 +1766,23 @@
       "equipCategory": "Defense",
       "equipStatList": [
        {
-        "desc": "Evasion Bonus +36"
+        "desc": "Defense Bonus +300"
        },
        {
-        "desc": "Critical Damage Tolerance +2.2%"
+        "desc": "Damage Tolerance +3%"
+       },
+       {
+        "desc": "Block +100"
        }
       ],
-      "grade": "Legend",
-      "id": 23010024,
-      "name": "Bond with All Creation",
-      "ownedCount": 44,
-      "ownedPercent": 45,
+      "grade": "Unique",
+      "id": 22030003,
+      "name": "Saint of Altgard",
+      "ownedCount": 48,
+      "ownedPercent": 49,
       "statList": [
        {
-        "desc": "Move Speed +0.7%"
+        "desc": "MP +20"
        }
       ],
       "totalCount": 98
@@ -1799,8 +1809,8 @@
       "id": 22,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 39,
-      "openPercent": 44,
+      "openNodeCount": 41,
+      "openPercent": 47,
       "totalNodeCount": 88
      },
      {
@@ -1808,8 +1818,8 @@
       "id": 23,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 42,
-      "openPercent": 48,
+      "openNodeCount": 46,
+      "openPercent": 52,
       "totalNodeCount": 88
      },
      {
@@ -1881,7 +1891,7 @@
       "id": 12100000,
       "name": "Shield Smite",
       "needLevel": 3,
-      "skillLevel": 12
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -1981,7 +1991,7 @@
       "id": 12720000,
       "name": "Warding Shield",
       "needLevel": 6,
-      "skillLevel": 10
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -1991,7 +2001,7 @@
       "id": 12730000,
       "name": "Punishing Benediction",
       "needLevel": 9,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -2001,7 +2011,7 @@
       "id": 12740000,
       "name": "Ironclad Defense",
       "needLevel": 11,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -2041,7 +2051,7 @@
       "id": 12780000,
       "name": "Fury",
       "needLevel": 21,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -2051,7 +2061,7 @@
       "id": 12790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 10
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -2061,7 +2071,7 @@
       "id": 12800000,
       "name": "Block Pain",
       "needLevel": 25,
-      "skillLevel": 11
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -2356,7 +2366,7 @@
      "5|9|Legend|0|Skill Level Up - Poach",
      "5|8|Common|0|Max MP",
      "5|13|Common|1|Attack",
-     "5|12|Rare|0|Skill Level Up - Survival Willpower",
+     "5|12|Rare|1|Skill Level Up - Survival Willpower",
      "6|3|Common|0|Critical Hit",
      "6|7|Rare|1|Skill Level Up - Fury",
      "6|6|Common|1|Critical Hit Resist",
@@ -2380,7 +2390,7 @@
      "8|12|Common|1|Defense",
      "9|3|Legend|0|Skill Level Up - Warding Strike",
      "9|7|Common|1|Max HP",
-     "9|6|Rare|0|Skill Level Up - Survival Willpower",
+     "9|6|Rare|1|Skill Level Up - Survival Willpower",
      "9|5|Common|0|Max MP",
      "9|4|Common|0|Defense",
      "9|11|Legend|1|Skill Level Up - Annihilate",
@@ -2406,7 +2416,7 @@
      "3|5|Rare|1|Skill Level Up - Enhance Health",
      "3|4|Common|1|Critical Hit Resist",
      "3|3|Unique|1|Critical Damage Boost",
-     "3|9|Common|0|Attack",
+     "3|9|Common|1|Attack",
      "3|8|Legend|1|Skill Level Up - Flash Rampage",
      "3|7|Common|1|Critical Hit Resist",
      "3|13|Unique|0|Critical Damage Tolerance",
@@ -2456,7 +2466,7 @@
      "9|5|Legend|1|Skill Level Up - Punishment",
      "9|4|Common|1|Max MP",
      "9|11|Common|0|Attack",
-     "9|10|Rare|0|Skill Level Up - Block Pain",
+     "9|10|Rare|1|Skill Level Up - Block Pain",
      "9|9|Common|1|Max MP",
      "9|8|Common|1|Defense",
      "9|13|Common|0|Defense",
@@ -2482,11 +2492,11 @@
      "12|7|Common|0|Attack",
      "12|13|Common|0|Critical Hit Resist",
      "12|11|Common|1|Defense",
-     "13|3|Unique|0|Critical Damage Tolerance",
+     "13|3|Unique|1|Critical Damage Tolerance",
      "13|7|Common|0|Defense",
      "13|6|Rare|1|Skill Level Up - Ironclad Defense",
      "13|5|Common|1|Critical Hit",
-     "13|4|Common|0|Max MP",
+     "13|4|Common|1|Max MP",
      "13|11|Rare|1|Skill Level Up - Warding Shield",
      "13|9|Common|0|Critical Hit",
      "13|8|Legend|0|Skill Level Up - Defiance",
@@ -2924,7 +2934,2933 @@
     ]
    },
    "owner": "Rayan1000RR#KING"
+  },
+  "CuteCatty": {
+   "history": [
+    {
+     "date": "2026-10-27",
+     "cp": 62669,
+     "il": 1294
+    }
+   ],
+   "server": "Tassin",
+   "owner": "CutieCatty#meo",
+   "level": 45,
+   "cp": 62669,
+   "il": 1294,
+   "gear": [
+    {
+     "slotPosName": "MainHand",
+     "name": "Spiritforged Mace",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_MA_0078_T05.png"
+    },
+    {
+     "slotPosName": "SubHand",
+     "name": "Spiritforged Guard",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png"
+    },
+    {
+     "slotPosName": "Torso",
+     "name": "Bakarma Breastplate",
+     "grade": "Unique",
+     "enchantLevel": 8,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png"
+    },
+    {
+     "slotPosName": "Pants",
+     "name": "Anguish Greaves",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Pants.png"
+    },
+    {
+     "slotPosName": "Helmet",
+     "name": "Liberator Helm",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Helmet.png"
+    },
+    {
+     "slotPosName": "Shoulder",
+     "name": "Bakarma Pauldrons",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Shoulder.png"
+    },
+    {
+     "slotPosName": "Gloves",
+     "name": "Bakarma Gloves",
+     "grade": "Unique",
+     "enchantLevel": 6,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png"
+    },
+    {
+     "slotPosName": "Boots",
+     "name": "Bakarma Boots",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Boots.png"
+    },
+    {
+     "slotPosName": "Cape",
+     "name": "Liberator Cloak",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Cape.png"
+    },
+    {
+     "slotPosName": "Belt",
+     "name": "Noble Belt",
+     "grade": "Legend",
+     "enchantLevel": 5,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_021.png"
+    },
+    {
+     "slotPosName": "Necklace",
+     "name": "Liberator Necklace",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0071.png"
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Liberator Earrings",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png"
+    },
+    {
+     "slotPosName": "Earring2",
+     "name": "Liberator Earrings",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png"
+    },
+    {
+     "slotPosName": "Ring2",
+     "name": "Liberator Ring",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png"
+    },
+    {
+     "slotPosName": "Ring1",
+     "name": "Liberator Ring",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png"
+    },
+    {
+     "slotPosName": "Bracelet1",
+     "name": "Ascension Bracelet",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png"
+    },
+    {
+     "slotPosName": "Bracelet2",
+     "name": "Liberator Bracelet",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png"
+    },
+    {
+     "slotPosName": "Rune1",
+     "name": "Clash Rune",
+     "grade": "Special",
+     "enchantLevel": 1,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png"
+    },
+    {
+     "slotPosName": "Rune2",
+     "name": "Clash Rune",
+     "grade": "Special",
+     "enchantLevel": 1,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png"
+    },
+    {
+     "slotPosName": "Amulet",
+     "name": "Revelation Amulet",
+     "grade": "Legend",
+     "enchantLevel": 6,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv4_01.png"
+    }
+   ],
+   "stats": [
+    {
+     "name": "Might",
+     "statSecondList": [
+      "Attack increase +2.5%"
+     ],
+     "type": "STR",
+     "value": 25
+    },
+    {
+     "name": "Dexterity",
+     "statSecondList": [
+      "Evasion increase +0.3%",
+      "Block increase +0.3%",
+      "Critical Hit Resist increase +0.3%"
+     ],
+     "type": "DEX",
+     "value": 3
+    },
+    {
+     "name": "Intelligence",
+     "statSecondList": null,
+     "type": "INT",
+     "value": 0
+    },
+    {
+     "name": "Constitution",
+     "statSecondList": [
+      "HP increase +1.4%"
+     ],
+     "type": "CON",
+     "value": 14
+    },
+    {
+     "name": "Precision",
+     "statSecondList": [
+      "Accuracy increase +0.3%",
+      "Critical Hit increase +0.3%"
+     ],
+     "type": "AGI",
+     "value": 3
+    },
+    {
+     "name": "Willpower",
+     "statSecondList": [
+      "Status Effect Resist +1.3%"
+     ],
+     "type": "WIS",
+     "value": 13
+    },
+    {
+     "name": "Justice [Nezekan]",
+     "statSecondList": [
+      "Defense increase +4.1%",
+      "Perfect Chance +4.1%"
+     ],
+     "type": "Justice",
+     "value": 41
+    },
+    {
+     "name": "Freedom [Vaizel]",
+     "statSecondList": [
+      "Accuracy increase +2%",
+      "Evasion increase +2%"
+     ],
+     "type": "Freedom",
+     "value": 20
+    },
+    {
+     "name": "Illusion [Kaisinel]",
+     "statSecondList": [
+      "Cooldown -0.5%",
+      "Endurance Penetration +0.5%"
+     ],
+     "type": "Illusion",
+     "value": 5
+    },
+    {
+     "name": "Life [Yustiel]",
+     "statSecondList": [
+      "HP increase +0.9%",
+      "Regeneration +0.9%"
+     ],
+     "type": "Life",
+     "value": 9
+    },
+    {
+     "name": "Time [Siel]",
+     "statSecondList": [
+      "Combat Speed +4.1%",
+      "Double Resist +4.1%"
+     ],
+     "type": "Time",
+     "value": 41
+    },
+    {
+     "name": "Destruction [Zikel]",
+     "statSecondList": [
+      "Attack increase +0.6%",
+      "Perfect Resist +0.6%"
+     ],
+     "type": "Destruction",
+     "value": 6
+    },
+    {
+     "name": "Death [Triniel]",
+     "statSecondList": [
+      "Critical Hit increase +2.8%",
+      "Regeneration Penetration +2.8%"
+     ],
+     "type": "Death",
+     "value": 28
+    },
+    {
+     "name": "Wisdom [Lumiel]",
+     "statSecondList": [
+      "MP Cost -0.5%",
+      "Double Chance +0.5%"
+     ],
+     "type": "Wisdom",
+     "value": 5
+    },
+    {
+     "name": "Destiny [Marchutan]",
+     "statSecondList": [
+      "MP increase +0.9%",
+      "Endurance +0.9%"
+     ],
+     "type": "Destiny",
+     "value": 9
+    },
+    {
+     "name": "Space [Israphel]",
+     "statSecondList": [
+      "Move Speed +1.4%",
+      "Block increase +1.4%"
+     ],
+     "type": "Space",
+     "value": 14
+    },
+    {
+     "name": "아이템레벨",
+     "statSecondList": null,
+     "type": "ItemLevel",
+     "value": 1294
+    }
+   ],
+   "title": {
+    "ownedCount": 159,
+    "titleList": [
+     {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "Attack Bonus +20"
+       },
+       {
+        "desc": "Back Attack Critical Hit +50"
+       }
+      ],
+      "grade": "Legend",
+      "id": 21020046,
+      "name": "Even Better",
+      "ownedCount": 55,
+      "ownedPercent": 52,
+      "statList": [
+       {
+        "desc": "HP Potion Recovery increase +2%"
+       }
+      ],
+      "totalCount": 105
+     },
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "Cooldown Reduction +3%"
+       },
+       {
+        "desc": "HP +900"
+       },
+       {
+        "desc": "Stamina +225"
+       }
+      ],
+      "grade": "Unique",
+      "id": 22010061,
+      "name": "Through Hell and Back",
+      "ownedCount": 52,
+      "ownedPercent": 51,
+      "statList": [
+       {
+        "desc": "Block +10"
+       }
+      ],
+      "totalCount": 101
+     },
+     {
+      "equipCategory": "Defense",
+      "equipStatList": [
+       {
+        "desc": "Defense Bonus +300"
+       },
+       {
+        "desc": "Damage Tolerance +3%"
+       },
+       {
+        "desc": "Block +100"
+       }
+      ],
+      "grade": "Unique",
+      "id": 22030003,
+      "name": "Saint of Altgard",
+      "ownedCount": 52,
+      "ownedPercent": 53,
+      "statList": [
+       {
+        "desc": "MP +20"
+       }
+      ],
+      "totalCount": 98
+     }
+    ],
+    "totalCount": 304
+   },
+   "ranking": {
+    "rankingList": null
+   },
+   "daevanion": {
+    "boardList": [
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 71,
+      "name": "Nezekan",
+      "open": 1,
+      "openNodeCount": 49,
+      "openPercent": 56,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 72,
+      "name": "Zikel",
+      "open": 1,
+      "openNodeCount": 45,
+      "openPercent": 51,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 73,
+      "name": "Vaizel",
+      "open": 1,
+      "openNodeCount": 50,
+      "openPercent": 57,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 74,
+      "name": "Triniel",
+      "open": 1,
+      "openNodeCount": 37,
+      "openPercent": 32,
+      "totalNodeCount": 116
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 75,
+      "name": "Ariel",
+      "open": 1,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 152
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 76,
+      "name": "Azphel",
+      "open": 1,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 152
+     }
+    ]
+   },
+   "boards": {
+    "71": [
+     "11|4|Common|1|Max MP",
+     "11|5|Legend|1|Skill Level Up - Healing Light",
+     "11|3|Rare|1|Skill Level Up - Immortal Veil",
+     "11|8|Legend|0|Skill Level Up - Divine Aura",
+     "11|9|Common|0|Critical Hit Resist",
+     "11|7|Common|0|Max MP",
+     "10|12|Common|1|Max MP",
+     "10|9|Common|0|Critical Hit",
+     "12|5|Common|1|Critical Hit",
+     "12|6|Common|0|Attack",
+     "12|3|Common|1|Max HP",
+     "12|9|Common|0|Attack",
+     "12|10|Common|0|Max HP",
+     "12|7|Common|0|Max HP",
+     "11|12|Common|1|Attack",
+     "11|13|Rare|1|Skill Level Up - Empyrean Lords' Benediction",
+     "11|11|Common|1|Max MP",
+     "13|7|Legend|0|Skill Level Up - Bolt",
+     "13|4|Common|0|Critical Hit Resist",
+     "13|5|Rare|1|Skill Level Up - Empyrean Lords' Grace",
+     "13|11|Common|0|Critical Hit",
+     "13|8|Common|0|Critical Hit",
+     "13|9|Rare|0|Skill Level Up - Warm Benediction",
+     "12|13|Common|1|Critical Hit Resist",
+     "12|11|Legend|0|Skill Level Up - Light of Regeneration",
+     "13|3|Unique|1|Cooldown Reduction",
+     "13|12|Common|0|Defense",
+     "13|13|Unique|1|Combat Speed",
+     "3|12|Common|0|Critical Hit",
+     "3|13|Unique|1|Cooldown Reduction",
+     "3|11|Rare|0|Skill Level Up - Empyrean Lords' Grace",
+     "3|4|Common|0|Attack",
+     "3|5|Common|0|Critical Hit Resist",
+     "3|3|Unique|1|Combat Speed",
+     "3|8|Common|0|Critical Hit Resist",
+     "3|9|Legend|1|Skill Level Up - Radiant Recovery",
+     "3|7|Rare|0|Skill Level Up - Empyrean Lords' Benediction",
+     "4|13|Common|1|Max MP",
+     "4|11|Common|1|Critical Hit Resist",
+     "5|3|Rare|1|Skill Level Up - Warm Benediction",
+     "4|5|Legend|1|Skill Level Up - Chain of Torment",
+     "4|6|Common|0|Max MP",
+     "4|3|Common|1|Critical Hit",
+     "4|9|Common|1|Max MP",
+     "4|10|Common|1|Defense",
+     "4|7|Common|0|Defense",
+     "5|12|Common|1|Max HP",
+     "5|13|Rare|1|Skill Level Up - Healing Enhancement",
+     "6|4|Common|1|Max HP",
+     "5|7|Common|0|Critical Hit",
+     "5|4|Common|1|Defense",
+     "5|5|Common|1|Max HP",
+     "5|11|Legend|1|Skill Level Up - Condemnation",
+     "5|8|Legend|1|Skill Level Up - Debilitating Mark",
+     "5|9|Common|1|Max HP",
+     "6|13|Common|0|Defense",
+     "7|4|Common|1|Attack",
+     "7|5|Legend|1|Skill Level Up - Judgment Thunder",
+     "7|3|Common|0|Max MP",
+     "6|7|Common|0|Critical Hit Resist",
+     "6|11|Common|1|Attack",
+     "6|9|Common|0|Defense",
+     "8|6|Common|1|Defense",
+     "8|3|Legend|0|Skill Level Up - Defiance",
+     "7|8|Common|1|Attack",
+     "7|9|Common|1|Critical Hit Resist",
+     "7|6|Common|1|Max HP",
+     "7|7|Common|1|Max MP",
+     "7|12|Common|1|Critical Hit",
+     "7|13|Common|0|Critical Hit Resist",
+     "7|10|Rare|1|Skill Level Up - Immortal Veil",
+     "7|11|Common|1|Max MP",
+     "9|3|Common|0|Critical Hit",
+     "9|6|Rare|1|Skill Level Up - Healing Enhancement",
+     "9|7|Common|0|Critical Hit",
+     "9|4|Common|0|Critical Hit Resist",
+     "9|5|Common|1|Max HP",
+     "8|10|Common|1|Attack",
+     "8|8|Start|1|Nezekan - Start",
+     "8|13|Legend|0|Skill Level Up - Lightning Strike Scattershot",
+     "10|3|Common|0|Attack",
+     "10|7|Common|0|Attack",
+     "10|5|Common|1|Defense",
+     "9|10|Common|1|Max MP",
+     "9|11|Legend|1|Skill Level Up - Earth's Retribution",
+     "9|8|Common|0|Defense",
+     "9|9|Common|0|Max HP",
+     "9|12|Common|1|Defense",
+     "9|13|Common|0|Max HP"
+    ],
+    "72": [
+     "3|12|Common|0|Defense",
+     "3|13|Unique|1|Damage Boost",
+     "3|10|Common|0|Attack",
+     "3|11|Legend|0|Skill Level Up - Bolt",
+     "3|4|Common|0|Critical Hit",
+     "3|5|Common|0|Max MP",
+     "3|3|Unique|1|Damage Tolerance",
+     "3|8|Common|0|Defense",
+     "3|9|Rare|0|Skill Level Up - Heal Block",
+     "3|6|Common|0|Critical Hit Resist",
+     "3|7|Legend|0|Skill Level Up - Lightning Strike Scattershot",
+     "4|13|Common|1|Critical Hit",
+     "5|3|Legend|1|Skill Level Up - Earth's Retribution",
+     "4|5|Rare|0|Skill Level Up - Radiant Benediction",
+     "4|3|Common|1|Attack",
+     "4|10|Common|0|Max MP",
+     "4|7|Common|0|Max HP",
+     "5|12|Rare|1|Skill Level Up - Survival Willpower",
+     "5|13|Common|1|Attack",
+     "6|3|Common|1|Critical Hit",
+     "5|7|Common|0|Attack",
+     "5|4|Common|0|Max HP",
+     "5|5|Common|0|Defense",
+     "5|10|Common|0|Critical Hit Resist",
+     "5|11|Common|0|Max MP",
+     "5|8|Common|0|Max MP",
+     "5|9|Legend|0|Skill Level Up - Debilitating Mark",
+     "6|13|Common|1|Critical Hit Resist",
+     "7|4|Common|1|Max HP",
+     "7|5|Legend|1|Skill Level Up - Divine Aura",
+     "7|3|Common|1|Defense",
+     "6|7|Rare|0|Skill Level Up - Earth's Grace",
+     "6|5|Common|0|Max MP",
+     "6|6|Common|0|Critical Hit Resist",
+     "6|11|Common|0|Critical Hit",
+     "6|9|Common|0|Critical Hit",
+     "8|4|Common|1|Attack",
+     "7|9|Common|0|Max MP",
+     "7|7|Common|0|Critical Hit",
+     "7|12|Common|1|Attack",
+     "7|13|Legend|1|Skill Level Up - Judgment Thunder",
+     "7|10|Rare|0|Skill Level Up - Prayer of Concentration",
+     "7|11|Common|0|Max HP",
+     "9|3|Legend|1|Skill Level Up - Condemnation",
+     "9|6|Rare|1|Skill Level Up - Survival Willpower",
+     "9|7|Common|1|Max HP",
+     "9|4|Common|1|Defense",
+     "9|5|Common|1|Max MP",
+     "8|9|Common|1|Attack",
+     "8|7|Common|1|Defense",
+     "8|8|Start|1|Zikel - Start",
+     "8|12|Common|1|Defense",
+     "10|3|Common|0|Critical Hit",
+     "10|7|Common|1|Critical Hit Resist",
+     "10|5|Common|0|Critical Hit Resist",
+     "9|11|Legend|1|Skill Level Up - Radiant Recovery",
+     "9|9|Common|1|Critical Hit Resist",
+     "9|12|Common|1|Max MP",
+     "9|13|Common|0|Attack",
+     "11|4|Rare|1|Skill Level Up - Prayer of Concentration",
+     "11|5|Common|1|Max HP",
+     "11|3|Common|0|Defense",
+     "11|8|Common|0|Max HP",
+     "11|9|Common|0|Defense",
+     "11|6|Common|1|Critical Hit",
+     "11|7|Legend|1|Skill Level Up - Healing Light",
+     "10|11|Common|1|Max HP",
+     "10|9|Rare|1|Skill Level Up - Radiant Benediction",
+     "10|10|Common|1|Critical Hit",
+     "10|13|Common|0|Critical Hit Resist",
+     "12|6|Common|1|Max MP",
+     "12|3|Common|0|Critical Hit Resist",
+     "12|9|Common|0|Max MP",
+     "11|12|Common|1|Max MP",
+     "11|13|Legend|1|Skill Level Up - Light of Regeneration",
+     "11|11|Common|1|Attack",
+     "13|6|Common|1|Defense",
+     "13|7|Rare|0|Skill Level Up - Heal Block",
+     "13|4|Common|1|Attack",
+     "13|5|Legend|1|Skill Level Up - Chain of Torment",
+     "13|10|Common|0|Critical Hit",
+     "13|11|Common|0|Max HP",
+     "13|8|Common|0|Attack",
+     "13|9|Legend|0|Skill Level Up - Defiance",
+     "12|13|Common|1|Defense",
+     "12|11|Rare|1|Skill Level Up - Earth's Grace",
+     "13|3|Unique|1|Damage Boost",
+     "13|12|Common|0|Critical Hit Resist",
+     "13|13|Unique|1|Damage Tolerance"
+    ],
+    "73": [
+     "9|3|Common|1|Critical Hit Resist",
+     "9|7|Common|0|Critical Hit",
+     "9|6|Common|0|Attack",
+     "9|5|Legend|1|Skill Level Up - Bolt",
+     "9|4|Common|1|Max MP",
+     "8|10|Common|0|Max HP",
+     "8|8|Start|1|Vaizel - Start",
+     "8|13|Legend|0|Skill Level Up - Earth's Retribution",
+     "10|4|Common|1|Critical Hit",
+     "10|7|Rare|0|Skill Level Up - Heal Block",
+     "9|11|Common|1|Attack",
+     "9|10|Rare|1|Skill Level Up - Radiant Benediction",
+     "9|9|Common|1|Max MP",
+     "9|8|Common|1|Defense",
+     "9|13|Common|0|Defense",
+     "9|12|Common|1|Max HP",
+     "11|5|Legend|1|Skill Level Up - Judgment Thunder",
+     "11|4|Common|1|Defense",
+     "11|3|Rare|0|Skill Level Up - Prayer of Concentration",
+     "11|9|Legend|0|Skill Level Up - Divine Aura",
+     "11|8|Common|0|Max MP",
+     "11|7|Common|0|Max HP",
+     "11|6|Common|0|Critical Hit Resist",
+     "10|12|Common|1|Critical Hit",
+     "10|9|Common|0|Critical Hit Resist",
+     "12|5|Common|1|Attack",
+     "12|3|Common|0|Max HP",
+     "12|10|Common|0|Critical Hit Resist",
+     "12|9|Common|0|Max HP",
+     "12|7|Common|0|Attack",
+     "11|13|Common|1|Attack",
+     "11|12|Legend|1|Skill Level Up - Healing Light",
+     "11|11|Common|0|Max MP",
+     "13|7|Common|0|Defense",
+     "13|6|Rare|0|Skill Level Up - Healing Enhancement",
+     "13|5|Common|1|Critical Hit",
+     "13|4|Common|1|Max MP",
+     "13|11|Rare|0|Skill Level Up - Empyrean Lords' Benediction",
+     "13|9|Common|0|Critical Hit",
+     "13|8|Legend|0|Skill Level Up - Defiance",
+     "12|13|Common|1|Critical Hit Resist",
+     "12|11|Common|0|Defense",
+     "13|3|Unique|1|Critical Damage Tolerance",
+     "13|13|Unique|1|Critical Damage Boost",
+     "13|12|Common|0|Critical Hit",
+     "3|13|Unique|1|Critical Damage Tolerance",
+     "3|12|Common|0|Max HP",
+     "3|11|Common|1|Critical Hit Resist",
+     "3|10|Rare|1|Skill Level Up - Empyrean Lords' Grace",
+     "3|5|Rare|0|Skill Level Up - Warm Benediction",
+     "3|4|Common|0|Critical Hit Resist",
+     "3|3|Unique|1|Critical Damage Boost",
+     "3|9|Common|0|Attack",
+     "3|8|Legend|0|Skill Level Up - Lightning Strike Scattershot",
+     "3|7|Common|0|Critical Hit Resist",
+     "4|13|Common|1|Max MP",
+     "4|11|Common|1|Defense",
+     "5|3|Common|1|Defense",
+     "4|6|Common|1|Critical Hit",
+     "4|5|Common|1|Attack",
+     "4|3|Common|1|Critical Hit",
+     "4|9|Common|0|Defense",
+     "4|7|Common|1|Max MP",
+     "5|13|Rare|1|Skill Level Up - Immortal Veil",
+     "5|12|Common|1|Attack",
+     "6|4|Common|0|Critical Hit Resist",
+     "5|7|Legend|1|Skill Level Up - Radiant Recovery",
+     "5|5|Common|1|Max HP",
+     "5|4|Legend|1|Skill Level Up - Debilitating Mark",
+     "5|11|Legend|1|Skill Level Up - Condemnation",
+     "5|10|Common|0|Max HP",
+     "5|9|Common|0|Max MP",
+     "5|8|Common|0|Critical Hit",
+     "7|5|Common|1|Defense",
+     "7|4|Common|1|Max MP",
+     "7|3|Common|1|Attack",
+     "6|7|Common|1|Critical Hit",
+     "6|12|Common|1|Critical Hit Resist",
+     "6|9|Rare|0|Skill Level Up - Earth's Grace",
+     "8|6|Common|0|Max MP",
+     "8|3|Legend|1|Skill Level Up - Light of Regeneration",
+     "7|9|Common|1|Critical Hit Resist",
+     "7|8|Common|1|Attack",
+     "7|7|Common|1|Max HP",
+     "7|6|Rare|1|Skill Level Up - Survival Willpower",
+     "7|13|Common|0|Critical Hit",
+     "7|12|Common|1|Max HP",
+     "7|11|Legend|1|Skill Level Up - Chain of Torment",
+     "7|10|Common|1|Defense"
+    ],
+    "74": [
+     "2|12|Common|0|Defense",
+     "2|9|Common|1|Defense",
+     "2|14|Unique|0|Multi-Hit Resist",
+     "2|13|Common|0|Max HP",
+     "2|4|Common|0|Critical Hit",
+     "2|3|Common|0|Attack",
+     "2|2|Unique|0|Multi-Hit Resist",
+     "2|8|Unique|1|Multi-Hit Chance",
+     "2|7|Common|0|Attack",
+     "3|12|Legend|0|Skill Level Up - Judgment Thunder",
+     "3|11|Common|0|Critical Hit",
+     "3|10|Common|0|Max MP",
+     "4|2|Common|0|Critical Hit",
+     "3|14|Common|0|Critical Hit",
+     "3|5|Common|0|Max MP",
+     "3|4|Legend|0|Skill Level Up - Divine Aura",
+     "3|2|Common|0|Max MP",
+     "3|9|Rare|1|Skill Level Up - Heal Block",
+     "3|7|Rare|0|Skill Level Up - Radiant Benediction",
+     "3|6|Common|0|Max HP",
+     "4|14|Common|0|Critical Hit Resist",
+     "4|12|Common|0|Attack",
+     "5|3|Common|0|Critical Hit Resist",
+     "5|2|Legend|0|Skill Level Up - Lightning Strike Scattershot",
+     "4|4|Common|0|Max HP",
+     "4|9|Common|1|Critical Hit Resist",
+     "4|8|Common|0|Max HP",
+     "4|7|Common|0|Defense",
+     "5|14|Rare|0|Skill Level Up - Healing Enhancement",
+     "5|13|Common|0|Max MP",
+     "5|12|Common|0|Max HP",
+     "6|4|Common|0|Defense",
+     "5|7|Common|0|Attack",
+     "5|6|Common|0|Critical Hit Resist",
+     "5|5|Rare|0|Skill Level Up - Empyrean Lords' Benediction",
+     "5|4|Common|0|Max MP",
+     "5|11|Common|0|Critical Hit",
+     "5|10|Legend|1|Skill Level Up - Healing Light",
+     "5|9|Common|1|Defense",
+     "6|13|Common|0|Critical Hit Resist",
+     "7|5|Common|0|Attack",
+     "7|4|Common|0|Max HP",
+     "7|3|Common|0|Critical Hit",
+     "7|2|Common|0|Critical Hit Resist",
+     "6|6|Common|0|Critical Hit",
+     "6|10|Common|1|Max HP",
+     "8|2|Legend|0|Skill Level Up - Radiant Recovery",
+     "7|14|Common|0|Max MP",
+     "8|6|Common|0|Defense",
+     "8|4|Common|0|Defense",
+     "7|9|Common|1|Critical Hit Resist",
+     "7|8|Common|1|Defense",
+     "7|7|Common|1|Max MP",
+     "7|6|Legend|1|Skill Level Up - Condemnation",
+     "7|13|Common|0|Defense",
+     "7|12|Rare|0|Skill Level Up - Prayer of Concentration",
+     "7|11|Common|0|Critical Hit",
+     "7|10|Common|1|Max MP",
+     "9|3|Common|0|Attack",
+     "9|2|Common|0|Max HP",
+     "9|7|Common|1|Critical Hit",
+     "9|6|Common|1|Max HP",
+     "9|5|Common|0|Critical Hit Resist",
+     "9|4|Rare|0|Skill Level Up - Immortal Veil",
+     "8|10|Common|0|Attack",
+     "8|8|Start|1|Triniel - Start",
+     "8|14|Legend|0|Skill Level Up - Bolt",
+     "8|12|Common|0|Attack",
+     "10|3|Common|0|Critical Hit",
+     "10|6|Common|1|Max MP",
+     "9|11|Common|0|Defense",
+     "9|10|Legend|1|Skill Level Up - Chain of Torment",
+     "9|9|Common|1|Max HP",
+     "9|8|Common|1|Attack",
+     "9|14|Common|0|Critical Hit",
+     "9|13|Common|0|Critical Hit Resist",
+     "9|12|Common|0|Max MP",
+     "11|5|Common|0|Critical Hit Resist",
+     "11|4|Common|0|Max MP",
+     "11|3|Common|0|Max HP",
+     "11|2|Rare|0|Skill Level Up - Empyrean Lords' Grace",
+     "11|9|Common|0|Defense",
+     "11|7|Common|1|Attack",
+     "11|6|Legend|1|Skill Level Up - Light of Regeneration",
+     "10|12|Common|0|Attack",
+     "10|10|Common|1|Critical Hit Resist",
+     "12|4|Common|0|Defense",
+     "12|9|Common|0|Attack",
+     "12|8|Common|0|Max MP",
+     "12|7|Common|1|Critical Hit",
+     "11|13|Common|0|Critical Hit",
+     "11|12|Common|1|Max HP",
+     "11|11|Rare|1|Skill Level Up - Warm Benediction",
+     "11|10|Common|1|Critical Hit",
+     "12|2|Common|0|Critical Hit",
+     "11|14|Legend|0|Skill Level Up - Defiance",
+     "13|7|Rare|1|Skill Level Up - Earth's Grace",
+     "13|6|Common|1|Max HP",
+     "13|5|Common|1|Critical Hit Resist",
+     "13|4|Legend|1|Skill Level Up - Debilitating Mark",
+     "13|11|Common|0|Max HP",
+     "13|10|Common|0|Max MP",
+     "13|9|Rare|0|Skill Level Up - Survival Willpower",
+     "12|14|Common|0|Critical Hit Resist",
+     "12|12|Common|1|Max MP",
+     "13|2|Common|0|Critical Hit Resist",
+     "14|8|Unique|0|Multi-Hit Resist",
+     "14|7|Common|0|Attack",
+     "14|12|Common|1|Critical Hit Resist",
+     "14|9|Common|0|Defense",
+     "13|14|Common|0|Max HP",
+     "13|12|Legend|1|Skill Level Up - Earth's Retribution",
+     "14|4|Common|1|Attack",
+     "14|3|Common|1|Max MP",
+     "14|2|Unique|1|Multi-Hit Chance",
+     "14|14|Unique|1|Multi-Hit Chance",
+     "14|13|Common|1|Defense"
+    ],
+    "75": [
+     "7|1|Common|0|Max MP",
+     "6|14|Common|0|Boss Attack",
+     "7|5|Common|0|Boss Defense",
+     "7|4|Rare|0|PvE Attack, PvE Defense",
+     "7|3|Common|0|PvE Accuracy",
+     "7|2|Rare|0|Boss Attack, Boss Defense",
+     "6|8|Common|0|Max HP",
+     "6|7|Common|0|PvE Evasion",
+     "6|6|Legend|0|Critical Hit",
+     "6|12|Common|0|PvE Attack",
+     "6|10|Common|0|Boss Attack",
+     "6|9|Rare|0|PvE Attack, PvE Defense",
+     "8|1|Unique|0|PvE Damage Tolerance",
+     "7|15|Common|0|PvE Attack",
+     "7|14|Rare|0|PvE Accuracy, PvE Evasion",
+     "8|6|Common|0|PvE Accuracy",
+     "8|3|Common|0|Max HP",
+     "7|8|Common|0|PvE Attack",
+     "7|6|Common|0|Boss Attack",
+     "7|13|Common|0|PvE Defense",
+     "7|12|Common|0|PvE Evasion",
+     "7|11|Legend|0|Boss Damage Tolerance",
+     "7|10|Common|0|Boss Defense",
+     "9|3|Common|0|PvE Defense",
+     "9|2|Rare|0|PvE Accuracy, PvE Evasion",
+     "9|1|Common|0|PvE Attack",
+     "8|15|Unique|0|PvE Damage Tolerance",
+     "9|6|Common|0|Boss Defense",
+     "9|5|Legend|0|Boss Damage Tolerance",
+     "9|4|Common|0|PvE Evasion",
+     "8|10|Common|0|PvE Accuracy",
+     "8|9|Common|0|PvE Defense",
+     "8|8|Start|1|Ariel - Start",
+     "8|7|Common|0|PvE Defense",
+     "8|13|Common|0|Max MP",
+     "10|4|Common|0|PvE Attack",
+     "10|2|Common|0|Boss Attack",
+     "10|8|Common|0|Max MP",
+     "10|7|Rare|0|Boss Attack, Boss Defense",
+     "10|6|Common|0|Boss Attack",
+     "9|11|Common|0|Boss Defense",
+     "9|10|Common|0|Boss Attack",
+     "9|8|Common|0|PvE Attack",
+     "9|15|Common|0|Max HP",
+     "9|14|Rare|0|PvE Attack, PvE Defense",
+     "9|13|Common|0|PvE Accuracy",
+     "9|12|Rare|0|Boss Attack, Boss Defense",
+     "11|4|Common|0|PvE Accuracy",
+     "11|3|Common|0|Boss Defense",
+     "11|2|Legend|0|Boss Damage Boost",
+     "11|9|Common|0|PvE Defense",
+     "11|6|Common|0|PvE Defense",
+     "10|12|Common|0|PvE Evasion",
+     "10|10|Legend|0|Critical Hit",
+     "10|9|Common|0|PvE Evasion",
+     "10|15|Common|0|PvE Defense",
+     "12|6|Legend|0|Critical Hit Resist",
+     "12|4|Rare|0|PvE Attack, PvE Defense",
+     "12|10|Common|0|Boss Defense",
+     "12|9|Rare|0|PvE Accuracy, PvE Evasion",
+     "11|13|Common|0|Boss Attack",
+     "11|12|Legend|0|Boss Damage Tolerance",
+     "12|2|Common|0|PvE Evasion",
+     "11|15|Rare|0|PvE Accuracy, PvE Evasion",
+     "11|14|Common|0|Boss Defense",
+     "13|7|Common|0|PvE Accuracy",
+     "13|6|Common|0|Boss Defense",
+     "13|5|Common|0|PvE Attack",
+     "13|4|Common|0|PvE Evasion",
+     "13|9|Common|0|Boss Attack",
+     "13|8|Common|0|PvE Evasion",
+     "12|14|Common|0|PvE Attack",
+     "12|12|Common|0|PvE Accuracy",
+     "12|11|Common|0|PvE Attack",
+     "13|3|Common|0|PvE Defense",
+     "13|2|Common|0|PvE Accuracy",
+     "13|1|Rare|0|Boss Attack, Boss Defense",
+     "14|7|Rare|0|PvE Attack, PvE Defense",
+     "14|5|Common|0|Boss Attack",
+     "14|12|Common|0|PvE Evasion",
+     "14|11|Common|0|PvE Defense",
+     "14|10|Legend|0|Critical Hit Resist",
+     "14|9|Common|0|PvE Attack",
+     "13|15|Common|0|PvE Defense",
+     "13|14|Legend|0|Boss Damage Boost",
+     "13|12|Rare|0|PvE Attack, PvE Defense",
+     "14|3|Legend|0|Critical Hit",
+     "14|1|Common|0|Boss Attack",
+     "15|9|Common|0|PvE Accuracy",
+     "15|8|Unique|0|PvE Damage Boost",
+     "15|7|Common|0|Max MP",
+     "15|13|Rare|0|Boss Attack, Boss Defense",
+     "15|1|Unique|0|PvE Damage Tolerance",
+     "14|15|Common|0|PvE Accuracy",
+     "14|13|Common|0|Boss Defense",
+     "15|5|Rare|0|PvE Accuracy, PvE Evasion",
+     "15|4|Common|0|Boss Defense",
+     "15|3|Common|0|PvE Evasion",
+     "15|2|Common|0|PvE Attack",
+     "15|15|Unique|0|PvE Damage Boost",
+     "15|14|Common|0|Boss Attack",
+     "1|11|Rare|0|PvE Accuracy, PvE Evasion",
+     "1|9|Common|0|Max HP",
+     "1|8|Unique|0|PvE Damage Boost",
+     "1|15|Unique|0|PvE Damage Tolerance",
+     "1|14|Common|0|PvE Attack",
+     "1|13|Common|0|PvE Evasion",
+     "1|12|Common|0|Boss Defense",
+     "1|3|Rare|0|PvE Attack, PvE Defense",
+     "1|2|Common|0|Boss Attack",
+     "1|1|Unique|0|PvE Damage Boost",
+     "1|7|Common|0|PvE Accuracy",
+     "2|11|Common|0|Boss Attack",
+     "2|9|Rare|0|Boss Attack, Boss Defense",
+     "3|1|Common|0|PvE Defense",
+     "2|15|Common|0|Boss Attack",
+     "2|13|Legend|0|Critical Hit",
+     "2|4|Common|0|PvE Evasion",
+     "2|3|Common|0|Boss Defense",
+     "2|1|Common|0|PvE Accuracy",
+     "2|7|Common|0|PvE Attack",
+     "2|6|Legend|0|Critical Hit Resist",
+     "2|5|Common|0|PvE Defense",
+     "3|13|Common|0|PvE Defense",
+     "3|12|Common|0|PvE Evasion",
+     "3|11|Common|0|PvE Attack",
+     "3|10|Common|0|Boss Defense",
+     "4|2|Common|0|PvE Attack",
+     "3|15|Rare|0|PvE Attack, PvE Defense",
+     "3|14|Common|0|PvE Accuracy",
+     "3|4|Rare|0|Boss Attack, Boss Defense",
+     "3|2|Legend|0|Boss Damage Boost",
+     "3|9|Common|0|PvE Accuracy",
+     "3|8|Common|0|PvE Evasion",
+     "3|7|Common|0|Boss Attack",
+     "4|14|Common|0|PvE Evasion",
+     "4|12|Rare|0|Boss Attack, Boss Defense",
+     "5|3|Common|0|Boss Attack",
+     "5|2|Common|0|Boss Defense",
+     "5|1|Rare|0|PvE Accuracy, PvE Evasion",
+     "4|6|Common|0|Boss Defense",
+     "4|5|Common|0|PvE Attack",
+     "4|4|Common|0|PvE Accuracy",
+     "4|10|Legend|0|Critical Hit Resist",
+     "4|7|Rare|0|PvE Accuracy, PvE Evasion",
+     "5|14|Legend|0|Boss Damage Boost",
+     "5|13|Common|0|Boss Defense",
+     "5|12|Common|0|PvE Accuracy",
+     "6|4|Common|0|PvE Evasion",
+     "6|1|Common|0|PvE Defense",
+     "5|7|Common|0|PvE Defense",
+     "5|4|Legend|0|Boss Damage Tolerance",
+     "5|10|Common|0|PvE Defense"
+    ],
+    "76": [
+     "1|11|Common|0|PvP Evasion",
+     "1|10|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "1|8|Unique|0|PvP Damage Tolerance",
+     "1|15|Unique|0|PvP Damage Boost",
+     "1|14|Common|0|PvP Attack",
+     "1|13|Common|0|PvP Critical Hit Resist",
+     "1|12|Legend|0|Status Effect Resist",
+     "1|3|Common|0|PvP Defense",
+     "1|2|Common|0|PvP Attack",
+     "1|1|Unique|0|PvP Damage Tolerance",
+     "1|7|Common|0|PvP Accuracy",
+     "1|6|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "1|4|Legend|0|Status Effect Chance",
+     "2|10|Common|0|PvP Accuracy",
+     "3|1|Rare|0|PvP Accuracy, PvP Evasion",
+     "2|15|Common|0|PvP Accuracy",
+     "2|13|Common|0|PvP Defense",
+     "2|4|Common|0|PvP Evasion",
+     "2|1|Common|0|PvP Critical Hit",
+     "2|8|Common|0|PvP Evasion",
+     "2|6|Common|0|PvP Defense",
+     "2|5|Common|0|PvP Attack",
+     "3|13|Rare|0|PvP Accuracy, PvP Evasion",
+     "3|12|Common|0|Max HP",
+     "3|11|Common|0|PvP Critical Hit",
+     "3|10|Legend|0|Status Effect Chance",
+     "3|15|Rare|0|PvP Attack, PvP Defense",
+     "3|14|Common|0|PvP Critical Hit",
+     "3|4|Rare|0|PvP Attack, PvP Defense",
+     "3|3|Common|0|PvP Accuracy",
+     "3|2|Common|0|PvP Critical Hit Resist",
+     "3|9|Common|0|PvP Defense",
+     "3|8|Common|0|Max MP",
+     "3|7|Rare|0|PvP Accuracy, PvP Evasion",
+     "3|6|Common|0|PvP Critical Hit Resist",
+     "4|13|Common|0|PvP Critical Hit Resist",
+     "4|11|Common|0|PvP Attack",
+     "5|3|Common|0|PvP Evasion",
+     "5|2|Common|0|PvP Attack",
+     "5|1|Legend|0|Status Effect Chance",
+     "4|3|Common|0|PvP Defense",
+     "4|9|Common|0|PvP Evasion",
+     "4|7|Common|0|PvP Critical Hit",
+     "5|13|Legend|0|Status Effect Resist",
+     "5|12|Common|0|PvP Defense",
+     "6|4|Common|0|PvP Accuracy",
+     "6|3|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "6|1|Common|0|PvP Critical Hit Resist",
+     "5|7|Common|0|PvP Defense",
+     "5|6|Common|0|PvP Critical Hit Resist",
+     "5|5|Legend|0|Status Effect Resist",
+     "5|11|Common|0|PvP Evasion",
+     "5|10|Rare|0|PvP Attack, PvP Defense",
+     "5|9|Common|0|PvP Critical Hit Resist",
+     "5|8|Legend|0|Status Effect Chance",
+     "7|1|Common|0|PvP Critical Hit",
+     "6|15|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "6|14|Common|0|PvP Accuracy",
+     "6|13|Common|0|PvP Critical Hit",
+     "7|5|Common|0|PvP Attack",
+     "6|7|Common|0|PvP Accuracy",
+     "6|5|Common|0|PvP Critical Hit",
+     "6|10|Common|0|PvP Accuracy",
+     "8|2|Common|0|PvP Attack",
+     "8|1|Unique|0|PvP Damage Boost",
+     "7|15|Common|0|PvP Evasion",
+     "8|6|Common|0|PvP Critical Hit",
+     "8|3|Common|0|PvP Critical Hit Resist",
+     "7|9|Common|0|PvP Attack",
+     "7|8|Common|0|Max HP",
+     "7|7|Rare|0|PvP Attack, PvP Defense",
+     "7|6|Common|0|PvP Evasion",
+     "7|13|Rare|0|PvP Accuracy, PvP Evasion",
+     "7|12|Common|0|Max MP",
+     "7|11|Common|0|PvP Defense",
+     "7|10|Legend|0|Status Effect Resist",
+     "9|3|Rare|0|PvP Accuracy, PvP Evasion",
+     "9|1|Common|0|PvP Evasion",
+     "8|15|Unique|0|PvP Damage Boost",
+     "9|7|Common|0|PvP Attack",
+     "9|6|Legend|0|Status Effect Resist",
+     "9|5|Common|0|PvP Defense",
+     "9|4|Common|0|Max HP",
+     "8|10|Common|0|PvP Critical Hit",
+     "8|8|Start|1|Azphel - Start",
+     "8|14|Common|0|PvP Attack",
+     "8|13|Common|0|PvP Critical Hit Resist",
+     "10|3|Common|0|PvP Critical Hit",
+     "10|2|Common|0|PvP Accuracy",
+     "10|1|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "10|6|Common|0|PvP Accuracy",
+     "9|11|Common|0|PvP Attack",
+     "9|10|Common|0|PvP Evasion",
+     "9|9|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "9|8|Common|0|Max MP",
+     "9|15|Common|0|PvP Critical Hit",
+     "11|5|Common|0|PvP Evasion",
+     "11|4|Common|0|PvP Defense",
+     "11|3|Legend|0|Status Effect Resist",
+     "11|9|Common|0|PvP Defense",
+     "11|8|Legend|0|Status Effect Chance",
+     "11|7|Common|0|PvP Critical Hit Resist",
+     "11|6|Rare|0|PvP Attack, PvP Defense",
+     "10|12|Common|0|PvP Accuracy",
+     "10|11|Common|0|PvP Critical Hit",
+     "10|9|Common|0|PvP Accuracy",
+     "10|15|Common|0|PvP Critical Hit Resist",
+     "10|13|Rare|0|PvP Attack, PvP Defense",
+     "12|5|Common|0|PvP Attack",
+     "12|3|Common|0|PvP Critical Hit Resist",
+     "12|9|Common|0|PvP Critical Hit",
+     "12|7|Common|0|PvP Evasion",
+     "11|13|Common|0|PvP Evasion",
+     "11|11|Legend|0|Status Effect Resist",
+     "11|10|Common|0|PvP Critical Hit Resist",
+     "11|15|Legend|0|Status Effect Chance",
+     "11|14|Common|0|PvP Attack",
+     "13|7|Common|0|PvP Defense",
+     "13|6|Legend|0|Status Effect Chance",
+     "13|5|Common|0|PvP Critical Hit",
+     "13|4|Common|0|Max MP",
+     "13|10|Common|0|PvP Critical Hit Resist",
+     "13|9|Rare|0|PvP Accuracy, PvP Evasion",
+     "13|8|Common|0|Max HP",
+     "12|13|Common|0|PvP Defense",
+     "13|3|Rare|0|PvP Accuracy, PvP Evasion",
+     "13|2|Common|0|PvP Critical Hit",
+     "13|1|Rare|0|PvP Attack, PvP Defense",
+     "14|8|Common|0|PvP Evasion",
+     "14|6|Common|0|PvP Accuracy",
+     "14|12|Common|0|PvP Evasion",
+     "14|11|Common|0|PvP Attack",
+     "14|10|Common|0|PvP Defense",
+     "13|15|Rare|0|PvP Accuracy, PvP Evasion",
+     "13|14|Common|0|PvP Critical Hit Resist",
+     "13|13|Common|0|PvP Accuracy",
+     "13|12|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "14|3|Common|0|PvP Defense",
+     "14|1|Common|0|PvP Accuracy",
+     "15|9|Common|0|PvP Accuracy",
+     "15|8|Unique|0|PvP Damage Tolerance",
+     "15|6|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "15|13|Common|0|PvP Defense",
+     "15|12|Legend|0|Status Effect Chance",
+     "15|10|Rare|0|PvP Attack, PvP Defense",
+     "15|1|Unique|0|PvP Damage Boost",
+     "14|15|Common|0|PvP Critical Hit",
+     "15|5|Common|0|PvP Evasion",
+     "15|4|Legend|0|Status Effect Resist",
+     "15|3|Common|0|PvP Critical Hit Resist",
+     "15|2|Common|0|PvP Attack",
+     "15|15|Unique|0|PvP Damage Tolerance",
+     "15|14|Common|0|PvP Attack"
+    ]
+   },
+   "skill": {
+    "skillList": [
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_001.png",
+      "id": 17010000,
+      "name": "Earth's Retribution",
+      "needLevel": 1,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_004.png",
+      "id": 17040000,
+      "name": "Judgment Thunder",
+      "needLevel": 1,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_008.png",
+      "id": 17080000,
+      "name": "Debilitating Mark",
+      "needLevel": 1,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_015.png",
+      "id": 17150000,
+      "name": "Divine Aura",
+      "needLevel": 3,
+      "skillLevel": 11
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_007.png",
+      "id": 17070000,
+      "name": "Chain of Torment",
+      "needLevel": 4,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_037.png",
+      "id": 17370000,
+      "name": "Lightning Strike Scattershot",
+      "needLevel": 5,
+      "skillLevel": 10
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_009.png",
+      "id": 17090000,
+      "name": "Light of Regeneration",
+      "needLevel": 7,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_035.png",
+      "id": 17350000,
+      "name": "Condemnation",
+      "needLevel": 8,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_010.png",
+      "id": 17100000,
+      "name": "Healing Light",
+      "needLevel": 10,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_012.png",
+      "id": 17120000,
+      "name": "Radiant Recovery",
+      "needLevel": 12,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_006.png",
+      "id": 17060000,
+      "name": "Bolt",
+      "needLevel": 14,
+      "skillLevel": 11
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CO_SKILL_002.png",
+      "id": 17240000,
+      "name": "Defiance",
+      "needLevel": 16,
+      "skillLevel": 2
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_Passive_001.png",
+      "id": 17710000,
+      "name": "Warm Benediction",
+      "needLevel": 1,
+      "skillLevel": 9
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_Passive_002.png",
+      "id": 17720000,
+      "name": "Empyrean Lords' Benediction",
+      "needLevel": 6,
+      "skillLevel": 6
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_Passive_012.png",
+      "id": 17730000,
+      "name": "Empyrean Lord's Grace",
+      "needLevel": 9,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_Passive_003.png",
+      "id": 17740000,
+      "name": "Healing Enhancement",
+      "needLevel": 11,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_Passive_011.png",
+      "id": 17750000,
+      "name": "Immortal Veil",
+      "needLevel": 13,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_Passive_005.png",
+      "id": 17760000,
+      "name": "Heal Block",
+      "needLevel": 15,
+      "skillLevel": 7
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_Passive_006.png",
+      "id": 17770000,
+      "name": "Prayer of Concentration",
+      "needLevel": 17,
+      "skillLevel": 5
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_Passive_008.png",
+      "id": 17780000,
+      "name": "Earth's Grace",
+      "needLevel": 21,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_009.png",
+      "id": 17790000,
+      "name": "Survival Willpower",
+      "needLevel": 23,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_Passive_007.png",
+      "id": 17800000,
+      "name": "Radiant Benediction",
+      "needLevel": 25,
+      "skillLevel": 11
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
+      "id": 17280000,
+      "name": "Power Burst",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_028.png",
+      "id": 17290000,
+      "name": "Absolution",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_047.png",
+      "id": 17160000,
+      "name": "Benevolence",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_044.png",
+      "id": 17430000,
+      "name": "Prayer of Amplification",
+      "needLevel": 22,
+      "skillLevel": 10
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
+      "id": 17390000,
+      "name": "Summon Resurrection",
+      "needLevel": 22,
+      "skillLevel": 5
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_040.png",
+      "id": 17400000,
+      "name": "Earth Punishment",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_026.png",
+      "id": 17270000,
+      "name": "Salvation",
+      "needLevel": 22,
+      "skillLevel": 5
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_019.png",
+      "id": 17190000,
+      "name": "Root",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_041.png",
+      "id": 17410000,
+      "name": "Light of Protection",
+      "needLevel": 22,
+      "skillLevel": 5
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_042.png",
+      "id": 17420000,
+      "name": "Yustiel's Power",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_029.png",
+      "id": 17300000,
+      "name": "Voice of Doom",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CO_SKILL_003.png",
+      "id": 17700000,
+      "name": "Assault Mark",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
+      "id": 17440000,
+      "name": "Noble Aura",
+      "needLevel": 22,
+      "skillLevel": 0
+     }
+    ]
+   },
+   "petwing": {
+    "pet": {
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Rabbit_01.png",
+     "id": 1240,
+     "level": 3,
+     "name": "White Bunny"
+    },
+    "wing": {
+     "enchantLevel": 0,
+     "grade": "Legend",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_007.png",
+     "id": 40200700,
+     "name": "Superior Daeva Wings"
+    },
+    "wingSkin": {
+     "enchantLevel": null,
+     "grade": null,
+     "icon": null,
+     "id": null,
+     "name": null
+    }
+   },
+   "pcId": 32,
+   "race": 2
+  },
+  "CutieCatty": {
+   "history": [
+    {
+     "date": "2026-10-27",
+     "cp": 87047,
+     "il": 1963
+    }
+   ],
+   "server": "Tassin",
+   "owner": "CutieCatty#meo",
+   "level": 45,
+   "cp": 87047,
+   "il": 1963,
+   "gear": [
+    {
+     "slotPosName": "MainHand",
+     "name": "Aulamus Staff",
+     "grade": "Unique",
+     "enchantLevel": 12,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0028_T05.png"
+    },
+    {
+     "slotPosName": "SubHand",
+     "name": "Spiritforged Guard",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png"
+    },
+    {
+     "slotPosName": "Torso",
+     "name": "Vakron Breastplate",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png"
+    },
+    {
+     "slotPosName": "Pants",
+     "name": "Unyielding Greaves",
+     "grade": "Legend",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0049_T05_Pants.png"
+    },
+    {
+     "slotPosName": "Helmet",
+     "name": "Vakron Helm",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Helmet.png"
+    },
+    {
+     "slotPosName": "Shoulder",
+     "name": "Vakron Pauldrons",
+     "grade": "Unique",
+     "enchantLevel": 11,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Shoulder.png"
+    },
+    {
+     "slotPosName": "Gloves",
+     "name": "Bakarma Gloves",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png"
+    },
+    {
+     "slotPosName": "Boots",
+     "name": "Spectral Boots",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0149_T03_Boots.png"
+    },
+    {
+     "slotPosName": "Cape",
+     "name": "Bakarma Cloak",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png"
+    },
+    {
+     "slotPosName": "Belt",
+     "name": "Noble Belt",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png"
+    },
+    {
+     "slotPosName": "Necklace",
+     "name": "Aulamus Necklace",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png"
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Aulamus Earrings",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png"
+    },
+    {
+     "slotPosName": "Earring2",
+     "name": "Liberator Earrings",
+     "grade": "Legend",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png"
+    },
+    {
+     "slotPosName": "Ring2",
+     "name": "Aulamus Ring",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png"
+    },
+    {
+     "slotPosName": "Ring1",
+     "name": "Aulamus Ring",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png"
+    },
+    {
+     "slotPosName": "Bracelet1",
+     "name": "Ascension Bracelet",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png"
+    },
+    {
+     "slotPosName": "Bracelet2",
+     "name": "Liberator Bracelet",
+     "grade": "Legend",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png"
+    },
+    {
+     "slotPosName": "Rune2",
+     "name": "Clash Rune",
+     "grade": "Special",
+     "enchantLevel": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png"
+    },
+    {
+     "slotPosName": "Rune1",
+     "name": "Clash Rune",
+     "grade": "Special",
+     "enchantLevel": 4,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png"
+    },
+    {
+     "slotPosName": "Amulet",
+     "name": "Revelation Amulet",
+     "grade": "Unique",
+     "enchantLevel": 7,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png"
+    },
+    {
+     "slotPosName": "Arcana1",
+     "name": "Chalice of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png"
+    },
+    {
+     "slotPosName": "Arcana2",
+     "name": "Parchment of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png"
+    },
+    {
+     "slotPosName": "Arcana3",
+     "name": "Compass of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png"
+    },
+    {
+     "slotPosName": "Arcana4",
+     "name": "Bell of Vigor",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png"
+    },
+    {
+     "slotPosName": "Arcana5",
+     "name": "Mirror of Magic",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_DefenceSet2.png"
+    }
+   ],
+   "stats": [
+    {
+     "name": "Might",
+     "statSecondList": [
+      "Attack increase +1%"
+     ],
+     "type": "STR",
+     "value": 10
+    },
+    {
+     "name": "Dexterity",
+     "statSecondList": [
+      "Evasion increase +0.3%",
+      "Block increase +0.3%",
+      "Critical Hit Resist increase +0.3%"
+     ],
+     "type": "DEX",
+     "value": 3
+    },
+    {
+     "name": "Intelligence",
+     "statSecondList": null,
+     "type": "INT",
+     "value": 0
+    },
+    {
+     "name": "Constitution",
+     "statSecondList": [
+      "HP increase +1.4%"
+     ],
+     "type": "CON",
+     "value": 14
+    },
+    {
+     "name": "Precision",
+     "statSecondList": [
+      "Accuracy increase +0.8%",
+      "Critical Hit increase +0.8%"
+     ],
+     "type": "AGI",
+     "value": 8
+    },
+    {
+     "name": "Willpower",
+     "statSecondList": null,
+     "type": "WIS",
+     "value": 0
+    },
+    {
+     "name": "Justice [Nezekan]",
+     "statSecondList": [
+      "Defense increase +5.3%",
+      "Perfect Chance +5.3%"
+     ],
+     "type": "Justice",
+     "value": 53
+    },
+    {
+     "name": "Freedom [Vaizel]",
+     "statSecondList": [
+      "Accuracy increase +2.8%",
+      "Evasion increase +2.8%"
+     ],
+     "type": "Freedom",
+     "value": 28
+    },
+    {
+     "name": "Illusion [Kaisinel]",
+     "statSecondList": [
+      "Cooldown -0.7%",
+      "Endurance Penetration +0.7%"
+     ],
+     "type": "Illusion",
+     "value": 7
+    },
+    {
+     "name": "Life [Yustiel]",
+     "statSecondList": [
+      "HP increase +1.9%",
+      "Regeneration +1.9%"
+     ],
+     "type": "Life",
+     "value": 19
+    },
+    {
+     "name": "Time [Siel]",
+     "statSecondList": [
+      "Combat Speed +4.9%",
+      "Double Resist +4.9%"
+     ],
+     "type": "Time",
+     "value": 49
+    },
+    {
+     "name": "Destruction [Zikel]",
+     "statSecondList": [
+      "Attack increase +0.6%",
+      "Perfect Resist +0.6%"
+     ],
+     "type": "Destruction",
+     "value": 6
+    },
+    {
+     "name": "Death [Triniel]",
+     "statSecondList": [
+      "Critical Hit increase +2.8%",
+      "Regeneration Penetration +2.8%"
+     ],
+     "type": "Death",
+     "value": 28
+    },
+    {
+     "name": "Wisdom [Lumiel]",
+     "statSecondList": [
+      "MP Cost -1.9%",
+      "Double Chance +1.9%"
+     ],
+     "type": "Wisdom",
+     "value": 19
+    },
+    {
+     "name": "Destiny [Marchutan]",
+     "statSecondList": [
+      "MP increase +1.1%",
+      "Endurance +1.1%"
+     ],
+     "type": "Destiny",
+     "value": 11
+    },
+    {
+     "name": "Space [Israphel]",
+     "statSecondList": [
+      "Move Speed +1.4%",
+      "Block increase +1.4%"
+     ],
+     "type": "Space",
+     "value": 14
+    },
+    {
+     "name": "아이템레벨",
+     "statSecondList": null,
+     "type": "ItemLevel",
+     "value": 1963
+    }
+   ],
+   "title": {
+    "ownedCount": 194,
+    "titleList": [
+     {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "Critical Attack +30"
+       },
+       {
+        "desc": "Block Penetration +40"
+       }
+      ],
+      "grade": "Legend",
+      "id": 21020038,
+      "name": "Celebrity",
+      "ownedCount": 63,
+      "ownedPercent": 60,
+      "statList": [
+       {
+        "desc": "Penetration +20"
+       }
+      ],
+      "totalCount": 105
+     },
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "Cooldown Reduction +3%"
+       },
+       {
+        "desc": "HP +900"
+       },
+       {
+        "desc": "Stamina +225"
+       }
+      ],
+      "grade": "Unique",
+      "id": 22010061,
+      "name": "Through Hell and Back",
+      "ownedCount": 67,
+      "ownedPercent": 66,
+      "statList": [
+       {
+        "desc": "Block +10"
+       }
+      ],
+      "totalCount": 101
+     },
+     {
+      "equipCategory": "Defense",
+      "equipStatList": [
+       {
+        "desc": "Defense Bonus +300"
+       },
+       {
+        "desc": "Damage Tolerance +3%"
+       },
+       {
+        "desc": "Block +100"
+       }
+      ],
+      "grade": "Unique",
+      "id": 22030003,
+      "name": "Saint of Altgard",
+      "ownedCount": 64,
+      "ownedPercent": 65,
+      "statList": [
+       {
+        "desc": "MP +20"
+       }
+      ],
+      "totalCount": 98
+     }
+    ],
+    "totalCount": 304
+   },
+   "ranking": {
+    "rankingList": null
+   },
+   "daevanion": {
+    "boardList": [
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 81,
+      "name": "Nezekan",
+      "open": 1,
+      "openNodeCount": 52,
+      "openPercent": 59,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 82,
+      "name": "Zikel",
+      "open": 1,
+      "openNodeCount": 29,
+      "openPercent": 33,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 83,
+      "name": "Vaizel",
+      "open": 1,
+      "openNodeCount": 64,
+      "openPercent": 73,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 84,
+      "name": "Triniel",
+      "open": 1,
+      "openNodeCount": 75,
+      "openPercent": 65,
+      "totalNodeCount": 116
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 85,
+      "name": "Ariel",
+      "open": 0,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 152
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 86,
+      "name": "Azphel",
+      "open": 1,
+      "openNodeCount": 10,
+      "openPercent": 7,
+      "totalNodeCount": 152
+     }
+    ]
+   },
+   "boards": {
+    "81": [
+     "3|11|Rare|1|Skill Level Up - Protection Circle",
+     "3|12|Common|1|Critical Hit",
+     "3|13|Unique|1|Cooldown Reduction",
+     "3|7|Rare|0|Skill Level Up - Crossguard",
+     "3|8|Common|0|Critical Hit Resist",
+     "3|9|Legend|1|Skill Level Up - Wave Blow",
+     "3|3|Unique|1|Combat Speed",
+     "3|4|Common|1|Attack",
+     "3|5|Common|1|Critical Hit Resist",
+     "5|3|Rare|1|Skill Level Up - Blessing of Life",
+     "4|11|Common|1|Critical Hit Resist",
+     "4|13|Common|0|Max MP",
+     "4|7|Common|0|Defense",
+     "4|9|Common|1|Max MP",
+     "4|10|Common|1|Defense",
+     "4|3|Common|0|Critical Hit",
+     "4|5|Legend|1|Skill Level Up - Dark Crush",
+     "4|6|Common|0|Max MP",
+     "6|4|Common|1|Max HP",
+     "5|12|Common|0|Max HP",
+     "5|13|Rare|0|Skill Level Up - Inspiring Spell",
+     "5|8|Legend|1|Skill Level Up - Charging Smash",
+     "5|9|Common|1|Max HP",
+     "5|11|Legend|0|Skill Level Up - Recuperation",
+     "5|4|Common|1|Defense",
+     "5|5|Common|1|Max HP",
+     "5|7|Common|1|Critical Hit",
+     "7|3|Common|1|Max MP",
+     "7|4|Common|1|Attack",
+     "7|5|Legend|1|Skill Level Up - Incandescent Blow",
+     "6|13|Common|0|Defense",
+     "6|9|Common|0|Defense",
+     "6|11|Common|0|Attack",
+     "6|7|Common|1|Critical Hit Resist",
+     "8|3|Legend|1|Skill Level Up - Defiance",
+     "8|6|Common|1|Defense",
+     "7|10|Rare|0|Skill Level Up - Attack Preparation",
+     "7|11|Common|0|Max MP",
+     "7|12|Common|0|Critical Hit",
+     "7|13|Common|0|Critical Hit Resist",
+     "7|6|Common|1|Max HP",
+     "7|7|Common|1|Max MP",
+     "7|8|Common|1|Attack",
+     "7|9|Common|0|Critical Hit Resist",
+     "9|4|Common|0|Critical Hit Resist",
+     "9|5|Common|0|Max HP",
+     "9|6|Rare|1|Skill Level Up - Inspiring Spell",
+     "9|7|Common|0|Critical Hit",
+     "9|3|Common|0|Critical Hit",
+     "8|13|Legend|1|Skill Level Up - Gust Rampage",
+     "8|8|Start|1|Nezekan - Start",
+     "8|10|Common|0|Attack",
+     "10|5|Common|0|Defense",
+     "10|7|Common|0|Attack",
+     "10|3|Common|0|Attack",
+     "9|12|Common|1|Defense",
+     "9|13|Common|1|Max HP",
+     "9|8|Common|1|Defense",
+     "9|9|Common|1|Max HP",
+     "9|10|Common|1|Max MP",
+     "9|11|Legend|1|Skill Level Up - Onslaught",
+     "11|7|Common|1|Max MP",
+     "11|8|Legend|1|Skill Level Up - Impactful Crush",
+     "11|9|Common|1|Critical Hit Resist",
+     "11|3|Rare|0|Skill Level Up - Attack Preparation",
+     "11|4|Common|0|Max MP",
+     "11|5|Legend|1|Skill Level Up - Tremor Crush",
+     "10|9|Common|1|Critical Hit",
+     "10|12|Common|1|Max MP",
+     "12|7|Common|1|Max HP",
+     "12|9|Common|0|Attack",
+     "12|10|Common|0|Max HP",
+     "12|3|Common|0|Max HP",
+     "12|5|Common|1|Critical Hit",
+     "12|6|Common|1|Attack",
+     "11|11|Common|1|Max MP",
+     "11|12|Common|1|Attack",
+     "11|13|Rare|0|Skill Level Up - Crossguard",
+     "13|8|Common|0|Critical Hit",
+     "13|9|Rare|0|Skill Level Up - Blessing of Life",
+     "13|11|Common|1|Critical Hit",
+     "13|4|Common|0|Critical Hit Resist",
+     "13|5|Rare|1|Skill Level Up - Protection Circle",
+     "13|7|Legend|1|Skill Level Up - Spinning Strike",
+     "13|3|Unique|0|Cooldown Reduction",
+     "12|11|Legend|1|Skill Level Up - Heat Wave Blow",
+     "12|13|Common|0|Critical Hit Resist",
+     "13|12|Common|1|Defense",
+     "13|13|Unique|1|Combat Speed"
+    ],
+    "82": [
+     "3|10|Common|1|Attack",
+     "3|11|Legend|1|Skill Level Up - Spinning Strike",
+     "3|12|Common|1|Defense",
+     "3|13|Unique|1|Damage Boost",
+     "3|6|Common|1|Critical Hit Resist",
+     "3|7|Legend|1|Skill Level Up - Gust Rampage",
+     "3|8|Common|0|Defense",
+     "3|9|Rare|0|Skill Level Up - Impact Hit",
+     "3|3|Unique|0|Damage Tolerance",
+     "3|4|Common|1|Critical Hit",
+     "3|5|Common|1|Max MP",
+     "5|3|Legend|0|Skill Level Up - Onslaught",
+     "4|13|Common|0|Critical Hit",
+     "4|7|Common|1|Max HP",
+     "4|10|Common|1|Max MP",
+     "4|3|Common|0|Attack",
+     "4|5|Rare|0|Skill Level Up - Wind's Promise",
+     "6|3|Common|0|Critical Hit",
+     "5|12|Rare|0|Skill Level Up - Survival Willpower",
+     "5|13|Common|0|Attack",
+     "5|8|Common|0|Max MP",
+     "5|9|Legend|1|Skill Level Up - Charging Smash",
+     "5|10|Common|1|Critical Hit Resist",
+     "5|11|Common|0|Max MP",
+     "5|4|Common|0|Max HP",
+     "5|5|Common|0|Defense",
+     "5|7|Common|1|Attack",
+     "7|3|Common|0|Defense",
+     "7|4|Common|0|Max HP",
+     "7|5|Legend|0|Skill Level Up - Impactful Crush",
+     "6|13|Common|0|Critical Hit Resist",
+     "6|9|Common|1|Critical Hit",
+     "6|11|Common|0|Critical Hit",
+     "6|5|Common|0|Max MP",
+     "6|6|Common|0|Critical Hit Resist",
+     "6|7|Rare|1|Skill Level Up - Earth's Promise",
+     "8|4|Common|0|Attack",
+     "7|10|Rare|0|Skill Level Up - Raging Spell",
+     "7|11|Common|0|Max HP",
+     "7|12|Common|0|Attack",
+     "7|13|Legend|0|Skill Level Up - Incandescent Blow",
+     "7|7|Common|1|Critical Hit",
+     "7|9|Common|1|Max MP",
+     "9|4|Common|0|Defense",
+     "9|5|Common|0|Max MP",
+     "9|6|Rare|0|Skill Level Up - Survival Willpower",
+     "9|7|Common|1|Max HP",
+     "9|3|Legend|0|Skill Level Up - Recuperation",
+     "8|12|Common|0|Defense",
+     "8|7|Common|1|Defense",
+     "8|8|Start|1|Zikel - Start",
+     "8|9|Common|1|Attack",
+     "10|5|Common|0|Critical Hit Resist",
+     "10|7|Common|1|Critical Hit Resist",
+     "10|3|Common|0|Critical Hit",
+     "9|12|Common|0|Max MP",
+     "9|13|Common|0|Attack",
+     "9|9|Common|0|Critical Hit Resist",
+     "9|11|Legend|0|Skill Level Up - Wave Blow",
+     "11|6|Common|1|Critical Hit",
+     "11|7|Legend|1|Skill Level Up - Tremor Crush",
+     "11|8|Common|0|Max HP",
+     "11|9|Common|0|Defense",
+     "11|3|Common|0|Defense",
+     "11|4|Rare|0|Skill Level Up - Raging Spell",
+     "11|5|Common|1|Max HP",
+     "10|13|Common|0|Critical Hit Resist",
+     "10|9|Rare|0|Skill Level Up - Wind's Promise",
+     "10|10|Common|0|Critical Hit",
+     "10|11|Common|0|Max HP",
+     "12|9|Common|0|Max MP",
+     "12|3|Common|0|Critical Hit Resist",
+     "12|6|Common|1|Max MP",
+     "11|11|Common|0|Attack",
+     "11|12|Common|0|Max MP",
+     "11|13|Legend|0|Skill Level Up - Heat Wave Blow",
+     "13|8|Common|0|Attack",
+     "13|9|Legend|0|Skill Level Up - Defiance",
+     "13|10|Common|0|Critical Hit",
+     "13|11|Common|0|Max HP",
+     "13|4|Common|1|Attack",
+     "13|5|Legend|1|Skill Level Up - Dark Crush",
+     "13|6|Common|1|Defense",
+     "13|7|Rare|0|Skill Level Up - Impact Hit",
+     "13|3|Unique|1|Damage Boost",
+     "12|11|Rare|0|Skill Level Up - Earth's Promise",
+     "12|13|Common|0|Defense",
+     "13|12|Common|0|Critical Hit Resist",
+     "13|13|Unique|0|Damage Tolerance"
+    ],
+    "83": [
+     "3|10|Rare|1|Skill Level Up - Protection Circle",
+     "3|11|Common|0|Critical Hit Resist",
+     "3|12|Common|0|Max HP",
+     "3|13|Unique|1|Critical Damage Tolerance",
+     "3|7|Common|1|Critical Hit Resist",
+     "3|8|Legend|1|Skill Level Up - Gust Rampage",
+     "3|9|Common|1|Attack",
+     "3|3|Unique|1|Critical Damage Boost",
+     "3|4|Common|0|Critical Hit Resist",
+     "3|5|Rare|1|Skill Level Up - Blessing of Life",
+     "5|3|Common|1|Defense",
+     "4|11|Common|0|Defense",
+     "4|13|Common|1|Max MP",
+     "4|7|Common|1|Max MP",
+     "4|9|Common|0|Defense",
+     "4|3|Common|1|Critical Hit",
+     "4|5|Common|1|Attack",
+     "4|6|Common|1|Critical Hit",
+     "6|4|Common|0|Critical Hit Resist",
+     "5|12|Common|1|Attack",
+     "5|13|Rare|1|Skill Level Up - Attack Preparation",
+     "5|8|Common|0|Critical Hit",
+     "5|9|Common|0|Max MP",
+     "5|10|Common|0|Max HP",
+     "5|11|Legend|1|Skill Level Up - Recuperation",
+     "5|4|Legend|1|Skill Level Up - Charging Smash",
+     "5|5|Common|1|Max HP",
+     "5|7|Legend|1|Skill Level Up - Wave Blow",
+     "7|3|Common|0|Attack",
+     "7|4|Common|0|Max MP",
+     "7|5|Common|0|Defense",
+     "6|9|Rare|1|Skill Level Up - Earth's Promise",
+     "6|12|Common|1|Critical Hit Resist",
+     "6|7|Common|1|Critical Hit",
+     "8|3|Legend|1|Skill Level Up - Heat Wave Blow",
+     "8|6|Common|0|Max MP",
+     "7|10|Common|1|Defense",
+     "7|11|Legend|1|Skill Level Up - Dark Crush",
+     "7|12|Common|1|Max HP",
+     "7|13|Common|0|Critical Hit",
+     "7|6|Rare|1|Skill Level Up - Survival Willpower",
+     "7|7|Common|1|Max HP",
+     "7|8|Common|1|Attack",
+     "7|9|Common|1|Critical Hit Resist",
+     "9|4|Common|1|Max MP",
+     "9|5|Legend|1|Skill Level Up - Spinning Strike",
+     "9|6|Common|1|Attack",
+     "9|7|Common|1|Critical Hit",
+     "9|3|Common|1|Critical Hit Resist",
+     "8|13|Legend|1|Skill Level Up - Onslaught",
+     "8|8|Start|1|Vaizel - Start",
+     "8|10|Common|1|Max HP",
+     "10|7|Rare|1|Skill Level Up - Impact Hit",
+     "10|4|Common|1|Critical Hit",
+     "9|12|Common|1|Max HP",
+     "9|13|Common|1|Defense",
+     "9|8|Common|1|Defense",
+     "9|9|Common|1|Max MP",
+     "9|10|Rare|1|Skill Level Up - Wind's Promise",
+     "9|11|Common|1|Attack",
+     "11|6|Common|0|Critical Hit Resist",
+     "11|7|Common|0|Max HP",
+     "11|8|Common|0|Max MP",
+     "11|9|Legend|1|Skill Level Up - Impactful Crush",
+     "11|3|Rare|1|Skill Level Up - Raging Spell",
+     "11|4|Common|1|Defense",
+     "11|5|Legend|1|Skill Level Up - Incandescent Blow",
+     "10|9|Common|1|Critical Hit Resist",
+     "10|12|Common|1|Critical Hit",
+     "12|7|Common|0|Attack",
+     "12|9|Common|0|Max HP",
+     "12|10|Common|0|Critical Hit Resist",
+     "12|3|Common|0|Max HP",
+     "12|5|Common|1|Attack",
+     "11|11|Common|0|Max MP",
+     "11|12|Legend|1|Skill Level Up - Tremor Crush",
+     "11|13|Common|1|Attack",
+     "13|8|Legend|1|Skill Level Up - Defiance",
+     "13|9|Common|0|Critical Hit",
+     "13|11|Rare|1|Skill Level Up - Crossguard",
+     "13|4|Common|1|Max MP",
+     "13|5|Common|1|Critical Hit",
+     "13|6|Rare|1|Skill Level Up - Inspiring Spell",
+     "13|7|Common|1|Defense",
+     "13|3|Unique|1|Critical Damage Tolerance",
+     "12|11|Common|0|Defense",
+     "12|13|Common|1|Critical Hit Resist",
+     "13|12|Common|1|Critical Hit",
+     "13|13|Unique|1|Critical Damage Boost"
+    ],
+    "84": [
+     "14|9|Common|1|Defense",
+     "14|12|Common|1|Critical Hit Resist",
+     "14|7|Common|1|Attack",
+     "14|8|Unique|1|Multi-Hit Resist",
+     "14|2|Unique|1|Multi-Hit Chance",
+     "14|3|Common|1|Max MP",
+     "14|4|Common|1|Attack",
+     "13|12|Legend|1|Skill Level Up - Onslaught",
+     "13|14|Common|0|Max HP",
+     "14|13|Common|1|Defense",
+     "14|14|Unique|1|Multi-Hit Chance",
+     "2|13|Common|1|Max HP",
+     "2|14|Unique|1|Multi-Hit Resist",
+     "2|9|Common|1|Defense",
+     "2|12|Common|1|Defense",
+     "2|7|Common|1|Attack",
+     "2|8|Unique|1|Multi-Hit Chance",
+     "2|2|Unique|1|Multi-Hit Resist",
+     "2|3|Common|1|Attack",
+     "2|4|Common|1|Critical Hit",
+     "3|14|Common|1|Critical Hit",
+     "4|2|Common|1|Critical Hit",
+     "3|10|Common|1|Max MP",
+     "3|11|Common|1|Critical Hit",
+     "3|12|Legend|1|Skill Level Up - Incandescent Blow",
+     "3|6|Common|1|Max HP",
+     "3|7|Rare|1|Skill Level Up - Wind's Promise",
+     "3|9|Rare|1|Skill Level Up - Impact Hit",
+     "3|2|Common|1|Max MP",
+     "3|4|Legend|1|Skill Level Up - Impactful Crush",
+     "3|5|Common|1|Max MP",
+     "5|2|Legend|1|Skill Level Up - Gust Rampage",
+     "5|3|Common|0|Critical Hit Resist",
+     "4|12|Common|0|Attack",
+     "4|14|Common|1|Critical Hit Resist",
+     "4|7|Common|0|Defense",
+     "4|8|Common|0|Max HP",
+     "4|9|Common|1|Critical Hit Resist",
+     "4|4|Common|1|Max HP",
+     "6|4|Common|0|Defense",
+     "5|12|Common|0|Max HP",
+     "5|13|Common|0|Max MP",
+     "5|14|Rare|1|Skill Level Up - Inspiring Spell",
+     "5|9|Common|1|Defense",
+     "5|10|Legend|1|Skill Level Up - Tremor Crush",
+     "5|11|Common|0|Critical Hit",
+     "5|4|Common|1|Max MP",
+     "5|5|Rare|1|Skill Level Up - Crossguard",
+     "5|6|Common|0|Critical Hit Resist",
+     "5|7|Common|0|Attack",
+     "7|2|Common|0|Critical Hit Resist",
+     "7|3|Common|0|Critical Hit",
+     "7|4|Common|0|Max HP",
+     "7|5|Common|0|Attack",
+     "6|13|Common|0|Critical Hit Resist",
+     "6|10|Common|1|Max HP",
+     "6|6|Common|0|Critical Hit",
+     "8|4|Common|0|Defense",
+     "8|6|Common|1|Defense",
+     "7|14|Common|0|Max MP",
+     "8|2|Legend|1|Skill Level Up - Wave Blow",
+     "7|10|Common|1|Max MP",
+     "7|11|Common|0|Critical Hit",
+     "7|12|Rare|0|Skill Level Up - Raging Spell",
+     "7|13|Common|0|Defense",
+     "7|6|Legend|1|Skill Level Up - Recuperation",
+     "7|7|Common|0|Max MP",
+     "7|8|Common|0|Defense",
+     "7|9|Common|0|Critical Hit Resist",
+     "9|4|Rare|1|Skill Level Up - Attack Preparation",
+     "9|5|Common|0|Critical Hit Resist",
+     "9|6|Common|1|Max HP",
+     "9|7|Common|1|Critical Hit",
+     "9|2|Common|1|Max HP",
+     "9|3|Common|1|Attack",
+     "8|12|Common|0|Attack",
+     "8|14|Legend|1|Skill Level Up - Spinning Strike",
+     "8|8|Start|1|Triniel - Start",
+     "8|10|Common|1|Attack",
+     "10|6|Common|1|Max MP",
+     "10|3|Common|1|Critical Hit",
+     "9|12|Common|1|Max MP",
+     "9|13|Common|1|Critical Hit Resist",
+     "9|14|Common|1|Critical Hit",
+     "9|8|Common|1|Attack",
+     "9|9|Common|1|Max HP",
+     "9|10|Legend|1|Skill Level Up - Dark Crush",
+     "9|11|Common|1|Defense",
+     "11|6|Legend|1|Skill Level Up - Heat Wave Blow",
+     "11|7|Common|1|Attack",
+     "11|9|Common|0|Defense",
+     "11|2|Rare|1|Skill Level Up - Protection Circle",
+     "11|3|Common|1|Max HP",
+     "11|4|Common|1|Max MP",
+     "11|5|Common|1|Critical Hit Resist",
+     "10|10|Common|0|Critical Hit Resist",
+     "10|12|Common|1|Attack",
+     "12|7|Common|1|Critical Hit",
+     "12|8|Common|0|Max MP",
+     "12|9|Common|0|Attack",
+     "12|4|Common|1|Defense",
+     "11|14|Legend|0|Skill Level Up - Defiance",
+     "12|2|Common|0|Critical Hit",
+     "11|10|Common|0|Critical Hit",
+     "11|11|Rare|0|Skill Level Up - Blessing of Life",
+     "11|12|Common|1|Max HP",
+     "11|13|Common|1|Critical Hit",
+     "13|9|Rare|1|Skill Level Up - Survival Willpower",
+     "13|10|Common|0|Max MP",
+     "13|11|Common|0|Max HP",
+     "13|4|Legend|1|Skill Level Up - Charging Smash",
+     "13|5|Common|0|Critical Hit Resist",
+     "13|6|Common|0|Max HP",
+     "13|7|Rare|1|Skill Level Up - Earth's Promise",
+     "13|2|Common|0|Critical Hit Resist",
+     "12|12|Common|1|Max MP",
+     "12|14|Common|0|Critical Hit Resist"
+    ],
+    "86": [
+     "12|7|Common|0|PvP Evasion",
+     "12|9|Common|0|PvP Critical Hit",
+     "12|3|Common|0|PvP Critical Hit Resist",
+     "12|5|Common|0|PvP Attack",
+     "11|15|Legend|0|Status Effect Chance",
+     "11|14|Common|0|PvP Attack",
+     "11|11|Legend|0|Status Effect Resist",
+     "11|10|Common|0|PvP Critical Hit Resist",
+     "11|13|Common|0|PvP Evasion",
+     "13|9|Rare|0|PvP Accuracy, PvP Evasion",
+     "13|8|Common|0|Max HP",
+     "13|10|Common|0|PvP Critical Hit Resist",
+     "13|5|Common|0|PvP Critical Hit",
+     "13|4|Common|0|Max MP",
+     "13|7|Common|0|PvP Defense",
+     "13|6|Legend|0|Status Effect Chance",
+     "13|1|Rare|0|PvP Attack, PvP Defense",
+     "13|3|Rare|0|PvP Accuracy, PvP Evasion",
+     "13|2|Common|0|PvP Critical Hit",
+     "12|13|Common|0|PvP Defense",
+     "14|10|Common|0|PvP Defense",
+     "14|12|Common|0|PvP Evasion",
+     "14|11|Common|0|PvP Attack",
+     "14|6|Common|0|PvP Accuracy",
+     "14|8|Common|0|PvP Evasion",
+     "14|1|Common|0|PvP Accuracy",
+     "14|3|Common|0|PvP Defense",
+     "13|13|Common|0|PvP Accuracy",
+     "13|12|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "13|15|Rare|0|PvP Accuracy, PvP Evasion",
+     "13|14|Common|0|PvP Critical Hit Resist",
+     "15|10|Rare|0|PvP Attack, PvP Defense",
+     "15|13|Common|0|PvP Defense",
+     "15|12|Legend|0|Status Effect Chance",
+     "15|6|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "15|9|Common|0|PvP Accuracy",
+     "15|8|Unique|0|PvP Damage Tolerance",
+     "15|3|Common|0|PvP Critical Hit Resist",
+     "15|2|Common|0|PvP Attack",
+     "15|5|Common|0|PvP Evasion",
+     "15|4|Legend|0|Status Effect Resist",
+     "15|1|Unique|0|PvP Damage Boost",
+     "14|15|Common|0|PvP Critical Hit",
+     "15|15|Unique|0|PvP Damage Tolerance",
+     "15|14|Common|0|PvP Attack",
+     "1|13|Common|0|PvP Critical Hit Resist",
+     "1|12|Legend|0|Status Effect Resist",
+     "1|15|Unique|0|PvP Damage Boost",
+     "1|14|Common|0|PvP Attack",
+     "1|8|Unique|0|PvP Damage Tolerance",
+     "1|11|Common|0|PvP Evasion",
+     "1|10|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "1|4|Legend|0|Status Effect Chance",
+     "1|7|Common|0|PvP Accuracy",
+     "1|6|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "1|1|Unique|0|PvP Damage Tolerance",
+     "1|3|Common|0|PvP Defense",
+     "1|2|Common|0|PvP Attack",
+     "2|13|Common|0|PvP Defense",
+     "3|1|Rare|0|PvP Accuracy, PvP Evasion",
+     "2|15|Common|0|PvP Accuracy",
+     "2|10|Common|0|PvP Accuracy",
+     "2|6|Common|0|PvP Defense",
+     "2|5|Common|0|PvP Attack",
+     "2|8|Common|0|PvP Evasion",
+     "2|1|Common|0|PvP Critical Hit",
+     "2|4|Common|0|PvP Evasion",
+     "3|15|Rare|0|PvP Attack, PvP Defense",
+     "3|14|Common|0|PvP Critical Hit",
+     "3|11|Common|0|PvP Critical Hit",
+     "3|10|Legend|0|Status Effect Chance",
+     "3|13|Rare|0|PvP Accuracy, PvP Evasion",
+     "3|12|Common|0|Max HP",
+     "3|7|Rare|0|PvP Accuracy, PvP Evasion",
+     "3|6|Common|0|PvP Critical Hit Resist",
+     "3|9|Common|0|PvP Defense",
+     "3|8|Common|0|Max MP",
+     "3|3|Common|0|PvP Accuracy",
+     "3|2|Common|0|PvP Critical Hit Resist",
+     "3|4|Rare|0|PvP Attack, PvP Defense",
+     "5|1|Legend|0|Status Effect Chance",
+     "5|3|Common|0|PvP Evasion",
+     "5|2|Common|0|PvP Attack",
+     "4|11|Common|0|PvP Attack",
+     "4|13|Common|0|PvP Critical Hit Resist",
+     "4|7|Common|0|PvP Critical Hit",
+     "4|9|Common|0|PvP Evasion",
+     "4|3|Common|0|PvP Defense",
+     "6|1|Common|0|PvP Critical Hit Resist",
+     "6|4|Common|0|PvP Accuracy",
+     "6|3|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "5|13|Legend|0|Status Effect Resist",
+     "5|12|Common|1|PvP Defense",
+     "5|9|Common|0|PvP Critical Hit Resist",
+     "5|8|Legend|0|Status Effect Chance",
+     "5|11|Common|1|PvP Evasion",
+     "5|10|Rare|1|PvP Attack, PvP Defense",
+     "5|5|Legend|0|Status Effect Resist",
+     "5|7|Common|0|PvP Defense",
+     "5|6|Common|0|PvP Critical Hit Resist",
+     "7|5|Common|0|PvP Attack",
+     "6|14|Common|0|PvP Accuracy",
+     "6|13|Common|0|PvP Critical Hit",
+     "7|1|Common|0|PvP Critical Hit",
+     "6|15|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "6|10|Common|1|PvP Accuracy",
+     "6|5|Common|0|PvP Critical Hit",
+     "6|7|Common|0|PvP Accuracy",
+     "8|3|Common|0|PvP Critical Hit Resist",
+     "8|6|Common|0|PvP Critical Hit",
+     "7|15|Common|0|PvP Evasion",
+     "8|2|Common|0|PvP Attack",
+     "8|1|Unique|0|PvP Damage Boost",
+     "7|11|Common|0|PvP Defense",
+     "7|10|Legend|1|Status Effect Resist",
+     "7|13|Rare|0|PvP Accuracy, PvP Evasion",
+     "7|12|Common|0|Max MP",
+     "7|7|Rare|1|PvP Attack, PvP Defense",
+     "7|6|Common|0|PvP Evasion",
+     "7|9|Common|1|PvP Attack",
+     "7|8|Common|1|Max HP",
+     "9|5|Common|0|PvP Defense",
+     "9|4|Common|0|Max HP",
+     "9|7|Common|0|PvP Attack",
+     "9|6|Legend|0|Status Effect Resist",
+     "9|1|Common|0|PvP Evasion",
+     "8|15|Unique|0|PvP Damage Boost",
+     "9|3|Rare|0|PvP Accuracy, PvP Evasion",
+     "8|14|Common|0|PvP Attack",
+     "8|13|Common|0|PvP Critical Hit Resist",
+     "8|8|Start|1|Azphel - Start",
+     "8|10|Common|0|PvP Critical Hit",
+     "10|6|Common|0|PvP Accuracy",
+     "10|2|Common|0|PvP Accuracy",
+     "10|1|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "10|3|Common|0|PvP Critical Hit",
+     "9|15|Common|0|PvP Critical Hit",
+     "9|9|Rare|1|PvP Critical Hit, PvP Critical Hit Resist",
+     "9|8|Common|1|Max MP",
+     "9|11|Common|0|PvP Attack",
+     "9|10|Common|0|PvP Evasion",
+     "11|7|Common|0|PvP Critical Hit Resist",
+     "11|6|Rare|0|PvP Attack, PvP Defense",
+     "11|9|Common|0|PvP Defense",
+     "11|8|Legend|0|Status Effect Chance",
+     "11|3|Legend|0|Status Effect Resist",
+     "11|5|Common|0|PvP Evasion",
+     "11|4|Common|0|PvP Defense",
+     "10|13|Rare|0|PvP Attack, PvP Defense",
+     "10|15|Common|0|PvP Critical Hit Resist",
+     "10|9|Common|0|PvP Accuracy",
+     "10|12|Common|0|PvP Accuracy",
+     "10|11|Common|0|PvP Critical Hit"
+    ]
+   },
+   "skill": {
+    "skillList": [
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_001.png",
+      "id": 18010000,
+      "name": "Onslaught",
+      "needLevel": 1,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_004.png",
+      "id": 18040000,
+      "name": "Incandescent Blow",
+      "needLevel": 1,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_009.png",
+      "id": 18090000,
+      "name": "Rushing Smash",
+      "needLevel": 1,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_006.png",
+      "id": 18060000,
+      "name": "Impactful Crush",
+      "needLevel": 3,
+      "skillLevel": 6
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_010.png",
+      "id": 18100000,
+      "name": "Dark Crush",
+      "needLevel": 4,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_030.png",
+      "id": 18300000,
+      "name": "Gust Rampage",
+      "needLevel": 5,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_015.png",
+      "id": 18150000,
+      "name": "Heat Wave Blow",
+      "needLevel": 7,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_013.png",
+      "id": 18120000,
+      "name": "Recuperation",
+      "needLevel": 8,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_021.png",
+      "id": 18210000,
+      "name": "Tremor Crush",
+      "needLevel": 10,
+      "skillLevel": 7
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_008.png",
+      "id": 18080000,
+      "name": "Wave Blow",
+      "needLevel": 12,
+      "skillLevel": 10
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_029.png",
+      "id": 18290000,
+      "name": "Spinning Strike",
+      "needLevel": 14,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CO_SKILL_002.png",
+      "id": 18200000,
+      "name": "Defiance",
+      "needLevel": 16,
+      "skillLevel": 3
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_012.png",
+      "id": 18710000,
+      "name": "Blessing of Life",
+      "needLevel": 1,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_002.png",
+      "id": 18720000,
+      "name": "Crossguard",
+      "needLevel": 6,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_001.png",
+      "id": 18730000,
+      "name": "Protection Circle",
+      "needLevel": 9,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_011.png",
+      "id": 18740000,
+      "name": "Inspiring Spell",
+      "needLevel": 11,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_005.png",
+      "id": 18750000,
+      "name": "Attack Preparation",
+      "needLevel": 13,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_006.png",
+      "id": 18760000,
+      "name": "Impact Hit",
+      "needLevel": 15,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_007.png",
+      "id": 18770000,
+      "name": "Raging Spell",
+      "needLevel": 17,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_010.png",
+      "id": 18780000,
+      "name": "Earth's Promise",
+      "needLevel": 21,
+      "skillLevel": 14
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_009.png",
+      "id": 18790000,
+      "name": "Survival Willpower",
+      "needLevel": 23,
+      "skillLevel": 13
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_008.png",
+      "id": 18800000,
+      "name": "Wind's Promise",
+      "needLevel": 25,
+      "skillLevel": 15
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_022.png",
+      "id": 18220000,
+      "name": "Obliterate",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_019.png",
+      "id": 18190000,
+      "name": "Undefeated Mantra",
+      "needLevel": 22,
+      "skillLevel": 15
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_014.png",
+      "id": 18140000,
+      "name": "Focused Defense",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_016.png",
+      "id": 18160000,
+      "name": "Sprint Mantra",
+      "needLevel": 22,
+      "skillLevel": 11
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_043.png",
+      "id": 18130000,
+      "name": "Fracturing Blow",
+      "needLevel": 22,
+      "skillLevel": 5
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_033.png",
+      "id": 18330000,
+      "name": "Marchutan's Wrath",
+      "needLevel": 22,
+      "skillLevel": 6
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_024.png",
+      "id": 18240000,
+      "name": "Impeding Authority",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_023.png",
+      "id": 18230000,
+      "name": "Ensnaring Mark",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_017.png",
+      "id": 18170000,
+      "name": "Healing Touch",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_025.png",
+      "id": 18250000,
+      "name": "Power of the Storm",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_042.png",
+      "id": 18420000,
+      "name": "Guardian Blessing",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CO_SKILL_003.png",
+      "id": 18700000,
+      "name": "Assault Shock",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_044.png",
+      "id": 18440000,
+      "name": "Barrier Spell",
+      "needLevel": 22,
+      "skillLevel": 0
+     }
+    ]
+   },
+   "petwing": {
+    "pet": {
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Rabbit_01.png",
+     "id": 1240,
+     "level": 3,
+     "name": "White Bunny"
+    },
+    "wing": {
+     "enchantLevel": 0,
+     "grade": "Unique",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
+     "id": 40200100,
+     "name": "Ultimate Daeva Wings"
+    },
+    "wingSkin": {
+     "enchantLevel": 0,
+     "grade": "Legend",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingE_001A.png",
+     "id": 40500101,
+     "name": "Glorious Wings"
+    }
+   },
+   "pcId": 36,
+   "race": 2
   }
  },
- "updated": "2026-10-27 13:49 UTC"
+ "updated": "2026-10-27 19:03 UTC"
 }

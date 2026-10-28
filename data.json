@@ -19,14 +19,14 @@
     },
     {
      "date": "2026-10-28",
-     "cp": 94723,
-     "il": 2002
+     "cp": 97035,
+     "il": 2016
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 94723,
-   "il": 2002,
+   "cp": 97035,
+   "il": 2016,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -340,7 +340,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2002
+     "value": 2016
     }
    ],
    "title": {
@@ -431,8 +431,8 @@
       "id": 11,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 62,
-      "openPercent": 70,
+      "openNodeCount": 63,
+      "openPercent": 72,
       "totalNodeCount": 88
      },
      {
@@ -440,8 +440,8 @@
       "id": 12,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 57,
-      "openPercent": 65,
+      "openNodeCount": 61,
+      "openPercent": 69,
       "totalNodeCount": 88
      },
      {
@@ -449,8 +449,8 @@
       "id": 13,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 55,
-      "openPercent": 63,
+      "openNodeCount": 57,
+      "openPercent": 65,
       "totalNodeCount": 88
      },
      {
@@ -512,7 +512,7 @@
       "id": 11190000,
       "name": "Leaping Slam",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -522,7 +522,7 @@
       "id": 11290000,
       "name": "Mocking Blade",
       "needLevel": 3,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -672,7 +672,7 @@
       "id": 11770000,
       "name": "Destructive Impulse",
       "needLevel": 17,
-      "skillLevel": 12
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -702,7 +702,7 @@
       "id": 11800000,
       "name": "Murderous Burst",
       "needLevel": 25,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -903,7 +903,7 @@
      "11|4|Common|0|Max MP",
      "11|7|Common|1|Max MP",
      "11|9|Common|0|Critical Hit Resist",
-     "11|8|Legend|0|Skill Level Up - Mocking Blade",
+     "11|8|Legend|1|Skill Level Up - Mocking Blade",
      "11|11|Common|0|Max MP",
      "11|13|Rare|1|Skill Level Up - Protection Armor",
      "11|12|Common|1|Attack",
@@ -973,7 +973,7 @@
      "5|5|Common|1|Defense",
      "5|4|Common|1|Max HP",
      "5|7|Common|1|Attack",
-     "5|9|Legend|0|Skill Level Up - Leaping Slam",
+     "5|9|Legend|1|Skill Level Up - Leaping Slam",
      "5|8|Common|0|Max MP",
      "5|11|Common|0|Max MP",
      "5|10|Common|0|Critical Hit Resist",
@@ -983,7 +983,7 @@
      "6|6|Common|0|Critical Hit Resist",
      "6|5|Common|0|Max MP",
      "6|7|Rare|1|Skill Level Up - Experienced Counterstrike",
-     "6|9|Common|0|Critical Hit",
+     "6|9|Common|1|Critical Hit",
      "6|11|Common|0|Critical Hit",
      "6|13|Common|1|Critical Hit Resist",
      "7|3|Common|1|Defense",
@@ -1013,12 +1013,12 @@
      "10|5|Common|0|Critical Hit Resist",
      "10|7|Common|0|Critical Hit Resist",
      "10|10|Common|1|Critical Hit",
-     "10|9|Rare|0|Skill Level Up - Murderous Burst",
+     "10|9|Rare|1|Skill Level Up - Murderous Burst",
      "10|11|Common|1|Max HP",
      "10|13|Common|1|Critical Hit Resist",
      "11|3|Common|1|Defense",
      "11|5|Common|0|Max HP",
-     "11|4|Rare|0|Skill Level Up - Destructive Impulse",
+     "11|4|Rare|1|Skill Level Up - Destructive Impulse",
      "11|7|Legend|0|Skill Level Up - Rush Strike",
      "11|6|Common|0|Critical Hit",
      "11|9|Common|0|Defense",
@@ -1096,9 +1096,9 @@
      "10|7|Rare|1|Skill Level Up - Impact Hit",
      "10|9|Common|0|Critical Hit Resist",
      "10|12|Common|1|Critical Hit",
-     "11|3|Rare|0|Skill Level Up - Destructive Impulse",
+     "11|3|Rare|1|Skill Level Up - Destructive Impulse",
      "11|5|Legend|1|Skill Level Up - Rending Blow",
-     "11|4|Common|0|Defense",
+     "11|4|Common|1|Defense",
      "11|7|Common|0|Max HP",
      "11|6|Common|0|Critical Hit Resist",
      "11|9|Legend|1|Skill Level Up - Mocking Blade",
@@ -4483,15 +4483,15 @@
     },
     {
      "date": "2026-10-28",
-     "cp": 89281,
-     "il": 2023
+     "cp": 89722,
+     "il": 2060
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 89281,
-   "il": 2023,
+   "cp": 89722,
+   "il": 2060,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4516,10 +4516,10 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Unyielding Greaves",
-     "grade": "Legend",
+     "name": "Vakron Greaves",
+     "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0049_T05_Pants.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png"
     },
     {
      "slotPosName": "Helmet",
@@ -4811,7 +4811,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2023
+     "value": 2060
     }
    ],
    "title": {
@@ -5695,7 +5695,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -5725,7 +5725,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -5885,5 +5885,5 @@
    "race": 2
   }
  },
- "updated": "2026-10-28 15:36 UTC"
+ "updated": "2026-10-28 20:41 UTC"
 }

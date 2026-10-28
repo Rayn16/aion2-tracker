@@ -16,18 +16,23 @@
      "date": "2026-10-27",
      "cp": 94015,
      "il": 2001
+    },
+    {
+     "date": "2026-10-28",
+     "cp": 94723,
+     "il": 2002
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 94015,
-   "il": 2001,
+   "cp": 94723,
+   "il": 2002,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Aulamus Greatsword",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_GS_0028_T05.png"
     },
     {
@@ -335,7 +340,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2001
+     "value": 2002
     }
    ],
    "title": {
@@ -1422,12 +1427,17 @@
      "date": "2026-10-27",
      "cp": 62105,
      "il": 1332
+    },
+    {
+     "date": "2026-10-28",
+     "cp": 64242,
+     "il": 1375
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 62105,
-   "il": 1332,
+   "cp": 64242,
+   "il": 1375,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1459,10 +1469,10 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Liberator Helm",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Helmet.png"
+     "name": "Bakarma Helm",
+     "grade": "Unique",
+     "enchantLevel": 9,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Helmet.png"
     },
     {
      "slotPosName": "Shoulder",
@@ -1475,7 +1485,7 @@
      "slotPosName": "Gloves",
      "name": "Bakarma Gloves",
      "grade": "Unique",
-     "enchantLevel": 6,
+     "enchantLevel": 8,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png"
     },
     {
@@ -1522,10 +1532,10 @@
     },
     {
      "slotPosName": "Ring2",
-     "name": "Anguish Ring",
+     "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png"
     },
     {
      "slotPosName": "Ring1",
@@ -1610,10 +1620,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +2.7%"
+      "Status Effect Resist +3.5%"
      ],
      "type": "WIS",
-     "value": 27
+     "value": 35
     },
     {
      "name": "Justice [Nezekan]",
@@ -1627,11 +1637,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2%",
-      "Evasion increase +2%"
+      "Accuracy increase +2.8%",
+      "Evasion increase +2.8%"
      ],
      "type": "Freedom",
-     "value": 20
+     "value": 28
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -1672,11 +1682,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +2.8%",
-      "Regeneration Penetration +2.8%"
+      "Critical Hit increase +4.6%",
+      "Regeneration Penetration +4.6%"
      ],
      "type": "Death",
-     "value": 28
+     "value": 46
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -1699,21 +1709,21 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +1.4%",
-      "Block increase +1.4%"
+      "Move Speed +3.6%",
+      "Block increase +3.6%"
      ],
      "type": "Space",
-     "value": 14
+     "value": 36
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1332
+     "value": 1375
     }
    ],
    "title": {
-    "ownedCount": 157,
+    "ownedCount": 162,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -1731,8 +1741,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 52,
-      "ownedPercent": 51,
+      "ownedCount": 54,
+      "ownedPercent": 53,
       "statList": [
        {
         "desc": "Block +10"
@@ -1753,8 +1763,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 56,
-      "ownedPercent": 53,
+      "ownedCount": 57,
+      "ownedPercent": 54,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -1778,8 +1788,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 49,
-      "ownedPercent": 50,
+      "ownedCount": 51,
+      "ownedPercent": 52,
       "statList": [
        {
         "desc": "MP +20"
@@ -1827,8 +1837,8 @@
       "id": 24,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 47,
-      "openPercent": 41,
+      "openNodeCount": 55,
+      "openPercent": 47,
       "totalNodeCount": 116
      },
      {
@@ -1911,7 +1921,7 @@
       "id": 12340000,
       "name": "Flash Rampage",
       "needLevel": 5,
-      "skillLevel": 2
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -2031,7 +2041,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 9
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -2051,7 +2061,7 @@
       "id": 12780000,
       "name": "Fury",
       "needLevel": 21,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -2061,7 +2071,7 @@
       "id": 12790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -2520,7 +2530,7 @@
      "11|3|Common|1|Max HP",
      "11|2|Rare|1|Skill Level Up - Punishing Benediction",
      "11|9|Common|0|Defense",
-     "11|7|Common|0|Attack",
+     "11|7|Common|1|Attack",
      "11|6|Legend|1|Skill Level Up - Debilitating Smash",
      "11|13|Common|0|Critical Hit",
      "11|12|Common|1|Max HP",
@@ -2531,26 +2541,26 @@
      "12|4|Common|0|Defense",
      "12|9|Common|0|Attack",
      "12|8|Common|0|Max MP",
-     "12|7|Common|0|Critical Hit",
+     "12|7|Common|1|Critical Hit",
      "12|14|Common|0|Critical Hit Resist",
      "12|12|Common|1|Max MP",
      "13|2|Common|1|Critical Hit Resist",
-     "13|7|Rare|0|Skill Level Up - Fury",
+     "13|7|Rare|1|Skill Level Up - Fury",
      "13|6|Common|0|Max HP",
      "13|5|Common|0|Critical Hit Resist",
      "13|4|Legend|0|Skill Level Up - Poach",
      "13|11|Common|0|Max HP",
      "13|10|Common|0|Max MP",
-     "13|9|Rare|0|Skill Level Up - Survival Willpower",
+     "13|9|Rare|1|Skill Level Up - Survival Willpower",
      "13|14|Common|0|Max HP",
      "13|12|Legend|1|Skill Level Up - Vicious Strike",
      "14|4|Common|0|Attack",
      "14|3|Common|0|Max MP",
      "14|2|Unique|1|Multi-Hit Chance",
-     "14|8|Unique|0|Multi-Hit Resist",
-     "14|7|Common|0|Attack",
+     "14|8|Unique|1|Multi-Hit Resist",
+     "14|7|Common|1|Attack",
      "14|12|Common|1|Critical Hit Resist",
-     "14|9|Common|0|Defense",
+     "14|9|Common|1|Defense",
      "14|14|Unique|1|Multi-Hit Chance",
      "14|13|Common|1|Defense",
      "2|4|Common|0|Critical Hit",
@@ -2560,7 +2570,7 @@
      "2|7|Common|0|Attack",
      "2|12|Common|1|Defense",
      "2|9|Common|1|Defense",
-     "2|14|Unique|0|Multi-Hit Resist",
+     "2|14|Unique|1|Multi-Hit Resist",
      "2|13|Common|1|Max HP",
      "3|5|Common|0|Max MP",
      "3|4|Legend|0|Skill Level Up - Shield Smite",
@@ -2941,13 +2951,18 @@
      "date": "2026-10-27",
      "cp": 63050,
      "il": 1311
+    },
+    {
+     "date": "2026-10-28",
+     "cp": 67170,
+     "il": 1336
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 63050,
-   "il": 1311,
+   "cp": 67170,
+   "il": 1336,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2958,10 +2973,10 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Spiritforged Guard",
+     "name": "Bakarma Guard",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_011.png"
     },
     {
      "slotPosName": "Torso",
@@ -2995,7 +3010,7 @@
      "slotPosName": "Gloves",
      "name": "Bakarma Gloves",
      "grade": "Unique",
-     "enchantLevel": 7,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png"
     },
     {
@@ -3094,10 +3109,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.5%"
+      "Attack increase +3.4%"
      ],
      "type": "STR",
-     "value": 25
+     "value": 34
     },
     {
      "name": "Dexterity",
@@ -3152,29 +3167,29 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2%",
-      "Evasion increase +2%"
+      "Accuracy increase +2.8%",
+      "Evasion increase +2.8%"
      ],
      "type": "Freedom",
-     "value": 20
+     "value": 28
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.5%",
-      "Endurance Penetration +0.5%"
+      "Cooldown -0.7%",
+      "Endurance Penetration +0.7%"
      ],
      "type": "Illusion",
-     "value": 5
+     "value": 7
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +0.9%",
-      "Regeneration +0.9%"
+      "HP increase +1.1%",
+      "Regeneration +1.1%"
      ],
      "type": "Life",
-     "value": 9
+     "value": 11
     },
     {
      "name": "Time [Siel]",
@@ -3197,48 +3212,48 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +2.8%",
-      "Regeneration Penetration +2.8%"
+      "Critical Hit increase +3.2%",
+      "Regeneration Penetration +3.2%"
      ],
      "type": "Death",
-     "value": 28
+     "value": 32
     },
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.5%",
-      "Double Chance +0.5%"
+      "MP Cost -0.7%",
+      "Double Chance +0.7%"
      ],
      "type": "Wisdom",
-     "value": 5
+     "value": 7
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +0.9%",
-      "Endurance +0.9%"
+      "MP increase +1.1%",
+      "Endurance +1.1%"
      ],
      "type": "Destiny",
-     "value": 9
+     "value": 11
     },
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +1.4%",
-      "Block increase +1.4%"
+      "Move Speed +3.6%",
+      "Block increase +3.6%"
      ],
      "type": "Space",
-     "value": 14
+     "value": 36
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1311
+     "value": 1336
     }
    ],
    "title": {
-    "ownedCount": 163,
+    "ownedCount": 173,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -3253,8 +3268,8 @@
       "grade": "Legend",
       "id": 21020046,
       "name": "Even Better",
-      "ownedCount": 56,
-      "ownedPercent": 53,
+      "ownedCount": 59,
+      "ownedPercent": 56,
       "statList": [
        {
         "desc": "HP Potion Recovery increase +2%"
@@ -3278,8 +3293,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 54,
-      "ownedPercent": 53,
+      "ownedCount": 57,
+      "ownedPercent": 56,
       "statList": [
        {
         "desc": "Block +10"
@@ -3303,8 +3318,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 53,
-      "ownedPercent": 54,
+      "ownedCount": 57,
+      "ownedPercent": 58,
       "statList": [
        {
         "desc": "MP +20"
@@ -3325,8 +3340,8 @@
       "id": 71,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 49,
-      "openPercent": 56,
+      "openNodeCount": 57,
+      "openPercent": 65,
       "totalNodeCount": 88
      },
      {
@@ -3381,16 +3396,16 @@
      "11|4|Common|1|Max MP",
      "11|5|Legend|1|Skill Level Up - Healing Light",
      "11|3|Rare|1|Skill Level Up - Immortal Veil",
-     "11|8|Legend|0|Skill Level Up - Divine Aura",
-     "11|9|Common|0|Critical Hit Resist",
+     "11|8|Legend|1|Skill Level Up - Divine Aura",
+     "11|9|Common|1|Critical Hit Resist",
      "11|7|Common|0|Max MP",
      "10|12|Common|1|Max MP",
      "10|9|Common|0|Critical Hit",
      "12|5|Common|1|Critical Hit",
      "12|6|Common|0|Attack",
      "12|3|Common|1|Max HP",
-     "12|9|Common|0|Attack",
-     "12|10|Common|0|Max HP",
+     "12|9|Common|1|Attack",
+     "12|10|Common|1|Max HP",
      "12|7|Common|0|Max HP",
      "11|12|Common|1|Attack",
      "11|13|Rare|1|Skill Level Up - Empyrean Lords' Benediction",
@@ -3399,10 +3414,10 @@
      "13|4|Common|0|Critical Hit Resist",
      "13|5|Rare|1|Skill Level Up - Empyrean Lords' Grace",
      "13|11|Common|0|Critical Hit",
-     "13|8|Common|0|Critical Hit",
-     "13|9|Rare|0|Skill Level Up - Warm Benediction",
+     "13|8|Common|1|Critical Hit",
+     "13|9|Rare|1|Skill Level Up - Warm Benediction",
      "12|13|Common|1|Critical Hit Resist",
-     "12|11|Legend|0|Skill Level Up - Light of Regeneration",
+     "12|11|Legend|1|Skill Level Up - Light of Regeneration",
      "13|3|Unique|1|Cooldown Reduction",
      "13|12|Common|0|Defense",
      "13|13|Unique|1|Combat Speed",
@@ -3412,7 +3427,7 @@
      "3|4|Common|0|Attack",
      "3|5|Common|0|Critical Hit Resist",
      "3|3|Unique|1|Combat Speed",
-     "3|8|Common|0|Critical Hit Resist",
+     "3|8|Common|1|Critical Hit Resist",
      "3|9|Legend|1|Skill Level Up - Radiant Recovery",
      "3|7|Rare|0|Skill Level Up - Empyrean Lords' Benediction",
      "4|13|Common|1|Max MP",
@@ -4120,7 +4135,7 @@
       "id": 17150000,
       "name": "Divine Aura",
       "needLevel": 3,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -4150,7 +4165,7 @@
       "id": 17090000,
       "name": "Light of Regeneration",
       "needLevel": 7,
-      "skillLevel": 13
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -4200,7 +4215,7 @@
       "id": 17240000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 2
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -4210,7 +4225,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 9
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -4300,7 +4315,7 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 11
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -4443,10 +4458,10 @@
     },
     "wing": {
      "enchantLevel": 0,
-     "grade": "Legend",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_007.png",
-     "id": 40200700,
-     "name": "Superior Daeva Wings"
+     "grade": "Unique",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
+     "id": 40200100,
+     "name": "Ultimate Daeva Wings"
     },
     "wingSkin": {
      "enchantLevel": null,
@@ -4465,12 +4480,17 @@
      "date": "2026-10-27",
      "cp": 87047,
      "il": 1963
+    },
+    {
+     "date": "2026-10-28",
+     "cp": 87073,
+     "il": 1963
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 87047,
+   "cp": 87073,
    "il": 1963,
    "gear": [
     {
@@ -5862,5 +5882,5 @@
    "race": 2
   }
  },
- "updated": "2026-10-27 23:02 UTC"
+ "updated": "2026-10-28 02:28 UTC"
 }

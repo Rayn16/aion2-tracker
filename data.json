@@ -2954,14 +2954,14 @@
     },
     {
      "date": "2026-10-28",
-     "cp": 67170,
+     "cp": 67178,
      "il": 1336
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 67170,
+   "cp": 67178,
    "il": 1336,
    "gear": [
     {
@@ -4483,21 +4483,21 @@
     },
     {
      "date": "2026-10-28",
-     "cp": 87073,
-     "il": 1963
+     "cp": 89281,
+     "il": 2023
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 87073,
-   "il": 1963,
+   "cp": 89281,
+   "il": 2023,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Aulamus Staff",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0028_T05.png"
     },
     {
@@ -4551,10 +4551,10 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Bakarma Cloak",
+     "name": "Vakron Cloak",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Cape.png"
     },
     {
      "slotPosName": "Belt",
@@ -4630,7 +4630,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 7,
+     "enchantLevel": 8,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png"
     },
     {
@@ -4681,12 +4681,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.3%",
-      "Block increase +0.3%",
-      "Critical Hit Resist increase +0.3%"
+      "Evasion increase +1.9%",
+      "Block increase +1.9%",
+      "Critical Hit Resist increase +1.9%"
      ],
      "type": "DEX",
-     "value": 3
+     "value": 19
     },
     {
      "name": "Intelligence",
@@ -4697,10 +4697,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.4%"
+      "HP increase +2.4%"
      ],
      "type": "CON",
-     "value": 14
+     "value": 24
     },
     {
      "name": "Precision",
@@ -4811,34 +4811,12 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1963
+     "value": 2023
     }
    ],
    "title": {
-    "ownedCount": 194,
+    "ownedCount": 198,
     "titleList": [
-     {
-      "equipCategory": "Attack",
-      "equipStatList": [
-       {
-        "desc": "Critical Attack +30"
-       },
-       {
-        "desc": "Block Penetration +40"
-       }
-      ],
-      "grade": "Legend",
-      "id": 21020038,
-      "name": "Celebrity",
-      "ownedCount": 63,
-      "ownedPercent": 60,
-      "statList": [
-       {
-        "desc": "Penetration +20"
-       }
-      ],
-      "totalCount": 105
-     },
      {
       "equipCategory": "Etc",
       "equipStatList": [
@@ -4880,14 +4858,39 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 64,
-      "ownedPercent": 65,
+      "ownedCount": 66,
+      "ownedPercent": 67,
       "statList": [
        {
         "desc": "MP +20"
        }
       ],
       "totalCount": 98
+     },
+     {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "Critical Attack +45"
+       },
+       {
+        "desc": "Critical Damage Boost +3%"
+       },
+       {
+        "desc": "Accuracy Bonus +60"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23050017,
+      "name": "Golden Glow",
+      "ownedCount": 65,
+      "ownedPercent": 62,
+      "statList": [
+       {
+        "desc": "Critical Attack +3"
+       }
+      ],
+      "totalCount": 105
      }
     ],
     "totalCount": 304
@@ -4902,8 +4905,8 @@
       "id": 81,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 52,
-      "openPercent": 59,
+      "openNodeCount": 65,
+      "openPercent": 74,
       "totalNodeCount": 88
      },
      {
@@ -4911,8 +4914,8 @@
       "id": 82,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 29,
-      "openPercent": 33,
+      "openNodeCount": 35,
+      "openPercent": 40,
       "totalNodeCount": 88
      },
      {
@@ -4974,11 +4977,11 @@
      "4|5|Legend|1|Skill Level Up - Dark Crush",
      "4|6|Common|0|Max MP",
      "6|4|Common|1|Max HP",
-     "5|12|Common|0|Max HP",
-     "5|13|Rare|0|Skill Level Up - Inspiring Spell",
+     "5|12|Common|1|Max HP",
+     "5|13|Rare|1|Skill Level Up - Inspiring Spell",
      "5|8|Legend|1|Skill Level Up - Charging Smash",
      "5|9|Common|1|Max HP",
-     "5|11|Legend|0|Skill Level Up - Recuperation",
+     "5|11|Legend|1|Skill Level Up - Recuperation",
      "5|4|Common|1|Defense",
      "5|5|Common|1|Max HP",
      "5|7|Common|1|Critical Hit",
@@ -4991,14 +4994,14 @@
      "6|7|Common|1|Critical Hit Resist",
      "8|3|Legend|1|Skill Level Up - Defiance",
      "8|6|Common|1|Defense",
-     "7|10|Rare|0|Skill Level Up - Attack Preparation",
+     "7|10|Rare|1|Skill Level Up - Attack Preparation",
      "7|11|Common|0|Max MP",
      "7|12|Common|0|Critical Hit",
      "7|13|Common|0|Critical Hit Resist",
      "7|6|Common|1|Max HP",
      "7|7|Common|1|Max MP",
      "7|8|Common|1|Attack",
-     "7|9|Common|0|Critical Hit Resist",
+     "7|9|Common|1|Critical Hit Resist",
      "9|4|Common|0|Critical Hit Resist",
      "9|5|Common|0|Max HP",
      "9|6|Rare|1|Skill Level Up - Inspiring Spell",
@@ -5009,7 +5012,7 @@
      "8|10|Common|0|Attack",
      "10|5|Common|0|Defense",
      "10|7|Common|0|Attack",
-     "10|3|Common|0|Attack",
+     "10|3|Common|1|Attack",
      "9|12|Common|1|Defense",
      "9|13|Common|1|Max HP",
      "9|8|Common|1|Defense",
@@ -5019,27 +5022,27 @@
      "11|7|Common|1|Max MP",
      "11|8|Legend|1|Skill Level Up - Impactful Crush",
      "11|9|Common|1|Critical Hit Resist",
-     "11|3|Rare|0|Skill Level Up - Attack Preparation",
+     "11|3|Rare|1|Skill Level Up - Attack Preparation",
      "11|4|Common|0|Max MP",
      "11|5|Legend|1|Skill Level Up - Tremor Crush",
      "10|9|Common|1|Critical Hit",
      "10|12|Common|1|Max MP",
      "12|7|Common|1|Max HP",
-     "12|9|Common|0|Attack",
+     "12|9|Common|1|Attack",
      "12|10|Common|0|Max HP",
-     "12|3|Common|0|Max HP",
+     "12|3|Common|1|Max HP",
      "12|5|Common|1|Critical Hit",
      "12|6|Common|1|Attack",
      "11|11|Common|1|Max MP",
      "11|12|Common|1|Attack",
-     "11|13|Rare|0|Skill Level Up - Crossguard",
+     "11|13|Rare|1|Skill Level Up - Crossguard",
      "13|8|Common|0|Critical Hit",
-     "13|9|Rare|0|Skill Level Up - Blessing of Life",
+     "13|9|Rare|1|Skill Level Up - Blessing of Life",
      "13|11|Common|1|Critical Hit",
-     "13|4|Common|0|Critical Hit Resist",
+     "13|4|Common|1|Critical Hit Resist",
      "13|5|Rare|1|Skill Level Up - Protection Circle",
      "13|7|Legend|1|Skill Level Up - Spinning Strike",
-     "13|3|Unique|0|Cooldown Reduction",
+     "13|3|Unique|1|Cooldown Reduction",
      "12|11|Legend|1|Skill Level Up - Heat Wave Blow",
      "12|13|Common|0|Critical Hit Resist",
      "13|12|Common|1|Defense",
@@ -5054,14 +5057,14 @@
      "3|7|Legend|1|Skill Level Up - Gust Rampage",
      "3|8|Common|0|Defense",
      "3|9|Rare|0|Skill Level Up - Impact Hit",
-     "3|3|Unique|0|Damage Tolerance",
+     "3|3|Unique|1|Damage Tolerance",
      "3|4|Common|1|Critical Hit",
      "3|5|Common|1|Max MP",
-     "5|3|Legend|0|Skill Level Up - Onslaught",
+     "5|3|Legend|1|Skill Level Up - Onslaught",
      "4|13|Common|0|Critical Hit",
      "4|7|Common|1|Max HP",
      "4|10|Common|1|Max MP",
-     "4|3|Common|0|Attack",
+     "4|3|Common|1|Attack",
      "4|5|Rare|0|Skill Level Up - Wind's Promise",
      "6|3|Common|0|Critical Hit",
      "5|12|Rare|0|Skill Level Up - Survival Willpower",
@@ -5103,7 +5106,7 @@
      "10|3|Common|0|Critical Hit",
      "9|12|Common|0|Max MP",
      "9|13|Common|0|Attack",
-     "9|9|Common|0|Critical Hit Resist",
+     "9|9|Common|1|Critical Hit Resist",
      "9|11|Legend|0|Skill Level Up - Wave Blow",
      "11|6|Common|1|Critical Hit",
      "11|7|Legend|1|Skill Level Up - Tremor Crush",
@@ -5122,14 +5125,14 @@
      "11|11|Common|0|Attack",
      "11|12|Common|0|Max MP",
      "11|13|Legend|0|Skill Level Up - Heat Wave Blow",
-     "13|8|Common|0|Attack",
+     "13|8|Common|1|Attack",
      "13|9|Legend|0|Skill Level Up - Defiance",
      "13|10|Common|0|Critical Hit",
      "13|11|Common|0|Max HP",
      "13|4|Common|1|Attack",
      "13|5|Legend|1|Skill Level Up - Dark Crush",
      "13|6|Common|1|Defense",
-     "13|7|Rare|0|Skill Level Up - Impact Hit",
+     "13|7|Rare|1|Skill Level Up - Impact Hit",
      "13|3|Unique|1|Damage Boost",
      "12|11|Rare|0|Skill Level Up - Earth's Promise",
      "12|13|Common|0|Defense",
@@ -5512,7 +5515,7 @@
       "id": 18010000,
       "name": "Onslaught",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -5582,7 +5585,7 @@
       "id": 18120000,
       "name": "Recuperation",
       "needLevel": 8,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -5642,7 +5645,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -5662,7 +5665,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -5672,7 +5675,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 12
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -5682,7 +5685,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -5722,7 +5725,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -5742,7 +5745,7 @@
       "id": 18190000,
       "name": "Undefeated Mantra",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 18
      },
      {
       "acquired": 0,
@@ -5762,7 +5765,7 @@
       "id": 18160000,
       "name": "Sprint Mantra",
       "needLevel": 22,
-      "skillLevel": 11
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -5782,7 +5785,7 @@
       "id": 18330000,
       "name": "Marchutan's Wrath",
       "needLevel": 22,
-      "skillLevel": 6
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -5866,21 +5869,21 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
-     "id": 40200100,
-     "name": "Ultimate Daeva Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_012.png",
+     "id": 40101200,
+     "name": "Black Fragment Wings"
     },
     "wingSkin": {
-     "enchantLevel": 0,
-     "grade": "Legend",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingE_001A.png",
-     "id": 40500101,
-     "name": "Glorious Wings"
+     "enchantLevel": null,
+     "grade": null,
+     "icon": null,
+     "id": null,
+     "name": null
     }
    },
    "pcId": 36,
    "race": 2
   }
  },
- "updated": "2026-10-28 02:28 UTC"
+ "updated": "2026-10-28 08:51 UTC"
 }

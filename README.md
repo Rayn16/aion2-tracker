@@ -5,7 +5,7 @@ Daily combat power, item level and gear for our legion, ranked by player, with a
 - Profile: your characters and your friends' characters. Inside Premade's Aion 2 page the tracker knows your League account and friends from Premade, so you only pick which Aion 2 characters are yours, once. Those picks are kept by Premade's server (`/aion`) and read by the update every 30 minutes.
 - Legion: every player, ranked by their strongest character, with all their characters.
 - Classes: a guide page for each of the 8 classes (role, skills in the order to level them, Daevanion picks, the legion’s best gear for it), built from the same build lists as Next upgrade.
-- Gear checkup (on each character's Gear tab): empty manastone and Theostone slots, Common manastones and items below max enchant, from each item's own page (read again once a day, or when the item or its enchant changes).
+- Gear checkup (on each character's Gear tab): empty manastone and Theostone slots, Common manastones and items below max enchant, from each item's own page (read again once a day, or when the item or its enchant changes). Compare shows both characters' manastones and Theostones slot by slot.
 - Latest: what each character gained between updates (enchants, new gear, titles, skills, Daevanion nodes), on Legion and on your Profile.
 - News: Aion 2's own patch notes and announcements, with a banner when maintenance is coming.
 - To add a character by hand, put it in `members.txt` (`Name, Server, Owner's Riot ID`, EU region).

@@ -648,7 +648,7 @@ function compare(params) {
     <section class="panel wrap"><h2 class="ph">Gear by slot</h2><table class="cmp">
       <tr><th>Slot</th><th>${esc(a.name)}</th><th>${esc(b.name)}</th><th class="n">Enchant</th></tr>
       ${slots.map(s => { const x = at(a, s), y = at(b, s); return `<tr><td class="sub">${esc(s)}</td>
-        <td>${x ? `${esc(x.name)} <b>+${x.enchantLevel}</b>` : '–'}</td><td>${y ? `${esc(y.name)} <b>+${y.enchantLevel}</b>` : '–'}</td>
+        <td>${x ? `${esc(x.name)} <b>+${x.enchantLevel}</b>${stoneRow(x)}` : '–'}</td><td>${y ? `${esc(y.name)} <b>+${y.enchantLevel}</b>${stoneRow(y)}` : '–'}</td>
         <td class="n">${x && y ? diff(x.enchantLevel, y.enchantLevel) : ''}</td></tr>`; }).join('')}
     </table></section>`;
 }

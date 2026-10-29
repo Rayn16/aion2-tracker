@@ -24,14 +24,14 @@
     },
     {
      "date": "2026-10-29",
-     "cp": 99498,
-     "il": 2038
+     "cp": 101087,
+     "il": 2119
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 99498,
-   "il": 2038,
+   "cp": 101087,
+   "il": 2119,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -63,10 +63,10 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Divine Canyon Helm",
+     "name": "Corrupted Judicator Helm",
      "grade": "Legend",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0072_T05_Helmet.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_Kromede_01_Helmet.png"
     },
     {
      "slotPosName": "Shoulder",
@@ -77,10 +77,10 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Vakron Gloves",
+     "name": "Nuakum Gloves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png"
     },
     {
      "slotPosName": "Boots",
@@ -100,7 +100,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 5,
+     "enchantLevel": 7,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png"
     },
     {
@@ -125,18 +125,18 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png"
     },
     {
-     "slotPosName": "Ring2",
+     "slotPosName": "Ring1",
      "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png"
     },
     {
-     "slotPosName": "Ring1",
-     "name": "Liberator Ring",
+     "slotPosName": "Ring2",
+     "name": "Black Claw Ring",
      "grade": "Legend",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0057.png"
     },
     {
      "slotPosName": "Bracelet1",
@@ -170,13 +170,13 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 5,
+     "enchantLevel": 7,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png"
     },
     {
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
-     "grade": "Common",
+     "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png"
     },
@@ -190,7 +190,7 @@
     {
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
-     "grade": "Common",
+     "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png"
     },
@@ -263,11 +263,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2.2%",
-      "Evasion increase +2.2%"
+      "Accuracy increase +4%",
+      "Evasion increase +4%"
      ],
      "type": "Freedom",
-     "value": 22
+     "value": 40
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -290,11 +290,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +4.9%",
-      "Double Resist +4.9%"
+      "Combat Speed +5.3%",
+      "Double Resist +5.3%"
      ],
      "type": "Time",
-     "value": 49
+     "value": 53
     },
     {
      "name": "Destruction [Zikel]",
@@ -308,11 +308,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +1.6%",
-      "Regeneration Penetration +1.6%"
+      "Critical Hit increase +3.4%",
+      "Regeneration Penetration +3.4%"
      ],
      "type": "Death",
-     "value": 16
+     "value": 34
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -335,22 +335,44 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +2.4%",
-      "Block increase +2.4%"
+      "Move Speed +3.2%",
+      "Block increase +3.2%"
      ],
      "type": "Space",
-     "value": 24
+     "value": 32
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2038
+     "value": 2119
     }
    ],
    "title": {
-    "ownedCount": 188,
+    "ownedCount": 192,
     "titleList": [
+     {
+      "equipCategory": "Defense",
+      "equipStatList": [
+       {
+        "desc": "Boss Damage Tolerance +3%"
+       },
+       {
+        "desc": "Critical Damage Tolerance +2%"
+       }
+      ],
+      "grade": "Legend",
+      "id": 21020041,
+      "name": "Action over Words",
+      "ownedCount": 67,
+      "ownedPercent": 68,
+      "statList": [
+       {
+        "desc": "Out-of-Combat Natural Stamina Regen +5"
+       }
+      ],
+      "totalCount": 98
+     },
      {
       "equipCategory": "Etc",
       "equipStatList": [
@@ -389,39 +411,14 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 62,
-      "ownedPercent": 59,
+      "ownedCount": 63,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "PvE Attack +4"
        }
       ],
       "totalCount": 105
-     },
-     {
-      "equipCategory": "Defense",
-      "equipStatList": [
-       {
-        "desc": "Defense Bonus +300"
-       },
-       {
-        "desc": "Damage Tolerance +3%"
-       },
-       {
-        "desc": "Block +100"
-       }
-      ],
-      "grade": "Unique",
-      "id": 22030003,
-      "name": "Saint of Altgard",
-      "ownedCount": 64,
-      "ownedPercent": 65,
-      "statList": [
-       {
-        "desc": "MP +20"
-       }
-      ],
-      "totalCount": 98
      }
     ],
     "totalCount": 304
@@ -577,7 +574,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -607,7 +604,7 @@
       "id": 11260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -637,7 +634,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -667,7 +664,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -687,7 +684,7 @@
       "id": 11780000,
       "name": "Experienced Counterstrike",
       "needLevel": 21,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -697,7 +694,7 @@
       "id": 11790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -843,10 +840,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_SkurvWar_01.png",
-     "id": 1054,
-     "level": 3,
-     "name": "Mumu Warrior"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_BeritraC_03.png",
+     "id": 1014,
+     "level": 1,
+     "name": "Drakan Guard Dog"
     },
     "wing": {
      "enchantLevel": 0,
@@ -4503,15 +4500,15 @@
     },
     {
      "date": "2026-10-29",
-     "cp": 89723,
-     "il": 2060
+     "cp": 96830,
+     "il": 2130
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 89723,
-   "il": 2060,
+   "cp": 96830,
+   "il": 2130,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4599,10 +4596,10 @@
     },
     {
      "slotPosName": "Earring2",
-     "name": "Liberator Earrings",
+     "name": "Murute Earrings",
      "grade": "Legend",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0048.png"
     },
     {
      "slotPosName": "Ring2",
@@ -4622,7 +4619,7 @@
      "slotPosName": "Bracelet1",
      "name": "Ascension Bracelet",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png"
     },
     {
@@ -4650,20 +4647,20 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 8,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png"
     },
     {
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
-     "grade": "Common",
+     "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png"
     },
     {
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
-     "grade": "Common",
+     "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png"
     },
@@ -4749,11 +4746,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2.8%",
-      "Evasion increase +2.8%"
+      "Accuracy increase +3.6%",
+      "Evasion increase +3.6%"
      ],
      "type": "Freedom",
-     "value": 28
+     "value": 36
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -4767,20 +4764,20 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.9%",
-      "Regeneration +1.9%"
+      "HP increase +2.7%",
+      "Regeneration +2.7%"
      ],
      "type": "Life",
-     "value": 19
+     "value": 27
     },
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +4.9%",
-      "Double Resist +4.9%"
+      "Combat Speed +5.3%",
+      "Double Resist +5.3%"
      ],
      "type": "Time",
-     "value": 49
+     "value": 53
     },
     {
      "name": "Destruction [Zikel]",
@@ -4794,11 +4791,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +2.8%",
-      "Regeneration Penetration +2.8%"
+      "Critical Hit increase +3.6%",
+      "Regeneration Penetration +3.6%"
      ],
      "type": "Death",
-     "value": 28
+     "value": 36
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -4821,21 +4818,21 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +1.4%",
-      "Block increase +1.4%"
+      "Move Speed +4.6%",
+      "Block increase +4.6%"
      ],
      "type": "Space",
-     "value": 14
+     "value": 46
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2060
+     "value": 2130
     }
    ],
    "title": {
-    "ownedCount": 200,
+    "ownedCount": 203,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -4878,8 +4875,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 67,
-      "ownedPercent": 68,
+      "ownedCount": 69,
+      "ownedPercent": 70,
       "statList": [
        {
         "desc": "MP +20"
@@ -4903,8 +4900,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 66,
-      "ownedPercent": 63,
+      "ownedCount": 67,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -5535,7 +5532,7 @@
       "id": 18010000,
       "name": "Onslaught",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -5565,7 +5562,7 @@
       "id": 18060000,
       "name": "Impactful Crush",
       "needLevel": 3,
-      "skillLevel": 6
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -5575,7 +5572,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -5605,7 +5602,7 @@
       "id": 18120000,
       "name": "Recuperation",
       "needLevel": 8,
-      "skillLevel": 14
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -5615,7 +5612,7 @@
       "id": 18210000,
       "name": "Tremor Crush",
       "needLevel": 10,
-      "skillLevel": 7
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -5625,7 +5622,7 @@
       "id": 18080000,
       "name": "Wave Blow",
       "needLevel": 12,
-      "skillLevel": 10
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -5635,7 +5632,7 @@
       "id": 18290000,
       "name": "Spinning Strike",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -5675,7 +5672,7 @@
       "id": 18730000,
       "name": "Protection Circle",
       "needLevel": 9,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -5685,7 +5682,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -5695,7 +5692,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -5715,7 +5712,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -5765,7 +5762,7 @@
       "id": 18190000,
       "name": "Undefeated Mantra",
       "needLevel": 22,
-      "skillLevel": 18
+      "skillLevel": 20
      },
      {
       "acquired": 0,
@@ -5785,7 +5782,7 @@
       "id": 18160000,
       "name": "Sprint Mantra",
       "needLevel": 22,
-      "skillLevel": 7
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -5838,7 +5835,7 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
       "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_025.png",
@@ -5905,5 +5902,5 @@
    "race": 2
   }
  },
- "updated": "2026-10-29 00:31 UTC"
+ "updated": "2026-10-29 06:37 UTC"
 }

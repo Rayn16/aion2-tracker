@@ -118,7 +118,7 @@ input, select { font: 15px/1.2 var(--body); padding: 10px 12px; border: 1px soli
 .meter i { display: block; height: 100%; border-radius: 3px; background: var(--good); }
 
 .grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; align-items: start; }
-.grid2.even { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.grid2.even { grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); }
 .gear.one { grid-template-columns: minmax(0, 1fr); }
 .list { display: grid; gap: 10px; }
 ol.list { margin: 0; padding-left: 22px; gap: 6px; }
@@ -155,6 +155,19 @@ table.skills .meter { min-width: 80px; }
 .tag { font: 500 11px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--link); margin-left: 8px; }
 .player { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
 .player .name { font: 700 16px/1.2 var(--display); letter-spacing: 0.04em; }
+/* portraits from the official character pages */
+.who { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.pic { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 1px solid var(--gold-line); background: var(--raised); flex: none; }
+.pic.big { width: 56px; height: 56px; }
+/* manastones (dots) and Theostones (diamonds) on an item; hollow = empty slot */
+.stones { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px; }
+.stone { width: 10px; height: 10px; border-radius: 50%; background: var(--g, var(--muted)); }
+.stone.god { border-radius: 1px; transform: rotate(45deg) scale(0.85); }
+.stone.hollow { background: none; border: 1px dashed var(--muted); }
+.feed { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 14px; }
+.feed li { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 10px; }
+.feed time { font: 500 12px/1.5 var(--mono); color: var(--muted); }
+.banner { padding: 12px 16px; border: 1px solid var(--warn); border-radius: 8px; background: color-mix(in srgb, var(--warn) 10%, transparent); }
 </style>
 <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
 </head>
@@ -166,6 +179,7 @@ table.skills .meter { min-width: 80px; }
     <a class="nav" href="#/legion" data-r="legion"><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5c2.4 0 4 1.5 4.5 4"/></svg><span>Legion</span></a>
     <a class="nav" href="#/classes" data-r="classes"><svg class="i" viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/></svg><span>Classes</span></a>
     <a class="nav" href="#/compare" data-r="compare"><svg class="i" viewBox="0 0 24 24"><path d="M8 4v16M16 4v16M4 8h4M4 16h4M16 8h4M16 16h4"/></svg><span>Compare</span></a>
+    <a class="nav" href="#/news" data-r="news"><svg class="i" viewBox="0 0 24 24"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7 9h7M7 13h7M7 16h4"/></svg><span>News</span></a>
     <a class="nav" href="#/settings" data-r="settings"><svg class="i" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>Settings</span></a>
   </nav>
   <main><div class="view" id="view"></div></main>
@@ -265,8 +279,9 @@ const head = (eyebrow, title, right = '') => `<header class="head"><div><p class
 const memberLink = n => '#/member/' + encodeURIComponent(n);
 
 const tag = o => isMe(o) ? '<span class="tag">You</span>' : isFriend(o) ? '<span class="tag">Friend</span>' : '';
+const pic = (m, cls = '') => m.pic ? `<img class="pic ${cls}" src="${esc(m.pic)}" alt="" loading="lazy">` : '';
 const charCard = m => `<a class="card" href="${memberLink(m.name)}" style="--c:${m.color}">
-  <div><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Level ${m.level} · #${LIST.indexOf(m) + 1} in the legion</div></div>
+  <div class="who">${pic(m)}<div style="min-width:0"><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Level ${m.level} · #${LIST.indexOf(m) + 1} in the legion</div></div></div>
   <div class="stats"><div><span>CP</span><b>${fmt(m.cp)}</b></div><div><span>Item lv</span><b>${fmt(m.il)}</b></div>
     <div><span>7 days</span><b class="${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</b></div></div></a>`;
 // just claimed, so no stats until the next update
@@ -282,6 +297,7 @@ function profile() {
   return head('Profile', esc(nick(ME)), rank ? `<span class="hint">#${rank} of ${PLAYERS.length} in the legion</span>` : '') + `
     ${chars.length ? `<section class="panel"><h2 class="ph">Your characters <a class="hint" href="#/settings">Change</a></h2>
       <div class="cards">${chars.map(m => m.n ? pendingCard(m) : charCard(m)).join('')}</div></section>` : claimBox()}
+    <section class="panel"><h2 class="ph">Lately, you and your friends</h2>${feedList((DATA.feed || []).filter(f => { const o = LIST.find(m => m.name === f.n)?.owner; return isMe(o) || isFriend(o); }))}</section>
     ${chars.some(m => m.history) ? `<section class="panel"><h2 class="ph">Combat power over time</h2>
       ${lineChart(chars.filter(m => m.history).map(m => ({ name: m.name, color: m.color, points: m.history.map(h => ({ date: h.date, v: h.cp })) })))}</section>` : ''}
     <section class="panel"><h2 class="ph">Friends <span class="hint">${friends.length} in the legion</span></h2>
@@ -290,25 +306,54 @@ function profile() {
     </section>`;
 }
 
+// the legion feed: what each character gained between updates (fetch.py's changes()), newest first
+const ago = t => { const h = (Date.now() - Date.parse(t.replace(' ', 'T') + 'Z')) / 36e5; return h < 1 ? Math.max(1, Math.round(h * 60)) + ' min' : h < 24 ? Math.round(h) + ' h' : Math.round(h / 24) + ' d'; };
+const feedList = xs => xs.length ? `<ol class="feed">${xs.slice(0, 12).map(f => `<li><time>${ago(f.t)} ago</time>
+  <span><a href="${memberLink(f.n)}">${esc(f.n)}</a> ${esc(f.x)}</span></li>`).join('')}</ol>` : '<p class="hint">Nothing new lately. Enchants, new gear, titles, skills and Daevanion nodes show here.</p>';
+
 // players ranked by their strongest character, each with their characters, strongest first
 function legion() {
   if (!LIST.length) return head('Legion', 'Legion') + '<div class="panel empty">No characters yet. They show up within 30 minutes.</div>';
-  return head('Everyone, ranked', 'Legion', `<span class="hint">${PLAYERS.length} players · ${LIST.length} characters</span>`) + PLAYERS.map((p, i) => `
+  return head('Everyone, ranked', 'Legion', `<span class="hint">${PLAYERS.length} players · ${LIST.length} characters</span>`)
+    + `<section class="panel"><h2 class="ph">Latest</h2>${feedList(DATA.feed || [])}</section>` + PLAYERS.map((p, i) => `
     <section class="panel"><div class="player"><span class="rank ${i ? '' : 'first'}">${i + 1}</span>
       <span class="name">${esc(p.name)}${tag(p.id)}</span><span class="num">${fmt(p.chars[0].cp)} <span class="sub">best CP</span></span></div>
       <ol class="rows">${p.chars.map(m => `<li><a class="row" href="${memberLink(m.name)}" style="--c:${m.color}">
         <span class="rank">#${LIST.indexOf(m) + 1}</span>
-        <span><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Lv ${m.level} · IL ${fmt(m.il)}</div></span>
+        <span class="who">${pic(m)}<span style="min-width:0"><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Lv ${m.level} · IL ${fmt(m.il)}</div></span></span>
         <span><div class="num">${fmt(m.cp)}</div><div class="num sub ${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</div></span></a></li>`).join('')}</ol>
     </section>`).join('');
 }
 
+// each item's manastones (dots, by grade) and Theostones (diamonds); a hollow one is an empty slot
+const stoneRow = g => {
+  const st = g.stones || [], god = g.god || [], empty = (n, cls, t) => `<i class="stone ${cls} hollow" title="${t}"></i>`.repeat(Math.max(0, n));
+  return g.slots || g.godSlots ? `<div class="stones">${st.map(([n, v, gr]) => `<i class="stone" style="--g:${GRADE[gr] || 'var(--muted)'}" title="${esc(`${n} ${v} (${gr})`)}"></i>`).join('')}
+    ${empty(g.slots - st.length, '', 'Empty manastone slot')}${god.map(n => `<i class="stone god" style="--g:var(--best)" title="Theostone: ${esc(n)}"></i>`).join('')}${empty(g.godSlots - god.length, 'god', 'Empty Theostone slot')}</div>` : '';
+};
 function gearGrid(gear) {
   if (!gear?.length) return '<p class="hint">No gear data.</p>';
-  return `<div class="gear">${gear.map(g => `<div class="item" style="--g:${GRADE[g.grade] || 'var(--line)'}">
+  return `<div class="gear">${gear.map(g => `<div class="item" style="--g:${GRADE[g.grade] || 'var(--line)'}" ${g.src?.length ? `title="Drops from: ${esc(g.src.join(', '))}"` : ''}>
     <img src="${esc(g.icon)}" alt="" loading="lazy">
-    <div style="min-width:0"><div class="name">${esc(g.name)}</div><div class="sub">${esc(g.slotPosName)} · <span class="grade">${esc(g.grade)}</span></div></div>
-    <span class="ench">+${g.enchantLevel}</span></div>`).join('')}</div>`;
+    <div style="min-width:0"><div class="name">${esc(g.name)}</div><div class="sub">${esc(g.slotPosName)} · <span class="grade">${esc(g.grade)}</span></div>${stoneRow(g)}</div>
+    <span class="ench">+${g.enchantLevel}${g.max ? `<span class="sub">/${g.max}</span>` : ''}</span></div>`).join('')}</div>`;
+}
+
+// what's left to do on the gear, from each item's own page: empty slots first, then weak manastones, then enchants
+function checkup(gear) {
+  const has = (gear || []).filter(g => 'max' in g);
+  if (!has.length) return '<p class="hint">Item details arrive with the next update, within 30 minutes.</p>';
+  const todo = [
+    ['Empty manastone slots', has.filter(g => g.slots > g.stones.length).map(g => `${g.name}: ${g.slots - g.stones.length} empty`)],
+    ['Empty Theostone slots', has.filter(g => g.godSlots > g.god.length).map(g => g.name)],
+    ['Common manastones, the first to replace', has.filter(g => g.stones.some(s => s[2] === 'Common'))
+      .map(g => `${g.name}: ${g.stones.filter(s => s[2] === 'Common').map(s => `${s[0]} ${s[1]}`).join(', ')}`)],
+    ['Below max enchant', Object.entries(Object.groupBy(has.filter(g => g.max && g.enchantLevel < g.max), g => `+${g.enchantLevel} of ${g.max}`))
+      .map(([k, gs]) => `${k}: ${gs.map(g => g.name).join(', ')}`)],
+  ].filter(([, xs]) => xs.length);
+  return todo.length ? `<div class="grid2 even">${todo.map(([t, xs]) => `<div class="list"><div class="name">${t} <span class="hint">${xs.length}</span></div>
+    <ul class="list" style="margin:0;padding-left:18px;gap:2px">${xs.map(x => `<li class="sub">${esc(x)}</li>`).join('')}</ul></div>`).join('')}</div>`
+    : '<p class="hint">Every slot filled and every item at its max enchant.</p>';
 }
 
 const pct = (n, d) => d ? Math.round(n / d * 100) : 0;
@@ -526,7 +571,7 @@ function member(name, tab) {
   const rank = LIST.indexOf(m) + 1, [dn, dt] = daevTotals(m), base = '#/member/' + encodeURIComponent(m.name);
   const tile = (k, v, s) => `<div class="tile"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s}</span></div>`;
   const tabs = [['', 'Overview'], ['gear', 'Gear'], ['skills', 'Skills'], ['stats', 'Stats and Daevanion']];
-  return head(`${esc(nick(m.owner))} · ${esc(m.server)} · Level ${m.level}`, esc(m.name), `<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><span class="hint" id="liveMsg"></span>
+  return head(`${esc(nick(m.owner))} · ${esc(m.server)} · Level ${m.level}`, `<span class="who">${pic(m, 'big')}${esc(m.name)}</span>`, `<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><span class="hint" id="liveMsg"></span>
     <button class="btn" id="live" data-n="${esc(m.name)}">Refresh now</button><a class="btn" href="#/compare?a=${encodeURIComponent(m.name)}">Compare</a></div>`) + `
     <div class="tiles">
       ${tile('Combat power', fmt(m.cp), `#${rank} in the legion`)}
@@ -535,7 +580,8 @@ function member(name, tab) {
       ${tile('Daevanion', dt ? pct(dn, dt) + '%' : '–', dt ? `${fmt(dn)} of ${fmt(dt)} nodes` : 'no data yet')}
     </div>
     <nav class="tabs">${tabs.map(([k, l]) => `<a href="${base}${k ? '/' + k : ''}" ${k === (tab || '') ? 'aria-current="page"' : ''}>${l}</a>`).join('')}</nav>
-    ${tab === 'gear' ? `<section class="panel"><h2 class="ph">Equipment</h2>${gearGrid(m.gear)}</section>`
+    ${tab === 'gear' ? `<section class="panel"><h2 class="ph">Gear checkup</h2>${checkup(m.gear)}</section>
+      <section class="panel"><h2 class="ph">Equipment <span class="hint">dots: manastones, diamonds: Theostones, hollow: empty</span></h2>${gearGrid(m.gear)}</section>`
       : tab === 'skills' ? memberSkills(m) : tab === 'stats' ? memberStats(m) : memberOverview(m)}`;
 }
 
@@ -623,6 +669,36 @@ async function claim(body) {
   await loadClaims(); route();
 }
 
+// News: Aion 2's own announcements and patch notes, straight from its news feed (which lets other sites read it)
+const NEWS_API = 'https://api-global-community.plaync.com/aion2_global/board/';
+let NEWS = null, newsAt = 0;
+// the feed's summaries lose the gaps between paragraphs ("update.Boss"), so put one back after a full stop or colon
+const plain = s => new DOMParser().parseFromString(String(s || ''), 'text/html').documentElement.textContent.replace(/([.!?:])([A-Z])/g, '$1 $2').trim();
+function loadNews() {
+  if (Date.now() - newsAt < 10 * 60e3) return;  // at most every 10 minutes, a failed try included
+  newsAt = Date.now();
+  const board = b => fetch(`${NEWS_API}${b}/article?pageSize=10`).then(r => r.json()).then(r => r.contentList.map(a => ({
+    title: a.title, at: a.timestamps.postedAt, sum: plain(a.summary),
+    url: a.categoryBoard.boardUrlPattern.replace('{lang}-{country}', 'en-us').replace('{articleId}', a.id) })));
+  Promise.all([board('update_en'), board('notice_en')]).then(([u, n]) => { NEWS = { u, n }; }, () => { NEWS = NEWS || { failed: true }; })
+    .then(() => location.hash.startsWith('#/news') && route());
+}
+// a maintenance notice's start, from its "When: October 27, 2026 at 23h30 PDT" line
+const maintStart = s => { const m = /([A-Z][a-z]+ \d{1,2}, \d{4}) at (\d{1,2})[h:](\d{2}) (PDT|PST)/.exec(s); return m ? new Date(`${m[1]} ${m[2]}:${m[3]} GMT${m[4] === 'PDT' ? '-0700' : '-0800'}`) : null; };
+function news() {
+  loadNews();
+  if (!NEWS || NEWS.failed) return head('From NCSOFT', 'News') + `<div class="panel empty">${NEWS ? 'Couldn’t reach Aion’s news. Try again later.' : 'Loading…'}</div>`;
+  const day = t => new Date(t).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+  const list = xs => `<ol class="feed">${xs.map(a => `<li><time>${day(a.at)}</time><span><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+    <div class="sub">${esc(a.sum.slice(0, 160))}${a.sum.length > 160 ? '…' : ''}</div></span></li>`).join('')}</ol>`;
+  const soon = NEWS.n.filter(a => /maintenance/i.test(a.title) && !/complete/i.test(a.title) && Date.now() - Date.parse(a.at) < 4 * 864e5);
+  return head('From NCSOFT', 'News') + soon.map(a => { const t = maintStart(a.sum); return `<div class="banner"><b>Maintenance coming</b>${t && !isNaN(t)
+      ? `: starts ${t.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}, your time` : ''}.
+      <a href="${esc(a.url)}" target="_blank" rel="noopener">Details</a></div>`; }).join('') + `
+    <div class="grid2 even"><section class="panel"><h2 class="ph">Patch notes</h2>${list(NEWS.u)}</section>
+      <section class="panel"><h2 class="ph">Announcements</h2>${list(NEWS.n)}</section></div>`;
+}
+
 function settings() {
   return head('Tracker', 'Settings') + (ME ? `
     <section class="panel"><h2 class="ph">Found automatically</h2>
@@ -641,7 +717,7 @@ function route() {
   const v = $('#view');
   v.innerHTML = page === 'legion' ? legion() : page === 'member' ? member(decodeURIComponent(arg || ''), sub)
     : page === 'classes' ? (arg ? classGuide(decodeURIComponent(arg)) : classes())
-    : page === 'compare' ? compare(params) : page === 'settings' ? settings() : profile();
+    : page === 'compare' ? compare(params) : page === 'news' ? news() : page === 'settings' ? settings() : profile();
   drawCharts();
   $('main').scrollTop = 0;
   const go = (a, b) => location.hash = `#/compare?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
@@ -659,6 +735,9 @@ function route() {
     const live = await fetch(`${CLAIMS_URL}?q=${encodeURIComponent(b.dataset.n)}&s=${encodeURIComponent(m.server)}`).then(r => r.ok ? r.json() : null).catch(() => null);
     if (!live) { b.disabled = false; b.textContent = 'Refresh now'; msg.textContent = 'Couldn’t reach Aion’s site. Try again in a minute.'; return; }
     const today = new Date().toISOString().slice(0, 10);
+    // the live sheet has no item details: an item that didn't change keeps the ones from the last update
+    const was = new Map((m.gear || []).map(g => [g.slotPosName, g]));
+    live.gear?.forEach(g => { const o = was.get(g.slotPosName); if (o && 'max' in o && o.name === g.name && o.enchantLevel === g.enchantLevel) Object.assign(g, { ...o, icon: g.icon }); });
     Object.assign(m, live, { history: [...m.history.filter(h => h.date !== today), { date: today, cp: live.cp, il: live.il }] });
     load(DATA);
     $('#liveMsg').textContent = 'Live from Aion just now';

@@ -21,12 +21,17 @@
      "date": "2026-10-28",
      "cp": 97035,
      "il": 2016
+    },
+    {
+     "date": "2026-10-29",
+     "cp": 99498,
+     "il": 2038
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 97035,
-   "il": 2016,
+   "cp": 99498,
+   "il": 2038,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -114,10 +119,10 @@
     },
     {
      "slotPosName": "Earring2",
-     "name": "Liberator Earrings",
-     "grade": "Legend",
+     "name": "Aulamus Earrings",
+     "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png"
     },
     {
      "slotPosName": "Ring2",
@@ -258,11 +263,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +1.4%",
-      "Evasion increase +1.4%"
+      "Accuracy increase +2.2%",
+      "Evasion increase +2.2%"
      ],
      "type": "Freedom",
-     "value": 14
+     "value": 22
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -330,17 +335,17 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +1.6%",
-      "Block increase +1.6%"
+      "Move Speed +2.4%",
+      "Block increase +2.4%"
      ],
      "type": "Space",
-     "value": 16
+     "value": 24
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2016
+     "value": 2038
     }
    ],
    "title": {
@@ -622,7 +627,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -737,7 +742,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -838,10 +843,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Zaif_01_CV02.png",
-     "id": 1125,
-     "level": 1,
-     "name": "Aberrant Zaif"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_SkurvWar_01.png",
+     "id": 1054,
+     "level": 3,
+     "name": "Mumu Warrior"
     },
     "wing": {
      "enchantLevel": 0,
@@ -1430,6 +1435,11 @@
     },
     {
      "date": "2026-10-28",
+     "cp": 64242,
+     "il": 1375
+    },
+    {
+     "date": "2026-10-29",
      "cp": 64242,
      "il": 1375
     }
@@ -2954,6 +2964,11 @@
     },
     {
      "date": "2026-10-28",
+     "cp": 67178,
+     "il": 1336
+    },
+    {
+     "date": "2026-10-29",
      "cp": 67178,
      "il": 1336
     }
@@ -4485,12 +4500,17 @@
      "date": "2026-10-28",
      "cp": 89722,
      "il": 2060
+    },
+    {
+     "date": "2026-10-29",
+     "cp": 89723,
+     "il": 2060
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 89722,
+   "cp": 89723,
    "il": 2060,
    "gear": [
     {
@@ -4815,7 +4835,7 @@
     }
    ],
    "title": {
-    "ownedCount": 198,
+    "ownedCount": 200,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -4858,8 +4878,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 66,
-      "ownedPercent": 67,
+      "ownedCount": 67,
+      "ownedPercent": 68,
       "statList": [
        {
         "desc": "MP +20"
@@ -4883,8 +4903,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 65,
-      "ownedPercent": 62,
+      "ownedCount": 66,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -5885,5 +5905,5 @@
    "race": 2
   }
  },
- "updated": "2026-10-28 20:41 UTC"
+ "updated": "2026-10-29 00:31 UTC"
 }

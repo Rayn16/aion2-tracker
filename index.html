@@ -189,6 +189,7 @@ table.skills .meter { min-width: 80px; }
     <a class="nav" href="#/legion" data-r="legion"><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5c2.4 0 4 1.5 4.5 4"/></svg><span>Legion</span></a>
     <a class="nav" href="#/timers" data-r="timers"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2.5h6"/></svg><span>Timers</span></a>
     <a class="nav" href="#/checklist" data-r="checklist"><svg class="i" viewBox="0 0 24 24"><path d="M10 6h10M10 12h10M10 18h10"/><path d="M3.5 6l1.5 1.5L7.5 5M3.5 12l1.5 1.5L7.5 11M3.5 18l1.5 1.5L7.5 17"/></svg><span>Checklist</span></a>
+    <a class="nav" href="#/dps" data-r="dps"><svg class="i" viewBox="0 0 24 24"><path d="M13 3 5 14h6l-1 7 8-11h-6z"/></svg><span>DPS</span></a>
     <a class="nav" href="#/classes" data-r="classes"><svg class="i" viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/></svg><span>Classes</span></a>
     <a class="nav" href="#/compare" data-r="compare"><svg class="i" viewBox="0 0 24 24"><path d="M8 4v16M16 4v16M4 8h4M4 16h4M16 8h4M16 16h4"/></svg><span>Compare</span></a>
     <a class="nav" href="#/news" data-r="news"><svg class="i" viewBox="0 0 24 24"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7 9h7M7 13h7M7 16h4"/></svg><span>News</span></a>
@@ -237,10 +238,10 @@ function lineChart(series, opts = {}) {
   return `<div class="chart" id="${id}"></div>` + (series.length > 1 ? `<div class="legend">${series.map(s => `<span><i class="sw" style="--c:${s.color}"></i>${esc(s.name)}</span>`).join('')}</div>` : '');
 }
 function drawCharts() {
-  for (const [id, [series, { unit = 'CP', height = 280 }]] of Object.entries(CHARTS)) {
+  for (const [id, [series, { unit = 'CP', height = 280, empty = 'The trend shows up after the second day of updates.' }]] of Object.entries(CHARTS)) {
     const box = document.getElementById(id); delete CHARTS[id]; if (!box) continue;
     const dates = [...new Set(series.flatMap(s => s.points.map(p => p.date)))].sort();
-    if (dates.length < 2) { box.innerHTML = '<p class="hint">The trend shows up after the second day of updates.</p>'; continue; }
+    if (dates.length < 2) { box.innerHTML = `<p class="hint">${esc(empty)}</p>`; continue; }
     const W = Math.max(280, box.clientWidth), H = height, L = 48, R = series.length > 1 ? 100 : 16, T = 12, B = 28;
     const vals = series.flatMap(s => s.points.map(p => p.v));
     let lo = Math.min(...vals), hi = Math.max(...vals);
@@ -745,6 +746,9 @@ const raceOf = s => LIST.find(m => m.server === s)?.race;
 const myServers = () => [...new Set(mine().map(m => m.server || m.s))];
 const warnOn = () => { try { return localStorage.getItem('aion-warn') !== '0'; } catch { return true; } };
 const inPremade = () => { try { return !!parent.aionNotify; } catch { return false; } };
+// a kill, a tick or a fight to Premade's server: '' once it's kept, else why not
+const said = (url, body) => fetch(url, { method: 'POST', body: JSON.stringify({ id: DEVICE, o: ME, ...body }) }).then(x => x.json())
+  .then(r => r.error || '', () => 'Premade’s server didn’t answer. Try again in a minute.');
 function timers(params) {
   const servers = [...new Set(LIST.map(m => m.server))], now = Date.now();
   const s = servers.includes(params.get('s')) ? params.get('s') : myServers().find(x => servers.includes(x)) || servers[0];
@@ -802,6 +806,77 @@ function checklist() {
     <p class="hint">The counts are the game’s own, from MetaBot.gg’s and Daeva Guides’ lists. Daily ones reset at ${clock(nextReset('day'))} your time, weekly ones on Wednesday.</p>`;
 }
 
+// DPS: your fights as Premade's app reads them off Aion 2's Combat Analysis (Ctrl+X) while Aion 2 is open, kept in
+// Premade's storage (lpc-aion-fights: { at, t (s), d, dmg, tg (target), k: [[skill, damage, %]], x: removed }), and
+// each one sent to Premade's server (/aion/fights) with the character whose skills it used, so the legion sees them side
+// by side. Combat Analysis shows only your own character: a friend's fights come from their own Premade
+const FIGHTS_URL = CLAIMS_URL + '/fights';
+let FIGHTS = [], fightsAt = 0, fightsErr = '', sending = false;
+const loadFights = () => { fightsAt = Date.now(); return fetch(FIGHTS_URL, { cache: 'no-store' }).then(r => r.json()).then(r => { FIGHTS = r.fights || []; }, () => {}); };
+const myFights = () => (premade('lpc-aion-fights') || []).filter(f => f && !f.x);
+// the character of yours with the most of the fight's skills; else your only one, or the one of your last fight before
+// it that told
+function fightChar(f) {
+  const own = LIST.filter(m => isMe(m.owner)), by = x => {
+    const names = new Set(x.k.map(s => s[0])), score = m => (m.skill?.skillList || []).filter(y => names.has(y.name)).length;
+    return own.reduce((a, m) => score(m) > (a ? score(a) : 0) ? m : a, null)?.name;
+  };
+  return by(f) || (own.length === 1 ? own[0].name : myFights().filter(x => x.at < f.at).reverse().map(by).find(Boolean) || '');
+}
+async function sendFights() {  // the new ones and the removed ones, after Premade saves one or you remove one
+  if (!ME || !DEVICE || !LIST.length || sending) return;
+  sending = true;
+  let sent; try { sent = new Set(JSON.parse(localStorage.getItem('aion-fights-sent')) || []); } catch { sent = new Set(); }
+  const all = premade('lpc-aion-fights') || [], err = e => e && e !== 'Not a fight';  // one the server won't take isn't tried again
+  let changed = false;
+  fightsErr = '';
+  for (const f of all.filter(f => f.x && sent.has(f.at))) { if (err(fightsErr = await said(FIGHTS_URL, { at: f.at, del: true }))) break; sent.delete(f.at); changed = true; }
+  if (!err(fightsErr)) for (const f of all.filter(f => !f.x && !sent.has(f.at) && f.at > Date.now() - 59 * 864e5)) {
+    if (err(fightsErr = await said(FIGHTS_URL, { at: f.at, c: fightChar(f), tg: f.tg, t: f.t, d: f.d, dmg: f.dmg, k: f.k }))) break;
+    sent.add(f.at);
+    changed = true;
+  }
+  if (!err(fightsErr)) fightsErr = '';
+  try { localStorage.setItem('aion-fights-sent', JSON.stringify([...sent].slice(-300))); } catch {}
+  sending = false;
+  if (location.hash.startsWith('#/dps') && inSight()) (changed ? loadFights() : Promise.resolve()).then(rerender);
+}
+const mmss = t => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
+function dpsPage(params) {
+  if (Date.now() - fightsAt > 30e3 && inSight()) loadFights().then(() => location.hash.startsWith('#/dps') && rerender());
+  const own = myFights(), now = Date.now(), st = premade('lpc-aion-dps') || {};
+  let on = true; try { on = localStorage.getItem('aion-dps') !== '0'; } catch {}
+  const all = [...own.map(f => ({ ...f, o: ME, c: fightChar(f) })), ...FIGHTS.filter(f => !isMe(f.o))];
+  const count = all.reduce((m, f) => m.set(f.tg, (m.get(f.tg) || 0) + 1), new Map()), targets = [...count.keys()].sort((a, b) => count.get(b) - count.get(a));
+  const tg = count.has(params.get('tg')) ? params.get('tg') : own.length ? own[own.length - 1].tg : targets[0];
+  const who = f => f.c || nick(f.o), member = f => LIST.find(m => m.name === f.c), on_tg = all.filter(f => f.tg === tg);
+  const best = [...on_tg.reduce((m, f) => { const b = m.get(who(f)); return m.set(who(f), !b || f.d > b.d ? f : b); }, new Map()).values()].sort((a, b) => b.d - a.d);
+  const day = at => new Date(at).toLocaleDateString('en-CA');  // YYYY-MM-DD, your time
+  const series = best.map(b => {
+    const byDay = new Map();
+    for (const f of on_tg.filter(f => who(f) === who(b))) byDay.set(day(f.at), Math.max(byDay.get(day(f.at)) || 0, f.d));
+    return { name: who(b), color: member(b)?.color || 'var(--muted)', points: [...byDay].sort(([a], [c]) => a < c ? -1 : 1).map(([date, v]) => ({ date, v })) };
+  });
+  const when = at => new Date(at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  const status = !ME ? '<p class="hint">Open this in Premade’s Aion 2 page, in Premade’s app for Windows: it reads your fights off Aion 2’s Combat Analysis (Ctrl+X).</p>'
+    : now - (st.w || 0) < 90e3 ? `<p class="hint"><b class="up">Premade is watching Aion 2.</b> After a fight, open Combat Analysis (Ctrl+X) for a few seconds and the fight is saved here${st.s ? `. It last saw Combat Analysis ${span(now - st.s)} ago` : ''}.</p>`
+    : '<p class="hint">While Aion 2 is open, Premade’s app for Windows reads each of your fights off Combat Analysis (Ctrl+X) once its numbers stop: battle time, DPS, total damage, target and top skills. It sees only Aion 2’s window, so play in Borderless or Windowed mode.</p>';
+  return head('Aion 2', 'DPS', targets.length > 1 ? `<select id="dpsTarget" aria-label="Target">${targets.map(x => `<option value="${esc(x)}" ${x === tg ? 'selected' : ''}>${esc(x || 'No target read')}</option>`).join('')}</select>` : '') + `
+    <section class="panel">${status}${ME && inPremade() ? `<label class="hint"><input type="checkbox" id="dpsOn" ${on ? 'checked' : ''}>Read my fights off Combat Analysis</label>` : ''}
+      ${fightsErr ? `<p class="hint">${esc(fightsErr)}</p>` : ''}</section>` + (!all.length ? '<div class="panel empty">No fights yet.</div>' : `
+    <section class="panel wrap"><h2 class="ph">Best on ${esc(tg || 'no target')} <span class="hint">${on_tg.length} fight${on_tg.length === 1 ? '' : 's'}</span></h2>
+      <table class="cmp"><tr><th>Character</th><th>Best DPS</th><th>Battle time</th><th>Total damage</th><th>Fights</th><th>When</th></tr>
+      ${best.map(f => { const m = member(f), cls = m && BUILDS[classOf(m)]?.cls; return `<tr><td><i class="sw" style="--c:${m?.color || 'var(--muted)'}"></i>${m ? `<a href="${memberLink(f.c)}">${esc(f.c)}</a>` : esc(f.c || 'Character not known')}
+        <span class="sub">${cls ? esc(cls) + ' · ' : ''}${esc(nick(f.o))}</span>${tag(f.o)}</td><td class="n"><b>${fmt(f.d)}</b></td><td class="n">${mmss(f.t)}</td><td class="n">${fmt(f.dmg)}</td>
+        <td class="n">${on_tg.filter(x => who(x) === who(f)).length}</td><td>${when(f.at)}</td></tr>`; }).join('')}</table></section>
+    <section class="panel"><h2 class="ph">Best DPS each day on ${esc(tg || 'no target')}</h2>${lineChart(series, { unit: 'DPS', empty: 'The chart starts once there are fights on two different days.' })}</section>`) + (own.length ? `
+    <section class="panel wrap"><h2 class="ph">Your fights <span class="hint">newest first</span></h2>
+      <table class="cmp"><tr><th>When</th><th>Target</th><th>DPS</th><th>Time</th><th>Damage</th><th>Top skills</th><th></th></tr>
+      ${own.slice(-20).reverse().map(f => `<tr><td>${when(f.at)}</td><td>${esc(f.tg || '–')}</td><td class="n"><b>${fmt(f.d)}</b></td><td class="n">${mmss(f.t)}</td><td class="n">${fmt(f.dmg)}</td>
+        <td class="sub">${f.k.slice(0, 3).map(([n, , pc]) => `${esc(n)} ${pc}%`).join(' · ') || '–'}</td><td><button class="btn small" data-fight="${f.at}" aria-label="Remove this fight">✕</button></td></tr>`).join('')}</table></section>` : '') + `
+    <p class="hint">Combat Analysis shows only your own character, so a friend’s fights show here once they run Premade too. Premade reads only Aion 2’s window as you see it, never the game’s files or its network traffic.</p>`;
+}
+
 // every 30 s: the 5-minute boss warnings (through Premade, or the browser's notifications) and the card Premade's
 // overlay shows over Aion 2 (Alt+V): the next respawns on your servers, the daily reset, what your best character
 // still has to do today
@@ -843,7 +918,7 @@ function route() {
   const v = $('#view');
   v.innerHTML = page === 'legion' ? legion() : page === 'member' ? member(decodeURIComponent(arg || ''), sub)
     : page === 'classes' ? (arg ? classGuide(decodeURIComponent(arg)) : classes())
-    : page === 'compare' ? compare(params) : page === 'news' ? news() : page === 'timers' ? timers(params) : page === 'checklist' ? checklist()
+    : page === 'compare' ? compare(params) : page === 'news' ? news() : page === 'timers' ? timers(params) : page === 'checklist' ? checklist() : page === 'dps' ? dpsPage(params)
     : page === 'settings' ? settings() : profile();
   drawCharts();
   $('main').scrollTop = 0;
@@ -870,13 +945,18 @@ function route() {
     $('#liveMsg').textContent = 'Live from Aion just now';
   });
   $('#tServer')?.addEventListener('change', e => location.hash = '#/timers?s=' + encodeURIComponent(e.target.value));
+  $('#dpsTarget')?.addEventListener('change', e => location.hash = '#/dps?tg=' + encodeURIComponent(e.target.value));
+  $('#dpsOn')?.addEventListener('change', e => { try { localStorage.setItem('aion-dps', e.target.checked ? '1' : '0'); } catch {} });
+  // a removed fight stays in Premade's list, marked, so Premade doesn't save it again when Combat Analysis shows it again
+  document.querySelectorAll('[data-fight]').forEach(b => b.onclick = () => {
+    try { localStorage.setItem('lpc-aion-fights', JSON.stringify((premade('lpc-aion-fights') || []).map(f => f.at === +b.dataset.fight ? { ...f, x: 1 } : f))); } catch {}
+    rerender();
+    sendFights();
+  });
   $('#warnBoss')?.addEventListener('change', e => {
     try { localStorage.setItem('aion-warn', e.target.checked ? '1' : '0'); } catch {}
     if (e.target.checked && !inPremade() && window.Notification?.permission === 'default') Notification.requestPermission();
   });
-  // a kill or a tick to Premade's server: '' once it's kept, else why not
-  const said = (url, body) => fetch(url, { method: 'POST', body: JSON.stringify({ id: DEVICE, o: ME, ...body }) }).then(x => x.json())
-    .then(r => r.error || '', () => 'Premade’s server didn’t answer. Try again in a minute.');
   const tell = (el, text) => { el.hidden = false; el.textContent = text; };
   document.querySelectorAll('[data-boss]').forEach(sel => sel.onchange = async () => {
     const v = sel.value;
@@ -943,6 +1023,7 @@ function load(data) {
   // Premade opens this page in the background for Aion 2 players, for the boss warnings and its overlay card
   try { if (ME) localStorage[mine().length ? 'setItem' : 'removeItem']('lpc-aion', '1'); } catch {}
   aionBeat();
+  sendFights();
 }
 
 addEventListener('hashchange', route);
@@ -954,15 +1035,20 @@ Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch
 // countdowns move every 30 s from what's known
 const inSight = () => { try { return document.visibilityState === 'visible' && (!frameElement || frameElement.checkVisibility()); } catch { return document.visibilityState === 'visible'; } };
 let beats = 0, fetchedAt = Date.now();
-const refetch = () => { fetchedAt = Date.now(); return Promise.all([loadKills(), loadTicks()]); };
+const refetch = () => { fetchedAt = Date.now(); return Promise.all([loadKills(), loadTicks(), location.hash.startsWith('#/dps') && loadFights()]); };
 window.aionShown = () => { if (Date.now() - fetchedAt > 30e3) refetch().then(rerender); };
 setInterval(() => {
   const page = location.hash.slice(2).split(/[/?]/)[0];
   (++beats % 4 === 0 && inSight() ? refetch() : Promise.resolve()).then(() => {
     aionBeat();
-    if ((page === 'timers' || page === 'checklist') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
+    if ((page === 'timers' || page === 'checklist' || page === 'dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
   });
 }, 30e3);
+// Premade saved a fight (send it), or its watching changed
+addEventListener('storage', e => {
+  if (e.key === 'lpc-aion-fights') sendFights();
+  if ((e.key === 'lpc-aion-fights' || e.key === 'lpc-aion-dps') && location.hash.startsWith('#/dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
+});
 </script>
 </body>
 </html>

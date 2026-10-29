@@ -118,7 +118,7 @@ input, select { font: 15px/1.2 var(--body); padding: 10px 12px; border: 1px soli
 .meter i { display: block; height: 100%; border-radius: 3px; background: var(--good); }
 
 .grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; align-items: start; }
-.grid2.even { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.grid2.even { grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); }
 .gear.one { grid-template-columns: minmax(0, 1fr); }
 .list { display: grid; gap: 10px; }
 ol.list { margin: 0; padding-left: 22px; gap: 6px; }
@@ -155,6 +155,29 @@ table.skills .meter { min-width: 80px; }
 .tag { font: 500 11px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--link); margin-left: 8px; }
 .player { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
 .player .name { font: 700 16px/1.2 var(--display); letter-spacing: 0.04em; }
+/* portraits from the official character pages */
+.who { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.pic { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 1px solid var(--gold-line); background: var(--raised); flex: none; }
+.pic.big { width: 56px; height: 56px; }
+/* manastones (dots) and Theostones (diamonds) on an item; hollow = empty slot */
+.stones { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px; }
+.stone { width: 10px; height: 10px; border-radius: 50%; background: var(--g, var(--muted)); }
+.stone.god { border-radius: 1px; transform: rotate(45deg) scale(0.85); }
+.stone.hollow { background: none; border: 1px dashed var(--muted); }
+.feed { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 14px; }
+.feed li { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 10px; }
+.feed time { font: 500 12px/1.5 var(--mono); color: var(--muted); }
+.banner { padding: 12px 16px; border: 1px solid var(--warn); border-radius: 8px; background: color-mix(in srgb, var(--warn) 10%, transparent); }
+/* Timers: a field boss with its respawn and a Killed… pick; Checklist: a count with − and + */
+.row.boss { grid-template-columns: minmax(0, 1fr) auto auto; }
+.row.boss .num { min-width: 6.5em; }
+@container app (max-width: 560px) { .row.boss { grid-template-columns: minmax(0, 1fr) auto; } .row.boss select { grid-column: 1 / -1; } }
+.ticks { display: grid; gap: 6px; }
+.tick { display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; gap: 8px; align-items: center; font-size: 14px; }
+.tick .btn { padding: 4px 10px; min-width: 34px; }
+.tick.done > span:first-child { color: var(--good); }
+.tick.done > span:first-child::before { content: "✓ "; }
+.hint input[type="checkbox"] { vertical-align: -2px; margin: 0 6px 0 0; }
 </style>
 <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
 </head>
@@ -164,8 +187,12 @@ table.skills .meter { min-width: 80px; }
     <a class="brand" href="#/"><img src="icon.svg" alt=""><span>Aion2 Tracker</span></a>
     <a class="nav" href="#/" data-r=""><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c.8-4.2 4-6.5 8-6.5s7.2 2.3 8 6.5"/></svg><span>Profile</span></a>
     <a class="nav" href="#/legion" data-r="legion"><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5c2.4 0 4 1.5 4.5 4"/></svg><span>Legion</span></a>
+    <a class="nav" href="#/timers" data-r="timers"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2.5h6"/></svg><span>Timers</span></a>
+    <a class="nav" href="#/checklist" data-r="checklist"><svg class="i" viewBox="0 0 24 24"><path d="M10 6h10M10 12h10M10 18h10"/><path d="M3.5 6l1.5 1.5L7.5 5M3.5 12l1.5 1.5L7.5 11M3.5 18l1.5 1.5L7.5 17"/></svg><span>Checklist</span></a>
+    <a class="nav" href="#/dps" data-r="dps"><svg class="i" viewBox="0 0 24 24"><path d="M13 3 5 14h6l-1 7 8-11h-6z"/></svg><span>DPS</span></a>
     <a class="nav" href="#/classes" data-r="classes"><svg class="i" viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/></svg><span>Classes</span></a>
     <a class="nav" href="#/compare" data-r="compare"><svg class="i" viewBox="0 0 24 24"><path d="M8 4v16M16 4v16M4 8h4M4 16h4M16 8h4M16 16h4"/></svg><span>Compare</span></a>
+    <a class="nav" href="#/news" data-r="news"><svg class="i" viewBox="0 0 24 24"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7 9h7M7 13h7M7 16h4"/></svg><span>News</span></a>
     <a class="nav" href="#/settings" data-r="settings"><svg class="i" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>Settings</span></a>
   </nav>
   <main><div class="view" id="view"></div></main>
@@ -211,10 +238,10 @@ function lineChart(series, opts = {}) {
   return `<div class="chart" id="${id}"></div>` + (series.length > 1 ? `<div class="legend">${series.map(s => `<span><i class="sw" style="--c:${s.color}"></i>${esc(s.name)}</span>`).join('')}</div>` : '');
 }
 function drawCharts() {
-  for (const [id, [series, { unit = 'CP', height = 280 }]] of Object.entries(CHARTS)) {
+  for (const [id, [series, { unit = 'CP', height = 280, empty = 'The trend shows up after the second day of updates.' }]] of Object.entries(CHARTS)) {
     const box = document.getElementById(id); delete CHARTS[id]; if (!box) continue;
     const dates = [...new Set(series.flatMap(s => s.points.map(p => p.date)))].sort();
-    if (dates.length < 2) { box.innerHTML = '<p class="hint">The trend shows up after the second day of updates.</p>'; continue; }
+    if (dates.length < 2) { box.innerHTML = `<p class="hint">${esc(empty)}</p>`; continue; }
     const W = Math.max(280, box.clientWidth), H = height, L = 48, R = series.length > 1 ? 100 : 16, T = 12, B = 28;
     const vals = series.flatMap(s => s.points.map(p => p.v));
     let lo = Math.min(...vals), hi = Math.max(...vals);
@@ -265,8 +292,9 @@ const head = (eyebrow, title, right = '') => `<header class="head"><div><p class
 const memberLink = n => '#/member/' + encodeURIComponent(n);
 
 const tag = o => isMe(o) ? '<span class="tag">You</span>' : isFriend(o) ? '<span class="tag">Friend</span>' : '';
+const pic = (m, cls = '') => m.pic ? `<img class="pic ${cls}" src="${esc(m.pic)}" alt="" loading="lazy">` : '';
 const charCard = m => `<a class="card" href="${memberLink(m.name)}" style="--c:${m.color}">
-  <div><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Level ${m.level} · #${LIST.indexOf(m) + 1} in the legion</div></div>
+  <div class="who">${pic(m)}<div style="min-width:0"><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Level ${m.level} · #${LIST.indexOf(m) + 1} in the legion</div></div></div>
   <div class="stats"><div><span>CP</span><b>${fmt(m.cp)}</b></div><div><span>Item lv</span><b>${fmt(m.il)}</b></div>
     <div><span>7 days</span><b class="${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</b></div></div></a>`;
 // just claimed, so no stats until the next update
@@ -282,6 +310,7 @@ function profile() {
   return head('Profile', esc(nick(ME)), rank ? `<span class="hint">#${rank} of ${PLAYERS.length} in the legion</span>` : '') + `
     ${chars.length ? `<section class="panel"><h2 class="ph">Your characters <a class="hint" href="#/settings">Change</a></h2>
       <div class="cards">${chars.map(m => m.n ? pendingCard(m) : charCard(m)).join('')}</div></section>` : claimBox()}
+    <section class="panel"><h2 class="ph">Lately, you and your friends</h2>${feedList((DATA.feed || []).filter(f => { const o = LIST.find(m => m.name === f.n)?.owner; return isMe(o) || isFriend(o); }))}</section>
     ${chars.some(m => m.history) ? `<section class="panel"><h2 class="ph">Combat power over time</h2>
       ${lineChart(chars.filter(m => m.history).map(m => ({ name: m.name, color: m.color, points: m.history.map(h => ({ date: h.date, v: h.cp })) })))}</section>` : ''}
     <section class="panel"><h2 class="ph">Friends <span class="hint">${friends.length} in the legion</span></h2>
@@ -290,25 +319,54 @@ function profile() {
     </section>`;
 }
 
+// the legion feed: what each character gained between updates (fetch.py's changes()), newest first
+const ago = t => { const h = (Date.now() - Date.parse(t.replace(' ', 'T') + 'Z')) / 36e5; return h < 1 ? Math.max(1, Math.round(h * 60)) + ' min' : h < 24 ? Math.round(h) + ' h' : Math.round(h / 24) + ' d'; };
+const feedList = xs => xs.length ? `<ol class="feed">${xs.slice(0, 12).map(f => `<li><time>${ago(f.t)} ago</time>
+  <span><a href="${memberLink(f.n)}">${esc(f.n)}</a> ${esc(f.x)}</span></li>`).join('')}</ol>` : '<p class="hint">Nothing new lately. Enchants, new gear, titles, skills and Daevanion nodes show here.</p>';
+
 // players ranked by their strongest character, each with their characters, strongest first
 function legion() {
   if (!LIST.length) return head('Legion', 'Legion') + '<div class="panel empty">No characters yet. They show up within 30 minutes.</div>';
-  return head('Everyone, ranked', 'Legion', `<span class="hint">${PLAYERS.length} players · ${LIST.length} characters</span>`) + PLAYERS.map((p, i) => `
+  return head('Everyone, ranked', 'Legion', `<span class="hint">${PLAYERS.length} players · ${LIST.length} characters</span>`)
+    + `<section class="panel"><h2 class="ph">Latest</h2>${feedList(DATA.feed || [])}</section>` + PLAYERS.map((p, i) => `
     <section class="panel"><div class="player"><span class="rank ${i ? '' : 'first'}">${i + 1}</span>
       <span class="name">${esc(p.name)}${tag(p.id)}</span><span class="num">${fmt(p.chars[0].cp)} <span class="sub">best CP</span></span></div>
       <ol class="rows">${p.chars.map(m => `<li><a class="row" href="${memberLink(m.name)}" style="--c:${m.color}">
         <span class="rank">#${LIST.indexOf(m) + 1}</span>
-        <span><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Lv ${m.level} · IL ${fmt(m.il)}</div></span>
+        <span class="who">${pic(m)}<span style="min-width:0"><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Lv ${m.level} · IL ${fmt(m.il)}</div></span></span>
         <span><div class="num">${fmt(m.cp)}</div><div class="num sub ${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</div></span></a></li>`).join('')}</ol>
     </section>`).join('');
 }
 
+// each item's manastones (dots, by grade) and Theostones (diamonds); a hollow one is an empty slot
+const stoneRow = g => {
+  const st = g.stones || [], god = g.god || [], empty = (n, cls, t) => `<i class="stone ${cls} hollow" title="${t}"></i>`.repeat(Math.max(0, n));
+  return g.slots || g.godSlots ? `<div class="stones">${st.map(([n, v, gr]) => `<i class="stone" style="--g:${GRADE[gr] || 'var(--muted)'}" title="${esc(`${n} ${v} (${gr})`)}"></i>`).join('')}
+    ${empty(g.slots - st.length, '', 'Empty manastone slot')}${god.map(n => `<i class="stone god" style="--g:var(--best)" title="Theostone: ${esc(n)}"></i>`).join('')}${empty(g.godSlots - god.length, 'god', 'Empty Theostone slot')}</div>` : '';
+};
 function gearGrid(gear) {
   if (!gear?.length) return '<p class="hint">No gear data.</p>';
-  return `<div class="gear">${gear.map(g => `<div class="item" style="--g:${GRADE[g.grade] || 'var(--line)'}">
+  return `<div class="gear">${gear.map(g => `<div class="item" style="--g:${GRADE[g.grade] || 'var(--line)'}" ${g.src?.length ? `title="Drops from: ${esc(g.src.join(', '))}"` : ''}>
     <img src="${esc(g.icon)}" alt="" loading="lazy">
-    <div style="min-width:0"><div class="name">${esc(g.name)}</div><div class="sub">${esc(g.slotPosName)} · <span class="grade">${esc(g.grade)}</span></div></div>
-    <span class="ench">+${g.enchantLevel}</span></div>`).join('')}</div>`;
+    <div style="min-width:0"><div class="name">${esc(g.name)}</div><div class="sub">${esc(g.slotPosName)} · <span class="grade">${esc(g.grade)}</span></div>${stoneRow(g)}</div>
+    <span class="ench">+${g.enchantLevel}${g.max ? `<span class="sub">/${g.max}</span>` : ''}</span></div>`).join('')}</div>`;
+}
+
+// what's left to do on the gear, from each item's own page: empty slots first, then weak manastones, then enchants
+function checkup(gear) {
+  const has = (gear || []).filter(g => 'max' in g);
+  if (!has.length) return '<p class="hint">Item details arrive with the next update, within 30 minutes.</p>';
+  const todo = [
+    ['Empty manastone slots', has.filter(g => g.slots > g.stones.length).map(g => `${g.name}: ${g.slots - g.stones.length} empty`)],
+    ['Empty Theostone slots', has.filter(g => g.godSlots > g.god.length).map(g => g.name)],
+    ['Common manastones, the first to replace', has.filter(g => g.stones.some(s => s[2] === 'Common'))
+      .map(g => `${g.name}: ${g.stones.filter(s => s[2] === 'Common').map(s => `${s[0]} ${s[1]}`).join(', ')}`)],
+    ['Below max enchant', Object.entries(Object.groupBy(has.filter(g => g.max && g.enchantLevel < g.max), g => `+${g.enchantLevel} of ${g.max}`))
+      .map(([k, gs]) => `${k}: ${gs.map(g => g.name).join(', ')}`)],
+  ].filter(([, xs]) => xs.length);
+  return todo.length ? `<div class="grid2 even">${todo.map(([t, xs]) => `<div class="list"><div class="name">${t} <span class="hint">${xs.length}</span></div>
+    <ul class="list" style="margin:0;padding-left:18px;gap:2px">${xs.map(x => `<li class="sub">${esc(x)}</li>`).join('')}</ul></div>`).join('')}</div>`
+    : '<p class="hint">Every slot filled and every item at its max enchant.</p>';
 }
 
 const pct = (n, d) => d ? Math.round(n / d * 100) : 0;
@@ -526,7 +584,7 @@ function member(name, tab) {
   const rank = LIST.indexOf(m) + 1, [dn, dt] = daevTotals(m), base = '#/member/' + encodeURIComponent(m.name);
   const tile = (k, v, s) => `<div class="tile"><span class="k">${k}</span><span class="v">${v}</span><span class="s">${s}</span></div>`;
   const tabs = [['', 'Overview'], ['gear', 'Gear'], ['skills', 'Skills'], ['stats', 'Stats and Daevanion']];
-  return head(`${esc(nick(m.owner))} · ${esc(m.server)} · Level ${m.level}`, esc(m.name), `<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><span class="hint" id="liveMsg"></span>
+  return head(`${esc(nick(m.owner))} · ${esc(m.server)} · Level ${m.level}`, `<span class="who">${pic(m, 'big')}${esc(m.name)}</span>`, `<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center"><span class="hint" id="liveMsg"></span>
     <button class="btn" id="live" data-n="${esc(m.name)}">Refresh now</button><a class="btn" href="#/compare?a=${encodeURIComponent(m.name)}">Compare</a></div>`) + `
     <div class="tiles">
       ${tile('Combat power', fmt(m.cp), `#${rank} in the legion`)}
@@ -535,7 +593,8 @@ function member(name, tab) {
       ${tile('Daevanion', dt ? pct(dn, dt) + '%' : '–', dt ? `${fmt(dn)} of ${fmt(dt)} nodes` : 'no data yet')}
     </div>
     <nav class="tabs">${tabs.map(([k, l]) => `<a href="${base}${k ? '/' + k : ''}" ${k === (tab || '') ? 'aria-current="page"' : ''}>${l}</a>`).join('')}</nav>
-    ${tab === 'gear' ? `<section class="panel"><h2 class="ph">Equipment</h2>${gearGrid(m.gear)}</section>`
+    ${tab === 'gear' ? `<section class="panel"><h2 class="ph">Gear checkup</h2>${checkup(m.gear)}</section>
+      <section class="panel"><h2 class="ph">Equipment <span class="hint">dots: manastones, diamonds: Theostones, hollow: empty</span></h2>${gearGrid(m.gear)}</section>`
       : tab === 'skills' ? memberSkills(m) : tab === 'stats' ? memberStats(m) : memberOverview(m)}`;
 }
 
@@ -602,7 +661,7 @@ function compare(params) {
     <section class="panel wrap"><h2 class="ph">Gear by slot</h2><table class="cmp">
       <tr><th>Slot</th><th>${esc(a.name)}</th><th>${esc(b.name)}</th><th class="n">Enchant</th></tr>
       ${slots.map(s => { const x = at(a, s), y = at(b, s); return `<tr><td class="sub">${esc(s)}</td>
-        <td>${x ? `${esc(x.name)} <b>+${x.enchantLevel}</b>` : '–'}</td><td>${y ? `${esc(y.name)} <b>+${y.enchantLevel}</b>` : '–'}</td>
+        <td>${x ? `${esc(x.name)} <b>+${x.enchantLevel}</b>${stoneRow(x)}` : '–'}</td><td>${y ? `${esc(y.name)} <b>+${y.enchantLevel}</b>${stoneRow(y)}` : '–'}</td>
         <td class="n">${x && y ? diff(x.enchantLevel, y.enchantLevel) : ''}</td></tr>`; }).join('')}
     </table></section>`;
 }
@@ -623,6 +682,224 @@ async function claim(body) {
   await loadClaims(); route();
 }
 
+// News: Aion 2's own announcements and patch notes, straight from its news feed (which lets other sites read it)
+const NEWS_API = 'https://api-global-community.plaync.com/aion2_global/board/';
+let NEWS = null, newsAt = 0;
+// the feed's summaries lose the gaps between paragraphs ("update.Boss"), so put one back after a full stop or colon
+const plain = s => new DOMParser().parseFromString(String(s || ''), 'text/html').documentElement.textContent.replace(/([.!?:])([A-Z])/g, '$1 $2').trim();
+function loadNews() {
+  if (Date.now() - newsAt < 10 * 60e3) return;  // at most every 10 minutes, a failed try included
+  newsAt = Date.now();
+  const board = b => fetch(`${NEWS_API}${b}/article?pageSize=10`).then(r => r.json()).then(r => r.contentList.map(a => ({
+    title: a.title, at: a.timestamps.postedAt, sum: plain(a.summary),
+    url: a.categoryBoard.boardUrlPattern.replace('{lang}-{country}', 'en-us').replace('{articleId}', a.id) })));
+  Promise.all([board('update_en'), board('notice_en')]).then(([u, n]) => { NEWS = { u, n }; }, () => { NEWS = NEWS || { failed: true }; })
+    .then(() => location.hash.startsWith('#/news') && route());
+}
+// a maintenance notice's start, from its "When: October 27, 2026 at 23h30 PDT" line
+const maintStart = s => { const m = /([A-Z][a-z]+ \d{1,2}, \d{4}) at (\d{1,2})[h:](\d{2}) (PDT|PST)/.exec(s); return m ? new Date(`${m[1]} ${m[2]}:${m[3]} GMT${m[4] === 'PDT' ? '-0700' : '-0800'}`) : null; };
+function news() {
+  loadNews();
+  if (!NEWS || NEWS.failed) return head('From NCSOFT', 'News') + `<div class="panel empty">${NEWS ? 'Couldn’t reach Aion’s news. Try again later.' : 'Loading…'}</div>`;
+  const day = t => new Date(t).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+  const list = xs => `<ol class="feed">${xs.map(a => `<li><time>${day(a.at)}</time><span><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+    <div class="sub">${esc(a.sum.slice(0, 160))}${a.sum.length > 160 ? '…' : ''}</div></span></li>`).join('')}</ol>`;
+  const soon = NEWS.n.filter(a => /maintenance/i.test(a.title) && !/complete/i.test(a.title) && Date.now() - Date.parse(a.at) < 4 * 864e5);
+  return head('From NCSOFT', 'News') + soon.map(a => { const t = maintStart(a.sum); return `<div class="banner"><b>Maintenance coming</b>${t && !isNaN(t)
+      ? `: starts ${t.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}, your time` : ''}.
+      <a href="${esc(a.url)}" target="_blank" rel="noopener">Details</a></div>`; }).join('') + `
+    <div class="grid2 even"><section class="panel"><h2 class="ph">Patch notes</h2>${list(NEWS.u)}</section>
+      <section class="panel"><h2 class="ph">Announcements</h2>${list(NEWS.n)}</section></div>`;
+}
+
+// Timers: Aion 2's resets and hourly events, and the field bosses the legion marks killed (kept by Premade's server,
+// /aion/boss), each with when it's back; Premade warns 5 minutes before one on your server respawns
+const BOSS_URL = CLAIMS_URL + '/boss', TICKS_URL = CLAIMS_URL + '/ticks';
+// respawn after a kill (minutes): Verteron's on Elyos servers (race 1), Altgard's on Asmodian ones (race 2). NCSOFT
+// hasn't published global ones; these are thegameswiki.com/aion-2/wiki/field-bosses (CC BY-NC-SA 4.0), the times since
+// Dec 17, 2025, which aion2atlas.app's global kill reports match
+const BOSSES = {
+  1: { 30: ['Kernon of the West', 'Neikel of the East', 'Rotten Kutar'], 60: ['Blooming Korin'], 90: ['Bodyguard Teegant'],
+    120: ['Kusan the Mad Gladiator', 'Ritualist Garshim', 'Scholar Aulla', 'Chaser Taulo'],
+    180: ['Bloodfang Pnyn', 'Furious Saursus', 'Heretic Layla', 'Harvest Manager Moshav'],
+    240: ['Forest Warrior Aullamu', 'Black Tentacle Lawa', 'Centurion Demiros', "Sentinel K'nash"],
+    360: ['Divine Ansas', 'Researcher Setram', 'Phantasm Kasia', 'Silent Dartan', 'Soul Ruler Kashapa'],
+    720: ['High Commander Lagta', 'Eternal Gartua'] },
+  2: { 30: ['Melted Danar', 'Black Warrior Aed', 'Faithful Rajit'], 60: ['Berserker Vargor'], 90: ['Blood Warrior Lannar'],
+    120: ['Predator Garsan', 'Deceiver Trid', 'Blue Wave Kelpina', 'High Overseer Nutah'],
+    180: ['Advisor Resana', 'Special Operations Leader Linx', 'Addicted Hardirun', 'Veteran Shujakan'],
+    240: ['Desecrator Newbold', 'Specter Archon Axios', 'Executioner Barthien', 'Visionary Karuka'],
+    360: ['Drakan Battalion Weapon Guruta', 'Dark Shadow Vishwada', 'Sharp Shylak', 'Silent Dartan', 'Soul Ruler Kashapa'],
+    720: ['High Commander Lagta', 'Immortal Gartua'] },
+};
+const bossesOf = race => Object.entries(BOSSES[race] || {}).flatMap(([min, ns]) => ns.map(n => ({ n, min: +min })));
+// the daily reset is 07:00 UTC (the game's notices: 12:00 AM PDT, 8:00 AM CET), the weekly one Wednesday's
+const lastReset = per => { let t = Math.floor((Date.now() - 7 * 36e5) / 864e5) * 864e5 + 7 * 36e5; while (per === 'week' && new Date(t).getUTCDay() !== 3) t -= 864e5; return t; };
+const nextReset = per => lastReset(per) + (per === 'week' ? 7 : 1) * 864e5;
+const nextAt = min => { const d = new Date(); d.setUTCMinutes(min, 0, 0); return +d > Date.now() ? +d : +d + 36e5; };  // the next hh:min
+const clock = t => new Date(t).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+const weekday = t => new Date(t).toLocaleDateString('en-GB', { weekday: 'long' });
+const span = ms => { const m = Math.max(1, Math.round(ms / 6e4)); return m < 60 ? `${m} min` : m < 1440 ? `${Math.floor(m / 60)} h ${m % 60} min` : `${Math.floor(m / 1440)} d ${Math.floor(m % 1440 / 60)} h`; };
+let KILLS = [];
+const loadKills = () => fetch(BOSS_URL, { cache: 'no-store' }).then(r => r.json()).then(r => { KILLS = r.kills || []; }, () => {});
+const raceOf = s => LIST.find(m => m.server === s)?.race;
+const myServers = () => [...new Set(mine().map(m => m.server || m.s))];
+const warnOn = () => { try { return localStorage.getItem('aion-warn') !== '0'; } catch { return true; } };
+const inPremade = () => { try { return !!parent.aionNotify; } catch { return false; } };
+// a kill, a tick or a fight to Premade's server: '' once it's kept, else why not
+const said = (url, body) => fetch(url, { method: 'POST', body: JSON.stringify({ id: DEVICE, o: ME, ...body }) }).then(x => x.json())
+  .then(r => r.error || '', () => 'Premade’s server didn’t answer. Try again in a minute.');
+function timers(params) {
+  const servers = [...new Set(LIST.map(m => m.server))], now = Date.now();
+  const s = servers.includes(params.get('s')) ? params.get('s') : myServers().find(x => servers.includes(x)) || servers[0];
+  const tile = (k, t, sub) => `<div class="tile"><span class="k">${k}</span><span class="v">${span(t - now)}</span><span class="s">${sub}</span></div>`;
+  const rows = bossesOf(raceOf(s)).map(b => { const k = KILLS.find(x => x.s === s && x.b === b.n); return { ...b, k, due: k ? k.at + b.min * 6e4 : Infinity }; })
+    .sort((a, b) => a.due - b.due || a.min - b.min);  // up first, then the next to respawn, then the unmarked ones
+  const every = min => min < 60 ? `${min} min` : `${min / 60} h`;
+  const pick = n => `<select data-boss="${esc(n)}" data-s="${esc(s)}" aria-label="Mark ${esc(n)} killed"><option value="">Killed…</option>
+    ${[0, 5, 10, 15, 30, 60].map(m => `<option value="${m}">${m ? m + ' min ago' : 'Just now'}</option>`).join('')}<option value="del">Take the mark off</option></select>`;
+  return head('Aion 2', 'Timers', servers.length > 1 ? `<select id="tServer" aria-label="Server">${servers.map(x => `<option ${x === s ? 'selected' : ''}>${esc(x)}</option>`).join('')}</select>` : '') + `
+    <div class="tiles">${tile('Daily reset', nextReset('day'), `at ${clock(nextReset('day'))} your time`)}${tile('Weekly reset', nextReset('week'), `${weekday(nextReset('week'))} ${clock(nextReset('week'))}`)}
+      ${tile('Shugo Festival', nextAt(0), 'every hour at :00')}${tile('Dimensional Invasion', nextAt(30), 'every hour at :30')}</div>
+    <section class="panel"><h2 class="ph">Field bosses${s ? ` on ${esc(s)} <span class="hint">${raceOf(s) === 1 ? 'Verteron' : 'Altgard'}</span>` : ''}</h2>
+      ${rows.length ? `<p class="hint">Each one comes back a set time after it dies. Mark a kill and everyone in the legion sees when it’s back${ME ? '; Premade warns you 5 minutes before' : ''}.</p>
+      <div class="rows">${rows.map(b => `<div class="row boss"><span style="min-width:0"><div class="name">${esc(b.n)}</div>
+        <div class="sub">Every ${every(b.min)}${b.k ? ` · died ${clock(b.k.at)}, marked by ${esc(nick(b.k.o))}` : ''}</div></span>
+        <span class="num ${b.due <= now ? 'up' : ''}">${!b.k ? '–' : b.due > now ? `in ${span(b.due - now)}<div class="sub">${clock(b.due)}</div>` : `Up<div class="sub">since ${clock(b.due)}</div>`}</span>
+        ${ME ? pick(b.n) : ''}</div>`).join('')}</div>
+      <p id="bossMsg" class="hint" hidden></p>
+      ${ME ? `<label class="hint"><input type="checkbox" id="warnBoss" ${warnOn() ? 'checked' : ''}>Warn me 5 minutes before a marked boss on my server comes back</label>` : ''}
+      <p class="hint">Respawn times from <a href="https://thegameswiki.com/aion-2/wiki/field-bosses" target="_blank" rel="noopener">The Games Wiki</a> (CC BY-NC-SA 4.0), which match aion2atlas.app’s kill reports. NCSOFT hasn’t published them, so one may be off.</p>`
+      : '<p class="hint">No characters yet, so no server to show.</p>'}</section>`;
+}
+
+// Checklist: Aion 2's daily (07:00 UTC) and weekly (Wednesday) things, ticked per character and kept by Premade's
+// server (/aion/ticks), so friends see who still needs a run. The counts are the game's own, as MetaBot.gg and Daeva
+// Guides list them (October 2026); shared ones count once for all of a server's characters
+const TODO = [
+  ['nightmare', 'Nightmare', 2, 'day'], ['transcend', 'Transcendence', 2, 'day'], ['conquest', 'Conquest', 3, 'day'],
+  ['duty', 'Duty Missions', 5, 'day', 1], ['shugo', 'Shugo Festival', 3, 'day', 1], ['invasion', 'Dimensional Invasion', 1, 'day', 1],
+  ['ascension', 'Ascension Trial', 3, 'week'], ['subjugation', 'Subjugation', 3, 'week'], ['dungeon', 'Daily Dungeon', 14, 'week', 1],
+].map(([k, name, n, per, shared]) => ({ k, name, n, per, shared: !!shared }));
+let TICKS = [];
+const loadTicks = () => fetch(TICKS_URL, { cache: 'no-store' }).then(r => r.json()).then(r => { TICKS = r.ticks || []; }, () => {});
+// how many of t o did for who (a character, or a server for a shared one) since t's last reset
+const did = (o, who, t) => { const x = TICKS.find(x => low(x.o) === low(o) && x.k === `${who}:${t.k}`); return x && x.at >= lastReset(t.per) ? x.n : 0; };
+const leftText = (o, m, per) => TODO.filter(t => t.per === per && !t.shared).map(t => [t.name, t.n - did(o, m.name, t)]).filter(([, n]) => n > 0)
+  .map(([name, n]) => `${name} ${n}`).join(' · ');
+function checklist() {
+  const resets = `<span class="hint">Daily reset in ${span(nextReset('day') - Date.now())} · weekly ${weekday(nextReset('week'))}</span>`;
+  if (!ME) return head('Aion 2', 'Checklist', resets) + '<div class="panel empty">Open this in Premade’s Aion 2 page to tick off your dailies and weeklies and see what your friends still have to do.</div>';
+  const chars = mine().filter(m => m.server), own = TODO.filter(t => !t.shared), shared = TODO.filter(t => t.shared);  // picked ones show after their first update
+  const rows = (who, ts) => ts.map(t => { const n = did(ME, who, t), key = esc(`${who}:${t.k}`); return `<div class="tick ${n >= t.n ? 'done' : ''}"><span>${t.name}</span><span class="num">${n} / ${t.n}</span>
+    <button class="btn small" data-tick="${key}" data-d="-1" aria-label="One less ${t.name}" ${n ? '' : 'disabled'}>−</button><button class="btn small" data-tick="${key}" data-d="1" aria-label="One more ${t.name}" ${n < t.n ? '' : 'disabled'}>+</button></div>`; }).join('');
+  const box = (who, ts) => `<div class="ticks"><div class="sub">Today</div>${rows(who, ts.filter(t => t.per === 'day'))}<div class="sub">This week</div>${rows(who, ts.filter(t => t.per === 'week'))}</div>`;
+  const friends = PLAYERS.filter(p => isFriend(p.id) && !isMe(p.id) && TICKS.some(x => low(x.o) === low(p.id)));
+  return head('Aion 2', 'Checklist', resets) + (chars.length ? `<div class="cards">
+    ${chars.map(m => `<section class="panel"><h2 class="ph"><span class="who">${pic(m)}${esc(m.name)}</span></h2>${box(m.name, own)}</section>`).join('')}
+    ${[...new Set(chars.map(m => m.server))].map(s => `<section class="panel"><h2 class="ph">${esc(s)} <span class="hint">all your characters</span></h2>${box(s, shared)}</section>`).join('')}</div>
+    <p id="tickMsg" class="hint" hidden></p>` : '<div class="panel empty">Pick your Aion 2 characters on <a href="#/">Profile</a> first. They show here after their first update.</div>') + `
+    <section class="panel wrap"><h2 class="ph">Friends still to do</h2>${friends.length ? `<table class="cmp"><tr><th>Character</th><th>Today</th><th>This week</th></tr>
+      ${friends.flatMap(p => p.chars.map(m => `<tr><td><a href="${memberLink(m.name)}">${esc(m.name)}</a> <span class="sub">${esc(p.name)}</span></td>
+        <td>${leftText(p.id, m, 'day') || '<span class="up">All done</span>'}</td><td>${leftText(p.id, m, 'week') || '<span class="up">All done</span>'}</td></tr>`)).join('')}</table>`
+      : '<p class="hint">Friends who tick their checklist show here, with what they still have to do.</p>'}</section>
+    <p class="hint">The counts are the game’s own, from MetaBot.gg’s and Daeva Guides’ lists. Daily ones reset at ${clock(nextReset('day'))} your time, weekly ones on Wednesday.</p>`;
+}
+
+// DPS: your fights as Premade's app reads them off Aion 2's Combat Analysis (Ctrl+X) while Aion 2 is open, kept in
+// Premade's storage (lpc-aion-fights: { at, t (s), d, dmg, tg (target), k: [[skill, damage, %]], x: removed }), and
+// each one sent to Premade's server (/aion/fights) with the character whose skills it used, so the legion sees them side
+// by side. Combat Analysis shows only your own character: a friend's fights come from their own Premade
+const FIGHTS_URL = CLAIMS_URL + '/fights';
+let FIGHTS = [], fightsAt = 0, fightsErr = '', sending = false;
+const loadFights = () => { fightsAt = Date.now(); return fetch(FIGHTS_URL, { cache: 'no-store' }).then(r => r.json()).then(r => { FIGHTS = r.fights || []; }, () => {}); };
+const myFights = () => (premade('lpc-aion-fights') || []).filter(f => f && !f.x);
+// the character of yours with the most of the fight's skills; else your only one, or the one of your last fight before
+// it that told
+function fightChar(f) {
+  const own = LIST.filter(m => isMe(m.owner)), by = x => {
+    const names = new Set(x.k.map(s => s[0])), score = m => (m.skill?.skillList || []).filter(y => names.has(y.name)).length;
+    return own.reduce((a, m) => score(m) > (a ? score(a) : 0) ? m : a, null)?.name;
+  };
+  return by(f) || (own.length === 1 ? own[0].name : myFights().filter(x => x.at < f.at).reverse().map(by).find(Boolean) || '');
+}
+async function sendFights() {  // the new ones and the removed ones, after Premade saves one or you remove one
+  if (!ME || !DEVICE || !LIST.length || sending) return;
+  sending = true;
+  let sent; try { sent = new Set(JSON.parse(localStorage.getItem('aion-fights-sent')) || []); } catch { sent = new Set(); }
+  const all = premade('lpc-aion-fights') || [], err = e => e && e !== 'Not a fight';  // one the server won't take isn't tried again
+  let changed = false;
+  fightsErr = '';
+  for (const f of all.filter(f => f.x && sent.has(f.at))) { if (err(fightsErr = await said(FIGHTS_URL, { at: f.at, del: true }))) break; sent.delete(f.at); changed = true; }
+  if (!err(fightsErr)) for (const f of all.filter(f => !f.x && !sent.has(f.at) && f.at > Date.now() - 59 * 864e5)) {
+    if (err(fightsErr = await said(FIGHTS_URL, { at: f.at, c: fightChar(f), tg: f.tg, t: f.t, d: f.d, dmg: f.dmg, k: f.k }))) break;
+    sent.add(f.at);
+    changed = true;
+  }
+  if (!err(fightsErr)) fightsErr = '';
+  try { localStorage.setItem('aion-fights-sent', JSON.stringify([...sent].slice(-300))); } catch {}
+  sending = false;
+  if (location.hash.startsWith('#/dps') && inSight()) (changed ? loadFights() : Promise.resolve()).then(rerender);
+}
+const mmss = t => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
+function dpsPage(params) {
+  if (Date.now() - fightsAt > 30e3 && inSight()) loadFights().then(() => location.hash.startsWith('#/dps') && rerender());
+  const own = myFights(), now = Date.now(), st = premade('lpc-aion-dps') || {};
+  let on = true; try { on = localStorage.getItem('aion-dps') !== '0'; } catch {}
+  const all = [...own.map(f => ({ ...f, o: ME, c: fightChar(f) })), ...FIGHTS.filter(f => !isMe(f.o))];
+  const count = all.reduce((m, f) => m.set(f.tg, (m.get(f.tg) || 0) + 1), new Map()), targets = [...count.keys()].sort((a, b) => count.get(b) - count.get(a));
+  const tg = count.has(params.get('tg')) ? params.get('tg') : own.length ? own[own.length - 1].tg : targets[0];
+  const who = f => f.c || nick(f.o), member = f => LIST.find(m => m.name === f.c), on_tg = all.filter(f => f.tg === tg);
+  const best = [...on_tg.reduce((m, f) => { const b = m.get(who(f)); return m.set(who(f), !b || f.d > b.d ? f : b); }, new Map()).values()].sort((a, b) => b.d - a.d);
+  const day = at => new Date(at).toLocaleDateString('en-CA');  // YYYY-MM-DD, your time
+  const series = best.map(b => {
+    const byDay = new Map();
+    for (const f of on_tg.filter(f => who(f) === who(b))) byDay.set(day(f.at), Math.max(byDay.get(day(f.at)) || 0, f.d));
+    return { name: who(b), color: member(b)?.color || 'var(--muted)', points: [...byDay].sort(([a], [c]) => a < c ? -1 : 1).map(([date, v]) => ({ date, v })) };
+  });
+  const when = at => new Date(at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  const status = !ME ? '<p class="hint">Open this in Premade’s Aion 2 page, in Premade’s app for Windows: it reads your fights off Aion 2’s Combat Analysis (Ctrl+X).</p>'
+    : now - (st.w || 0) < 90e3 ? `<p class="hint"><b class="up">Premade is watching Aion 2.</b> After a fight, open Combat Analysis (Ctrl+X) for a few seconds and the fight is saved here${st.s ? `. It last saw Combat Analysis ${span(now - st.s)} ago` : ''}.</p>`
+    : '<p class="hint">While Aion 2 is open, Premade’s app for Windows reads each of your fights off Combat Analysis (Ctrl+X) once its numbers stop: battle time, DPS, total damage, target and top skills. It sees only Aion 2’s window, so play in Borderless or Windowed mode.</p>';
+  return head('Aion 2', 'DPS', targets.length > 1 ? `<select id="dpsTarget" aria-label="Target">${targets.map(x => `<option value="${esc(x)}" ${x === tg ? 'selected' : ''}>${esc(x || 'No target read')}</option>`).join('')}</select>` : '') + `
+    <section class="panel">${status}${ME && inPremade() ? `<label class="hint"><input type="checkbox" id="dpsOn" ${on ? 'checked' : ''}>Read my fights off Combat Analysis</label>` : ''}
+      ${fightsErr ? `<p class="hint">${esc(fightsErr)}</p>` : ''}</section>` + (!all.length ? '<div class="panel empty">No fights yet.</div>' : `
+    <section class="panel wrap"><h2 class="ph">Best on ${esc(tg || 'no target')} <span class="hint">${on_tg.length} fight${on_tg.length === 1 ? '' : 's'}</span></h2>
+      <table class="cmp"><tr><th>Character</th><th>Best DPS</th><th>Battle time</th><th>Total damage</th><th>Fights</th><th>When</th></tr>
+      ${best.map(f => { const m = member(f), cls = m && BUILDS[classOf(m)]?.cls; return `<tr><td><i class="sw" style="--c:${m?.color || 'var(--muted)'}"></i>${m ? `<a href="${memberLink(f.c)}">${esc(f.c)}</a>` : esc(f.c || 'Character not known')}
+        <span class="sub">${cls ? esc(cls) + ' · ' : ''}${esc(nick(f.o))}</span>${tag(f.o)}</td><td class="n"><b>${fmt(f.d)}</b></td><td class="n">${mmss(f.t)}</td><td class="n">${fmt(f.dmg)}</td>
+        <td class="n">${on_tg.filter(x => who(x) === who(f)).length}</td><td>${when(f.at)}</td></tr>`; }).join('')}</table></section>
+    <section class="panel"><h2 class="ph">Best DPS each day on ${esc(tg || 'no target')}</h2>${lineChart(series, { unit: 'DPS', empty: 'The chart starts once there are fights on two different days.' })}</section>`) + (own.length ? `
+    <section class="panel wrap"><h2 class="ph">Your fights <span class="hint">newest first</span></h2>
+      <table class="cmp"><tr><th>When</th><th>Target</th><th>DPS</th><th>Time</th><th>Damage</th><th>Top skills</th><th></th></tr>
+      ${own.slice(-20).reverse().map(f => `<tr><td>${when(f.at)}</td><td>${esc(f.tg || '–')}</td><td class="n"><b>${fmt(f.d)}</b></td><td class="n">${mmss(f.t)}</td><td class="n">${fmt(f.dmg)}</td>
+        <td class="sub">${f.k.slice(0, 3).map(([n, , pc]) => `${esc(n)} ${pc}%`).join(' · ') || '–'}</td><td><button class="btn small" data-fight="${f.at}" aria-label="Remove this fight">✕</button></td></tr>`).join('')}</table></section>` : '') + `
+    <p class="hint">Combat Analysis shows only your own character, so a friend’s fights show here once they run Premade too. Premade reads only Aion 2’s window as you see it, never the game’s files or its network traffic.</p>`;
+}
+
+// every 30 s: the 5-minute boss warnings (through Premade, or the browser's notifications) and the card Premade's
+// overlay shows over Aion 2 (Alt+V): the next respawns on your servers, the daily reset, what your best character
+// still has to do today
+const say = text => { try { if (parent.aionNotify) return parent.aionNotify(text); } catch {} if (window.Notification?.permission === 'granted') new Notification('Aion 2', { body: text, icon: 'icon-192.png' }); };
+let warned; try { warned = new Set(JSON.parse(localStorage.getItem('aion-warned')) || []); } catch { warned = new Set(); }
+function aionBeat() {
+  if (!ME) return;
+  const now = Date.now(), servers = myServers();
+  const next = KILLS.filter(k => servers.includes(k.s)).map(k => { const b = bossesOf(raceOf(k.s)).find(x => x.n === k.b); return b && { ...k, due: k.at + b.min * 6e4 }; })
+    .filter(k => k && k.due > now).sort((a, b) => a.due - b.due);
+  for (const k of next.filter(k => k.due - now <= 5 * 6e4)) {
+    const key = `${k.s}|${k.b}|${k.at}`;
+    if (!warned.has(key) && warnOn()) say(`${k.b} comes back in ${span(k.due - now)}, at ${clock(k.due)}`);
+    warned.add(key);
+  }
+  const m = mine().find(m => m.server), left = m && leftText(ME, m, 'day');
+  try {
+    localStorage.setItem('aion-warned', JSON.stringify([...warned].slice(-50)));
+    localStorage.setItem('lpc-aion-card', JSON.stringify({ at: now, lines: [...next.slice(0, 3).map(k => `${k.b} in ${span(k.due - now)}`),
+      `Daily reset in ${span(nextReset('day') - now)}`, ...(m ? [left ? `${m.name} today: ${left}` : `${m.name}: dailies done`] : [])] }));
+  } catch {}
+}
+
 function settings() {
   return head('Tracker', 'Settings') + (ME ? `
     <section class="panel"><h2 class="ph">Found automatically</h2>
@@ -641,7 +918,8 @@ function route() {
   const v = $('#view');
   v.innerHTML = page === 'legion' ? legion() : page === 'member' ? member(decodeURIComponent(arg || ''), sub)
     : page === 'classes' ? (arg ? classGuide(decodeURIComponent(arg)) : classes())
-    : page === 'compare' ? compare(params) : page === 'settings' ? settings() : profile();
+    : page === 'compare' ? compare(params) : page === 'news' ? news() : page === 'timers' ? timers(params) : page === 'checklist' ? checklist() : page === 'dps' ? dpsPage(params)
+    : page === 'settings' ? settings() : profile();
   drawCharts();
   $('main').scrollTop = 0;
   const go = (a, b) => location.hash = `#/compare?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
@@ -659,9 +937,42 @@ function route() {
     const live = await fetch(`${CLAIMS_URL}?q=${encodeURIComponent(b.dataset.n)}&s=${encodeURIComponent(m.server)}`).then(r => r.ok ? r.json() : null).catch(() => null);
     if (!live) { b.disabled = false; b.textContent = 'Refresh now'; msg.textContent = 'Couldn’t reach Aion’s site. Try again in a minute.'; return; }
     const today = new Date().toISOString().slice(0, 10);
+    // the live sheet has no item details: an item that didn't change keeps the ones from the last update
+    const was = new Map((m.gear || []).map(g => [g.slotPosName, g]));
+    live.gear?.forEach(g => { const o = was.get(g.slotPosName); if (o && 'max' in o && o.name === g.name && o.enchantLevel === g.enchantLevel) Object.assign(g, { ...o, icon: g.icon }); });
     Object.assign(m, live, { history: [...m.history.filter(h => h.date !== today), { date: today, cp: live.cp, il: live.il }] });
     load(DATA);
     $('#liveMsg').textContent = 'Live from Aion just now';
+  });
+  $('#tServer')?.addEventListener('change', e => location.hash = '#/timers?s=' + encodeURIComponent(e.target.value));
+  $('#dpsTarget')?.addEventListener('change', e => location.hash = '#/dps?tg=' + encodeURIComponent(e.target.value));
+  $('#dpsOn')?.addEventListener('change', e => { try { localStorage.setItem('aion-dps', e.target.checked ? '1' : '0'); } catch {} });
+  // a removed fight stays in Premade's list, marked, so Premade doesn't save it again when Combat Analysis shows it again
+  document.querySelectorAll('[data-fight]').forEach(b => b.onclick = () => {
+    try { localStorage.setItem('lpc-aion-fights', JSON.stringify((premade('lpc-aion-fights') || []).map(f => f.at === +b.dataset.fight ? { ...f, x: 1 } : f))); } catch {}
+    rerender();
+    sendFights();
+  });
+  $('#warnBoss')?.addEventListener('change', e => {
+    try { localStorage.setItem('aion-warn', e.target.checked ? '1' : '0'); } catch {}
+    if (e.target.checked && !inPremade() && window.Notification?.permission === 'default') Notification.requestPermission();
+  });
+  const tell = (el, text) => { el.hidden = false; el.textContent = text; };
+  document.querySelectorAll('[data-boss]').forEach(sel => sel.onchange = async () => {
+    const v = sel.value;
+    sel.disabled = true;
+    const err = await said(BOSS_URL, { s: sel.dataset.s, b: sel.dataset.boss, ...(v === 'del' ? { del: true } : { at: Date.now() - v * 6e4 }) });
+    if (!err) return loadKills().then(rerender);
+    sel.disabled = false;
+    tell($('#bossMsg'), err);
+  });
+  // a tick shows at once, and goes back if the server says no
+  document.querySelectorAll('[data-tick]').forEach(b => b.onclick = async () => {
+    const k = b.dataset.tick, [who, item] = k.split(':'), t = TODO.find(x => x.k === item), was = did(ME, who, t), n = Math.min(t.n, Math.max(0, was + +b.dataset.d));
+    const set = n => { TICKS = TICKS.filter(x => !(low(x.o) === low(ME) && x.k === k)); if (n) TICKS.push({ o: ME, k, n, at: Date.now() }); };
+    set(n); rerender();
+    const err = await said(TICKS_URL, { k, n });
+    if (err) { set(was); rerender(); tell($('#tickMsg'), err); }
   });
   const find = $('#findForm');
   if (!find) return;
@@ -698,6 +1009,9 @@ function group() {
   $('#barCount').innerHTML = `<b>${PLAYERS.length}</b> players · <b>${LIST.length}</b> characters`;
 }
 
+// the same page again, where it was scrolled to: new data, a tick, the countdowns
+const rerender = () => { const top = $('main').scrollTop; route(); $('main').scrollTop = top; };
+
 function load(data) {
   DATA = data;
   const order = Object.keys(data.members); // colour follows the member, never their rank
@@ -705,13 +1019,36 @@ function load(data) {
     .sort((a, b) => b.cp - a.cp);
   $('#barUpdated').innerHTML = data.updated ? `Updated <b>${esc(data.updated)}</b>` : 'Not updated yet';
   group();
-  route();
+  rerender();
+  // Premade opens this page in the background for Aion 2 players, for the boss warnings and its overlay card
+  try { if (ME) localStorage[mine().length ? 'setItem' : 'removeItem']('lpc-aion', '1'); } catch {}
+  aionBeat();
+  sendFights();
 }
 
 addEventListener('hashchange', route);
 // pick up each new update while the page stays open (GitHub Pages may serve the old file for up to 10 minutes)
 setInterval(() => fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(d => d.updated !== DATA.updated && load(d)).catch(() => {}), 5 * 60e3);
-Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({ members: {} })), loadClaims()]).then(([d]) => load(d));
+Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({ members: {} })), loadClaims(), loadKills(), loadTicks()]).then(([d]) => load(d));
+// Premade's server shares a daily request budget with voice, so the kills and ticks come on opening, after your own
+// change and when Premade shows this page again (aionShown), then every 2 minutes only while it's in sight; the
+// countdowns move every 30 s from what's known
+const inSight = () => { try { return document.visibilityState === 'visible' && (!frameElement || frameElement.checkVisibility()); } catch { return document.visibilityState === 'visible'; } };
+let beats = 0, fetchedAt = Date.now();
+const refetch = () => { fetchedAt = Date.now(); return Promise.all([loadKills(), loadTicks(), location.hash.startsWith('#/dps') && loadFights()]); };
+window.aionShown = () => { if (Date.now() - fetchedAt > 30e3) refetch().then(rerender); };
+setInterval(() => {
+  const page = location.hash.slice(2).split(/[/?]/)[0];
+  (++beats % 4 === 0 && inSight() ? refetch() : Promise.resolve()).then(() => {
+    aionBeat();
+    if ((page === 'timers' || page === 'checklist' || page === 'dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
+  });
+}, 30e3);
+// Premade saved a fight (send it), or its watching changed
+addEventListener('storage', e => {
+  if (e.key === 'lpc-aion-fights') sendFights();
+  if ((e.key === 'lpc-aion-fights' || e.key === 'lpc-aion-dps') && location.hash.startsWith('#/dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
+});
 </script>
 </body>
 </html>

@@ -4,6 +4,7 @@ import datetime, json, re, time, urllib.parse, urllib.request
 REGION = "eu"
 SEARCH = "https://api-search.plaync.com/aion2global/search/v2/character?keyword={kw}&region={region}&localeInfo=en-US&page=1&size=20"
 API = "https://aion2.plaync.com/api/character/{kind}?region={region}&lang=en-US&characterId={cid}&serverId={sid}"
+ITEM = "https://aion2.plaync.com/api/character/equipment/item?id={id}&enchantLevel={ench}&slotPos={slot}&characterId={cid}&serverId={sid}&lang=en-US&region={region}"
 # characters people picked as theirs on the Profile page, kept by Premade's server: [{"n", "s", "o": owner's Riot ID}]
 CLAIMS = "https://league-proxchat.league-proxchat-server.workers.dev/aion"
 
@@ -31,6 +32,57 @@ def item_level(info):
 def gear(equip):
     return [{k: g[k] for k in ("slotPosName", "name", "grade", "enchantLevel", "icon")}
             for g in equip["equipment"]["equipmentList"]]
+
+
+def details(item):
+    """What the gear checkup uses from an item's own page: enchant cap, manastones, Theostone and where it drops."""
+    return {"max": item.get("maxEnchantLevel"), "slots": item.get("magicStoneSlotCount") or 0,
+            "stones": [[s["name"], s["value"], s["grade"]] for s in item.get("magicStoneStat") or []],
+            "godSlots": item.get("godStoneSlotCount") or 0, "god": [s.get("name", "") for s in item.get("godStoneStat") or []],
+            "src": item.get("sources") or []}
+
+
+def add_details(new, raw, old, fresh, ids):
+    """Each item keeps its details while it and its enchant stay the same; fresh (once a day) reads every item again,
+    for manastones and Theostones changed on the same item."""
+    was = {g["slotPosName"]: g for g in old}
+    for g, r in zip(new, raw):
+        o = was.get(g["slotPosName"])
+        if not fresh and o and "max" in o and (o["name"], o["enchantLevel"]) == (g["name"], g["enchantLevel"]):
+            g.update({k: o[k] for k in ("max", "slots", "stones", "godSlots", "god", "src")})
+            continue
+        try:
+            g.update(details(get(ITEM.format(id=r["id"], ench=r["enchantLevel"], slot=r["slotPos"], **ids))))
+            time.sleep(0.5)  # be polite
+        except Exception as e:  # the item still shows, without its details
+            print(f"item failed: {g['name']}: {e}")
+
+
+def changes(old, new):
+    """What a character gained since the last update, as short lines for the legion feed."""
+    out = []
+    if new["level"] > old.get("level", new["level"]):
+        out.append(f"reached level {new['level']}")
+    was = {g["slotPosName"]: g for g in old.get("gear") or []}
+    for g in new["gear"]:
+        o = was.get(g["slotPosName"])
+        if not o or o["name"] != g["name"]:
+            out.append(f"new {g['name']} +{g['enchantLevel']}")
+        elif o["enchantLevel"] != g["enchantLevel"]:
+            out.append(f"{g['name']} +{o['enchantLevel']} → +{g['enchantLevel']}")
+    titles = lambda m: (m.get("title") or {}).get("ownedCount") or 0
+    if old.get("title") and titles(new) > titles(old):
+        n = titles(new) - titles(old)
+        out.append(f"{n} new title{'s' if n > 1 else ''}")
+    nodes = lambda m: sum(b["openNodeCount"] for b in (m.get("daevanion") or {}).get("boardList") or [])
+    if old.get("daevanion") and nodes(new) > nodes(old):
+        out.append(f"opened {nodes(new) - nodes(old)} Daevanion nodes")
+    levels = lambda m: {s["name"]: s["skillLevel"] for s in (m.get("skill") or {}).get("skillList") or [] if s["acquired"]}
+    a = levels(old)
+    up = [f"{n} {v}" for n, v in levels(new).items() if a and v > a.get(n, 0)]
+    if up:
+        out.append("skills up: " + ", ".join(up[:4]) + (f" and {len(up) - 4} more" if len(up) > 4 else ""))
+    return out
 
 
 def board(detail):
@@ -87,15 +139,23 @@ def main():
             print(f"failed: {name}: {e}")
             continue
         m = data["members"].setdefault(name, {"history": []})
+        before = dict(m)
+        g = gear(equip)
+        # the first update of the day reads every item's details again; later ones only items that changed
+        add_details(g, equip["equipment"]["equipmentList"], m.get("gear") or [], not any(h["date"] == today for h in m["history"]), ids)
         m.update(server=server, owner=owner, level=c["level"], cp=info["profile"]["combatPower"],
-                 il=item_level(info), gear=gear(equip),
+                 il=item_level(info), gear=g, pic=info["profile"].get("profileImage"),
                  # the rest of the character sheet, kept as the game sends it
                  stats=info["stat"]["statList"], title=info.get("title"), ranking=info.get("ranking"),
                  daevanion=info.get("daevanion"), boards=boards, skill=equip.get("skill"), petwing=equip.get("petwing"),
                  pcId=c.get("pcId"), race=c.get("race"))
         m["history"] = [h for h in m["history"] if h["date"] != today] + [{"date": today, "cp": m["cp"], "il": m["il"]}]
+        if before.get("gear"):  # newest first; a character's first update has nothing to compare with
+            at = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M")
+            data["feed"] = [{"t": at, "n": name, "x": x} for x in changes(before, m)] + data.get("feed", [])
         print(f"{name}: CP {m['cp']}, IL {m['il']}")
         time.sleep(3)  # be polite
+    data["feed"] = data.get("feed", [])[:300]
     data["updated"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     json.dump(data, open("data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
@@ -120,6 +180,21 @@ def demo():
         finally:
             os.chdir(cwd)
     assert item_level({"stat": {"statList": [{"type": "X", "value": 1}, {"type": "ItemLevel", "value": 1937}]}}) == 1937
+    d = details({"maxEnchantLevel": 15, "magicStoneSlotCount": 4, "godStoneSlotCount": 1, "sources": ["Expedition"],
+                 "magicStoneStat": [{"name": "Attack", "value": "+3", "grade": "Rare", "slotPos": 1}]})
+    assert d == {"max": 15, "slots": 4, "stones": [["Attack", "+3", "Rare"]], "godSlots": 1, "god": [], "src": ["Expedition"]}
+    sword = {"slotPosName": "MainHand", "name": "Sword", "enchantLevel": 14}
+    old, new = [dict(sword, **d)], [dict(sword)]
+    add_details(new, [{}], old, False, {})  # same item, same enchant: no request, details kept
+    assert new[0]["stones"] == [["Attack", "+3", "Rare"]]
+    before = {"level": 44, "gear": [sword], "title": {"ownedCount": 10}, "daevanion": {"boardList": [{"openNodeCount": 5}]},
+              "skill": {"skillList": [{"name": "Keen Strike", "skillLevel": 14, "acquired": 1}]}}
+    after = {"level": 45, "gear": [dict(sword, enchantLevel=15), {"slotPosName": "Ring1", "name": "Ring", "enchantLevel": 0}],
+             "title": {"ownedCount": 11}, "daevanion": {"boardList": [{"openNodeCount": 7}]},
+             "skill": {"skillList": [{"name": "Keen Strike", "skillLevel": 15, "acquired": 1}]}}
+    assert changes(before, after) == ["reached level 45", "Sword +14 → +15", "new Ring +0", "1 new title",
+                                      "opened 2 Daevanion nodes", "skills up: Keen Strike 15"]
+    assert changes(after, after) == []
 
 
 if __name__ == "__main__":

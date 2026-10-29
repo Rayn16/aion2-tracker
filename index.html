@@ -949,15 +949,19 @@ addEventListener('hashchange', route);
 // pick up each new update while the page stays open (GitHub Pages may serve the old file for up to 10 minutes)
 setInterval(() => fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(d => d.updated !== DATA.updated && load(d)).catch(() => {}), 5 * 60e3);
 Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({ members: {} })), loadClaims(), loadKills(), loadTicks()]).then(([d]) => load(d));
-// the kills every 2 minutes (every 30 s on Timers) and the ticks every minute on Checklist, where the countdowns move too
-let beats = 0;
+// Premade's server shares a daily request budget with voice, so the kills and ticks come on opening, after your own
+// change and when Premade shows this page again (aionShown), then every 2 minutes only while it's in sight; the
+// countdowns move every 30 s from what's known
+const inSight = () => { try { return document.visibilityState === 'visible' && (!frameElement || frameElement.checkVisibility()); } catch { return document.visibilityState === 'visible'; } };
+let beats = 0, fetchedAt = Date.now();
+const refetch = () => { fetchedAt = Date.now(); return Promise.all([loadKills(), loadTicks()]); };
+window.aionShown = () => { if (Date.now() - fetchedAt > 30e3) refetch().then(rerender); };
 setInterval(() => {
   const page = location.hash.slice(2).split(/[/?]/)[0];
-  Promise.all([page === 'timers' || beats % 4 === 0 ? loadKills() : 0, page === 'checklist' && beats % 2 === 0 ? loadTicks() : 0]).then(() => {
+  (++beats % 4 === 0 && inSight() ? refetch() : Promise.resolve()).then(() => {
     aionBeat();
-    if ((page === 'timers' || page === 'checklist') && document.activeElement?.tagName !== 'SELECT') rerender();
+    if ((page === 'timers' || page === 'checklist') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
   });
-  beats++;
 }, 30e3);
 </script>
 </body>

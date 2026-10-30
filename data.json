@@ -29,43 +29,43 @@
     },
     {
      "date": "2026-10-30",
-     "cp": 102914,
-     "il": 2226
+     "cp": 106685,
+     "il": 2262
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 102914,
-   "il": 2226,
+   "cp": 106685,
+   "il": 2262,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Aulamus Greatsword",
+     "name": "Enraged Kromede Claymore",
      "grade": "Unique",
-     "enchantLevel": 14,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_GS_0028_T05.png",
+     "enchantLevel": 15,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_GS_0041_T06.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Critical Hit Resist",
-       "+10",
-       "Legend"
+       "Evasion Bonus",
+       "+5",
+       "Common"
       ],
       [
-       "Attack",
-       "+3",
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
        "Rare"
-      ],
-      [
-       "Defense",
-       "+30",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+50",
-       "Legend"
       ]
      ],
      "godSlots": 1,
@@ -485,33 +485,40 @@
     },
     {
      "slotPosName": "Ring1",
-     "name": "Liberator Ring",
-     "grade": "Legend",
+     "name": "Enraged Kromede Ring",
+     "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
-     "max": 10,
-     "slots": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
+     "max": 15,
+     "slots": 4,
      "stones": [
       [
-       "Block",
-       "+7",
-       "Common"
-      ],
-      [
-       "Critical Hit",
-       "+5",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
+       "HP",
+       "+80",
        "Rare"
+      ],
+      [
+       "Evasion Bonus",
+       "+13",
+       "Legend"
+      ],
+      [
+       "HP",
+       "+45",
+       "Common"
+      ],
+      [
+       "Defense",
+       "+20",
+       "Common"
       ]
      ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -678,7 +685,7 @@
     {
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
-     "grade": "Legend",
+     "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 4,
@@ -800,11 +807,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +3.5%",
-      "Regeneration +3.5%"
+      "HP increase +3.1%",
+      "Regeneration +3.1%"
      ],
      "type": "Life",
-     "value": 35
+     "value": 31
     },
     {
      "name": "Time [Siel]",
@@ -864,7 +871,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2226
+     "value": 2262
     }
    ],
    "title": {
@@ -1013,7 +1020,7 @@
       "id": 11020000,
       "name": "Keen Strike",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -1033,7 +1040,7 @@
       "id": 11190000,
       "name": "Leaping Slam",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -1073,7 +1080,7 @@
       "id": 11200000,
       "name": "Ankle Slice",
       "needLevel": 7,
-      "skillLevel": 5
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -1103,7 +1110,7 @@
       "id": 11300000,
       "name": "Aerial Snare",
       "needLevel": 12,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -1113,7 +1120,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -5639,21 +5646,21 @@
     },
     {
      "date": "2026-10-30",
-     "cp": 99410,
-     "il": 2198
+     "cp": 100099,
+     "il": 2208
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 99410,
-   "il": 2198,
+   "cp": 100099,
+   "il": 2208,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Enraged Kromede Rod",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0041_T06.png",
      "max": 15,
      "slots": 4,
@@ -5680,7 +5687,9 @@
       ]
      ],
      "godSlots": 1,
-     "god": [],
+     "god": [
+      "Theostone: Traufnir's Courage"
+     ],
      "src": [
       "Reward Chest",
       "Expedition",
@@ -6491,7 +6500,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2198
+     "value": 2208
     }
    ],
    "title": {
@@ -7566,8 +7575,28 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-30 17:01 UTC",
+ "updated": "2026-10-30 17:31 UTC",
  "feed": [
+  {
+   "t": "2026-10-30 17:31",
+   "n": "CutieCatty",
+   "x": "Enraged Kromede Rod +10 → +15"
+  },
+  {
+   "t": "2026-10-30 17:31",
+   "n": "YasuoMain",
+   "x": "new Enraged Kromede Claymore +15"
+  },
+  {
+   "t": "2026-10-30 17:31",
+   "n": "YasuoMain",
+   "x": "new Enraged Kromede Ring +10"
+  },
+  {
+   "t": "2026-10-30 17:31",
+   "n": "YasuoMain",
+   "x": "skills up: Aerial Snare 2"
+  },
   {
    "t": "2026-10-30 17:01",
    "n": "CutieCatty",

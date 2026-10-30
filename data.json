@@ -29,14 +29,14 @@
     },
     {
      "date": "2026-10-30",
-     "cp": 102834,
-     "il": 2199
+     "cp": 102855,
+     "il": 2219
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 102834,
-   "il": 2199,
+   "cp": 102855,
+   "il": 2219,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -677,11 +677,11 @@
     },
     {
      "slotPosName": "Arcana2",
-     "name": "Parchment of Magic",
-     "grade": "Rare",
+     "name": "Parchment of Vigor",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
-     "max": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -800,11 +800,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.9%",
-      "Regeneration +1.9%"
+      "HP increase +3.5%",
+      "Regeneration +3.5%"
      ],
      "type": "Life",
-     "value": 19
+     "value": 35
     },
     {
      "name": "Time [Siel]",
@@ -845,11 +845,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +3.1%",
-      "Endurance +3.1%"
+      "MP increase +1.9%",
+      "Endurance +1.9%"
      ],
      "type": "Destiny",
-     "value": 31
+     "value": 19
     },
     {
      "name": "Space [Israphel]",
@@ -864,7 +864,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2199
+     "value": 2219
     }
    ],
    "title": {
@@ -1053,7 +1053,7 @@
       "id": 11170000,
       "name": "Overhead Slam",
       "needLevel": 4,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -1073,7 +1073,7 @@
       "id": 11200000,
       "name": "Ankle Slice",
       "needLevel": 7,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -1113,7 +1113,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7568,8 +7568,18 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-30 02:45 UTC",
+ "updated": "2026-10-30 03:01 UTC",
  "feed": [
+  {
+   "t": "2026-10-30 03:01",
+   "n": "YasuoMain",
+   "x": "new Parchment of Vigor +0"
+  },
+  {
+   "t": "2026-10-30 03:01",
+   "n": "YasuoMain",
+   "x": "skills up: Ankle Slice 5, Ruinous Blow 15"
+  },
   {
    "t": "2026-10-30 02:45",
    "n": "CutieCatty",

@@ -5639,15 +5639,15 @@
     },
     {
      "date": "2026-10-30",
-     "cp": 97041,
-     "il": 2150
+     "cp": 98163,
+     "il": 2190
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 97041,
-   "il": 2150,
+   "cp": 98163,
+   "il": 2190,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6288,7 +6288,7 @@
     {
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
-     "grade": "Rare",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
      "max": 3,
@@ -6438,11 +6438,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +5.3%",
-      "Double Resist +5.3%"
+      "Combat Speed +6.1%",
+      "Double Resist +6.1%"
      ],
      "type": "Time",
-     "value": 53
+     "value": 61
     },
     {
      "name": "Destruction [Zikel]",
@@ -6493,7 +6493,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2150
+     "value": 2190
     }
    ],
    "title": {
@@ -7197,7 +7197,7 @@
       "id": 18010000,
       "name": "Onslaught",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7237,7 +7237,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -7247,7 +7247,7 @@
       "id": 18300000,
       "name": "Gust Rampage",
       "needLevel": 5,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7317,7 +7317,7 @@
       "id": 18710000,
       "name": "Blessing of Life",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7337,7 +7337,7 @@
       "id": 18730000,
       "name": "Protection Circle",
       "needLevel": 9,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7347,7 +7347,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7568,8 +7568,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-30 02:31 UTC",
+ "updated": "2026-10-30 02:45 UTC",
  "feed": [
+  {
+   "t": "2026-10-30 02:45",
+   "n": "CutieCatty",
+   "x": "skills up: Onslaught 15, Dark Crush 16, Gust Rampage 15, Blessing of Life 15"
+  },
   {
    "t": "2026-10-30 02:31",
    "n": "CutieCatty",

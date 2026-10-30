@@ -29,14 +29,14 @@
     },
     {
      "date": "2026-10-30",
-     "cp": 102855,
-     "il": 2219
+     "cp": 102914,
+     "il": 2226
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 102855,
-   "il": 2219,
+   "cp": 102914,
+   "il": 2226,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -864,7 +864,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2219
+     "value": 2226
     }
    ],
    "title": {
@@ -5639,50 +5639,48 @@
     },
     {
      "date": "2026-10-30",
-     "cp": 98193,
-     "il": 2190
+     "cp": 99410,
+     "il": 2198
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 98193,
-   "il": 2190,
+   "cp": 99410,
+   "il": 2198,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Aulamus Staff",
+     "name": "Enraged Kromede Rod",
      "grade": "Unique",
-     "enchantLevel": 15,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0028_T05.png",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0041_T06.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+50",
-       "Legend"
-      ],
-      [
-       "MP",
+       "Defense",
        "+30",
        "Rare"
       ],
       [
-       "Block",
-       "+10",
+       "Critical Hit Resist",
+       "+7",
        "Rare"
       ],
       [
-       "Attack",
-       "+10",
+       "HP",
+       "+100",
+       "Legend"
+      ],
+      [
+       "Back Attack Damage Boost",
+       "+100",
        "Unique"
       ]
      ],
      "godSlots": 1,
-     "god": [
-      "Theostone: Ulgorn's Will"
-     ],
+     "god": [],
      "src": [
       "Reward Chest",
       "Expedition",
@@ -6355,10 +6353,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1%"
+      "Attack increase +4.1%"
      ],
      "type": "STR",
-     "value": 10
+     "value": 41
     },
     {
      "name": "Dexterity",
@@ -6493,7 +6491,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2190
+     "value": 2198
     }
    ],
    "title": {
@@ -7568,8 +7566,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-30 16:31 UTC",
+ "updated": "2026-10-30 17:01 UTC",
  "feed": [
+  {
+   "t": "2026-10-30 17:01",
+   "n": "CutieCatty",
+   "x": "new Enraged Kromede Rod +10"
+  },
   {
    "t": "2026-10-30 04:01",
    "n": "CutieCatty",

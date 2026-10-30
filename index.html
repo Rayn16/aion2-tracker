@@ -745,6 +745,27 @@ const loadKills = () => fetch(BOSS_URL, { cache: 'no-store' }).then(r => r.json(
 const raceOf = s => LIST.find(m => m.server === s)?.race;
 const myServers = () => [...new Set(mine().map(m => m.server || m.s))];
 const warnOn = () => { try { return localStorage.getItem('aion-warn') !== '0'; } catch { return true; } };
+// alerts, as Abyss DPS Meter has them: each event with its own lead time, plus a chime and a spoken line if you want
+// them (aion-alerts: { boss, shugo, inv, reset: minutes before, 0 = off; sound, voice }); bosses stay on aion-warn
+const ALERTS = [['boss', 'A marked field boss on my server'], ['shugo', 'Shugo Festival (:00)'], ['inv', 'Dimensional Invasion (:30)'], ['reset', 'Daily reset']];
+const alerts = () => { let a; try { a = JSON.parse(localStorage.getItem('aion-alerts')); } catch {} return { boss: 5, shugo: 0, inv: 0, reset: 0, sound: false, voice: false, ...a }; };
+const setAlert = (k, v) => { try { localStorage.setItem('aion-alerts', JSON.stringify({ ...alerts(), [k]: v })); } catch {} };
+let audio;
+const chime = () => { try {  // two soft bell notes, made here like Abyss's synthesized tones, no sound files
+  audio = audio || new AudioContext();
+  [[880, 0], [1320, 0.18]].forEach(([hz, at]) => {
+    const o = audio.createOscillator(), g = audio.createGain(), t = audio.currentTime + at;
+    o.frequency.value = hz; g.gain.setValueAtTime(0.25, t); g.gain.exponentialRampToValueAtTime(0.001, t + 1.2);
+    o.connect(g).connect(audio.destination); o.start(t); o.stop(t + 1.2);
+  });
+} catch {} };
+const speak = text => { try { speechSynthesis.speak(Object.assign(new SpeechSynthesisUtterance(text), { lang: 'en-GB' })); } catch {} };
+const alertBox = () => { const a = alerts(), mins = [0, 1, 2, 3, 5, 10, 15];
+  return `<section class="panel"><h2 class="ph">Alerts</h2><p class="hint">Premade tells you this long before each one${inPremade() ? ', as a popup and a Windows notification' : ''}.</p>
+    <table class="cmp">${ALERTS.map(([k, label]) => { const v = k === 'boss' ? (warnOn() ? a.boss || 5 : 0) : a[k];
+      return `<tr><td>${label}</td><td><select data-alert="${k}" aria-label="${label}">${mins.map(m => `<option value="${m}" ${m === v ? 'selected' : ''}>${m ? m + ' min before' : 'Off'}</option>`).join('')}</select></td></tr>`; }).join('')}</table>
+    <label class="hint"><input type="checkbox" data-alert="sound" ${a.sound ? 'checked' : ''}>Play a chime</label>
+    <label class="hint"><input type="checkbox" data-alert="voice" ${a.voice ? 'checked' : ''}>Say it out loud</label></section>`; };
 const inPremade = () => { try { return !!parent.aionNotify; } catch { return false; } };
 // a kill, a tick or a fight to Premade's server: '' once it's kept, else why not
 const said = (url, body) => fetch(url, { method: 'POST', body: JSON.stringify({ id: DEVICE, o: ME, ...body }) }).then(x => x.json())
@@ -762,15 +783,14 @@ function timers(params) {
     <div class="tiles">${tile('Daily reset', nextReset('day'), `at ${clock(nextReset('day'))} your time`)}${tile('Weekly reset', nextReset('week'), `${weekday(nextReset('week'))} ${clock(nextReset('week'))}`)}
       ${tile('Shugo Festival', nextAt(0), 'every hour at :00')}${tile('Dimensional Invasion', nextAt(30), 'every hour at :30')}</div>
     <section class="panel"><h2 class="ph">Field bosses${s ? ` on ${esc(s)} <span class="hint">${raceOf(s) === 1 ? 'Verteron' : 'Altgard'}</span>` : ''}</h2>
-      ${rows.length ? `<p class="hint">Each one comes back a set time after it dies. Mark a kill and everyone in the legion sees when it’s back${ME ? '; Premade warns you 5 minutes before' : ''}.</p>
+      ${rows.length ? `<p class="hint">Each one comes back a set time after it dies. Mark a kill and everyone in the legion sees when it’s back${ME ? '; Premade warns you before, as set in Alerts below' : ''}.</p>
       <div class="rows">${rows.map(b => `<div class="row boss"><span style="min-width:0"><div class="name">${esc(b.n)}</div>
         <div class="sub">Every ${every(b.min)}${b.k ? ` · died ${clock(b.k.at)}, marked by ${esc(nick(b.k.o))}` : ''}</div></span>
         <span class="num ${b.due <= now ? 'up' : ''}">${!b.k ? '–' : b.due > now ? `in ${span(b.due - now)}<div class="sub">${clock(b.due)}</div>` : `Up<div class="sub">since ${clock(b.due)}</div>`}</span>
         ${ME ? pick(b.n) : ''}</div>`).join('')}</div>
       <p id="bossMsg" class="hint" hidden></p>
-      ${ME ? `<label class="hint"><input type="checkbox" id="warnBoss" ${warnOn() ? 'checked' : ''}>Warn me 5 minutes before a marked boss on my server comes back</label>` : ''}
       <p class="hint">Respawn times from <a href="https://thegameswiki.com/aion-2/wiki/field-bosses" target="_blank" rel="noopener">The Games Wiki</a> (CC BY-NC-SA 4.0), which match aion2atlas.app’s kill reports. NCSOFT hasn’t published them, so one may be off.</p>`
-      : '<p class="hint">No characters yet, so no server to show.</p>'}</section>`;
+      : '<p class="hint">No characters yet, so no server to show.</p>'}</section>${ME ? alertBox() : ''}`;
 }
 
 // Checklist: Aion 2's daily (07:00 UTC) and weekly (Wednesday) things, ticked per character and kept by Premade's
@@ -842,6 +862,35 @@ async function sendFights() {  // the new ones and the removed ones, after Prema
   if (location.hash.startsWith('#/dps') && inSight()) (changed ? loadFights() : Promise.resolve()).then(rerender);
 }
 const mmss = t => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
+// Abyss DPS Meter's fights, if it runs on this PC: Premade's app reads the files it saves (lpc-aion-abyss: { id, label, start,
+// end (ms), dmg, me (who ran it), players: [{ n, cls, dmg, hits, crits, back, first (ms), deaths, k: [[skill, damage, hits, crits]] }] })
+// and this shows the whole party, with Abyss's own sums: DPS from each one's first hit, eDPS over the whole fight (1 s at
+// least), share of the damage, crit and back attack rates
+function abyssBox(params) {
+  const list = premade('lpc-aion-abyss') || [];
+  if (!list.length) return '';
+  const f = list.find(x => x.id === params.get('ab')) || list[list.length - 1], pc = (a, b) => b ? Math.round(a / b * 100) + '%' : '–';
+  const secs = from => Math.max((f.end - from) / 1000, 1), when = new Date(f.end).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  return `<section class="panel wrap"><h2 class="ph">Party from Abyss DPS Meter <span class="hint">${esc(f.label)} · ${mmss(Math.round((f.end - f.start) / 1000))} · ${when}</span></h2>
+    ${list.length > 1 ? `<select id="abFight" aria-label="Fight">${[...list].reverse().map(x => `<option value="${esc(x.id)}" ${x.id === f.id ? 'selected' : ''}>${esc(x.label)} · ${new Date(x.end).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}</option>`).join('')}</select>` : ''}
+    <table class="cmp"><tr><th>Character</th><th>DPS</th><th>eDPS</th><th>Share</th><th>Damage</th><th>Crit</th><th>Back</th><th>Hits</th><th>Top skills</th></tr>
+    ${f.players.map(p => `<tr><td>${p.n === f.me ? '<b>' + esc(p.n) + '</b>' : esc(p.n)} <span class="sub">${esc(p.cls)}${p.deaths ? ` · died ${p.deaths}×` : ''}</span></td>
+      <td class="n"><b>${fmt(Math.round(p.dmg / secs(p.first || f.start)))}</b></td><td class="n">${fmt(Math.round(p.dmg / secs(f.start)))}</td><td class="n">${pc(p.dmg, f.dmg)}</td>
+      <td class="n">${fmt(p.dmg)}</td><td class="n">${pc(p.crits, p.hits)}</td><td class="n">${pc(p.back, p.hits)}</td><td class="n">${fmt(p.hits)}</td>
+      <td class="sub">${p.k.slice(0, 3).map(([n, d]) => `${esc(n)} ${pc(d, p.dmg)}`).join(' · ') || '–'}</td></tr>`).join('')}</table>
+    <p class="hint">Read from the fights Abyss DPS Meter saves on this PC. Premade itself never reads the game’s traffic.</p></section>`;
+}
+// party fights: different characters' fights on the same target saved within 3 minutes of the first one, each with its
+// share of the party's damage (Abyss DPS Meter's DPS %: own total / everyone's total × 100)
+// ponytail: guessed from timing, since Combat Analysis doesn't say who you fought with; a real party id needs Premade's room
+function parties(fights, who) {
+  const out = [];
+  for (const f of [...fights].sort((a, b) => a.at - b.at)) {
+    const p = out[out.length - 1];
+    if (p && f.at - p[0].at <= 3 * 6e4 && !p.some(x => who(x) === who(f))) p.push(f); else out.push([f]);
+  }
+  return out.filter(p => p.length > 1).map(p => { const sum = p.reduce((n, f) => n + f.dmg, 0) || 1; return p.map(f => ({ ...f, pc: Math.round(f.dmg / sum * 100) })).sort((a, b) => b.dmg - a.dmg); }).reverse();
+}
 function dpsPage(params) {
   if (Date.now() - fightsAt > 30e3 && inSight()) loadFights().then(() => location.hash.startsWith('#/dps') && rerender());
   const own = myFights(), now = Date.now(), st = premade('lpc-aion-dps') || {};
@@ -863,12 +912,16 @@ function dpsPage(params) {
     : '<p class="hint">While Aion 2 is open, Premade’s app for Windows reads each of your fights off Combat Analysis (Ctrl+X) once its numbers stop: battle time, DPS, total damage, target and top skills. It sees only Aion 2’s window, so play in Borderless or Windowed mode.</p>';
   return head('Aion 2', 'DPS', targets.length > 1 ? `<select id="dpsTarget" aria-label="Target">${targets.map(x => `<option value="${esc(x)}" ${x === tg ? 'selected' : ''}>${esc(x || 'No target read')}</option>`).join('')}</select>` : '') + `
     <section class="panel">${status}${ME && inPremade() ? `<label class="hint"><input type="checkbox" id="dpsOn" ${on ? 'checked' : ''}>Read my fights off Combat Analysis</label>` : ''}
-      ${fightsErr ? `<p class="hint">${esc(fightsErr)}</p>` : ''}</section>` + (!all.length ? '<div class="panel empty">No fights yet.</div>' : `
+      ${fightsErr ? `<p class="hint">${esc(fightsErr)}</p>` : ''}</section>` + abyssBox(params) + (!all.length ? '<div class="panel empty">No fights yet.</div>' : `
     <section class="panel wrap"><h2 class="ph">Best on ${esc(tg || 'no target')} <span class="hint">${on_tg.length} fight${on_tg.length === 1 ? '' : 's'}</span></h2>
       <table class="cmp"><tr><th>Character</th><th>Best DPS</th><th>Battle time</th><th>Total damage</th><th>Fights</th><th>When</th></tr>
       ${best.map(f => { const m = member(f), cls = m && BUILDS[classOf(m)]?.cls; return `<tr><td><i class="sw" style="--c:${m?.color || 'var(--muted)'}"></i>${m ? `<a href="${memberLink(f.c)}">${esc(f.c)}</a>` : esc(f.c || 'Character not known')}
         <span class="sub">${cls ? esc(cls) + ' · ' : ''}${esc(nick(f.o))}</span>${tag(f.o)}</td><td class="n"><b>${fmt(f.d)}</b></td><td class="n">${mmss(f.t)}</td><td class="n">${fmt(f.dmg)}</td>
         <td class="n">${on_tg.filter(x => who(x) === who(f)).length}</td><td>${when(f.at)}</td></tr>`; }).join('')}</table></section>
+    ${(pp => pp.length ? `<section class="panel wrap"><h2 class="ph">Party fights on ${esc(tg || 'no target')} <span class="hint">friends’ fights saved within 3 minutes of each other</span></h2>
+      <table class="cmp"><tr><th>When</th><th>Character</th><th>DPS</th><th>Damage</th><th>Share</th></tr>
+      ${pp.slice(0, 5).map(p => p.map((f, i) => `<tr><td>${i ? '' : when(p[0].at)}</td><td><i class="sw" style="--c:${member(f)?.color || 'var(--muted)'}"></i>${esc(who(f) || 'Character not known')}</td>
+        <td class="n">${fmt(f.d)}</td><td class="n">${fmt(f.dmg)}</td><td class="n"><b>${f.pc}%</b></td></tr>`).join('')).join('')}</table></section>` : '')(parties(on_tg, who))}
     <section class="panel"><h2 class="ph">Best DPS each day on ${esc(tg || 'no target')}</h2>${lineChart(series, { unit: 'DPS', empty: 'The chart starts once there are fights on two different days.' })}</section>`) + (own.length ? `
     <section class="panel wrap"><h2 class="ph">Your fights <span class="hint">newest first</span></h2>
       <table class="cmp"><tr><th>When</th><th>Target</th><th>DPS</th><th>Time</th><th>Damage</th><th>Top skills</th><th></th></tr>
@@ -887,9 +940,17 @@ function aionBeat() {
   const now = Date.now(), servers = myServers();
   const next = KILLS.filter(k => servers.includes(k.s)).map(k => { const b = bossesOf(raceOf(k.s)).find(x => x.n === k.b); return b && { ...k, due: k.at + b.min * 6e4 }; })
     .filter(k => k && k.due > now).sort((a, b) => a.due - b.due);
-  for (const k of next.filter(k => k.due - now <= 5 * 6e4)) {
-    const key = `${k.s}|${k.b}|${k.at}`;
-    if (!warned.has(key) && warnOn()) say(`${k.b} comes back in ${span(k.due - now)}, at ${clock(k.due)}`);
+  const a = alerts(), due = [
+    ...(warnOn() ? next.map(k => [`${k.s}|${k.b}|${k.at}`, k.due, a.boss || 5, `${k.b} comes back`]) : []),
+    ['shugo|' + nextAt(0), nextAt(0), a.shugo, 'Shugo Festival starts'], ['inv|' + nextAt(30), nextAt(30), a.inv, 'Dimensional Invasion starts'],
+    ['reset|' + nextReset('day'), nextReset('day'), a.reset, 'Daily reset']];
+  for (const [key, t, lead, what] of due.filter(([, t, lead]) => lead && t - now <= lead * 6e4)) {
+    if (!warned.has(key)) {
+      const text = `${what} in ${span(t - now)}, at ${clock(t)}`;
+      say(text);
+      if (a.sound) chime();
+      if (a.voice) speak(text);
+    }
     warned.add(key);
   }
   const m = mine().find(m => m.server), left = m && leftText(ME, m, 'day');
@@ -946,6 +1007,7 @@ function route() {
   });
   $('#tServer')?.addEventListener('change', e => location.hash = '#/timers?s=' + encodeURIComponent(e.target.value));
   $('#dpsTarget')?.addEventListener('change', e => location.hash = '#/dps?tg=' + encodeURIComponent(e.target.value));
+  $('#abFight')?.addEventListener('change', e => location.hash = '#/dps?ab=' + encodeURIComponent(e.target.value));
   $('#dpsOn')?.addEventListener('change', e => { try { localStorage.setItem('aion-dps', e.target.checked ? '1' : '0'); } catch {} });
   // a removed fight stays in Premade's list, marked, so Premade doesn't save it again when Combat Analysis shows it again
   document.querySelectorAll('[data-fight]').forEach(b => b.onclick = () => {
@@ -953,9 +1015,12 @@ function route() {
     rerender();
     sendFights();
   });
-  $('#warnBoss')?.addEventListener('change', e => {
-    try { localStorage.setItem('aion-warn', e.target.checked ? '1' : '0'); } catch {}
-    if (e.target.checked && !inPremade() && window.Notification?.permission === 'default') Notification.requestPermission();
+  document.querySelectorAll('[data-alert]').forEach(el => el.onchange = () => {
+    const k = el.dataset.alert, v = el.type === 'checkbox' ? el.checked : +el.value;
+    if (k === 'boss') { try { localStorage.setItem('aion-warn', v ? '1' : '0'); } catch {} if (v) setAlert(k, v); } else setAlert(k, v);
+    if (k === 'sound' && v) chime();  // a click lets the page play sound, and you hear what it sounds like
+    if (k === 'voice' && v) speak('Premade will say it like this');
+    if (v && !inPremade() && window.Notification?.permission === 'default') Notification.requestPermission();
   });
   const tell = (el, text) => { el.hidden = false; el.textContent = text; };
   document.querySelectorAll('[data-boss]').forEach(sel => sel.onchange = async () => {
@@ -1047,7 +1112,7 @@ setInterval(() => {
 // Premade saved a fight (send it), or its watching changed
 addEventListener('storage', e => {
   if (e.key === 'lpc-aion-fights') sendFights();
-  if ((e.key === 'lpc-aion-fights' || e.key === 'lpc-aion-dps') && location.hash.startsWith('#/dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
+  if ((e.key === 'lpc-aion-fights' || e.key === 'lpc-aion-dps' || e.key === 'lpc-aion-abyss') && location.hash.startsWith('#/dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
 });
 </script>
 </body>

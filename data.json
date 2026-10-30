@@ -5639,15 +5639,15 @@
     },
     {
      "date": "2026-10-30",
-     "cp": 96837,
-     "il": 2130
+     "cp": 97041,
+     "il": 2150
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 96837,
-   "il": 2130,
+   "cp": 97041,
+   "il": 2150,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6339,11 +6339,11 @@
     },
     {
      "slotPosName": "Arcana5",
-     "name": "Mirror of Magic",
-     "grade": "Rare",
+     "name": "Mirror of Vigor",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_DefenceSet2.png",
-     "max": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -6420,11 +6420,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.7%",
-      "Endurance Penetration +0.7%"
+      "Cooldown -2.3%",
+      "Endurance Penetration +2.3%"
      ],
      "type": "Illusion",
-     "value": 7
+     "value": 23
     },
     {
      "name": "Life [Yustiel]",
@@ -6465,11 +6465,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -1.9%",
-      "Double Chance +1.9%"
+      "MP Cost -0.7%",
+      "Double Chance +0.7%"
      ],
      "type": "Wisdom",
-     "value": 19
+     "value": 7
     },
     {
      "name": "Destiny [Marchutan]",
@@ -6493,7 +6493,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2130
+     "value": 2150
     }
    ],
    "title": {
@@ -7327,7 +7327,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7367,7 +7367,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7387,7 +7387,7 @@
       "id": 18780000,
       "name": "Earth's Promise",
       "needLevel": 21,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -7568,8 +7568,18 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-30 02:01 UTC",
+ "updated": "2026-10-30 02:31 UTC",
  "feed": [
+  {
+   "t": "2026-10-30 02:31",
+   "n": "CutieCatty",
+   "x": "new Mirror of Vigor +0"
+  },
+  {
+   "t": "2026-10-30 02:31",
+   "n": "CutieCatty",
+   "x": "skills up: Crossguard 14, Impact Hit 14"
+  },
   {
    "t": "2026-10-30 02:01",
    "n": "YasuoMain",

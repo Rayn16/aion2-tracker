@@ -29,14 +29,14 @@
     },
     {
      "date": "2026-10-30",
-     "cp": 106685,
-     "il": 2262
+     "cp": 108121,
+     "il": 2272
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 106685,
-   "il": 2262,
+   "cp": 108121,
+   "il": 2272,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -765,11 +765,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2%",
-      "Critical Hit increase +2%"
+      "Accuracy increase +2.4%",
+      "Critical Hit increase +2.4%"
      ],
      "type": "AGI",
-     "value": 20
+     "value": 24
     },
     {
      "name": "Willpower",
@@ -871,11 +871,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2262
+     "value": 2272
     }
    ],
    "title": {
-    "ownedCount": 192,
+    "ownedCount": 194,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -928,20 +928,23 @@
       "equipCategory": "Attack",
       "equipStatList": [
        {
-        "desc": "PvE Damage Boost +3%"
+        "desc": "Critical Attack +45"
        },
        {
-        "desc": "Penetration +210"
+        "desc": "Critical Damage Boost +3%"
+       },
+       {
+        "desc": "Accuracy Bonus +60"
        }
       ],
-      "grade": "Legend",
-      "id": 22030002,
-      "name": "Guardian of Altgard",
-      "ownedCount": 63,
-      "ownedPercent": 60,
+      "grade": "Unique",
+      "id": 23050017,
+      "name": "Golden Glow",
+      "ownedCount": 65,
+      "ownedPercent": 62,
       "statList": [
        {
-        "desc": "PvE Attack +4"
+        "desc": "Critical Attack +3"
        }
       ],
       "totalCount": 105
@@ -7575,8 +7578,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-30 17:31 UTC",
+ "updated": "2026-10-30 18:01 UTC",
  "feed": [
+  {
+   "t": "2026-10-30 18:01",
+   "n": "YasuoMain",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-10-30 17:31",
    "n": "CutieCatty",

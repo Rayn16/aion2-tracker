@@ -5639,14 +5639,14 @@
     },
     {
      "date": "2026-10-30",
-     "cp": 98163,
+     "cp": 98193,
      "il": 2190
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 98163,
+   "cp": 98193,
    "il": 2190,
    "gear": [
     {
@@ -6339,10 +6339,10 @@
     },
     {
      "slotPosName": "Arcana5",
-     "name": "Mirror of Vigor",
+     "name": "Mirror of Magic",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_DefenceSet2.png",
      "max": 4,
      "slots": 0,
      "stones": [],
@@ -6420,11 +6420,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -2.3%",
-      "Endurance Penetration +2.3%"
+      "Cooldown -0.7%",
+      "Endurance Penetration +0.7%"
      ],
      "type": "Illusion",
-     "value": 23
+     "value": 7
     },
     {
      "name": "Life [Yustiel]",
@@ -6465,11 +6465,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.7%",
-      "Double Chance +0.7%"
+      "MP Cost -2.3%",
+      "Double Chance +2.3%"
      ],
      "type": "Wisdom",
-     "value": 7
+     "value": 23
     },
     {
      "name": "Destiny [Marchutan]",
@@ -7387,7 +7387,7 @@
       "id": 18780000,
       "name": "Earth's Promise",
       "needLevel": 21,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7407,7 +7407,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -7568,8 +7568,18 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-30 03:31 UTC",
+ "updated": "2026-10-30 04:01 UTC",
  "feed": [
+  {
+   "t": "2026-10-30 04:01",
+   "n": "CutieCatty",
+   "x": "new Mirror of Magic +0"
+  },
+  {
+   "t": "2026-10-30 04:01",
+   "n": "CutieCatty",
+   "x": "skills up: Earth's Promise 14"
+  },
   {
    "t": "2026-10-30 03:01",
    "n": "YasuoMain",

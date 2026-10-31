@@ -34,13 +34,13 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 108844,
+     "cp": 109269,
      "il": 2319
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 108844,
+   "cp": 109269,
    "il": 2319,
    "gear": [
     {
@@ -5734,15 +5734,15 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 104079,
-     "il": 2287
+     "cp": 105080,
+     "il": 2338
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 104079,
-   "il": 2287,
+   "cp": 105080,
+   "il": 2338,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -5898,11 +5898,32 @@
      "slotPosName": "Helmet",
      "name": "Nuakum Helm",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Critical Hit Resist",
+       "+10",
+       "Legend"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+15",
+       "Unique"
+      ],
+      [
+       "Attack",
+       "+10",
+       "Unique"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -5951,32 +5972,32 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Bakarma Gloves",
+     "name": "Nuakum Gloves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Attack",
-       "+1",
-       "Common"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
        "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "MP",
        "+30",
        "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+10",
+       "Legend"
+      ],
+      [
+       "Block",
+       "+10",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+10",
+       "Legend"
       ]
      ],
      "godSlots": 0,
@@ -6233,7 +6254,7 @@
      "slotPosName": "Ring1",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
@@ -6444,12 +6465,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.9%",
-      "Block increase +1.9%",
-      "Critical Hit Resist increase +1.9%"
+      "Evasion increase +3.1%",
+      "Block increase +3.1%",
+      "Critical Hit Resist increase +3.1%"
      ],
      "type": "DEX",
-     "value": 19
+     "value": 31
     },
     {
      "name": "Intelligence",
@@ -6460,10 +6481,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +2.4%"
+      "HP increase +1%"
      ],
      "type": "CON",
-     "value": 24
+     "value": 10
     },
     {
      "name": "Precision",
@@ -6574,7 +6595,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2287
+     "value": 2338
     }
    ],
    "title": {
@@ -7649,8 +7670,23 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 22:01 UTC",
+ "updated": "2026-10-31 22:31 UTC",
  "feed": [
+  {
+   "t": "2026-10-31 22:31",
+   "n": "CutieCatty",
+   "x": "Nuakum Helm +10 → +12"
+  },
+  {
+   "t": "2026-10-31 22:31",
+   "n": "CutieCatty",
+   "x": "new Nuakum Gloves +10"
+  },
+  {
+   "t": "2026-10-31 22:31",
+   "n": "CutieCatty",
+   "x": "Enraged Kromede Ring +11 → +10"
+  },
   {
    "t": "2026-10-31 22:01",
    "n": "YasuoMain",

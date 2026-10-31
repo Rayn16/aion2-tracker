@@ -34,14 +34,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 108277,
-     "il": 2283
+     "cp": 108134,
+     "il": 2293
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 108277,
-   "il": 2283,
+   "cp": 108134,
+   "il": 2293,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -230,32 +230,32 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Vakron Pauldrons",
+     "name": "Nuakum Pauldrons",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Shoulder.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
        "Attack",
-       "+3",
-       "Rare"
+       "+1",
+       "Common"
       ],
       [
-       "HP",
-       "+100",
-       "Legend"
-      ],
-      [
-       "Critical Hit Resist",
-       "+10",
-       "Legend"
+       "MP",
+       "+15",
+       "Common"
       ],
       [
        "Critical Hit",
-       "+10",
-       "Legend"
+       "+7",
+       "Rare"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -897,7 +897,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2283
+     "value": 2293
     }
    ],
    "title": {
@@ -1179,7 +1179,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -1189,7 +1189,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -5734,15 +5734,15 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 103830,
-     "il": 2282
+     "cp": 103843,
+     "il": 2287
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 103830,
-   "il": 2282,
+   "cp": 103843,
+   "il": 2287,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -5896,34 +5896,13 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Vakron Helm",
+     "name": "Nuakum Helm",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Helmet.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+50",
-       "Legend"
-      ],
-      [
-       "MP",
-       "+80",
-       "Unique"
-      ],
-      [
-       "Critical Hit",
-       "+7",
-       "Rare"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -6497,9 +6476,11 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Resist +1.2%"
+     ],
      "type": "WIS",
-     "value": 0
+     "value": 12
     },
     {
      "name": "Justice [Nezekan]",
@@ -6595,7 +6576,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2282
+     "value": 2287
     }
    ],
    "title": {
@@ -7429,7 +7410,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7670,8 +7651,28 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 19:31 UTC",
+ "updated": "2026-10-31 20:01 UTC",
  "feed": [
+  {
+   "t": "2026-10-31 20:01",
+   "n": "CutieCatty",
+   "x": "new Nuakum Helm +10"
+  },
+  {
+   "t": "2026-10-31 20:01",
+   "n": "CutieCatty",
+   "x": "skills up: Crossguard 15"
+  },
+  {
+   "t": "2026-10-31 20:01",
+   "n": "YasuoMain",
+   "x": "new Nuakum Pauldrons +10"
+  },
+  {
+   "t": "2026-10-31 20:01",
+   "n": "YasuoMain",
+   "x": "skills up: Blood Absorption 18"
+  },
   {
    "t": "2026-10-31 19:31",
    "n": "YasuoMain",

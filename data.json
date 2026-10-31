@@ -34,14 +34,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 108533,
-     "il": 2312
+     "cp": 108844,
+     "il": 2319
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 108533,
-   "il": 2312,
+   "cp": 108844,
+   "il": 2319,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -161,7 +161,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -232,7 +232,7 @@
      "slotPosName": "Shoulder",
      "name": "Nuakum Pauldrons",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
@@ -270,7 +270,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -513,7 +513,7 @@
      "slotPosName": "Ring1",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
@@ -897,7 +897,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2312
+     "value": 2319
     }
    ],
    "title": {
@@ -5734,14 +5734,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 104124,
+     "cp": 104079,
      "il": 2287
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 104124,
+   "cp": 104079,
    "il": 2287,
    "gear": [
     {
@@ -6476,11 +6476,9 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": [
-      "Status Effect Resist +1.2%"
-     ],
+     "statSecondList": null,
      "type": "WIS",
-     "value": 12
+     "value": 0
     },
     {
      "name": "Justice [Nezekan]",
@@ -7410,7 +7408,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7651,8 +7649,28 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 21:31 UTC",
+ "updated": "2026-10-31 22:01 UTC",
  "feed": [
+  {
+   "t": "2026-10-31 22:01",
+   "n": "YasuoMain",
+   "x": "Nuakum Greaves +10 → +11"
+  },
+  {
+   "t": "2026-10-31 22:01",
+   "n": "YasuoMain",
+   "x": "Nuakum Pauldrons +10 → +12"
+  },
+  {
+   "t": "2026-10-31 22:01",
+   "n": "YasuoMain",
+   "x": "Nuakum Gloves +10 → +11"
+  },
+  {
+   "t": "2026-10-31 22:01",
+   "n": "YasuoMain",
+   "x": "Enraged Kromede Ring +10 → +13"
+  },
   {
    "t": "2026-10-31 21:01",
    "n": "YasuoMain",

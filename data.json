@@ -3884,14 +3884,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 68828,
+     "cp": 68096,
      "il": 1336
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 68828,
+   "cp": 68096,
    "il": 1336,
    "gear": [
     {
@@ -4444,7 +4444,7 @@
     }
    ],
    "title": {
-    "ownedCount": 175,
+    "ownedCount": 176,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -4509,8 +4509,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 59,
-      "ownedPercent": 60,
+      "ownedCount": 60,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "MP +20"
@@ -5650,9 +5650,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
-     "id": 40200100,
-     "name": "Ultimate Daeva Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingD_003.png",
+     "id": 40400300,
+     "name": "Radiant Love Wings"
     },
     "wingSkin": {
      "enchantLevel": null,
@@ -7626,8 +7626,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 05:01 UTC",
+ "updated": "2026-10-31 05:31 UTC",
  "feed": [
+  {
+   "t": "2026-10-31 05:31",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-10-31 03:01",
    "n": "CutieCatty",

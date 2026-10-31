@@ -34,14 +34,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 109269,
-     "il": 2319
+     "cp": 109423,
+     "il": 2323
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 109269,
-   "il": 2319,
+   "cp": 109423,
+   "il": 2323,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -897,7 +897,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2319
+     "value": 2323
     }
    ],
    "title": {
@@ -988,8 +988,8 @@
       "id": 11,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 63,
-      "openPercent": 72,
+      "openNodeCount": 66,
+      "openPercent": 75,
       "totalNodeCount": 88
      },
      {
@@ -997,8 +997,8 @@
       "id": 12,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 61,
-      "openPercent": 69,
+      "openNodeCount": 62,
+      "openPercent": 70,
       "totalNodeCount": 88
      },
      {
@@ -1433,7 +1433,7 @@
      "7|11|Common|0|Max MP",
      "7|10|Rare|1|Skill Level Up - Attack Preparation",
      "7|13|Common|1|Critical Hit Resist",
-     "7|12|Common|0|Critical Hit",
+     "7|12|Common|1|Critical Hit",
      "8|3|Legend|1|Skill Level Up - Defiance",
      "8|6|Common|0|Defense",
      "8|8|Start|1|Nezekan - Start",
@@ -1453,7 +1453,7 @@
      "10|3|Common|1|Attack",
      "10|5|Common|1|Defense",
      "10|7|Common|1|Attack",
-     "10|9|Common|0|Critical Hit",
+     "10|9|Common|1|Critical Hit",
      "10|12|Common|1|Max MP",
      "11|3|Rare|1|Skill Level Up - Attack Preparation",
      "11|5|Legend|1|Skill Level Up - Rush Strike",
@@ -1469,7 +1469,7 @@
      "12|5|Common|1|Critical Hit",
      "12|7|Common|1|Max HP",
      "12|10|Common|0|Max HP",
-     "12|9|Common|0|Attack",
+     "12|9|Common|1|Attack",
      "12|11|Legend|0|Skill Level Up - Ankle Slice",
      "12|13|Common|1|Critical Hit Resist",
      "13|3|Unique|1|Cooldown Reduction",
@@ -1541,7 +1541,7 @@
      "6|5|Common|0|Max MP",
      "6|7|Rare|1|Skill Level Up - Experienced Counterstrike",
      "6|9|Common|1|Critical Hit",
-     "6|11|Common|0|Critical Hit",
+     "6|11|Common|1|Critical Hit",
      "6|13|Common|1|Critical Hit Resist",
      "7|3|Common|1|Defense",
      "7|5|Legend|1|Skill Level Up - Mocking Blade",
@@ -5734,14 +5734,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 105080,
+     "cp": 105110,
      "il": 2338
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 105080,
+   "cp": 105110,
    "il": 2338,
    "gear": [
     {
@@ -7670,8 +7670,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 22:31 UTC",
+ "updated": "2026-10-31 23:01 UTC",
  "feed": [
+  {
+   "t": "2026-10-31 23:01",
+   "n": "YasuoMain",
+   "x": "opened 4 Daevanion nodes"
+  },
   {
    "t": "2026-10-31 22:31",
    "n": "CutieCatty",

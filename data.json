@@ -34,14 +34,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 108134,
-     "il": 2293
+     "cp": 108533,
+     "il": 2312
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 108134,
-   "il": 2293,
+   "cp": 108533,
+   "il": 2312,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -344,31 +344,31 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Vakron Cloak",
+     "name": "Nuakum Cloak",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "PvP Accuracy",
-       "+10",
-       "Common"
+       "Evasion Bonus",
+       "+7",
+       "Rare"
       ],
       [
        "MP",
        "+30",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+10",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+7",
        "Rare"
       ]
      ],
@@ -897,7 +897,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2293
+     "value": 2312
     }
    ],
    "title": {
@@ -1179,7 +1179,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -1199,7 +1199,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7651,8 +7651,18 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 20:32 UTC",
+ "updated": "2026-10-31 21:01 UTC",
  "feed": [
+  {
+   "t": "2026-10-31 21:01",
+   "n": "YasuoMain",
+   "x": "new Nuakum Cloak +10"
+  },
+  {
+   "t": "2026-10-31 21:01",
+   "n": "YasuoMain",
+   "x": "skills up: Protection Armor 17, Identify Weakness 15"
+  },
   {
    "t": "2026-10-31 20:01",
    "n": "CutieCatty",

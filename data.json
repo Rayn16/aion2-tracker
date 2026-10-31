@@ -34,14 +34,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 109423,
-     "il": 2323
+     "cp": 109540,
+     "il": 2343
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 109423,
-   "il": 2323,
+   "cp": 109540,
+   "il": 2343,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -711,7 +711,7 @@
     {
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
-     "grade": "Rare",
+     "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 3,
@@ -833,11 +833,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +3.1%",
-      "Regeneration +3.1%"
+      "HP increase +3.5%",
+      "Regeneration +3.5%"
      ],
      "type": "Life",
-     "value": 31
+     "value": 35
     },
     {
      "name": "Time [Siel]",
@@ -897,7 +897,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2323
+     "value": 2343
     }
    ],
    "title": {
@@ -1149,7 +1149,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7670,8 +7670,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 23:01 UTC",
+ "updated": "2026-10-31 23:31 UTC",
  "feed": [
+  {
+   "t": "2026-10-31 23:31",
+   "n": "YasuoMain",
+   "x": "skills up: Ruinous Blow 15"
+  },
   {
    "t": "2026-10-31 23:01",
    "n": "YasuoMain",

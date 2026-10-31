@@ -3884,15 +3884,15 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 68096,
-     "il": 1336
+     "cp": 68519,
+     "il": 1377
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 68096,
-   "il": 1336,
+   "cp": 68519,
+   "il": 1377,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -3987,13 +3987,34 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Anguish Greaves",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Pants.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Greaves",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Pants.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -4440,11 +4461,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1336
+     "value": 1377
     }
    ],
    "title": {
-    "ownedCount": 176,
+    "ownedCount": 177,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -4459,8 +4480,8 @@
       "grade": "Legend",
       "id": 21020046,
       "name": "Even Better",
-      "ownedCount": 59,
-      "ownedPercent": 56,
+      "ownedCount": 60,
+      "ownedPercent": 57,
       "statList": [
        {
         "desc": "HP Potion Recovery increase +2%"
@@ -5496,7 +5517,7 @@
       "id": 17790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -7626,8 +7647,23 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 06:01 UTC",
+ "updated": "2026-10-31 06:31 UTC",
  "feed": [
+  {
+   "t": "2026-10-31 06:31",
+   "n": "CuteCatty",
+   "x": "new Bakarma Greaves +10"
+  },
+  {
+   "t": "2026-10-31 06:31",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-10-31 06:31",
+   "n": "CuteCatty",
+   "x": "skills up: Survival Willpower 16"
+  },
   {
    "t": "2026-10-31 05:31",
    "n": "CuteCatty",

@@ -5734,14 +5734,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 103843,
+     "cp": 104124,
      "il": 2287
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 103843,
+   "cp": 104124,
    "il": 2287,
    "gear": [
     {
@@ -6503,11 +6503,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.7%",
-      "Endurance Penetration +0.7%"
+      "Cooldown -1.1%",
+      "Endurance Penetration +1.1%"
      ],
      "type": "Illusion",
-     "value": 7
+     "value": 11
     },
     {
      "name": "Life [Yustiel]",
@@ -6548,20 +6548,20 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -2.7%",
-      "Double Chance +2.7%"
+      "MP Cost -3.1%",
+      "Double Chance +3.1%"
      ],
      "type": "Wisdom",
-     "value": 27
+     "value": 31
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +1.5%",
-      "Endurance +1.5%"
+      "MP increase +1.9%",
+      "Endurance +1.9%"
      ],
      "type": "Destiny",
-     "value": 15
+     "value": 19
     },
     {
      "name": "Space [Israphel]",
@@ -7651,7 +7651,7 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 20:01 UTC",
+ "updated": "2026-10-31 20:32 UTC",
  "feed": [
   {
    "t": "2026-10-31 20:01",

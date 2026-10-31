@@ -5690,15 +5690,15 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 100909,
-     "il": 2208
+     "cp": 103601,
+     "il": 2282
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 100909,
-   "il": 2208,
+   "cp": 103601,
+   "il": 2282,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6056,32 +6056,32 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Aulamus Necklace",
+     "name": "Enraged Kromede Necklace",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0053.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
        "MP",
-       "+50",
-       "Legend"
+       "+40",
+       "Rare"
       ],
       [
-       "Evasion Bonus",
-       "+15",
-       "Unique"
+       "MP",
+       "+23",
+       "Common"
       ],
       [
-       "Defense",
-       "+50",
-       "Legend"
+       "Critical Hit",
+       "+6",
+       "Common"
       ],
       [
-       "Defense",
-       "+50",
-       "Legend"
+       "MP",
+       "+23",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -6132,33 +6132,40 @@
     },
     {
      "slotPosName": "Earring2",
-     "name": "Murute Earrings",
-     "grade": "Legend",
+     "name": "Enraged Kromede Earrings",
+     "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0048.png",
-     "max": 10,
-     "slots": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
+     "max": 15,
+     "slots": 4,
      "stones": [
       [
        "Attack",
-       "+3",
+       "+4",
        "Rare"
       ],
       [
-       "Critical Hit",
-       "+5",
-       "Common"
+       "Attack",
+       "+4",
+       "Rare"
       ],
       [
-       "HP",
-       "+30",
-       "Common"
+       "Accuracy Bonus",
+       "+13",
+       "Legend"
+      ],
+      [
+       "Accuracy Bonus",
+       "+9",
+       "Rare"
       ]
      ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Expedition"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -6201,32 +6208,32 @@
     },
     {
      "slotPosName": "Ring1",
-     "name": "Aulamus Ring",
+     "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "enchantLevel": 11,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Block",
-       "+7",
-       "Common"
-      ],
-      [
-       "Evasion Bonus",
-       "+7",
+       "Critical Hit",
+       "+9",
        "Rare"
       ],
       [
-       "HP",
-       "+30",
+       "Accuracy Bonus",
+       "+6",
        "Common"
       ],
       [
-       "Critical Hit",
-       "+5",
-       "Common"
+       "HP",
+       "+130",
+       "Legend"
+      ],
+      [
+       "MP",
+       "+40",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -6406,10 +6413,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.1%"
+      "Attack increase +5.3%"
      ],
      "type": "STR",
-     "value": 41
+     "value": 53
     },
     {
      "name": "Dexterity",
@@ -6544,7 +6551,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2208
+     "value": 2282
     }
    ],
    "title": {
@@ -7448,7 +7455,7 @@
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -7619,8 +7626,23 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 02:31 UTC",
+ "updated": "2026-10-31 03:01 UTC",
  "feed": [
+  {
+   "t": "2026-10-31 03:01",
+   "n": "CutieCatty",
+   "x": "new Enraged Kromede Necklace +10"
+  },
+  {
+   "t": "2026-10-31 03:01",
+   "n": "CutieCatty",
+   "x": "new Enraged Kromede Earrings +10"
+  },
+  {
+   "t": "2026-10-31 03:01",
+   "n": "CutieCatty",
+   "x": "new Enraged Kromede Ring +11"
+  },
   {
    "t": "2026-10-31 02:31",
    "n": "CutieCatty",

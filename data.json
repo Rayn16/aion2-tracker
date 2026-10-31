@@ -5690,14 +5690,14 @@
     },
     {
      "date": "2026-10-31",
-     "cp": 103655,
+     "cp": 103828,
      "il": 2282
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 103655,
+   "cp": 103828,
    "il": 2282,
    "gear": [
     {
@@ -6487,11 +6487,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +2.7%",
-      "Regeneration +2.7%"
+      "HP increase +3.1%",
+      "Regeneration +3.1%"
      ],
      "type": "Life",
-     "value": 27
+     "value": 31
     },
     {
      "name": "Time [Siel]",
@@ -6523,20 +6523,20 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -2.3%",
-      "Double Chance +2.3%"
+      "MP Cost -2.7%",
+      "Double Chance +2.7%"
      ],
      "type": "Wisdom",
-     "value": 23
+     "value": 27
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +1.1%",
-      "Endurance +1.1%"
+      "MP increase +1.5%",
+      "Endurance +1.5%"
      ],
      "type": "Destiny",
-     "value": 11
+     "value": 15
     },
     {
      "name": "Space [Israphel]",
@@ -7626,7 +7626,7 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 03:31 UTC",
+ "updated": "2026-10-31 04:01 UTC",
  "feed": [
   {
    "t": "2026-10-31 03:01",

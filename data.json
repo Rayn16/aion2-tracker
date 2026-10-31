@@ -31,6 +31,11 @@
      "date": "2026-10-30",
      "cp": 108121,
      "il": 2272
+    },
+    {
+     "date": "2026-10-31",
+     "cp": 108121,
+     "il": 2272
     }
    ],
    "server": "Tassin",
@@ -474,7 +479,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -675,7 +701,7 @@
      "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
-     "max": 3,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -688,7 +714,7 @@
      "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
-     "max": 4,
+     "max": 3,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -727,7 +753,7 @@
      "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
-     "max": 3,
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -1972,6 +1998,11 @@
     },
     {
      "date": "2026-10-30",
+     "cp": 66012,
+     "il": 1375
+    },
+    {
+     "date": "2026-10-31",
      "cp": 66012,
      "il": 1375
     }
@@ -3850,6 +3881,11 @@
      "date": "2026-10-30",
      "cp": 68828,
      "il": 1336
+    },
+    {
+     "date": "2026-10-31",
+     "cp": 68828,
+     "il": 1336
     }
    ],
    "server": "Tassin",
@@ -5651,6 +5687,11 @@
      "date": "2026-10-30",
      "cp": 100099,
      "il": 2208
+    },
+    {
+     "date": "2026-10-31",
+     "cp": 100099,
+     "il": 2208
     }
    ],
    "server": "Tassin",
@@ -6301,7 +6342,7 @@
      "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
-     "max": 3,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -7578,7 +7619,7 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-30 23:31 UTC",
+ "updated": "2026-10-31 00:04 UTC",
  "feed": [
   {
    "t": "2026-10-30 18:01",

@@ -39,14 +39,14 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 110484,
-     "il": 2383
+     "cp": 110668,
+     "il": 2385
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 110484,
-   "il": 2383,
+   "cp": 110668,
+   "il": 2385,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -657,7 +657,7 @@
      "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -673,7 +673,7 @@
      "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -902,7 +902,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2383
+     "value": 2385
     }
    ],
    "title": {
@@ -7732,8 +7732,18 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 00:04 UTC",
+ "updated": "2026-11-01 00:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 00:31",
+   "n": "YasuoMain",
+   "x": "Clash Rune +3 → +4"
+  },
+  {
+   "t": "2026-11-01 00:31",
+   "n": "YasuoMain",
+   "x": "Clash Rune +3 → +4"
+  },
   {
    "t": "2026-11-01 00:04",
    "n": "CutieCatty",

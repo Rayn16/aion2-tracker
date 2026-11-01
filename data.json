@@ -39,14 +39,14 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 110668,
-     "il": 2385
+     "cp": 110683,
+     "il": 2386
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 110668,
-   "il": 2385,
+   "cp": 110683,
+   "il": 2386,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -351,7 +351,7 @@
      "slotPosName": "Cape",
      "name": "Nuakum Cloak",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
@@ -902,7 +902,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2385
+     "value": 2386
     }
    ],
    "title": {
@@ -7732,8 +7732,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 04:01 UTC",
+ "updated": "2026-11-01 04:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 04:31",
+   "n": "YasuoMain",
+   "x": "Nuakum Cloak +10 → +11"
+  },
   {
    "t": "2026-11-01 00:31",
    "n": "YasuoMain",

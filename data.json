@@ -2020,13 +2020,13 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 69131,
+     "cp": 69136,
      "il": 1418
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 69131,
+   "cp": 69136,
    "il": 1418,
    "gear": [
     {
@@ -3906,14 +3906,14 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 70561,
+     "cp": 70563,
      "il": 1445
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 70561,
+   "cp": 70563,
    "il": 1445,
    "gear": [
     {
@@ -7762,7 +7762,7 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 22:01 UTC",
+ "updated": "2026-11-01 22:31 UTC",
  "feed": [
   {
    "t": "2026-11-01 20:54",

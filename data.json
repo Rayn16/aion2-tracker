@@ -2020,13 +2020,13 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 68056,
+     "cp": 68076,
      "il": 1413
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 68056,
+   "cp": 68076,
    "il": 1413,
    "gear": [
     {
@@ -2654,7 +2654,7 @@
     }
    ],
    "title": {
-    "ownedCount": 169,
+    "ownedCount": 170,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -2694,8 +2694,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 59,
-      "ownedPercent": 56,
+      "ownedCount": 60,
+      "ownedPercent": 57,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -3027,7 +3027,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_030.png",
       "id": 12320000,
       "name": "Nezekan's Shield",
@@ -3037,7 +3037,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_011.png",
       "id": 12110000,
       "name": "Shield of Protection",
@@ -3097,7 +3097,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_041.png",
       "id": 12410000,
       "name": "Executing Blade",
@@ -3906,15 +3906,15 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 69871,
-     "il": 1404
+     "cp": 70492,
+     "il": 1445
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 69871,
-   "il": 1404,
+   "cp": 70492,
+   "il": 1445,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4068,17 +4068,40 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Liberator Helm",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Helmet.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Helm",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Helmet.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -4548,7 +4571,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1404
+     "value": 1445
     }
    ],
    "title": {
@@ -5524,7 +5547,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -5534,7 +5557,7 @@
       "id": 17720000,
       "name": "Empyrean Lords' Benediction",
       "needLevel": 6,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -5594,7 +5617,7 @@
       "id": 17780000,
       "name": "Earth's Grace",
       "needLevel": 21,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -7739,8 +7762,23 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 18:02 UTC",
+ "updated": "2026-11-01 18:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 18:31",
+   "n": "CuteCatty",
+   "x": "new Bakarma Helm +10"
+  },
+  {
+   "t": "2026-11-01 18:31",
+   "n": "CuteCatty",
+   "x": "skills up: Warm Benediction 13, Empyrean Lords' Benediction 7, Earth's Grace 13"
+  },
+  {
+   "t": "2026-11-01 18:31",
+   "n": "YasuoMain16",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-01 18:01",
    "n": "YasuoMain16",

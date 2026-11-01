@@ -5803,15 +5803,15 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 105497,
-     "il": 2400
+     "cp": 105507,
+     "il": 2401
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 105497,
-   "il": 2400,
+   "cp": 105507,
+   "il": 2401,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -5967,7 +5967,7 @@
      "slotPosName": "Helmet",
      "name": "Nuakum Helm",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
@@ -6664,7 +6664,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2400
+     "value": 2401
     }
    ],
    "title": {
@@ -7739,8 +7739,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 15:01 UTC",
+ "updated": "2026-11-01 15:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 15:31",
+   "n": "CutieCatty",
+   "x": "Nuakum Helm +13 → +14"
+  },
   {
    "t": "2026-11-01 05:31",
    "n": "YasuoMain",

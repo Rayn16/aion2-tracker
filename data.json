@@ -36,6 +36,11 @@
      "date": "2026-10-31",
      "cp": 110484,
      "il": 2383
+    },
+    {
+     "date": "2026-11-01",
+     "cp": 110484,
+     "il": 2383
     }
    ],
    "server": "Tassin",
@@ -714,7 +719,7 @@
      "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
-     "max": 3,
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -2003,6 +2008,11 @@
     },
     {
      "date": "2026-10-31",
+     "cp": 66012,
+     "il": 1375
+    },
+    {
+     "date": "2026-11-01",
      "cp": 66012,
      "il": 1375
     }
@@ -3886,6 +3896,11 @@
      "date": "2026-10-31",
      "cp": 69869,
      "il": 1404
+    },
+    {
+     "date": "2026-11-01",
+     "cp": 69869,
+     "il": 1404
     }
    ],
    "server": "Tassin",
@@ -3976,7 +3991,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -4084,7 +4120,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Block",
+       "+10",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -5736,13 +5793,18 @@
      "date": "2026-10-31",
      "cp": 105459,
      "il": 2398
+    },
+    {
+     "date": "2026-11-01",
+     "cp": 105497,
+     "il": 2400
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 105459,
-   "il": 2398,
+   "cp": 105497,
+   "il": 2400,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -5898,7 +5960,7 @@
      "slotPosName": "Helmet",
      "name": "Nuakum Helm",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
@@ -5974,7 +6036,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -6419,7 +6481,7 @@
      "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
-     "max": 2,
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -6432,7 +6494,7 @@
      "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
-     "max": 3,
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -6595,7 +6657,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2398
+     "value": 2400
     }
    ],
    "title": {
@@ -7670,8 +7732,18 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-10-31 23:51 UTC",
+ "updated": "2026-11-01 00:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 00:04",
+   "n": "CutieCatty",
+   "x": "Nuakum Helm +12 → +13"
+  },
+  {
+   "t": "2026-11-01 00:04",
+   "n": "CutieCatty",
+   "x": "Nuakum Gloves +10 → +11"
+  },
   {
    "t": "2026-10-31 23:51",
    "n": "CutieCatty",

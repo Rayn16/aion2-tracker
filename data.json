@@ -4432,10 +4432,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.4%"
+      "HP increase +1.5%"
      ],
      "type": "CON",
-     "value": 14
+     "value": 15
     },
     {
      "name": "Precision",
@@ -5803,14 +5803,14 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 105507,
+     "cp": 105526,
      "il": 2401
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 105507,
+   "cp": 105526,
    "il": 2401,
    "gear": [
     {
@@ -6550,10 +6550,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1%"
+      "HP increase +1.1%"
      ],
      "type": "CON",
-     "value": 10
+     "value": 11
     },
     {
      "name": "Precision",
@@ -7739,7 +7739,7 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 16:31 UTC",
+ "updated": "2026-11-01 16:53 UTC",
  "feed": [
   {
    "t": "2026-11-01 15:31",

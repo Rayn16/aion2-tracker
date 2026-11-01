@@ -39,14 +39,14 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 110732,
-     "il": 2386
+     "cp": 112946,
+     "il": 2429
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 110732,
-   "il": 2386,
+   "cp": 112946,
+   "il": 2429,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -202,27 +202,32 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Corrupted Judicator Helm",
-     "grade": "Legend",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_Kromede_01_Helmet.png",
-     "max": 10,
-     "slots": 3,
+     "name": "Nuakum Helm",
+     "grade": "Unique",
+     "enchantLevel": 12,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
+     "max": 15,
+     "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
+       "MP",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Evasion Bonus",
        "+5",
        "Common"
       ],
       [
-       "Block",
-       "+10",
-       "Rare"
+       "Attack",
+       "+1",
+       "Common"
       ],
       [
        "Critical Hit",
-       "+7",
-       "Rare"
+       "+5",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -804,9 +809,11 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Resist +1.4%"
+     ],
      "type": "WIS",
-     "value": 0
+     "value": 14
     },
     {
      "name": "Justice [Nezekan]",
@@ -902,7 +909,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2386
+     "value": 2429
     }
    ],
    "title": {
@@ -1194,7 +1201,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 18
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -1254,7 +1261,7 @@
       "id": 11790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -7732,8 +7739,18 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 05:01 UTC",
+ "updated": "2026-11-01 05:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 05:31",
+   "n": "YasuoMain",
+   "x": "new Nuakum Helm +12"
+  },
+  {
+   "t": "2026-11-01 05:31",
+   "n": "YasuoMain",
+   "x": "skills up: Survival Willpower 17"
+  },
   {
    "t": "2026-11-01 04:31",
    "n": "YasuoMain",

@@ -2020,14 +2020,14 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 66012,
-     "il": 1375
+     "cp": 68056,
+     "il": 1413
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 66012,
-   "il": 1375,
+   "cp": 68056,
+   "il": 1413,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2325,7 +2325,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Legend",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_021.png",
      "max": 10,
      "slots": 0,
@@ -2340,7 +2340,7 @@
      "slotPosName": "Necklace",
      "name": "Liberator Necklace",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0071.png",
      "max": 10,
      "slots": 3,
@@ -2355,7 +2355,7 @@
      "slotPosName": "Earring1",
      "name": "Liberator Earrings",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
      "max": 10,
      "slots": 3,
@@ -2385,7 +2385,7 @@
      "slotPosName": "Ring2",
      "name": "Liberator Ring",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
      "max": 10,
      "slots": 3,
@@ -2400,7 +2400,7 @@
      "slotPosName": "Ring1",
      "name": "Liberator Ring",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
      "max": 10,
      "slots": 3,
@@ -2451,7 +2451,7 @@
      "slotPosName": "Bracelet2",
      "name": "Liberator Bracelet",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png",
      "max": 10,
      "slots": 3,
@@ -2464,10 +2464,10 @@
      ]
     },
     {
-     "slotPosName": "Rune2",
+     "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -2480,10 +2480,10 @@
      ]
     },
     {
-     "slotPosName": "Rune1",
+     "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -2499,7 +2499,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Legend",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv4_01.png",
      "max": 10,
      "slots": 0,
@@ -2650,11 +2650,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1375
+     "value": 1413
     }
    ],
    "title": {
-    "ownedCount": 162,
+    "ownedCount": 169,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -2672,8 +2672,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 54,
-      "ownedPercent": 53,
+      "ownedCount": 55,
+      "ownedPercent": 54,
       "statList": [
        {
         "desc": "Block +10"
@@ -2694,8 +2694,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 57,
-      "ownedPercent": 54,
+      "ownedCount": 59,
+      "ownedPercent": 56,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -2719,8 +2719,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 51,
-      "ownedPercent": 52,
+      "ownedCount": 55,
+      "ownedPercent": 56,
       "statList": [
        {
         "desc": "MP +20"
@@ -2768,8 +2768,8 @@
       "id": 24,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 55,
-      "openPercent": 47,
+      "openNodeCount": 61,
+      "openPercent": 53,
       "totalNodeCount": 116
      },
      {
@@ -2852,7 +2852,7 @@
       "id": 12340000,
       "name": "Flash Rampage",
       "needLevel": 5,
-      "skillLevel": 6
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -2882,7 +2882,7 @@
       "id": 12430000,
       "name": "Shield Rush",
       "needLevel": 10,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -2952,7 +2952,7 @@
       "id": 12740000,
       "name": "Ironclad Defense",
       "needLevel": 11,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -3012,7 +3012,7 @@
       "id": 12800000,
       "name": "Block Pain",
       "needLevel": 25,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -3148,10 +3148,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_SkurvWar_01.png",
-     "id": 1054,
-     "level": 3,
-     "name": "Mumu Warrior"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_BeritraC_03.png",
+     "id": 1014,
+     "level": 1,
+     "name": "Drakan Guard Dog"
     },
     "wing": {
      "enchantLevel": 0,
@@ -3498,7 +3498,7 @@
      "2|3|Common|0|Attack",
      "2|2|Unique|0|Multi-Hit Resist",
      "2|8|Unique|1|Multi-Hit Chance",
-     "2|7|Common|0|Attack",
+     "2|7|Common|1|Attack",
      "2|12|Common|1|Defense",
      "2|9|Common|1|Defense",
      "2|14|Unique|1|Multi-Hit Resist",
@@ -3507,7 +3507,7 @@
      "3|4|Legend|0|Skill Level Up - Shield Smite",
      "3|2|Common|0|Max MP",
      "3|9|Rare|1|Skill Level Up - Impact Hit",
-     "3|7|Rare|0|Skill Level Up - Block Pain",
+     "3|7|Rare|1|Skill Level Up - Block Pain",
      "3|6|Common|0|Max HP",
      "3|12|Legend|1|Skill Level Up - Pummel",
      "3|11|Common|1|Critical Hit",
@@ -3526,14 +3526,14 @@
      "5|6|Common|0|Critical Hit Resist",
      "5|5|Rare|0|Skill Level Up - Warding Shield",
      "5|4|Common|0|Max MP",
-     "5|11|Common|0|Critical Hit",
-     "5|10|Legend|0|Skill Level Up - Shield Rush",
+     "5|11|Common|1|Critical Hit",
+     "5|10|Legend|1|Skill Level Up - Shield Rush",
      "5|9|Common|0|Defense",
-     "5|14|Rare|0|Skill Level Up - Ironclad Defense",
+     "5|14|Rare|1|Skill Level Up - Ironclad Defense",
      "5|13|Common|1|Max MP",
      "5|12|Common|1|Max HP",
      "6|4|Common|0|Defense",
-     "6|6|Common|0|Critical Hit",
+     "6|6|Common|1|Critical Hit",
      "6|10|Common|0|Max HP",
      "6|13|Common|1|Critical Hit Resist",
      "7|5|Common|0|Attack",
@@ -7739,8 +7739,68 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 17:31 UTC",
+ "updated": "2026-11-01 18:02 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "Noble Belt +2 → +3"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "Liberator Necklace +0 → +5"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "Liberator Earrings +0 → +4"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "Liberator Ring +0 → +5"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "Liberator Ring +0 → +5"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "Liberator Bracelet +0 → +5"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "Clash Rune +2 → +3"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "Clash Rune +2 → +3"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "Revelation Amulet +2 → +3"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "7 new titles"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "opened 6 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-01 18:01",
+   "n": "YasuoMain16",
+   "x": "skills up: Flash Rampage 9, Shield Rush 12, Ironclad Defense 13, Block Pain 14"
+  },
   {
    "t": "2026-11-01 17:31",
    "n": "CutieCatty",

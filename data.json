@@ -3906,14 +3906,14 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 70501,
+     "cp": 70561,
      "il": 1445
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 70501,
+   "cp": 70561,
    "il": 1445,
    "gear": [
     {
@@ -4575,7 +4575,7 @@
     }
    ],
    "title": {
-    "ownedCount": 178,
+    "ownedCount": 179,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -4615,8 +4615,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 58,
-      "ownedPercent": 57,
+      "ownedCount": 59,
+      "ownedPercent": 58,
       "statList": [
        {
         "desc": "Block +10"
@@ -5826,14 +5826,14 @@
     },
     {
      "date": "2026-11-01",
-     "cp": 105531,
+     "cp": 105542,
      "il": 2401
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 105531,
+   "cp": 105542,
    "il": 2401,
    "gear": [
     {
@@ -7762,8 +7762,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 20:01 UTC",
+ "updated": "2026-11-01 20:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 20:31",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-01 20:01",
    "n": "CuteCatty",

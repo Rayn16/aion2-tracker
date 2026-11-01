@@ -2021,13 +2021,13 @@
     {
      "date": "2026-11-01",
      "cp": 68076,
-     "il": 1413
+     "il": 1418
     }
    ],
    "server": "Tassin",
    "level": 45,
    "cp": 68076,
-   "il": 1413,
+   "il": 1418,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2196,7 +2196,7 @@
      "slotPosName": "Shoulder",
      "name": "Liberator Pauldrons",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Shoulder.png",
      "max": 10,
      "slots": 3,
@@ -2355,7 +2355,7 @@
      "slotPosName": "Earring1",
      "name": "Liberator Earrings",
      "grade": "Legend",
-     "enchantLevel": 4,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
      "max": 10,
      "slots": 3,
@@ -2650,7 +2650,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1413
+     "value": 1418
     }
    ],
    "title": {
@@ -7762,8 +7762,18 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 20:31 UTC",
+ "updated": "2026-11-01 20:54 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 20:54",
+   "n": "YasuoMain16",
+   "x": "Liberator Pauldrons +0 → +4"
+  },
+  {
+   "t": "2026-11-01 20:54",
+   "n": "YasuoMain16",
+   "x": "Liberator Earrings +4 → +5"
+  },
   {
    "t": "2026-11-01 20:31",
    "n": "CuteCatty",

@@ -4575,7 +4575,7 @@
     }
    ],
    "title": {
-    "ownedCount": 177,
+    "ownedCount": 178,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -4615,8 +4615,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 57,
-      "ownedPercent": 56,
+      "ownedCount": 58,
+      "ownedPercent": 57,
       "statList": [
        {
         "desc": "Block +10"
@@ -7762,8 +7762,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 19:31 UTC",
+ "updated": "2026-11-01 20:01 UTC",
  "feed": [
+  {
+   "t": "2026-11-01 20:01",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-01 18:31",
    "n": "CuteCatty",

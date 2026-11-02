@@ -2030,13 +2030,13 @@
     },
     {
      "date": "2026-11-02",
-     "cp": 69483,
+     "cp": 69518,
      "il": 1462
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 69483,
+   "cp": 69518,
    "il": 1462,
    "gear": [
     {
@@ -2685,7 +2685,7 @@
     }
    ],
    "title": {
-    "ownedCount": 171,
+    "ownedCount": 172,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -2703,8 +2703,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 56,
-      "ownedPercent": 55,
+      "ownedCount": 57,
+      "ownedPercent": 56,
       "statList": [
        {
         "desc": "Block +10"
@@ -7843,8 +7843,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-02 04:01 UTC",
+ "updated": "2026-11-02 04:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-02 04:31",
+   "n": "YasuoMain16",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-02 02:01",
    "n": "CutieCatty",

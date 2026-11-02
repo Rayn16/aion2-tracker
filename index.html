@@ -60,6 +60,47 @@ main { grid-area: main; overflow: auto; padding: 22px clamp(16px, 3vw, 32px) 32p
 .track > .trail { background: color-mix(in srgb, var(--bad) 35%, transparent); transition: width 1.2s ease 0.4s; }
 .track > .fill { background: linear-gradient(90deg, var(--bad), color-mix(in srgb, var(--bad) 55%, var(--fg))); box-shadow: 0 0 10px color-mix(in srgb, var(--bad) 55%, transparent); transition: width 0.3s ease; }
 .lhead { display: flex; gap: 8px; padding: 0 10px; font-size: 12px; }
+/* icons and colour: a coloured icon in each live section's title, class icons and portraits on the bars, skill icons
+   in a player's breakdown, tickets as coloured tiles, the party as cards with their gear's icons */
+.ph .ico { width: 18px; height: 18px; flex: none; color: var(--ic, var(--gold)); }
+.av { width: 22px; height: 22px; flex: none; border-radius: 6px; object-fit: cover; border: 1px solid rgb(var(--cc, 140 140 150) / 0.8); background: var(--bg); }
+.av.ini { display: grid; place-items: center; font: 700 11px/1 var(--body); color: rgb(var(--cc, 160 160 170)); }
+.dbar .who b { color: color-mix(in srgb, rgb(var(--cc, 230 230 235)) 55%, var(--fg)); }
+.bosshp .nm .ico { width: 16px; height: 16px; color: var(--bad); vertical-align: -3px; margin-right: 6px; }
+.dskills { display: grid; gap: 4px; margin: 4px 0 8px 12px; }
+.sk { display: grid; grid-template-columns: 24px minmax(90px, 200px) minmax(60px, 1fr) 54px 44px 56px; gap: 8px; align-items: center; font-size: 12.5px; color: var(--fg); }
+.sk img, .sk .noimg { width: 24px; height: 24px; border-radius: 5px; border: 1px solid var(--line); background: var(--bg); }
+.sk .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sk .m { height: 6px; border-radius: 3px; background: rgb(0 0 0 / 0.3); overflow: hidden; }
+.sk .m > i { display: block; height: 100%; border-radius: 3px; background: rgb(var(--cc, 140 140 150)); }
+.sk .n { font: 500 12px/1 var(--mono); text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sk .n b { color: var(--fg); }
+.encrow .ico { width: 15px; height: 15px; color: var(--best); }
+.encrow .av { width: 18px; height: 18px; border-radius: 4px; }
+.tix { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+.tk { display: grid; gap: 6px; padding: 10px 12px; border: 1px solid color-mix(in srgb, var(--tc) 35%, var(--line)); border-radius: 10px; background: color-mix(in srgb, var(--tc) 9%, var(--raised)); }
+.tk .top { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 13.5px; }
+.tk .top .ico { width: 20px; height: 20px; color: var(--tc); }
+.tk .v { font: 700 22px/1 var(--mono); color: var(--tc); font-variant-numeric: tabular-nums; }
+.tk .v small { font: 500 13px/1 var(--mono); color: var(--muted); }
+.tk .v .x { font-size: 14px; color: var(--best); margin-left: 4px; }
+.tk .m { height: 5px; border-radius: 3px; background: rgb(0 0 0 / 0.3); overflow: hidden; }
+.tk .m > i { display: block; height: 100%; background: var(--tc); }
+.pcards { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 12px; }
+.pc { display: grid; gap: 10px; padding: 12px 14px; border: 1px solid var(--line); border-top: 3px solid rgb(var(--cc, 140 140 150)); border-radius: 10px; background: var(--raised); }
+.pc .top { display: flex; align-items: center; gap: 10px; }
+.pc .top .av { width: 40px; height: 40px; border-radius: 10px; }
+.pc .nm { font-weight: 700; color: color-mix(in srgb, rgb(var(--cc, 230 230 235)) 60%, var(--fg)); }
+.pc .sub { font-size: 12.5px; }
+.pc .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.pc .stats div { display: grid; gap: 2px; }
+.pc .stats span { font: 600 10.5px/1 var(--body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.pc .stats b { font: 700 16px/1.2 var(--mono); font-variant-numeric: tabular-nums; }
+.pc .stats b.cp { color: var(--best); }
+.gicons { display: flex; flex-wrap: wrap; gap: 4px; }
+.gicons span { position: relative; }
+.gicons img { width: 30px; height: 30px; border-radius: 6px; border: 1px solid var(--g, var(--line)); background: var(--bg); display: block; }
+.gicons b { position: absolute; right: -3px; bottom: -3px; padding: 0 3px; border-radius: 4px; background: var(--bg); font: 700 9.5px/1.4 var(--mono); color: var(--gold-hi); }
 .dbars { display: grid; gap: 4px; }
 .dbar { position: relative; display: block; width: 100%; height: 28px; padding: 0; overflow: hidden; border: 1px solid transparent; border-radius: 7px; background: var(--raised); color: var(--fg); font: inherit; text-align: left; cursor: pointer; }
 .dbar:hover { border-color: var(--gold-line); }
@@ -944,60 +985,99 @@ const opened = new Set();  // rows opened to their skills, and past fights opene
 const skillName = id => (premade('lpc-aion-skills') || {})[id] || `Skill ${id}`;
 const askLive = v => { try { localStorage.setItem('lpc-aion-want', `${v}|${Date.now()}`); } catch {} };
 const liveNow = () => { const L = premade('lpc-aion-live') || {}; return Date.now() - (L.at || 0) < 10e3 ? L : { ...L, state: 'off', fight: null }; };
-// players' class colours (by the game's class), and the class of a party member by name (lpc-aion-party)
+// players' class colours and icons (each class's first skill icon on NC's image server), and the class of a party
+// member by name (lpc-aion-party)
 const CLASS_RGB = { Gladiator: '142 68 173', Templar: '230 126 34', Ranger: '212 160 23', Assassin: '64 192 112', Spiritmaster: '125 200 216', Sorcerer: '41 128 185', Cleric: '26 188 156', Chanter: '241 196 15' };
+const CLASS_CODE = { Gladiator: 'GL', Templar: 'TE', Ranger: 'RA', Assassin: 'AS', Spiritmaster: 'EL', Sorcerer: 'SO', Cleric: 'CL', Chanter: 'CH' };
 const CLASS_OF_PC = ['Gladiator', 'Templar', 'Ranger', 'Assassin', 'Spiritmaster', 'Sorcerer', 'Cleric', 'Chanter'];  // pc ids 5-8, 9-12 ...
-const partyInfo = () => new Map(((premade('lpc-aion-party') || {}).members || []).map(m => [m.name, { cls: m.className || CLASS_OF_PC[Math.floor((m.cls - 5) / 4)], cp: m.cp }]));
+const NC_ICONS = 'https://assets.playnccdn.com/static-aion2-gamedata/resources/';
+const partyInfo = () => new Map(((premade('lpc-aion-party') || {}).members || []).map(m => [m.name, { ...m, cls: m.className || CLASS_OF_PC[Math.floor((m.cls - 5) / 4)] }]));
+// a player's picture: their portrait if they're in the legion, else their class's icon, else their initial
+const avatar = (name, cls) => {
+  const m = LIST.find(x => x.name === name), src = m?.pic || (CLASS_CODE[cls] && `${NC_ICONS}ICON_${CLASS_CODE[cls]}_SKILL_001.png`);
+  return src ? `<img class="av" src="${esc(src)}" alt="" loading="lazy">` : `<span class="av ini">${esc((name || '?')[0])}</span>`;
+};
+// small line icons for the live sections
+const ICON = { bolt: '<path d="M13 3 5 14h6l-1 7 8-11h-6z"/>', clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
+  ticket: '<path d="M4 7h16v3a2 2 0 0 0 0 4v3H4v-3a2 2 0 0 0 0-4z"/><path d="M14 7v10" stroke-dasharray="2 2"/>', users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5c2.4 0 4.2 1.5 4.6 4.5"/>',
+  skull: '<path d="M12 3a8 8 0 0 0-5 14.2V20h10v-2.8A8 8 0 0 0 12 3z"/><circle cx="9" cy="11" r="1.6"/><circle cx="15" cy="11" r="1.6"/><path d="M10 20v-2M14 20v-2"/>',
+  trophy: '<path d="M7 4h10v4a5 5 0 0 1-10 0z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8"/>' };
+const ico = (n, c = '') => `<svg class="i ico" viewBox="0 0 24 24"${c ? ` style="--ic:${c}"` : ''}>${ICON[n]}</svg>`;
+// party members' character sheets through Premade's server (what Refresh now uses): their gear's icons, and their
+// skills' names and icons for the breakdown; asked once each
+const SHEETS = new Map(), SKILL_INFO = new Map();
+function sheetFor(name, server) {
+  const key = `${name}@${server}`;
+  if (SHEETS.has(key) || !server) return SHEETS.get(key);
+  SHEETS.set(key, null);
+  fetch(`${CLAIMS_URL}?q=${encodeURIComponent(name)}&s=${encodeURIComponent(server)}`).then(r => r.ok ? r.json() : null).then(s => {
+    if (!s) return;
+    SHEETS.set(key, s);
+    for (const k of s.skill?.skillList || []) SKILL_INFO.set(k.id, { name: k.name, icon: k.icon });
+    const page = location.hash.slice(2).split(/[/?]/)[0];
+    if (page === 'dps') refreshLive(); else if (page === '') rerender();
+  }).catch(() => {});
+  return null;
+}
+const skillOf = id => SKILL_INFO.get(id) || { name: (premade('lpc-aion-skills') || {})[id] };
 const widths = new Map();  // each bar's last width, so a changed one slides to its new width
 const slideBar = (key, pct, cls) => { const was = widths.get(key) ?? pct; widths.set(key, pct); return `<i class="${cls}" data-to="${pct}" style="width:${was}%"></i>`; };
 function fightBars(players, key) {
   const top = Math.max(1, ...players.map(p => p.dps)), info = partyInfo();
+  for (const m of info.values()) sheetFor(m.name, m.server);
   return `<div class="dbars">${players.map(p => {
     const id = `${key}|${p.name}`, me = info.get(p.name) || {}, rgb = CLASS_RGB[me.cls];
     return `<button type="button" class="dbar" data-open="${esc(id)}" ${rgb ? `style="--cc:${rgb}"` : ''} title="Click for top skills">${slideBar(id, (p.dps / top) * 100, 'fill')}
-      <span class="txt"><i class="dot"></i><span class="who"><b>${esc(p.name)}</b>${p.me ? '<span class="you">You</span>' : ''}${me.cls ? `<span class="cls">${esc(me.cls)}</span>` : ''}${me.cp ? `<span class="cp">CP ${fmt(me.cp)}</span>` : ''}</span>
+      <span class="txt">${avatar(p.name, me.cls)}<span class="who"><b>${esc(p.name)}</b>${p.me ? '<span class="you">You</span>' : ''}${me.cls ? `<span class="cls">${esc(me.cls)}</span>` : ''}${me.cp ? `<span class="cp">CP ${fmt(me.cp)}</span>` : ''}</span>
       <span class="n dps">${big(p.dps)}</span><span class="n sh">${p.share}%</span><span class="n dmg">${big(p.damage)}</span></span></button>
-      ${opened.has(id) ? `<div class="dskills">${(p.skills || []).map(k => `<span>${esc(skillName(k.id))} <b>${big(k.damage)}</b> · ${k.share}% · ${k.hits} hits</span>`).join('') || 'No skills yet.'}${p.crit ? `<span>Crits ${p.crit}%</span>` : ''}</div>` : ''}`;
+      ${opened.has(id) ? `<div class="dskills" ${rgb ? `style="--cc:${rgb}"` : ''}>${(p.skills || []).map(k => { const s = skillOf(k.id);
+        return `<div class="sk">${s.icon ? `<img src="${esc(s.icon)}" alt="" loading="lazy">` : '<i class="noimg"></i>'}<span class="nm">${esc(s.name || `Skill ${k.id}`)}</span>
+          <span class="m"><i style="width:${k.share}%"></i></span><span class="n"><b>${big(k.damage)}</b></span><span class="n">${k.share}%</span><span class="n">${k.hits} hits</span></div>`; }).join('') || '<span class="hint">No skills yet.</span>'}
+        ${p.crit ? `<span class="hint">Crits ${p.crit}% of hits</span>` : ''}</div>` : ''}`;
   }).join('')}</div>`;
 }
 const slide = () => requestAnimationFrame(() => document.querySelectorAll('[data-to]').forEach(i => { i.style.width = i.dataset.to + '%'; }));
 function livePanel() {
   const L = liveNow(), f = L.fight, on = L.state === 'on' || L.state === 'game';
   const says = !inPremade() ? 'Live fight works in Premade’s app for Windows.' : LIVE_SAYS[L.state] || '';
-  return `<section class="panel" id="livePanel"><h2 class="ph">Live fight <span class="hint">everyone’s damage and the boss’s HP while you fight</span></h2>
+  return `<section class="panel" id="livePanel"><h2 class="ph"><span class="who">${ico('bolt', 'var(--warn)')}Live fight</span><span class="hint">everyone’s damage and the boss’s HP while you fight</span></h2>
     ${inPremade() ? `<div class="chips"><label class="hint"><input type="checkbox" id="liveOn" ${on ? 'checked' : ''}> Show it live while I fight</label>
       <label class="hint"><input type="checkbox" id="liveParty" ${L.party !== false ? 'checked' : ''}> Only my party</label></div>` : ''}
     <p class="hint">Ban risk: this reads Aion 2’s traffic, as Abyss DPS Meter does. NC’s rules allow banning accounts for programs like this, so it’s off until you turn it on.</p>
-    ${f ? `<div class="bosshp"><div class="lbl"><span class="nm">${esc(f.target || 'Target')}</span><span class="nums">${f.active ? '' : 'last fight · '}${mmss(f.secs)}${f.hp != null ? ` · ${big(f.hp)}` : ''}${f.pct != null ? `<span class="pct">${f.pct}%</span>` : ''}</span></div>
+    ${f ? `<div class="bosshp"><div class="lbl"><span class="nm">${ico('skull')}${esc(f.target || 'Target')}</span><span class="nums">${f.active ? '' : 'last fight · '}${mmss(f.secs)}${f.hp != null ? ` · ${big(f.hp)}` : ''}${f.pct != null ? `<span class="pct">${f.pct}%</span>` : ''}</span></div>
       <div class="track">${slideBar(`hp|${f.target}`, f.pct ?? 0, 'trail')}${slideBar(`hpf|${f.target}`, f.pct ?? 0, 'fill')}</div></div>
       <div class="lhead hint"><span>Player</span><span style="margin-left:auto">DPS · share · damage</span></div>${fightBars(f.players, 'live')}` : says ? `<p class="hint">${esc(says)}</p>` : ''}</section>`;
 }
 function pastPanel() {
   const H = premade('lpc-aion-history') || [];
   if (!H.length) return '';
-  const when = at => new Date(at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
-  return `<section class="panel"><h2 class="ph">Past fights <span class="hint">boss kills and fights of 20 s or more, read live, kept on this PC</span></h2>
-    ${H.slice(0, 30).map(f => { const b = f.players.find(p => p.me) || f.players[0], id = `h${f.at}`;
-      return `<details class="fight" data-fight-at="${esc(id)}" ${opened.has(id) ? 'open' : ''}><summary class="encrow"><time>${when(f.at)}</time><span class="t">${esc(f.target || 'Target')}</span><span class="hint">${mmss(f.secs)}</span>${f.killed ? '<span class="k">Killed</span>' : ''}${b ? `<span class="r">${esc(b.name)} ${big(b.dps)}/s</span>` : ''}</summary>${opened.has(id) ? fightBars(f.players, id) : ''}</details>`; }).join('')}</section>`;
+  const when = at => new Date(at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }), info = partyInfo();
+  return `<section class="panel"><h2 class="ph"><span class="who">${ico('clock', 'var(--link)')}Past fights</span><span class="hint">boss kills and fights of 20 s or more, read live, kept on this PC</span></h2>
+    ${H.slice(0, 30).map(f => { const b = f.players.find(p => p.me) || f.players[0], id = `h${f.at}`, cls = b && info.get(b.name)?.cls;
+      return `<details class="fight" data-fight-at="${esc(id)}" ${opened.has(id) ? 'open' : ''}><summary class="encrow">${f.killed ? ico('trophy') : ''}<time>${when(f.at)}</time><span class="t">${esc(f.target || 'Target')}</span><span class="hint">${mmss(f.secs)}</span>${f.killed ? '<span class="k">Killed</span>' : ''}${b ? `<span class="r" style="display:inline-flex;gap:6px;align-items:center">${avatar(b.name, cls)}${esc(b.name)} ${big(b.dps)}/s</span>` : ''}</summary>${opened.has(id) ? fightBars(f.players, id) : ''}</details>`; }).join('')}</section>`;
 }
-// entry tickets (Checklist): names and caps by the game's ticket id, as Abyss DPS Meter lists them
-const TICKETS = { 60000001: ['Odyle', 840], 4: ['Nightmare', 14], 80000001: ['Ascension trial', 3], 101: ['Daily dungeon', 14], 1: ['Shugo Festival', 7], 8: ['Dimensional Invasion', 7] };
+// entry tickets (Checklist): names, caps and colours by the game's ticket id (names and caps as Abyss DPS Meter lists them)
+const TICKETS = { 60000001: ['Odyle', 840, '#3cc8c8'], 4: ['Nightmare', 14, '#b07cff'], 80000001: ['Ascension trial', 3, '#e8b84a'], 101: ['Daily dungeon', 14, '#5aa2ff'], 1: ['Shugo Festival', 7, '#ff9a4a'], 8: ['Dimensional Invasion', 7, '#ff6b6b'] };
 function ticketsPanel() {
   const T = Object.values(premade('lpc-aion-tickets') || {}).filter(x => TICKETS[x.id]);
   if (!T.length) return '';
   const at = Math.max(...T.map(x => x.at || 0));
-  return `<section class="panel"><h2 class="ph">Entry tickets <span class="hint">live from the game${at ? `, ${span(Date.now() - at)} ago` : ''}</span></h2><div class="chips">
-    ${T.map(x => { const [name, cap] = TICKETS[x.id]; return `<span>${name} <b>${fmt(x.left)}</b>${x.extra ? ` <span class="up">(+${fmt(x.extra)})</span>` : ''} / ${fmt(x.max || cap)}</span>`; }).join('')}</div></section>`;
+  return `<section class="panel"><h2 class="ph"><span class="who">${ico('ticket', 'var(--best)')}Entry tickets</span><span class="hint">live from the game${at ? `, ${span(Date.now() - at)} ago` : ''}</span></h2><div class="tix">
+    ${T.map(x => { const [name, cap, c] = TICKETS[x.id], max = x.max || cap;
+      return `<div class="tk" style="--tc:${c}"><div class="top">${ico('ticket')}${name}</div><div class="v">${fmt(x.left)}${x.extra ? `<span class="x">+${fmt(x.extra)}</span>` : ''} <small>/ ${fmt(max)}</small></div>
+        <div class="m"><i style="width:${Math.min(100, ((x.left + (x.extra || 0)) / max) * 100)}%"></i></div></div>`; }).join('')}</div></section>`;
 }
 // your party right now (Profile), from the game, with class, combat power and gear from NC's pages
 function partyPanel() {
   const P = premade('lpc-aion-party') || {};
   if (!P.members?.length || Date.now() - (P.at || 0) > 30 * 60e3) return '';
-  return `<section class="panel wrap"><h2 class="ph">Your party now <span class="hint">live from the game</span></h2>
-    <table class="cmp"><tr><th>Character</th><th>Class</th><th>Level</th><th>Item level</th><th>Combat power</th><th>Server</th></tr>
-    ${P.members.map(m => `<tr><td>${LIST.some(x => x.name === m.name) ? `<a href="${memberLink(m.name)}">${esc(m.name)}</a>` : esc(m.name)}</td><td>${esc(m.className || '–')}</td>
-      <td class="n">${fmt(m.level)}</td><td class="n">${fmt(m.il)}</td><td class="n"><b>${fmt(m.cp)}</b></td><td>${esc(m.server || '–')}</td></tr>
-      ${m.gear?.length ? `<tr class="lskills"><td colspan="6">${m.gear.map(g => `${esc(g.slot)}: <span style="color:${GRADE[g.grade] || 'inherit'}">${esc(g.name)}${g.enchant ? ` +${g.enchant}` : ''}</span>`).join(' · ')}</td></tr>` : ''}`).join('')}</table></section>`;
+  const info = partyInfo();
+  return `<section class="panel"><h2 class="ph"><span class="who">${ico('users', 'var(--good)')}Your party now</span><span class="hint">live from the game</span></h2><div class="pcards">
+    ${P.members.map(m => { const cls = info.get(m.name)?.cls, rgb = CLASS_RGB[cls], s = sheetFor(m.name, m.server), gear = s?.gear || [];
+      return `<div class="pc" ${rgb ? `style="--cc:${rgb}"` : ''}><div class="top">${avatar(m.name, cls)}<div><div class="nm">${LIST.some(x => x.name === m.name) ? `<a href="${memberLink(m.name)}" style="color:inherit">${esc(m.name)}</a>` : esc(m.name)}</div>
+        <div class="sub">${esc([cls, m.server].filter(Boolean).join(' · '))}</div></div></div>
+        <div class="stats"><div><span>Level</span><b>${fmt(m.level)}</b></div><div><span>Item lv</span><b>${fmt(m.il)}</b></div><div><span>CP</span><b class="cp">${fmt(m.cp)}</b></div></div>
+        ${gear.length ? `<div class="gicons">${gear.map(g => `<span title="${esc(`${g.slotPosName}: ${g.name}${g.enchantLevel ? ` +${g.enchantLevel}` : ''}`)}"><img src="${esc(g.icon)}" alt="" loading="lazy" style="--g:${GRADE[g.grade] || 'var(--line)'}">${g.enchantLevel ? `<b>+${g.enchantLevel}</b>` : ''}</span>`).join('')}</div>` : ''}</div>`; }).join('')}</div></section>`;
 }
 function wireLive() {  // after each render: the switches, rows opened to skills, past fights opened
   $('#liveOn')?.addEventListener('change', e => {

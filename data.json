@@ -44,13 +44,13 @@
     },
     {
      "date": "2026-11-02",
-     "cp": 113006,
+     "cp": 113329,
      "il": 2429
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 113006,
+   "cp": 113329,
    "il": 2429,
    "gear": [
     {
@@ -918,30 +918,8 @@
     }
    ],
    "title": {
-    "ownedCount": 194,
+    "ownedCount": 195,
     "titleList": [
-     {
-      "equipCategory": "Defense",
-      "equipStatList": [
-       {
-        "desc": "Boss Damage Tolerance +3%"
-       },
-       {
-        "desc": "Critical Damage Tolerance +2%"
-       }
-      ],
-      "grade": "Legend",
-      "id": 21020041,
-      "name": "Action over Words",
-      "ownedCount": 67,
-      "ownedPercent": 68,
-      "statList": [
-       {
-        "desc": "Out-of-Combat Natural Stamina Regen +5"
-       }
-      ],
-      "totalCount": 98
-     },
      {
       "equipCategory": "Etc",
       "equipStatList": [
@@ -968,6 +946,31 @@
       "totalCount": 101
      },
      {
+      "equipCategory": "Defense",
+      "equipStatList": [
+       {
+        "desc": "Defense Bonus +300"
+       },
+       {
+        "desc": "Damage Tolerance +3%"
+       },
+       {
+        "desc": "Block +100"
+       }
+      ],
+      "grade": "Unique",
+      "id": 22030003,
+      "name": "Saint of Altgard",
+      "ownedCount": 67,
+      "ownedPercent": 68,
+      "statList": [
+       {
+        "desc": "MP +20"
+       }
+      ],
+      "totalCount": 98
+     },
+     {
       "equipCategory": "Attack",
       "equipStatList": [
        {
@@ -983,8 +986,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 65,
-      "ownedPercent": 62,
+      "ownedCount": 66,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -7845,8 +7848,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-02 21:01 UTC",
+ "updated": "2026-11-02 21:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-02 21:31",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-02 20:01",
    "n": "YasuoMain16",

@@ -47,6 +47,46 @@ main { grid-area: main; overflow: auto; padding: 22px clamp(16px, 3vw, 32px) 32p
 .embed .app { grid-template: "rail" auto "main" minmax(0, 1fr) / minmax(0, 1fr); }
 .embed .rail { flex-direction: row; width: auto; padding: 8px clamp(16px, 3vw, 32px); border-right: 0; border-bottom: 1px solid var(--gold-line); overflow-x: auto; }
 .embed .brand, .embed .bar { display: none; }
+/* live fight (DPS), laid out like Abyss DPS Meter's: a boss card (name, HP, a bar whose trail shows the damage just
+   dealt), then a slim bar per player in their class colour with DPS, share and damage on the right; a bar opens to the
+   player's top skills. Colours are this page's (Premade's theme); the class colours are fixed */
+.bosshp { padding: 8px 12px 10px; border: 1px solid color-mix(in srgb, var(--bad) 30%, var(--line)); border-radius: 10px; background: color-mix(in srgb, var(--bad) 7%, var(--raised)); }
+.bosshp .lbl { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 6px; }
+.bosshp .nm { font-weight: 600; color: var(--fg); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bosshp .nums { font: 500 12.5px/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.bosshp .pct { font-weight: 700; color: color-mix(in srgb, var(--bad) 75%, var(--fg)); margin-left: 6px; }
+.track { position: relative; height: 6px; border-radius: 3px; background: rgb(0 0 0 / 0.35); overflow: hidden; }
+.track > i { position: absolute; inset: 0 auto 0 0; border-radius: 3px; }
+.track > .trail { background: color-mix(in srgb, var(--bad) 35%, transparent); transition: width 1.2s ease 0.4s; }
+.track > .fill { background: linear-gradient(90deg, var(--bad), color-mix(in srgb, var(--bad) 55%, var(--fg))); box-shadow: 0 0 10px color-mix(in srgb, var(--bad) 55%, transparent); transition: width 0.3s ease; }
+.lhead { display: flex; gap: 8px; padding: 0 10px; font-size: 12px; }
+.dbars { display: grid; gap: 4px; }
+.dbar { position: relative; display: block; width: 100%; height: 28px; padding: 0; overflow: hidden; border: 1px solid transparent; border-radius: 7px; background: var(--raised); color: var(--fg); font: inherit; text-align: left; cursor: pointer; }
+.dbar:hover { border-color: var(--gold-line); }
+.dbar > .fill { position: absolute; inset: 0 auto 0 0; background: rgb(var(--cc, 140 140 150) / 0.42); transition: width 0.4s ease; }
+.dbar > .txt { position: relative; display: flex; align-items: center; gap: 8px; height: 100%; padding: 0 10px; font-size: 13px; }
+.dbar .dot { width: 10px; height: 10px; flex: none; border-radius: 3px; background: rgb(var(--cc, 140 140 150)); }
+.dbar .who { display: flex; align-items: baseline; gap: 6px; flex: 1; min-width: 0; }
+.dbar .who b { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dbar .you { font: 700 10px/1 var(--body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.dbar .cp, .dbar .cls { font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+.dbar .n { font: 500 12px/1 var(--mono); font-variant-numeric: tabular-nums; text-align: right; color: var(--muted); flex: none; }
+.dbar .n.dps { width: 64px; font-weight: 700; color: var(--fg); }
+.dbar .n.sh { width: 46px; }
+.dbar .n.dmg { width: 58px; }
+.dskills { margin: 2px 0 4px 18px; font-size: 12px; color: var(--muted); display: grid; gap: 2px; }
+.encrow { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--raised); cursor: pointer; font-size: 13px; list-style: none; }
+.encrow::-webkit-details-marker { display: none; }
+.encrow:hover, details[open] > .encrow { border-color: var(--gold-line); }
+.encrow time { font: 500 12px/1 var(--mono); color: var(--muted); }
+.encrow .t { font-weight: 600; }
+.encrow .k { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--good); }
+.encrow .r { margin-left: auto; font: 500 12px/1 var(--mono); color: var(--muted); }
+details.fight { display: grid; gap: 6px; }
+details.fight > .dbars { margin: 6px 0 4px; }
+details.fight > summary { cursor: pointer; padding: 4px 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips > span { padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; }
 @container app (max-width: 760px) {
   .rail { width: auto; padding-inline: 6px; }
   .brand span, .nav span { display: none; }
@@ -178,8 +218,58 @@ table.skills .meter { min-width: 80px; }
 .tick.done > span:first-child { color: var(--good); }
 .tick.done > span:first-child::before { content: "✓ "; }
 .hint input[type="checkbox"] { vertical-align: -2px; margin: 0 6px 0 0; }
+/* ---- Premade's new look (its Open Design mockups, Premade What's new 104): flat page heads with a line under them,
+   section titles in a strip at the top of each panel, plain-case navigation and buttons, switches for ticks. Inside
+   Premade the colours and fonts are Premade's own, the theme you picked included (themeFromPremade below). */
+.rail { gap: 2px; width: 212px; padding: 0 10px; border-right: 1px solid var(--line); }
+.brand { min-height: 64px; margin: 0 -10px 6px; padding: 0 18px; border-bottom: 1px solid var(--line); font: 700 15px/1 var(--display); letter-spacing: 0.16em; color: var(--gold-hi); white-space: nowrap; }
+.brand img { display: none; }
+.nav { gap: 10px; padding: 7px 10px; font: 500 13.5px/1.2 var(--body); letter-spacing: normal; text-transform: none; }
+.nav svg { width: 16px; height: 16px; }
+.nav[aria-current="page"] { color: var(--gold-hi); border-color: var(--gold-line); background: color-mix(in srgb, var(--gold) 10%, var(--raised)); box-shadow: inset 2px 0 var(--gold); }
+.nav[aria-current="page"] svg { color: var(--gold); }
+.embed .rail { gap: 6px; padding: 10px clamp(16px, 2.4vw, 28px); border-bottom: 1px solid var(--line); }
+.embed .nav { padding: 8px 12px; }
+.embed .nav[aria-current="page"] { box-shadow: inset 0 -2px var(--gold); }
+main { --pad: clamp(16px, 2.4vw, 28px); padding: 0 var(--pad) 32px; }
+.head { align-items: center; gap: 10px 16px; min-height: 64px; margin: 0 calc(-1 * var(--pad)); padding: 12px var(--pad); background: none; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; }
+.head > div:first-child { display: flex; flex-direction: column-reverse; gap: 3px; }
+.head .title { font-size: 23px; text-transform: none; }
+.eyebrow { margin: 0; font: 400 13px/1.3 var(--body); letter-spacing: normal; text-transform: none; color: var(--muted); }
+.view { gap: 16px; }
+.panel, .tile, .card, .row, .head + .panel { border-radius: 6px; }
+.ph { font: 700 13.5px/1.2 var(--display); letter-spacing: 0.06em; text-transform: none; color: var(--gold-hi); }
+.ph .hint, .ph a.hint { font: 400 12.5px/1.2 var(--body); letter-spacing: normal; }
+.panel > .ph:first-child { margin: -16px -16px 0; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+.btn { font: 600 13.5px/1 var(--body); padding: 9px 14px; border-radius: 6px; border: 1px solid var(--line); color: var(--fg); }
+.btn:hover { border-color: var(--gold-line); color: var(--gold-hi); }
+.btn.small { padding: 6px 10px; font-size: 12.5px; }
+input, select { font: 14px/1.2 var(--body); padding: 9px 11px; }
+label > input[type="checkbox"] { appearance: none; position: relative; flex: none; width: 32px; height: 18px; margin: 0 6px 0 0; padding: 0; vertical-align: -4px; border: 1px solid var(--line); border-radius: 999px; background: var(--raised); cursor: pointer; }
+label > input[type="checkbox"]::before { content: ""; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px; border-radius: 50%; background: var(--muted); transition: transform 0.15s, background 0.15s; }
+label > input[type="checkbox"]:checked { border-color: color-mix(in srgb, var(--good) 55%, var(--line)); background: color-mix(in srgb, var(--good) 22%, var(--raised)); }
+label > input[type="checkbox"]:checked::before { transform: translateX(14px); background: var(--good); }
+table.cmp th { font: 600 11px/1.2 var(--body); letter-spacing: 0.1em; }
+.tabs a { font: 500 13.5px/1 var(--body); letter-spacing: normal; text-transform: none; }
+.tile .k, .card .stats span, .grade, .tag { font-family: var(--body); font-weight: 600; letter-spacing: 0.08em; }
 </style>
 <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
+<script>
+// Inside Premade's page (same site), take Premade's colours and fonts, so the theme picked in Premade (Settings, Look)
+// and its custom colours show here too; again whenever Premade's look changes
+(function themeFromPremade() {
+  let root; try { root = parent !== window && parent.document.documentElement; } catch { return; }
+  if (!root) return;
+  const VARS = ['--bg', '--panel', '--raised', '--fg', '--muted', '--line', '--gold', '--gold-hi', '--gold-line', '--accent', '--accent-fg', '--link', '--best', '--good', '--warn', '--bad', '--display', '--body', '--mono'];
+  const copy = () => {
+    const cs = parent.getComputedStyle(root), me = document.documentElement.style;
+    for (const v of VARS) { const x = cs.getPropertyValue(v).trim(); if (x) me.setProperty(v, x); }
+    document.documentElement.style.colorScheme = cs.colorScheme || 'dark';
+  };
+  copy();
+  new parent.MutationObserver(copy).observe(root, { attributes: true, attributeFilter: ['style', 'class', 'data-theme'] });
+})();
+</script>
 </head>
 <body>
 <div class="app">
@@ -307,7 +397,7 @@ function profile() {
   if (!ME) return head('Profile', 'Your profile') + `<div class="panel empty">Open this in Premade’s Aion 2 page and it knows who you are: your League account and your friends.<br><a href="#/legion">See the legion</a></div>`;
   const chars = mine(), friends = PLAYERS.filter(p => isFriend(p.id) && !isMe(p.id));
   const rank = PLAYERS.indexOf(playerOf(ME)) + 1;
-  return head('Profile', esc(nick(ME)), rank ? `<span class="hint">#${rank} of ${PLAYERS.length} in the legion</span>` : '') + `
+  return head('Profile', esc(nick(ME)), rank ? `<span class="hint">#${rank} of ${PLAYERS.length} in the legion</span>` : '') + partyPanel() + `
     ${chars.length ? `<section class="panel"><h2 class="ph">Your characters <a class="hint" href="#/settings">Change</a></h2>
       <div class="cards">${chars.map(m => m.n ? pendingCard(m) : charCard(m)).join('')}</div></section>` : claimBox()}
     <section class="panel"><h2 class="ph">Lately, you and your friends</h2>${feedList((DATA.feed || []).filter(f => { const o = LIST.find(m => m.name === f.n)?.owner; return isMe(o) || isFriend(o); }))}</section>
@@ -795,7 +885,7 @@ function checklist() {
     <button class="btn small" data-tick="${key}" data-d="-1" aria-label="One less ${t.name}" ${n ? '' : 'disabled'}>−</button><button class="btn small" data-tick="${key}" data-d="1" aria-label="One more ${t.name}" ${n < t.n ? '' : 'disabled'}>+</button></div>`; }).join('');
   const box = (who, ts) => `<div class="ticks"><div class="sub">Today</div>${rows(who, ts.filter(t => t.per === 'day'))}<div class="sub">This week</div>${rows(who, ts.filter(t => t.per === 'week'))}</div>`;
   const friends = PLAYERS.filter(p => isFriend(p.id) && !isMe(p.id) && TICKS.some(x => low(x.o) === low(p.id)));
-  return head('Aion 2', 'Checklist', resets) + (chars.length ? `<div class="cards">
+  return head('Aion 2', 'Checklist', resets) + ticketsPanel() + (chars.length ? `<div class="cards">
     ${chars.map(m => `<section class="panel"><h2 class="ph"><span class="who">${pic(m)}${esc(m.name)}</span></h2>${box(m.name, own)}</section>`).join('')}
     ${[...new Set(chars.map(m => m.server))].map(s => `<section class="panel"><h2 class="ph">${esc(s)} <span class="hint">all your characters</span></h2>${box(s, shared)}</section>`).join('')}</div>
     <p id="tickMsg" class="hint" hidden></p>` : '<div class="panel empty">Pick your Aion 2 characters on <a href="#/">Profile</a> first. They show here after their first update.</div>') + `
@@ -842,6 +932,84 @@ async function sendFights() {  // the new ones and the removed ones, after Prema
   if (location.hash.startsWith('#/dps') && inSight()) (changed ? loadFights() : Promise.resolve()).then(rerender);
 }
 const mmss = t => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
+
+// ---- live from Premade's app (Aion 2 page, desktop app 1.34): once you turn it on here, Premade reads Aion 2's traffic
+// and writes what it sees to the storage this page shares with it: lpc-aion-live { at, state, party, fight } about once
+// a second, lpc-aion-history (finished fights), lpc-aion-party ({ at, members }), lpc-aion-skills ({ id: name }) and
+// lpc-aion-tickets. This page asks with lpc-aion-want ('1' after the ban warning, '0', 'party' or 'all', then |time).
+const LIVE_SAYS = { on: 'On. Fight something in Aion 2.', game: 'On. Waiting for Aion 2…', npcap: 'Npcap isn’t installed: Abyss DPS Meter installs it, or get it from npcap.com.',
+  error: 'Couldn’t start reading Aion 2’s traffic on this PC.', update: 'Comes with Premade’s next app update: restart Premade when it offers one.' };
+const big = n => n >= 1e6 ? `${(n / 1e6).toFixed(1)}M` : n >= 1e3 ? `${(n / 1e3).toFixed(1)}k` : String(n);
+const opened = new Set();  // rows opened to their skills, and past fights opened, across the once-a-second updates
+const skillName = id => (premade('lpc-aion-skills') || {})[id] || `Skill ${id}`;
+const askLive = v => { try { localStorage.setItem('lpc-aion-want', `${v}|${Date.now()}`); } catch {} };
+const liveNow = () => { const L = premade('lpc-aion-live') || {}; return Date.now() - (L.at || 0) < 10e3 ? L : { ...L, state: 'off', fight: null }; };
+// players' class colours (by the game's class), and the class of a party member by name (lpc-aion-party)
+const CLASS_RGB = { Gladiator: '142 68 173', Templar: '230 126 34', Ranger: '212 160 23', Assassin: '64 192 112', Spiritmaster: '125 200 216', Sorcerer: '41 128 185', Cleric: '26 188 156', Chanter: '241 196 15' };
+const CLASS_OF_PC = ['Gladiator', 'Templar', 'Ranger', 'Assassin', 'Spiritmaster', 'Sorcerer', 'Cleric', 'Chanter'];  // pc ids 5-8, 9-12 ...
+const partyInfo = () => new Map(((premade('lpc-aion-party') || {}).members || []).map(m => [m.name, { cls: m.className || CLASS_OF_PC[Math.floor((m.cls - 5) / 4)], cp: m.cp }]));
+const widths = new Map();  // each bar's last width, so a changed one slides to its new width
+const slideBar = (key, pct, cls) => { const was = widths.get(key) ?? pct; widths.set(key, pct); return `<i class="${cls}" data-to="${pct}" style="width:${was}%"></i>`; };
+function fightBars(players, key) {
+  const top = Math.max(1, ...players.map(p => p.dps)), info = partyInfo();
+  return `<div class="dbars">${players.map(p => {
+    const id = `${key}|${p.name}`, me = info.get(p.name) || {}, rgb = CLASS_RGB[me.cls];
+    return `<button type="button" class="dbar" data-open="${esc(id)}" ${rgb ? `style="--cc:${rgb}"` : ''} title="Click for top skills">${slideBar(id, (p.dps / top) * 100, 'fill')}
+      <span class="txt"><i class="dot"></i><span class="who"><b>${esc(p.name)}</b>${p.me ? '<span class="you">You</span>' : ''}${me.cls ? `<span class="cls">${esc(me.cls)}</span>` : ''}${me.cp ? `<span class="cp">CP ${fmt(me.cp)}</span>` : ''}</span>
+      <span class="n dps">${big(p.dps)}</span><span class="n sh">${p.share}%</span><span class="n dmg">${big(p.damage)}</span></span></button>
+      ${opened.has(id) ? `<div class="dskills">${(p.skills || []).map(k => `<span>${esc(skillName(k.id))} <b>${big(k.damage)}</b> · ${k.share}% · ${k.hits} hits</span>`).join('') || 'No skills yet.'}${p.crit ? `<span>Crits ${p.crit}%</span>` : ''}</div>` : ''}`;
+  }).join('')}</div>`;
+}
+const slide = () => requestAnimationFrame(() => document.querySelectorAll('[data-to]').forEach(i => { i.style.width = i.dataset.to + '%'; }));
+function livePanel() {
+  const L = liveNow(), f = L.fight, on = L.state === 'on' || L.state === 'game';
+  const says = !inPremade() ? 'Live fight works in Premade’s app for Windows.' : LIVE_SAYS[L.state] || '';
+  return `<section class="panel" id="livePanel"><h2 class="ph">Live fight <span class="hint">everyone’s damage and the boss’s HP while you fight</span></h2>
+    ${inPremade() ? `<div class="chips"><label class="hint"><input type="checkbox" id="liveOn" ${on ? 'checked' : ''}> Show it live while I fight</label>
+      <label class="hint"><input type="checkbox" id="liveParty" ${L.party !== false ? 'checked' : ''}> Only my party</label></div>` : ''}
+    <p class="hint">Ban risk: this reads Aion 2’s traffic, as Abyss DPS Meter does. NC’s rules allow banning accounts for programs like this, so it’s off until you turn it on.</p>
+    ${f ? `<div class="bosshp"><div class="lbl"><span class="nm">${esc(f.target || 'Target')}</span><span class="nums">${f.active ? '' : 'last fight · '}${mmss(f.secs)}${f.hp != null ? ` · ${big(f.hp)}` : ''}${f.pct != null ? `<span class="pct">${f.pct}%</span>` : ''}</span></div>
+      <div class="track">${slideBar(`hp|${f.target}`, f.pct ?? 0, 'trail')}${slideBar(`hpf|${f.target}`, f.pct ?? 0, 'fill')}</div></div>
+      <div class="lhead hint"><span>Player</span><span style="margin-left:auto">DPS · share · damage</span></div>${fightBars(f.players, 'live')}` : says ? `<p class="hint">${esc(says)}</p>` : ''}</section>`;
+}
+function pastPanel() {
+  const H = premade('lpc-aion-history') || [];
+  if (!H.length) return '';
+  const when = at => new Date(at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  return `<section class="panel"><h2 class="ph">Past fights <span class="hint">boss kills and fights of 20 s or more, read live, kept on this PC</span></h2>
+    ${H.slice(0, 30).map(f => { const b = f.players.find(p => p.me) || f.players[0], id = `h${f.at}`;
+      return `<details class="fight" data-fight-at="${esc(id)}" ${opened.has(id) ? 'open' : ''}><summary class="encrow"><time>${when(f.at)}</time><span class="t">${esc(f.target || 'Target')}</span><span class="hint">${mmss(f.secs)}</span>${f.killed ? '<span class="k">Killed</span>' : ''}${b ? `<span class="r">${esc(b.name)} ${big(b.dps)}/s</span>` : ''}</summary>${opened.has(id) ? fightBars(f.players, id) : ''}</details>`; }).join('')}</section>`;
+}
+// entry tickets (Checklist): names and caps by the game's ticket id, as Abyss DPS Meter lists them
+const TICKETS = { 60000001: ['Odyle', 840], 4: ['Nightmare', 14], 80000001: ['Ascension trial', 3], 101: ['Daily dungeon', 14], 1: ['Shugo Festival', 7], 8: ['Dimensional Invasion', 7] };
+function ticketsPanel() {
+  const T = Object.values(premade('lpc-aion-tickets') || {}).filter(x => TICKETS[x.id]);
+  if (!T.length) return '';
+  const at = Math.max(...T.map(x => x.at || 0));
+  return `<section class="panel"><h2 class="ph">Entry tickets <span class="hint">live from the game${at ? `, ${span(Date.now() - at)} ago` : ''}</span></h2><div class="chips">
+    ${T.map(x => { const [name, cap] = TICKETS[x.id]; return `<span>${name} <b>${fmt(x.left)}</b>${x.extra ? ` <span class="up">(+${fmt(x.extra)})</span>` : ''} / ${fmt(x.max || cap)}</span>`; }).join('')}</div></section>`;
+}
+// your party right now (Profile), from the game, with class, combat power and gear from NC's pages
+function partyPanel() {
+  const P = premade('lpc-aion-party') || {};
+  if (!P.members?.length || Date.now() - (P.at || 0) > 30 * 60e3) return '';
+  return `<section class="panel wrap"><h2 class="ph">Your party now <span class="hint">live from the game</span></h2>
+    <table class="cmp"><tr><th>Character</th><th>Class</th><th>Level</th><th>Item level</th><th>Combat power</th><th>Server</th></tr>
+    ${P.members.map(m => `<tr><td>${LIST.some(x => x.name === m.name) ? `<a href="${memberLink(m.name)}">${esc(m.name)}</a>` : esc(m.name)}</td><td>${esc(m.className || '–')}</td>
+      <td class="n">${fmt(m.level)}</td><td class="n">${fmt(m.il)}</td><td class="n"><b>${fmt(m.cp)}</b></td><td>${esc(m.server || '–')}</td></tr>
+      ${m.gear?.length ? `<tr class="lskills"><td colspan="6">${m.gear.map(g => `${esc(g.slot)}: <span style="color:${GRADE[g.grade] || 'inherit'}">${esc(g.name)}${g.enchant ? ` +${g.enchant}` : ''}</span>`).join(' · ')}</td></tr>` : ''}`).join('')}</table></section>`;
+}
+function wireLive() {  // after each render: the switches, rows opened to skills, past fights opened
+  $('#liveOn')?.addEventListener('change', e => {
+    if (e.target.checked && !confirm('Live fight reads Aion 2’s traffic, the way damage meters like Abyss DPS Meter do. NC’s rules allow banning accounts for programs like this. Turn it on at your own risk?')) { e.target.checked = false; return; }
+    askLive(e.target.checked ? '1' : '0');
+  });
+  $('#liveParty')?.addEventListener('change', e => askLive(e.target.checked ? 'party' : 'all'));
+  document.querySelectorAll('[data-open]').forEach(r => r.onclick = () => { const k = r.dataset.open; if (!opened.delete(k)) opened.add(k); k.startsWith('live|') ? refreshLive() : rerender(); });
+  document.querySelectorAll('[data-fight-at]').forEach(d => d.ontoggle = () => { const k = d.dataset.fightAt, was = opened.has(k); if (d.open) opened.add(k); else opened.delete(k); if (d.open !== was) rerender(); });
+  slide();
+}
+function refreshLive() { const p = $('#livePanel'); if (!p) return; p.outerHTML = livePanel(); wireLive(); }
 function dpsPage(params) {
   if (Date.now() - fightsAt > 30e3 && inSight()) loadFights().then(() => location.hash.startsWith('#/dps') && rerender());
   const own = myFights(), now = Date.now(), st = premade('lpc-aion-dps') || {};
@@ -862,7 +1030,8 @@ function dpsPage(params) {
     : now - (st.w || 0) < 90e3 ? `<p class="hint"><b class="up">Premade is watching Aion 2.</b> After a fight, open Combat Analysis (Ctrl+X) for a few seconds and the fight is saved here${st.s ? `. It last saw Combat Analysis ${span(now - st.s)} ago` : ''}.</p>`
     : '<p class="hint">While Aion 2 is open, Premade’s app for Windows reads each of your fights off Combat Analysis (Ctrl+X) once its numbers stop: battle time, DPS, total damage, target and top skills. It sees only Aion 2’s window, so play in Borderless or Windowed mode.</p>';
   return head('Aion 2', 'DPS', targets.length > 1 ? `<select id="dpsTarget" aria-label="Target">${targets.map(x => `<option value="${esc(x)}" ${x === tg ? 'selected' : ''}>${esc(x || 'No target read')}</option>`).join('')}</select>` : '') + `
-    <section class="panel">${status}${ME && inPremade() ? `<label class="hint"><input type="checkbox" id="dpsOn" ${on ? 'checked' : ''}>Read my fights off Combat Analysis</label>` : ''}
+    ${livePanel()}${pastPanel()}
+    <section class="panel"><h2 class="ph">Combat Analysis fights <span class="hint">your own, read off the game’s screen, shared with the legion</span></h2>${status}${ME && inPremade() ? `<label class="hint"><input type="checkbox" id="dpsOn" ${on ? 'checked' : ''}>Read my fights off Combat Analysis</label>` : ''}
       ${fightsErr ? `<p class="hint">${esc(fightsErr)}</p>` : ''}</section>` + (!all.length ? '<div class="panel empty">No fights yet.</div>' : `
     <section class="panel wrap"><h2 class="ph">Best on ${esc(tg || 'no target')} <span class="hint">${on_tg.length} fight${on_tg.length === 1 ? '' : 's'}</span></h2>
       <table class="cmp"><tr><th>Character</th><th>Best DPS</th><th>Battle time</th><th>Total damage</th><th>Fights</th><th>When</th></tr>
@@ -921,6 +1090,7 @@ function route() {
     : page === 'compare' ? compare(params) : page === 'news' ? news() : page === 'timers' ? timers(params) : page === 'checklist' ? checklist() : page === 'dps' ? dpsPage(params)
     : page === 'settings' ? settings() : profile();
   drawCharts();
+  wireLive();
   $('main').scrollTop = 0;
   const go = (a, b) => location.hash = `#/compare?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
   const top = id => playerOf(id)?.chars[0]?.name;
@@ -1046,6 +1216,9 @@ setInterval(() => {
 }, 30e3);
 // Premade saved a fight (send it), or its watching changed
 addEventListener('storage', e => {
+  const page = location.hash.slice(2).split(/[/?]/)[0], calm = inSight() && document.activeElement?.tagName !== 'SELECT';
+  if (e.key === 'lpc-aion-live' && page === 'dps' && calm) refreshLive();
+  if ((e.key === 'lpc-aion-history' && page === 'dps') || (e.key === 'lpc-aion-tickets' && page === 'checklist') || (e.key === 'lpc-aion-party' && page === '')) { if (calm) rerender(); }
   if (e.key === 'lpc-aion-fights') sendFights();
   if ((e.key === 'lpc-aion-fights' || e.key === 'lpc-aion-dps') && location.hash.startsWith('#/dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
 });

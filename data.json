@@ -2030,14 +2030,14 @@
     },
     {
      "date": "2026-11-02",
-     "cp": 69579,
-     "il": 1462
+     "cp": 69472,
+     "il": 1480
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 69579,
-   "il": 1462,
+   "cp": 69472,
+   "il": 1480,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2111,31 +2111,31 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Bakarma Breastplate",
+     "name": "Vakron Breastplate",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+15",
-       "Common"
+       "Block",
+       "+10",
+       "Rare"
       ],
       [
-       "HP",
-       "+60",
+       "Attack",
+       "+3",
        "Rare"
       ],
       [
        "MP",
-       "+15",
-       "Common"
+       "+30",
+       "Rare"
       ],
       [
-       "Defense",
-       "+30",
+       "Block",
+       "+10",
        "Rare"
       ]
      ],
@@ -2569,9 +2569,11 @@
     },
     {
      "name": "Constitution",
-     "statSecondList": null,
+     "statSecondList": [
+      "HP increase +1.7%"
+     ],
      "type": "CON",
-     "value": 0
+     "value": 17
     },
     {
      "name": "Precision",
@@ -2681,7 +2683,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1462
+     "value": 1480
     }
    ],
    "title": {
@@ -2993,7 +2995,7 @@
       "id": 12750000,
       "name": "Guarding Seal",
       "needLevel": 13,
-      "skillLevel": 3
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -3003,7 +3005,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -3023,7 +3025,7 @@
       "id": 12780000,
       "name": "Fury",
       "needLevel": 21,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -3043,7 +3045,7 @@
       "id": 12800000,
       "name": "Block Pain",
       "needLevel": 25,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7843,8 +7845,18 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-02 18:32 UTC",
+ "updated": "2026-11-02 19:01 UTC",
  "feed": [
+  {
+   "t": "2026-11-02 19:01",
+   "n": "YasuoMain16",
+   "x": "new Vakron Breastplate +10"
+  },
+  {
+   "t": "2026-11-02 19:01",
+   "n": "YasuoMain16",
+   "x": "skills up: Impact Hit 12"
+  },
   {
    "t": "2026-11-02 04:31",
    "n": "YasuoMain16",

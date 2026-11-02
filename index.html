@@ -47,13 +47,43 @@ main { grid-area: main; overflow: auto; padding: 22px clamp(16px, 3vw, 32px) 32p
 .embed .app { grid-template: "rail" auto "main" minmax(0, 1fr) / minmax(0, 1fr); }
 .embed .rail { flex-direction: row; width: auto; padding: 8px clamp(16px, 3vw, 32px); border-right: 0; border-bottom: 1px solid var(--gold-line); overflow-x: auto; }
 .embed .brand, .embed .bar { display: none; }
-/* live fight (DPS): the boss's HP bar, each player's DPS as a bar behind their row, a row opened to its skills */
-.hpbar { height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; margin: 6px 0 10px; }
-.hpbar > i { display: block; height: 100%; background: var(--bad); }
-.lhead { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
-table.live tr.lrow { cursor: pointer; background: linear-gradient(90deg, color-mix(in srgb, var(--gold) 16%, transparent) var(--w), transparent var(--w)); }
-table.live tr.lrow.me td:first-child { font-weight: 700; color: var(--gold-hi); }
-table.live tr.lskills td { color: var(--muted); font-size: 12px; }
+/* live fight (DPS), laid out like Abyss DPS Meter's: a boss card (name, HP, a bar whose trail shows the damage just
+   dealt), then a slim bar per player in their class colour with DPS, share and damage on the right; a bar opens to the
+   player's top skills. Colours are this page's (Premade's theme); the class colours are fixed */
+.bosshp { padding: 8px 12px 10px; border: 1px solid color-mix(in srgb, var(--bad) 30%, var(--line)); border-radius: 10px; background: color-mix(in srgb, var(--bad) 7%, var(--raised)); }
+.bosshp .lbl { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 6px; }
+.bosshp .nm { font-weight: 600; color: var(--fg); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bosshp .nums { font: 500 12.5px/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.bosshp .pct { font-weight: 700; color: color-mix(in srgb, var(--bad) 75%, var(--fg)); margin-left: 6px; }
+.track { position: relative; height: 6px; border-radius: 3px; background: rgb(0 0 0 / 0.35); overflow: hidden; }
+.track > i { position: absolute; inset: 0 auto 0 0; border-radius: 3px; }
+.track > .trail { background: color-mix(in srgb, var(--bad) 35%, transparent); transition: width 1.2s ease 0.4s; }
+.track > .fill { background: linear-gradient(90deg, var(--bad), color-mix(in srgb, var(--bad) 55%, var(--fg))); box-shadow: 0 0 10px color-mix(in srgb, var(--bad) 55%, transparent); transition: width 0.3s ease; }
+.lhead { display: flex; gap: 8px; padding: 0 10px; font-size: 12px; }
+.dbars { display: grid; gap: 4px; }
+.dbar { position: relative; display: block; width: 100%; height: 28px; padding: 0; overflow: hidden; border: 1px solid transparent; border-radius: 7px; background: var(--raised); color: var(--fg); font: inherit; text-align: left; cursor: pointer; }
+.dbar:hover { border-color: var(--gold-line); }
+.dbar > .fill { position: absolute; inset: 0 auto 0 0; background: rgb(var(--cc, 140 140 150) / 0.42); transition: width 0.4s ease; }
+.dbar > .txt { position: relative; display: flex; align-items: center; gap: 8px; height: 100%; padding: 0 10px; font-size: 13px; }
+.dbar .dot { width: 10px; height: 10px; flex: none; border-radius: 3px; background: rgb(var(--cc, 140 140 150)); }
+.dbar .who { display: flex; align-items: baseline; gap: 6px; flex: 1; min-width: 0; }
+.dbar .who b { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dbar .you { font: 700 10px/1 var(--body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.dbar .cp, .dbar .cls { font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+.dbar .n { font: 500 12px/1 var(--mono); font-variant-numeric: tabular-nums; text-align: right; color: var(--muted); flex: none; }
+.dbar .n.dps { width: 64px; font-weight: 700; color: var(--fg); }
+.dbar .n.sh { width: 46px; }
+.dbar .n.dmg { width: 58px; }
+.dskills { margin: 2px 0 4px 18px; font-size: 12px; color: var(--muted); display: grid; gap: 2px; }
+.encrow { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--raised); cursor: pointer; font-size: 13px; list-style: none; }
+.encrow::-webkit-details-marker { display: none; }
+.encrow:hover, details[open] > .encrow { border-color: var(--gold-line); }
+.encrow time { font: 500 12px/1 var(--mono); color: var(--muted); }
+.encrow .t { font-weight: 600; }
+.encrow .k { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--good); }
+.encrow .r { margin-left: auto; font: 500 12px/1 var(--mono); color: var(--muted); }
+details.fight { display: grid; gap: 6px; }
+details.fight > .dbars { margin: 6px 0 4px; }
 details.fight > summary { cursor: pointer; padding: 4px 0; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chips > span { padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; }
@@ -914,15 +944,23 @@ const opened = new Set();  // rows opened to their skills, and past fights opene
 const skillName = id => (premade('lpc-aion-skills') || {})[id] || `Skill ${id}`;
 const askLive = v => { try { localStorage.setItem('lpc-aion-want', `${v}|${Date.now()}`); } catch {} };
 const liveNow = () => { const L = premade('lpc-aion-live') || {}; return Date.now() - (L.at || 0) < 10e3 ? L : { ...L, state: 'off', fight: null }; };
-function fightTable(players, key) {
-  const top = Math.max(1, ...players.map(p => p.dps));
-  return `<table class="cmp live"><tr><th>Player</th><th>DPS</th><th>Damage</th><th>Share</th><th>Crit</th></tr>${players.map(p => {
-    const id = `${key}|${p.name}`;
-    return `<tr class="lrow${p.me ? ' me' : ''}" data-open="${esc(id)}" style="--w:${(p.dps / top) * 100}%" title="Click for top skills"><td>${esc(p.name)}</td>
-      <td class="n"><b>${big(p.dps)}/s</b></td><td class="n">${big(p.damage)}</td><td class="n">${p.share}%</td><td class="n">${p.crit}%</td></tr>
-      ${opened.has(id) ? `<tr class="lskills"><td colspan="5">${(p.skills || []).map(k => `${esc(skillName(k.id))} <b>${big(k.damage)}</b> (${k.share}%, ${k.hits} hits)`).join(' · ') || 'No skills yet.'}</td></tr>` : ''}`;
-  }).join('')}</table>`;
+// players' class colours (by the game's class), and the class of a party member by name (lpc-aion-party)
+const CLASS_RGB = { Gladiator: '142 68 173', Templar: '230 126 34', Ranger: '212 160 23', Assassin: '64 192 112', Spiritmaster: '125 200 216', Sorcerer: '41 128 185', Cleric: '26 188 156', Chanter: '241 196 15' };
+const CLASS_OF_PC = ['Gladiator', 'Templar', 'Ranger', 'Assassin', 'Spiritmaster', 'Sorcerer', 'Cleric', 'Chanter'];  // pc ids 5-8, 9-12 ...
+const partyInfo = () => new Map(((premade('lpc-aion-party') || {}).members || []).map(m => [m.name, { cls: m.className || CLASS_OF_PC[Math.floor((m.cls - 5) / 4)], cp: m.cp }]));
+const widths = new Map();  // each bar's last width, so a changed one slides to its new width
+const slideBar = (key, pct, cls) => { const was = widths.get(key) ?? pct; widths.set(key, pct); return `<i class="${cls}" data-to="${pct}" style="width:${was}%"></i>`; };
+function fightBars(players, key) {
+  const top = Math.max(1, ...players.map(p => p.dps)), info = partyInfo();
+  return `<div class="dbars">${players.map(p => {
+    const id = `${key}|${p.name}`, me = info.get(p.name) || {}, rgb = CLASS_RGB[me.cls];
+    return `<button type="button" class="dbar" data-open="${esc(id)}" ${rgb ? `style="--cc:${rgb}"` : ''} title="Click for top skills">${slideBar(id, (p.dps / top) * 100, 'fill')}
+      <span class="txt"><i class="dot"></i><span class="who"><b>${esc(p.name)}</b>${p.me ? '<span class="you">You</span>' : ''}${me.cls ? `<span class="cls">${esc(me.cls)}</span>` : ''}${me.cp ? `<span class="cp">CP ${fmt(me.cp)}</span>` : ''}</span>
+      <span class="n dps">${big(p.dps)}</span><span class="n sh">${p.share}%</span><span class="n dmg">${big(p.damage)}</span></span></button>
+      ${opened.has(id) ? `<div class="dskills">${(p.skills || []).map(k => `<span>${esc(skillName(k.id))} <b>${big(k.damage)}</b> · ${k.share}% · ${k.hits} hits</span>`).join('') || 'No skills yet.'}${p.crit ? `<span>Crits ${p.crit}%</span>` : ''}</div>` : ''}`;
+  }).join('')}</div>`;
 }
+const slide = () => requestAnimationFrame(() => document.querySelectorAll('[data-to]').forEach(i => { i.style.width = i.dataset.to + '%'; }));
 function livePanel() {
   const L = liveNow(), f = L.fight, on = L.state === 'on' || L.state === 'game';
   const says = !inPremade() ? 'Live fight works in Premade’s app for Windows.' : LIVE_SAYS[L.state] || '';
@@ -930,8 +968,9 @@ function livePanel() {
     ${inPremade() ? `<div class="chips"><label class="hint"><input type="checkbox" id="liveOn" ${on ? 'checked' : ''}> Show it live while I fight</label>
       <label class="hint"><input type="checkbox" id="liveParty" ${L.party !== false ? 'checked' : ''}> Only my party</label></div>` : ''}
     <p class="hint">Ban risk: this reads Aion 2’s traffic, as Abyss DPS Meter does. NC’s rules allow banning accounts for programs like this, so it’s off until you turn it on.</p>
-    ${f ? `<div class="lhead"><b>${esc(f.target || 'Target')}</b><span class="hint">${f.active ? '' : 'Last fight · '}${mmss(f.secs)}${f.hp != null ? ` · HP ${big(f.hp)}${f.pct != null ? ` (${f.pct}%)` : ''}` : ''}</span></div>
-      <div class="hpbar"><i style="width:${f.pct ?? 0}%"></i></div>${fightTable(f.players, 'live')}` : says ? `<p class="hint">${esc(says)}</p>` : ''}</section>`;
+    ${f ? `<div class="bosshp"><div class="lbl"><span class="nm">${esc(f.target || 'Target')}</span><span class="nums">${f.active ? '' : 'last fight · '}${mmss(f.secs)}${f.hp != null ? ` · ${big(f.hp)}` : ''}${f.pct != null ? `<span class="pct">${f.pct}%</span>` : ''}</span></div>
+      <div class="track">${slideBar(`hp|${f.target}`, f.pct ?? 0, 'trail')}${slideBar(`hpf|${f.target}`, f.pct ?? 0, 'fill')}</div></div>
+      <div class="lhead hint"><span>Player</span><span style="margin-left:auto">DPS · share · damage</span></div>${fightBars(f.players, 'live')}` : says ? `<p class="hint">${esc(says)}</p>` : ''}</section>`;
 }
 function pastPanel() {
   const H = premade('lpc-aion-history') || [];
@@ -939,7 +978,7 @@ function pastPanel() {
   const when = at => new Date(at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
   return `<section class="panel"><h2 class="ph">Past fights <span class="hint">boss kills and fights of 20 s or more, read live, kept on this PC</span></h2>
     ${H.slice(0, 30).map(f => { const b = f.players.find(p => p.me) || f.players[0], id = `h${f.at}`;
-      return `<details class="fight" data-fight-at="${esc(id)}" ${opened.has(id) ? 'open' : ''}><summary>${when(f.at)} · ${esc(f.target || 'Target')} · ${mmss(f.secs)}${f.killed ? ' · killed' : ''}${b ? ` · ${esc(b.name)} ${big(b.dps)}/s` : ''}</summary>${fightTable(f.players, id)}</details>`; }).join('')}</section>`;
+      return `<details class="fight" data-fight-at="${esc(id)}" ${opened.has(id) ? 'open' : ''}><summary class="encrow"><time>${when(f.at)}</time><span class="t">${esc(f.target || 'Target')}</span><span class="hint">${mmss(f.secs)}</span>${f.killed ? '<span class="k">Killed</span>' : ''}${b ? `<span class="r">${esc(b.name)} ${big(b.dps)}/s</span>` : ''}</summary>${opened.has(id) ? fightBars(f.players, id) : ''}</details>`; }).join('')}</section>`;
 }
 // entry tickets (Checklist): names and caps by the game's ticket id, as Abyss DPS Meter lists them
 const TICKETS = { 60000001: ['Odyle', 840], 4: ['Nightmare', 14], 80000001: ['Ascension trial', 3], 101: ['Daily dungeon', 14], 1: ['Shugo Festival', 7], 8: ['Dimensional Invasion', 7] };
@@ -967,7 +1006,8 @@ function wireLive() {  // after each render: the switches, rows opened to skills
   });
   $('#liveParty')?.addEventListener('change', e => askLive(e.target.checked ? 'party' : 'all'));
   document.querySelectorAll('[data-open]').forEach(r => r.onclick = () => { const k = r.dataset.open; if (!opened.delete(k)) opened.add(k); k.startsWith('live|') ? refreshLive() : rerender(); });
-  document.querySelectorAll('[data-fight-at]').forEach(d => d.ontoggle = () => { if (d.open) opened.add(d.dataset.fightAt); else opened.delete(d.dataset.fightAt); });
+  document.querySelectorAll('[data-fight-at]').forEach(d => d.ontoggle = () => { const k = d.dataset.fightAt, was = opened.has(k); if (d.open) opened.add(k); else opened.delete(k); if (d.open !== was) rerender(); });
+  slide();
 }
 function refreshLive() { const p = $('#livePanel'); if (!p) return; p.outerHTML = livePanel(); wireLive(); }
 function dpsPage(params) {

@@ -188,8 +188,58 @@ table.skills .meter { min-width: 80px; }
 .tick.done > span:first-child { color: var(--good); }
 .tick.done > span:first-child::before { content: "✓ "; }
 .hint input[type="checkbox"] { vertical-align: -2px; margin: 0 6px 0 0; }
+/* ---- Premade's new look (its Open Design mockups, Premade What's new 104): flat page heads with a line under them,
+   section titles in a strip at the top of each panel, plain-case navigation and buttons, switches for ticks. Inside
+   Premade the colours and fonts are Premade's own, the theme you picked included (themeFromPremade below). */
+.rail { gap: 2px; width: 212px; padding: 0 10px; border-right: 1px solid var(--line); }
+.brand { min-height: 64px; margin: 0 -10px 6px; padding: 0 18px; border-bottom: 1px solid var(--line); font: 700 15px/1 var(--display); letter-spacing: 0.16em; color: var(--gold-hi); white-space: nowrap; }
+.brand img { display: none; }
+.nav { gap: 10px; padding: 7px 10px; font: 500 13.5px/1.2 var(--body); letter-spacing: normal; text-transform: none; }
+.nav svg { width: 16px; height: 16px; }
+.nav[aria-current="page"] { color: var(--gold-hi); border-color: var(--gold-line); background: color-mix(in srgb, var(--gold) 10%, var(--raised)); box-shadow: inset 2px 0 var(--gold); }
+.nav[aria-current="page"] svg { color: var(--gold); }
+.embed .rail { gap: 6px; padding: 10px clamp(16px, 2.4vw, 28px); border-bottom: 1px solid var(--line); }
+.embed .nav { padding: 8px 12px; }
+.embed .nav[aria-current="page"] { box-shadow: inset 0 -2px var(--gold); }
+main { --pad: clamp(16px, 2.4vw, 28px); padding: 0 var(--pad) 32px; }
+.head { align-items: center; gap: 10px 16px; min-height: 64px; margin: 0 calc(-1 * var(--pad)); padding: 12px var(--pad); background: none; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; }
+.head > div:first-child { display: flex; flex-direction: column-reverse; gap: 3px; }
+.head .title { font-size: 23px; text-transform: none; }
+.eyebrow { margin: 0; font: 400 13px/1.3 var(--body); letter-spacing: normal; text-transform: none; color: var(--muted); }
+.view { gap: 16px; }
+.panel, .tile, .card, .row, .head + .panel { border-radius: 6px; }
+.ph { font: 700 13.5px/1.2 var(--display); letter-spacing: 0.06em; text-transform: none; color: var(--gold-hi); }
+.ph .hint, .ph a.hint { font: 400 12.5px/1.2 var(--body); letter-spacing: normal; }
+.panel > .ph:first-child { margin: -16px -16px 0; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+.btn { font: 600 13.5px/1 var(--body); padding: 9px 14px; border-radius: 6px; border: 1px solid var(--line); color: var(--fg); }
+.btn:hover { border-color: var(--gold-line); color: var(--gold-hi); }
+.btn.small { padding: 6px 10px; font-size: 12.5px; }
+input, select { font: 14px/1.2 var(--body); padding: 9px 11px; }
+label > input[type="checkbox"] { appearance: none; position: relative; flex: none; width: 32px; height: 18px; margin: 0 6px 0 0; padding: 0; vertical-align: -4px; border: 1px solid var(--line); border-radius: 999px; background: var(--raised); cursor: pointer; }
+label > input[type="checkbox"]::before { content: ""; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px; border-radius: 50%; background: var(--muted); transition: transform 0.15s, background 0.15s; }
+label > input[type="checkbox"]:checked { border-color: color-mix(in srgb, var(--good) 55%, var(--line)); background: color-mix(in srgb, var(--good) 22%, var(--raised)); }
+label > input[type="checkbox"]:checked::before { transform: translateX(14px); background: var(--good); }
+table.cmp th { font: 600 11px/1.2 var(--body); letter-spacing: 0.1em; }
+.tabs a { font: 500 13.5px/1 var(--body); letter-spacing: normal; text-transform: none; }
+.tile .k, .card .stats span, .grade, .tag { font-family: var(--body); font-weight: 600; letter-spacing: 0.08em; }
 </style>
 <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
+<script>
+// Inside Premade's page (same site), take Premade's colours and fonts, so the theme picked in Premade (Settings, Look)
+// and its custom colours show here too; again whenever Premade's look changes
+(function themeFromPremade() {
+  let root; try { root = parent !== window && parent.document.documentElement; } catch { return; }
+  if (!root) return;
+  const VARS = ['--bg', '--panel', '--raised', '--fg', '--muted', '--line', '--gold', '--gold-hi', '--gold-line', '--accent', '--accent-fg', '--link', '--best', '--good', '--warn', '--bad', '--display', '--body', '--mono'];
+  const copy = () => {
+    const cs = parent.getComputedStyle(root), me = document.documentElement.style;
+    for (const v of VARS) { const x = cs.getPropertyValue(v).trim(); if (x) me.setProperty(v, x); }
+    document.documentElement.style.colorScheme = cs.colorScheme || 'dark';
+  };
+  copy();
+  new parent.MutationObserver(copy).observe(root, { attributes: true, attributeFilter: ['style', 'class', 'data-theme'] });
+})();
+</script>
 </head>
 <body>
 <div class="app">

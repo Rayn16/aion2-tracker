@@ -41,6 +41,11 @@
      "date": "2026-11-01",
      "cp": 112970,
      "il": 2429
+    },
+    {
+     "date": "2026-11-02",
+     "cp": 112970,
+     "il": 2429
     }
    ],
    "server": "Tassin",
@@ -2022,12 +2027,17 @@
      "date": "2026-11-01",
      "cp": 69144,
      "il": 1418
+    },
+    {
+     "date": "2026-11-02",
+     "cp": 69343,
+     "il": 1442
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 69144,
-   "il": 1418,
+   "cp": 69343,
+   "il": 1442,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2177,13 +2187,34 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Bakarma Helm",
+     "name": "Vakron Helm",
      "grade": "Unique",
-     "enchantLevel": 9,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Helmet.png",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Helmet.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -2551,10 +2582,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +3.5%"
+      "Status Effect Resist +2.7%"
      ],
      "type": "WIS",
-     "value": 35
+     "value": 27
     },
     {
      "name": "Justice [Nezekan]",
@@ -2650,7 +2681,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1418
+     "value": 1442
     }
    ],
    "title": {
@@ -2992,7 +3023,7 @@
       "id": 12780000,
       "name": "Fury",
       "needLevel": 21,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -3012,7 +3043,7 @@
       "id": 12800000,
       "name": "Block Pain",
       "needLevel": 25,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -3908,13 +3939,18 @@
      "date": "2026-11-01",
      "cp": 70563,
      "il": 1445
+    },
+    {
+     "date": "2026-11-02",
+     "cp": 70750,
+     "il": 1478
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 70563,
-   "il": 1445,
+   "cp": 70750,
+   "il": 1478,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4068,32 +4104,32 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Bakarma Helm",
+     "name": "Vakron Helm",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Helmet.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Helmet.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
-       "+7",
+       "HP",
+       "+60",
        "Rare"
       ],
       [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+1",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
+       "HP",
+       "+60",
        "Rare"
+      ],
+      [
+       "Defense",
+       "+30",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -4144,31 +4180,31 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Bakarma Gloves",
+     "name": "Vakron Gloves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+15",
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Defense",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+5",
        "Common"
       ],
       [
        "HP",
        "+60",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Block",
-       "+10",
        "Rare"
       ]
      ],
@@ -4226,7 +4262,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -4356,7 +4413,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -4439,12 +4517,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.3%",
-      "Block increase +0.3%",
-      "Critical Hit Resist increase +0.3%"
+      "Evasion increase +1.3%",
+      "Block increase +1.3%",
+      "Critical Hit Resist increase +1.3%"
      ],
      "type": "DEX",
-     "value": 3
+     "value": 13
     },
     {
      "name": "Intelligence",
@@ -4455,10 +4533,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.5%"
+      "HP increase +4.5%"
      ],
      "type": "CON",
-     "value": 15
+     "value": 45
     },
     {
      "name": "Precision",
@@ -4471,11 +4549,9 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": [
-      "Status Effect Resist +1.3%"
-     ],
+     "statSecondList": null,
      "type": "WIS",
-     "value": 13
+     "value": 0
     },
     {
      "name": "Justice [Nezekan]",
@@ -4571,11 +4647,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1445
+     "value": 1478
     }
    ],
    "title": {
-    "ownedCount": 179,
+    "ownedCount": 180,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -4590,8 +4666,8 @@
       "grade": "Legend",
       "id": 21020046,
       "name": "Even Better",
-      "ownedCount": 60,
-      "ownedPercent": 57,
+      "ownedCount": 61,
+      "ownedPercent": 58,
       "statList": [
        {
         "desc": "HP Potion Recovery increase +2%"
@@ -5547,7 +5623,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -5557,7 +5633,7 @@
       "id": 17720000,
       "name": "Empyrean Lords' Benediction",
       "needLevel": 6,
-      "skillLevel": 7
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -5627,7 +5703,7 @@
       "id": 17790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -5826,6 +5902,11 @@
     },
     {
      "date": "2026-11-01",
+     "cp": 105542,
+     "il": 2401
+    },
+    {
+     "date": "2026-11-02",
      "cp": 105542,
      "il": 2401
     }
@@ -7762,8 +7843,38 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-01 23:31 UTC",
+ "updated": "2026-11-02 00:03 UTC",
  "feed": [
+  {
+   "t": "2026-11-02 00:02",
+   "n": "CuteCatty",
+   "x": "new Vakron Helm +10"
+  },
+  {
+   "t": "2026-11-02 00:02",
+   "n": "CuteCatty",
+   "x": "new Vakron Gloves +10"
+  },
+  {
+   "t": "2026-11-02 00:02",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-02 00:02",
+   "n": "CuteCatty",
+   "x": "skills up: Survival Willpower 17"
+  },
+  {
+   "t": "2026-11-02 00:02",
+   "n": "YasuoMain16",
+   "x": "new Vakron Helm +10"
+  },
+  {
+   "t": "2026-11-02 00:02",
+   "n": "YasuoMain16",
+   "x": "skills up: Fury 14, Block Pain 15"
+  },
   {
    "t": "2026-11-01 23:31",
    "n": "YasuoMain16",

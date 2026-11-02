@@ -44,13 +44,13 @@
     },
     {
      "date": "2026-11-02",
-     "cp": 112972,
+     "cp": 113006,
      "il": 2429
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 112972,
+   "cp": 113006,
    "il": 2429,
    "gear": [
     {
@@ -2030,13 +2030,13 @@
     },
     {
      "date": "2026-11-02",
-     "cp": 69476,
+     "cp": 69592,
      "il": 1480
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 69476,
+   "cp": 69592,
    "il": 1480,
    "gear": [
     {
@@ -2955,7 +2955,7 @@
       "id": 12710000,
       "name": "Enhance Health",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -3035,7 +3035,7 @@
       "id": 12790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7845,8 +7845,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-02 19:31 UTC",
+ "updated": "2026-11-02 20:01 UTC",
  "feed": [
+  {
+   "t": "2026-11-02 20:01",
+   "n": "YasuoMain16",
+   "x": "skills up: Enhance Health 13, Survival Willpower 14"
+  },
   {
    "t": "2026-11-02 19:01",
    "n": "YasuoMain16",

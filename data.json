@@ -49,13 +49,13 @@
     },
     {
      "date": "2026-11-03",
-     "cp": 114017,
+     "cp": 114059,
      "il": 2429
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 114017,
+   "cp": 114059,
    "il": 2429,
    "gear": [
     {
@@ -923,7 +923,7 @@
     }
    ],
    "title": {
-    "ownedCount": 195,
+    "ownedCount": 196,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -966,8 +966,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 67,
-      "ownedPercent": 68,
+      "ownedCount": 68,
+      "ownedPercent": 69,
       "statList": [
        {
         "desc": "MP +20"
@@ -2043,13 +2043,13 @@
     },
     {
      "date": "2026-11-03",
-     "cp": 71221,
+     "cp": 71224,
      "il": 1529
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 71221,
+   "cp": 71224,
    "il": 1529,
    "gear": [
     {
@@ -3966,14 +3966,14 @@
     },
     {
      "date": "2026-11-03",
-     "cp": 72446,
+     "cp": 72472,
      "il": 1552
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 72446,
+   "cp": 72472,
    "il": 1552,
    "gear": [
     {
@@ -5936,14 +5936,14 @@
     },
     {
      "date": "2026-11-03",
-     "cp": 105843,
+     "cp": 105889,
      "il": 2423
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 105843,
+   "cp": 105889,
    "il": 2423,
    "gear": [
     {
@@ -7872,8 +7872,13 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-03 05:01 UTC",
+ "updated": "2026-11-03 05:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-03 05:31",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-03 01:01",
    "n": "CuteCatty",

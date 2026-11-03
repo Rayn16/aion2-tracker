@@ -624,6 +624,7 @@ const daevTotals = m => (m.daevanion?.boardList || []).reduce((a, b) => [a[0] + 
 // role, weapon and about: our own words, from class overviews on noping.com and exitlag.com.
 // stats: Daevanion stat nodes worth a detour, best first (big nodes before the small ones they share a list with).
 const PVP = ['Critical Hit', 'Combat Speed', 'Damage Tolerance', 'Damage Boost', 'Critical Damage Boost', 'Max HP', 'Attack'];
+const FARM = ['Combat Speed', 'Attack', 'Multi-Hit Chance', 'Critical Hit', 'Damage Boost', 'Max HP', 'Cooldown Reduction'];
 const DPS = ['Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Critical Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'];
 const BUILDS = {
   11: { name: 'PvE', cls: 'Gladiator', role: 'Melee damage', weapon: 'Greatsword',
@@ -632,6 +633,10 @@ const BUILDS = {
     passive: ['Attack Preparation', 'Experienced Counterstrike', 'Impact Hit', 'Murderous Burst'],
     stigma: [['Lunge Stance', 20], ['Zikel\'s Blessing', 10], ['Rage Burst', 5], ['Zikel\'s Blessing', 15], ['Rage Burst', 20]],
     stats: DPS,
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Pull a pack, sweep it with Sword Aura Rampage and Crushing Wave, and let Blood Absorption heal you back up between pulls.',
+      active: [['Sword Aura Rampage', 16], ['Crushing Wave', 16], ['Rending Blow', 16], ['Blood Absorption', 12], ['Overhead Slam', 12], ['Ruinous Blow', 12]],
+      passive: ['Attack Preparation', 'Impact Hit', 'Survival Stance', 'Murderous Burst'],
+      stigma: [['Wrath Wave', 10], ['Lifestealing Blade', 10], ['Lunge Stance', 10], ['Zikel\'s Blessing', 10]], stats: FARM },
     alt: { name: 'PvP', role: 'Duels and the Abyss', about: 'Gap closers and snares to catch a target, then the big hits. Survival Willpower and Damage Tolerance keep you standing when you get focused.',
       active: [['Rending Blow', 16], ['Leaping Slam', 16], ['Ruinous Blow', 16], ['Ankle Slice', 12], ['Aerial Snare', 12], ['Overhead Slam', 12], ['Rush Strike', 12]],
       passive: ['Survival Willpower', 'Experienced Counterstrike', 'Attack Preparation', 'Murderous Burst'],
@@ -642,6 +647,10 @@ const BUILDS = {
     passive: ['Punishing Benediction', 'Ironclad Defense', 'Enhance Health', 'Warding Shield', 'Fury', 'Insulting Roar'],
     stigma: [['Noble Armor', 10], ['Executing Blade', 10], ['Doom Shield', 10], ['Battlefield Banner', 10]],
     stats: ['Damage Tolerance', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Attack', 'Max HP', 'Defense'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Gather a pack with Flash Rampage, hit them all with Annihilate and Judgment, and block through the rest. Slow but very safe.',
+      active: [['Annihilate', 16], ['Flash Rampage', 16], ['Judgment', 16], ['Punishment', 12], ['Vicious Strike', 12], ['Pummel', 12]],
+      passive: ['Fury', 'Enhance Health', 'Punishing Benediction', 'Impact Hit'],
+      stigma: [['Executing Blade', 10], ['Empyrean Lord\'s Punishment', 10], ['Doom Shield', 10], ['Noble Armor', 10]], stats: FARM },
     alt: { name: 'Damage', role: 'Off-tank damage', about: 'Judgment and Punishment first, for groups that already have a tank or when you farm alone. You still block and hold aggro, just with more damage.',
       active: [['Judgment', 16], ['Punishment', 16], ['Vicious Strike', 12], ['Warding Strike', 12], ['Shield Smite', 12], ['Annihilate', 12]],
       passive: ['Fury', 'Ironclad Defense', 'Insulting Roar', 'Impact Hit'],
@@ -653,46 +662,66 @@ const BUILDS = {
     passive: ['Exploit Weakness', 'Rear Smite', 'Assault Stance', 'Impact Hit', 'Apply Poison'],
     stigma: [['Savage Fang', 10], ['Triniel\'s Dagger', 10], ['Illusive Clone', 10], ['Swift Contract', 10]],
     stats: ['Critical Damage Boost', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Multi-Hit Chance', 'Critical Hit', 'Attack'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Storm Rampage and Whirlwind Slice for packs, Heart Gore for the big ones; poison keeps ticking while you move to the next pull.',
+      active: [['Storm Rampage', 16], ['Whirlwind Slice', 16], ['Heart Gore', 16], ['Quick Slice', 12], ['Savage Roar', 12], ['Insignia Explosion', 12]],
+      passive: ['Assault Stance', 'Apply Poison', 'Exploit Weakness', 'Impact Hit'],
+      stigma: [['Savage Fang', 10], ['Triniel\'s Dagger', 10], ['Illusive Clone', 10], ['Swift Contract', 10]], stats: FARM },
     alt: { name: 'PvP', role: 'Picks and duels', about: 'Open from stealth with Ambush and Shadowstrike on one target and finish before they can answer; Heightened Sixth Sense and Damage Tolerance for when they do.',
       active: [['Heart Gore', 16], ['Shadowstrike', 16], ['Ambush', 16], ['Flash Slice', 12], ['Quick Slice', 12], ['Insignia Explosion', 12]],
       passive: ['Exploit Weakness', 'Rear Smite', 'Ambush Stance', 'Heightened Sixth Sense'],
-      stigma: [['Savage Fang', 10], ['Triniel\'s Dagger', 10], ['Illusive Clone', 10], ['Swift Contract', 10]], stats: PVP } },
+      stigma: [['Shadow Walk', 10], ['Aerial Bind', 10], ['Triniel\'s Dagger', 10], ['Smoke Bomb', 10]], stats: PVP } },
   14: { name: 'PvE', cls: 'Ranger', role: 'Ranged damage', weapon: 'Bow',
     about: 'Steady damage from range with traps and movement. Easy to solo with; in PvP keep distance from gap closers and kite.',
     active: [['Deadshot', 16], ['Gale Arrow', 16], ['Drill Dart', 16], ['Snipe', 12], ['Marking Shot', 12], ['Burst Arrow', 12], ['Snare Shot', 12]],
     passive: ['Focused Eye', 'Hunter\'s Resolve', 'Hunter\'s Soul', 'Rooting Eye', 'Concentrated Fire'],
     stigma: [['Vaizel\'s Authority', 10], ['Bow of Blessing', 10], ['Supporting Fire', 10], ['Griffon Arrow', 10]],
     stats: DPS,
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Arrow Scattershot and Tempest Shot clear packs from range, Explosion Trap catches what runs at you. The easiest class to farm with.',
+      active: [['Arrow Scattershot', 16], ['Tempest Shot', 16], ['Explosion Trap', 16], ['Gale Arrow', 12], ['Deadshot', 12], ['Burst Arrow', 12]],
+      passive: ['Hunter\'s Soul', 'Concentrated Fire', 'Focused Eye', 'Wind Vigor'],
+      stigma: [['Vaizel\'s Authority', 10], ['Bow of Blessing', 10], ['Supporting Fire', 10], ['Griffon Arrow', 10]], stats: FARM },
     alt: { name: 'PvP', role: 'Kiting and control', about: 'Snares and traps keep melee off you while Deadshot and Snipe do the damage. Keep moving; Vigilant Eye and Unyielding Resolve help when they reach you.',
       active: [['Snare Shot', 16], ['Deadshot', 16], ['Snipe', 16], ['Suppressing Arrow', 12], ['Gale Arrow', 12], ['Explosion Trap', 12]],
       passive: ['Focused Eye', 'Hunter\'s Resolve', 'Vigilant Eye', 'Unyielding Resolve'],
-      stigma: [['Vaizel\'s Authority', 10], ['Bow of Blessing', 10], ['Supporting Fire', 10], ['Griffon Arrow', 10]], stats: PVP } },
+      stigma: [['Ensnaring Trap', 10], ['Sealing Arrow', 10], ['Vaizel\'s Authority', 10], ['Illusory Arrow', 10]], stats: PVP } },
   15: { name: 'PvE', cls: 'Sorcerer', role: 'Magic damage', weapon: 'Spellbook',
     about: 'Big magic bursts and area damage from the back line. Fragile, so stand well back and retreat early when fast classes reach you.',
     active: [['Hellfire', 16], ['Firestorm', 16], ['Blaze', 16], ['Flame Arrow', 12], ['Wish of Concentration', 12], ['Bittercold Wind', 12], ['Ice Chain', 12]],
-    passive: ['Grace of Enhancement', 'Robe of Flame', 'Fire Mark', 'Robe of Earth'],
+    passive: ['Grace of Enhancement', 'Flame Robe', 'Fire Mark', 'Earth Robe'],
     stigma: [['Element Enhancement', 10], ['Delayed Explosion', 10], ['Fire Wall', 10], ['Cold Storm', 10]],
     stats: ['Cooldown Reduction', 'Combat Speed', 'Critical Damage Boost', 'Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Firestorm and Flame Scattershot burn whole packs; Absorb Essence gets your mana and health back between them.',
+      active: [['Firestorm', 16], ['Flame Scattershot', 16], ['Hellfire', 16], ['Flame Explosion', 12], ['Flame Arrow', 12], ['Absorb Essence', 12]],
+      passive: ['Flame Robe', 'Fire Mark', 'Grace of Enhancement', 'Vitality Evaporation'],
+      stigma: [['Element Enhancement', 10], ['Delayed Explosion', 10], ['Fire Wall', 10], ['Cold Storm', 10]], stats: FARM },
     alt: { name: 'PvP', role: 'Frost control', about: 'Frost skills that slow, root and freeze, so the burst lands on someone who can’t reach you. Robe of Cold and Grace of Resistance for staying alive.',
       active: [['Ice Chain', 16], ['Frost', 16], ['Winter\'s Shackles', 16], ['Frost Burst', 12], ['Flame Arrow', 12], ['Cold Snap', 12]],
       passive: ['Grace of Enhancement', 'Robe of Cold', 'Grace of Resistance', 'Earth Robe'],
-      stigma: [['Element Enhancement', 10], ['Delayed Explosion', 10], ['Fire Wall', 10], ['Cold Storm', 10]], stats: PVP } },
+      stigma: [['Curse: Tree', 10], ['Soul Freeze', 10], ['Glacial Smite', 10], ['Arctic Armor', 10]], stats: PVP } },
   16: { name: 'PvE', cls: 'Spiritmaster', role: 'Summoner', weapon: 'Orb',
     about: 'Fights alongside elemental spirits that add damage and crowd control. Works in both PvE and PvP; keep your spirit alive and in position.',
     active: [['Elemental Fusion', 16], ['Jointstrike: Curse', 16], ['Combustion', 16], ['Dimensional Control', 12], ['Summon: Fire Spirit', 12]],
     passive: ['Spirit Strike', 'Spirit\'s Descent', 'Consecutive Countercurrent', 'Element Unification'],
     stigma: [['Summon: Ancient Spirit', 10], ['Flame Blessing', 10], ['Jointstrike: Destructive Attack', 10], ['Jointstrike: Corrode', 10]],
     stats: DPS,
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Let the spirit hold the pack while Rapid Scattershot and Combustion hit them all; Spirit Revitalization keeps the spirit going.',
+      active: [['Rapid Scattershot', 16], ['Combustion', 16], ['Elemental Fusion', 16], ['Summon: Fire Spirit', 12], ['Spirit Revitalization', 12]],
+      passive: ['Spirit Strike', 'Spirit\'s Descent', 'Spirit Communion', 'Element Unification'],
+      stigma: [['Summon: Ancient Spirit', 10], ['Flame Blessing', 10], ['Jointstrike: Destructive Attack', 10], ['Jointstrike: Corrode', 10]], stats: FARM },
     alt: { name: 'PvP', role: 'Curses and control', about: 'Curses and Cold Shock wear the target down while the spirit holds them; Spirit Protection and Mental Focus keep you casting.',
       active: [['Jointstrike: Curse', 16], ['Cold Shock', 16], ['Dimensional Control', 16], ['Combustion', 12], ['Summon: Water Spirit', 12]],
       passive: ['Spirit Strike', 'Spirit Protection', 'Mental Focus', 'Spirit\'s Descent'],
-      stigma: [['Summon: Ancient Spirit', 10], ['Flame Blessing', 10], ['Jointstrike: Destructive Attack', 10], ['Jointstrike: Corrode', 10]], stats: PVP } },
+      stigma: [['Cry of Terror', 10], ['Seize Magic', 10], ['Magic Block', 10], ['Siphon', 10]], stats: PVP } },
   17: { name: 'Healer', cls: 'Cleric', role: 'Healer', weapon: 'Mace',
     about: 'The group’s main healer: heals, cleanses, shields and resurrection. Read the fight ahead and spend big heals before damage lands, not after.',
     active: [['Healing Light', 16], ['Radiant Recovery', 16], ['Light of Regeneration', 16], ['Chain of Torment', 12], ['Condemnation', 12], ['Judgment Thunder', 12], ['Bolt', 12]],
     passive: ['Healing Enhancement', 'Empyrean Lords\' Grace', 'Earth\'s Grace', 'Warm Benediction', 'Radiant Benediction'],
     stigma: [['Earth Punishment', 10], ['Light of Protection', 10], ['Noble Aura', 10], ['Summon Resurrection', 10]],
     stats: ['Combat Speed', 'Cooldown Reduction', 'Damage Tolerance', 'Damage Boost', 'Attack', 'Max HP', 'Defense'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Lightning Strike Scattershot and Earth\'s Retribution for packs, with heals of your own, so you rarely stop to rest.',
+      active: [['Lightning Strike Scattershot', 16], ['Earth\'s Retribution', 16], ['Chain of Torment', 16], ['Condemnation', 12], ['Healing Light', 12], ['Light of Regeneration', 12]],
+      passive: ['Empyrean Lords\' Grace', 'Earth\'s Grace', 'Warm Benediction', 'Healing Enhancement'],
+      stigma: [['Earth Punishment', 10], ['Noble Aura', 10], ['Absolution', 10], ['Light of Protection', 10]], stats: FARM },
     alt: { name: 'Damage', role: 'Condemnation damage', about: 'Chain of Torment into Condemnation for damage, with heals kept for emergencies. For solo play and groups that already have a healer.',
       active: [['Condemnation', 16], ['Chain of Torment', 16], ['Judgment Thunder', 16], ['Earth\'s Retribution', 12], ['Bolt', 12], ['Lightning Strike Scattershot', 12], ['Healing Light', 12]],
       passive: ['Empyrean Lords\' Grace', 'Earth\'s Grace', 'Prayer of Concentration', 'Healing Enhancement'],
@@ -703,6 +732,10 @@ const BUILDS = {
     passive: ['Earth\'s Promise', 'Blessing of Life', 'Inspiring Spell', 'Wind\'s Promise'],
     stigma: [['Undefeated Mantra', 10], ['Barrier Spell', 10], ['Impeding Authority', 10], ['Sprint Mantra', 10]],
     stats: ['Combat Speed', 'Cooldown Reduction', 'Damage Tolerance', 'Max HP', 'Damage Boost', 'Attack', 'Defense'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Gust Rampage and Tremor Crush for packs, Dark Crush for the tough ones, and Recuperation to stay topped up.',
+      active: [['Gust Rampage', 16], ['Tremor Crush', 16], ['Dark Crush', 16], ['Spinning Strike', 12], ['Recuperation', 12], ['Wave Blow', 12]],
+      passive: ['Attack Preparation', 'Wind\'s Promise', 'Earth\'s Promise', 'Impact Hit'],
+      stigma: [['Undefeated Mantra', 10], ['Power of the Storm', 10], ['Marchutan\'s Wrath', 10], ['Healing Touch', 10]], stats: FARM },
     alt: { name: 'Damage', role: 'Melee damage', about: 'Dark Crush after Spinning Strike or Impactful Crush, with Undefeated Mantra kept up. For solo play and levelling, where your own damage matters most.',
       active: [['Dark Crush', 16], ['Spinning Strike', 16], ['Impactful Crush', 16], ['Incandescent Blow', 12], ['Onslaught', 12], ['Heat Wave Blow', 12]],
       passive: ['Attack Preparation', 'Earth\'s Promise', 'Impact Hit', 'Inspiring Spell'],
@@ -920,7 +953,7 @@ const clsIcon = (cls, c = 'cico') => CLASS_CODE[cls] ? `<img class="${c}" src="$
 function classes() {
   return head('Guides', 'Classes') + `<div class="cards">${Object.entries(BUILDS).map(([id, b]) => {
     const n = LIST.filter(m => classOf(m) == id).length;
-    return `<a class="card klass" href="#/classes/${b.cls}" style="--c:var(--gold-line);${ccStyle(b.cls)};align-content:start"><div class="who">${clsIcon(b.cls, 'kimg')}<div><div class="name ccls">${b.cls}</div><div class="sub">${b.role} · ${b.weapon}</div><div class="sub">Builds: ${esc(b.name)} · ${esc(b.alt.name)}</div></div></div>
+    return `<a class="card klass" href="#/classes/${b.cls}" style="--c:var(--gold-line);${ccStyle(b.cls)};align-content:start"><div class="who">${clsIcon(b.cls, 'kimg')}<div><div class="name ccls">${b.cls}</div><div class="sub">${b.role} · ${b.weapon}</div><div class="sub">Builds: ${esc(b.name)} · ${esc(b.alt.name)} · ${esc(b.farm.name)}</div></div></div>
       <p class="hint">${b.about}</p><div class="sub">${n ? `${n} in the legion` : ''}</div></a>`; }).join('')}</div>`;
 }
 // every class's six boards (boards.json, read once a day by fetch.py), loaded the first time a guide opens
@@ -934,14 +967,14 @@ function classGuide(name, which) {
   loadClassBoards();
   const [id, main] = Object.entries(BUILDS).find(([, x]) => x.cls === name) || [];
   if (!main) return head('Guides', 'Not found') + '<div class="panel empty"><a href="#/classes">All classes</a></div>';
-  const b = which === '2' ? { ...main, ...main.alt } : main, base = '#/classes/' + main.cls;
-  const builds = `<nav class="tabs">${[[base, main], [base + '/2', { ...main, ...main.alt }]].map(([h, x], i) => `<a href="${h}" ${(i ? which === '2' : which !== '2') ? 'aria-current="page"' : ''}>${esc(x.name)} build${x.role !== x.name ? ` <span class="hint">${esc(x.role)}</span>` : ''}</a>`).join('')}</nav>`;
+  const all = [main, { ...main, ...main.alt }, { ...main, ...main.farm }], at = ['2', '3'].includes(which) ? +which - 1 : 0, b = all[at], base = '#/classes/' + main.cls;
+  const builds = `<nav class="tabs">${all.map((x, i) => `<a href="${base}${i ? '/' + (i + 1) : ''}" ${i === at ? 'aria-current="page"' : ''}>${esc(x.name)} build${x.role !== x.name ? ` <span class="hint">${esc(x.role)}</span>` : ''}</a>`).join('')}</nav>`;
   const chars = LIST.filter(m => classOf(m) == id);  // LIST is strongest first
   const icon = n => chars.flatMap(m => m.skill.skillList).find(x => x.name === n)?.icon;
   const row = (i, n, type, goal) => `<tr><td class="n">${i}</td><td>${icon(n) ? `<img src="${esc(icon(n))}" alt="">` : ''}</td><td>${esc(n)}</td><td class="sub">${type}</td><td class="n">${goal}</td></tr>`;
   const order = xs => `<ol class="list">${xs.map(x => `<li>${esc(x)}</li>`).join('')}</ol>`;
   return head(`${b.role} · ${b.weapon}`, `<span class="who" style="${ccStyle(b.cls)}">${clsIcon(b.cls, 'kimg')}${b.cls}</span>`, '<a class="btn" href="#/classes">All classes</a>') + builds + `
-    <section class="panel"><h2 class="ph">${which === '2' ? `The ${esc(b.name)} build` : 'The class'}</h2><p>${b.about}</p></section>
+    <section class="panel"><h2 class="ph">${at ? `The ${esc(b.name)} build` : 'The class'}</h2><p>${b.about}</p></section>
     <section class="panel wrap"><h2 class="ph">Skills to level <span class="hint">top to bottom</span></h2>
       <table class="cmp skills"><tr><th class="n">#</th><th></th><th>Skill</th><th>Type</th><th class="n">Goal</th></tr>
         ${b.active.map(([n, t], i) => row(i + 1, n, 'Active', 'Lv ' + t)).join('')}

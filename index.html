@@ -591,7 +591,7 @@ function legion() {
         <span class="rank">#${LIST.indexOf(m) + 1}</span>
         <span class="who">${pic(m)}${clsIcon(clsName(m))}<span style="min-width:0"><div class="name">${esc(m.name)}</div><div class="sub">${clsName(m) ? `<span class="ccls">${esc(clsName(m))}</span> · ` : ''}${esc(m.server)} · Lv ${m.level} · IL ${fmt(m.il)}</div></span></span>
         <span><div class="num">${fmt(m.cp)}</div><div class="num sub ${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</div></span></a></li>`).join('')}</ol>
-    </section>`).join('');
+    </section>`).join('') + (ME && DEVICE ? memberBox() : '');
 }
 
 // each item's manastones (dots, by grade) and Theostones (diamonds); a hollow one is an empty slot
@@ -1144,6 +1144,17 @@ function claimBox() {
     <form id="findForm" style="display:flex;gap:10px;flex-wrap:wrap"><input id="findName" placeholder="Your Aion 2 character's name" autocomplete="off" style="flex:1;min-width:12em"><button class="btn primary">Search</button></form>
     <div id="found" class="rows"></div><p id="claimMsg" class="hint" hidden></p></section>`;
 }
+// legion members who don't use Premade: anyone adds them by name, the update reads them like everyone else, and when
+// their player picks them on Profile they become that player's
+function memberBox() {
+  const added = CLAIMS.filter(c => isMe(c.by));
+  return `<section class="panel" id="claims"><h2 class="ph">Add a legion member</h2>
+    <p class="hint">For members who don’t use Premade. Their level, combat power and gear show up within 30 minutes and update with everyone else’s.</p>
+    ${added.length ? `<div class="rows">${added.map((c, i) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
+      <span><div class="name">${esc(c.n)}</div><div class="sub">${esc(c.s)}${LIST.some(m => low(m.name) === low(c.n)) ? '' : ' · shows up within 30 minutes'}</div></span><button class="btn small" data-mdel="${i}">Remove</button></div>`).join('')}</div>` : ''}
+    <form id="findForm" data-m="1" style="display:flex;gap:10px;flex-wrap:wrap"><input id="findName" placeholder="Their Aion 2 character's name" autocomplete="off" style="flex:1;min-width:12em"><button class="btn primary">Search</button></form>
+    <div id="found" class="rows"></div><p id="claimMsg" class="hint" hidden></p></section>`;
+}
 async function claim(body) {
   const r = await fetch(CLAIMS_URL, { method: 'POST', body: JSON.stringify({ id: DEVICE, o: ME, ...body }) }).then(x => x.json()).catch(() => ({ error: 'Premade’s server didn’t answer. Try again in a minute.' }));
   if (r.error) { const m = $('#claimMsg'); m.textContent = r.error; m.hidden = false; return; }
@@ -1533,6 +1544,8 @@ function route() {
   $('#cb')?.addEventListener('change', () => go($('#ca').value, $('#cb').value));
   const mineNow = CLAIMS.filter(c => isMe(c.o));
   document.querySelectorAll('[data-del]').forEach(b => b.onclick = () => { b.disabled = true; const c = mineNow[b.dataset.del]; claim({ n: c.n, s: c.s, del: true }); });
+  const addedNow = CLAIMS.filter(c => isMe(c.by));
+  document.querySelectorAll('[data-mdel]').forEach(b => b.onclick = () => { b.disabled = true; const c = addedNow[b.dataset.mdel]; claim({ n: c.n, s: c.s, del: true, m: true }); });
   // Refresh now: this character's sheet live from PLAYNC through Premade's server, shown until the next update brings it
   $('#live')?.addEventListener('click', async e => {
     const b = e.target, m = DATA.members[b.dataset.n], msg = $('#liveMsg');
@@ -1572,6 +1585,7 @@ function route() {
   // a tick shows at once, and goes back if the server says no
   const find = $('#findForm');
   if (!find) return;
+  const m = !!find.dataset.m;  // Legion's Add a legion member, else Profile's Your Aion 2 characters
   find.addEventListener('submit', async e => {
     e.preventDefault();
     const box = $('#found'); box.innerHTML = '<p class="hint">Searching…</p>';
@@ -1580,14 +1594,14 @@ function route() {
       const hits = (await fetch(`${CLAIMS_URL}?q=${encodeURIComponent($('#findName').value.trim())}`).then(x => x.json())).list;
       box.innerHTML = hits.length ? hits.map((c, i) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
         <span><div class="name">${esc(c.n)}</div><div class="sub">${esc(c.s)} · Level ${c.level}</div></span>
-        <button class="btn small" data-i="${i}" ${CLAIMS.some(x => isMe(x.o) && x.n === c.n && x.s === c.s) ? 'disabled>Yours' : '>This is mine'}</button></div>`).join('') : '<p class="hint">No characters with that name in Europe. Type your character’s name.</p>';
-      box.querySelectorAll('button:not(:disabled)').forEach(b => b.onclick = () => { const c = hits[b.dataset.i]; b.disabled = true; b.textContent = 'Adding…'; claim({ n: c.n, s: c.s }); });
+        <button class="btn small" data-i="${i}" ${m ? (CLAIMS.some(x => x.n === c.n && x.s === c.s) ? 'disabled>In the legion' : '>Add') : CLAIMS.some(x => isMe(x.o) && x.n === c.n && x.s === c.s) ? 'disabled>Yours' : '>This is mine'}</button></div>`).join('') : `<p class="hint">No characters with that name in Europe. Type ${m ? 'their' : 'your'} character’s name.</p>`;
+      box.querySelectorAll('button:not(:disabled)').forEach(b => b.onclick = () => { const c = hits[b.dataset.i]; b.disabled = true; b.textContent = 'Adding…'; claim({ n: c.n, s: c.s, ...(m && { m: true }) }); });
     } catch { box.innerHTML = '<p class="hint">Search failed. Check your internet connection.</p>'; }
   });
 }
 
 async function loadClaims() {
-  CLAIMS = await fetch(CLAIMS_URL, { cache: 'no-store' }).then(r => r.json()).then(r => r.chars || []).catch(() => CLAIMS);
+  CLAIMS = await fetch(CLAIMS_URL, { cache: 'no-store' }).then(r => r.json()).then(r => (r.chars || []).map(c => c.o[0] === '+' ? { ...c, o: '', by: c.o.slice(1) } : c)).catch(() => CLAIMS);
   group();
 }
 

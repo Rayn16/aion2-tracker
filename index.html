@@ -243,8 +243,46 @@ table.skills .meter { min-width: 80px; }
 .dboards.big .dgrid i.path, .dboards.big .dgrid i.start { opacity: 1; outline: none; background: color-mix(in srgb, var(--g, var(--muted)) 55%, transparent); border-color: var(--g, var(--muted)); }
 .dboards.big .dgrid i.stop { background: color-mix(in srgb, var(--g, var(--muted)) 35%, var(--bg)); outline: 2px solid var(--gold-hi); }
 .dboards.big .dgrid i.start { background: var(--fg); }
+.dgrid { position: relative; }
+.dgrid i b { position: relative; z-index: 2; }
 .dboards.big { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
 .dboard ol.list { margin: 0; font-size: 13px; }
+.dboards.big .dboard { padding: 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); }
+.dboards.big .dboard figcaption { font: 600 15px/1.2 var(--display); letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold-hi); }
+.dboards.big .dboard figcaption .note { margin-left: auto; font: 500 11.5px/1 var(--mono); letter-spacing: 0; text-transform: none; color: var(--muted); }
+.dboards.big .dgrid { border: 1px solid var(--line); border-radius: 6px; }
+.dboards.big .dgrid i b { text-shadow: none; }
+.dboards.big .dgrid i.stop { opacity: 1; background: var(--gold); border-color: var(--gold); outline: none; box-shadow: none; }
+.dboards.big .dgrid i.stop b { color: var(--accent-fg); }
+.dboards.big .dboard > p.sub { margin: 4px 0 0; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.dboards.big .dboard > ol.list { display: flex; flex-wrap: wrap; gap: 4px; padding: 0; list-style: none; counter-reset: p; }
+.dboards.big .dboard > ol.list li { counter-increment: p; padding: 3px 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--raised); font-size: 12px; }
+.dboards.big .dboard > ol.list li::before { content: counter(p) " "; font: 600 11px/1 var(--mono); color: var(--gold); }
+.dboards.big .dboard > ol.list li:first-child { border-color: var(--gold-line); }
+/* the guide's boards: each board a star chart in Premade's colours, its nodes cut gems; the stops gold and numbered,
+   the first one pulsing */
+.dboards.big .dboard { position: relative; overflow: hidden; padding: 14px; border-color: color-mix(in srgb, var(--gold) 22%, var(--line));
+  background: radial-gradient(110% 60% at 50% 0%, color-mix(in srgb, var(--gold) 9%, transparent), transparent 65%), var(--panel);
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px)); }
+.dboards.big .dboard::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+.dboards.big .dboard figcaption { font-size: 17px; letter-spacing: 0.1em; text-shadow: 0 0 14px color-mix(in srgb, var(--gold) 45%, transparent); }
+.dboards.big .dboard figcaption .note { padding: 3px 8px; border: 1px solid var(--gold-line); border-radius: 20px; background: color-mix(in srgb, var(--gold) 8%, transparent); text-shadow: none; }
+.dboards.big .dgrid { border-color: color-mix(in srgb, var(--gold) 18%, var(--line)); background:
+  radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--gold) 12%, transparent), transparent 55%),
+  radial-gradient(circle, rgb(255 255 255 / 0.06) 1px, transparent 1.5px) 0 0 / 14px 14px, #070506; box-shadow: inset 0 0 30px rgb(0 0 0 / 0.8); }
+.dboards.big .dgrid i.start { opacity: 1; border: 0; background: radial-gradient(circle, #fff, var(--gold-hi) 40%, color-mix(in srgb, var(--gold) 60%, #fff)); box-shadow: 0 0 14px 3px color-mix(in srgb, var(--gold) 55%, transparent); }
+@keyframes first { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--gold) 70%, transparent), 0 0 14px var(--gold); } 100% { box-shadow: 0 0 0 9px transparent, 0 0 14px var(--gold); } }
+.dboards.big .dgrid i.stop[data-n="1"] { animation: first 1.8s ease-out infinite; z-index: 3; }
+/* Tiles: cut gems; the way there in its grade's colour, the stops gold and numbered */
+.dboards.look-tiles .dgrid { gap: 4px; }
+.dboards.look-tiles .dgrid i { transform: rotate(45deg) scale(0.74); border-radius: 3px; opacity: 0.35; }
+.dboards.look-tiles .dgrid i b { transform: rotate(-45deg); font-size: clamp(9px, 1.1vw, 12px); }
+.dboards.look-tiles .dgrid i.skill, .dboards.look-tiles .dgrid i.start { transform: scale(0.8); border-radius: 50%; }
+.dboards.look-tiles .dgrid i.skill b { transform: none; }
+.dboards.look-tiles .dgrid i.path { opacity: 1; border-color: color-mix(in srgb, var(--gold) 60%, transparent); background: linear-gradient(135deg, color-mix(in srgb, var(--gold) 35%, var(--g, var(--raised))), color-mix(in srgb, var(--gold) 25%, #000)); box-shadow: 0 0 8px color-mix(in srgb, var(--g, var(--muted)) 60%, transparent); }
+.dboards.look-tiles .dgrid i.stop { transform: rotate(45deg) scale(0.95); background: linear-gradient(135deg, color-mix(in srgb, var(--gold) 60%, #fff), var(--gold) 45%, color-mix(in srgb, var(--gold) 60%, #000)); box-shadow: 0 0 12px color-mix(in srgb, var(--gold) 70%, transparent); }
+.dboards.look-tiles .dgrid i.stop.skill { transform: scale(0.95); }
+@media (prefers-reduced-motion: reduce) { .dboards.big *, .dboards.big *::before { animation: none !important; } }
 .dk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
 .empty { padding: 40px; text-align: center; color: var(--muted); }
 .tag { font: 500 11px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--link); margin-left: 8px; }
@@ -365,7 +403,7 @@ table.cmp th { font: 600 11px/1.2 var(--body); letter-spacing: 0.1em; }
 .ntag { display: inline-block; margin-right: 6px; padding: 1px 7px; border-radius: 999px; font: 700 10.5px/1.6 var(--body); letter-spacing: 0.06em; text-transform: uppercase; color: var(--tc); background: color-mix(in srgb, var(--tc) 16%, transparent); border: 1px solid color-mix(in srgb, var(--tc) 40%, transparent); vertical-align: 1px; }
 /* classes: each class card in its colour with its icon */
 .card.klass { background: radial-gradient(120% 140% at 100% 0%, rgb(var(--cc) / 0.22), transparent 60%), var(--panel); border-top-color: rgb(var(--cc)); }
-.card.klass .kimg { width: 44px; height: 44px; border-radius: 10px; border: 1px solid rgb(var(--cc) / 0.8); box-shadow: 0 0 14px rgb(var(--cc) / 0.45); }
+.kimg { width: 44px; height: 44px; border-radius: 10px; border: 1px solid rgb(var(--cc) / 0.8); box-shadow: 0 0 14px rgb(var(--cc) / 0.45); }
 .tile { background: linear-gradient(160deg, color-mix(in srgb, var(--gold) 8%, transparent), transparent 55%), var(--panel); }
 </style>
 <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
@@ -597,56 +635,124 @@ const daevTotals = m => (m.daevanion?.boardList || []).reduce((a, b) => [a[0] + 
 // The class comes from the first two digits of the skill ids.
 // role, weapon and about: our own words, from class overviews on noping.com and exitlag.com.
 // stats: Daevanion stat nodes worth a detour, best first (big nodes before the small ones they share a list with).
+const PVP = ['Critical Hit', 'Combat Speed', 'Damage Tolerance', 'Damage Boost', 'Critical Damage Boost', 'Max HP', 'Attack'];
+const FARM = ['Combat Speed', 'Attack', 'Multi-Hit Chance', 'Critical Hit', 'Damage Boost', 'Max HP', 'Cooldown Reduction'];
 const DPS = ['Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Critical Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'];
 const BUILDS = {
-  11: { cls: 'Gladiator', role: 'Melee damage', weapon: 'Greatsword',
+  11: { name: 'PvE', cls: 'Gladiator', role: 'Melee damage', weapon: 'Greatsword',
     about: 'Front-line fighter who hits groups. Wide swings clear packs fast and life drain keeps you up, but you trade defence for damage, so watch your health in PvP where you get focused first.',
     active: [['Overhead Slam', 16], ['Rending Blow', 16], ['Sword Aura Rampage', 16], ['Mocking Blade', 8], ['Ruinous Blow', 12], ['Keen Strike', 12], ['Leaping Slam', 12]],
     passive: ['Attack Preparation', 'Experienced Counterstrike', 'Impact Hit', 'Murderous Burst'],
     stigma: [['Lunge Stance', 20], ['Zikel\'s Blessing', 10], ['Rage Burst', 5], ['Zikel\'s Blessing', 15], ['Rage Burst', 20]],
-    stats: DPS },
-  12: { cls: 'Templar', role: 'Tank', weapon: 'Sword and shield',
+    stats: DPS,
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Pull a pack, sweep it with Sword Aura Rampage and Crushing Wave, and let Blood Absorption heal you back up between pulls.',
+      active: [['Sword Aura Rampage', 16], ['Crushing Wave', 16], ['Rending Blow', 16], ['Blood Absorption', 12], ['Overhead Slam', 12], ['Ruinous Blow', 12]],
+      passive: ['Attack Preparation', 'Impact Hit', 'Survival Stance', 'Murderous Burst'],
+      stigma: [['Wrath Wave', 10], ['Lifestealing Blade', 10], ['Lunge Stance', 10], ['Zikel\'s Blessing', 10]], stats: FARM },
+    alt: { name: 'PvP', role: 'Duels and the Abyss', about: 'Gap closers and snares to catch a target, then the big hits. Survival Willpower and Damage Tolerance keep you standing when you get focused.',
+      active: [['Rending Blow', 16], ['Leaping Slam', 16], ['Ruinous Blow', 16], ['Ankle Slice', 12], ['Aerial Snare', 12], ['Overhead Slam', 12], ['Rush Strike', 12]],
+      passive: ['Survival Willpower', 'Experienced Counterstrike', 'Attack Preparation', 'Murderous Burst'],
+      stigma: [['Rage Burst', 10], ['Forced Restraint', 10], ['Focused Block', 10], ['Lunge Stance', 10]], stats: PVP } },
+  12: { name: 'Tank', cls: 'Templar', role: 'Tank', weapon: 'Sword and shield',
     about: 'Holds the boss, blocks and soaks hits so the group can work. Slower pace and forgiving; good timing on blocks, taunts and defensive cooldowns is what makes a great one.',
     active: [['Pummel', 16], ['Vicious Strike', 16], ['Warding Strike', 16], ['Poach', 12], ['Punishment', 12], ['Judgment', 12], ['Shield Smite', 12], ['Shield Rush', 12], ['Annihilate', 12], ['Flash Rampage', 8]],
     passive: ['Punishing Benediction', 'Ironclad Defense', 'Enhance Health', 'Warding Shield', 'Fury', 'Insulting Roar'],
     stigma: [['Noble Armor', 10], ['Executing Blade', 10], ['Doom Shield', 10], ['Battlefield Banner', 10]],
-    stats: ['Damage Tolerance', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Attack', 'Max HP', 'Defense'] },
-  13: { cls: 'Assassin', role: 'Burst damage', weapon: 'Daggers',
+    stats: ['Damage Tolerance', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Attack', 'Max HP', 'Defense'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Gather a pack with Flash Rampage, hit them all with Annihilate and Judgment, and block through the rest. Slow but very safe.',
+      active: [['Annihilate', 16], ['Flash Rampage', 16], ['Judgment', 16], ['Punishment', 12], ['Vicious Strike', 12], ['Pummel', 12]],
+      passive: ['Fury', 'Enhance Health', 'Punishing Benediction', 'Impact Hit'],
+      stigma: [['Executing Blade', 10], ['Empyrean Lord\'s Punishment', 10], ['Doom Shield', 10], ['Noble Armor', 10]], stats: FARM },
+    alt: { name: 'Damage', role: 'Off-tank damage', about: 'Judgment and Punishment first, for groups that already have a tank or when you farm alone. You still block and hold aggro, just with more damage.',
+      active: [['Judgment', 16], ['Punishment', 16], ['Vicious Strike', 12], ['Warding Strike', 12], ['Shield Smite', 12], ['Annihilate', 12]],
+      passive: ['Fury', 'Ironclad Defense', 'Insulting Roar', 'Impact Hit'],
+      stigma: [['Empyrean Lord\'s Punishment', 10], ['Doom Shield', 10], ['Battlefield Banner', 10], ['Taunt', 5]],
+      stats: ['Combat Speed', 'Damage Boost', 'Attack', 'Critical Damage Boost', 'Cooldown Reduction', 'Multi-Hit Chance', 'Critical Hit'] } },
+  13: { name: 'PvE', cls: 'Assassin', role: 'Burst damage', weapon: 'Daggers',
     about: 'Gets in from stealth, deletes one target, gets out. Strongest in duels and picks, but hard to play well: positioning and timing matter more than on any other class.',
     active: [['Heart Gore', 16], ['Insignia Explosion', 16], ['Savage Roar', 16], ['Quick Slice', 12], ['Ambush', 12], ['Shadowstrike', 12]],
     passive: ['Exploit Weakness', 'Rear Smite', 'Assault Stance', 'Impact Hit', 'Apply Poison'],
     stigma: [['Savage Fang', 10], ['Triniel\'s Dagger', 10], ['Illusive Clone', 10], ['Swift Contract', 10]],
-    stats: ['Critical Damage Boost', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Multi-Hit Chance', 'Critical Hit', 'Attack'] },
-  14: { cls: 'Ranger', role: 'Ranged damage', weapon: 'Bow',
+    stats: ['Critical Damage Boost', 'Combat Speed', 'Cooldown Reduction', 'Damage Boost', 'Multi-Hit Chance', 'Critical Hit', 'Attack'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Storm Rampage and Whirlwind Slice for packs, Heart Gore for the big ones; poison keeps ticking while you move to the next pull.',
+      active: [['Storm Rampage', 16], ['Whirlwind Slice', 16], ['Heart Gore', 16], ['Quick Slice', 12], ['Savage Roar', 12], ['Insignia Explosion', 12]],
+      passive: ['Assault Stance', 'Apply Poison', 'Exploit Weakness', 'Impact Hit'],
+      stigma: [['Savage Fang', 10], ['Triniel\'s Dagger', 10], ['Illusive Clone', 10], ['Swift Contract', 10]], stats: FARM },
+    alt: { name: 'PvP', role: 'Picks and duels', about: 'Open from stealth with Ambush and Shadowstrike on one target and finish before they can answer; Heightened Sixth Sense and Damage Tolerance for when they do.',
+      active: [['Heart Gore', 16], ['Shadowstrike', 16], ['Ambush', 16], ['Flash Slice', 12], ['Quick Slice', 12], ['Insignia Explosion', 12]],
+      passive: ['Exploit Weakness', 'Rear Smite', 'Ambush Stance', 'Heightened Sixth Sense'],
+      stigma: [['Shadow Walk', 10], ['Aerial Bind', 10], ['Triniel\'s Dagger', 10], ['Smoke Bomb', 10]], stats: PVP } },
+  14: { name: 'PvE', cls: 'Ranger', role: 'Ranged damage', weapon: 'Bow',
     about: 'Steady damage from range with traps and movement. Easy to solo with; in PvP keep distance from gap closers and kite.',
     active: [['Deadshot', 16], ['Gale Arrow', 16], ['Drill Dart', 16], ['Snipe', 12], ['Marking Shot', 12], ['Burst Arrow', 12], ['Snare Shot', 12]],
     passive: ['Focused Eye', 'Hunter\'s Resolve', 'Hunter\'s Soul', 'Rooting Eye', 'Concentrated Fire'],
     stigma: [['Vaizel\'s Authority', 10], ['Bow of Blessing', 10], ['Supporting Fire', 10], ['Griffon Arrow', 10]],
-    stats: DPS },
-  15: { cls: 'Sorcerer', role: 'Magic damage', weapon: 'Spellbook',
+    stats: DPS,
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Arrow Scattershot and Tempest Shot clear packs from range, Explosion Trap catches what runs at you. The easiest class to farm with.',
+      active: [['Arrow Scattershot', 16], ['Tempest Shot', 16], ['Explosion Trap', 16], ['Gale Arrow', 12], ['Deadshot', 12], ['Burst Arrow', 12]],
+      passive: ['Hunter\'s Soul', 'Concentrated Fire', 'Focused Eye', 'Wind Vigor'],
+      stigma: [['Vaizel\'s Authority', 10], ['Bow of Blessing', 10], ['Supporting Fire', 10], ['Griffon Arrow', 10]], stats: FARM },
+    alt: { name: 'PvP', role: 'Kiting and control', about: 'Snares and traps keep melee off you while Deadshot and Snipe do the damage. Keep moving; Vigilant Eye and Unyielding Resolve help when they reach you.',
+      active: [['Snare Shot', 16], ['Deadshot', 16], ['Snipe', 16], ['Suppressing Arrow', 12], ['Gale Arrow', 12], ['Explosion Trap', 12]],
+      passive: ['Focused Eye', 'Hunter\'s Resolve', 'Vigilant Eye', 'Unyielding Resolve'],
+      stigma: [['Ensnaring Trap', 10], ['Sealing Arrow', 10], ['Vaizel\'s Authority', 10], ['Illusory Arrow', 10]], stats: PVP } },
+  15: { name: 'PvE', cls: 'Sorcerer', role: 'Magic damage', weapon: 'Spellbook',
     about: 'Big magic bursts and area damage from the back line. Fragile, so stand well back and retreat early when fast classes reach you.',
     active: [['Hellfire', 16], ['Firestorm', 16], ['Blaze', 16], ['Flame Arrow', 12], ['Wish of Concentration', 12], ['Bittercold Wind', 12], ['Ice Chain', 12]],
-    passive: ['Grace of Enhancement', 'Robe of Flame', 'Fire Mark', 'Robe of Earth'],
+    passive: ['Grace of Enhancement', 'Flame Robe', 'Fire Mark', 'Earth Robe'],
     stigma: [['Element Enhancement', 10], ['Delayed Explosion', 10], ['Fire Wall', 10], ['Cold Storm', 10]],
-    stats: ['Cooldown Reduction', 'Combat Speed', 'Critical Damage Boost', 'Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'] },
-  16: { cls: 'Spiritmaster', role: 'Summoner', weapon: 'Orb',
+    stats: ['Cooldown Reduction', 'Combat Speed', 'Critical Damage Boost', 'Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Firestorm and Flame Scattershot burn whole packs; Absorb Essence gets your mana and health back between them.',
+      active: [['Firestorm', 16], ['Flame Scattershot', 16], ['Hellfire', 16], ['Flame Explosion', 12], ['Flame Arrow', 12], ['Absorb Essence', 12]],
+      passive: ['Flame Robe', 'Fire Mark', 'Grace of Enhancement', 'Vitality Evaporation'],
+      stigma: [['Element Enhancement', 10], ['Delayed Explosion', 10], ['Fire Wall', 10], ['Cold Storm', 10]], stats: FARM },
+    alt: { name: 'PvP', role: 'Frost control', about: 'Frost skills that slow, root and freeze, so the burst lands on someone who can’t reach you. Robe of Cold and Grace of Resistance for staying alive.',
+      active: [['Ice Chain', 16], ['Frost', 16], ['Winter\'s Shackles', 16], ['Frost Burst', 12], ['Flame Arrow', 12], ['Cold Snap', 12]],
+      passive: ['Grace of Enhancement', 'Robe of Cold', 'Grace of Resistance', 'Earth Robe'],
+      stigma: [['Curse: Tree', 10], ['Soul Freeze', 10], ['Glacial Smite', 10], ['Arctic Armor', 10]], stats: PVP } },
+  16: { name: 'PvE', cls: 'Spiritmaster', role: 'Summoner', weapon: 'Orb',
     about: 'Fights alongside elemental spirits that add damage and crowd control. Works in both PvE and PvP; keep your spirit alive and in position.',
     active: [['Elemental Fusion', 16], ['Jointstrike: Curse', 16], ['Combustion', 16], ['Dimensional Control', 12], ['Summon: Fire Spirit', 12]],
     passive: ['Spirit Strike', 'Spirit\'s Descent', 'Consecutive Countercurrent', 'Element Unification'],
     stigma: [['Summon: Ancient Spirit', 10], ['Flame Blessing', 10], ['Jointstrike: Destructive Attack', 10], ['Jointstrike: Corrode', 10]],
-    stats: DPS },
-  17: { cls: 'Cleric', role: 'Healer', weapon: 'Mace',
+    stats: DPS,
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Let the spirit hold the pack while Rapid Scattershot and Combustion hit them all; Spirit Revitalization keeps the spirit going.',
+      active: [['Rapid Scattershot', 16], ['Combustion', 16], ['Elemental Fusion', 16], ['Summon: Fire Spirit', 12], ['Spirit Revitalization', 12]],
+      passive: ['Spirit Strike', 'Spirit\'s Descent', 'Spirit Communion', 'Element Unification'],
+      stigma: [['Summon: Ancient Spirit', 10], ['Flame Blessing', 10], ['Jointstrike: Destructive Attack', 10], ['Jointstrike: Corrode', 10]], stats: FARM },
+    alt: { name: 'PvP', role: 'Curses and control', about: 'Curses and Cold Shock wear the target down while the spirit holds them; Spirit Protection and Mental Focus keep you casting.',
+      active: [['Jointstrike: Curse', 16], ['Cold Shock', 16], ['Dimensional Control', 16], ['Combustion', 12], ['Summon: Water Spirit', 12]],
+      passive: ['Spirit Strike', 'Spirit Protection', 'Mental Focus', 'Spirit\'s Descent'],
+      stigma: [['Cry of Terror', 10], ['Seize Magic', 10], ['Magic Block', 10], ['Siphon', 10]], stats: PVP } },
+  17: { name: 'Healer', cls: 'Cleric', role: 'Healer', weapon: 'Mace',
     about: 'The group’s main healer: heals, cleanses, shields and resurrection. Read the fight ahead and spend big heals before damage lands, not after.',
     active: [['Healing Light', 16], ['Radiant Recovery', 16], ['Light of Regeneration', 16], ['Chain of Torment', 12], ['Condemnation', 12], ['Judgment Thunder', 12], ['Bolt', 12]],
-    passive: ['Healing Enhancement', 'Empyrean Lord\'s Grace', 'Earth\'s Grace', 'Warm Benediction', 'Radiant Benediction'],
+    passive: ['Healing Enhancement', 'Empyrean Lords\' Grace', 'Earth\'s Grace', 'Warm Benediction', 'Radiant Benediction'],
     stigma: [['Earth Punishment', 10], ['Light of Protection', 10], ['Noble Aura', 10], ['Summon Resurrection', 10]],
-    stats: ['Combat Speed', 'Cooldown Reduction', 'Damage Tolerance', 'Damage Boost', 'Attack', 'Max HP', 'Defense'] },
-  18: { cls: 'Chanter', role: 'Support', weapon: 'Staff',
+    stats: ['Combat Speed', 'Cooldown Reduction', 'Damage Tolerance', 'Damage Boost', 'Attack', 'Max HP', 'Defense'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Lightning Strike Scattershot and Earth\'s Retribution for packs, with heals of your own, so you rarely stop to rest.',
+      active: [['Lightning Strike Scattershot', 16], ['Earth\'s Retribution', 16], ['Chain of Torment', 16], ['Condemnation', 12], ['Healing Light', 12], ['Light of Regeneration', 12]],
+      passive: ['Empyrean Lords\' Grace', 'Earth\'s Grace', 'Warm Benediction', 'Healing Enhancement'],
+      stigma: [['Earth Punishment', 10], ['Noble Aura', 10], ['Absolution', 10], ['Light of Protection', 10]], stats: FARM },
+    alt: { name: 'Damage', role: 'Condemnation damage', about: 'Chain of Torment into Condemnation for damage, with heals kept for emergencies. For solo play and groups that already have a healer.',
+      active: [['Condemnation', 16], ['Chain of Torment', 16], ['Judgment Thunder', 16], ['Earth\'s Retribution', 12], ['Bolt', 12], ['Lightning Strike Scattershot', 12], ['Healing Light', 12]],
+      passive: ['Empyrean Lords\' Grace', 'Earth\'s Grace', 'Prayer of Concentration', 'Healing Enhancement'],
+      stigma: [['Noble Aura', 10], ['Absolution', 10], ['Prayer of Amplification', 10], ['Earth Punishment', 10]], stats: DPS } },
+  18: { name: 'Support', cls: 'Chanter', role: 'Support', weapon: 'Staff',
     about: 'Buffs the whole group, heals a little and still hits in melee. Line your buffs up with the group’s big damage windows.',
-    active: [['Dark Crush', 16], ['Spinning Strike', 16], ['Impactful Crush', 16], ['Incandescent Blow', 12], ['Onslaught', 12], ['Heat Wave Blow', 12]],
-    passive: ['Attack Preparation', 'Earth\'s Promise', 'Impact Hit', 'Inspiring Spell'],
-    stigma: [['Undefeated Mantra', 10], ['Power of the Storm', 10], ['Marchutan\'s Wrath', 10], ['Fracturing Blow', 10]],
-    stats: ['Combat Speed', 'Damage Boost', 'Cooldown Reduction', 'Critical Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'] },
+    active: [['Recuperation', 16], ['Dark Crush', 16], ['Protection Circle', 16], ['Spinning Strike', 12], ['Impactful Crush', 12], ['Wave Blow', 12]],
+    passive: ['Earth\'s Promise', 'Blessing of Life', 'Inspiring Spell', 'Wind\'s Promise'],
+    stigma: [['Undefeated Mantra', 10], ['Barrier Spell', 10], ['Impeding Authority', 10], ['Sprint Mantra', 10]],
+    stats: ['Combat Speed', 'Cooldown Reduction', 'Damage Tolerance', 'Max HP', 'Damage Boost', 'Attack', 'Defense'],
+    farm: { name: 'Farming', role: 'Solo grinding', about: 'Gust Rampage and Tremor Crush for packs, Dark Crush for the tough ones, and Recuperation to stay topped up.',
+      active: [['Gust Rampage', 16], ['Tremor Crush', 16], ['Dark Crush', 16], ['Spinning Strike', 12], ['Recuperation', 12], ['Wave Blow', 12]],
+      passive: ['Attack Preparation', 'Wind\'s Promise', 'Earth\'s Promise', 'Impact Hit'],
+      stigma: [['Undefeated Mantra', 10], ['Power of the Storm', 10], ['Marchutan\'s Wrath', 10], ['Healing Touch', 10]], stats: FARM },
+    alt: { name: 'Damage', role: 'Melee damage', about: 'Dark Crush after Spinning Strike or Impactful Crush, with Undefeated Mantra kept up. For solo play and levelling, where your own damage matters most.',
+      active: [['Dark Crush', 16], ['Spinning Strike', 16], ['Impactful Crush', 16], ['Incandescent Blow', 12], ['Onslaught', 12], ['Heat Wave Blow', 12]],
+      passive: ['Attack Preparation', 'Earth\'s Promise', 'Impact Hit', 'Inspiring Spell'],
+      stigma: [['Undefeated Mantra', 10], ['Power of the Storm', 10], ['Marchutan\'s Wrath', 10], ['Fracturing Blow', 10]],
+      stats: ['Combat Speed', 'Damage Boost', 'Cooldown Reduction', 'Critical Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'] } },
 };
 // Ariel (PvE) and Azphel (PvP) have their own stats, the same for every class
 const SIDE_BOARDS = {
@@ -742,6 +848,7 @@ function guidePath(rows, b, stats) {
     }
     if (!best) break;
     for (let n = best.n; !n.open; n = n.prev) { n.open = true; n.path = true; }
+    best.n.pts = best.s[1];
     best.n.num = stops.push(best.n);
   }
   nodes.forEach(n => { n.open = n.grade === 'Start'; });  // drawn as a fresh board: the start lit, the path outlined
@@ -751,9 +858,9 @@ function guidePath(rows, b, stats) {
 // A Daevanion board as the game draws it: open nodes lit, the suggested path outlined, the goal ringed.
 const boardGrid = ({ board, nodes, pick }) => {
   const r0 = Math.min(...nodes.map(n => n.row)), c0 = Math.min(...nodes.map(n => n.col));
-  const cols = Math.max(...nodes.map(n => n.col)) - c0 + 1;
-  return `<figure class="dboard"><figcaption>${board.icon ? `<img src="${esc(board.icon)}" alt="">` : ''}${esc(board.name)} ${board.openNodeCount != null ? `<span class="hint">${fmt(board.openNodeCount)} / ${fmt(board.totalNodeCount)}</span>` : ''}</figcaption>
-    <div class="dgrid" style="--cols:${cols}">${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.num ? ' stop' : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"
+  const cols = Math.max(...nodes.map(n => n.col)) - c0 + 1, rows = Math.max(...nodes.map(n => n.row)) - r0 + 1;
+  return `<figure class="dboard"><figcaption>${board.icon ? `<img src="${esc(board.icon)}" alt="">` : ''}${esc(board.name)} ${board.openNodeCount != null ? `<span class="hint">${fmt(board.openNodeCount)} / ${fmt(board.totalNodeCount)}</span>` : ''}${board.note ? `<span class="note">${board.note}</span>` : ''}</figcaption>
+    <div class="dgrid" style="--cols:${cols}">${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.num ? ' stop' : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"${n.num ? ` data-n="${n.num}"` : ''}
       style="grid-area:${n.row - r0 + 1}/${n.col - c0 + 1};--g:${GRADE[n.grade] || 'var(--muted)'}" title="${n.num ? n.num + '. ' : ''}${esc(n.name)}${n.goal ? ' (goal)' : n.path ? ' (on the way)' : n.open ? ' (open)' : ''}">${n.num ? `<b>${n.num}</b>` : ''}</i>`).join('')}</div>
     ${pick ? `<p class="sub">Goal: <b>${esc(pick.node.name)}</b>, ${pick.node.cost} pts${pick.steps > 1 ? `, open ${esc(pick.first.name)} first` : ''}</p>` : ''}</figure>`;
 };
@@ -855,7 +962,7 @@ const clsIcon = (cls, c = 'cico') => CLASS_CODE[cls] ? `<img class="${c}" src="$
 function classes() {
   return head('Guides', 'Classes') + `<div class="cards">${Object.entries(BUILDS).map(([id, b]) => {
     const n = LIST.filter(m => classOf(m) == id).length;
-    return `<a class="card klass" href="#/classes/${b.cls}" style="--c:var(--gold-line);${ccStyle(b.cls)};align-content:start"><div class="who">${clsIcon(b.cls, 'kimg')}<div><div class="name ccls">${b.cls}</div><div class="sub">${b.role} · ${b.weapon}</div></div></div>
+    return `<a class="card klass" href="#/classes/${b.cls}" style="--c:var(--gold-line);${ccStyle(b.cls)};align-content:start"><div class="who">${clsIcon(b.cls, 'kimg')}<div><div class="name ccls">${b.cls}</div><div class="sub">${b.role} · ${b.weapon}</div><div class="sub">Builds: ${esc(b.name)} · ${esc(b.alt.name)} · ${esc(b.farm.name)}</div></div></div>
       <p class="hint">${b.about}</p><div class="sub">${n ? `${n} in the legion` : ''}</div></a>`; }).join('')}</div>`;
 }
 // every class's six boards (boards.json, read once a day by fetch.py), loaded the first time a guide opens
@@ -863,32 +970,35 @@ let CLASS_BOARDS = null;
 const loadClassBoards = () => loadClassBoards.p ||= fetch('boards.json', { cache: 'no-store' }).then(r => r.json())
   .then(d => { CLASS_BOARDS = d.classes; }, () => { CLASS_BOARDS = false; }).then(() => location.hash.startsWith('#/classes/') && route());
 const GUIDE_KEY = `<p class="legend"><span><i class="dk goal"></i>Numbered: open in this order</span><span><i class="dk on"></i>On the way</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Skip for now</span></p>`;
-function classGuide(name) {
+function classGuide(name, which) {
   loadClassBoards();
-  const [id, b] = Object.entries(BUILDS).find(([, x]) => x.cls === name) || [];
-  if (!b) return head('Guides', 'Not found') + '<div class="panel empty"><a href="#/classes">All classes</a></div>';
+  const [id, main] = Object.entries(BUILDS).find(([, x]) => x.cls === name) || [];
+  if (!main) return head('Guides', 'Not found') + '<div class="panel empty"><a href="#/classes">All classes</a></div>';
+  const all = [main, { ...main, ...main.alt }, { ...main, ...main.farm }], at = ['2', '3'].includes(which) ? +which - 1 : 0, b = all[at], base = '#/classes/' + main.cls;
+  const builds = `<nav class="tabs">${all.map((x, i) => `<a href="${base}${i ? '/' + (i + 1) : ''}" ${i === at ? 'aria-current="page"' : ''}>${esc(x.name)} build${x.role !== x.name ? ` <span class="hint">${esc(x.role)}</span>` : ''}</a>`).join('')}</nav>`;
   const chars = LIST.filter(m => classOf(m) == id);  // LIST is strongest first
   const icon = n => chars.flatMap(m => m.skill.skillList).find(x => x.name === n)?.icon;
   const row = (i, n, type, goal) => `<tr><td class="n">${i}</td><td>${icon(n) ? `<img src="${esc(icon(n))}" alt="">` : ''}</td><td>${esc(n)}</td><td class="sub">${type}</td><td class="n">${goal}</td></tr>`;
   const order = xs => `<ol class="list">${xs.map(x => `<li>${esc(x)}</li>`).join('')}</ol>`;
-  return head(`${b.role} · ${b.weapon}`, `<span class="who" style="${ccStyle(b.cls)}">${clsIcon(b.cls, 'kimg')}${b.cls}</span>`, '<a class="btn" href="#/classes">All classes</a>') + `
-    <section class="panel"><h2 class="ph">The class</h2><p>${b.about}</p></section>
+  return head(`${b.role} · ${b.weapon}`, `<span class="who" style="${ccStyle(b.cls)}">${clsIcon(b.cls, 'kimg')}${b.cls}</span>`, '<a class="btn" href="#/classes">All classes</a>') + builds + `
+    <section class="panel"><h2 class="ph">${at ? `The ${esc(b.name)} build` : 'The class'}</h2><p>${b.about}</p></section>
     <section class="panel wrap"><h2 class="ph">Skills to level <span class="hint">top to bottom</span></h2>
       <table class="cmp skills"><tr><th class="n">#</th><th></th><th>Skill</th><th>Type</th><th class="n">Goal</th></tr>
         ${b.active.map(([n, t], i) => row(i + 1, n, 'Active', 'Lv ' + t)).join('')}
         ${b.passive.map(n => row('', n, 'Passive', 'Keep even')).join('')}
         ${b.stigma.map(([n, t], i) => row(i + 1, n, 'Stigma', 'Lv ' + t)).join('')}</table>
       <p class="hint">Active skills to their goal first, two at a time; passives level together; stigmas step up in the order shown.</p></section>
-    <section class="panel"><h2 class="ph">Daevanion boards <span class="hint">open the numbered nodes in order; the outlined ones lead there</span></h2>
-      ${CLASS_BOARDS ? `<div class="dboards big">${Object.entries(CLASS_BOARDS[b.cls] || {}).map(([deity, rows]) => {
+    <section class="panel"><h2 class="ph">Daevanion boards</h2>
+      <p class="hint">Open the numbered nodes in order; the lit ones on the way lead there.</p>
+      ${CLASS_BOARDS ? `<div class="dboards big look-tiles">${Object.entries(CLASS_BOARDS[b.cls] || {}).map(([deity, rows]) => {
         const stats = SIDE_BOARDS[deity] || b.stats, { nodes, stops } = guidePath(rows, b, stats), names = stops.map(n => n.name);
         // the board's stats in this build's order, then its skills in the order the path reaches them
         const prio = [...stats.filter(s => names.includes(s)), ...new Set(names.filter(n => n.startsWith('Skill Level Up - ')).map(n => n.slice(17)))].slice(0, 5);
-        return boardGrid({ board: { name: deity + (deity === 'Ariel' ? ' · PvE' : deity === 'Azphel' ? ' · PvP' : '') }, nodes })
+        return boardGrid({ board: { name: deity + (deity === 'Ariel' ? ' · PvE' : deity === 'Azphel' ? ' · PvP' : ''), note: `${stops.length} stops · ${stops.reduce((s, n) => s + n.pts, 0)} pts` }, nodes })
           .replace(/<\/figure>$/, `<p class="sub"><b>Node priority</b></p>${order(prio)}</figure>`);
       }).join('')}</div>${GUIDE_KEY}`
         : `<p class="hint">${CLASS_BOARDS === null ? 'Loading the boards…' : 'Couldn’t load the boards. Try again later.'}</p>`}
-      <p class="hint">The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above first, then ${esc(b.stats.slice(0, 3).join(', '))} and the rest, big nodes before small ones, each the cheapest way there. Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}.</p></section>
+      <p class="hint">The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above and the big nodes for ${esc(b.stats.slice(0, 3).join(', '))} and the rest, cheapest first, then the small ones; each reached the cheapest way. Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}.</p></section>
     ${chars.length ? `<section class="panel"><h2 class="ph">Gear of the legion’s best ${b.cls} <a class="hint" href="${memberLink(chars[0].name)}">${esc(chars[0].name)}</a></h2>${gearGrid(chars[0].gear)}</section>
     <section class="panel"><h2 class="ph">${b.cls}s in the legion <span class="hint">open one for its own next points</span></h2><div class="cards">${chars.map(charCard).join('')}</div></section>`
       : `<section class="panel"><p class="hint">Nobody in the legion plays ${b.cls} yet. When someone does, their gear and next points show here.</p></section>`}`;
@@ -1099,6 +1209,7 @@ const ICON = { bolt: '<path d="M13 3 5 14h6l-1 7 8-11h-6z"/>', clock: '<circle c
   shield: '<path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/>', crown: '<path d="M3 8l4 4 5-7 5 7 4-4-2 11H5z"/>',
   feather: '<path d="M20 4c-8 0-14 6-14 14v2h2c8 0 14-6 12-16z"/><path d="M6 18 15 9"/>', grid: '<rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/>',
   book: '<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/>', star: '<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>',
+  external: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
   up: '<path d="M12 19V5M5 12l7-7 7 7"/>' };
 // section titles get their icon after each render, by how the title starts
 const PH_ICONS = [['Combat power', 'chart', 'var(--best)'], ['Your characters', 'user', 'var(--link)'], ['Your Aion 2', 'user', 'var(--link)'], ['Lately', 'list', 'var(--link)'], ['Latest', 'list', 'var(--link)'],
@@ -1153,7 +1264,8 @@ function livePanel() {
   const says = !inPremade() ? 'Live fight works in Premade’s app for Windows.' : LIVE_SAYS[L.state] || '';
   return `<section class="panel" id="livePanel"><h2 class="ph"><span class="who">${ico('bolt', 'var(--warn)')}Live fight</span><span class="hint">everyone’s damage and the boss’s HP while you fight</span></h2>
     ${inPremade() ? `<div class="chips"><label class="hint"><input type="checkbox" id="liveOn" ${on ? 'checked' : ''}> Show it live while I fight</label>
-      <label class="hint"><input type="checkbox" id="liveParty" ${L.party !== false ? 'checked' : ''}> Only my party</label></div>` : ''}
+      <label class="hint"><input type="checkbox" id="liveParty" ${L.party !== false ? 'checked' : ''}> Only my party</label>
+      <button type="button" class="btn small" id="livePop" title="The meter in its own small window over the game (Aion 2 in Borderless or Windowed mode)">${ico('external')}Pop out</button></div>` : ''}
     <p class="hint">Ban risk: this reads Aion 2’s traffic, as Abyss DPS Meter does. NC’s rules allow banning accounts for programs like this, so it’s off until you turn it on.</p>
     ${f ? `<div class="bosshp"><div class="lbl"><span class="nm">${ico('skull')}${esc(f.target || 'Target')}</span><span class="nums">${f.active ? '' : 'last fight · '}${mmss(f.secs)}${f.hp != null ? ` · ${big(f.hp)}` : ''}${f.pct != null ? `<span class="pct">${f.pct}%</span>` : ''}</span></div>
       <div class="track">${slideBar(`hp|${f.target}`, f.pct ?? 0, 'trail')}${slideBar(`hpf|${f.target}`, f.pct ?? 0, 'fill')}</div></div>
@@ -1196,6 +1308,8 @@ function wireLive() {  // after each render: the switches, rows opened to skills
     askLive(e.target.checked ? '1' : '0');
   });
   $('#liveParty')?.addEventListener('change', e => askLive(e.target.checked ? 'party' : 'all'));
+  // the pop-up meter, a window of Premade's desktop app (1.36+); Premade's page opens it
+  $('#livePop')?.addEventListener('click', () => { try { localStorage.setItem('lpc-aion-meter', `1|${Date.now()}`); } catch {} });
   document.querySelectorAll('[data-open]').forEach(r => r.onclick = () => { const k = r.dataset.open; if (!opened.delete(k)) opened.add(k); k.startsWith('live|') ? refreshLive() : rerender(); });
   document.querySelectorAll('[data-fight-at]').forEach(d => d.ontoggle = () => { const k = d.dataset.fightAt, was = opened.has(k); if (d.open) opened.add(k); else opened.delete(k); if (d.open !== was) rerender(); });
   slide();
@@ -1278,7 +1392,7 @@ function route() {
   document.querySelectorAll('.nav').forEach(a => a.dataset.r === cur ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const v = $('#view');
   v.innerHTML = page === 'legion' ? legion() : page === 'member' ? member(decodeURIComponent(arg || ''), sub)
-    : page === 'classes' ? (arg ? classGuide(decodeURIComponent(arg)) : classes())
+    : page === 'classes' ? (arg ? classGuide(decodeURIComponent(arg), sub) : classes())
     : page === 'compare' ? compare(params) : ['today', 'timers', 'checklist', 'news'].includes(page) ? timers() : page === 'dps' ? dpsPage(params)
     : profile();
   drawCharts();

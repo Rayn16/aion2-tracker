@@ -845,7 +845,7 @@ function news() {
 
 // Timers: Aion 2's resets and hourly events, and the field bosses the legion marks killed (kept by Premade's server,
 // /aion/boss), each with when it's back; Premade warns 5 minutes before one on your server respawns
-const BOSS_URL = CLAIMS_URL + '/boss', TICKS_URL = CLAIMS_URL + '/ticks';
+const BOSS_URL = CLAIMS_URL + '/boss';
 // respawn after a kill (minutes): Verteron's on Elyos servers (race 1), Altgard's on Asmodian ones (race 2). NCSOFT
 // hasn't published global ones; these are thegameswiki.com/aion-2/wiki/field-bosses (CC BY-NC-SA 4.0), the times since
 // Dec 17, 2025, which aion2atlas.app's global kill reports match
@@ -904,37 +904,10 @@ function timers(params) {
       : '<p class="hint">No characters yet, so no server to show.</p>'}</section>`;
 }
 
-// Checklist: Aion 2's daily (07:00 UTC) and weekly (Wednesday) things, ticked per character and kept by Premade's
-// server (/aion/ticks), so friends see who still needs a run. The counts are the game's own, as MetaBot.gg and Daeva
-// Guides list them (October 2026); shared ones count once for all of a server's characters
-const TODO = [
-  ['nightmare', 'Nightmare', 2, 'day'], ['transcend', 'Transcendence', 2, 'day'], ['conquest', 'Conquest', 3, 'day'],
-  ['duty', 'Duty Missions', 5, 'day', 1], ['shugo', 'Shugo Festival', 3, 'day', 1], ['invasion', 'Dimensional Invasion', 1, 'day', 1],
-  ['ascension', 'Ascension Trial', 3, 'week'], ['subjugation', 'Subjugation', 3, 'week'], ['dungeon', 'Daily Dungeon', 14, 'week', 1],
-].map(([k, name, n, per, shared]) => ({ k, name, n, per, shared: !!shared }));
-let TICKS = [];
-const loadTicks = () => fetch(TICKS_URL, { cache: 'no-store' }).then(r => r.json()).then(r => { TICKS = r.ticks || []; }, () => {});
-// how many of t o did for who (a character, or a server for a shared one) since t's last reset
-const did = (o, who, t) => { const x = TICKS.find(x => low(x.o) === low(o) && x.k === `${who}:${t.k}`); return x && x.at >= lastReset(t.per) ? x.n : 0; };
-const leftText = (o, m, per) => TODO.filter(t => t.per === per && !t.shared).map(t => [t.name, t.n - did(o, m.name, t)]).filter(([, n]) => n > 0)
-  .map(([name, n]) => `${name} ${n}`).join(' · ');
+// Checklist: your entry tickets as the game counts them (Premade's live fight reads them), with the resets
 function checklist() {
   const resets = `<span class="hint">Daily reset in ${span(nextReset('day') - Date.now())} · weekly ${weekday(nextReset('week'))}</span>`;
-  if (!ME) return head('Aion 2', 'Checklist', resets) + '<div class="panel empty">Open this in Premade’s Aion 2 page to tick off your dailies and weeklies and see what your friends still have to do.</div>';
-  const chars = mine().filter(m => m.server), own = TODO.filter(t => !t.shared), shared = TODO.filter(t => t.shared);  // picked ones show after their first update
-  const rows = (who, ts) => ts.map(t => { const n = did(ME, who, t), key = esc(`${who}:${t.k}`); return `<div class="tick ${n >= t.n ? 'done' : ''}"><span>${t.name}</span><span class="num">${n} / ${t.n}</span>
-    <button class="btn small" data-tick="${key}" data-d="-1" aria-label="One less ${t.name}" ${n ? '' : 'disabled'}>−</button><button class="btn small" data-tick="${key}" data-d="1" aria-label="One more ${t.name}" ${n < t.n ? '' : 'disabled'}>+</button></div>`; }).join('');
-  const box = (who, ts) => `<div class="ticks"><div class="sub">Today</div>${rows(who, ts.filter(t => t.per === 'day'))}<div class="sub">This week</div>${rows(who, ts.filter(t => t.per === 'week'))}</div>`;
-  const friends = PLAYERS.filter(p => isFriend(p.id) && !isMe(p.id) && TICKS.some(x => low(x.o) === low(p.id)));
-  return head('Aion 2', 'Checklist', resets) + ticketsPanel() + (chars.length ? `<div class="cards">
-    ${chars.map(m => `<section class="panel"><h2 class="ph"><span class="who">${pic(m)}${esc(m.name)}</span></h2>${box(m.name, own)}</section>`).join('')}
-    ${[...new Set(chars.map(m => m.server))].map(s => `<section class="panel"><h2 class="ph">${esc(s)} <span class="hint">all your characters</span></h2>${box(s, shared)}</section>`).join('')}</div>
-    <p id="tickMsg" class="hint" hidden></p>` : '<div class="panel empty">Pick your Aion 2 characters on <a href="#/">Profile</a> first. They show here after their first update.</div>') + `
-    <section class="panel wrap"><h2 class="ph">Friends still to do</h2>${friends.length ? `<table class="cmp"><tr><th>Character</th><th>Today</th><th>This week</th></tr>
-      ${friends.flatMap(p => p.chars.map(m => `<tr><td><a href="${memberLink(m.name)}">${esc(m.name)}</a> <span class="sub">${esc(p.name)}</span></td>
-        <td>${leftText(p.id, m, 'day') || '<span class="up">All done</span>'}</td><td>${leftText(p.id, m, 'week') || '<span class="up">All done</span>'}</td></tr>`)).join('')}</table>`
-      : '<p class="hint">Friends who tick their checklist show here, with what they still have to do.</p>'}</section>
-    <p class="hint">The counts are the game’s own, from MetaBot.gg’s and Daeva Guides’ lists. Daily ones reset at ${clock(nextReset('day'))} your time, weekly ones on Wednesday.</p>`;
+  return head('Aion 2', 'Checklist', resets) + (ticketsPanel() || `<div class="panel empty">Your entry tickets show here once Premade’s app reads them: turn on Live fight on the <a href="#/dps">DPS</a> page, then log in to Aion 2 or use a ticket.</div>`);
 }
 
 // DPS: your fights as Premade's app reads them off Aion 2's Combat Analysis (Ctrl+X) while Aion 2 is open, kept in
@@ -1141,11 +1114,11 @@ function aionBeat() {
     if (!warned.has(key) && warnOn()) say(`${k.b} comes back in ${span(k.due - now)}, at ${clock(k.due)}`);
     warned.add(key);
   }
-  const m = mine().find(m => m.server), left = m && leftText(ME, m, 'day');
+  const tix = Object.values(premade('lpc-aion-tickets') || {}).filter(x => TICKETS[x.id] && x.id !== 60000001).map(x => `${TICKETS[x.id][0]} ${x.left}`).join(' · ');
   try {
     localStorage.setItem('aion-warned', JSON.stringify([...warned].slice(-50)));
     localStorage.setItem('lpc-aion-card', JSON.stringify({ at: now, lines: [...next.slice(0, 3).map(k => `${k.b} in ${span(k.due - now)}`),
-      `Daily reset in ${span(nextReset('day') - now)}`, ...(m ? [left ? `${m.name} today: ${left}` : `${m.name}: dailies done`] : [])] }));
+      `Daily reset in ${span(nextReset('day') - now)}`, ...(tix ? [tix] : [])] }));
   } catch {}
 }
 
@@ -1217,13 +1190,6 @@ function route() {
     tell($('#bossMsg'), err);
   });
   // a tick shows at once, and goes back if the server says no
-  document.querySelectorAll('[data-tick]').forEach(b => b.onclick = async () => {
-    const k = b.dataset.tick, [who, item] = k.split(':'), t = TODO.find(x => x.k === item), was = did(ME, who, t), n = Math.min(t.n, Math.max(0, was + +b.dataset.d));
-    const set = n => { TICKS = TICKS.filter(x => !(low(x.o) === low(ME) && x.k === k)); if (n) TICKS.push({ o: ME, k, n, at: Date.now() }); };
-    set(n); rerender();
-    const err = await said(TICKS_URL, { k, n });
-    if (err) { set(was); rerender(); tell($('#tickMsg'), err); }
-  });
   const find = $('#findForm');
   if (!find) return;
   find.addEventListener('submit', async e => {
@@ -1279,13 +1245,13 @@ function load(data) {
 addEventListener('hashchange', route);
 // pick up each new update while the page stays open (GitHub Pages may serve the old file for up to 10 minutes)
 setInterval(() => fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(d => d.updated !== DATA.updated && load(d)).catch(() => {}), 5 * 60e3);
-Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({ members: {} })), loadClaims(), loadKills(), loadTicks()]).then(([d]) => load(d));
+Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({ members: {} })), loadClaims(), loadKills()]).then(([d]) => load(d));
 // Premade's server shares a daily request budget with voice, so the kills and ticks come on opening, after your own
 // change and when Premade shows this page again (aionShown), then every 2 minutes only while it's in sight; the
 // countdowns move every 30 s from what's known
 const inSight = () => { try { return document.visibilityState === 'visible' && (!frameElement || frameElement.checkVisibility()); } catch { return document.visibilityState === 'visible'; } };
 let beats = 0, fetchedAt = Date.now();
-const refetch = () => { fetchedAt = Date.now(); return Promise.all([loadKills(), loadTicks(), location.hash.startsWith('#/dps') && loadFights()]); };
+const refetch = () => { fetchedAt = Date.now(); return Promise.all([loadKills(), location.hash.startsWith('#/dps') && loadFights()]); };
 window.aionShown = () => { if (Date.now() - fetchedAt > 30e3) refetch().then(rerender); };
 setInterval(() => {
   const page = location.hash.slice(2).split(/[/?]/)[0];

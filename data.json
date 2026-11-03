@@ -2043,14 +2043,14 @@
     },
     {
      "date": "2026-11-03",
-     "cp": 69592,
-     "il": 1480
+     "cp": 71055,
+     "il": 1524
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 69592,
-   "il": 1480,
+   "cp": 71055,
+   "il": 1524,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2090,37 +2090,41 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Spiritforged Guard",
+     "name": "Vakron Guard",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_U_003.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Defense",
-       "+10",
+       "Attack",
+       "+1",
        "Common"
       ],
       [
-       "Block",
-       "+10",
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
        "Rare"
       ],
       [
-       "Defense",
-       "+30",
-       "Rare"
-      ],
-      [
-       "Evasion Bonus",
+       "Accuracy Bonus",
        "+7",
        "Rare"
       ]
      ],
      "godSlots": 1,
      "god": [],
-     "src": []
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
     },
     {
      "slotPosName": "Torso",
@@ -2255,7 +2259,7 @@
      "slotPosName": "Gloves",
      "name": "Bakarma Gloves",
      "grade": "Unique",
-     "enchantLevel": 8,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -2291,31 +2295,31 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Bakarma Boots",
+     "name": "Vakron Boots",
      "grade": "Unique",
-     "enchantLevel": 8,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Boots.png",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Boots.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
        "Critical Hit",
-       "+5",
-       "Common"
-      ],
-      [
-       "Defense",
-       "+30",
+       "+7",
        "Rare"
       ],
       [
-       "Critical Hit",
+       "Critical Hit Resist",
        "+7",
        "Rare"
       ],
       [
        "Block",
        "+7",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
        "Common"
       ]
      ],
@@ -2559,10 +2563,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.6%"
+      "Attack increase +1.6%"
      ],
      "type": "STR",
-     "value": 26
+     "value": 16
     },
     {
      "name": "Dexterity",
@@ -2696,7 +2700,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1480
+     "value": 1524
     }
    ],
    "title": {
@@ -2998,7 +3002,7 @@
       "id": 12740000,
       "name": "Ironclad Defense",
       "needLevel": 11,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -3018,7 +3022,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -3048,7 +3052,7 @@
       "id": 12790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -3962,15 +3966,15 @@
     },
     {
      "date": "2026-11-03",
-     "cp": 70753,
-     "il": 1478
+     "cp": 70845,
+     "il": 1480
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 70753,
-   "il": 1478,
+   "cp": 70845,
+   "il": 1480,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4478,10 +4482,10 @@
      ]
     },
     {
-     "slotPosName": "Rune1",
+     "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 1,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -4494,10 +4498,10 @@
      ]
     },
     {
-     "slotPosName": "Rune2",
+     "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 1,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -4667,11 +4671,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1478
+     "value": 1480
     }
    ],
    "title": {
-    "ownedCount": 180,
+    "ownedCount": 181,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -4736,8 +4740,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 60,
-      "ownedPercent": 61,
+      "ownedCount": 61,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "MP +20"
@@ -7868,8 +7872,43 @@
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898956285"
   }
  },
- "updated": "2026-11-03 00:04 UTC",
+ "updated": "2026-11-03 00:32 UTC",
  "feed": [
+  {
+   "t": "2026-11-03 00:31",
+   "n": "CuteCatty",
+   "x": "Clash Rune +1 → +2"
+  },
+  {
+   "t": "2026-11-03 00:31",
+   "n": "CuteCatty",
+   "x": "Clash Rune +1 → +2"
+  },
+  {
+   "t": "2026-11-03 00:31",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-03 00:31",
+   "n": "YasuoMain16",
+   "x": "new Vakron Guard +10"
+  },
+  {
+   "t": "2026-11-03 00:31",
+   "n": "YasuoMain16",
+   "x": "Bakarma Gloves +8 → +10"
+  },
+  {
+   "t": "2026-11-03 00:31",
+   "n": "YasuoMain16",
+   "x": "new Vakron Boots +10"
+  },
+  {
+   "t": "2026-11-03 00:31",
+   "n": "YasuoMain16",
+   "x": "skills up: Impact Hit 13, Survival Willpower 15"
+  },
   {
    "t": "2026-11-03 00:04",
    "n": "CutieCatty",

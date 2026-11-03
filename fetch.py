@@ -125,8 +125,8 @@ def members(path="members.txt"):
 def roster(claims):
     """members.txt plus the claimed characters; members.txt wins for a character on both."""
     rows = {n.lower(): (n, s, o) for n, s, o in members()}
-    for c in claims:
-        rows.setdefault(c["n"].lower(), (c["n"], c["s"], c["o"]))
+    for c in claims:  # "+Riot ID": a member someone added, who has no owner until they claim it themselves
+        rows.setdefault(c["n"].lower(), (c["n"], c["s"], "" if c["o"].startswith("+") else c["o"]))
     return list(rows.values())
 
 
@@ -207,8 +207,8 @@ def demo():
         open(os.path.join(d, "members.txt"), "w").write("# x\nA, Tassin\nB, Tassin, Me#EU\n")
         cwd = os.getcwd(); os.chdir(d)
         try:
-            assert roster([{"n": "a", "s": "Tassin", "o": "X#1"}, {"n": "C", "s": "Ariel", "o": "Y#2"}]) == \
-                [("A", "Tassin", ""), ("B", "Tassin", "Me#EU"), ("C", "Ariel", "Y#2")]
+            assert roster([{"n": "a", "s": "Tassin", "o": "X#1"}, {"n": "C", "s": "Ariel", "o": "Y#2"}, {"n": "D", "s": "Ariel", "o": "+Me#EU"}]) == \
+                [("A", "Tassin", ""), ("B", "Tassin", "Me#EU"), ("C", "Ariel", "Y#2"), ("D", "Ariel", "")]
         finally:
             os.chdir(cwd)
     assert item_level({"stat": {"statList": [{"type": "X", "value": 1}, {"type": "ItemLevel", "value": 1937}]}}) == 1937

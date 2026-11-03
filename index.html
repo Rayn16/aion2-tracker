@@ -104,6 +104,12 @@ main { grid-area: main; overflow: auto; padding: 22px clamp(16px, 3vw, 32px) 32p
 .dbars { display: grid; gap: 4px; }
 .dbar { position: relative; display: block; width: 100%; height: 28px; padding: 0; overflow: hidden; border: 1px solid transparent; border-radius: 7px; background: var(--raised); color: var(--fg); font: inherit; text-align: left; cursor: pointer; }
 .dbar:hover { border-color: var(--gold-line); }
+/* your own bar: always Premade's theme colour (the one you picked in Premade), not your class's */
+.dbar.mine { border-color: var(--gold-line); }
+.dbar.mine > .fill { background: color-mix(in srgb, var(--gold) 45%, transparent); }
+.dbar.mine .who b { color: var(--gold-hi); }
+.dbar.mine .av { border-color: var(--gold); box-shadow: 0 0 8px color-mix(in srgb, var(--gold) 55%, transparent); }
+.dskills.mine .m > i { background: var(--gold); }
 .dbar > .fill { position: absolute; inset: 0 auto 0 0; background: rgb(var(--cc, 140 140 150) / 0.42); transition: width 0.4s ease; }
 .dbar > .txt { position: relative; display: flex; align-items: center; gap: 8px; height: 100%; padding: 0 10px; font-size: 13px; }
 .dbar .dot { width: 10px; height: 10px; flex: none; border-radius: 3px; background: rgb(var(--cc, 140 140 150)); }
@@ -961,30 +967,15 @@ const inPremade = () => { try { return !!parent.aionNotify; } catch { return fal
 // a kill, a tick or a fight to Premade's server: '' once it's kept, else why not
 const said = (url, body) => fetch(url, { method: 'POST', body: JSON.stringify({ id: DEVICE, o: ME, ...body }) }).then(x => x.json())
   .then(r => r.error || '', () => 'Premade’s server didn’t answer. Try again in a minute.');
-function timers(params) {
-  const servers = [...new Set(LIST.map(m => m.server))], now = Date.now();
-  const s = servers.includes(params.get('s')) ? params.get('s') : myServers().find(x => servers.includes(x)) || servers[0];
+function timers() {
+  const now = Date.now();
   // a ring that fills as the time gets closer: period is how long a full turn is
   const ring = (left, period, icon, up) => `<span class="ring ${up ? 'up' : left < 10 * 6e4 ? 'soon' : ''}" style="--p:${up ? 100 : Math.max(0, Math.min(100, 100 - (left / period) * 100)).toFixed(1)}">${ico(icon)}</span>`;
   const tile = (k, t, sub, period, icon) => `<div class="tile timer">${ring(t - now, period, icon)}<span class="k">${k}</span><span class="v">${span(t - now)}</span><span class="s">${sub}</span></div>`;
-  const rows = bossesOf(raceOf(s)).map(b => { const k = KILLS.find(x => x.s === s && x.b === b.n); return { ...b, k, due: k ? k.at + b.min * 6e4 : Infinity }; })
-    .sort((a, b) => a.due - b.due || a.min - b.min);  // up first, then the next to respawn, then the unmarked ones
-  const every = min => min < 60 ? `${min} min` : `${min / 60} h`;
-  const pick = n => `<select data-boss="${esc(n)}" data-s="${esc(s)}" aria-label="Mark ${esc(n)} killed"><option value="">Killed…</option>
-    ${[0, 5, 10, 15, 30, 60].map(m => `<option value="${m}">${m ? m + ' min ago' : 'Just now'}</option>`).join('')}<option value="del">Take the mark off</option></select>`;
-  return head('Aion 2', 'Timers', servers.length > 1 ? `<select id="tServer" aria-label="Server">${servers.map(x => `<option ${x === s ? 'selected' : ''}>${esc(x)}</option>`).join('')}</select>` : '') + `
+  return head('Aion 2', 'Timers') + `
     <div class="tiles">${tile('Daily reset', nextReset('day'), `at ${clock(nextReset('day'))} your time`, 864e5, 'clock')}${tile('Weekly reset', nextReset('week'), `${weekday(nextReset('week'))} ${clock(nextReset('week'))}`, 7 * 864e5, 'clock')}
       ${tile('Shugo Festival', nextAt(0), 'every hour at :00', 36e5, 'star')}${tile('Dimensional Invasion', nextAt(30), 'every hour at :30', 36e5, 'shield')}</div>
-    <section class="panel"><h2 class="ph">Field bosses${s ? ` on ${esc(s)} <span class="hint">${raceOf(s) === 1 ? 'Verteron' : 'Altgard'}</span>` : ''}</h2>
-      ${rows.length ? `<p class="hint">Each one comes back a set time after it dies. Mark a kill and everyone in the legion sees when it’s back${ME ? '; Premade warns you 5 minutes before' : ''}.</p>
-      <div class="rows">${rows.map(b => `<div class="row boss">${b.k ? ring(b.due - now, b.min * 6e4, 'skull', b.due <= now) : '<span class="ring" style="--p:0">' + ico('skull') + '</span>'}<span style="min-width:0"><div class="name">${esc(b.n)}</div>
-        <div class="sub">Every ${every(b.min)}${b.k ? ` · died ${clock(b.k.at)}, marked by ${esc(nick(b.k.o))}` : ''}</div></span>
-        <span class="num ${b.due <= now ? 'up' : ''}">${!b.k ? '–' : b.due > now ? `in ${span(b.due - now)}<div class="sub">${clock(b.due)}</div>` : `Up<div class="sub">since ${clock(b.due)}</div>`}</span>
-        ${ME ? pick(b.n) : ''}</div>`).join('')}</div>
-      <p id="bossMsg" class="hint" hidden></p>
-      ${ME ? `<label class="hint"><input type="checkbox" id="warnBoss" ${warnOn() ? 'checked' : ''}>Warn me 5 minutes before a marked boss on my server comes back</label>` : ''}
-      <p class="hint">Respawn times from <a href="https://thegameswiki.com/aion-2/wiki/field-bosses" target="_blank" rel="noopener">The Games Wiki</a> (CC BY-NC-SA 4.0), which match aion2atlas.app’s kill reports. NCSOFT hasn’t published them, so one may be off.</p>`
-      : '<p class="hint">No characters yet, so no server to show.</p>'}</section>`;
+`;
 }
 
 // Checklist: your entry tickets as the game counts them (Premade's live fight reads them), with the resets
@@ -1104,10 +1095,10 @@ function fightBars(players, key) {
   for (const m of info.values()) sheetFor(m.name, m.server);
   return `<div class="dbars">${players.map(p => {
     const id = `${key}|${p.name}`, me = info.get(p.name) || {}, rgb = CLASS_RGB[me.cls];
-    return `<button type="button" class="dbar" data-open="${esc(id)}" ${rgb ? `style="--cc:${rgb}"` : ''} title="Click for top skills">${slideBar(id, (p.dps / top) * 100, 'fill')}
+    return `<button type="button" class="dbar${p.me ? ' mine' : ''}" data-open="${esc(id)}" ${rgb ? `style="--cc:${rgb}"` : ''} title="Click for top skills">${slideBar(id, (p.dps / top) * 100, 'fill')}
       <span class="txt">${avatar(p.name, me.cls)}<span class="who"><b>${esc(p.name)}</b>${p.me ? '<span class="you">You</span>' : ''}${me.cls ? `<span class="cls">${esc(me.cls)}</span>` : ''}${me.cp ? `<span class="cp">CP ${fmt(me.cp)}</span>` : ''}</span>
       <span class="n dps">${big(p.dps)}</span><span class="n sh">${p.share}%</span><span class="n dmg">${big(p.damage)}</span></span></button>
-      ${opened.has(id) ? `<div class="dskills" ${rgb ? `style="--cc:${rgb}"` : ''}>${(p.skills || []).map(k => { const s = skillOf(k.id);
+      ${opened.has(id) ? `<div class="dskills${p.me ? ' mine' : ''}" ${rgb ? `style="--cc:${rgb}"` : ''}>${(p.skills || []).map(k => { const s = skillOf(k.id);
         return `<div class="sk">${s.icon ? `<img src="${esc(s.icon)}" alt="" loading="lazy">` : '<i class="noimg"></i>'}<span class="nm">${esc(s.name || `Skill ${k.id}`)}</span>
           <span class="m"><i style="width:${k.share}%"></i></span><span class="n"><b>${big(k.damage)}</b></span><span class="n">${k.share}%</span><span class="n">${k.hits} hits</span></div>`; }).join('') || '<span class="hint">No skills yet.</span>'}
         ${p.crit ? `<span class="hint">Crits ${p.crit}% of hits</span>` : ''}</div>` : ''}`;
@@ -1244,7 +1235,7 @@ function route() {
   const v = $('#view');
   v.innerHTML = page === 'legion' ? legion() : page === 'member' ? member(decodeURIComponent(arg || ''), sub)
     : page === 'classes' ? (arg ? classGuide(decodeURIComponent(arg)) : classes())
-    : page === 'compare' ? compare(params) : page === 'news' ? news() : page === 'timers' ? timers(params) : page === 'checklist' ? checklist() : page === 'dps' ? dpsPage(params)
+    : page === 'compare' ? compare(params) : page === 'news' ? news() : page === 'timers' ? timers() : page === 'checklist' ? checklist() : page === 'dps' ? dpsPage(params)
     : page === 'settings' ? settings() : profile();
   drawCharts();
   phIcons();

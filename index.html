@@ -286,6 +286,56 @@ table.skills .meter { min-width: 80px; }
 .dboards.big .dboard > ol.list li { counter-increment: p; padding: 3px 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--raised); font-size: 12px; }
 .dboards.big .dboard > ol.list li::before { content: counter(p) " "; font: 600 11px/1 var(--mono); color: var(--gold); }
 .dboards.big .dboard > ol.list li:first-child { border-color: var(--gold-line); }
+/* the guide's boards, v2: each board a star chart in Premade's colours. Tiles are cut gems, Route a constellation with
+   light running along the path, Steps a quest log beside a small map. The first stop pulses in every look. */
+.dboards.big .dboard { position: relative; overflow: hidden; padding: 14px; border-color: color-mix(in srgb, var(--gold) 22%, var(--line));
+  background: radial-gradient(110% 60% at 50% 0%, color-mix(in srgb, var(--gold) 9%, transparent), transparent 65%), var(--panel);
+  clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px)); }
+.dboards.big .dboard::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+.dboards.big .dboard figcaption { font-size: 17px; letter-spacing: 0.1em; text-shadow: 0 0 14px color-mix(in srgb, var(--gold) 45%, transparent); }
+.dboards.big .dboard figcaption .note { padding: 3px 8px; border: 1px solid var(--gold-line); border-radius: 20px; background: color-mix(in srgb, var(--gold) 8%, transparent); text-shadow: none; }
+.dboards.big .dgrid { border-color: color-mix(in srgb, var(--gold) 18%, var(--line)); background:
+  radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--gold) 12%, transparent), transparent 55%),
+  radial-gradient(circle, rgb(255 255 255 / 0.06) 1px, transparent 1.5px) 0 0 / 14px 14px, #070506; box-shadow: inset 0 0 30px rgb(0 0 0 / 0.8); }
+.dboards.big .dgrid i.start { opacity: 1; border: 0; background: radial-gradient(circle, #fff, var(--gold-hi) 40%, color-mix(in srgb, var(--gold) 60%, #fff)); box-shadow: 0 0 14px 3px color-mix(in srgb, var(--gold) 55%, transparent); }
+@keyframes first { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--gold) 70%, transparent), 0 0 14px var(--gold); } 100% { box-shadow: 0 0 0 9px transparent, 0 0 14px var(--gold); } }
+.dboards.big .dgrid i.stop[data-n="1"] { animation: first 1.8s ease-out infinite; z-index: 3; }
+/* Tiles: cut gems; the way there in its grade's colour, the stops gold and numbered */
+.dboards.look-tiles .dgrid { gap: 4px; }
+.dboards.look-tiles .dgrid i { transform: rotate(45deg) scale(0.74); border-radius: 3px; opacity: 0.35; }
+.dboards.look-tiles .dgrid i b { transform: rotate(-45deg); font-size: clamp(9px, 1.1vw, 12px); }
+.dboards.look-tiles .dgrid i.skill, .dboards.look-tiles .dgrid i.start { transform: scale(0.8); border-radius: 50%; }
+.dboards.look-tiles .dgrid i.skill b { transform: none; }
+.dboards.look-tiles .dgrid i.path { opacity: 1; border-color: color-mix(in srgb, var(--gold) 60%, transparent); background: linear-gradient(135deg, color-mix(in srgb, var(--gold) 35%, var(--g, var(--raised))), color-mix(in srgb, var(--gold) 25%, #000)); box-shadow: 0 0 8px color-mix(in srgb, var(--g, var(--muted)) 60%, transparent); }
+.dboards.look-tiles .dgrid i.stop { transform: rotate(45deg) scale(0.95); background: linear-gradient(135deg, color-mix(in srgb, var(--gold) 60%, #fff), var(--gold) 45%, color-mix(in srgb, var(--gold) 60%, #000)); box-shadow: 0 0 12px color-mix(in srgb, var(--gold) 70%, transparent); }
+.dboards.look-tiles .dgrid i.stop.skill { transform: scale(0.95); }
+/* Route: dim stars, a glowing line with light running along it, the stops as ringed medallions */
+.dboards.look-route .dgrid i { opacity: 0.22; transform: scale(0.45); }
+.dboards.look-route .dgrid i.path { opacity: 1; transform: scale(0.5); border: 0; background: var(--gold-hi); box-shadow: 0 0 6px var(--gold); }
+.dboards.look-route .dgrid i.stop, .dboards.look-route .dgrid i.start { transform: none; }
+.dboards.look-route .dgrid i.stop { border: 0; background: radial-gradient(circle at 35% 30%, color-mix(in srgb, var(--gold) 55%, #fff), var(--gold) 60%); outline: 2px solid color-mix(in srgb, var(--gold) 45%, transparent); outline-offset: 2px; }
+.dboards.look-route .droute { filter: drop-shadow(0 0 3px var(--gold)); }
+.dboards.look-route .droute line { vector-effect: non-scaling-stroke; stroke-width: 3px; stroke: color-mix(in srgb, var(--gold) 75%, #000); }
+.dboards.look-route .droute .flow line { stroke: #fff; stroke-width: 1.5px; stroke-dasharray: 3px 9px; animation: flow 1.4s linear infinite; opacity: 0.8; }
+@keyframes flow { to { stroke-dashoffset: -12px; } }
+.droute .flow { display: none; }
+.dboards.look-route .droute .flow { display: inline; }
+/* Steps: a quest log down a glowing rail with the points so far, next to the board as a small map */
+.dboards.look-steps .dboard { grid-template-columns: minmax(200px, 260px) 1fr; }
+.dboards.look-steps .dboard .dgrid { grid-column: 1; grid-row: 2; }
+.dboards.big.look-steps .dboard > p.sub, .dboards.big.look-steps .dboard > ol.list { display: none; }
+.dboards.look-steps .dboard .dsteps { grid-column: 2; grid-row: 2; }
+.dboards.look-steps .dgrid i.path { opacity: 1; box-shadow: 0 0 6px color-mix(in srgb, var(--g, var(--muted)) 70%, transparent); }
+.dboards.look-steps .dsteps { display: block; column-count: 2; column-gap: 18px; }
+.dboards.look-steps .dsteps li { position: relative; display: grid; break-inside: avoid; margin: 0 0 6px; grid-template-columns: 22px 10px 1fr auto; padding: 4px 9px 4px 4px;
+  border: 1px solid var(--line); border-radius: 4px; background: linear-gradient(90deg, color-mix(in srgb, var(--gold) 9%, var(--raised)), var(--raised)); }
+.dboards.look-steps .dsteps li::before { display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; color: var(--accent-fg); background: var(--gold); box-shadow: 0 0 10px color-mix(in srgb, var(--gold) 55%, transparent); text-align: center; }
+.dboards.look-steps .dsteps li::after { content: ""; position: absolute; left: 14px; top: 100%; width: 2px; height: 7px; background: var(--gold); }
+.dboards.look-steps .dsteps li[data-n="1"] { border-color: var(--gold-line); }
+.dboards.look-steps .dsteps li[data-n="1"]::before { animation: first 1.8s ease-out infinite; }
+.dsteps .c { text-align: right; }
+.dsteps .c small { display: block; margin-top: 2px; font-size: 9.5px; color: color-mix(in srgb, var(--gold) 70%, var(--muted)); }
+@media (prefers-reduced-motion: reduce) { .dboards.big *, .dboards.big *::before { animation: none !important; } }
 .dk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
 .empty { padding: 40px; text-align: center; color: var(--muted); }
 .tag { font: 500 11px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--link); margin-left: 8px; }
@@ -863,10 +913,11 @@ const boardGrid = ({ board, nodes, pick }) => {
   const r0 = Math.min(...nodes.map(n => n.row)), c0 = Math.min(...nodes.map(n => n.col));
   const cols = Math.max(...nodes.map(n => n.col)) - c0 + 1, rows = Math.max(...nodes.map(n => n.row)) - r0 + 1;
   const xy = n => [n.col - c0 + 0.5, n.row - r0 + 0.5];
-  const lines = nodes.some(n => n.link) ? `<svg class="droute" viewBox="0 0 ${cols} ${rows}" preserveAspectRatio="none">${nodes.filter(n => n.link).map(n => {
-    const [x1, y1] = xy(n), [x2, y2] = xy(n.link); return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/>`; }).join('')}</svg>` : '';
+  const segs = nodes.filter(n => n.link).map(n => {
+    const [x1, y1] = xy(n), [x2, y2] = xy(n.link); return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/>`; }).join('');
+  const lines = segs ? `<svg class="droute" viewBox="0 0 ${cols} ${rows}" preserveAspectRatio="none"><g>${segs}</g><g class="flow">${segs}</g></svg>` : '';
   return `<figure class="dboard"><figcaption>${board.icon ? `<img src="${esc(board.icon)}" alt="">` : ''}${esc(board.name)} ${board.openNodeCount != null ? `<span class="hint">${fmt(board.openNodeCount)} / ${fmt(board.totalNodeCount)}</span>` : ''}${board.note ? `<span class="note">${board.note}</span>` : ''}</figcaption>
-    <div class="dgrid" style="--cols:${cols}">${lines}${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.num ? ' stop' : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"
+    <div class="dgrid" style="--cols:${cols}">${lines}${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.num ? ' stop' : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"${n.num ? ` data-n="${n.num}"` : ''}
       style="grid-area:${n.row - r0 + 1}/${n.col - c0 + 1};--g:${GRADE[n.grade] || 'var(--muted)'}" title="${n.num ? n.num + '. ' : ''}${esc(n.name)}${n.goal ? ' (goal)' : n.path ? ' (on the way)' : n.open ? ' (open)' : ''}">${n.num ? `<b>${n.num}</b>` : ''}</i>`).join('')}</div>
     ${pick ? `<p class="sub">Goal: <b>${esc(pick.node.name)}</b>, ${pick.node.cost} pts${pick.steps > 1 ? `, open ${esc(pick.first.name)} first` : ''}</p>` : ''}</figure>`;
 };
@@ -1004,7 +1055,7 @@ function classGuide(name, which) {
         // the board's stats in this build's order, then its skills in the order the path reaches them
         const prio = [...stats.filter(s => names.includes(s)), ...new Set(names.filter(n => n.startsWith('Skill Level Up - ')).map(n => n.slice(17)))].slice(0, 5);
         return boardGrid({ board: { name: deity + (deity === 'Ariel' ? ' · PvE' : deity === 'Azphel' ? ' · PvP' : ''), note: `${stops.length} stops · ${stops.reduce((s, n) => s + n.pts, 0)} pts` }, nodes })
-          .replace(/<\/figure>$/, `<p class="sub"><b>Node priority</b></p>${order(prio)}<ol class="dsteps">${stops.map(n => `<li><i class="g${n.name.startsWith('Skill Level Up') ? ' skill' : ''}" style="--g:${GRADE[n.grade] || 'var(--muted)'}"></i><span>${esc(n.name.replace('Skill Level Up - ', 'Skill: '))}</span><span class="c">+${n.pts} pts</span></li>`).join('')}</ol></figure>`);
+          .replace(/<\/figure>$/, `<p class="sub"><b>Node priority</b></p>${order(prio)}<ol class="dsteps">${stops.map((n, i) => `<li data-n="${i + 1}"><i class="g${n.name.startsWith('Skill Level Up') ? ' skill' : ''}" style="--g:${GRADE[n.grade] || 'var(--muted)'}"></i><span>${esc(n.name.replace('Skill Level Up - ', 'Skill: '))}</span><span class="c">+${n.pts}<small>${stops.slice(0, i + 1).reduce((t, x) => t + x.pts, 0)} pts</small></span></li>`).join('')}</ol></figure>`);
       }).join('')}</div>${GUIDE_KEY}`
         : `<p class="hint">${CLASS_BOARDS === null ? 'Loading the boards…' : 'Couldn’t load the boards. Try again later.'}</p>`}
       <p class="hint">The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above first, then ${esc(b.stats.slice(0, 3).join(', '))} and the rest, big nodes before small ones, each the cheapest way there. Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}.</p></section>

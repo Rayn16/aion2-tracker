@@ -91,6 +91,29 @@ def board(detail):
             for n in detail["nodeList"] if n["grade"] != "None" or n["type"] == "Start"]
 
 
+# Every class's Daevanion boards for the class guides. The game numbers them by class (pc id order) and deity:
+# class k's boards are k1..k6. Any character can read any of them, so one of ours reads all 48, once a day.
+CLASSES = ["Gladiator", "Templar", "Ranger", "Assassin", "Spiritmaster", "Sorcerer", "Cleric", "Chanter"]
+DEITIES = ["Nezekan", "Zikel", "Vaizel", "Triniel", "Ariel", "Azphel"]
+
+
+def class_boards(ids):
+    """{class: {deity: board rows}}, every node closed but the start (the rows say what our character opened)."""
+    out = {}
+    for k, cls in enumerate(CLASSES, 1):
+        for d, deity in enumerate(DEITIES, 1):
+            rows = board(get(API.format(kind="daevanion/detail", **ids) + f"&boardId={k}{d}"))
+            out.setdefault(cls, {})[deity] = [r if r.split("|")[2] == "Start" else unopen(r) for r in rows]
+            time.sleep(1)
+    return out
+
+
+def unopen(row):
+    r = row.split("|", 4)
+    r[3] = "0"
+    return "|".join(r)
+
+
 def members(path="members.txt"):
     """(name, server, owner's Riot ID or "") from members.txt."""
     for line in open(path, encoding="utf-8"):
@@ -118,7 +141,7 @@ def main():
     except Exception as e:  # server down: keep everyone we have, just add no one new
         print(f"claims not read: {e}")
         claims = None
-    rows = roster(claims or [])
+    rows, last_ids = roster(claims or []), None
     if claims is not None:  # a character nobody lists or claims any more leaves the legion
         keep = {n for n, _, _ in rows}
         data["members"] = {n: m for n, m in data["members"].items() if n in keep}
@@ -129,7 +152,7 @@ def main():
                 print(f"not found: {name} on {server}")
                 continue
             # characterId comes back already URL-encoded; pass it through as-is
-            ids = dict(region=REGION, cid=c["characterId"], sid=c["serverId"])
+            ids = last_ids = dict(region=REGION, cid=c["characterId"], sid=c["serverId"])
             info = get(API.format(kind="info", **ids))
             equip = get(API.format(kind="equipment", **ids))
             # every node of each open board, for the "next node" advice
@@ -155,6 +178,15 @@ def main():
             data["feed"] = [{"t": at, "n": name, "x": x} for x in changes(before, m)] + data.get("feed", [])
         print(f"{name}: CP {m['cp']}, IL {m['il']}")
         time.sleep(3)  # be polite
+    try:
+        old = json.load(open("boards.json", encoding="utf-8"))
+    except FileNotFoundError:
+        old = {}
+    if old.get("date") != today and last_ids:
+        try:
+            json.dump({"date": today, "classes": class_boards(last_ids)}, open("boards.json", "w", encoding="utf-8"), ensure_ascii=False)
+        except Exception as e:  # keep yesterday's boards
+            print(f"class boards failed: {e}")
     data["feed"] = data.get("feed", [])[:300]
     data["updated"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     json.dump(data, open("data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -195,6 +227,7 @@ def demo():
     assert changes(before, after) == ["reached level 45", "Sword +14 → +15", "new Ring +0", "1 new title",
                                       "opened 2 Daevanion nodes", "skills up: Keen Strike 15"]
     assert changes(after, after) == []
+    assert unopen("3|4|Common|1|Attack, Defense|x") == "3|4|Common|0|Attack, Defense|x"
 
 
 if __name__ == "__main__":

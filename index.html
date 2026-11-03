@@ -60,9 +60,56 @@ main { grid-area: main; overflow: auto; padding: 22px clamp(16px, 3vw, 32px) 32p
 .track > .trail { background: color-mix(in srgb, var(--bad) 35%, transparent); transition: width 1.2s ease 0.4s; }
 .track > .fill { background: linear-gradient(90deg, var(--bad), color-mix(in srgb, var(--bad) 55%, var(--fg))); box-shadow: 0 0 10px color-mix(in srgb, var(--bad) 55%, transparent); transition: width 0.3s ease; }
 .lhead { display: flex; gap: 8px; padding: 0 10px; font-size: 12px; }
+/* icons and colour: a coloured icon in each live section's title, class icons and portraits on the bars, skill icons
+   in a player's breakdown, tickets as coloured tiles, the party as cards with their gear's icons */
+.ph .ico { width: 18px; height: 18px; flex: none; color: var(--ic, var(--gold)); }
+.av { width: 22px; height: 22px; flex: none; border-radius: 6px; object-fit: cover; border: 1px solid rgb(var(--cc, 140 140 150) / 0.8); background: var(--bg); }
+.av.ini { display: grid; place-items: center; font: 700 11px/1 var(--body); color: rgb(var(--cc, 160 160 170)); }
+.dbar .who b { color: color-mix(in srgb, rgb(var(--cc, 230 230 235)) 55%, var(--fg)); }
+.bosshp .nm .ico { width: 16px; height: 16px; color: var(--bad); vertical-align: -3px; margin-right: 6px; }
+.dskills { display: grid; gap: 4px; margin: 4px 0 8px 12px; }
+.sk { display: grid; grid-template-columns: 24px minmax(90px, 200px) minmax(60px, 1fr) 54px 44px 56px; gap: 8px; align-items: center; font-size: 12.5px; color: var(--fg); }
+.sk img, .sk .noimg { width: 24px; height: 24px; border-radius: 5px; border: 1px solid var(--line); background: var(--bg); }
+.sk .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sk .m { height: 6px; border-radius: 3px; background: rgb(0 0 0 / 0.3); overflow: hidden; }
+.sk .m > i { display: block; height: 100%; border-radius: 3px; background: rgb(var(--cc, 140 140 150)); }
+.sk .n { font: 500 12px/1 var(--mono); text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sk .n b { color: var(--fg); }
+.encrow .ico { width: 15px; height: 15px; color: var(--best); }
+.encrow .av { width: 18px; height: 18px; border-radius: 4px; }
+.tix { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+.tk { display: grid; gap: 6px; padding: 10px 12px; border: 1px solid color-mix(in srgb, var(--tc) 35%, var(--line)); border-radius: 10px; background: color-mix(in srgb, var(--tc) 9%, var(--raised)); }
+.tk .top { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 13.5px; }
+.tk .top .ico { width: 20px; height: 20px; color: var(--tc); }
+.tk .v { font: 700 22px/1 var(--mono); color: var(--tc); font-variant-numeric: tabular-nums; }
+.tk .v small { font: 500 13px/1 var(--mono); color: var(--muted); }
+.tk .v .x { font-size: 14px; color: var(--best); margin-left: 4px; }
+.tk .m { height: 5px; border-radius: 3px; background: rgb(0 0 0 / 0.3); overflow: hidden; }
+.tk .m > i { display: block; height: 100%; background: var(--tc); }
+.pcards { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 12px; }
+.pc { display: grid; gap: 10px; padding: 12px 14px; border: 1px solid var(--line); border-top: 3px solid rgb(var(--cc, 140 140 150)); border-radius: 10px; background: var(--raised); }
+.pc .top { display: flex; align-items: center; gap: 10px; }
+.pc .top .av { width: 40px; height: 40px; border-radius: 10px; }
+.pc .nm { font-weight: 700; color: color-mix(in srgb, rgb(var(--cc, 230 230 235)) 60%, var(--fg)); }
+.pc .sub { font-size: 12.5px; }
+.pc .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.pc .stats div { display: grid; gap: 2px; }
+.pc .stats span { font: 600 10.5px/1 var(--body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.pc .stats b { font: 700 16px/1.2 var(--mono); font-variant-numeric: tabular-nums; }
+.pc .stats b.cp { color: var(--best); }
+.gicons { display: flex; flex-wrap: wrap; gap: 4px; }
+.gicons span { position: relative; }
+.gicons img { width: 30px; height: 30px; border-radius: 6px; border: 1px solid var(--g, var(--line)); background: var(--bg); display: block; }
+.gicons b { position: absolute; right: -3px; bottom: -3px; padding: 0 3px; border-radius: 4px; background: var(--bg); font: 700 9.5px/1.4 var(--mono); color: var(--gold-hi); }
 .dbars { display: grid; gap: 4px; }
 .dbar { position: relative; display: block; width: 100%; height: 28px; padding: 0; overflow: hidden; border: 1px solid transparent; border-radius: 7px; background: var(--raised); color: var(--fg); font: inherit; text-align: left; cursor: pointer; }
 .dbar:hover { border-color: var(--gold-line); }
+/* your own bar: always Premade's theme colour (the one you picked in Premade), not your class's */
+.dbar.mine { border-color: var(--gold-line); }
+.dbar.mine > .fill { background: color-mix(in srgb, var(--gold) 45%, transparent); }
+.dbar.mine .who b { color: var(--gold-hi); }
+.dbar.mine .av { border-color: var(--gold); box-shadow: 0 0 8px color-mix(in srgb, var(--gold) 55%, transparent); }
+.dskills.mine .m > i { background: var(--gold); }
 .dbar > .fill { position: absolute; inset: 0 auto 0 0; background: rgb(var(--cc, 140 140 150) / 0.42); transition: width 0.4s ease; }
 .dbar > .txt { position: relative; display: flex; align-items: center; gap: 8px; height: 100%; padding: 0 10px; font-size: 13px; }
 .dbar .dot { width: 10px; height: 10px; flex: none; border-radius: 3px; background: rgb(var(--cc, 140 140 150)); }
@@ -190,6 +237,14 @@ table.skills .meter { min-width: 80px; }
 .dgrid i.start { background: var(--fg); border-radius: 50%; }
 .dgrid i.path, .dk.path { outline: 2px solid var(--gold-hi); outline-offset: 0; }
 .dgrid i.goal, .dk.goal { outline: 2px solid var(--gold-hi); box-shadow: 0 0 0 4px color-mix(in srgb, var(--gold-hi) 35%, transparent); }
+.dgrid i { display: grid; place-items: center; }
+.dgrid i b { font: 700 clamp(8px, 1.1vw, 12px)/1 var(--mono); color: var(--gold-hi); text-shadow: 0 1px 2px rgb(0 0 0 / 0.9); }
+.dboards.big .dgrid i { opacity: 0.45; }
+.dboards.big .dgrid i.path, .dboards.big .dgrid i.start { opacity: 1; outline: none; background: color-mix(in srgb, var(--g, var(--muted)) 55%, transparent); border-color: var(--g, var(--muted)); }
+.dboards.big .dgrid i.stop { background: color-mix(in srgb, var(--g, var(--muted)) 35%, var(--bg)); outline: 2px solid var(--gold-hi); }
+.dboards.big .dgrid i.start { background: var(--fg); }
+.dboards.big { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.dboard ol.list { margin: 0; font-size: 13px; }
 .dk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
 .empty { padding: 40px; text-align: center; color: var(--muted); }
 .tag { font: 500 11px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--link); margin-left: 8px; }
@@ -252,6 +307,66 @@ label > input[type="checkbox"]:checked::before { transform: translateX(14px); ba
 table.cmp th { font: 600 11px/1.2 var(--body); letter-spacing: 0.1em; }
 .tabs a { font: 500 13.5px/1 var(--body); letter-spacing: normal; text-transform: none; }
 .tile .k, .card .stats span, .grade, .tag { font-family: var(--body); font-weight: 600; letter-spacing: 0.08em; }
+/* ---- design pass: colour and icons on every tab (Rayan, 2026-11-03) */
+/* cards and rows: a soft glow in the character's class colour, a class icon in the corner, a lift on hover */
+.card, .row, .pc, .tile, .item, .tk, .encrow, .dbar { transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s; }
+:is(a.card, a.row, .pc, .item):hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgb(0 0 0 / 0.35); }
+.card[style*="--cc"], .row[style*="--cc"] { background: radial-gradient(120% 140% at 0% 0%, rgb(var(--cc) / 0.16), transparent 60%), var(--panel); }
+.row[style*="--cc"] { background: linear-gradient(90deg, rgb(var(--cc) / 0.14), transparent 55%), var(--raised); }
+.card { position: relative; }
+.cbadge { position: absolute; top: 10px; right: 10px; width: 26px; height: 26px; border-radius: 7px; border: 1px solid rgb(var(--cc, 140 140 150) / 0.7); box-shadow: 0 0 10px rgb(var(--cc, 140 140 150) / 0.45); }
+.row .cico { width: 22px; height: 22px; flex: none; border-radius: 6px; border: 1px solid rgb(var(--cc, 140 140 150) / 0.7); }
+.ccls { color: rgb(var(--cc, 160 160 170)); font-weight: 600; }
+/* section titles: a coloured icon each (added after each render, by title) */
+.ph > .ico, .ph .who > .ico { width: 18px; height: 18px; flex: none; }
+.ph { justify-content: flex-start; }
+.ph > :last-child:is(.hint, a, select, span:not(.who)) { margin-left: auto; }
+.ph .tl { display: inline-flex; align-items: center; gap: 8px; }
+/* profile hero: your strongest character big, with a combat power trend */
+.hero { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 18px; align-items: center; padding: 18px 20px; border: 1px solid rgb(var(--cc, 140 140 150) / 0.4); border-radius: 12px;
+  background: radial-gradient(90% 160% at 0% 0%, rgb(var(--cc, 140 140 150) / 0.28), transparent 60%), radial-gradient(60% 120% at 100% 100%, color-mix(in srgb, var(--gold) 14%, transparent), transparent 70%), var(--panel); overflow: hidden; }
+.hero .portrait { position: relative; width: 84px; height: 84px; }
+.hero .portrait img.p { width: 84px; height: 84px; border-radius: 18px; object-fit: cover; border: 2px solid rgb(var(--cc, 140 140 150)); box-shadow: 0 0 22px rgb(var(--cc, 140 140 150) / 0.5); background: var(--bg); }
+.hero .portrait img.c { position: absolute; right: -8px; bottom: -8px; width: 32px; height: 32px; border-radius: 9px; border: 2px solid var(--panel); }
+.hero .nm { font: 700 26px/1.1 var(--display); color: var(--gold-hi); }
+.hero .sub { margin-top: 4px; }
+.hero .big { display: grid; gap: 2px; text-align: right; }
+.hero .big span { font: 600 11px/1 var(--body); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.hero .big b { font: 700 34px/1 var(--mono); color: var(--best); text-shadow: 0 0 18px color-mix(in srgb, var(--best) 40%, transparent); font-variant-numeric: tabular-nums; }
+.hero .spark { width: 140px; height: 38px; }
+.hero .spark path { fill: none; stroke: var(--best); stroke-width: 2; }
+.hero .spark path.a { fill: color-mix(in srgb, var(--best) 16%, transparent); stroke: none; }
+.hero .chips { margin-top: 8px; }
+.hero .chips > span { background: rgb(0 0 0 / 0.25); }
+@container app (max-width: 700px) { .hero { grid-template-columns: auto minmax(0, 1fr); } .hero .big { grid-column: 1 / -1; text-align: left; } }
+/* timers: countdown rings */
+.ring { --p: 0; --rc: var(--link); width: 54px; height: 54px; flex: none; border-radius: 50%; display: grid; place-items: center;
+  background: radial-gradient(closest-side, var(--panel) 78%, transparent 80% 100%), conic-gradient(var(--rc) calc(var(--p) * 1%), rgb(0 0 0 / 0.35) 0); }
+.ring.soon { --rc: var(--best); } .ring.up { --rc: var(--good); }
+.ring svg { width: 20px; height: 20px; color: var(--rc); }
+.tile.timer { grid-template-columns: auto minmax(0, 1fr); align-items: center; column-gap: 14px; }
+.tile.timer .ring { grid-row: span 3; }
+.row.boss { grid-template-columns: auto minmax(0, 1fr) auto auto; }
+.row.boss .ring { width: 40px; height: 40px; }
+.row.boss .ring svg { width: 16px; height: 16px; }
+@container app (max-width: 560px) { .row.boss { grid-template-columns: auto minmax(0, 1fr) auto; } }
+/* gear: bigger icons with a glow in their grade's colour, the enchant as a badge, a card with the item's details on hover */
+.item { grid-template-columns: 56px minmax(0, 1fr) auto; position: relative; background: linear-gradient(90deg, color-mix(in srgb, var(--g, var(--line)) 12%, transparent), transparent 60%), var(--raised); }
+.item .ic { position: relative; width: 56px; height: 56px; }
+.item .ic img { width: 56px; height: 56px; border-radius: 8px; border: 1px solid var(--g, var(--line)); box-shadow: 0 0 14px color-mix(in srgb, var(--g, transparent) 45%, transparent); }
+.item .ic b { position: absolute; right: -5px; bottom: -5px; padding: 1px 4px; border-radius: 5px; background: var(--bg); border: 1px solid var(--g, var(--line)); font: 700 11px/1.3 var(--mono); color: var(--gold-hi); }
+.item .tipcard { display: none; position: absolute; z-index: 20; left: 0; top: calc(100% + 6px); width: max(100%, 280px); padding: 10px 12px; border: 1px solid var(--g, var(--gold-line)); border-radius: 8px; background: var(--raised);
+  box-shadow: 0 14px 34px rgb(0 0 0 / 0.5); font-size: 12.5px; line-height: 1.5; }
+.item:hover .tipcard { display: block; }
+.item:hover { z-index: 6; }
+.gear { grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+.item .tipcard b { color: var(--g, var(--fg)); }
+/* news: coloured tags */
+.ntag { display: inline-block; margin-right: 6px; padding: 1px 7px; border-radius: 999px; font: 700 10.5px/1.6 var(--body); letter-spacing: 0.06em; text-transform: uppercase; color: var(--tc); background: color-mix(in srgb, var(--tc) 16%, transparent); border: 1px solid color-mix(in srgb, var(--tc) 40%, transparent); vertical-align: 1px; }
+/* classes: each class card in its colour with its icon */
+.card.klass { background: radial-gradient(120% 140% at 100% 0%, rgb(var(--cc) / 0.22), transparent 60%), var(--panel); border-top-color: rgb(var(--cc)); }
+.card.klass .kimg { width: 44px; height: 44px; border-radius: 10px; border: 1px solid rgb(var(--cc) / 0.8); box-shadow: 0 0 14px rgb(var(--cc) / 0.45); }
+.tile { background: linear-gradient(160deg, color-mix(in srgb, var(--gold) 8%, transparent), transparent 55%), var(--panel); }
 </style>
 <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
 <script>
@@ -277,13 +392,9 @@ table.cmp th { font: 600 11px/1.2 var(--body); letter-spacing: 0.1em; }
     <a class="brand" href="#/"><img src="icon.svg" alt=""><span>Aion2 Tracker</span></a>
     <a class="nav" href="#/" data-r=""><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c.8-4.2 4-6.5 8-6.5s7.2 2.3 8 6.5"/></svg><span>Profile</span></a>
     <a class="nav" href="#/legion" data-r="legion"><svg class="i" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5c2.4 0 4 1.5 4.5 4"/></svg><span>Legion</span></a>
-    <a class="nav" href="#/timers" data-r="timers"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2.5h6"/></svg><span>Timers</span></a>
-    <a class="nav" href="#/checklist" data-r="checklist"><svg class="i" viewBox="0 0 24 24"><path d="M10 6h10M10 12h10M10 18h10"/><path d="M3.5 6l1.5 1.5L7.5 5M3.5 12l1.5 1.5L7.5 11M3.5 18l1.5 1.5L7.5 17"/></svg><span>Checklist</span></a>
+    <a class="nav" href="#/today" data-r="today"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2.5h6"/></svg><span>Today</span></a>
     <a class="nav" href="#/dps" data-r="dps"><svg class="i" viewBox="0 0 24 24"><path d="M13 3 5 14h6l-1 7 8-11h-6z"/></svg><span>DPS</span></a>
     <a class="nav" href="#/classes" data-r="classes"><svg class="i" viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/></svg><span>Classes</span></a>
-    <a class="nav" href="#/compare" data-r="compare"><svg class="i" viewBox="0 0 24 24"><path d="M8 4v16M16 4v16M4 8h4M4 16h4M16 8h4M16 16h4"/></svg><span>Compare</span></a>
-    <a class="nav" href="#/news" data-r="news"><svg class="i" viewBox="0 0 24 24"><path d="M4 5h13v14H6a2 2 0 0 1-2-2z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7 9h7M7 13h7M7 16h4"/></svg><span>News</span></a>
-    <a class="nav" href="#/settings" data-r="settings"><svg class="i" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>Settings</span></a>
   </nav>
   <main><div class="view" id="view"></div></main>
   <footer class="bar">
@@ -383,8 +494,8 @@ const memberLink = n => '#/member/' + encodeURIComponent(n);
 
 const tag = o => isMe(o) ? '<span class="tag">You</span>' : isFriend(o) ? '<span class="tag">Friend</span>' : '';
 const pic = (m, cls = '') => m.pic ? `<img class="pic ${cls}" src="${esc(m.pic)}" alt="" loading="lazy">` : '';
-const charCard = m => `<a class="card" href="${memberLink(m.name)}" style="--c:${m.color}">
-  <div class="who">${pic(m)}<div style="min-width:0"><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Level ${m.level} · #${LIST.indexOf(m) + 1} in the legion</div></div></div>
+const charCard = m => `<a class="card" href="${memberLink(m.name)}" style="--c:${m.color};${ccStyle(clsName(m))}">${clsIcon(clsName(m), 'cbadge')}
+  <div class="who">${pic(m)}<div style="min-width:0"><div class="name">${esc(m.name)}</div><div class="sub">${clsName(m) ? `<span class="ccls">${esc(clsName(m))}</span> · ` : ''}${esc(m.server)} · Level ${m.level} · #${LIST.indexOf(m) + 1} in the legion</div></div></div>
   <div class="stats"><div><span>CP</span><b>${fmt(m.cp)}</b></div><div><span>Item lv</span><b>${fmt(m.il)}</b></div>
     <div><span>7 days</span><b class="${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</b></div></div></a>`;
 // just claimed, so no stats until the next update
@@ -393,11 +504,22 @@ const pendingCard = c => `<div class="card" style="--c:var(--line)"><div><div cl
 const playerOf = o => PLAYERS.find(p => low(p.id) === low(o));
 const mine = () => [...(playerOf(ME)?.chars || []), ...CLAIMS.filter(c => isMe(c.o) && !LIST.some(m => low(m.name) === low(c.n)))];
 
+// your strongest character, big: portrait with its class icon, name, class and server, combat power with its trend
+function hero(m) {
+  if (!m) return '';
+  const cls = clsName(m), h = (m.history || []).slice(-14), lo = Math.min(...h.map(x => x.cp)), hi = Math.max(...h.map(x => x.cp));
+  const pts = h.map((x, i) => [h.length > 1 ? (i / (h.length - 1)) * 140 : 70, 36 - (hi > lo ? ((x.cp - lo) / (hi - lo)) * 32 : 16)]);
+  const line = pts.map(([x, y], i) => `${i ? 'L' : 'M'}${x.toFixed(1)} ${y.toFixed(1)}`).join(' ');
+  return `<section class="hero" style="${ccStyle(cls)}"><div class="portrait">${m.pic ? `<img class="p" src="${esc(m.pic)}" alt="">` : clsIcon(cls, 'p')}${m.pic ? clsIcon(cls, 'c') : ''}</div>
+    <div style="min-width:0"><div class="nm">${esc(m.name)}</div><div class="sub">${cls ? `<span class="ccls">${esc(cls)}</span> · ` : ''}${esc(m.server)} · Level ${m.level} · #${LIST.indexOf(m) + 1} in the legion</div>
+      <div class="chips"><span>Item level <b>${fmt(m.il)}</b></span><span>7 days <b class="${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</b></span></div></div>
+    <div class="big"><span>Combat power</span><b>${fmt(m.cp)}</b>${pts.length > 1 ? `<svg class="spark" viewBox="0 0 140 38"><path class="a" d="${line} L140 38 L0 38 Z"/><path d="${line}"/></svg>` : ''}</div></section>`;
+}
 function profile() {
   if (!ME) return head('Profile', 'Your profile') + `<div class="panel empty">Open this in Premade’s Aion 2 page and it knows who you are: your League account and your friends.<br><a href="#/legion">See the legion</a></div>`;
   const chars = mine(), friends = PLAYERS.filter(p => isFriend(p.id) && !isMe(p.id));
   const rank = PLAYERS.indexOf(playerOf(ME)) + 1;
-  return head('Profile', esc(nick(ME)), rank ? `<span class="hint">#${rank} of ${PLAYERS.length} in the legion</span>` : '') + partyPanel() + `
+  return head('Profile', esc(nick(ME)), rank ? `<span class="hint">#${rank} of ${PLAYERS.length} in the legion</span>` : '') + hero(chars.filter(m => !m.n)[0]) + partyPanel() + `
     ${chars.length ? `<section class="panel"><h2 class="ph">Your characters <a class="hint" href="#/settings">Change</a></h2>
       <div class="cards">${chars.map(m => m.n ? pendingCard(m) : charCard(m)).join('')}</div></section>` : claimBox()}
     <section class="panel"><h2 class="ph">Lately, you and your friends</h2>${feedList((DATA.feed || []).filter(f => { const o = LIST.find(m => m.name === f.n)?.owner; return isMe(o) || isFriend(o); }))}</section>
@@ -406,7 +528,7 @@ function profile() {
     <section class="panel"><h2 class="ph">Friends <span class="hint">${friends.length} in the legion</span></h2>
       ${friends.map(p => `<div class="list"><div class="name">${esc(p.name)}</div><div class="cards">${p.chars.map(charCard).join('')}</div></div>`).join('')
         || `<p class="hint">${FRIENDS.size ? 'None of your friends have picked their Aion 2 characters yet.' : 'Add friends in Premade (Voice, Friends) and they show here with their characters.'}</p>`}
-    </section>`;
+    </section>` + settings(chars.length);
 }
 
 // the legion feed: what each character gained between updates (fetch.py's changes()), newest first
@@ -417,13 +539,13 @@ const feedList = xs => xs.length ? `<ol class="feed">${xs.slice(0, 12).map(f => 
 // players ranked by their strongest character, each with their characters, strongest first
 function legion() {
   if (!LIST.length) return head('Legion', 'Legion') + '<div class="panel empty">No characters yet. They show up within 30 minutes.</div>';
-  return head('Everyone, ranked', 'Legion', `<span class="hint">${PLAYERS.length} players · ${LIST.length} characters</span>`)
+  return head('Everyone, ranked', 'Legion', `<span class="hint">${PLAYERS.length} players · ${LIST.length} characters <a class="btn small" href="#/compare">Compare two</a></span>`)
     + `<section class="panel"><h2 class="ph">Latest</h2>${feedList(DATA.feed || [])}</section>` + PLAYERS.map((p, i) => `
     <section class="panel"><div class="player"><span class="rank ${i ? '' : 'first'}">${i + 1}</span>
       <span class="name">${esc(p.name)}${tag(p.id)}</span><span class="num">${fmt(p.chars[0].cp)} <span class="sub">best CP</span></span></div>
-      <ol class="rows">${p.chars.map(m => `<li><a class="row" href="${memberLink(m.name)}" style="--c:${m.color}">
+      <ol class="rows">${p.chars.map(m => `<li><a class="row" href="${memberLink(m.name)}" style="--c:${m.color};${ccStyle(clsName(m))}">
         <span class="rank">#${LIST.indexOf(m) + 1}</span>
-        <span class="who">${pic(m)}<span style="min-width:0"><div class="name">${esc(m.name)}</div><div class="sub">${esc(m.server)} · Lv ${m.level} · IL ${fmt(m.il)}</div></span></span>
+        <span class="who">${pic(m)}${clsIcon(clsName(m))}<span style="min-width:0"><div class="name">${esc(m.name)}</div><div class="sub">${clsName(m) ? `<span class="ccls">${esc(clsName(m))}</span> · ` : ''}${esc(m.server)} · Lv ${m.level} · IL ${fmt(m.il)}</div></span></span>
         <span><div class="num">${fmt(m.cp)}</div><div class="num sub ${m.gain > 0 ? 'up' : ''}">${signed(m.gain)}</div></span></a></li>`).join('')}</ol>
     </section>`).join('');
 }
@@ -436,8 +558,11 @@ const stoneRow = g => {
 };
 function gearGrid(gear) {
   if (!gear?.length) return '<p class="hint">No gear data.</p>';
-  return `<div class="gear">${gear.map(g => `<div class="item" style="--g:${GRADE[g.grade] || 'var(--line)'}" ${g.src?.length ? `title="Drops from: ${esc(g.src.join(', '))}"` : ''}>
-    <img src="${esc(g.icon)}" alt="" loading="lazy">
+  const tip = g => `<div class="tipcard"><b>${esc(g.name)}</b> <span class="grade">${esc(g.grade)}</span><br>${esc(g.slotPosName)} · enchant +${g.enchantLevel}${g.max ? ` of ${g.max}` : ''}
+    ${(g.stones || []).length ? `<br>Manastones: ${g.stones.map(([n, v, gr]) => `${esc(n)} ${esc(v)} <span style="color:${GRADE[gr] || 'inherit'}">(${esc(gr)})</span>`).join(', ')}` : ''}
+    ${(g.god || []).length ? `<br>Theostones: ${g.god.map(esc).join(', ')}` : ''}${g.src?.length ? `<br><span class="sub">Drops from ${esc(g.src.join(', '))}</span>` : ''}</div>`;
+  return `<div class="gear">${gear.map(g => `<div class="item" style="--g:${GRADE[g.grade] || 'var(--line)'}">${tip(g)}
+    <span class="ic"><img src="${esc(g.icon)}" alt="" loading="lazy">${g.enchantLevel ? `<b>+${g.enchantLevel}</b>` : ''}</span>
     <div style="min-width:0"><div class="name">${esc(g.name)}</div><div class="sub">${esc(g.slotPosName)} · <span class="grade">${esc(g.grade)}</span></div>${stoneRow(g)}</div>
     <span class="ench">+${g.enchantLevel}${g.max ? `<span class="sub">/${g.max}</span>` : ''}</span></div>`).join('')}</div>`;
 }
@@ -551,33 +676,44 @@ const NORMAL = ['Nezekan', 'Zikel', 'Vaizel', 'Triniel'];
 
 // The best closed node on each board to head for, with the cheapest path to it from what's already open.
 // Nodes link up, down, left and right. Worth a detour: build skill nodes first, then big stat nodes, then small ones.
-function boardPicks(m, b) {
+const parseBoard = rows => rows.map(r => { const [row, col, grade, open, ...name] = r.split('|'); return { row: +row, col: +col, grade, open: open === '1', name: name.join('|') }; });
+// each closed node's cheapest cost from the open ones (cost) and the node it's reached from (prev)
+function reach(nodes) {
+  const at = new Map(nodes.map(n => [n.row + ',' + n.col, n]));
+  nodes.forEach(n => { delete n.cost; delete n.prev; });
+  const q = nodes.filter(n => n.open);
+  q.forEach(n => n.cost = 0);
+  while (q.length) {  // Dijkstra; a board has at most a few hundred nodes, so a sorted array is fine
+    q.sort((x, y) => x.cost - y.cost);
+    const n = q.shift();
+    for (const [dr, dc] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+      const o = at.get((n.row + dr) + ',' + (n.col + dc));
+      if (o && !o.open && n.cost + COST[o.grade] < (o.cost ?? Infinity)) { o.cost = n.cost + COST[o.grade]; o.prev = n; q.push(o); }
+    }
+  }
+}
+// how much a node is worth heading for: [tier, place in its list], or null. Build skills, then big stat nodes, then small
+const nodeRank = (b, stats) => {
   const skills = [...b.active.map(x => x[0]), ...b.passive];
-  const rank = (n, stats) => n.name.startsWith('Skill Level Up - ') ? (skills.includes(n.name.slice(17)) ? [0, skills.indexOf(n.name.slice(17))] : null)
+  return n => n.name.startsWith('Skill Level Up - ') ? (skills.includes(n.name.slice(17)) ? [0, skills.indexOf(n.name.slice(17))] : null)
     : stats.includes(n.name) ? [n.grade === 'Common' ? 2 : 1, stats.indexOf(n.name)] : null;
+};
+const before = (x, y) => x.reduce((d, v, i) => d || v - y[i], 0) < 0;
+
+function boardPicks(m, b) {
   const picks = {}, boards = [];
   for (const [id, rows] of Object.entries(m.boards || {})) {
     const board = (m.daevanion?.boardList || []).find(x => x.id == id) || {};
-    const nodes = rows.map(r => { const [row, col, grade, open, ...name] = r.split('|'); return { row: +row, col: +col, grade, open: open === '1', name: name.join('|') }; });
-    const at = new Map(nodes.map(n => [n.row + ',' + n.col, n]));
-    const q = nodes.filter(n => n.open);
-    q.forEach(n => n.cost = 0);
-    while (q.length) {  // Dijkstra; a board has at most a few hundred nodes, so a sorted array is fine
-      q.sort((x, y) => x.cost - y.cost);
-      const n = q.shift();
-      for (const [dr, dc] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
-        const o = at.get((n.row + dr) + ',' + (n.col + dc));
-        if (o && !o.open && n.cost + COST[o.grade] < (o.cost ?? Infinity)) { o.cost = n.cost + COST[o.grade]; o.prev = n; q.push(o); }
-      }
-    }
+    const nodes = parseBoard(rows);
+    reach(nodes);
     boards.push({ board, nodes });
-    const stats = SIDE_BOARDS[board.name] || b.stats;
+    const stats = SIDE_BOARDS[board.name] || b.stats, rank = nodeRank(b, stats);
     const key = NORMAL.includes(board.name) ? 'Daevanion points' : board.name + ' crystals';
     for (const n of nodes) {
-      const r = !n.open && n.cost !== undefined && rank(n, stats);
+      const r = !n.open && n.cost !== undefined && rank(n);
       if (!r) continue;
       const score = [r[0], n.cost, r[1]], best = picks[key];
-      if (best && best.score.reduce((d, v, i) => d || v - score[i], 0) <= 0) continue;
+      if (best && !before(score, best.score)) continue;
       let first = n, steps = 1;
       while (!first.prev.open) { first = first.prev; steps++; }
       picks[key] = { key, board, node: n, first, steps, score };
@@ -591,13 +727,34 @@ function boardPicks(m, b) {
   return { picks: Object.values(picks), boards };
 }
 
+// A class guide's path on a fresh board: from the start, again and again the best node to head for (as boardPicks
+// picks, except big stat nodes count as much as skill nodes so the path mixes them), opened the cheapest way and
+// numbered, up to 15 stops. Gives the nodes and the stops in order.
+function guidePath(rows, b, stats) {
+  const nodes = parseBoard(rows), r0 = nodeRank(b, stats), stops = [];
+  const rank = n => { const r = r0(n); return r && [r[0] === 2 ? 1 : 0, r[1]]; };
+  while (stops.length < 15) {
+    reach(nodes);
+    let best = null;
+    for (const n of nodes) {
+      const r = !n.open && n.cost !== undefined && rank(n), s = r && [r[0], n.cost, r[1]];
+      if (s && (!best || before(s, best.s))) best = { n, s };
+    }
+    if (!best) break;
+    for (let n = best.n; !n.open; n = n.prev) { n.open = true; n.path = true; }
+    best.n.num = stops.push(best.n);
+  }
+  nodes.forEach(n => { n.open = n.grade === 'Start'; });  // drawn as a fresh board: the start lit, the path outlined
+  return { nodes, stops };
+}
+
 // A Daevanion board as the game draws it: open nodes lit, the suggested path outlined, the goal ringed.
 const boardGrid = ({ board, nodes, pick }) => {
   const r0 = Math.min(...nodes.map(n => n.row)), c0 = Math.min(...nodes.map(n => n.col));
   const cols = Math.max(...nodes.map(n => n.col)) - c0 + 1;
-  return `<figure class="dboard"><figcaption><img src="${esc(board.icon)}" alt="">${esc(board.name)} <span class="hint">${fmt(board.openNodeCount)} / ${fmt(board.totalNodeCount)}</span></figcaption>
-    <div class="dgrid" style="--cols:${cols}">${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"
-      style="grid-area:${n.row - r0 + 1}/${n.col - c0 + 1};--g:${GRADE[n.grade] || 'var(--muted)'}" title="${esc(n.name)}${n.goal ? ' (goal)' : n.path ? ' (on the way)' : n.open ? ' (open)' : ''}"></i>`).join('')}</div>
+  return `<figure class="dboard"><figcaption>${board.icon ? `<img src="${esc(board.icon)}" alt="">` : ''}${esc(board.name)} ${board.openNodeCount != null ? `<span class="hint">${fmt(board.openNodeCount)} / ${fmt(board.totalNodeCount)}</span>` : ''}</figcaption>
+    <div class="dgrid" style="--cols:${cols}">${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.num ? ' stop' : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"
+      style="grid-area:${n.row - r0 + 1}/${n.col - c0 + 1};--g:${GRADE[n.grade] || 'var(--muted)'}" title="${n.num ? n.num + '. ' : ''}${esc(n.name)}${n.goal ? ' (goal)' : n.path ? ' (on the way)' : n.open ? ' (open)' : ''}">${n.num ? `<b>${n.num}</b>` : ''}</i>`).join('')}</div>
     ${pick ? `<p class="sub">Goal: <b>${esc(pick.node.name)}</b>, ${pick.node.cost} pts${pick.steps > 1 ? `, open ${esc(pick.first.name)} first` : ''}</p>` : ''}</figure>`;
 };
 const BOARD_KEY = `<p class="legend"><span><i class="dk on"></i>Open</span><span><i class="dk path"></i>Open next</span><span><i class="dk goal"></i>Goal</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Closed</span></p>`;
@@ -691,20 +848,30 @@ function member(name, tab) {
 // A guide page per class, made from BUILDS: what it does, skills in the order to level them, Daevanion picks,
 // and the gear and characters of the legion's players on that class
 const classOf = m => Math.floor((m.skill?.skillList?.[0]?.id || 0) / 1e6);
+// a legion character's class name, its colour (as "r g b") and its icon
+const clsName = m => BUILDS[classOf(m)]?.cls;
+const ccStyle = cls => CLASS_RGB[cls] ? `--cc:${CLASS_RGB[cls]}` : '';
+const clsIcon = (cls, c = 'cico') => CLASS_CODE[cls] ? `<img class="${c}" src="${NC_ICONS}ICON_${CLASS_CODE[cls]}_SKILL_001.png" alt="${esc(cls)}" title="${esc(cls)}" loading="lazy">` : '';
 function classes() {
   return head('Guides', 'Classes') + `<div class="cards">${Object.entries(BUILDS).map(([id, b]) => {
     const n = LIST.filter(m => classOf(m) == id).length;
-    return `<a class="card" href="#/classes/${b.cls}" style="--c:var(--gold-line);align-content:start"><div><div class="name">${b.cls}</div><div class="sub">${b.role} · ${b.weapon}</div></div>
+    return `<a class="card klass" href="#/classes/${b.cls}" style="--c:var(--gold-line);${ccStyle(b.cls)};align-content:start"><div class="who">${clsIcon(b.cls, 'kimg')}<div><div class="name ccls">${b.cls}</div><div class="sub">${b.role} · ${b.weapon}</div></div></div>
       <p class="hint">${b.about}</p><div class="sub">${n ? `${n} in the legion` : ''}</div></a>`; }).join('')}</div>`;
 }
+// every class's six boards (boards.json, read once a day by fetch.py), loaded the first time a guide opens
+let CLASS_BOARDS = null;
+const loadClassBoards = () => loadClassBoards.p ||= fetch('boards.json', { cache: 'no-store' }).then(r => r.json())
+  .then(d => { CLASS_BOARDS = d.classes; }, () => { CLASS_BOARDS = false; }).then(() => location.hash.startsWith('#/classes/') && route());
+const GUIDE_KEY = `<p class="legend"><span><i class="dk goal"></i>Numbered: open in this order</span><span><i class="dk on"></i>On the way</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Skip for now</span></p>`;
 function classGuide(name) {
+  loadClassBoards();
   const [id, b] = Object.entries(BUILDS).find(([, x]) => x.cls === name) || [];
   if (!b) return head('Guides', 'Not found') + '<div class="panel empty"><a href="#/classes">All classes</a></div>';
   const chars = LIST.filter(m => classOf(m) == id);  // LIST is strongest first
   const icon = n => chars.flatMap(m => m.skill.skillList).find(x => x.name === n)?.icon;
   const row = (i, n, type, goal) => `<tr><td class="n">${i}</td><td>${icon(n) ? `<img src="${esc(icon(n))}" alt="">` : ''}</td><td>${esc(n)}</td><td class="sub">${type}</td><td class="n">${goal}</td></tr>`;
   const order = xs => `<ol class="list">${xs.map(x => `<li>${esc(x)}</li>`).join('')}</ol>`;
-  return head(`${b.role} · ${b.weapon}`, b.cls, '<a class="btn" href="#/classes">All classes</a>') + `
+  return head(`${b.role} · ${b.weapon}`, `<span class="who" style="${ccStyle(b.cls)}">${clsIcon(b.cls, 'kimg')}${b.cls}</span>`, '<a class="btn" href="#/classes">All classes</a>') + `
     <section class="panel"><h2 class="ph">The class</h2><p>${b.about}</p></section>
     <section class="panel wrap"><h2 class="ph">Skills to level <span class="hint">top to bottom</span></h2>
       <table class="cmp skills"><tr><th class="n">#</th><th></th><th>Skill</th><th>Type</th><th class="n">Goal</th></tr>
@@ -712,11 +879,16 @@ function classGuide(name) {
         ${b.passive.map(n => row('', n, 'Passive', 'Keep even')).join('')}
         ${b.stigma.map(([n, t], i) => row(i + 1, n, 'Stigma', 'Lv ' + t)).join('')}</table>
       <p class="hint">Active skills to their goal first, two at a time; passives level together; stigmas step up in the order shown.</p></section>
-    <div class="grid3">
-      <section class="panel"><h2 class="ph">Daevanion: main boards</h2>
-        <p class="hint">First the Skill Level Up nodes for the skills above, then these stats, big nodes before small ones.</p>${order(b.stats)}</section>
-      ${Object.entries(SIDE_BOARDS).map(([k, xs]) => `<section class="panel"><h2 class="ph">Daevanion: ${k} <span class="hint">${k === 'Ariel' ? 'PvE' : 'PvP'}</span></h2>${order(xs)}</section>`).join('')}
-    </div>
+    <section class="panel"><h2 class="ph">Daevanion boards <span class="hint">open the numbered nodes in order; the outlined ones lead there</span></h2>
+      ${CLASS_BOARDS ? `<div class="dboards big">${Object.entries(CLASS_BOARDS[b.cls] || {}).map(([deity, rows]) => {
+        const stats = SIDE_BOARDS[deity] || b.stats, { nodes, stops } = guidePath(rows, b, stats), names = stops.map(n => n.name);
+        // the board's stats in this build's order, then its skills in the order the path reaches them
+        const prio = [...stats.filter(s => names.includes(s)), ...new Set(names.filter(n => n.startsWith('Skill Level Up - ')).map(n => n.slice(17)))].slice(0, 5);
+        return boardGrid({ board: { name: deity + (deity === 'Ariel' ? ' · PvE' : deity === 'Azphel' ? ' · PvP' : '') }, nodes })
+          .replace(/<\/figure>$/, `<p class="sub"><b>Node priority</b></p>${order(prio)}</figure>`);
+      }).join('')}</div>${GUIDE_KEY}`
+        : `<p class="hint">${CLASS_BOARDS === null ? 'Loading the boards…' : 'Couldn’t load the boards. Try again later.'}</p>`}
+      <p class="hint">The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above first, then ${esc(b.stats.slice(0, 3).join(', '))} and the rest, big nodes before small ones, each the cheapest way there. Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}.</p></section>
     ${chars.length ? `<section class="panel"><h2 class="ph">Gear of the legion’s best ${b.cls} <a class="hint" href="${memberLink(chars[0].name)}">${esc(chars[0].name)}</a></h2>${gearGrid(chars[0].gear)}</section>
     <section class="panel"><h2 class="ph">${b.cls}s in the legion <span class="hint">open one for its own next points</span></h2><div class="cards">${chars.map(charCard).join('')}</div></section>`
       : `<section class="panel"><p class="hint">Nobody in the legion plays ${b.cls} yet. When someone does, their gear and next points show here.</p></section>`}`;
@@ -727,7 +899,7 @@ function compare(params) {
   const find = n => LIST.find(m => m.name === n);
   const firstFriend = PLAYERS.find(p => isFriend(p.id) && !isMe(p.id));
   const a = find(params.get('a')) || playerOf(ME)?.chars[0] || LIST[0];
-  if (!a) return head('Side by side', 'Compare') + '<div class="panel empty">No characters yet.</div>';
+  if (!a) return head('Legion', 'Compare') + '<div class="panel empty">No characters yet.</div>';
   const b = find(params.get('b')) || firstFriend?.chars[0] || LIST.find(m => m !== a) || a;
   const groups = [['You', PLAYERS.filter(p => isMe(p.id))], ['Friends', PLAYERS.filter(p => isFriend(p.id) && !isMe(p.id))], ['Legion', PLAYERS.filter(p => !isMe(p.id) && !isFriend(p.id))]];
   const pick = (k, m) => `<select id="p${k}" aria-label="Player">${groups.filter(g => g[1].length).map(([l, ps]) => `<optgroup label="${l}">${ps.map(p =>
@@ -736,7 +908,7 @@ function compare(params) {
   const diff = (x, y) => { const d = x - y; return d ? `<span class="${d > 0 ? 'up' : 'down'}">${signed(d)}</span>` : '='; };
   const slots = [...new Set([...(a.gear || []), ...(b.gear || [])].map(g => g.slotPosName))];
   const at = (m, s) => (m.gear || []).find(g => g.slotPosName === s);
-  return head('Side by side', 'Compare', `<div style="display:grid;gap:8px"><div style="display:flex;gap:8px;flex-wrap:wrap">${pick('a', a)}</div><div style="display:flex;gap:8px;flex-wrap:wrap">${pick('b', b)}</div></div>`) + `
+  return head('Legion', 'Compare', `<div style="display:grid;gap:8px"><div style="display:flex;gap:8px;flex-wrap:wrap">${pick('a', a)}</div><div style="display:flex;gap:8px;flex-wrap:wrap">${pick('b', b)}</div></div>`) + `
     <section class="panel wrap"><table class="cmp">
       <tr><th></th><th>${esc(a.name)}</th><th>${esc(b.name)}</th><th class="n">Difference</th></tr>
       <tr><td>Player</td><td>${esc(nick(a.owner))}</td><td>${esc(nick(b.owner))}</td><td class="n"></td></tr>
@@ -759,7 +931,7 @@ function compare(params) {
 // Picking your characters, once: Aion 2's public pages don't say which characters belong to whom
 function claimBox() {
   const claimed = CLAIMS.filter(c => isMe(c.o));
-  return `<section class="panel"><h2 class="ph">Your Aion 2 characters</h2>
+  return `<section class="panel" id="claims"><h2 class="ph">Your Aion 2 characters</h2>
     <p class="hint">Pick which characters are yours. They update every day and are public: this site, its GitHub repository and Premade’s server show them next to your Riot ID.</p>
     ${claimed.length ? `<div class="rows">${claimed.map((c, i) => `<div class="row" style="grid-template-columns:minmax(0,1fr) auto">
       <span><div class="name">${esc(c.n)}</div><div class="sub">${esc(c.s)}</div></span><button class="btn small" data-del="${i}">Remove</button></div>`).join('')}</div>` : ''}
@@ -784,18 +956,21 @@ function loadNews() {
     title: a.title, at: a.timestamps.postedAt, sum: plain(a.summary),
     url: a.categoryBoard.boardUrlPattern.replace('{lang}-{country}', 'en-us').replace('{articleId}', a.id) })));
   Promise.all([board('update_en'), board('notice_en')]).then(([u, n]) => { NEWS = { u, n }; }, () => { NEWS = NEWS || { failed: true }; })
-    .then(() => location.hash.startsWith('#/news') && route());
+    .then(() => /^#\/(today|timers|checklist|news)/.test(location.hash) && route());
 }
 // a maintenance notice's start, from its "When: October 27, 2026 at 23h30 PDT" line
 const maintStart = s => { const m = /([A-Z][a-z]+ \d{1,2}, \d{4}) at (\d{1,2})[h:](\d{2}) (PDT|PST)/.exec(s); return m ? new Date(`${m[1]} ${m[2]}:${m[3]} GMT${m[4] === 'PDT' ? '-0700' : '-0800'}`) : null; };
 function news() {
   loadNews();
-  if (!NEWS || NEWS.failed) return head('From NCSOFT', 'News') + `<div class="panel empty">${NEWS ? 'Couldn’t reach Aion’s news. Try again later.' : 'Loading…'}</div>`;
+  if (!NEWS || NEWS.failed) return `<div class="panel empty">${NEWS ? 'Couldn’t reach Aion’s news. Try again later.' : 'Loading…'}</div>`;
   const day = t => new Date(t).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
-  const list = xs => `<ol class="feed">${xs.map(a => `<li><time>${day(a.at)}</time><span><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+  const kind = s => /maintenance/i.test(s) ? ['Maintenance', 'var(--warn)'] : /patch|update/i.test(s) ? ['Update', 'var(--link)'] : /event|festival|reward|giveaway|celebrat/i.test(s) ? ['Event', 'var(--good)']
+    : /ban|restrict|sanction|cheat/i.test(s) ? ['Action', 'var(--bad)'] : /fix|issue|error|known/i.test(s) ? ['Fix', '#b07cff'] : ['Notice', 'var(--muted)'];
+  const tagOf = s => { const [k, c] = kind(s); return `<span class="ntag" style="--tc:${c}">${k}</span>`; };
+  const list = xs => `<ol class="feed">${xs.map(a => `<li><time>${day(a.at)}</time><span>${tagOf(a.title)}<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
     <div class="sub">${esc(a.sum.slice(0, 160))}${a.sum.length > 160 ? '…' : ''}</div></span></li>`).join('')}</ol>`;
   const soon = NEWS.n.filter(a => /maintenance/i.test(a.title) && !/complete/i.test(a.title) && Date.now() - Date.parse(a.at) < 4 * 864e5);
-  return head('From NCSOFT', 'News') + soon.map(a => { const t = maintStart(a.sum); return `<div class="banner"><b>Maintenance coming</b>${t && !isNaN(t)
+  return soon.map(a => { const t = maintStart(a.sum); return `<div class="banner"><b>Maintenance coming</b>${t && !isNaN(t)
       ? `: starts ${t.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}, your time` : ''}.
       <a href="${esc(a.url)}" target="_blank" rel="noopener">Details</a></div>`; }).join('') + `
     <div class="grid2 even"><section class="panel"><h2 class="ph">Patch notes</h2>${list(NEWS.u)}</section>
@@ -804,7 +979,7 @@ function news() {
 
 // Timers: Aion 2's resets and hourly events, and the field bosses the legion marks killed (kept by Premade's server,
 // /aion/boss), each with when it's back; Premade warns 5 minutes before one on your server respawns
-const BOSS_URL = CLAIMS_URL + '/boss', TICKS_URL = CLAIMS_URL + '/ticks';
+const BOSS_URL = CLAIMS_URL + '/boss';
 // respawn after a kill (minutes): Verteron's on Elyos servers (race 1), Altgard's on Asmodian ones (race 2). NCSOFT
 // hasn't published global ones; these are thegameswiki.com/aion-2/wiki/field-bosses (CC BY-NC-SA 4.0), the times since
 // Dec 17, 2025, which aion2atlas.app's global kill reports match
@@ -839,62 +1014,18 @@ const inPremade = () => { try { return !!parent.aionNotify; } catch { return fal
 // a kill, a tick or a fight to Premade's server: '' once it's kept, else why not
 const said = (url, body) => fetch(url, { method: 'POST', body: JSON.stringify({ id: DEVICE, o: ME, ...body }) }).then(x => x.json())
   .then(r => r.error || '', () => 'Premade’s server didn’t answer. Try again in a minute.');
-function timers(params) {
-  const servers = [...new Set(LIST.map(m => m.server))], now = Date.now();
-  const s = servers.includes(params.get('s')) ? params.get('s') : myServers().find(x => servers.includes(x)) || servers[0];
-  const tile = (k, t, sub) => `<div class="tile"><span class="k">${k}</span><span class="v">${span(t - now)}</span><span class="s">${sub}</span></div>`;
-  const rows = bossesOf(raceOf(s)).map(b => { const k = KILLS.find(x => x.s === s && x.b === b.n); return { ...b, k, due: k ? k.at + b.min * 6e4 : Infinity }; })
-    .sort((a, b) => a.due - b.due || a.min - b.min);  // up first, then the next to respawn, then the unmarked ones
-  const every = min => min < 60 ? `${min} min` : `${min / 60} h`;
-  const pick = n => `<select data-boss="${esc(n)}" data-s="${esc(s)}" aria-label="Mark ${esc(n)} killed"><option value="">Killed…</option>
-    ${[0, 5, 10, 15, 30, 60].map(m => `<option value="${m}">${m ? m + ' min ago' : 'Just now'}</option>`).join('')}<option value="del">Take the mark off</option></select>`;
-  return head('Aion 2', 'Timers', servers.length > 1 ? `<select id="tServer" aria-label="Server">${servers.map(x => `<option ${x === s ? 'selected' : ''}>${esc(x)}</option>`).join('')}</select>` : '') + `
-    <div class="tiles">${tile('Daily reset', nextReset('day'), `at ${clock(nextReset('day'))} your time`)}${tile('Weekly reset', nextReset('week'), `${weekday(nextReset('week'))} ${clock(nextReset('week'))}`)}
-      ${tile('Shugo Festival', nextAt(0), 'every hour at :00')}${tile('Dimensional Invasion', nextAt(30), 'every hour at :30')}</div>
-    <section class="panel"><h2 class="ph">Field bosses${s ? ` on ${esc(s)} <span class="hint">${raceOf(s) === 1 ? 'Verteron' : 'Altgard'}</span>` : ''}</h2>
-      ${rows.length ? `<p class="hint">Each one comes back a set time after it dies. Mark a kill and everyone in the legion sees when it’s back${ME ? '; Premade warns you 5 minutes before' : ''}.</p>
-      <div class="rows">${rows.map(b => `<div class="row boss"><span style="min-width:0"><div class="name">${esc(b.n)}</div>
-        <div class="sub">Every ${every(b.min)}${b.k ? ` · died ${clock(b.k.at)}, marked by ${esc(nick(b.k.o))}` : ''}</div></span>
-        <span class="num ${b.due <= now ? 'up' : ''}">${!b.k ? '–' : b.due > now ? `in ${span(b.due - now)}<div class="sub">${clock(b.due)}</div>` : `Up<div class="sub">since ${clock(b.due)}</div>`}</span>
-        ${ME ? pick(b.n) : ''}</div>`).join('')}</div>
-      <p id="bossMsg" class="hint" hidden></p>
-      ${ME ? `<label class="hint"><input type="checkbox" id="warnBoss" ${warnOn() ? 'checked' : ''}>Warn me 5 minutes before a marked boss on my server comes back</label>` : ''}
-      <p class="hint">Respawn times from <a href="https://thegameswiki.com/aion-2/wiki/field-bosses" target="_blank" rel="noopener">The Games Wiki</a> (CC BY-NC-SA 4.0), which match aion2atlas.app’s kill reports. NCSOFT hasn’t published them, so one may be off.</p>`
-      : '<p class="hint">No characters yet, so no server to show.</p>'}</section>`;
+// Today: the resets and hourly events as countdown rings, then your entry tickets as the game counts them
+function timers() {
+  const now = Date.now();
+  // a ring that fills as the time gets closer: period is how long a full turn is
+  const ring = (left, period, icon, up) => `<span class="ring ${up ? 'up' : left < 10 * 6e4 ? 'soon' : ''}" style="--p:${up ? 100 : Math.max(0, Math.min(100, 100 - (left / period) * 100)).toFixed(1)}">${ico(icon)}</span>`;
+  const tile = (k, t, sub, period, icon) => `<div class="tile timer">${ring(t - now, period, icon)}<span class="k">${k}</span><span class="v">${span(t - now)}</span><span class="s">${sub}</span></div>`;
+  return head('Aion 2', 'Today', `<span class="hint">Daily reset at ${clock(nextReset('day'))} your time · weekly ${weekday(nextReset('week'))}</span>`) + `
+    <div class="tiles">${tile('Daily reset', nextReset('day'), `at ${clock(nextReset('day'))} your time`, 864e5, 'clock')}${tile('Weekly reset', nextReset('week'), `${weekday(nextReset('week'))} ${clock(nextReset('week'))}`, 7 * 864e5, 'clock')}
+      ${tile('Shugo Festival', nextAt(0), 'every hour at :00', 36e5, 'star')}${tile('Dimensional Invasion', nextAt(30), 'every hour at :30', 36e5, 'shield')}</div>
+` + (ticketsPanel() || `<div class="panel empty">Your entry tickets show here once Premade’s app reads them: turn on Live fight on the <a href="#/dps">DPS</a> page, then log in to Aion 2 or use a ticket.</div>`) + news();
 }
 
-// Checklist: Aion 2's daily (07:00 UTC) and weekly (Wednesday) things, ticked per character and kept by Premade's
-// server (/aion/ticks), so friends see who still needs a run. The counts are the game's own, as MetaBot.gg and Daeva
-// Guides list them (October 2026); shared ones count once for all of a server's characters
-const TODO = [
-  ['nightmare', 'Nightmare', 2, 'day'], ['transcend', 'Transcendence', 2, 'day'], ['conquest', 'Conquest', 3, 'day'],
-  ['duty', 'Duty Missions', 5, 'day', 1], ['shugo', 'Shugo Festival', 3, 'day', 1], ['invasion', 'Dimensional Invasion', 1, 'day', 1],
-  ['ascension', 'Ascension Trial', 3, 'week'], ['subjugation', 'Subjugation', 3, 'week'], ['dungeon', 'Daily Dungeon', 14, 'week', 1],
-].map(([k, name, n, per, shared]) => ({ k, name, n, per, shared: !!shared }));
-let TICKS = [];
-const loadTicks = () => fetch(TICKS_URL, { cache: 'no-store' }).then(r => r.json()).then(r => { TICKS = r.ticks || []; }, () => {});
-// how many of t o did for who (a character, or a server for a shared one) since t's last reset
-const did = (o, who, t) => { const x = TICKS.find(x => low(x.o) === low(o) && x.k === `${who}:${t.k}`); return x && x.at >= lastReset(t.per) ? x.n : 0; };
-const leftText = (o, m, per) => TODO.filter(t => t.per === per && !t.shared).map(t => [t.name, t.n - did(o, m.name, t)]).filter(([, n]) => n > 0)
-  .map(([name, n]) => `${name} ${n}`).join(' · ');
-function checklist() {
-  const resets = `<span class="hint">Daily reset in ${span(nextReset('day') - Date.now())} · weekly ${weekday(nextReset('week'))}</span>`;
-  if (!ME) return head('Aion 2', 'Checklist', resets) + '<div class="panel empty">Open this in Premade’s Aion 2 page to tick off your dailies and weeklies and see what your friends still have to do.</div>';
-  const chars = mine().filter(m => m.server), own = TODO.filter(t => !t.shared), shared = TODO.filter(t => t.shared);  // picked ones show after their first update
-  const rows = (who, ts) => ts.map(t => { const n = did(ME, who, t), key = esc(`${who}:${t.k}`); return `<div class="tick ${n >= t.n ? 'done' : ''}"><span>${t.name}</span><span class="num">${n} / ${t.n}</span>
-    <button class="btn small" data-tick="${key}" data-d="-1" aria-label="One less ${t.name}" ${n ? '' : 'disabled'}>−</button><button class="btn small" data-tick="${key}" data-d="1" aria-label="One more ${t.name}" ${n < t.n ? '' : 'disabled'}>+</button></div>`; }).join('');
-  const box = (who, ts) => `<div class="ticks"><div class="sub">Today</div>${rows(who, ts.filter(t => t.per === 'day'))}<div class="sub">This week</div>${rows(who, ts.filter(t => t.per === 'week'))}</div>`;
-  const friends = PLAYERS.filter(p => isFriend(p.id) && !isMe(p.id) && TICKS.some(x => low(x.o) === low(p.id)));
-  return head('Aion 2', 'Checklist', resets) + ticketsPanel() + (chars.length ? `<div class="cards">
-    ${chars.map(m => `<section class="panel"><h2 class="ph"><span class="who">${pic(m)}${esc(m.name)}</span></h2>${box(m.name, own)}</section>`).join('')}
-    ${[...new Set(chars.map(m => m.server))].map(s => `<section class="panel"><h2 class="ph">${esc(s)} <span class="hint">all your characters</span></h2>${box(s, shared)}</section>`).join('')}</div>
-    <p id="tickMsg" class="hint" hidden></p>` : '<div class="panel empty">Pick your Aion 2 characters on <a href="#/">Profile</a> first. They show here after their first update.</div>') + `
-    <section class="panel wrap"><h2 class="ph">Friends still to do</h2>${friends.length ? `<table class="cmp"><tr><th>Character</th><th>Today</th><th>This week</th></tr>
-      ${friends.flatMap(p => p.chars.map(m => `<tr><td><a href="${memberLink(m.name)}">${esc(m.name)}</a> <span class="sub">${esc(p.name)}</span></td>
-        <td>${leftText(p.id, m, 'day') || '<span class="up">All done</span>'}</td><td>${leftText(p.id, m, 'week') || '<span class="up">All done</span>'}</td></tr>`)).join('')}</table>`
-      : '<p class="hint">Friends who tick their checklist show here, with what they still have to do.</p>'}</section>
-    <p class="hint">The counts are the game’s own, from MetaBot.gg’s and Daeva Guides’ lists. Daily ones reset at ${clock(nextReset('day'))} your time, weekly ones on Wednesday.</p>`;
-}
 
 // DPS: your fights as Premade's app reads them off Aion 2's Combat Analysis (Ctrl+X) while Aion 2 is open, kept in
 // Premade's storage (lpc-aion-fights: { at, t (s), d, dmg, tg (target), k: [[skill, damage, %]], x: removed }), and
@@ -944,60 +1075,120 @@ const opened = new Set();  // rows opened to their skills, and past fights opene
 const skillName = id => (premade('lpc-aion-skills') || {})[id] || `Skill ${id}`;
 const askLive = v => { try { localStorage.setItem('lpc-aion-want', `${v}|${Date.now()}`); } catch {} };
 const liveNow = () => { const L = premade('lpc-aion-live') || {}; return Date.now() - (L.at || 0) < 10e3 ? L : { ...L, state: 'off', fight: null }; };
-// players' class colours (by the game's class), and the class of a party member by name (lpc-aion-party)
+// players' class colours and icons (each class's first skill icon on NC's image server), and the class of a party
+// member by name (lpc-aion-party)
 const CLASS_RGB = { Gladiator: '142 68 173', Templar: '230 126 34', Ranger: '212 160 23', Assassin: '64 192 112', Spiritmaster: '125 200 216', Sorcerer: '41 128 185', Cleric: '26 188 156', Chanter: '241 196 15' };
+const CLASS_CODE = { Gladiator: 'GL', Templar: 'TE', Ranger: 'RA', Assassin: 'AS', Spiritmaster: 'EL', Sorcerer: 'SO', Cleric: 'CL', Chanter: 'CH' };
 const CLASS_OF_PC = ['Gladiator', 'Templar', 'Ranger', 'Assassin', 'Spiritmaster', 'Sorcerer', 'Cleric', 'Chanter'];  // pc ids 5-8, 9-12 ...
-const partyInfo = () => new Map(((premade('lpc-aion-party') || {}).members || []).map(m => [m.name, { cls: m.className || CLASS_OF_PC[Math.floor((m.cls - 5) / 4)], cp: m.cp }]));
+const NC_ICONS = 'https://assets.playnccdn.com/static-aion2-gamedata/resources/';
+const partyInfo = () => new Map(((premade('lpc-aion-party') || {}).members || []).map(m => [m.name, { ...m, cls: m.className || CLASS_OF_PC[Math.floor((m.cls - 5) / 4)] }]));
+// a player's picture: their portrait if they're in the legion, else their class's icon, else their initial
+const avatar = (name, cls) => {
+  const m = LIST.find(x => x.name === name), src = m?.pic || (CLASS_CODE[cls] && `${NC_ICONS}ICON_${CLASS_CODE[cls]}_SKILL_001.png`);
+  return src ? `<img class="av" src="${esc(src)}" alt="" loading="lazy">` : `<span class="av ini">${esc((name || '?')[0])}</span>`;
+};
+// small line icons for the live sections
+const ICON = { bolt: '<path d="M13 3 5 14h6l-1 7 8-11h-6z"/>', clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
+  ticket: '<path d="M4 7h16v3a2 2 0 0 0 0 4v3H4v-3a2 2 0 0 0 0-4z"/><path d="M14 7v10" stroke-dasharray="2 2"/>', users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.6 3.3-5.5 6.5-5.5s5.9 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14.5c2.4 0 4.2 1.5 4.6 4.5"/>',
+  skull: '<path d="M12 3a8 8 0 0 0-5 14.2V20h10v-2.8A8 8 0 0 0 12 3z"/><circle cx="9" cy="11" r="1.6"/><circle cx="15" cy="11" r="1.6"/><path d="M10 20v-2M14 20v-2"/>',
+  trophy: '<path d="M7 4h10v4a5 5 0 0 1-10 0z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8"/>',
+  chart: '<path d="M4 20V4M4 20h16"/><path d="M7 15l4-5 3 3 5-7"/>', user: '<circle cx="12" cy="8" r="4"/><path d="M4 21c.8-4.2 4-6.5 8-6.5s7.2 2.3 8 6.5"/>',
+  list: '<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/>',
+  doc: '<path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 12h7M9 16h7"/>', megaphone: '<path d="M4 10v4h3l8 5V5L7 10z"/><path d="M18 9a4 4 0 0 1 0 6"/>',
+  wrench: '<path d="M14.5 5.5a4 4 0 0 0 4.9 4.9L21 12l-9 9-3-3 9-9-1.6-1.6z" transform="rotate(0)"/><path d="M3 21l5-5"/>',
+  shield: '<path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/>', crown: '<path d="M3 8l4 4 5-7 5 7 4-4-2 11H5z"/>',
+  feather: '<path d="M20 4c-8 0-14 6-14 14v2h2c8 0 14-6 12-16z"/><path d="M6 18 15 9"/>', grid: '<rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/>',
+  book: '<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/>', star: '<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>',
+  up: '<path d="M12 19V5M5 12l7-7 7 7"/>' };
+// section titles get their icon after each render, by how the title starts
+const PH_ICONS = [['Combat power', 'chart', 'var(--best)'], ['Your characters', 'user', 'var(--link)'], ['Your Aion 2', 'user', 'var(--link)'], ['Lately', 'list', 'var(--link)'], ['Latest', 'list', 'var(--link)'],
+  ['Friends', 'users', 'var(--good)'], ['Patch notes', 'doc', 'var(--link)'], ['Announcements', 'megaphone', 'var(--warn)'], ['Field bosses', 'skull', 'var(--bad)'], ['Gear checkup', 'wrench', 'var(--warn)'],
+  ['Equipment', 'shield', 'var(--best)'], ['Gear', 'shield', 'var(--best)'], ['Wings', 'feather', 'var(--link)'], ['Titles', 'crown', 'var(--best)'], ['Daevanion', 'grid', '#b07cff'], ['Base stats', 'chart', 'var(--link)'],
+  ['Deity stats', 'star', 'var(--best)'], ['Skill', 'bolt', 'var(--warn)'], ['Equipped', 'bolt', 'var(--warn)'], ['Passive', 'bolt', 'var(--muted)'], ['Learned', 'bolt', 'var(--muted)'], ['Not learned', 'bolt', 'var(--muted)'],
+  ['The class', 'book', 'var(--link)'], ['Next upgrade', 'up', 'var(--good)'], ['Best', 'trophy', 'var(--best)'], ['Combat Analysis', 'chart', 'var(--link)'], ['Your fights', 'chart', 'var(--link)'], ['About', 'book', 'var(--muted)'], ['Found', 'user', 'var(--link)']];
+function phIcons() {
+  document.querySelectorAll('#view .ph').forEach(h => {
+    if (h.querySelector('.ico')) return;
+    const text = h.textContent.trim(), hit = PH_ICONS.find(([k]) => text.startsWith(k)) || (/s in the legion/.test(text) ? ['', 'users', 'var(--good)'] : null);
+    if (hit) h.insertAdjacentHTML('afterbegin', ico(hit[1], hit[2]));
+  });
+}
+const ico = (n, c = '') => `<svg class="i ico" viewBox="0 0 24 24"${c ? ` style="--ic:${c}"` : ''}>${ICON[n]}</svg>`;
+// party members' character sheets through Premade's server (what Refresh now uses): their gear's icons, and their
+// skills' names and icons for the breakdown; asked once each
+const SHEETS = new Map(), SKILL_INFO = new Map();
+function sheetFor(name, server) {
+  const key = `${name}@${server}`;
+  if (SHEETS.has(key) || !server) return SHEETS.get(key);
+  SHEETS.set(key, null);
+  fetch(`${CLAIMS_URL}?q=${encodeURIComponent(name)}&s=${encodeURIComponent(server)}`).then(r => r.ok ? r.json() : null).then(s => {
+    if (!s) return;
+    SHEETS.set(key, s);
+    for (const k of s.skill?.skillList || []) SKILL_INFO.set(k.id, { name: k.name, icon: k.icon });
+    const page = location.hash.slice(2).split(/[/?]/)[0];
+    if (page === 'dps') refreshLive(); else if (page === '') rerender();
+  }).catch(() => {});
+  return null;
+}
+const skillOf = id => SKILL_INFO.get(id) || { name: (premade('lpc-aion-skills') || {})[id] };
 const widths = new Map();  // each bar's last width, so a changed one slides to its new width
 const slideBar = (key, pct, cls) => { const was = widths.get(key) ?? pct; widths.set(key, pct); return `<i class="${cls}" data-to="${pct}" style="width:${was}%"></i>`; };
 function fightBars(players, key) {
   const top = Math.max(1, ...players.map(p => p.dps)), info = partyInfo();
+  for (const m of info.values()) sheetFor(m.name, m.server);
   return `<div class="dbars">${players.map(p => {
     const id = `${key}|${p.name}`, me = info.get(p.name) || {}, rgb = CLASS_RGB[me.cls];
-    return `<button type="button" class="dbar" data-open="${esc(id)}" ${rgb ? `style="--cc:${rgb}"` : ''} title="Click for top skills">${slideBar(id, (p.dps / top) * 100, 'fill')}
-      <span class="txt"><i class="dot"></i><span class="who"><b>${esc(p.name)}</b>${p.me ? '<span class="you">You</span>' : ''}${me.cls ? `<span class="cls">${esc(me.cls)}</span>` : ''}${me.cp ? `<span class="cp">CP ${fmt(me.cp)}</span>` : ''}</span>
+    return `<button type="button" class="dbar${p.me ? ' mine' : ''}" data-open="${esc(id)}" ${rgb ? `style="--cc:${rgb}"` : ''} title="Click for top skills">${slideBar(id, (p.dps / top) * 100, 'fill')}
+      <span class="txt">${avatar(p.name, me.cls)}<span class="who"><b>${esc(p.name)}</b>${p.me ? '<span class="you">You</span>' : ''}${me.cls ? `<span class="cls">${esc(me.cls)}</span>` : ''}${me.cp ? `<span class="cp">CP ${fmt(me.cp)}</span>` : ''}</span>
       <span class="n dps">${big(p.dps)}</span><span class="n sh">${p.share}%</span><span class="n dmg">${big(p.damage)}</span></span></button>
-      ${opened.has(id) ? `<div class="dskills">${(p.skills || []).map(k => `<span>${esc(skillName(k.id))} <b>${big(k.damage)}</b> · ${k.share}% · ${k.hits} hits</span>`).join('') || 'No skills yet.'}${p.crit ? `<span>Crits ${p.crit}%</span>` : ''}</div>` : ''}`;
+      ${opened.has(id) ? `<div class="dskills${p.me ? ' mine' : ''}" ${rgb ? `style="--cc:${rgb}"` : ''}>${(p.skills || []).map(k => { const s = skillOf(k.id);
+        return `<div class="sk">${s.icon ? `<img src="${esc(s.icon)}" alt="" loading="lazy">` : '<i class="noimg"></i>'}<span class="nm">${esc(s.name || `Skill ${k.id}`)}</span>
+          <span class="m"><i style="width:${k.share}%"></i></span><span class="n"><b>${big(k.damage)}</b></span><span class="n">${k.share}%</span><span class="n">${k.hits} hits</span></div>`; }).join('') || '<span class="hint">No skills yet.</span>'}
+        ${p.crit ? `<span class="hint">Crits ${p.crit}% of hits</span>` : ''}</div>` : ''}`;
   }).join('')}</div>`;
 }
 const slide = () => requestAnimationFrame(() => document.querySelectorAll('[data-to]').forEach(i => { i.style.width = i.dataset.to + '%'; }));
 function livePanel() {
   const L = liveNow(), f = L.fight, on = L.state === 'on' || L.state === 'game';
   const says = !inPremade() ? 'Live fight works in Premade’s app for Windows.' : LIVE_SAYS[L.state] || '';
-  return `<section class="panel" id="livePanel"><h2 class="ph">Live fight <span class="hint">everyone’s damage and the boss’s HP while you fight</span></h2>
+  return `<section class="panel" id="livePanel"><h2 class="ph"><span class="who">${ico('bolt', 'var(--warn)')}Live fight</span><span class="hint">everyone’s damage and the boss’s HP while you fight</span></h2>
     ${inPremade() ? `<div class="chips"><label class="hint"><input type="checkbox" id="liveOn" ${on ? 'checked' : ''}> Show it live while I fight</label>
       <label class="hint"><input type="checkbox" id="liveParty" ${L.party !== false ? 'checked' : ''}> Only my party</label></div>` : ''}
     <p class="hint">Ban risk: this reads Aion 2’s traffic, as Abyss DPS Meter does. NC’s rules allow banning accounts for programs like this, so it’s off until you turn it on.</p>
-    ${f ? `<div class="bosshp"><div class="lbl"><span class="nm">${esc(f.target || 'Target')}</span><span class="nums">${f.active ? '' : 'last fight · '}${mmss(f.secs)}${f.hp != null ? ` · ${big(f.hp)}` : ''}${f.pct != null ? `<span class="pct">${f.pct}%</span>` : ''}</span></div>
+    ${f ? `<div class="bosshp"><div class="lbl"><span class="nm">${ico('skull')}${esc(f.target || 'Target')}</span><span class="nums">${f.active ? '' : 'last fight · '}${mmss(f.secs)}${f.hp != null ? ` · ${big(f.hp)}` : ''}${f.pct != null ? `<span class="pct">${f.pct}%</span>` : ''}</span></div>
       <div class="track">${slideBar(`hp|${f.target}`, f.pct ?? 0, 'trail')}${slideBar(`hpf|${f.target}`, f.pct ?? 0, 'fill')}</div></div>
       <div class="lhead hint"><span>Player</span><span style="margin-left:auto">DPS · share · damage</span></div>${fightBars(f.players, 'live')}` : says ? `<p class="hint">${esc(says)}</p>` : ''}</section>`;
 }
 function pastPanel() {
   const H = premade('lpc-aion-history') || [];
   if (!H.length) return '';
-  const when = at => new Date(at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
-  return `<section class="panel"><h2 class="ph">Past fights <span class="hint">boss kills and fights of 20 s or more, read live, kept on this PC</span></h2>
-    ${H.slice(0, 30).map(f => { const b = f.players.find(p => p.me) || f.players[0], id = `h${f.at}`;
-      return `<details class="fight" data-fight-at="${esc(id)}" ${opened.has(id) ? 'open' : ''}><summary class="encrow"><time>${when(f.at)}</time><span class="t">${esc(f.target || 'Target')}</span><span class="hint">${mmss(f.secs)}</span>${f.killed ? '<span class="k">Killed</span>' : ''}${b ? `<span class="r">${esc(b.name)} ${big(b.dps)}/s</span>` : ''}</summary>${opened.has(id) ? fightBars(f.players, id) : ''}</details>`; }).join('')}</section>`;
+  const when = at => new Date(at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }), info = partyInfo();
+  return `<section class="panel"><h2 class="ph"><span class="who">${ico('clock', 'var(--link)')}Past fights</span><span class="hint">boss kills and fights of 20 s or more, read live, kept on this PC</span></h2>
+    ${H.slice(0, 30).map(f => { const b = f.players.find(p => p.me) || f.players[0], id = `h${f.at}`, cls = b && info.get(b.name)?.cls;
+      return `<details class="fight" data-fight-at="${esc(id)}" ${opened.has(id) ? 'open' : ''}><summary class="encrow">${f.killed ? ico('trophy') : ''}<time>${when(f.at)}</time><span class="t">${esc(f.target || 'Target')}</span><span class="hint">${mmss(f.secs)}</span>${f.killed ? '<span class="k">Killed</span>' : ''}${b ? `<span class="r" style="display:inline-flex;gap:6px;align-items:center">${avatar(b.name, cls)}${esc(b.name)} ${big(b.dps)}/s</span>` : ''}</summary>${opened.has(id) ? fightBars(f.players, id) : ''}</details>`; }).join('')}</section>`;
 }
-// entry tickets (Checklist): names and caps by the game's ticket id, as Abyss DPS Meter lists them
-const TICKETS = { 60000001: ['Odyle', 840], 4: ['Nightmare', 14], 80000001: ['Ascension trial', 3], 101: ['Daily dungeon', 14], 1: ['Shugo Festival', 7], 8: ['Dimensional Invasion', 7] };
+// entry tickets (Checklist): names, caps and colours by the game's ticket id (names and caps as Abyss DPS Meter lists them)
+const TICKETS = { 60000001: ['Odyle', 840, '#3cc8c8'], 4: ['Nightmare', 14, '#b07cff'], 80000001: ['Ascension trial', 3, '#e8b84a'], 101: ['Daily dungeon', 14, '#5aa2ff'], 1: ['Shugo Festival', 7, '#ff9a4a'], 8: ['Dimensional Invasion', 7, '#ff6b6b'] };
 function ticketsPanel() {
   const T = Object.values(premade('lpc-aion-tickets') || {}).filter(x => TICKETS[x.id]);
   if (!T.length) return '';
   const at = Math.max(...T.map(x => x.at || 0));
-  return `<section class="panel"><h2 class="ph">Entry tickets <span class="hint">live from the game${at ? `, ${span(Date.now() - at)} ago` : ''}</span></h2><div class="chips">
-    ${T.map(x => { const [name, cap] = TICKETS[x.id]; return `<span>${name} <b>${fmt(x.left)}</b>${x.extra ? ` <span class="up">(+${fmt(x.extra)})</span>` : ''} / ${fmt(x.max || cap)}</span>`; }).join('')}</div></section>`;
+  return `<section class="panel"><h2 class="ph"><span class="who">${ico('ticket', 'var(--best)')}Entry tickets</span><span class="hint">live from the game${at ? `, ${span(Date.now() - at)} ago` : ''}</span></h2><div class="tix">
+    ${T.map(x => { const [name, cap, c] = TICKETS[x.id], max = x.max || cap;
+      return `<div class="tk" style="--tc:${c}"><div class="top">${ico('ticket')}${name}</div><div class="v">${fmt(x.left)}${x.extra ? `<span class="x">+${fmt(x.extra)}</span>` : ''} <small>/ ${fmt(max)}</small></div>
+        <div class="m"><i style="width:${Math.min(100, ((x.left + (x.extra || 0)) / max) * 100)}%"></i></div></div>`; }).join('')}</div></section>`;
 }
 // your party right now (Profile), from the game, with class, combat power and gear from NC's pages
 function partyPanel() {
   const P = premade('lpc-aion-party') || {};
   if (!P.members?.length || Date.now() - (P.at || 0) > 30 * 60e3) return '';
-  return `<section class="panel wrap"><h2 class="ph">Your party now <span class="hint">live from the game</span></h2>
-    <table class="cmp"><tr><th>Character</th><th>Class</th><th>Level</th><th>Item level</th><th>Combat power</th><th>Server</th></tr>
-    ${P.members.map(m => `<tr><td>${LIST.some(x => x.name === m.name) ? `<a href="${memberLink(m.name)}">${esc(m.name)}</a>` : esc(m.name)}</td><td>${esc(m.className || '–')}</td>
-      <td class="n">${fmt(m.level)}</td><td class="n">${fmt(m.il)}</td><td class="n"><b>${fmt(m.cp)}</b></td><td>${esc(m.server || '–')}</td></tr>
-      ${m.gear?.length ? `<tr class="lskills"><td colspan="6">${m.gear.map(g => `${esc(g.slot)}: <span style="color:${GRADE[g.grade] || 'inherit'}">${esc(g.name)}${g.enchant ? ` +${g.enchant}` : ''}</span>`).join(' · ')}</td></tr>` : ''}`).join('')}</table></section>`;
+  const info = partyInfo();
+  return `<section class="panel"><h2 class="ph"><span class="who">${ico('users', 'var(--good)')}Your party now</span><span class="hint">live from the game</span></h2><div class="pcards">
+    ${P.members.map(m => { const cls = info.get(m.name)?.cls, rgb = CLASS_RGB[cls], s = sheetFor(m.name, m.server), gear = s?.gear || [];
+      return `<div class="pc" ${rgb ? `style="--cc:${rgb}"` : ''}><div class="top">${avatar(m.name, cls)}<div><div class="nm">${LIST.some(x => x.name === m.name) ? `<a href="${memberLink(m.name)}" style="color:inherit">${esc(m.name)}</a>` : esc(m.name)}</div>
+        <div class="sub">${esc([cls, m.server].filter(Boolean).join(' · '))}</div></div></div>
+        <div class="stats"><div><span>Level</span><b>${fmt(m.level)}</b></div><div><span>Item lv</span><b>${fmt(m.il)}</b></div><div><span>CP</span><b class="cp">${fmt(m.cp)}</b></div></div>
+        ${gear.length ? `<div class="gicons">${gear.map(g => `<span title="${esc(`${g.slotPosName}: ${g.name}${g.enchantLevel ? ` +${g.enchantLevel}` : ''}`)}"><img src="${esc(g.icon)}" alt="" loading="lazy" style="--g:${GRADE[g.grade] || 'var(--line)'}">${g.enchantLevel ? `<b>+${g.enchantLevel}</b>` : ''}</span>`).join('')}</div>` : ''}</div>`; }).join('')}</div></section>`;
 }
 function wireLive() {  // after each render: the switches, rows opened to skills, past fights opened
   $('#liveOn')?.addEventListener('change', e => {
@@ -1061,37 +1252,40 @@ function aionBeat() {
     if (!warned.has(key) && warnOn()) say(`${k.b} comes back in ${span(k.due - now)}, at ${clock(k.due)}`);
     warned.add(key);
   }
-  const m = mine().find(m => m.server), left = m && leftText(ME, m, 'day');
+  const tix = Object.values(premade('lpc-aion-tickets') || {}).filter(x => TICKETS[x.id] && x.id !== 60000001).map(x => `${TICKETS[x.id][0]} ${x.left}`).join(' · ');
   try {
     localStorage.setItem('aion-warned', JSON.stringify([...warned].slice(-50)));
     localStorage.setItem('lpc-aion-card', JSON.stringify({ at: now, lines: [...next.slice(0, 3).map(k => `${k.b} in ${span(k.due - now)}`),
-      `Daily reset in ${span(nextReset('day') - now)}`, ...(m ? [left ? `${m.name} today: ${left}` : `${m.name}: dailies done`] : [])] }));
+      `Daily reset in ${span(nextReset('day') - now)}`, ...(tix ? [tix] : [])] }));
   } catch {}
 }
 
-function settings() {
-  return head('Tracker', 'Settings') + (ME ? `
+// the old Settings page, now the end of Profile: who you are, picking your characters (unless Profile already asks above), about
+function settings(ask) {
+  return (ME ? `
     <section class="panel"><h2 class="ph">Found automatically</h2>
       <p class="hint">From Premade: you’re <b>${esc(ME)}</b>, with ${FRIENDS.size} friends. Change your League account or friends in Premade and this follows.</p></section>
-    ${claimBox()}` : `
+    ${ask ? claimBox() : ''}` : `
     <section class="panel"><h2 class="ph">Your profile</h2><p class="hint">Open this in Premade’s Aion 2 page: it knows your League account and your friends there, so your profile sets itself up.</p></section>`) + `
-    <section class="panel"><h2 class="ph">About</h2><p class="hint">Stats come from the official AION 2 character pages (Europe), updated every 30 minutes. Not affiliated with NCSOFT.</p></section>`;
+    <section class="panel" id="about"><h2 class="ph">About</h2><p class="hint">Stats come from the official AION 2 character pages (Europe), updated every 30 minutes. Not affiliated with NCSOFT.</p></section>`;
 }
 
 function route() {
   const [path, query] = location.hash.slice(2).split('?');
   const [page, arg, sub] = path.split('/');
   const params = new URLSearchParams(query);
-  const cur = page === 'member' ? 'legion' : page || '';
+  const cur = ['member', 'compare'].includes(page) ? 'legion' : ['timers', 'checklist', 'news'].includes(page) ? 'today' : page === 'settings' ? '' : page || '';
   document.querySelectorAll('.nav').forEach(a => a.dataset.r === cur ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current'));
   const v = $('#view');
   v.innerHTML = page === 'legion' ? legion() : page === 'member' ? member(decodeURIComponent(arg || ''), sub)
     : page === 'classes' ? (arg ? classGuide(decodeURIComponent(arg)) : classes())
-    : page === 'compare' ? compare(params) : page === 'news' ? news() : page === 'timers' ? timers(params) : page === 'checklist' ? checklist() : page === 'dps' ? dpsPage(params)
-    : page === 'settings' ? settings() : profile();
+    : page === 'compare' ? compare(params) : ['today', 'timers', 'checklist', 'news'].includes(page) ? timers() : page === 'dps' ? dpsPage(params)
+    : profile();
   drawCharts();
+  phIcons();
   wireLive();
   $('main').scrollTop = 0;
+  if (page === 'settings') ($('#claims') || $('#about'))?.scrollIntoView();  // old Settings links land on Profile's end
   const go = (a, b) => location.hash = `#/compare?a=${encodeURIComponent(a)}&b=${encodeURIComponent(b)}`;
   const top = id => playerOf(id)?.chars[0]?.name;
   $('#pa')?.addEventListener('change', e => go(top(e.target.value), $('#cb').value));
@@ -1137,13 +1331,6 @@ function route() {
     tell($('#bossMsg'), err);
   });
   // a tick shows at once, and goes back if the server says no
-  document.querySelectorAll('[data-tick]').forEach(b => b.onclick = async () => {
-    const k = b.dataset.tick, [who, item] = k.split(':'), t = TODO.find(x => x.k === item), was = did(ME, who, t), n = Math.min(t.n, Math.max(0, was + +b.dataset.d));
-    const set = n => { TICKS = TICKS.filter(x => !(low(x.o) === low(ME) && x.k === k)); if (n) TICKS.push({ o: ME, k, n, at: Date.now() }); };
-    set(n); rerender();
-    const err = await said(TICKS_URL, { k, n });
-    if (err) { set(was); rerender(); tell($('#tickMsg'), err); }
-  });
   const find = $('#findForm');
   if (!find) return;
   find.addEventListener('submit', async e => {
@@ -1199,26 +1386,26 @@ function load(data) {
 addEventListener('hashchange', route);
 // pick up each new update while the page stays open (GitHub Pages may serve the old file for up to 10 minutes)
 setInterval(() => fetch('data.json', { cache: 'no-store' }).then(r => r.json()).then(d => d.updated !== DATA.updated && load(d)).catch(() => {}), 5 * 60e3);
-Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({ members: {} })), loadClaims(), loadKills(), loadTicks()]).then(([d]) => load(d));
+Promise.all([fetch('data.json', { cache: 'no-store' }).then(r => r.json()).catch(() => ({ members: {} })), loadClaims(), loadKills()]).then(([d]) => load(d));
 // Premade's server shares a daily request budget with voice, so the kills and ticks come on opening, after your own
 // change and when Premade shows this page again (aionShown), then every 2 minutes only while it's in sight; the
 // countdowns move every 30 s from what's known
 const inSight = () => { try { return document.visibilityState === 'visible' && (!frameElement || frameElement.checkVisibility()); } catch { return document.visibilityState === 'visible'; } };
 let beats = 0, fetchedAt = Date.now();
-const refetch = () => { fetchedAt = Date.now(); return Promise.all([loadKills(), loadTicks(), location.hash.startsWith('#/dps') && loadFights()]); };
+const refetch = () => { fetchedAt = Date.now(); return Promise.all([loadKills(), location.hash.startsWith('#/dps') && loadFights()]); };
 window.aionShown = () => { if (Date.now() - fetchedAt > 30e3) refetch().then(rerender); };
 setInterval(() => {
   const page = location.hash.slice(2).split(/[/?]/)[0];
   (++beats % 4 === 0 && inSight() ? refetch() : Promise.resolve()).then(() => {
     aionBeat();
-    if ((page === 'timers' || page === 'checklist' || page === 'dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
+    if (['today', 'timers', 'checklist', 'news', 'dps'].includes(page) && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
   });
 }, 30e3);
 // Premade saved a fight (send it), or its watching changed
 addEventListener('storage', e => {
   const page = location.hash.slice(2).split(/[/?]/)[0], calm = inSight() && document.activeElement?.tagName !== 'SELECT';
   if (e.key === 'lpc-aion-live' && page === 'dps' && calm) refreshLive();
-  if ((e.key === 'lpc-aion-history' && page === 'dps') || (e.key === 'lpc-aion-tickets' && page === 'checklist') || (e.key === 'lpc-aion-party' && page === '')) { if (calm) rerender(); }
+  if ((e.key === 'lpc-aion-history' && page === 'dps') || (e.key === 'lpc-aion-tickets' && ['today', 'timers', 'checklist', 'news'].includes(page)) || (e.key === 'lpc-aion-party' && page === '')) { if (calm) rerender(); }
   if (e.key === 'lpc-aion-fights') sendFights();
   if ((e.key === 'lpc-aion-fights' || e.key === 'lpc-aion-dps') && location.hash.startsWith('#/dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
 });

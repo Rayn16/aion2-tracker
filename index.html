@@ -271,8 +271,8 @@ table.skills .meter { min-width: 80px; }
   radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--gold) 12%, transparent), transparent 55%),
   radial-gradient(circle, rgb(255 255 255 / 0.06) 1px, transparent 1.5px) 0 0 / 14px 14px, #070506; box-shadow: inset 0 0 30px rgb(0 0 0 / 0.8); }
 .dboards.big .dgrid i.start { opacity: 1; border: 0; background: radial-gradient(circle, #fff, var(--gold-hi) 40%, color-mix(in srgb, var(--gold) 60%, #fff)); box-shadow: 0 0 14px 3px color-mix(in srgb, var(--gold) 55%, transparent); }
-@keyframes first { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--gold) 70%, transparent), 0 0 14px var(--gold); } 100% { box-shadow: 0 0 0 9px transparent, 0 0 14px var(--gold); } }
-.dboards.big .dgrid i.stop[data-n="1"] { animation: first 1.8s ease-out infinite; z-index: 3; }
+@keyframes first { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--tone, var(--gold)) 70%, transparent), 0 0 14px var(--tone, var(--gold)); } 100% { box-shadow: 0 0 0 9px transparent, 0 0 14px var(--tone, var(--gold)); } }
+.dboards.big .dgrid i.stop[data-n="1"]:not(.sec) { animation: first 1.8s ease-out infinite; z-index: 3; }
 /* Tiles: cut gems; the way there in its grade's colour, the stops gold and numbered */
 .dboards.look-tiles .dgrid { gap: 4px; }
 .dboards.look-tiles .dgrid i { transform: rotate(45deg) scale(0.74); border-radius: 3px; opacity: 0.35; }
@@ -282,6 +282,12 @@ table.skills .meter { min-width: 80px; }
 .dboards.look-tiles .dgrid i.path { opacity: 1; border-color: color-mix(in srgb, var(--gold) 60%, transparent); background: linear-gradient(135deg, color-mix(in srgb, var(--gold) 35%, var(--g, var(--raised))), color-mix(in srgb, var(--gold) 25%, #000)); box-shadow: 0 0 8px color-mix(in srgb, var(--g, var(--muted)) 60%, transparent); }
 .dboards.look-tiles .dgrid i.stop { transform: rotate(45deg) scale(0.95); background: linear-gradient(135deg, color-mix(in srgb, var(--gold) 60%, #fff), var(--gold) 45%, color-mix(in srgb, var(--gold) 60%, #000)); box-shadow: 0 0 12px color-mix(in srgb, var(--gold) 70%, transparent); }
 .dboards.look-tiles .dgrid i.stop.skill { transform: scale(0.95); }
+/* Game8's maps: green numbers for its priority nodes, yellow for its secondary ones */
+.pri { --tone: #3ddc6a; }
+.sec { --tone: #ffd23f; }
+.dboards.big .dgrid i.stop:is(.pri, .sec) { background: linear-gradient(135deg, color-mix(in srgb, var(--tone) 55%, #fff), var(--tone) 45%, color-mix(in srgb, var(--tone) 55%, #000)); box-shadow: 0 0 12px color-mix(in srgb, var(--tone) 70%, transparent); }
+.dboards.big .dgrid i.stop:is(.pri, .sec) b { color: #111; }
+.dk:is(.pri, .sec) { background: var(--tone); border-color: var(--tone); }
 @media (prefers-reduced-motion: reduce) { .dboards.big *, .dboards.big *::before { animation: none !important; } }
 .dk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
 .empty { padding: 40px; text-align: center; color: var(--muted); }
@@ -767,7 +773,65 @@ const GAME8 = {
   Cleric: [626195, { Nezekan: ['Combat Speed', 'Cooldown Reduction', 'Chain of Torment', 'Condemnation'], Zikel: ['Damage Boost', 'Chain of Torment', 'Condemnation', 'Damage Tolerance'], Vaizel: ['Critical Damage Boost', 'Chain of Torment', 'Condemnation', 'Critical Damage Tolerance'], Triniel: ['Multi-Hit Chance', 'Chain of Torment', 'Condemnation', 'Multi-Hit Resist'] }],
   Chanter: [626177, { Nezekan: ['Combat Speed', 'Cooldown Reduction', 'Dark Crush', 'Incandescent Blow'], Zikel: ['Damage Boost', 'Dark Crush', 'Incandescent Blow', 'Damage Tolerance'], Vaizel: ['Critical Damage Boost', 'Dark Crush', 'Incandescent Blow', 'Critical Damage Tolerance'], Triniel: ['Multi-Hit Chance', 'Dark Crush', 'Incandescent Blow', 'Multi-Hit Resist'] }],
 };
-for (const b of Object.values(BUILDS)) { const g = GAME8[b.cls]; if (g) (b.cls === 'Templar' ? b.alt : b).g8 = { url: G8 + g[0], boards: g[1] }; }
+// Game8's Daevanion maps, copied off the pictures in those guides: every node the build opens, as row,col on the board,
+// with g and its green number (priority nodes, opened first in that order) or y and its yellow one (secondary, after).
+// Numbers are as drawn: a few repeat or skip, and some sit off the lit nodes (Sorcerer's mostly), reached the cheapest way.
+const G8MAPS = {
+  Gladiator: {
+    Nezekan: '3,3g7 3,7y15 3,11y5 3,12 3,13y4 4,3 4,5g5 4,7 4,13 5,3g6 5,4 5,5 5,7 5,11y6 5,12 5,13y3 6,4 6,7 6,13 7,4 7,5g1 7,6 7,7 7,8 7,10g3 7,13 8,3y14 8,6 8,10 8,13y2 9,3 9,4 9,5 9,6y9 9,7 9,8 9,9 9,10 9,11g2 9,12 9,13 10,3 10,5 10,7 10,12 11,3y10 11,5y13 11,7 11,12 11,13y7 12,3 12,5 12,7 12,13 13,3y11 13,4 13,5y12 13,7g4 13,8 13,9y1 13,13y8',
+    Zikel: '3,3g7 3,7y2 3,8 3,9y3 3,11g6 3,12 3,13g5 4,3 4,5y4 4,7 4,13 5,3g2 5,4 5,5 5,7 5,12y11 5,13 6,3 6,7y1 6,13 7,3 7,4 7,7 7,9 7,10g3 7,11 7,12 7,13g4 8,4 8,7 8,9 8,12 9,3y5 9,4 9,5 9,6g1 9,7 9,12 9,13 10,3 10,5 10,13 11,3 11,4 11,5 11,11 11,12 11,13y9 12,3 12,11y12 12,13 13,3y6 13,4 13,5y7 13,6 13,7y8 13,13y10',
+    Vaizel: '3,3g8 3,4 3,5g7 3,7 3,8g6 3,9 3,10y1 3,11 3,12 3,13y2 4,5 4,6 4,7 4,9 4,13 5,9 5,13y3 6,9g5 7,6y4 7,7 7,8 7,9 7,10 7,11g4 8,13g3 9,5g1 9,6 9,7 9,8 9,9 9,10g2 9,11 9,12 9,13 10,7y12 10,12 11,5y10 11,9y13 11,12y5 11,13 12,5 12,9 12,10 12,11 12,13 13,3y11 13,4 13,5 13,6y9 13,7 13,8y8 13,9 13,11y7 13,12 13,13y6',
+    Triniel: '2,2y6 2,7 2,8y2 2,9 2,12 2,13 2,14g4 3,2 3,7y3 3,9y1 3,10 3,11 3,12g5 3,14 4,2 4,12 4,14 5,2y5 5,3 5,4 5,5y16 5,13 5,14g3 6,4 6,13 7,4 7,5 7,6y15 7,8 7,9 7,12y14 7,13 7,14 8,4 8,12 8,14g2 9,3 9,4y4 9,5 9,6 9,7 9,8 9,9 9,10g1 9,11 9,12 9,13 9,14 10,3 10,12 11,2y7 11,3 11,11y12 11,12 11,13 11,14y13 12,2 12,9 12,12 13,2 13,7y11 13,9y9 13,10 13,11 13,12g6 14,2y8 14,7 14,8y10 14,9 14,12 14,13 14,14g7',
+  },
+  Cleric: {
+    Nezekan: '3,3g8 3,7y10 3,8 3,9y2 3,11y11 3,12 3,13g4 4,3 4,5g7 4,9 4,10 4,11 4,13 5,3g6 5,4 5,5 5,8y1 5,9 5,11g2 5,12 5,13g3 6,4 6,11 7,3 7,4 7,5g5 7,6 7,7 7,8 7,9 7,10g1 7,11 7,12 7,13 8,3y12 8,6 8,10 8,13y13 9,5 9,6g9 9,10 9,11y3 9,12 10,5 10,12 11,3g12 11,4 11,5g10 11,8y7 11,9 11,11 11,12 11,13y4 12,3 12,5 12,9 12,10 12,11y6 12,13 13,3g13 13,5g11 13,7y9 13,8 13,9y8 13,13y5',
+    Zikel: '3,3g16 3,5 3,6 3,7y7 3,8 3,9y8 3,10 3,11y9 3,12 3,13g13 4,3 4,5y6 4,13 5,3g15 5,9y1 5,12g11 5,13 6,3 6,7y4 6,9 6,13 7,3 7,4 7,5g14 7,7 7,9 7,10y5 7,12 7,13g12 8,4 8,7 8,9 8,12 9,3g2 9,4 9,5 9,6g1 9,7 9,9 9,11g8 9,12 10,7 10,9g7 10,10 10,11 11,4g6 11,5 11,6 11,7g3 11,9 11,11 11,12 11,13g10 12,6 12,9 12,11g9 12,13 13,3g5 13,4 13,5g4 13,6 13,7y3 13,9y2 13,13g11',
+    Vaizel: '3,3g8 3,5y1 3,8y10 3,9 3,10g3 3,11 3,13g5 4,3 4,5 4,6 4,7 4,11 4,13 5,3 5,4g7 5,5 5,7g6 5,11g2 5,12 5,13g4 6,7 6,9y6 6,12 7,3 7,4 7,5 7,6g9 7,7 7,8 7,9 7,10 7,11g1 7,12 7,13 8,3g10 8,10 8,13y9 9,3 9,4 9,5g11 9,6 9,7 9,8 9,9 9,10g14 9,11 9,12 10,4 10,7y7 10,9 10,12 11,3y5 11,4 11,5g12 11,9y8 11,12g15 11,13 12,5 12,13 13,3g13 13,4 13,5 13,6y2 13,7 13,8y3 13,11y4 13,12 13,13g16',
+    Triniel: '2,2y7 2,3 2,4 2,7 2,8g9 2,9 2,12 2,13 2,14y12 3,4y6 3,5 3,6 3,7y5 3,9g8 3,12y11 4,4 4,9 4,12 5,2y8 5,3 5,4 5,5y9 5,9 5,10g7 5,11 5,12 5,13 5,14y10 6,10 7,2 7,3 7,4 7,5 7,6g2 7,7 7,8 7,9 7,10 7,11 7,12y3 7,13 7,14 8,2y2 8,14y4 9,4y15 9,5 9,6 9,7 9,8 9,9 9,10g1 10,6 10,10 11,2y1 11,6g3 11,7 11,10 11,11g10 11,12 11,13 11,14y16 12,2 12,7 12,12 13,2 13,4g5 13,5 13,6 13,7g4 13,9y14 13,12g11 14,2g6 14,3 14,4 14,7 14,8y13 14,9 14,12 14,13 14,14g12',
+  },
+  Chanter: {
+    Nezekan: '3,3g3 3,4 3,5 3,9y2 3,11y3 3,12 3,13y4 4,5g2 4,9 4,10 4,11 5,3y12 5,4 5,5 5,7 5,8y1 5,9 5,11y11 5,12 5,13 6,4 6,7 7,3 7,4 7,5g1 7,6 7,7 7,8 7,9 7,10y13 8,3y10 8,6 8,13g7 9,6y16 9,8 9,9 9,10 9,11g4 9,12 9,13 10,3 10,9 10,12 11,3y14 11,5y7 11,7 11,8y5 11,9 11,11 11,12 11,13y17 12,3 12,5 12,6 12,7 12,9 12,11g5 13,3y9 13,4 13,5y8 13,7y6 13,9y15 13,11 13,12 13,13g6',
+    Zikel: '3,3y3 3,4 3,5 3,6 3,7y2 3,9y14 3,10 3,11g5 3,12 3,13g6 4,3 4,5y15 4,7 4,10 4,13 5,3y4 5,7 5,9g4 5,10 5,12y19 5,13 6,3 6,7y1 6,9 7,3 7,4 7,5y11 7,7 7,9 7,10y9 7,11 7,12 7,13y10 8,4 8,7 8,9 9,3y16 9,4 9,6y18 9,7 9,9 9,11y13 10,7 10,9y12 10,10 10,11 11,4y17 11,5 11,6 11,7g1 11,13y8 12,6 12,11y20 12,13 13,3g3 13,4 13,5g2 13,6 13,7y5 13,8 13,9y6 13,10 13,11 13,12 13,13y7',
+    Vaizel: '3,3g4 3,5y12 3,7 3,8y1 3,9 3,10y17 3,13y3 4,3 4,5 4,6 4,7 4,13 5,3 5,4g3 5,5 5,7g2 5,11y10 5,12 5,13y2 6,7 6,9y15 6,12 7,6y16 7,7 7,8 7,9 7,10 7,11g1 7,12 8,3y7 8,10 8,13y9 9,3 9,4 9,5y4 9,6 9,7 9,8 9,9 9,10g5 9,11 9,12 9,13 10,4 10,7y13 10,9 10,12 11,3y11 11,4 11,5y5 11,9y8 11,12g6 11,13 12,5 12,13 13,3y6 13,4 13,5 13,6y9 13,7 13,8y13 13,11y14 13,12 13,13g7',
+    Triniel: '2,2y5 2,3 2,4 2,7 2,8g6 2,9 2,12 2,13 2,14y2 3,2 3,4y4 3,5 3,6 3,7y3 3,9g5 3,10 3,11 3,12y1 3,14 4,2 4,4 4,9 4,14 5,2y8 5,4 5,5y16 5,9 5,10g4 5,14y15 6,10 7,6y11 7,10 7,12y17 8,2y9 8,6 8,10 8,12 8,14y10 9,2 9,3 9,4y14 9,6 9,7 9,8 9,9 9,10g1 9,11 9,12 9,13 9,14 10,3 10,6 10,12 11,2y18 11,3 11,4 11,5 11,6g7 11,7 11,11y13 11,12 11,13 11,14y12 12,4 12,7 12,12 13,4g8 13,7y6 13,9y19 13,12g2 14,2g9 14,3 14,4 14,7 14,8y7 14,9 14,12 14,13 14,14g3',
+  },
+  Spiritmaster: {
+    Nezekan: '3,3y3 3,4 3,5 3,7y19 3,9y12 3,11g2 3,12 3,13g3 4,3 4,5y2 4,6 4,7 4,9 4,11 4,13 5,3y16 5,7 5,8y1 5,9 5,11g1 5,13y15 6,7 6,11 7,3 7,4 7,5y9 7,6 7,7 7,8 7,9 7,10y4 7,11 7,12 7,13 8,3y13 8,13y5 9,5 9,6g4 9,7 9,8 9,11y10 9,12 9,13 10,5 10,12 11,3y14 11,4 11,5g5 11,7 11,8y11 11,11 11,12 11,13y18 12,5 12,6 12,7 12,11y6 13,3g7 13,4 13,5g6 13,7y8 13,8 13,9y17 13,11 13,12 13,13y7',
+    Zikel: '3,3y6 3,4 3,5 3,6 3,7y5 3,8 3,9y4 3,10 3,11g2 3,12 3,13g3 4,3 4,5y8 4,10 5,3y10 5,5 5,9g1 5,10 5,11 5,12y15 6,5 6,6 6,7y14 6,9 7,5y9 7,9 7,10y11 7,11 7,12 7,13y12 8,7 8,9 9,3y7 9,6y19 9,7 9,9 9,11y13 10,3 10,7 10,9y1 10,10 10,11 11,3 11,4y16 11,6 11,7g4 11,11 11,12 11,13y2 12,3 12,6 12,11y20 12,13 13,3g6 13,4 13,5g5 13,6 13,7y17 13,8 13,9y18 13,13y3',
+    Vaizel: '3,3g4 3,4 3,5y14 3,7 3,8y12 3,9 3,10y15 3,13y7 4,3 4,5 4,6 4,7 4,9 4,13 5,3 5,4g3 5,5 5,7y13 5,9 5,11y8 5,12 5,13y6 6,4 6,9y17 6,12 7,3 7,4 7,5 7,6g2 7,11y11 7,12 7,13 8,3y10 8,6 8,13y5 9,5g1 9,6 9,7 9,8 9,9 9,10g5 9,11 9,12 9,13 10,7y1 10,9 10,12 11,3y3 11,4 11,5y2 11,6 11,7 11,9y9 11,12g6 11,13 12,3 12,5 12,13 13,3y4 13,5 13,6y16 13,7 13,8y18 13,11y19 13,12 13,13g7',
+    Triniel: '2,2y1 2,3 2,4 2,7 2,8g10 2,9 2,12 2,13 2,14y6 3,4g8 3,5 3,6 3,7g9 3,9y4 3,10 3,11 3,12y5 3,14 4,4 4,9 4,14 5,2y7 5,3 5,4 5,5y19 5,9 5,10y8 5,14y13 6,4 7,2 7,3 7,4 7,5 7,6g7 7,12y12 8,2y10 8,4 8,6 8,12 8,14y9 9,4y14 9,6 9,7 9,8 9,9 9,10g4 9,11 9,12 9,13 9,14 10,6 10,12 11,2y15 11,3 11,4 11,5 11,6g1 11,11y11 11,12 11,13 11,14y20 12,4 12,12 13,4g2 13,7y16 13,9y2 13,10 13,11 13,12g5 14,2g3 14,3 14,4 14,7 14,8y3 14,9 14,12 14,13 14,14g6',
+  },
+  Ranger: {
+    Nezekan: '3,3g7 3,4 3,5 3,7y1 3,8 3,9y2 3,11g11 3,12 3,13g10 4,3 4,5g6 4,6 4,7 4,13 5,3 5,7 5,8g5 5,11y3 5,12 5,13g9 6,7 6,13 7,5g2 7,6 7,7 7,8 7,9 7,10g4 7,13 8,3y13 8,13g8 9,6y6 9,7 9,8 9,9 9,10 9,11g1 9,12 9,13 10,7 10,12 11,3y11 11,5y8 11,7 11,8y7 11,11 11,12 11,13 12,3 12,5 12,6 12,7 12,11y4 13,3y10 13,4 13,5y9 13,7g3 13,8 13,9y12 13,11 13,12 13,13y5',
+    Zikel: '3,3y7 3,4 3,5 3,6 3,7y9 3,11g5 3,12 3,13g4 4,3 4,5 4,7 4,13 5,3y6 5,7 5,8 5,9y10 5,13 6,3 6,7y11 6,13 7,3 7,4 7,5y8 7,12 7,13g3 8,4 8,9 8,12 9,3y4 9,4 9,9 9,11g2 9,12 10,3 10,9g1 10,10 10,11 11,3 11,4y5 11,6 11,7y1 11,8 11,9 11,11 11,12 11,13g6 12,3 12,6 12,11g8 12,13 13,3y3 13,4 13,5y2 13,6 13,11 13,13g7',
+    Vaizel: '3,3y11 3,4 3,5y10 3,7 3,8y9 3,9 3,10y13 3,13g5 4,5 4,6 4,7 4,9 4,13 5,4y14 5,7y12 5,9 5,11g3 5,12 5,13g4 6,4 6,9y8 6,12 7,3 7,4 7,5 7,6g6 7,7 7,8 7,9 7,10 7,11g1 7,12 7,13 8,3g7 8,13g2 9,3 9,4 9,5g8 9,10y4 9,11 9,12 9,13 10,4 10,12 11,3y8 11,4 11,5y5 11,12y1 11,13 12,5 12,13 13,3y6 13,4 13,5 13,6y7 13,11y3 13,12 13,13y2',
+    Triniel: '2,2y11 2,7 2,8y14 2,14g9 3,2 3,7y13 3,12g7 3,14 4,2 4,7 4,12 4,14 5,2y10 5,3 5,4 5,5y12 5,6 5,7 5,10g6 5,11 5,12 5,13 5,14g8 6,4 6,10 7,2 7,3 7,4 7,5 7,6y9 7,10 7,12 8,2y8 8,10 8,12 8,14g2 9,2 9,3 9,4y7 9,5 9,6 9,7 9,8 9,9 9,10g1 9,11 9,12 9,13 9,14 10,6 10,10 11,2y4 11,3 11,4 11,5 11,6y1 11,7 11,10 11,11g3 11,12 12,2 12,4 12,7 12,12 13,2 13,4y6 13,7y2 13,12g4 14,2y5 14,7 14,8y3 14,12 14,13 14,14g5',
+  },
+  Sorcerer: {
+    Nezekan: '3,3y6 3,4 3,5 3,7y4 3,9g9 3,11y1 3,12 3,13y2 4,3 4,5y5 4,6 4,7 4,9 4,10 4,11 4,13 5,3y7 5,7 5,8g8 5,9 5,11g10 5,13y3 6,7 6,9 7,5g1 7,6 7,7 7,8 7,9 7,10y13 9,6y8 9,7 9,8 9,11g2 10,7 11,3y12 11,7 11,8y9 11,13g7 12,5 12,6 12,7 12,9 12,10 12,11g5 12,13 13,3y11 13,4 13,5y10 13,7g3 13,8 13,9g4 13,11 13,12 13,13g6',
+    Zikel: '3,3y3 3,9g7 3,11g5 3,12 3,13g4 4,5y4 4,13 5,3y2 5,9g6 5,11 5,12g3 5,13 6,7y9 6,11 6,13 7,5y1 7,9 7,10g1 7,11 7,12 7,13g2 8,7 8,9 8,12 9,3g9 9,5 9,6g8 9,7 9,11y5 9,12 10,5 10,9y8 11,3 11,4g10 11,5 12,3 12,11y6 13,3g11 13,4 13,5 13,7y10 13,13y7',
+    Vaizel: '3,3g6 3,4 3,5g5 3,10y8 3,13y7 4,5 4,6 4,7 5,4g4 5,7g3 5,11y5 5,13y6 6,7 7,6g2 7,7 7,8 7,10 7,11y15 8,10 8,13y14 9,5g1 9,8 9,9 9,10y10 9,11 9,12 9,13 10,9 10,12 11,3y4 11,9y9 11,12y11 11,13 12,13 13,3y3 13,6y2 13,8y1 13,11y13 13,13y12',
+    Triniel: '2,2y3 2,3 2,4 2,7 2,8y5 2,14y8 3,4y2 3,5 3,6 3,7y4 3,9y6 4,7 5,5y1 5,6 5,7 5,14y7 6,6 7,6g1 7,7 7,8 7,12g2 8,6 8,14g3 9,6 9,7 9,8 10,6 11,2 11,3 11,4 11,5 11,6g6 11,7 12,2 12,4 12,7 13,2 13,4g7 13,7g9 13,9 13,10 13,11 13,12g4 14,2g8 14,7 14,8g10 14,9 14,12 14,13 14,14g5',
+  },
+  Assassin: {
+    Nezekan: '3,3 3,4 3,5 3,7 3,11 3,12 3,13 4,3 4,5g2 4,6 4,7 4,13 5,3 5,7 5,11 5,12 5,13 6,7 6,11 7,4 7,5y4 7,6 7,7 7,8 7,9 7,10y5 7,11 7,12 8,10 9,3 9,6y3 9,7 9,8 9,9 9,10 9,11g1 9,12 10,3 10,7 10,9 10,12 11,3y3 11,7 11,12 11,13g4 12,3 12,5 12,6 12,7 12,9 12,13 13,3y2 13,4 13,5y1 13,7g3 13,8 13,9 13,11 13,12 13,13g5',
+    Zikel: '3,3g4 3,4 3,5 3,9y5 3,10 3,11y4 3,12 3,13y3 4,3 4,5 4,13 5,3g3 5,11 5,12y2 5,13 6,3 6,7 6,11 6,13 7,3 7,4 7,7 7,9 7,10g5 7,11 7,12 7,13y1 8,4 8,7 8,9 8,12 9,3 9,4 9,5 9,6 9,7 9,9 9,12 9,13 10,3 10,5 10,9 10,10 10,11 11,4 11,5 11,6 11,11 12,6 12,11 13,3g2 13,4 13,5g1 13,6 13,7 13,11 13,12 13,13',
+    Vaizel: '3,3y5 3,4 3,5 3,9 3,10 3,11 3,12 3,13y4 4,3 4,5 4,13 5,3 5,4 5,8 5,9 5,12 5,13y3 6,4 6,7 6,9 6,12 7,3 7,4 7,5 7,6 7,7 7,8 7,9 7,10 7,11g2 7,12 7,13 8,13g1 9,3 9,4 9,5g5 9,6 9,7 9,8 9,10g3 9,11 9,12 9,13 10,4 10,7 10,12 11,3y1 11,4 11,5 11,7 11,12 11,13 12,3 12,5 12,7 12,9 12,10 12,11 12,13 13,3y2 13,5 13,6 13,8 13,9 13,11 13,12 13,13g4',
+    Triniel: '2,2 2,3 2,4 2,7 2,8y4 2,9 2,14 3,4 3,7 3,9 3,10 3,11 3,12y5 3,14 4,4 4,7 4,9 4,12 4,14 5,4 5,5 5,6 5,7 5,9 5,10 5,11 5,12 5,13 5,14 6,6 6,13 7,3 7,4 7,5 7,6 7,7 7,8 7,11 7,12 8,6 8,10 8,12 8,14g4 9,3 9,4y1 9,5 9,6 9,7 9,8 9,9 9,10g1 9,11 9,12 9,13 9,14 10,3 10,12 11,2y2 11,3 11,7 11,9 11,10 11,11g5 11,12 11,13 12,2 12,7 12,9 12,12 13,2 13,7 13,9 13,10 13,11 13,12g2 14,2y3 14,3 14,4 14,7 14,8 14,9 14,12 14,13 14,14g3',
+  },
+  Templar: {
+    Nezekan: '3,3g2 3,4 3,5 3,7y2 3,8 3,9y3 3,11 3,12 3,13g6 4,3 4,5g1 4,6 4,7 4,9 4,10 4,11 5,3y1 5,7 6,7 7,5g3 7,6 7,7 7,8 9,7 9,8 9,9 9,10 9,11 9,12 10,7 10,12 11,7 11,11 11,12 11,13 12,5 12,6 12,7 12,11 12,13 13,3y5 13,4 13,5y4 13,7g4 13,8 13,9 13,13g5',
+    Zikel: '3,3y3 3,4 3,5 3,11g4 3,12 3,13g3 4,5y2 4,13 5,5 5,13 6,5 6,6 6,7y1 6,13 7,7 7,9 7,10 7,11 7,12 7,13g5 8,7 8,9 8,12 9,7 9,11y4 9,12 9,13 10,7 10,13 11,6 11,7 11,13 12,6 12,13 13,3g2 13,4 13,5g1 13,6 13,13y5',
+    Vaizel: '3,3g3 3,4 3,5 3,7 3,8y3 4,5 4,6 4,7 5,7g2 5,8 5,9 5,10 5,11y4 6,7 7,7 7,8 7,9 7,10 7,11g1 8,3y2 8,10 9,3 9,4 9,5y1 9,6 9,7 9,8 9,9 10,9 11,3 11,4 11,5g5 11,6 11,7 11,8 11,9 12,5 12,9 12,10 12,11 13,5 13,6y5 13,11 13,12 13,13g4',
+    Triniel: '2,8g2 2,9 3,9 3,10 3,11 3,12 4,12 5,12 5,13 6,13 7,12 7,13 7,14 8,2y1 8,4 8,12 8,14g5 9,2 9,3 9,4 9,5 9,6 9,7 9,8 9,9 9,10g1 9,11 9,12 10,3 10,6 10,12 11,2 11,3 11,6y2 11,12 12,2 12,12 13,2 13,12 14,2g3 14,12 14,13 14,14g4',
+  },
+};
+// 'row,col' -> { tone: 'pri' (green) or 'sec' (yellow), num } for a numbered node, {} for one on the way
+const g8map = s => new Map(s.split(' ').map(t => { const [, at, c, num] = t.match(/^(\d+,\d+)([gy]?)(\d*)$/); return [at, c ? { tone: c === 'g' ? 'pri' : 'sec', num: +num } : {}]; }));
+for (const b of Object.values(BUILDS)) {
+  const g = GAME8[b.cls], maps = G8MAPS[b.cls];
+  if (g) (b.cls === 'Templar' ? b.alt : b).g8 = { url: G8 + g[0], boards: g[1], maps: maps && Object.fromEntries(Object.entries(maps).map(([k, s]) => [k, g8map(s)])) };
+}
 // Ariel (PvE) and Azphel (PvP) have their own stats, the same for every class
 const SIDE_BOARDS = {
   Ariel: ['PvE Damage Boost', 'Boss Damage Boost', 'Critical Hit', 'PvE Attack, PvE Defense', 'Boss Attack, Boss Defense', 'PvE Attack', 'Boss Attack', 'PvE Accuracy'],
@@ -797,8 +861,8 @@ const NORMAL = ['Nezekan', 'Zikel', 'Vaizel', 'Triniel'];
 // The best closed node on each board to head for, with the cheapest path to it from what's already open.
 // Nodes link up, down, left and right. Worth a detour: build skill nodes first, then big stat nodes, then small ones.
 const parseBoard = rows => rows.map(r => { const [row, col, grade, open, ...name] = r.split('|'); return { row: +row, col: +col, grade, open: open === '1', name: name.join('|') }; });
-// each closed node's cheapest cost from the open ones (cost) and the node it's reached from (prev)
-function reach(nodes) {
+// each closed node's cheapest cost from the open ones (cost) and the node it's reached from (prev); if ok is given, only through nodes it allows
+function reach(nodes, ok) {
   const at = new Map(nodes.map(n => [n.row + ',' + n.col, n]));
   nodes.forEach(n => { delete n.cost; delete n.prev; });
   const q = nodes.filter(n => n.open);
@@ -808,7 +872,7 @@ function reach(nodes) {
     const n = q.shift();
     for (const [dr, dc] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
       const o = at.get((n.row + dr) + ',' + (n.col + dc));
-      if (o && !o.open && n.cost + COST[o.grade] < (o.cost ?? Infinity)) { o.cost = n.cost + COST[o.grade]; o.prev = n; q.push(o); }
+      if (o && !o.open && (!ok || ok(o)) && n.cost + COST[o.grade] < (o.cost ?? Infinity)) { o.cost = n.cost + COST[o.grade]; o.prev = n; q.push(o); }
     }
   }
 }
@@ -828,19 +892,25 @@ function boardPicks(m, b) {
   const picks = {}, boards = [];
   for (const [id, rows] of Object.entries(m.boards || {})) {
     const board = (m.daevanion?.boardList || []).find(x => x.id == id) || {};
-    const nodes = parseBoard(rows);
-    reach(nodes);
+    const nodes = parseBoard(rows), map = b.g8?.maps?.[board.name], at = n => map.get(n.row + ',' + n.col);
+    // Game8's numbered nodes still closed: those next, in its order, only through the nodes its build opens
+    // (or the cheapest way, when the next one sits off them). Once all are open (or no map), our own picks for the rest.
+    const left = map ? nodes.filter(n => !n.open && at(n)?.num) : [], todo = left.length > 0, tag = n => [at(n).tone === 'pri' ? 0 : 1, at(n).num];
+    reach(nodes, todo && at);
+    if (todo && left.reduce((a, n) => before(tag(n), tag(a)) ? n : a).cost === undefined) reach(nodes);
     boards.push({ board, nodes });
-    const stats = SIDE_BOARDS[board.name] || b.stats, rank = nodeRank(b, stats, b.g8?.boards[board.name]);
+    const stats = SIDE_BOARDS[board.name] || b.stats;
+    const rank = todo ? n => at(n)?.num && tag(n) : nodeRank(b, stats, b.g8?.boards[board.name]);
     const key = NORMAL.includes(board.name) ? 'Daevanion points' : board.name + ' crystals';
     for (const n of nodes) {
       const r = !n.open && n.cost !== undefined && rank(n);
       if (!r) continue;
-      const score = [r[0], n.cost, r[1]], best = picks[key];
+      // Game8: green before yellow, lowest number, then the cheapest; ours after it: tier, cost, place in the list
+      const score = todo ? [...r, n.cost] : [2 + r[0], n.cost, r[1]], best = picks[key];
       if (best && !before(score, best.score)) continue;
       let first = n, steps = 1;
       while (!first.prev.open) { first = first.prev; steps++; }
-      picks[key] = { key, board, node: n, first, steps, score };
+      picks[key] = { key, board, node: n, first, steps, score, g8: map && (todo ? `Game8 ${r[0] ? 'yellow' : 'green'} ${r[1]}` : 'past Game8’s map') };
     }
   }
   for (const p of Object.values(picks)) {  // mark each pick's path so the board grid can light it up
@@ -878,9 +948,9 @@ const boardGrid = ({ board, nodes, pick }) => {
   const r0 = Math.min(...nodes.map(n => n.row)), c0 = Math.min(...nodes.map(n => n.col));
   const cols = Math.max(...nodes.map(n => n.col)) - c0 + 1, rows = Math.max(...nodes.map(n => n.row)) - r0 + 1;
   return `<figure class="dboard"><figcaption>${board.icon ? `<img src="${esc(board.icon)}" alt="">` : ''}${esc(board.name)} ${board.openNodeCount != null ? `<span class="hint">${fmt(board.openNodeCount)} / ${fmt(board.totalNodeCount)}</span>` : ''}${board.note ? `<span class="note">${board.note}</span>` : ''}</figcaption>
-    <div class="dgrid" style="--cols:${cols}">${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.num ? ' stop' : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"${n.num ? ` data-n="${n.num}"` : ''}
-      style="grid-area:${n.row - r0 + 1}/${n.col - c0 + 1};--g:${GRADE[n.grade] || 'var(--muted)'}" title="${n.num ? n.num + '. ' : ''}${esc(n.name)}${n.goal ? ' (goal)' : n.path ? ' (on the way)' : n.open ? ' (open)' : ''}">${n.num ? `<b>${n.num}</b>` : ''}</i>`).join('')}</div>
-    ${pick ? `<p class="sub">Goal: <b>${esc(pick.node.name)}</b>, ${pick.node.cost} pts${pick.steps > 1 ? `, open ${esc(pick.first.name)} first` : ''}</p>` : ''}</figure>`;
+    <div class="dgrid" style="--cols:${cols}">${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.num ? ' stop' : ''}${n.tone ? ' ' + n.tone : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"${n.num ? ` data-n="${n.num}"` : ''}
+      style="grid-area:${n.row - r0 + 1}/${n.col - c0 + 1};--g:${GRADE[n.grade] || 'var(--muted)'}" title="${n.num ? ({ pri: 'Green ', sec: 'Yellow ' }[n.tone] || '') + n.num + '. ' : ''}${esc(n.name)}${n.goal ? ' (goal)' : n.path ? ' (on the way)' : n.open ? ' (open)' : ''}">${n.num ? `<b>${n.num}</b>` : ''}</i>`).join('')}</div>
+    ${pick ? `<p class="sub">Goal: <b>${esc(pick.node.name)}</b>${pick.g8 ? ` (${pick.g8})` : ''}, ${pick.node.cost} pts${pick.steps > 1 ? `, open ${esc(pick.first.name)} first` : ''}</p>` : ''}</figure>`;
 };
 const BOARD_KEY = `<p class="legend"><span><i class="dk on"></i>Open</span><span><i class="dk path"></i>Open next</span><span><i class="dk goal"></i>Goal</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Closed</span></p>`;
 
@@ -988,6 +1058,7 @@ let CLASS_BOARDS = null;
 const loadClassBoards = () => loadClassBoards.p ||= fetch('boards.json', { cache: 'no-store' }).then(r => r.json())
   .then(d => { CLASS_BOARDS = d.classes; }, () => { CLASS_BOARDS = false; }).then(() => location.hash.startsWith('#/classes/') && route());
 const GUIDE_KEY = `<p class="legend"><span><i class="dk goal"></i>Numbered: open in this order</span><span><i class="dk on"></i>On the way</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Skip for now</span></p>`;
+const G8_KEY = `<p class="legend"><span><i class="dk pri"></i>Green: priority, open first in order</span><span><i class="dk sec"></i>Yellow: secondary, after the green ones</span><span><i class="dk on"></i>On the way</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Not in the build</span></p>`;
 function classGuide(name, which) {
   loadClassBoards();
   const [id, main] = Object.entries(BUILDS).find(([, x]) => x.cls === name) || [];
@@ -1007,16 +1078,23 @@ function classGuide(name, which) {
         ${b.stigma.map(([n, t], i) => row(i + 1, n, 'Stigma', 'Lv ' + t)).join('')}</table>
       <p class="hint">Active skills to their goal first, two at a time; passives level together; stigmas step up in the order shown.</p></section>
     <section class="panel"><h2 class="ph">Daevanion boards</h2>
-      <p class="hint">Open the numbered nodes in order; the lit ones on the way lead there.</p>
+      <p class="hint">${b.g8?.maps ? 'Open the green numbers first, in order, then the yellow ones. The lit nodes are the rest of Game8’s build.' : 'Open the numbered nodes in order; the lit ones on the way lead there.'}</p>
       ${CLASS_BOARDS ? `<div class="dboards big look-tiles">${Object.entries(CLASS_BOARDS[b.cls] || {}).map(([deity, rows]) => {
-        const g = b.g8?.boards[deity], stats = SIDE_BOARDS[deity] || b.stats, { nodes, stops } = guidePath(rows, b, stats, g), names = stops.map(n => n.name);
+        const g = b.g8?.boards[deity], map = b.g8?.maps?.[deity], stats = SIDE_BOARDS[deity] || b.stats, name = deity + (deity === 'Ariel' ? ' · PvE' : deity === 'Azphel' ? ' · PvP' : '');
+        const end = prio => `<p class="sub"><b>Node priority</b></p>${order(prio)}</figure>`;
+        if (map) {  // Game8's own map: the nodes its build opens lit, its green and yellow numbers on the same nodes
+          const nodes = parseBoard(rows).map(n => ({ ...n, open: n.grade === 'Start', path: map.has(n.row + ',' + n.col), ...map.get(n.row + ',' + n.col) }));
+          const lit = nodes.filter(n => n.path), green = lit.filter(n => n.tone === 'pri').length;
+          return boardGrid({ board: { name, note: `${green} green · ${lit.filter(n => n.num).length - green} yellow · ${lit.reduce((s, n) => s + COST[n.grade], 0)} pts` }, nodes }).replace(/<\/figure>$/, end(g));
+        }
+        const { nodes, stops } = guidePath(rows, b, stats, g), names = stops.map(n => n.name);
         // Game8's list, or the board's stats in this build's order, then its skills in the order the path reaches them
         const prio = g || [...stats.filter(s => names.includes(s)), ...new Set(names.filter(n => n.startsWith('Skill Level Up - ')).map(n => n.slice(17)))].slice(0, 5);
-        return boardGrid({ board: { name: deity + (deity === 'Ariel' ? ' · PvE' : deity === 'Azphel' ? ' · PvP' : ''), note: `${stops.length} stops · ${stops.reduce((s, n) => s + n.pts, 0)} pts` }, nodes })
-          .replace(/<\/figure>$/, `<p class="sub"><b>Node priority</b></p>${order(prio)}</figure>`);
-      }).join('')}</div>${GUIDE_KEY}`
+        return boardGrid({ board: { name, note: `${stops.length} stops · ${stops.reduce((s, n) => s + n.pts, 0)} pts` }, nodes }).replace(/<\/figure>$/, end(prio));
+      }).join('')}</div>${b.g8?.maps ? G8_KEY : GUIDE_KEY}`
         : `<p class="hint">${CLASS_BOARDS === null ? 'Loading the boards…' : 'Couldn’t load the boards. Try again later.'}</p>`}
-      <p class="hint">${b.g8 ? `Node priority on the four main boards from <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a>; the numbered path opens those nodes in that order, big ones first, each the cheapest way.` : `The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above and the big nodes for ${esc(b.stats.slice(0, 3).join(', '))} and the rest, cheapest first, then the small ones; each reached the cheapest way.`} Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}.</p></section>
+      <p class="hint">${b.g8?.maps ? `The four main boards are <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a> maps, node for node. Ariel and Azphel have no Game8 map, so their numbered path is ours.`
+        : b.g8 ? `Node priority on the four main boards from <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a>; the numbered path opens those nodes in that order, big ones first, each the cheapest way.` : `The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above and the big nodes for ${esc(b.stats.slice(0, 3).join(', '))} and the rest, cheapest first, then the small ones; each reached the cheapest way.`} Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}.</p></section>
     ${chars.length ? `<section class="panel"><h2 class="ph">Gear of the legion’s best ${b.cls} <a class="hint" href="${memberLink(chars[0].name)}">${esc(chars[0].name)}</a></h2>${gearGrid(chars[0].gear)}</section>
     <section class="panel"><h2 class="ph">${b.cls}s in the legion <span class="hint">open one for its own next points</span></h2><div class="cards">${chars.map(charCard).join('')}</div></section>`
       : `<section class="panel"><p class="hint">Nobody in the legion plays ${b.cls} yet. When someone does, their gear and next points show here.</p></section>`}`;

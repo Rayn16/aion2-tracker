@@ -754,6 +754,20 @@ const BUILDS = {
       stigma: [['Undefeated Mantra', 10], ['Power of the Storm', 10], ['Marchutan\'s Wrath', 10], ['Fracturing Blow', 10]],
       stats: ['Combat Speed', 'Damage Boost', 'Cooldown Reduction', 'Critical Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'] } },
 };
+// Node priority per board from Game8's build guides (one per class; Templar's is its Judgment damage build, our "Damage").
+// Names as the boards spell them; ones Game8 lists that aren't on that board (Blaze, Sinew Explosion) are left out.
+const G8 = 'https://game8.co/games/Aion-2/archives/';
+const GAME8 = {
+  Gladiator: [617444, { Nezekan: ['Cooldown Reduction', 'Combat Speed', 'Rending Blow', 'Overhead Slam', 'Ruinous Blow'], Zikel: ['Damage Boost', 'Damage Tolerance', 'Ruinous Blow', 'Overhead Slam'], Vaizel: ['Critical Damage Boost', 'Critical Damage Tolerance', 'Ruinous Blow', 'Overhead Slam', 'Rending Blow'], Triniel: ['Multi-Hit Chance', 'Multi-Hit Resist', 'Ruinous Blow', 'Overhead Slam'] }],
+  Templar: [626144, { Nezekan: ['Combat Speed', 'Judgment', 'Cooldown Reduction', 'Punishment'], Zikel: ['Judgment', 'Damage Boost', 'Annihilate', 'Damage Tolerance'], Vaizel: ['Judgment', 'Annihilate', 'Critical Damage Boost', 'Pummel'], Triniel: ['Judgment', 'Multi-Hit Chance', 'Punishment', 'Annihilate'] }],
+  Assassin: [616882, { Nezekan: ['Quick Slice', 'Heart Gore', 'Insignia Explosion', 'Combat Speed', 'Exploit Weakness'], Zikel: ['Heart Gore', 'Damage Boost', 'Quick Slice', 'Damage Tolerance', 'Ambush Stance'], Vaizel: ['Quick Slice', 'Heart Gore', 'Determination', 'Critical Damage Boost'], Triniel: ['Heart Gore', 'Quick Slice', 'Multi-Hit Chance', 'Insignia Explosion', 'Heightened Sixth Sense'] }],
+  Ranger: [626143, { Nezekan: ['Cooldown Reduction', 'Combat Speed', 'Deadshot', 'Marking Shot', 'Gale Arrow'], Zikel: ['Damage Boost', 'Damage Tolerance', 'Deadshot', 'Marking Shot', 'Gale Arrow'], Vaizel: ['Critical Damage Boost', 'Critical Damage Tolerance', 'Deadshot', 'Marking Shot', 'Gale Arrow'], Triniel: ['Multi-Hit Chance', 'Multi-Hit Resist', 'Deadshot', 'Marking Shot', 'Gale Arrow'] }],
+  Sorcerer: [626191, { Nezekan: ['Cooldown Reduction', 'Combat Speed', 'Hellfire', 'Firestorm', 'Flame Arrow'], Zikel: ['Damage Boost', 'Damage Tolerance', 'Hellfire', 'Firestorm', 'Flame Arrow'], Vaizel: ['Critical Damage Boost', 'Critical Damage Tolerance', 'Hellfire', 'Firestorm', 'Flame Arrow'], Triniel: ['Multi-Hit Chance', 'Multi-Hit Resist', 'Hellfire', 'Firestorm', 'Flame Arrow'] }],
+  Spiritmaster: [626151, { Nezekan: ['Combat Speed', 'Cooldown Reduction', 'Elemental Fusion', 'Summon: Fire Spirit'], Zikel: ['Damage Boost', 'Elemental Fusion', 'Summon: Fire Spirit', 'Damage Tolerance'], Vaizel: ['Critical Damage Boost', 'Elemental Fusion', 'Summon: Fire Spirit', 'Critical Damage Tolerance'], Triniel: ['Multi-Hit Chance', 'Elemental Fusion', 'Summon: Fire Spirit', 'Multi-Hit Resist'] }],
+  Cleric: [626195, { Nezekan: ['Combat Speed', 'Cooldown Reduction', 'Chain of Torment', 'Condemnation'], Zikel: ['Damage Boost', 'Chain of Torment', 'Condemnation', 'Damage Tolerance'], Vaizel: ['Critical Damage Boost', 'Chain of Torment', 'Condemnation', 'Critical Damage Tolerance'], Triniel: ['Multi-Hit Chance', 'Chain of Torment', 'Condemnation', 'Multi-Hit Resist'] }],
+  Chanter: [626177, { Nezekan: ['Combat Speed', 'Cooldown Reduction', 'Dark Crush', 'Incandescent Blow'], Zikel: ['Damage Boost', 'Dark Crush', 'Incandescent Blow', 'Damage Tolerance'], Vaizel: ['Critical Damage Boost', 'Dark Crush', 'Incandescent Blow', 'Critical Damage Tolerance'], Triniel: ['Multi-Hit Chance', 'Dark Crush', 'Incandescent Blow', 'Multi-Hit Resist'] }],
+};
+for (const b of Object.values(BUILDS)) { const g = GAME8[b.cls]; if (g) (b.cls === 'Templar' ? b.alt : b).g8 = { url: G8 + g[0], boards: g[1] }; }
 // Ariel (PvE) and Azphel (PvP) have their own stats, the same for every class
 const SIDE_BOARDS = {
   Ariel: ['PvE Damage Boost', 'Boss Damage Boost', 'Critical Hit', 'PvE Attack, PvE Defense', 'Boss Attack, Boss Defense', 'PvE Attack', 'Boss Attack', 'PvE Accuracy'],
@@ -799,10 +813,14 @@ function reach(nodes) {
   }
 }
 // how much a node is worth heading for: [tier, place in its list], or null. Build skills, then big stat nodes, then small
-const nodeRank = (b, stats) => {
+const nodeRank = (b, stats, prio) => {
   const skills = [...b.active.map(x => x[0]), ...b.passive];
-  return n => n.name.startsWith('Skill Level Up - ') ? (skills.includes(n.name.slice(17)) ? [0, skills.indexOf(n.name.slice(17))] : null)
+  const own = n => n.name.startsWith('Skill Level Up - ') ? (skills.includes(n.name.slice(17)) ? [0, skills.indexOf(n.name.slice(17))] : null)
     : stats.includes(n.name) ? [n.grade === 'Common' ? 2 : 1, stats.indexOf(n.name)] : null;
+  if (!prio) return own;
+  // a guide's list for this board first (big nodes before small), then our own picks
+  return n => { const i = prio.indexOf(n.name.replace(/^Skill Level Up - /, '')), r = i < 0 && own(n);
+    return i >= 0 ? [n.grade === 'Common' ? 1 : 0, i] : r && [2 + r[0], r[1]]; };
 };
 const before = (x, y) => x.reduce((d, v, i) => d || v - y[i], 0) < 0;
 
@@ -813,7 +831,7 @@ function boardPicks(m, b) {
     const nodes = parseBoard(rows);
     reach(nodes);
     boards.push({ board, nodes });
-    const stats = SIDE_BOARDS[board.name] || b.stats, rank = nodeRank(b, stats);
+    const stats = SIDE_BOARDS[board.name] || b.stats, rank = nodeRank(b, stats, b.g8?.boards[board.name]);
     const key = NORMAL.includes(board.name) ? 'Daevanion points' : board.name + ' crystals';
     for (const n of nodes) {
       const r = !n.open && n.cost !== undefined && rank(n);
@@ -836,9 +854,9 @@ function boardPicks(m, b) {
 // A class guide's path on a fresh board: from the start, again and again the best node to head for (as boardPicks
 // picks, except big stat nodes count as much as skill nodes so the path mixes them), opened the cheapest way and
 // numbered, up to 15 stops. Gives the nodes and the stops in order.
-function guidePath(rows, b, stats) {
-  const nodes = parseBoard(rows), r0 = nodeRank(b, stats), stops = [];
-  const rank = n => { const r = r0(n); return r && [r[0] === 2 ? 1 : 0, r[1]]; };
+function guidePath(rows, b, stats, prio) {
+  const nodes = parseBoard(rows), r0 = nodeRank(b, stats, prio), stops = [];
+  const rank = prio ? r0 : n => { const r = r0(n); return r && [r[0] === 2 ? 1 : 0, r[1]]; };
   while (stops.length < 15) {
     reach(nodes);
     let best = null;
@@ -974,7 +992,7 @@ function classGuide(name, which) {
   loadClassBoards();
   const [id, main] = Object.entries(BUILDS).find(([, x]) => x.cls === name) || [];
   if (!main) return head('Guides', 'Not found') + '<div class="panel empty"><a href="#/classes">All classes</a></div>';
-  const all = [main, { ...main, ...main.alt }, { ...main, ...main.farm }], at = ['2', '3'].includes(which) ? +which - 1 : 0, b = all[at], base = '#/classes/' + main.cls;
+  const all = [main, { ...main, g8: null, ...main.alt }, { ...main, g8: null, ...main.farm }], at = ['2', '3'].includes(which) ? +which - 1 : 0, b = all[at], base = '#/classes/' + main.cls;
   const builds = `<nav class="tabs">${all.map((x, i) => `<a href="${base}${i ? '/' + (i + 1) : ''}" ${i === at ? 'aria-current="page"' : ''}>${esc(x.name)} build${x.role !== x.name ? ` <span class="hint">${esc(x.role)}</span>` : ''}</a>`).join('')}</nav>`;
   const chars = LIST.filter(m => classOf(m) == id);  // LIST is strongest first
   const icon = n => chars.flatMap(m => m.skill.skillList).find(x => x.name === n)?.icon;
@@ -991,14 +1009,14 @@ function classGuide(name, which) {
     <section class="panel"><h2 class="ph">Daevanion boards</h2>
       <p class="hint">Open the numbered nodes in order; the lit ones on the way lead there.</p>
       ${CLASS_BOARDS ? `<div class="dboards big look-tiles">${Object.entries(CLASS_BOARDS[b.cls] || {}).map(([deity, rows]) => {
-        const stats = SIDE_BOARDS[deity] || b.stats, { nodes, stops } = guidePath(rows, b, stats), names = stops.map(n => n.name);
-        // the board's stats in this build's order, then its skills in the order the path reaches them
-        const prio = [...stats.filter(s => names.includes(s)), ...new Set(names.filter(n => n.startsWith('Skill Level Up - ')).map(n => n.slice(17)))].slice(0, 5);
+        const g = b.g8?.boards[deity], stats = SIDE_BOARDS[deity] || b.stats, { nodes, stops } = guidePath(rows, b, stats, g), names = stops.map(n => n.name);
+        // Game8's list, or the board's stats in this build's order, then its skills in the order the path reaches them
+        const prio = g || [...stats.filter(s => names.includes(s)), ...new Set(names.filter(n => n.startsWith('Skill Level Up - ')).map(n => n.slice(17)))].slice(0, 5);
         return boardGrid({ board: { name: deity + (deity === 'Ariel' ? ' · PvE' : deity === 'Azphel' ? ' · PvP' : ''), note: `${stops.length} stops · ${stops.reduce((s, n) => s + n.pts, 0)} pts` }, nodes })
           .replace(/<\/figure>$/, `<p class="sub"><b>Node priority</b></p>${order(prio)}</figure>`);
       }).join('')}</div>${GUIDE_KEY}`
         : `<p class="hint">${CLASS_BOARDS === null ? 'Loading the boards…' : 'Couldn’t load the boards. Try again later.'}</p>`}
-      <p class="hint">The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above and the big nodes for ${esc(b.stats.slice(0, 3).join(', '))} and the rest, cheapest first, then the small ones; each reached the cheapest way. Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}.</p></section>
+      <p class="hint">${b.g8 ? `Node priority on the four main boards from <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a>; the numbered path opens those nodes in that order, big ones first, each the cheapest way.` : `The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above and the big nodes for ${esc(b.stats.slice(0, 3).join(', '))} and the rest, cheapest first, then the small ones; each reached the cheapest way.`} Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}.</p></section>
     ${chars.length ? `<section class="panel"><h2 class="ph">Gear of the legion’s best ${b.cls} <a class="hint" href="${memberLink(chars[0].name)}">${esc(chars[0].name)}</a></h2>${gearGrid(chars[0].gear)}</section>
     <section class="panel"><h2 class="ph">${b.cls}s in the legion <span class="hint">open one for its own next points</span></h2><div class="cards">${chars.map(charCard).join('')}</div></section>`
       : `<section class="panel"><p class="hint">Nobody in the legion plays ${b.cls} yet. When someone does, their gear and next points show here.</p></section>`}`;

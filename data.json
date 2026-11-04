@@ -21256,14 +21256,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 24250,
+     "cp": 24271,
      "il": 450
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 24,
-   "cp": 24250,
+   "cp": 24271,
    "il": 450,
    "gear": [
     {
@@ -21703,7 +21703,7 @@
     }
    ],
    "title": {
-    "ownedCount": 40,
+    "ownedCount": 41,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -21756,8 +21756,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 13,
-      "ownedPercent": 13,
+      "ownedCount": 14,
+      "ownedPercent": 14,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -31171,8 +31171,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 10:04 UTC",
+ "updated": "2026-11-04 10:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 10:32",
+   "n": "Taila",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-04 10:03",
    "n": "Yorichi",

@@ -54,14 +54,14 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 116223,
-     "il": 2429
+     "cp": 116226,
+     "il": 2428
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 116223,
-   "il": 2429,
+   "cp": 116226,
+   "il": 2428,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -924,7 +924,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2429
+     "value": 2428
     }
    ],
    "title": {
@@ -953,7 +953,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -978,7 +978,7 @@
         "desc": "MP +20"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Attack",
@@ -997,16 +997,16 @@
       "id": 23050017,
       "name": "Golden Glow",
       "ownedCount": 66,
-      "ownedPercent": 63,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "Critical Attack +3"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -2739,7 +2739,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Attack",
@@ -2761,7 +2761,7 @@
         "desc": "PvE Attack +4"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Defense",
@@ -2786,10 +2786,10 @@
         "desc": "MP +20"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -4706,13 +4706,13 @@
       "id": 21020046,
       "name": "Even Better",
       "ownedCount": 62,
-      "ownedPercent": 59,
+      "ownedPercent": 58,
       "statList": [
        {
         "desc": "HP Potion Recovery increase +2%"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Etc",
@@ -4737,7 +4737,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -4762,10 +4762,10 @@
         "desc": "MP +20"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -6846,7 +6846,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -6871,7 +6871,7 @@
         "desc": "MP +20"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Attack",
@@ -6890,16 +6890,16 @@
       "id": 23050017,
       "name": "Golden Glow",
       "ownedCount": 68,
-      "ownedPercent": 65,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "Critical Attack +3"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -8373,9 +8373,9 @@
       "id": null,
       "name": null,
       "ownedCount": 31,
-      "ownedPercent": 31,
+      "ownedPercent": 30,
       "statList": null,
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Attack",
@@ -8384,9 +8384,9 @@
       "id": null,
       "name": null,
       "ownedCount": 28,
-      "ownedPercent": 27,
+      "ownedPercent": 26,
       "statList": null,
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Defense",
@@ -8395,12 +8395,12 @@
       "id": null,
       "name": null,
       "ownedCount": 26,
-      "ownedPercent": 27,
+      "ownedPercent": 26,
       "statList": null,
-      "totalCount": 98
+      "totalCount": 99
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -9879,10 +9879,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3%"
+      "Attack increase +3.2%"
      ],
      "type": "STR",
-     "value": 30
+     "value": 32
     },
     {
      "name": "Dexterity",
@@ -10043,7 +10043,7 @@
         "desc": "Penetration +20"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Etc",
@@ -10062,13 +10062,13 @@
       "id": 23010010,
       "name": "Encountering Zikel's Core",
       "ownedCount": 33,
-      "ownedPercent": 33,
+      "ownedPercent": 32,
       "statList": [
        {
         "desc": "HP +120"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -10087,16 +10087,16 @@
       "id": 23010025,
       "name": "Rule All Creation",
       "ownedCount": 33,
-      "ownedPercent": 34,
+      "ownedPercent": 33,
       "statList": [
        {
         "desc": "Move Speed +1%"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -12033,7 +12033,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -12058,7 +12058,7 @@
         "desc": "MP +20"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Attack",
@@ -12077,16 +12077,16 @@
       "id": 23050017,
       "name": "Golden Glow",
       "ownedCount": 63,
-      "ownedPercent": 60,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "Critical Attack +3"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -13523,10 +13523,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.8%"
+      "Attack increase +2%"
      ],
      "type": "STR",
-     "value": 18
+     "value": 20
     },
     {
      "name": "Dexterity",
@@ -13684,7 +13684,7 @@
         "desc": "Out-of-Combat Natural Stamina Regen +5"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -13706,7 +13706,7 @@
         "desc": "Move Speed +0.7%"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Attack",
@@ -13725,10 +13725,10 @@
         "desc": "Power Shard Damage Bonus +1"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -14449,14 +14449,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 128020,
+     "cp": 128218,
      "il": 2512
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 128020,
+   "cp": 128218,
    "il": 2512,
    "gear": [
     {
@@ -15196,10 +15196,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.5%"
+      "Attack increase +0.7%"
      ],
      "type": "STR",
-     "value": 5
+     "value": 7
     },
     {
      "name": "Dexterity",
@@ -15365,7 +15365,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -15390,7 +15390,7 @@
         "desc": "Move Speed +1%"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Attack",
@@ -15409,16 +15409,16 @@
       "id": 23050017,
       "name": "Golden Glow",
       "ownedCount": 69,
-      "ownedPercent": 66,
+      "ownedPercent": 65,
       "statList": [
        {
         "desc": "Critical Attack +3"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -17311,13 +17311,13 @@
       "id": 21020034,
       "name": "Lifeguard",
       "ownedCount": 63,
-      "ownedPercent": 60,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Etc",
@@ -17342,7 +17342,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -17367,10 +17367,10 @@
         "desc": "MP +20"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -18796,7 +18796,7 @@
         "desc": "Accuracy Bonus +5"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Etc",
@@ -18815,7 +18815,7 @@
         "desc": "Defense Bonus +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Attack",
@@ -18834,10 +18834,10 @@
         "desc": "Back Attack Critical Hit +5"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -20211,7 +20211,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -20236,7 +20236,7 @@
         "desc": "MP +20"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Attack",
@@ -20252,16 +20252,16 @@
       "id": 23030010,
       "name": "Teleportation Specialist",
       "ownedCount": 64,
-      "ownedPercent": 61,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Critical Hit +10"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -21722,7 +21722,7 @@
         "desc": "Evasion Bonus +5"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Attack",
@@ -21744,7 +21744,7 @@
         "desc": "PvE Attack +4"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Etc",
@@ -21763,10 +21763,10 @@
         "desc": "Critical Hit +5"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -22820,7 +22820,7 @@
         "desc": "Natural MP Regen +5"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Attack",
@@ -22842,7 +22842,7 @@
         "desc": "Accuracy Bonus +10"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Etc",
@@ -22861,10 +22861,10 @@
         "desc": "Critical Hit +5"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -24437,7 +24437,7 @@
         "desc": "PvE Attack +4"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Defense",
@@ -24459,7 +24459,7 @@
         "desc": "Move Speed +0.7%"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Etc",
@@ -24478,10 +24478,10 @@
         "desc": "Critical Attack +2"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -25609,7 +25609,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -25634,7 +25634,7 @@
         "desc": "MP +20"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Attack",
@@ -25650,16 +25650,16 @@
       "id": 23030010,
       "name": "Teleportation Specialist",
       "ownedCount": 62,
-      "ownedPercent": 59,
+      "ownedPercent": 58,
       "statList": [
        {
         "desc": "Critical Hit +10"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -27202,7 +27202,7 @@
       "ownedCount": 9,
       "ownedPercent": 9,
       "statList": null,
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Attack",
@@ -27213,7 +27213,7 @@
       "ownedCount": 13,
       "ownedPercent": 12,
       "statList": null,
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Defense",
@@ -27224,10 +27224,10 @@
       "ownedCount": 8,
       "ownedPercent": 8,
       "statList": null,
-      "totalCount": 98
+      "totalCount": 99
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -27948,15 +27948,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 82066,
-     "il": 1932
+     "cp": 83381,
+     "il": 1953
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 82066,
-   "il": 1932,
+   "cp": 83381,
+   "il": 1953,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28827,7 +28827,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1932
+     "value": 1953
     }
    ],
    "title": {
@@ -28847,13 +28847,13 @@
       "id": 21020038,
       "name": "Celebrity",
       "ownedCount": 62,
-      "ownedPercent": 59,
+      "ownedPercent": 58,
       "statList": [
        {
         "desc": "Penetration +20"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Etc",
@@ -28878,7 +28878,7 @@
         "desc": "Block +10"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -28903,10 +28903,10 @@
         "desc": "MP +20"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -28927,8 +28927,8 @@
       "id": 72,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 52,
-      "openPercent": 59,
+      "openNodeCount": 65,
+      "openPercent": 74,
       "totalNodeCount": 88
      },
      {
@@ -29064,20 +29064,20 @@
     "72": [
      "3|12|Common|0|Defense",
      "3|13|Unique|1|Damage Boost",
-     "3|10|Common|0|Attack",
-     "3|11|Legend|0|Skill Level Up - Bolt",
+     "3|10|Common|1|Attack",
+     "3|11|Legend|1|Skill Level Up - Bolt",
      "3|4|Common|0|Critical Hit",
-     "3|5|Common|0|Max MP",
+     "3|5|Common|1|Max MP",
      "3|3|Unique|1|Damage Tolerance",
-     "3|8|Common|0|Defense",
-     "3|9|Rare|0|Skill Level Up - Heal Block",
-     "3|6|Common|0|Critical Hit Resist",
-     "3|7|Legend|0|Skill Level Up - Lightning Strike Scattershot",
+     "3|8|Common|1|Defense",
+     "3|9|Rare|1|Skill Level Up - Heal Block",
+     "3|6|Common|1|Critical Hit Resist",
+     "3|7|Legend|1|Skill Level Up - Lightning Strike Scattershot",
      "4|13|Common|1|Critical Hit",
      "5|3|Legend|1|Skill Level Up - Earth's Retribution",
-     "4|5|Rare|0|Skill Level Up - Radiant Benediction",
+     "4|5|Rare|1|Skill Level Up - Radiant Benediction",
      "4|3|Common|1|Attack",
-     "4|10|Common|0|Max MP",
+     "4|10|Common|1|Max MP",
      "4|7|Common|0|Max HP",
      "5|12|Rare|1|Skill Level Up - Survival Willpower",
      "5|13|Common|1|Attack",
@@ -29085,7 +29085,7 @@
      "5|7|Common|0|Attack",
      "5|4|Common|0|Max HP",
      "5|5|Common|0|Defense",
-     "5|10|Common|0|Critical Hit Resist",
+     "5|10|Common|1|Critical Hit Resist",
      "5|11|Common|0|Max MP",
      "5|8|Common|0|Max MP",
      "5|9|Legend|1|Skill Level Up - Debilitating Mark",
@@ -29093,17 +29093,17 @@
      "7|4|Common|1|Max HP",
      "7|5|Legend|1|Skill Level Up - Divine Aura",
      "7|3|Common|1|Defense",
-     "6|7|Rare|0|Skill Level Up - Earth's Grace",
+     "6|7|Rare|1|Skill Level Up - Earth's Grace",
      "6|5|Common|0|Max MP",
      "6|6|Common|0|Critical Hit Resist",
      "6|11|Common|0|Critical Hit",
      "6|9|Common|1|Critical Hit",
      "8|4|Common|1|Attack",
      "7|9|Common|1|Max MP",
-     "7|7|Common|0|Critical Hit",
+     "7|7|Common|1|Critical Hit",
      "7|12|Common|1|Attack",
      "7|13|Legend|1|Skill Level Up - Judgment Thunder",
-     "7|10|Rare|0|Skill Level Up - Prayer of Concentration",
+     "7|10|Rare|1|Skill Level Up - Prayer of Concentration",
      "7|11|Common|0|Max HP",
      "9|3|Legend|1|Skill Level Up - Condemnation",
      "9|6|Rare|1|Skill Level Up - Survival Willpower",
@@ -29733,7 +29733,7 @@
       "id": 17370000,
       "name": "Lightning Strike Scattershot",
       "needLevel": 5,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -29783,7 +29783,7 @@
       "id": 17060000,
       "name": "Bolt",
       "needLevel": 14,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -29853,7 +29853,7 @@
       "id": 17760000,
       "name": "Heal Block",
       "needLevel": 15,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -29863,7 +29863,7 @@
       "id": 17770000,
       "name": "Prayer of Concentration",
       "needLevel": 17,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -29873,7 +29873,7 @@
       "id": 17780000,
       "name": "Earth's Grace",
       "needLevel": 21,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -29893,17 +29893,17 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -29938,12 +29938,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -30056,14 +30056,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 26415,
+     "cp": 27070,
      "il": 432
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 26,
-   "cp": 26415,
+   "level": 27,
+   "cp": 27070,
    "il": 432,
    "gear": [
     {
@@ -30479,7 +30479,7 @@
     }
    ],
    "title": {
-    "ownedCount": 57,
+    "ownedCount": 61,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30498,7 +30498,7 @@
         "desc": "Attack Bonus +1"
        }
       ],
-      "totalCount": 105
+      "totalCount": 106
      },
      {
       "equipCategory": "Defense",
@@ -30513,14 +30513,14 @@
       "grade": "Legend",
       "id": 23010024,
       "name": "Bond with All Creation",
-      "ownedCount": 14,
-      "ownedPercent": 14,
+      "ownedCount": 16,
+      "ownedPercent": 16,
       "statList": [
        {
         "desc": "Move Speed +0.7%"
        }
       ],
-      "totalCount": 98
+      "totalCount": 99
      },
      {
       "equipCategory": "Etc",
@@ -30532,17 +30532,17 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 19,
-      "ownedPercent": 19,
+      "ownedCount": 21,
+      "ownedPercent": 21,
       "statList": [
        {
         "desc": "Critical Hit +5"
        }
       ],
-      "totalCount": 101
+      "totalCount": 102
      }
     ],
-    "totalCount": 304
+    "totalCount": 307
    },
    "ranking": {
     "rankingList": null
@@ -30819,7 +30819,7 @@
       "id": 11190000,
       "name": "Leaping Slam",
       "needLevel": 1,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -30839,7 +30839,7 @@
       "id": 11170000,
       "name": "Overhead Slam",
       "needLevel": 4,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -30959,7 +30959,7 @@
       "id": 11750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -31009,7 +31009,7 @@
       "id": 11800000,
       "name": "Murderous Burst",
       "needLevel": 25,
-      "skillLevel": 1
+      "skillLevel": 3
      },
      {
       "acquired": 0,
@@ -31169,8 +31169,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 00:38 UTC",
+ "updated": "2026-11-04 01:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 01:04",
+   "n": "RyBear",
+   "x": "reached level 27"
+  },
+  {
+   "t": "2026-11-04 01:04",
+   "n": "RyBear",
+   "x": "4 new titles"
+  },
+  {
+   "t": "2026-11-04 01:04",
+   "n": "RyBear",
+   "x": "skills up: Leaping Slam 10, Overhead Slam 11, Attack Preparation 8, Murderous Burst 3"
+  },
+  {
+   "t": "2026-11-04 01:04",
+   "n": "uTril",
+   "x": "opened 13 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-04 01:04",
+   "n": "uTril",
+   "x": "skills up: Lightning Strike Scattershot 12, Bolt 14, Heal Block 14, Prayer of Concentration 15 and 3 more"
+  },
   {
    "t": "2026-11-04 00:38",
    "n": "RyBear",

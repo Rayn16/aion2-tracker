@@ -25111,15 +25111,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 72952,
-     "il": 1404
+     "cp": 72967,
+     "il": 1405
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 72952,
-   "il": 1404,
+   "cp": 72967,
+   "il": 1405,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25272,7 +25272,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 7,
+     "enchantLevel": 8,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -25582,7 +25582,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1404
+     "value": 1405
     }
    ],
    "title": {
@@ -27950,14 +27950,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 84935,
+     "cp": 84971,
      "il": 2000
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 84935,
+   "cp": 84971,
    "il": 2000,
    "gear": [
     {
@@ -28835,7 +28835,7 @@
     }
    ],
    "title": {
-    "ownedCount": 183,
+    "ownedCount": 184,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -28875,8 +28875,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 60,
-      "ownedPercent": 59,
+      "ownedCount": 61,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Block +10"
@@ -31264,8 +31264,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 19:34 UTC",
+ "updated": "2026-11-04 20:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 20:04",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-04 20:03",
+   "n": "iLen",
+   "x": "Noble Belt +7 → +8"
+  },
   {
    "t": "2026-11-04 19:31",
    "n": "YasuoMain16",

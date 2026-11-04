@@ -25111,15 +25111,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 72692,
-     "il": 1397
+     "cp": 72697,
+     "il": 1398
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 72692,
-   "il": 1397,
+   "cp": 72697,
+   "il": 1398,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25580,7 +25580,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1397
+     "value": 1398
     }
    ],
    "title": {
@@ -25671,8 +25671,8 @@
       "id": 81,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 82,
-      "openPercent": 93,
+      "openNodeCount": 83,
+      "openPercent": 94,
       "totalNodeCount": 88
      },
      {
@@ -25768,7 +25768,7 @@
      "7|7|Common|1|Max MP",
      "7|8|Common|1|Attack",
      "7|9|Common|1|Critical Hit Resist",
-     "9|4|Common|0|Critical Hit Resist",
+     "9|4|Common|1|Critical Hit Resist",
      "9|5|Common|0|Max HP",
      "9|6|Rare|0|Skill Level Up - Inspiring Spell",
      "9|7|Common|1|Critical Hit",
@@ -30064,7 +30064,7 @@
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 30,
+   "level": 31,
    "cp": 31741,
    "il": 506,
    "gear": [
@@ -31262,8 +31262,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 17:04 UTC",
+ "updated": "2026-11-04 17:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 17:34",
+   "n": "RyBear",
+   "x": "reached level 31"
+  },
+  {
+   "t": "2026-11-04 17:33",
+   "n": "iLen",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-04 17:04",
    "n": "RyBear",

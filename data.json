@@ -19558,14 +19558,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 85805,
+     "cp": 85818,
      "il": 1713
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 85805,
+   "cp": 85818,
    "il": 1713,
    "gear": [
     {
@@ -20186,7 +20186,7 @@
     }
    ],
    "title": {
-    "ownedCount": 189,
+    "ownedCount": 190,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -20229,8 +20229,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 61,
-      "ownedPercent": 62,
+      "ownedCount": 62,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "MP +20"
@@ -30058,15 +30058,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 28607,
-     "il": 432
+     "cp": 31741,
+     "il": 506
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 29,
-   "cp": 28607,
-   "il": 432,
+   "level": 30,
+   "cp": 31741,
+   "il": 506,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30145,12 +30145,12 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Outsider Pauldrons",
-     "grade": "Common",
+     "name": "Chaser Pauldrons",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Shoulder.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Shoulder.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30265,12 +30265,12 @@
     },
     {
      "slotPosName": "Ring1",
-     "name": "Old Mercenary Commander Ring",
-     "grade": "Common",
+     "name": "Chaser Ring",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30386,102 +30386,102 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +0.3%",
-      "Perfect Chance +0.3%"
+      "Defense increase +0.5%",
+      "Perfect Chance +0.5%"
      ],
      "type": "Justice",
-     "value": 3
+     "value": 5
     },
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +1.7%",
-      "Evasion increase +1.7%"
+      "Accuracy increase +1.9%",
+      "Evasion increase +1.9%"
      ],
      "type": "Freedom",
-     "value": 17
+     "value": 19
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.2%",
-      "Endurance Penetration +0.2%"
+      "Cooldown -0.4%",
+      "Endurance Penetration +0.4%"
      ],
      "type": "Illusion",
-     "value": 2
+     "value": 4
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +0.3%",
-      "Regeneration +0.3%"
+      "HP increase +0.5%",
+      "Regeneration +0.5%"
      ],
      "type": "Life",
-     "value": 3
+     "value": 5
     },
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +0.3%",
-      "Double Resist +0.3%"
+      "Combat Speed +0.5%",
+      "Double Resist +0.5%"
      ],
      "type": "Time",
-     "value": 3
+     "value": 5
     },
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.3%",
-      "Perfect Resist +0.3%"
+      "Attack increase +0.5%",
+      "Perfect Resist +0.5%"
      ],
      "type": "Destruction",
-     "value": 3
+     "value": 5
     },
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +1.1%",
-      "Regeneration Penetration +1.1%"
+      "Critical Hit increase +1.3%",
+      "Regeneration Penetration +1.3%"
      ],
      "type": "Death",
-     "value": 11
+     "value": 13
     },
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.2%",
-      "Double Chance +0.2%"
+      "MP Cost -0.4%",
+      "Double Chance +0.4%"
      ],
      "type": "Wisdom",
-     "value": 2
+     "value": 4
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +0.3%",
-      "Endurance +0.3%"
+      "MP increase +0.5%",
+      "Endurance +0.5%"
      ],
      "type": "Destiny",
-     "value": 3
+     "value": 5
     },
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +0.3%",
-      "Block increase +0.3%"
+      "Move Speed +0.5%",
+      "Block increase +0.5%"
      ],
      "type": "Space",
-     "value": 3
+     "value": 5
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 432
+     "value": 506
     }
    ],
    "title": {
-    "ownedCount": 76,
+    "ownedCount": 83,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30493,8 +30493,8 @@
       "grade": "Rare",
       "id": 22020013,
       "name": "The Only Way Out Is Through",
-      "ownedCount": 30,
-      "ownedPercent": 28,
+      "ownedCount": 33,
+      "ownedPercent": 31,
       "statList": [
        {
         "desc": "Attack Bonus +1"
@@ -30515,8 +30515,8 @@
       "grade": "Legend",
       "id": 23010024,
       "name": "Bond with All Creation",
-      "ownedCount": 23,
-      "ownedPercent": 23,
+      "ownedCount": 26,
+      "ownedPercent": 26,
       "statList": [
        {
         "desc": "Move Speed +0.7%"
@@ -30534,8 +30534,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 23,
-      "ownedPercent": 23,
+      "ownedCount": 24,
+      "ownedPercent": 24,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -30556,8 +30556,8 @@
       "id": 11,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 49,
-      "openPercent": 56,
+      "openNodeCount": 57,
+      "openPercent": 65,
       "totalNodeCount": 88
      },
      {
@@ -30573,9 +30573,9 @@
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
       "id": 13,
       "name": "Vaizel",
-      "open": 0,
-      "openNodeCount": 0,
-      "openPercent": 0,
+      "open": 1,
+      "openNodeCount": 26,
+      "openPercent": 30,
       "totalNodeCount": 88
      },
      {
@@ -30640,13 +30640,13 @@
      "9|10|Common|1|Max MP",
      "9|13|Common|1|Max HP",
      "9|12|Common|1|Defense",
-     "10|3|Common|0|Attack",
-     "10|5|Common|0|Defense",
+     "10|3|Common|1|Attack",
+     "10|5|Common|1|Defense",
      "10|7|Common|1|Attack",
      "10|9|Common|0|Critical Hit",
      "10|12|Common|1|Max MP",
-     "11|3|Rare|0|Skill Level Up - Attack Preparation",
-     "11|5|Legend|0|Skill Level Up - Rush Strike",
+     "11|3|Rare|1|Skill Level Up - Attack Preparation",
+     "11|5|Legend|1|Skill Level Up - Rush Strike",
      "11|4|Common|0|Max MP",
      "11|7|Common|1|Max MP",
      "11|9|Common|0|Critical Hit Resist",
@@ -30654,16 +30654,16 @@
      "11|11|Common|0|Max MP",
      "11|13|Rare|1|Skill Level Up - Protection Armor",
      "11|12|Common|1|Attack",
-     "12|3|Common|0|Max HP",
+     "12|3|Common|1|Max HP",
      "12|6|Common|0|Attack",
-     "12|5|Common|0|Critical Hit",
+     "12|5|Common|1|Critical Hit",
      "12|7|Common|1|Max HP",
      "12|10|Common|0|Max HP",
      "12|9|Common|0|Attack",
      "12|11|Legend|0|Skill Level Up - Ankle Slice",
      "12|13|Common|1|Critical Hit Resist",
-     "13|3|Unique|0|Cooldown Reduction",
-     "13|5|Rare|0|Skill Level Up - Blood Absorption",
+     "13|3|Unique|1|Cooldown Reduction",
+     "13|5|Rare|1|Skill Level Up - Blood Absorption",
      "13|4|Common|0|Critical Hit Resist",
      "13|7|Legend|1|Skill Level Up - Ruinous Blow",
      "13|9|Rare|1|Skill Level Up - Survival Stance",
@@ -30789,6 +30789,97 @@
      "13|10|Common|0|Critical Hit",
      "13|13|Unique|0|Damage Tolerance",
      "13|12|Common|0|Critical Hit Resist"
+    ],
+    "13": [
+     "4|3|Common|0|Critical Hit",
+     "4|6|Common|1|Critical Hit",
+     "4|5|Common|1|Attack",
+     "4|7|Common|1|Max MP",
+     "4|9|Common|1|Defense",
+     "4|11|Common|0|Defense",
+     "4|13|Common|0|Max MP",
+     "5|3|Common|0|Defense",
+     "5|5|Common|0|Max HP",
+     "5|4|Legend|0|Skill Level Up - Leaping Slam",
+     "5|7|Legend|0|Skill Level Up - Aerial Snare",
+     "5|9|Common|1|Max MP",
+     "5|8|Common|0|Critical Hit",
+     "5|11|Legend|0|Skill Level Up - Crushing Wave",
+     "5|10|Common|0|Max HP",
+     "5|13|Rare|0|Skill Level Up - Attack Preparation",
+     "5|12|Common|0|Attack",
+     "6|4|Common|0|Critical Hit Resist",
+     "6|7|Common|0|Critical Hit",
+     "6|9|Rare|1|Skill Level Up - Experienced Counterstrike",
+     "6|12|Common|0|Critical Hit Resist",
+     "7|3|Common|0|Attack",
+     "7|5|Common|0|Defense",
+     "7|4|Common|0|Max MP",
+     "7|7|Common|0|Max HP",
+     "7|6|Rare|0|Skill Level Up - Survival Willpower",
+     "7|9|Common|1|Critical Hit Resist",
+     "7|8|Common|1|Attack",
+     "7|11|Legend|1|Skill Level Up - Overhead Slam",
+     "7|10|Common|1|Defense",
+     "7|13|Common|0|Critical Hit",
+     "7|12|Common|0|Max HP",
+     "8|3|Legend|0|Skill Level Up - Ankle Slice",
+     "8|6|Common|0|Max MP",
+     "8|8|Start|1|Vaizel - Start",
+     "8|10|Common|0|Max HP",
+     "8|13|Legend|1|Skill Level Up - Keen Strike",
+     "9|3|Common|0|Critical Hit Resist",
+     "9|5|Legend|1|Skill Level Up - Ruinous Blow",
+     "9|4|Common|0|Max MP",
+     "9|7|Common|1|Critical Hit",
+     "9|6|Common|1|Attack",
+     "9|9|Common|1|Max MP",
+     "9|8|Common|1|Defense",
+     "9|11|Common|1|Attack",
+     "9|10|Rare|1|Skill Level Up - Murderous Burst",
+     "9|13|Common|1|Defense",
+     "9|12|Common|1|Max HP",
+     "10|4|Common|0|Critical Hit",
+     "10|7|Rare|0|Skill Level Up - Impact Hit",
+     "10|9|Common|0|Critical Hit Resist",
+     "10|12|Common|0|Critical Hit",
+     "11|3|Rare|0|Skill Level Up - Destructive Impulse",
+     "11|5|Legend|0|Skill Level Up - Rending Blow",
+     "11|4|Common|0|Defense",
+     "11|7|Common|0|Max HP",
+     "11|6|Common|0|Critical Hit Resist",
+     "11|9|Legend|0|Skill Level Up - Mocking Blade",
+     "11|8|Common|0|Max MP",
+     "11|11|Common|0|Max MP",
+     "11|13|Common|0|Attack",
+     "11|12|Legend|0|Skill Level Up - Rush Strike",
+     "12|3|Common|0|Max HP",
+     "12|5|Common|0|Attack",
+     "12|7|Common|0|Attack",
+     "12|10|Common|0|Critical Hit Resist",
+     "12|9|Common|0|Max HP",
+     "12|11|Common|0|Defense",
+     "12|13|Common|0|Critical Hit Resist",
+     "13|3|Unique|0|Critical Damage Tolerance",
+     "13|5|Common|0|Critical Hit",
+     "13|4|Common|0|Max MP",
+     "13|7|Common|0|Defense",
+     "13|6|Rare|0|Skill Level Up - Identify Weakness",
+     "13|9|Common|0|Critical Hit",
+     "13|8|Legend|0|Skill Level Up - Defiance",
+     "13|11|Rare|0|Skill Level Up - Protection Armor",
+     "13|13|Unique|0|Critical Damage Boost",
+     "13|12|Common|0|Critical Hit",
+     "3|3|Unique|1|Critical Damage Boost",
+     "3|5|Rare|1|Skill Level Up - Survival Stance",
+     "3|4|Common|1|Critical Hit Resist",
+     "3|7|Common|1|Critical Hit Resist",
+     "3|9|Common|1|Attack",
+     "3|8|Legend|1|Skill Level Up - Sword Aura Rampage",
+     "3|11|Common|0|Critical Hit Resist",
+     "3|10|Rare|0|Skill Level Up - Blood Absorption",
+     "3|13|Unique|0|Critical Damage Tolerance",
+     "3|12|Common|0|Max HP"
     ]
    },
    "skill": {
@@ -30801,7 +30892,7 @@
       "id": 11020000,
       "name": "Keen Strike",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -30841,7 +30932,7 @@
       "id": 11170000,
       "name": "Overhead Slam",
       "needLevel": 4,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -30851,7 +30942,7 @@
       "id": 11280000,
       "name": "Sword Aura Rampage",
       "needLevel": 5,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -30881,7 +30972,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -30901,7 +30992,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -30921,7 +31012,7 @@
       "id": 11710000,
       "name": "Survival Stance",
       "needLevel": 1,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -30941,7 +31032,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 8
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -30961,7 +31052,7 @@
       "id": 11750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -30991,7 +31082,7 @@
       "id": 11780000,
       "name": "Experienced Counterstrike",
       "needLevel": 21,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -31011,7 +31102,7 @@
       "id": 11800000,
       "name": "Murderous Burst",
       "needLevel": 25,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 0,
@@ -31041,7 +31132,7 @@
       "id": 11250000,
       "name": "Zikel's Blessing",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 0,
@@ -31171,8 +31262,43 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 16:34 UTC",
+ "updated": "2026-11-04 17:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 17:04",
+   "n": "RyBear",
+   "x": "reached level 30"
+  },
+  {
+   "t": "2026-11-04 17:04",
+   "n": "RyBear",
+   "x": "new Chaser Pauldrons +0"
+  },
+  {
+   "t": "2026-11-04 17:04",
+   "n": "RyBear",
+   "x": "new Chaser Ring +0"
+  },
+  {
+   "t": "2026-11-04 17:04",
+   "n": "RyBear",
+   "x": "7 new titles"
+  },
+  {
+   "t": "2026-11-04 17:04",
+   "n": "RyBear",
+   "x": "opened 34 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-04 17:04",
+   "n": "RyBear",
+   "x": "skills up: Keen Strike 13, Overhead Slam 12, Sword Aura Rampage 3, Rush Strike 2 and 7 more"
+  },
+  {
+   "t": "2026-11-04 17:02",
+   "n": "PeriodPhobic",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-04 16:34",
    "n": "RyBear",

@@ -27948,15 +27948,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 84566,
-     "il": 1986
+     "cp": 84935,
+     "il": 2000
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 84566,
-   "il": 1986,
+   "cp": 84935,
+   "il": 2000,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28186,15 +28186,20 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Bakarma Gloves",
+     "name": "Vakron Gloves",
      "grade": "Unique",
-     "enchantLevel": 11,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Defense",
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "MP",
        "+30",
        "Rare"
       ],
@@ -28204,14 +28209,9 @@
        "Common"
       ],
       [
-       "Block",
-       "+10",
-       "Rare"
-      ],
-      [
        "Defense",
-       "+30",
-       "Rare"
+       "+10",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -28829,7 +28829,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1986
+     "value": 2000
     }
    ],
    "title": {
@@ -29805,7 +29805,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -29885,7 +29885,7 @@
       "id": 17790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31171,8 +31171,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 11:04 UTC",
+ "updated": "2026-11-04 11:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 11:33",
+   "n": "uTril",
+   "x": "new Vakron Gloves +10"
+  },
+  {
+   "t": "2026-11-04 11:33",
+   "n": "uTril",
+   "x": "skills up: Warm Benediction 16, Survival Willpower 14"
+  },
   {
    "t": "2026-11-04 10:32",
    "n": "Taila",

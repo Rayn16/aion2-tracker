@@ -27948,14 +27948,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 84559,
+     "cp": 84566,
      "il": 1986
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 84559,
+   "cp": 84566,
    "il": 1986,
    "gear": [
     {
@@ -28833,7 +28833,7 @@
     }
    ],
    "title": {
-    "ownedCount": 182,
+    "ownedCount": 183,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -28898,8 +28898,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 59,
-      "ownedPercent": 60,
+      "ownedCount": 60,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "MP +20"
@@ -31171,8 +31171,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 03:34 UTC",
+ "updated": "2026-11-04 04:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 04:03",
+   "n": "uTril",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-04 03:34",
    "n": "uTril",

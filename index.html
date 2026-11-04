@@ -227,10 +227,10 @@ table.skills img { width: 32px; height: 32px; border-radius: 4px; display: block
 table.skills tr.next td { background: color-mix(in srgb, var(--gold) 12%, transparent); }
 table.skills .meter { min-width: 80px; }
 .dboards { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; align-items: start; }
-.dboard { margin: 0; display: grid; gap: 8px; }
-.dboard figcaption { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.dboard { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; }
+.dboard figcaption { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 14px; }
 .dboard figcaption img { width: 24px; height: 24px; }
-.dgrid { display: grid; grid-template-columns: repeat(var(--cols), 1fr); gap: 3px; aspect-ratio: 1; background: var(--bg); padding: 6px; border-radius: 6px; }
+.dgrid { display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); gap: 3px; aspect-ratio: 1; background: var(--bg); padding: 6px; border-radius: 6px; }
 .dgrid i, .dk { display: block; aspect-ratio: 1; border-radius: 2px; border: 1px solid color-mix(in srgb, var(--g, var(--muted)) 55%, transparent); background: color-mix(in srgb, var(--g, var(--muted)) 12%, transparent); }
 .dgrid i.on, .dk.on { background: var(--g, var(--muted)); border-color: var(--g, var(--muted)); }
 .dgrid i.skill, .dk.skill { border-radius: 50%; }
@@ -245,11 +245,11 @@ table.skills .meter { min-width: 80px; }
 .dboards.big .dgrid i.start { background: var(--fg); }
 .dgrid { position: relative; }
 .dgrid i b { position: relative; z-index: 2; }
-.dboards.big { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.dboards.big { grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); }
 .dboard ol.list { margin: 0; font-size: 13px; }
 .dboards.big .dboard { padding: 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); }
 .dboards.big .dboard figcaption { font: 600 15px/1.2 var(--display); letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold-hi); }
-.dboards.big .dboard figcaption .note { margin-left: auto; font: 500 11.5px/1 var(--mono); letter-spacing: 0; text-transform: none; color: var(--muted); }
+.dboards.big .dboard figcaption .note { margin-left: auto; font: 500 11.5px/1 var(--mono); letter-spacing: 0; text-transform: none; color: var(--muted); white-space: nowrap; }
 .dboards.big .dgrid { border: 1px solid var(--line); border-radius: 6px; }
 .dboards.big .dgrid i b { text-shadow: none; }
 .dboards.big .dgrid i.stop { opacity: 1; background: var(--gold); border-color: var(--gold); outline: none; box-shadow: none; }
@@ -329,6 +329,7 @@ dialog.dzoom img.full { max-width: 100%; max-height: calc(100vh - 32px); border-
    section titles in a strip at the top of each panel, plain-case navigation and buttons, switches for ticks. Inside
    Premade the colours and fonts are Premade's own, the theme you picked included (themeFromPremade below). */
 .rail { gap: 2px; width: 212px; padding: 0 10px; border-right: 1px solid var(--line); }
+@container app (max-width: 760px) { .rail { width: auto; padding-inline: 6px; } }  /* narrow: the icons-only rail again */
 .brand { min-height: 64px; margin: 0 -10px 6px; padding: 0 18px; border-bottom: 1px solid var(--line); font: 700 15px/1 var(--display); letter-spacing: 0.16em; color: var(--gold-hi); white-space: nowrap; }
 .brand img { display: none; }
 .nav { gap: 10px; padding: 7px 10px; font: 500 13.5px/1.2 var(--body); letter-spacing: normal; text-transform: none; }
@@ -768,7 +769,8 @@ const BUILDS = {
       stigma: [['Undefeated Mantra', 10], ['Power of the Storm', 10], ['Marchutan\'s Wrath', 10], ['Fracturing Blow', 10]],
       stats: ['Combat Speed', 'Damage Boost', 'Cooldown Reduction', 'Critical Damage Boost', 'Multi-Hit Chance', 'Attack', 'Critical Hit'] } },
 };
-// Node priority per board from Game8's build guides (one per class; Templar's is its Judgment damage build, our "Damage").
+// Node priority per board from Game8's build guides (one per class; Templar's is Game8's Judgment tank build, so it's on
+// our Tank build and stays on Damage too).
 // Names as the boards spell them; ones Game8 lists that aren't on that board (Blaze, Sinew Explosion) are left out.
 const G8 = 'https://game8.co/games/Aion-2/archives/';
 const GAME8 = {
@@ -783,7 +785,9 @@ const GAME8 = {
 };
 // Game8's Daevanion maps, copied off the pictures in those guides: every node the build opens, as row,col on the board,
 // with g and its green number (priority nodes, opened first in that order) or y and its yellow one (secondary, after).
-// Numbers are as drawn: a few repeat or skip, and some sit off the lit nodes (Sorcerer's mostly), reached the cheapest way.
+// Where a picture repeats or skips a number, the numbers count on in its order (the cheaper one first). A + node is ours:
+// Game8 leaves numbers that no lit node reaches (its Sorcerer pictures are "still a work in progress", and Ranger
+// Nezekan's last yellow), so the cheapest nodes that join each one, in Game8's order, are lit too.
 const G8MAPS = {
   Gladiator: {
     Nezekan: '3,3g7 3,7y15 3,11y5 3,12 3,13y4 4,3 4,5g5 4,7 4,13 5,3g6 5,4 5,5 5,7 5,11y6 5,12 5,13y3 6,4 6,7 6,13 7,4 7,5g1 7,6 7,7 7,8 7,10g3 7,13 8,3y14 8,6 8,10 8,13y2 9,3 9,4 9,5 9,6y9 9,7 9,8 9,9 9,10 9,11g2 9,12 9,13 10,3 10,5 10,7 10,12 11,3y10 11,5y13 11,7 11,12 11,13y7 12,3 12,5 12,7 12,13 13,3y11 13,4 13,5y12 13,7g4 13,8 13,9y1 13,13y8',
@@ -793,36 +797,36 @@ const G8MAPS = {
   },
   Cleric: {
     Nezekan: '3,3g8 3,7y10 3,8 3,9y2 3,11y11 3,12 3,13g4 4,3 4,5g7 4,9 4,10 4,11 4,13 5,3g6 5,4 5,5 5,8y1 5,9 5,11g2 5,12 5,13g3 6,4 6,11 7,3 7,4 7,5g5 7,6 7,7 7,8 7,9 7,10g1 7,11 7,12 7,13 8,3y12 8,6 8,10 8,13y13 9,5 9,6g9 9,10 9,11y3 9,12 10,5 10,12 11,3g12 11,4 11,5g10 11,8y7 11,9 11,11 11,12 11,13y4 12,3 12,5 12,9 12,10 12,11y6 12,13 13,3g13 13,5g11 13,7y9 13,8 13,9y8 13,13y5',
-    Zikel: '3,3g16 3,5 3,6 3,7y7 3,8 3,9y8 3,10 3,11y9 3,12 3,13g13 4,3 4,5y6 4,13 5,3g15 5,9y1 5,12g11 5,13 6,3 6,7y4 6,9 6,13 7,3 7,4 7,5g14 7,7 7,9 7,10y5 7,12 7,13g12 8,4 8,7 8,9 8,12 9,3g2 9,4 9,5 9,6g1 9,7 9,9 9,11g8 9,12 10,7 10,9g7 10,10 10,11 11,4g6 11,5 11,6 11,7g3 11,9 11,11 11,12 11,13g10 12,6 12,9 12,11g9 12,13 13,3g5 13,4 13,5g4 13,6 13,7y3 13,9y2 13,13g11',
+    Zikel: '3,3g17 3,5 3,6 3,7y7 3,8 3,9y8 3,10 3,11y9 3,12 3,13g14 4,3 4,5y6 4,13 5,3g16 5,9y1 5,12g12 5,13 6,3 6,7y4 6,9 6,13 7,3 7,4 7,5g15 7,7 7,9 7,10y5 7,12 7,13g13 8,4 8,7 8,9 8,12 9,3g2 9,4 9,5 9,6g1 9,7 9,9 9,11g8 9,12 10,7 10,9g7 10,10 10,11 11,4g6 11,5 11,6 11,7g3 11,9 11,11 11,12 11,13g10 12,6 12,9 12,11g9 12,13 13,3g5 13,4 13,5g4 13,6 13,7y3 13,9y2 13,13g11',
     Vaizel: '3,3g8 3,5y1 3,8y10 3,9 3,10g3 3,11 3,13g5 4,3 4,5 4,6 4,7 4,11 4,13 5,3 5,4g7 5,5 5,7g6 5,11g2 5,12 5,13g4 6,7 6,9y6 6,12 7,3 7,4 7,5 7,6g9 7,7 7,8 7,9 7,10 7,11g1 7,12 7,13 8,3g10 8,10 8,13y9 9,3 9,4 9,5g11 9,6 9,7 9,8 9,9 9,10g14 9,11 9,12 10,4 10,7y7 10,9 10,12 11,3y5 11,4 11,5g12 11,9y8 11,12g15 11,13 12,5 12,13 13,3g13 13,4 13,5 13,6y2 13,7 13,8y3 13,11y4 13,12 13,13g16',
     Triniel: '2,2y7 2,3 2,4 2,7 2,8g9 2,9 2,12 2,13 2,14y12 3,4y6 3,5 3,6 3,7y5 3,9g8 3,12y11 4,4 4,9 4,12 5,2y8 5,3 5,4 5,5y9 5,9 5,10g7 5,11 5,12 5,13 5,14y10 6,10 7,2 7,3 7,4 7,5 7,6g2 7,7 7,8 7,9 7,10 7,11 7,12y3 7,13 7,14 8,2y2 8,14y4 9,4y15 9,5 9,6 9,7 9,8 9,9 9,10g1 10,6 10,10 11,2y1 11,6g3 11,7 11,10 11,11g10 11,12 11,13 11,14y16 12,2 12,7 12,12 13,2 13,4g5 13,5 13,6 13,7g4 13,9y14 13,12g11 14,2g6 14,3 14,4 14,7 14,8y13 14,9 14,12 14,13 14,14g12',
   },
   Chanter: {
     Nezekan: '3,3g3 3,4 3,5 3,9y2 3,11y3 3,12 3,13y4 4,5g2 4,9 4,10 4,11 5,3y12 5,4 5,5 5,7 5,8y1 5,9 5,11y11 5,12 5,13 6,4 6,7 7,3 7,4 7,5g1 7,6 7,7 7,8 7,9 7,10y13 8,3y10 8,6 8,13g7 9,6y16 9,8 9,9 9,10 9,11g4 9,12 9,13 10,3 10,9 10,12 11,3y14 11,5y7 11,7 11,8y5 11,9 11,11 11,12 11,13y17 12,3 12,5 12,6 12,7 12,9 12,11g5 13,3y9 13,4 13,5y8 13,7y6 13,9y15 13,11 13,12 13,13g6',
     Zikel: '3,3y3 3,4 3,5 3,6 3,7y2 3,9y14 3,10 3,11g5 3,12 3,13g6 4,3 4,5y15 4,7 4,10 4,13 5,3y4 5,7 5,9g4 5,10 5,12y19 5,13 6,3 6,7y1 6,9 7,3 7,4 7,5y11 7,7 7,9 7,10y9 7,11 7,12 7,13y10 8,4 8,7 8,9 9,3y16 9,4 9,6y18 9,7 9,9 9,11y13 10,7 10,9y12 10,10 10,11 11,4y17 11,5 11,6 11,7g1 11,13y8 12,6 12,11y20 12,13 13,3g3 13,4 13,5g2 13,6 13,7y5 13,8 13,9y6 13,10 13,11 13,12 13,13y7',
-    Vaizel: '3,3g4 3,5y12 3,7 3,8y1 3,9 3,10y17 3,13y3 4,3 4,5 4,6 4,7 4,13 5,3 5,4g3 5,5 5,7g2 5,11y10 5,12 5,13y2 6,7 6,9y15 6,12 7,6y16 7,7 7,8 7,9 7,10 7,11g1 7,12 8,3y7 8,10 8,13y9 9,3 9,4 9,5y4 9,6 9,7 9,8 9,9 9,10g5 9,11 9,12 9,13 10,4 10,7y13 10,9 10,12 11,3y11 11,4 11,5y5 11,9y8 11,12g6 11,13 12,5 12,13 13,3y6 13,4 13,5 13,6y9 13,7 13,8y13 13,11y14 13,12 13,13g7',
+    Vaizel: '3,3g4 3,5y13 3,7 3,8y1 3,9 3,10y19 3,13y3 4,3 4,5 4,6 4,7 4,13 5,3 5,4g3 5,5 5,7g2 5,11y11 5,12 5,13y2 6,7 6,9y17 6,12 7,6y18 7,7 7,8 7,9 7,10 7,11g1 7,12 8,3y7 8,10 8,13y10 9,3 9,4 9,5y4 9,6 9,7 9,8 9,9 9,10g5 9,11 9,12 9,13 10,4 10,7y14 10,9 10,12 11,3y12 11,4 11,5y5 11,9y8 11,12g6 11,13 12,5 12,13 13,3y6 13,4 13,5 13,6y9 13,7 13,8y15 13,11y16 13,12 13,13g7',
     Triniel: '2,2y5 2,3 2,4 2,7 2,8g6 2,9 2,12 2,13 2,14y2 3,2 3,4y4 3,5 3,6 3,7y3 3,9g5 3,10 3,11 3,12y1 3,14 4,2 4,4 4,9 4,14 5,2y8 5,4 5,5y16 5,9 5,10g4 5,14y15 6,10 7,6y11 7,10 7,12y17 8,2y9 8,6 8,10 8,12 8,14y10 9,2 9,3 9,4y14 9,6 9,7 9,8 9,9 9,10g1 9,11 9,12 9,13 9,14 10,3 10,6 10,12 11,2y18 11,3 11,4 11,5 11,6g7 11,7 11,11y13 11,12 11,13 11,14y12 12,4 12,7 12,12 13,4g8 13,7y6 13,9y19 13,12g2 14,2g9 14,3 14,4 14,7 14,8y7 14,9 14,12 14,13 14,14g3',
   },
   Spiritmaster: {
     Nezekan: '3,3y3 3,4 3,5 3,7y19 3,9y12 3,11g2 3,12 3,13g3 4,3 4,5y2 4,6 4,7 4,9 4,11 4,13 5,3y16 5,7 5,8y1 5,9 5,11g1 5,13y15 6,7 6,11 7,3 7,4 7,5y9 7,6 7,7 7,8 7,9 7,10y4 7,11 7,12 7,13 8,3y13 8,13y5 9,5 9,6g4 9,7 9,8 9,11y10 9,12 9,13 10,5 10,12 11,3y14 11,4 11,5g5 11,7 11,8y11 11,11 11,12 11,13y18 12,5 12,6 12,7 12,11y6 13,3g7 13,4 13,5g6 13,7y8 13,8 13,9y17 13,11 13,12 13,13y7',
     Zikel: '3,3y6 3,4 3,5 3,6 3,7y5 3,8 3,9y4 3,10 3,11g2 3,12 3,13g3 4,3 4,5y8 4,10 5,3y10 5,5 5,9g1 5,10 5,11 5,12y15 6,5 6,6 6,7y14 6,9 7,5y9 7,9 7,10y11 7,11 7,12 7,13y12 8,7 8,9 9,3y7 9,6y19 9,7 9,9 9,11y13 10,3 10,7 10,9y1 10,10 10,11 11,3 11,4y16 11,6 11,7g4 11,11 11,12 11,13y2 12,3 12,6 12,11y20 12,13 13,3g6 13,4 13,5g5 13,6 13,7y17 13,8 13,9y18 13,13y3',
     Vaizel: '3,3g4 3,4 3,5y14 3,7 3,8y12 3,9 3,10y15 3,13y7 4,3 4,5 4,6 4,7 4,9 4,13 5,3 5,4g3 5,5 5,7y13 5,9 5,11y8 5,12 5,13y6 6,4 6,9y17 6,12 7,3 7,4 7,5 7,6g2 7,11y11 7,12 7,13 8,3y10 8,6 8,13y5 9,5g1 9,6 9,7 9,8 9,9 9,10g5 9,11 9,12 9,13 10,7y1 10,9 10,12 11,3y3 11,4 11,5y2 11,6 11,7 11,9y9 11,12g6 11,13 12,3 12,5 12,13 13,3y4 13,5 13,6y16 13,7 13,8y18 13,11y19 13,12 13,13g7',
-    Triniel: '2,2y1 2,3 2,4 2,7 2,8g10 2,9 2,12 2,13 2,14y6 3,4g8 3,5 3,6 3,7g9 3,9y4 3,10 3,11 3,12y5 3,14 4,4 4,9 4,14 5,2y7 5,3 5,4 5,5y19 5,9 5,10y8 5,14y13 6,4 7,2 7,3 7,4 7,5 7,6g7 7,12y12 8,2y10 8,4 8,6 8,12 8,14y9 9,4y14 9,6 9,7 9,8 9,9 9,10g4 9,11 9,12 9,13 9,14 10,6 10,12 11,2y15 11,3 11,4 11,5 11,6g1 11,11y11 11,12 11,13 11,14y20 12,4 12,12 13,4g2 13,7y16 13,9y2 13,10 13,11 13,12g5 14,2g3 14,3 14,4 14,7 14,8y3 14,9 14,12 14,13 14,14g6',
+    Triniel: '2,2y1 2,3 2,4 2,7 2,8g10 2,9 2,12 2,13 2,14y6 3,4g8 3,5 3,6 3,7g9 3,9y4 3,10 3,11 3,12y5 3,14 4,4 4,9 4,14 5,2y7 5,3 5,4 5,5y17 5,9 5,10y8 5,14y13 6,4 7,2 7,3 7,4 7,5 7,6g7 7,12y12 8,2y10 8,4 8,6 8,12 8,14y9 9,4y14 9,6 9,7 9,8 9,9 9,10g4 9,11 9,12 9,13 9,14 10,6 10,12 11,2y15 11,3 11,4 11,5 11,6g1 11,11y11 11,12 11,13 11,14y18 12,4 12,12 13,4g2 13,7y16 13,9y2 13,10 13,11 13,12g5 14,2g3 14,3 14,4 14,7 14,8y3 14,9 14,12 14,13 14,14g6',
   },
   Ranger: {
-    Nezekan: '3,3g7 3,4 3,5 3,7y1 3,8 3,9y2 3,11g11 3,12 3,13g10 4,3 4,5g6 4,6 4,7 4,13 5,3 5,7 5,8g5 5,11y3 5,12 5,13g9 6,7 6,13 7,5g2 7,6 7,7 7,8 7,9 7,10g4 7,13 8,3y13 8,13g8 9,6y6 9,7 9,8 9,9 9,10 9,11g1 9,12 9,13 10,7 10,12 11,3y11 11,5y8 11,7 11,8y7 11,11 11,12 11,13 12,3 12,5 12,6 12,7 12,11y4 13,3y10 13,4 13,5y9 13,7g3 13,8 13,9y12 13,11 13,12 13,13y5',
+    Nezekan: '3,3g7 3,4 3,5 3,7y1 3,8 3,9y2 3,11g11 3,12 3,13g10 4,3 4,5g6 4,6 4,7 4,13 5,3 5,7 5,8g5 5,11y3 5,12 5,13g9 6,7 6,13 7,5g2 7,6 7,7 7,8 7,9 7,10g4 7,13 8,3y13 8,13g8 9,3+ 9,6y6 9,7 9,8 9,9 9,10 9,11g1 9,12 9,13 10,3+ 10,7 10,12 11,3y11 11,5y8 11,7 11,8y7 11,11 11,12 11,13 12,3 12,5 12,6 12,7 12,11y4 13,3y10 13,4 13,5y9 13,7g3 13,8 13,9y12 13,11 13,12 13,13y5',
     Zikel: '3,3y7 3,4 3,5 3,6 3,7y9 3,11g5 3,12 3,13g4 4,3 4,5 4,7 4,13 5,3y6 5,7 5,8 5,9y10 5,13 6,3 6,7y11 6,13 7,3 7,4 7,5y8 7,12 7,13g3 8,4 8,9 8,12 9,3y4 9,4 9,9 9,11g2 9,12 10,3 10,9g1 10,10 10,11 11,3 11,4y5 11,6 11,7y1 11,8 11,9 11,11 11,12 11,13g6 12,3 12,6 12,11g8 12,13 13,3y3 13,4 13,5y2 13,6 13,11 13,13g7',
-    Vaizel: '3,3y11 3,4 3,5y10 3,7 3,8y9 3,9 3,10y13 3,13g5 4,5 4,6 4,7 4,9 4,13 5,4y14 5,7y12 5,9 5,11g3 5,12 5,13g4 6,4 6,9y8 6,12 7,3 7,4 7,5 7,6g6 7,7 7,8 7,9 7,10 7,11g1 7,12 7,13 8,3g7 8,13g2 9,3 9,4 9,5g8 9,10y4 9,11 9,12 9,13 10,4 10,12 11,3y8 11,4 11,5y5 11,12y1 11,13 12,5 12,13 13,3y6 13,4 13,5 13,6y7 13,11y3 13,12 13,13y2',
+    Vaizel: '3,3y12 3,4 3,5y11 3,7 3,8y10 3,9 3,10y14 3,13g5 4,5 4,6 4,7 4,9 4,13 5,4y15 5,7y13 5,9 5,11g3 5,12 5,13g4 6,4 6,9y8 6,12 7,3 7,4 7,5 7,6g6 7,7 7,8 7,9 7,10 7,11g1 7,12 7,13 8,3g7 8,13g2 9,3 9,4 9,5g8 9,10y4 9,11 9,12 9,13 10,4 10,12 11,3y9 11,4 11,5y5 11,12y1 11,13 12,5 12,13 13,3y6 13,4 13,5 13,6y7 13,11y3 13,12 13,13y2',
     Triniel: '2,2y11 2,7 2,8y14 2,14g9 3,2 3,7y13 3,12g7 3,14 4,2 4,7 4,12 4,14 5,2y10 5,3 5,4 5,5y12 5,6 5,7 5,10g6 5,11 5,12 5,13 5,14g8 6,4 6,10 7,2 7,3 7,4 7,5 7,6y9 7,10 7,12 8,2y8 8,10 8,12 8,14g2 9,2 9,3 9,4y7 9,5 9,6 9,7 9,8 9,9 9,10g1 9,11 9,12 9,13 9,14 10,6 10,10 11,2y4 11,3 11,4 11,5 11,6y1 11,7 11,10 11,11g3 11,12 12,2 12,4 12,7 12,12 13,2 13,4y6 13,7y2 13,12g4 14,2y5 14,7 14,8y3 14,12 14,13 14,14g5',
   },
   Sorcerer: {
-    Nezekan: '3,3y6 3,4 3,5 3,7y4 3,9g9 3,11y1 3,12 3,13y2 4,3 4,5y5 4,6 4,7 4,9 4,10 4,11 4,13 5,3y7 5,7 5,8g8 5,9 5,11g10 5,13y3 6,7 6,9 7,5g1 7,6 7,7 7,8 7,9 7,10y13 9,6y8 9,7 9,8 9,11g2 10,7 11,3y12 11,7 11,8y9 11,13g7 12,5 12,6 12,7 12,9 12,10 12,11g5 12,13 13,3y11 13,4 13,5y10 13,7g3 13,8 13,9g4 13,11 13,12 13,13g6',
-    Zikel: '3,3y3 3,9g7 3,11g5 3,12 3,13g4 4,5y4 4,13 5,3y2 5,9g6 5,11 5,12g3 5,13 6,7y9 6,11 6,13 7,5y1 7,9 7,10g1 7,11 7,12 7,13g2 8,7 8,9 8,12 9,3g9 9,5 9,6g8 9,7 9,11y5 9,12 10,5 10,9y8 11,3 11,4g10 11,5 12,3 12,11y6 13,3g11 13,4 13,5 13,7y10 13,13y7',
-    Vaizel: '3,3g6 3,4 3,5g5 3,10y8 3,13y7 4,5 4,6 4,7 5,4g4 5,7g3 5,11y5 5,13y6 6,7 7,6g2 7,7 7,8 7,10 7,11y15 8,10 8,13y14 9,5g1 9,8 9,9 9,10y10 9,11 9,12 9,13 10,9 10,12 11,3y4 11,9y9 11,12y11 11,13 12,13 13,3y3 13,6y2 13,8y1 13,11y13 13,13y12',
-    Triniel: '2,2y3 2,3 2,4 2,7 2,8y5 2,14y8 3,4y2 3,5 3,6 3,7y4 3,9y6 4,7 5,5y1 5,6 5,7 5,14y7 6,6 7,6g1 7,7 7,8 7,12g2 8,6 8,14g3 9,6 9,7 9,8 10,6 11,2 11,3 11,4 11,5 11,6g6 11,7 12,2 12,4 12,7 13,2 13,4g7 13,7g9 13,9 13,10 13,11 13,12g4 14,2g8 14,7 14,8g10 14,9 14,12 14,13 14,14g5',
+    Nezekan: '3,3y6 3,4 3,5 3,7y4 3,9g9 3,11y1 3,12 3,13y2 4,3 4,5y5 4,6 4,7 4,9 4,10 4,11 4,13 5,3y7 5,7 5,8g8 5,9 5,11g10 5,13y3 6,7 6,9 7,5g1 7,6 7,7 7,8 7,9 7,10y13 9,6y8 9,7 9,8 9,9+ 9,10+ 9,11g2 10,7 11,3y12 11,7 11,8y9 11,13g7 12,3+ 12,5 12,6 12,7 12,9 12,10 12,11g5 12,13 13,3y11 13,4 13,5y10 13,7g3 13,8 13,9g4 13,11 13,12 13,13g6',
+    Zikel: '3,3y3 3,4+ 3,5+ 3,9g7 3,10+ 3,11g5 3,12 3,13g4 4,3+ 4,5y4 4,13 5,3y2 5,9g6 5,11 5,12g3 5,13 6,3+ 6,7y9 6,9+ 6,11 6,13 7,3+ 7,4+ 7,5y1 7,7+ 7,9 7,10g1 7,11 7,12 7,13g2 8,4+ 8,7 8,9 8,12 9,3g9 9,4+ 9,5 9,6g8 9,7 9,11y5 9,12 10,5 10,9y8 10,10+ 10,11+ 11,3 11,4g10 11,5 11,11+ 12,3 12,11y6 13,3g11 13,4 13,5 13,6+ 13,7y10 13,11+ 13,12+ 13,13y7',
+    Vaizel: '3,3g6 3,4 3,5g5 3,9+ 3,10y8 3,13y7 4,5 4,6 4,7 4,9+ 4,13+ 5,4g4 5,5+ 5,7g3 5,8+ 5,9+ 5,10+ 5,11y5 5,12+ 5,13y6 6,7 7,6g2 7,7 7,8 7,10 7,11y15 8,10 8,13y14 9,5g1 9,6+ 9,7+ 9,8 9,9 9,10y10 9,11 9,12 9,13 10,9 10,12 11,3y4 11,9y9 11,12y11 11,13 12,3+ 12,9+ 12,13 13,3y3 13,4+ 13,5+ 13,6y2 13,7+ 13,8y1 13,9+ 13,11y13 13,12+ 13,13y12',
+    Triniel: '2,2y3 2,3 2,4 2,7 2,8y5 2,9+ 2,14y8 3,4y2 3,5 3,6 3,7y4 3,9y6 3,14+ 4,7 4,14+ 5,5y1 5,6 5,7 5,13+ 5,14y7 6,6 6,13+ 7,6g1 7,7 7,8 7,9+ 7,10+ 7,11+ 7,12g2 7,13+ 7,14+ 8,6 8,14g3 9,6 9,7 9,8 10,6 11,2 11,3 11,4 11,5 11,6g6 11,7 12,2 12,4 12,7 13,2 13,4g7 13,7g9 13,9 13,10 13,11 13,12g4 14,2g8 14,7 14,8g10 14,9 14,12 14,13 14,14g5',
   },
   Assassin: {
-    Nezekan: '3,3 3,4 3,5 3,7 3,11 3,12 3,13 4,3 4,5g2 4,6 4,7 4,13 5,3 5,7 5,11 5,12 5,13 6,7 6,11 7,4 7,5y4 7,6 7,7 7,8 7,9 7,10y5 7,11 7,12 8,10 9,3 9,6y3 9,7 9,8 9,9 9,10 9,11g1 9,12 10,3 10,7 10,9 10,12 11,3y3 11,7 11,12 11,13g4 12,3 12,5 12,6 12,7 12,9 12,13 13,3y2 13,4 13,5y1 13,7g3 13,8 13,9 13,11 13,12 13,13g5',
+    Nezekan: '3,3 3,4 3,5 3,7 3,11 3,12 3,13 4,3 4,5g2 4,6 4,7 4,13 5,3 5,7 5,11 5,12 5,13 6,7 6,11 7,4 7,5y5 7,6 7,7 7,8 7,9 7,10y6 7,11 7,12 8,10 9,3 9,6y3 9,7 9,8 9,9 9,10 9,11g1 9,12 10,3 10,7 10,9 10,12 11,3y4 11,7 11,12 11,13g4 12,3 12,5 12,6 12,7 12,9 12,13 13,3y2 13,4 13,5y1 13,7g3 13,8 13,9 13,11 13,12 13,13g5',
     Zikel: '3,3g4 3,4 3,5 3,9y5 3,10 3,11y4 3,12 3,13y3 4,3 4,5 4,13 5,3g3 5,11 5,12y2 5,13 6,3 6,7 6,11 6,13 7,3 7,4 7,7 7,9 7,10g5 7,11 7,12 7,13y1 8,4 8,7 8,9 8,12 9,3 9,4 9,5 9,6 9,7 9,9 9,12 9,13 10,3 10,5 10,9 10,10 10,11 11,4 11,5 11,6 11,11 12,6 12,11 13,3g2 13,4 13,5g1 13,6 13,7 13,11 13,12 13,13',
     Vaizel: '3,3y5 3,4 3,5 3,9 3,10 3,11 3,12 3,13y4 4,3 4,5 4,13 5,3 5,4 5,8 5,9 5,12 5,13y3 6,4 6,7 6,9 6,12 7,3 7,4 7,5 7,6 7,7 7,8 7,9 7,10 7,11g2 7,12 7,13 8,13g1 9,3 9,4 9,5g5 9,6 9,7 9,8 9,10g3 9,11 9,12 9,13 10,4 10,7 10,12 11,3y1 11,4 11,5 11,7 11,12 11,13 12,3 12,5 12,7 12,9 12,10 12,11 12,13 13,3y2 13,5 13,6 13,8 13,9 13,11 13,12 13,13g4',
     Triniel: '2,2 2,3 2,4 2,7 2,8y4 2,9 2,14 3,4 3,7 3,9 3,10 3,11 3,12y5 3,14 4,4 4,7 4,9 4,12 4,14 5,4 5,5 5,6 5,7 5,9 5,10 5,11 5,12 5,13 5,14 6,6 6,13 7,3 7,4 7,5 7,6 7,7 7,8 7,11 7,12 8,6 8,10 8,12 8,14g4 9,3 9,4y1 9,5 9,6 9,7 9,8 9,9 9,10g1 9,11 9,12 9,13 9,14 10,3 10,12 11,2y2 11,3 11,7 11,9 11,10 11,11g5 11,12 11,13 12,2 12,7 12,9 12,12 13,2 13,7 13,9 13,10 13,11 13,12g2 14,2y3 14,3 14,4 14,7 14,8 14,9 14,12 14,13 14,14g3',
@@ -834,11 +838,12 @@ const G8MAPS = {
     Triniel: '2,8g2 2,9 3,9 3,10 3,11 3,12 4,12 5,12 5,13 6,13 7,12 7,13 7,14 8,2y1 8,4 8,12 8,14g5 9,2 9,3 9,4 9,5 9,6 9,7 9,8 9,9 9,10g1 9,11 9,12 10,3 10,6 10,12 11,2 11,3 11,6y2 11,12 12,2 12,12 13,2 13,12 14,2g3 14,12 14,13 14,14g4',
   },
 };
-// 'row,col' -> { tone: 'pri' (green) or 'sec' (yellow), num } for a numbered node, {} for one on the way
-const g8map = s => new Map(s.split(' ').map(t => { const [, at, c, num] = t.match(/^(\d+,\d+)([gy]?)(\d*)$/); return [at, c ? { tone: c === 'g' ? 'pri' : 'sec', num: +num } : {}]; }));
+// 'row,col' -> { tone: 'pri' (green) or 'sec' (yellow), num } for a numbered node, {} for one on the way ({ add: true } if ours)
+const g8map = s => new Map(s.split(' ').map(t => { const [, at, c, num] = t.match(/^(\d+,\d+)([gy+]?)(\d*)$/); return [at, c === '+' ? { add: true } : c ? { tone: c === 'g' ? 'pri' : 'sec', num: +num } : {}]; }));
 for (const b of Object.values(BUILDS)) {
   const g = GAME8[b.cls], maps = G8MAPS[b.cls];
-  if (g) (b.cls === 'Templar' ? b.alt : b).g8 = { url: G8 + g[0], boards: g[1], maps: maps && Object.fromEntries(Object.entries(maps).map(([k, s]) => [k, g8map(s)])) };
+  if (g) b.g8 = { url: G8 + g[0], boards: g[1], maps: maps && Object.fromEntries(Object.entries(maps).map(([k, s]) => [k, g8map(s)])) };
+  if (b.cls === 'Templar') b.alt.g8 = b.g8;
 }
 // Ariel (PvE) and Azphel (PvP) have their own stats, the same for every class
 const SIDE_BOARDS = {
@@ -1115,7 +1120,7 @@ function classGuide(name, which) {
         return boardGrid({ board: { name, note: `${stops.length} stops · ${stops.reduce((s, n) => s + n.pts, 0)} pts` }, nodes }).replace(/<\/figure>$/, end(prio));
       }).join('')}</div>${b.g8?.maps ? G8_KEY : GUIDE_KEY}`
         : `<p class="hint">${CLASS_BOARDS === null ? 'Loading the boards…' : 'Couldn’t load the boards. Try again later.'}</p>`}
-      <p class="hint">${b.g8?.maps ? `The four main boards are <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a> maps, node for node. Ariel and Azphel have no Game8 map, so their numbered path is ours.`
+      <p class="hint">${b.g8?.maps ? `The four main boards are <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a> maps, node for node${Object.values(b.g8.maps).some(m => [...m.values()].some(v => v.add)) ? ', plus the cheapest nodes that join numbers Game8’s pictures leave cut off' : ''}. Ariel and Azphel have no Game8 map, so their numbered path is ours.`
         : b.g8 ? `Node priority on the four main boards from <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a>; the numbered path opens those nodes in that order, big ones first, each the cheapest way.` : `The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above and the big nodes for ${esc(b.stats.slice(0, 3).join(', '))} and the rest, cheapest first, then the small ones; each reached the cheapest way.`} Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}.</p></section>
     ${chars.length ? `<section class="panel"><h2 class="ph">Gear of the legion’s best ${b.cls} <a class="hint" href="${memberLink(chars[0].name)}">${esc(chars[0].name)}</a></h2>${gearGrid(chars[0].gear)}</section>
     <section class="panel"><h2 class="ph">${b.cls}s in the legion <span class="hint">open one for its own next points</span></h2><div class="cards">${chars.map(charCard).join('')}</div></section>`

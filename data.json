@@ -25111,15 +25111,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 72697,
-     "il": 1398
+     "cp": 72710,
+     "il": 1400
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 72697,
-   "il": 1398,
+   "cp": 72710,
+   "il": 1400,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25170,7 +25170,7 @@
      "slotPosName": "Pants",
      "name": "Bakarma Greaves",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Pants.png",
      "max": 15,
      "slots": 4,
@@ -25580,7 +25580,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1398
+     "value": 1400
     }
    ],
    "title": {
@@ -31262,8 +31262,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 17:34 UTC",
+ "updated": "2026-11-04 18:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 18:03",
+   "n": "iLen",
+   "x": "Bakarma Greaves +0 → +2"
+  },
   {
    "t": "2026-11-04 17:34",
    "n": "RyBear",

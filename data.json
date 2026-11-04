@@ -9879,10 +9879,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.4%"
+      "Attack increase +3.5%"
      ],
      "type": "STR",
-     "value": 34
+     "value": 35
     },
     {
      "name": "Dexterity",
@@ -13523,10 +13523,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.2%"
+      "Attack increase +2.3%"
      ],
      "type": "STR",
-     "value": 22
+     "value": 23
     },
     {
      "name": "Dexterity",
@@ -14449,15 +14449,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 131363,
-     "il": 2535
+     "cp": 131966,
+     "il": 2575
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 131363,
-   "il": 2535,
+   "cp": 131966,
+   "il": 2575,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15180,7 +15180,7 @@
     {
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
-     "grade": "Rare",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 3,
@@ -15196,10 +15196,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.4%"
+      "Attack increase +3.5%"
      ],
      "type": "STR",
-     "value": 34
+     "value": 35
     },
     {
      "name": "Dexterity",
@@ -15263,11 +15263,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -3.1%",
-      "Endurance Penetration +3.1%"
+      "Cooldown -3.9%",
+      "Endurance Penetration +3.9%"
      ],
      "type": "Illusion",
-     "value": 31
+     "value": 39
     },
     {
      "name": "Life [Yustiel]",
@@ -15336,7 +15336,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2535
+     "value": 2575
     }
    ],
    "title": {
@@ -16170,7 +16170,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 19
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -16190,7 +16190,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -16210,7 +16210,7 @@
       "id": 13760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -16250,7 +16250,7 @@
       "id": 13800000,
       "name": "Determination",
       "needLevel": 25,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -27948,15 +27948,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 84384,
-     "il": 1970
+     "cp": 84577,
+     "il": 1986
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 84384,
-   "il": 1970,
+   "cp": 84577,
+   "il": 1986,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28074,11 +28074,32 @@
      "slotPosName": "Pants",
      "name": "Vakron Greaves",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+7",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -28808,11 +28829,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1970
+     "value": 1986
     }
    ],
    "title": {
-    "ownedCount": 178,
+    "ownedCount": 180,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -28827,8 +28848,8 @@
       "grade": "Legend",
       "id": 21020038,
       "name": "Celebrity",
-      "ownedCount": 62,
-      "ownedPercent": 58,
+      "ownedCount": 63,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "Penetration +20"
@@ -28852,8 +28873,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 59,
-      "ownedPercent": 58,
+      "ownedCount": 60,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "Block +10"
@@ -30010,10 +30031,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_WaterEle_03.png",
-     "id": 1155,
-     "level": 1,
-     "name": "Superior Water Spirit"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Pagati_01.png",
+     "id": 1204,
+     "level": 3,
+     "name": "Pagati"
     },
     "wing": {
      "enchantLevel": 0,
@@ -31150,8 +31171,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 02:34 UTC",
+ "updated": "2026-11-04 03:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 03:04",
+   "n": "uTril",
+   "x": "Vakron Greaves +0 → +10"
+  },
+  {
+   "t": "2026-11-04 03:04",
+   "n": "uTril",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-04 03:02",
+   "n": "DeathRunner",
+   "x": "skills up: Rear Smite 15, Impact Hit 15, Determination 17"
+  },
   {
    "t": "2026-11-04 02:34",
    "n": "uTril",

@@ -288,6 +288,12 @@ table.skills .meter { min-width: 80px; }
 .dboards.big .dgrid i.stop:is(.pri, .sec) { background: linear-gradient(135deg, color-mix(in srgb, var(--tone) 55%, #fff), var(--tone) 45%, color-mix(in srgb, var(--tone) 55%, #000)); box-shadow: 0 0 12px color-mix(in srgb, var(--tone) 70%, transparent); }
 .dboards.big .dgrid i.stop:is(.pri, .sec) b { color: #111; }
 .dk:is(.pri, .sec) { background: var(--tone); border-color: var(--tone); }
+/* click a board to see it big: a copy in a modal dialog; a click anywhere or Esc closes it */
+.dboards:not(.zoom) .dboard { cursor: zoom-in; }
+dialog.dzoom[open] { display: grid; place-items: center; width: 100%; height: 100%; max-width: none; max-height: none; padding: 16px; border: 0; background: transparent; overflow: auto; cursor: zoom-out; }
+dialog.dzoom::backdrop { background: rgb(0 0 0 / 0.8); }
+.dboards.zoom { display: block; width: min(100%, 78vh); }
+.dboards.zoom .dgrid i b { font-size: clamp(12px, 2.2vmin, 22px); }
 @media (prefers-reduced-motion: reduce) { .dboards.big *, .dboards.big *::before { animation: none !important; } }
 .dk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
 .empty { padding: 40px; text-align: center; color: var(--muted); }
@@ -952,6 +958,17 @@ const boardGrid = ({ board, nodes, pick }) => {
       style="grid-area:${n.row - r0 + 1}/${n.col - c0 + 1};--g:${GRADE[n.grade] || 'var(--muted)'}" title="${n.num ? ({ pri: 'Green ', sec: 'Yellow ' }[n.tone] || '') + n.num + '. ' : ''}${esc(n.name)}${n.goal ? ' (goal)' : n.path ? ' (on the way)' : n.open ? ' (open)' : ''}">${n.num ? `<b>${n.num}</b>` : ''}</i>`).join('')}</div>
     ${pick ? `<p class="sub">Goal: <b>${esc(pick.node.name)}</b>${pick.g8 ? ` (${pick.g8})` : ''}, ${pick.node.cost} pts${pick.steps > 1 ? `, open ${esc(pick.first.name)} first` : ''}</p>` : ''}</figure>`;
 };
+document.addEventListener('click', e => {
+  const fig = e.target.closest('.dboards:not(.zoom) .dboard');
+  if (!fig || e.target.closest('a')) return;
+  const d = document.createElement('dialog');
+  d.className = 'dzoom';
+  d.innerHTML = `<div class="${fig.parentElement.className} zoom">${fig.outerHTML}</div>`;
+  d.onclick = () => d.close();
+  d.onclose = () => d.remove();
+  document.body.append(d);
+  d.showModal();
+});
 const BOARD_KEY = `<p class="legend"><span><i class="dk on"></i>Open</span><span><i class="dk path"></i>Open next</span><span><i class="dk goal"></i>Goal</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Closed</span></p>`;
 
 // The build's skills as one table: level now, the goal, and which ones get the next points.
@@ -975,7 +992,7 @@ function nextUpgrade(m) {
   return `<section class="panel wrap"><h2 class="ph">Skill points <span class="hint"><a href="#/classes/${b.cls}">${b.cls} guide</a> · highlighted rows get the next points</span></h2>${skillTable(m, b, picks)}</section>
     <section class="panel"><h2 class="ph">Daevanion points go here</h2>
       ${shown.length ? `<div class="dboards">${shown.map(boardGrid).join('')}</div>${BOARD_KEY}` : `<p class="hint">${m.boards ? 'Nothing left on the build path.' : 'The boards arrive with the next update, within 30 minutes.'}</p>`}
-      <p class="hint">The four main boards share your Daevanion points; Ariel and Azphel use their own crystals. Counted from what was open at the last update. Refunds cost 500 Kina a node.</p></section>`;
+      <p class="hint">The four main boards share your Daevanion points; Ariel and Azphel use their own crystals. Counted from what was open at the last update. Refunds cost 500 Kina a node. Click a board to see it bigger.</p></section>`;
 }
 
 function memberOverview(m) {
@@ -1078,7 +1095,7 @@ function classGuide(name, which) {
         ${b.stigma.map(([n, t], i) => row(i + 1, n, 'Stigma', 'Lv ' + t)).join('')}</table>
       <p class="hint">Active skills to their goal first, two at a time; passives level together; stigmas step up in the order shown.</p></section>
     <section class="panel"><h2 class="ph">Daevanion boards</h2>
-      <p class="hint">${b.g8?.maps ? 'Open the green numbers first, in order, then the yellow ones. The lit nodes are the rest of Game8’s build.' : 'Open the numbered nodes in order; the lit ones on the way lead there.'}</p>
+      <p class="hint">${b.g8?.maps ? 'Open the green numbers first, in order, then the yellow ones. The lit nodes are the rest of Game8’s build.' : 'Open the numbered nodes in order; the lit ones on the way lead there.'} Click a board to see it bigger.</p>
       ${CLASS_BOARDS ? `<div class="dboards big look-tiles">${Object.entries(CLASS_BOARDS[b.cls] || {}).map(([deity, rows]) => {
         const g = b.g8?.boards[deity], map = b.g8?.maps?.[deity], stats = SIDE_BOARDS[deity] || b.stats, name = deity + (deity === 'Ariel' ? ' · PvE' : deity === 'Azphel' ? ' · PvP' : '');
         const end = prio => `<p class="sub"><b>Node priority</b></p>${order(prio)}</figure>`;

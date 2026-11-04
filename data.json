@@ -25111,15 +25111,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 72613,
-     "il": 1402
+     "cp": 72888,
+     "il": 1404
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 72613,
-   "il": 1402,
+   "cp": 72888,
+   "il": 1404,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25236,17 +25236,19 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Holy Spirit Boots",
-     "grade": "Unique",
+     "name": "Unyielding Boots",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0149_T03_Boots.png",
-     "max": 15,
-     "slots": 4,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0049_T05_Boots.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Looted from monsters"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -25270,7 +25272,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 6,
+     "enchantLevel": 7,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -25464,10 +25466,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.9%"
+      "HP increase +2.7%"
      ],
      "type": "CON",
-     "value": 19
+     "value": 27
     },
     {
      "name": "Precision",
@@ -25580,7 +25582,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1402
+     "value": 1404
     }
    ],
    "title": {
@@ -26596,7 +26598,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -26606,7 +26608,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 8
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -31262,8 +31264,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 18:34 UTC",
+ "updated": "2026-11-04 19:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 19:03",
+   "n": "iLen",
+   "x": "new Unyielding Boots +0"
+  },
+  {
+   "t": "2026-11-04 19:03",
+   "n": "iLen",
+   "x": "Noble Belt +6 → +7"
+  },
+  {
+   "t": "2026-11-04 19:03",
+   "n": "iLen",
+   "x": "skills up: Attack Preparation 15"
+  },
   {
    "t": "2026-11-04 18:33",
    "n": "iLen",

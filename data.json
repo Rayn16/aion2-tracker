@@ -2053,13 +2053,13 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 72988,
+     "cp": 73291,
      "il": 1529
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 72988,
+   "cp": 73291,
    "il": 1529,
    "gear": [
     {
@@ -2714,7 +2714,7 @@
     }
    ],
    "title": {
-    "ownedCount": 172,
+    "ownedCount": 174,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -2779,8 +2779,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 55,
-      "ownedPercent": 56,
+      "ownedCount": 57,
+      "ownedPercent": 58,
       "statList": [
        {
         "desc": "MP +20"
@@ -21229,10 +21229,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Rotan_01.png",
-     "id": 1192,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_ManduriRng_01.png",
+     "id": 1104,
      "level": 1,
-     "name": "Silver Blade Rotan"
+     "name": "Manduri Trebuchet Worker"
     },
     "wing": {
      "enchantLevel": 0,
@@ -25111,14 +25111,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 72888,
+     "cp": 72952,
      "il": 1404
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 72888,
+   "cp": 72952,
    "il": 1404,
    "gear": [
     {
@@ -31264,8 +31264,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 19:04 UTC",
+ "updated": "2026-11-04 19:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 19:31",
+   "n": "YasuoMain16",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-11-04 19:03",
    "n": "iLen",

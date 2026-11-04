@@ -14449,15 +14449,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 128506,
-     "il": 2517
+     "cp": 131220,
+     "il": 2535
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 128506,
-   "il": 2517,
+   "cp": 131220,
+   "il": 2535,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -14541,32 +14541,32 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Vakron Breastplate",
+     "name": "Nuakum Breastplate",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png",
+     "enchantLevel": 11,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
-       "+9",
+       "MP",
+       "+30",
        "Rare"
       ],
       [
        "Evasion Bonus",
-       "+9",
-       "Rare"
+       "+5",
+       "Common"
       ],
       [
        "Attack",
-       "+2",
-       "Common"
+       "+3",
+       "Rare"
       ],
       [
-       "MP",
-       "+23",
-       "Common"
+       "Evasion Bonus",
+       "+7",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -15196,10 +15196,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.8%"
+      "Attack increase +3.3%"
      ],
      "type": "STR",
-     "value": 8
+     "value": 33
     },
     {
      "name": "Dexterity",
@@ -15336,7 +15336,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2517
+     "value": 2535
     }
    ],
    "title": {
@@ -16170,7 +16170,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 20
+      "skillLevel": 19
      },
      {
       "acquired": 1,
@@ -16230,7 +16230,7 @@
       "id": 13780000,
       "name": "Defense Break",
       "needLevel": 21,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -16250,7 +16250,7 @@
       "id": 13800000,
       "name": "Determination",
       "needLevel": 25,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -27948,15 +27948,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 83933,
-     "il": 1969
+     "cp": 84372,
+     "il": 1985
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 83933,
-   "il": 1969,
+   "cp": 84372,
+   "il": 1985,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28262,31 +28262,31 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Bakarma Cloak",
+     "name": "Vakron Cloak",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Cape.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+30",
+       "Accuracy Bonus",
+       "+5",
        "Common"
       ],
       [
        "Critical Hit Resist",
-       "+5",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+7",
        "Common"
       ],
       [
        "Critical Hit",
        "+7",
-       "Rare"
-      ],
-      [
-       "Attack",
-       "+3",
        "Rare"
       ]
      ],
@@ -28712,9 +28712,11 @@
     },
     {
      "name": "Constitution",
-     "statSecondList": null,
+     "statSecondList": [
+      "HP increase +1.1%"
+     ],
      "type": "CON",
-     "value": 0
+     "value": 11
     },
     {
      "name": "Precision",
@@ -28728,10 +28730,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +4.9%"
+      "Status Effect Resist +2.8%"
      ],
      "type": "WIS",
-     "value": 49
+     "value": 28
     },
     {
      "name": "Justice [Nezekan]",
@@ -28827,7 +28829,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1969
+     "value": 1985
     }
    ],
    "title": {
@@ -29843,7 +29845,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -29893,7 +29895,7 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -31169,8 +31171,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 01:34 UTC",
+ "updated": "2026-11-04 02:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 02:04",
+   "n": "uTril",
+   "x": "new Vakron Cloak +10"
+  },
+  {
+   "t": "2026-11-04 02:04",
+   "n": "uTril",
+   "x": "skills up: Immortal Veil 15, Radiant Benediction 16"
+  },
+  {
+   "t": "2026-11-04 02:02",
+   "n": "DeathRunner",
+   "x": "new Nuakum Breastplate +11"
+  },
+  {
+   "t": "2026-11-04 02:02",
+   "n": "DeathRunner",
+   "x": "skills up: Determination 16"
+  },
   {
    "t": "2026-11-04 01:34",
    "n": "RyBear",

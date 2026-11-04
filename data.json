@@ -25111,15 +25111,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 72710,
-     "il": 1400
+     "cp": 72613,
+     "il": 1402
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 72710,
-   "il": 1400,
+   "cp": 72613,
+   "il": 1402,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25219,10 +25219,10 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Anguish Gloves",
+     "name": "Unyielding Gloves",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0049_T05_Gloves.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -25580,11 +25580,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1400
+     "value": 1402
     }
    ],
    "title": {
-    "ownedCount": 182,
+    "ownedCount": 183,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -25649,8 +25649,8 @@
       "grade": "Legend",
       "id": 23030010,
       "name": "Teleportation Specialist",
-      "ownedCount": 62,
-      "ownedPercent": 58,
+      "ownedCount": 63,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "Critical Hit +10"
@@ -26646,7 +26646,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31262,8 +31262,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 18:04 UTC",
+ "updated": "2026-11-04 18:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 18:33",
+   "n": "iLen",
+   "x": "new Unyielding Gloves +0"
+  },
+  {
+   "t": "2026-11-04 18:33",
+   "n": "iLen",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-04 18:03",
    "n": "iLen",

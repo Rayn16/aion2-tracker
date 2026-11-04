@@ -54,13 +54,13 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 116622,
+     "cp": 116638,
      "il": 2428
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 116622,
+   "cp": 116638,
    "il": 2428,
    "gear": [
     {
@@ -14449,14 +14449,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 132174,
+     "cp": 132274,
      "il": 2575
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 132174,
+   "cp": 132274,
    "il": 2575,
    "gear": [
     {
@@ -16330,7 +16330,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 0,
@@ -16413,15 +16413,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 106145,
-     "il": 2326
+     "cp": 107151,
+     "il": 2336
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 106145,
-   "il": 2326,
+   "cp": 107151,
+   "il": 2336,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16575,32 +16575,32 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Vakron Helm",
+     "name": "Nuakum Helm",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Helmet.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Block",
-       "+20",
-       "Unique"
-      ],
-      [
-       "Block",
-       "+10",
+       "HP",
+       "+60",
        "Rare"
       ],
       [
-       "Front Attack Damage Boost",
-       "+10",
-       "Rare"
-      ],
-      [
-       "Attack",
+       "Critical Hit Resist",
        "+5",
-       "Legend"
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -17192,10 +17192,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +4.5%"
+      "Status Effect Resist +3.5%"
      ],
      "type": "WIS",
-     "value": 45
+     "value": 35
     },
     {
      "name": "Justice [Nezekan]",
@@ -17291,11 +17291,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2326
+     "value": 2336
     }
    ],
    "title": {
-    "ownedCount": 194,
+    "ownedCount": 195,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -17310,8 +17310,8 @@
       "grade": "Legend",
       "id": 21020034,
       "name": "Lifeguard",
-      "ownedCount": 63,
-      "ownedPercent": 59,
+      "ownedCount": 64,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
@@ -18182,7 +18182,7 @@
       "id": 15780000,
       "name": "Grace of Enhancement",
       "needLevel": 21,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -25586,7 +25586,7 @@
     }
    ],
    "title": {
-    "ownedCount": 185,
+    "ownedCount": 186,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -25651,8 +25651,8 @@
       "grade": "Legend",
       "id": 23030010,
       "name": "Teleportation Specialist",
-      "ownedCount": 63,
-      "ownedPercent": 59,
+      "ownedCount": 64,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Critical Hit +10"
@@ -26784,10 +26784,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_KrallReg_01.png",
-     "id": 1002,
-     "level": 2,
-     "name": "Krall Laborer"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Papis_01.png",
+     "id": 1066,
+     "level": 3,
+     "name": "Papis"
     },
     "wing": {
      "enchantLevel": 0,
@@ -27950,15 +27950,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 84814,
-     "il": 2018
+     "cp": 87784,
+     "il": 2023
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 84814,
-   "il": 2018,
+   "cp": 87784,
+   "il": 2023,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28304,7 +28304,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -28609,7 +28609,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 1,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -28831,7 +28831,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2018
+     "value": 2023
     }
    ],
    "title": {
@@ -29987,7 +29987,7 @@
       "id": 17410000,
       "name": "Light of Protection",
       "needLevel": 22,
-      "skillLevel": 12
+      "skillLevel": 15
      },
      {
       "acquired": 0,
@@ -31264,8 +31264,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 22:04 UTC",
+ "updated": "2026-11-04 22:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 22:33",
+   "n": "uTril",
+   "x": "Noble Belt +2 → +3"
+  },
+  {
+   "t": "2026-11-04 22:33",
+   "n": "uTril",
+   "x": "Revelation Amulet +1 → +5"
+  },
+  {
+   "t": "2026-11-04 22:33",
+   "n": "uTril",
+   "x": "skills up: Light of Protection 15"
+  },
+  {
+   "t": "2026-11-04 22:33",
+   "n": "iLen",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-04 22:32",
+   "n": "IBrook",
+   "x": "new Nuakum Helm +10"
+  },
+  {
+   "t": "2026-11-04 22:32",
+   "n": "IBrook",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-04 22:32",
+   "n": "IBrook",
+   "x": "skills up: Grace of Enhancement 16"
+  },
+  {
+   "t": "2026-11-04 22:32",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 3"
+  },
   {
    "t": "2026-11-04 22:04",
    "n": "CutieCatty",

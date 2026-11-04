@@ -7754,14 +7754,14 @@
       "skillLevel": 20
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_014.png",
       "id": 18140000,
       "name": "Focused Defense",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -7781,7 +7781,7 @@
       "id": 18130000,
       "name": "Fracturing Blow",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -24014,14 +24014,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 18403,
+     "cp": 18441,
      "il": 361
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 22,
-   "cp": 18403,
+   "cp": 18441,
    "il": 361,
    "gear": [
     {
@@ -27950,14 +27950,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 87897,
+     "cp": 87900,
      "il": 2062
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 87897,
+   "cp": 87900,
    "il": 2062,
    "gear": [
     {
@@ -31264,8 +31264,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 23:04 UTC",
+ "updated": "2026-11-04 23:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 23:34",
+   "n": "CutieCatty",
+   "x": "skills up: Focused Defense 5"
+  },
   {
    "t": "2026-11-04 23:04",
    "n": "uTril",

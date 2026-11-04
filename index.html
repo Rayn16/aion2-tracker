@@ -293,6 +293,8 @@ table.skills .meter { min-width: 80px; }
 dialog.dzoom[open] { display: grid; place-items: center; width: 100%; height: 100%; max-width: none; max-height: none; padding: 16px; border: 0; background: transparent; overflow: auto; cursor: zoom-out; }
 dialog.dzoom::backdrop { background: rgb(0 0 0 / 0.8); }
 .dboards.zoom { display: block; width: min(100%, 78vh); }
+.pic.big, .hero .portrait img.p { cursor: zoom-in; }
+dialog.dzoom img.full { max-width: 100%; max-height: calc(100vh - 32px); border-radius: 12px; }
 .dboards.zoom .dgrid i b { font-size: clamp(12px, 2.2vmin, 22px); }
 @media (prefers-reduced-motion: reduce) { .dboards.big *, .dboards.big *::before { animation: none !important; } }
 .dk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
@@ -959,11 +961,14 @@ const boardGrid = ({ board, nodes, pick }) => {
     ${pick ? `<p class="sub">Goal: <b>${esc(pick.node.name)}</b>${pick.g8 ? ` (${pick.g8})` : ''}, ${pick.node.cost} pts${pick.steps > 1 ? `, open ${esc(pick.first.name)} first` : ''}</p>` : ''}</figure>`;
 };
 document.addEventListener('click', e => {
-  const fig = e.target.closest('.dboards:not(.zoom) .dboard');
-  if (!fig || e.target.closest('a')) return;
+  // a character's portrait opens PLAYNC's whole picture, uncropped
+  const img = e.target.closest('.pic.big, .hero .portrait img.p');
+  const fig = !img && e.target.closest('.dboards:not(.zoom) .dboard');
+  if (!img && (!fig || e.target.closest('a'))) return;
+  if (img) e.preventDefault();
   const d = document.createElement('dialog');
   d.className = 'dzoom';
-  d.innerHTML = `<div class="${fig.parentElement.className} zoom">${fig.outerHTML}</div>`;
+  d.innerHTML = img ? `<img class="full" src="${esc(img.src)}" alt="">` : `<div class="${fig.parentElement.className} zoom">${fig.outerHTML}</div>`;
   d.onclick = () => d.close();
   d.onclose = () => d.remove();
   document.body.append(d);

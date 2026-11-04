@@ -25111,14 +25111,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 72967,
+     "cp": 73044,
      "il": 1405
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 72967,
+   "cp": 73044,
    "il": 1405,
    "gear": [
     {
@@ -25586,7 +25586,7 @@
     }
    ],
    "title": {
-    "ownedCount": 183,
+    "ownedCount": 184,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -25604,8 +25604,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 60,
-      "ownedPercent": 59,
+      "ownedCount": 61,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Block +10"
@@ -31264,8 +31264,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 20:34 UTC",
+ "updated": "2026-11-04 21:03 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 21:02",
+   "n": "iLen",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-04 20:04",
    "n": "uTril",

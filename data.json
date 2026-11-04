@@ -11246,15 +11246,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 79654,
-     "il": 1649
+     "cp": 80571,
+     "il": 1655
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 79654,
-   "il": 1649,
+   "cp": 80571,
+   "il": 1655,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -11890,10 +11890,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.7%"
+      "HP increase +2.9%"
      ],
      "type": "CON",
-     "value": 17
+     "value": 29
     },
     {
      "name": "Precision",
@@ -12004,11 +12004,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1649
+     "value": 1655
     }
    ],
    "title": {
-    "ownedCount": 181,
+    "ownedCount": 184,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -12026,8 +12026,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 58,
-      "ownedPercent": 57,
+      "ownedCount": 60,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "Block +10"
@@ -12076,8 +12076,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 63,
-      "ownedPercent": 59,
+      "ownedCount": 64,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -12983,7 +12983,7 @@
       "id": 13710000,
       "name": "Heightened Sixth Sense",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -12993,7 +12993,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -13209,10 +13209,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Specter_01.png",
-     "id": 1216,
-     "level": 1,
-     "name": "Dark Spirit"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_FireEle_01.png",
+     "id": 1213,
+     "level": 3,
+     "name": "Lesser Fire Spirit"
     },
     "wing": {
      "enchantLevel": 0,
@@ -16413,15 +16413,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 107151,
-     "il": 2336
+     "cp": 107534,
+     "il": 2376
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 107151,
-   "il": 2336,
+   "cp": 107534,
+   "il": 2376,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17112,7 +17112,7 @@
     {
      "slotPosName": "Arcana3",
      "name": "Compass of Magic",
-     "grade": "Rare",
+     "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
      "max": 3,
@@ -17124,11 +17124,11 @@
     },
     {
      "slotPosName": "Arcana4",
-     "name": "Bell of Vigor",
-     "grade": "Common",
+     "name": "Bell of Magic",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
-     "max": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
+     "max": 3,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -17200,11 +17200,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4.9%",
-      "Perfect Chance +4.9%"
+      "Defense increase +4.1%",
+      "Perfect Chance +4.1%"
      ],
      "type": "Justice",
-     "value": 49
+     "value": 41
     },
     {
      "name": "Freedom [Vaizel]",
@@ -17245,20 +17245,20 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.6%",
-      "Perfect Resist +0.6%"
+      "Attack increase +1.8%",
+      "Perfect Resist +1.8%"
      ],
      "type": "Destruction",
-     "value": 6
+     "value": 18
     },
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +4.4%",
-      "Regeneration Penetration +4.4%"
+      "Critical Hit increase +4.8%",
+      "Regeneration Penetration +4.8%"
      ],
      "type": "Death",
-     "value": 44
+     "value": 48
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -17291,7 +17291,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2336
+     "value": 2376
     }
    ],
    "title": {
@@ -18002,7 +18002,7 @@
       "id": 15090000,
       "name": "Ice Chain",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -18022,7 +18022,7 @@
       "id": 15280000,
       "name": "Bittercold Wind",
       "needLevel": 3,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -18042,7 +18042,7 @@
       "id": 15010000,
       "name": "Flame Scattershot",
       "needLevel": 5,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -18052,7 +18052,7 @@
       "id": 15150000,
       "name": "Frost",
       "needLevel": 7,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -18062,7 +18062,7 @@
       "id": 15110000,
       "name": "Winter's Shackles",
       "needLevel": 8,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -18112,7 +18112,7 @@
       "id": 15710000,
       "name": "Fire Mark",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -18132,7 +18132,7 @@
       "id": 15730000,
       "name": "Cold Snap",
       "needLevel": 9,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -18172,7 +18172,7 @@
       "id": 15750000,
       "name": "Robe of Cold",
       "needLevel": 17,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -25111,14 +25111,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 73075,
+     "cp": 73054,
      "il": 1405
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 73075,
+   "cp": 73054,
    "il": 1405,
    "gear": [
     {
@@ -25466,10 +25466,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +2.7%"
+      "HP increase +1.9%"
      ],
      "type": "CON",
-     "value": 27
+     "value": 19
     },
     {
      "name": "Precision",
@@ -26598,7 +26598,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -27950,15 +27950,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 87784,
-     "il": 2023
+     "cp": 87897,
+     "il": 2062
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 87784,
-   "il": 2023,
+   "cp": 87897,
+   "il": 2062,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28636,10 +28636,10 @@
     {
      "slotPosName": "Arcana2",
      "name": "Parchment of Magic",
-     "grade": "Common",
-     "enchantLevel": 1,
+     "grade": "Rare",
+     "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
-     "max": 2,
+     "max": 3,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28661,11 +28661,11 @@
     },
     {
      "slotPosName": "Arcana4",
-     "name": "Bell of Magic",
-     "grade": "Common",
+     "name": "Bell of Vigor",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
-     "max": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
+     "max": 3,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28740,11 +28740,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4.1%",
-      "Perfect Chance +4.1%"
+      "Defense increase +5.3%",
+      "Perfect Chance +5.3%"
      ],
      "type": "Justice",
-     "value": 41
+     "value": 53
     },
     {
      "name": "Freedom [Vaizel]",
@@ -28785,11 +28785,11 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +1.4%",
-      "Perfect Resist +1.4%"
+      "Attack increase +0.6%",
+      "Perfect Resist +0.6%"
      ],
      "type": "Destruction",
-     "value": 14
+     "value": 6
     },
     {
      "name": "Death [Triniel]",
@@ -28812,11 +28812,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +2.4%",
-      "Endurance +2.4%"
+      "MP increase +2.7%",
+      "Endurance +2.7%"
      ],
      "type": "Destiny",
-     "value": 24
+     "value": 27
     },
     {
      "name": "Space [Israphel]",
@@ -28831,7 +28831,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2023
+     "value": 2062
     }
    ],
    "title": {
@@ -29687,7 +29687,7 @@
       "id": 17010000,
       "name": "Earth's Retribution",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -29787,7 +29787,7 @@
       "id": 17060000,
       "name": "Bolt",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -29887,7 +29887,7 @@
       "id": 17790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -29902,12 +29902,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 0,
@@ -29942,12 +29942,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -30060,14 +30060,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 31749,
+     "cp": 31761,
      "il": 506
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 31,
-   "cp": 31749,
+   "cp": 31761,
    "il": 506,
    "gear": [
     {
@@ -31264,8 +31264,43 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 22:34 UTC",
+ "updated": "2026-11-04 23:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 23:04",
+   "n": "uTril",
+   "x": "Parchment of Magic +1 → +0"
+  },
+  {
+   "t": "2026-11-04 23:04",
+   "n": "uTril",
+   "x": "new Bell of Vigor +0"
+  },
+  {
+   "t": "2026-11-04 23:04",
+   "n": "uTril",
+   "x": "skills up: Earth's Retribution 14, Survival Willpower 15, Summon Resurrection 5"
+  },
+  {
+   "t": "2026-11-04 23:02",
+   "n": "IBrook",
+   "x": "new Bell of Magic +0"
+  },
+  {
+   "t": "2026-11-04 23:02",
+   "n": "IBrook",
+   "x": "skills up: Ice Chain 16, Frost 11, Winter's Shackles 15, Cold Snap 12 and 1 more"
+  },
+  {
+   "t": "2026-11-04 23:02",
+   "n": "Darya",
+   "x": "3 new titles"
+  },
+  {
+   "t": "2026-11-04 23:02",
+   "n": "Darya",
+   "x": "skills up: Exploit Weakness 16"
+  },
   {
    "t": "2026-11-04 22:33",
    "n": "uTril",

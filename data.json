@@ -54,13 +54,13 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 116295,
+     "cp": 116313,
      "il": 2428
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 116295,
+   "cp": 116313,
    "il": 2428,
    "gear": [
     {
@@ -30058,14 +30058,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 27175,
+     "cp": 27409,
      "il": 432
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 29,
-   "cp": 27175,
+   "cp": 27409,
    "il": 432,
    "gear": [
     {
@@ -30481,7 +30481,7 @@
     }
    ],
    "title": {
-    "ownedCount": 66,
+    "ownedCount": 71,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30515,8 +30515,8 @@
       "grade": "Legend",
       "id": 23010024,
       "name": "Bond with All Creation",
-      "ownedCount": 17,
-      "ownedPercent": 17,
+      "ownedCount": 21,
+      "ownedPercent": 21,
       "statList": [
        {
         "desc": "Move Speed +0.7%"
@@ -30534,8 +30534,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 21,
-      "ownedPercent": 21,
+      "ownedCount": 22,
+      "ownedPercent": 22,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -30901,7 +30901,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -30951,7 +30951,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -31171,8 +31171,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 06:04 UTC",
+ "updated": "2026-11-04 06:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 06:34",
+   "n": "RyBear",
+   "x": "5 new titles"
+  },
+  {
+   "t": "2026-11-04 06:34",
+   "n": "RyBear",
+   "x": "skills up: Ruinous Blow 9, Identify Weakness 10"
+  },
   {
    "t": "2026-11-04 05:34",
    "n": "RyBear",

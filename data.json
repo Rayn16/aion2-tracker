@@ -54,13 +54,13 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 116226,
+     "cp": 116292,
      "il": 2428
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 116226,
+   "cp": 116292,
    "il": 2428,
    "gear": [
     {
@@ -5956,15 +5956,15 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 105891,
-     "il": 2423
+     "cp": 106199,
+     "il": 2434
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 105891,
-   "il": 2423,
+   "cp": 106199,
+   "il": 2434,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6269,32 +6269,32 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Vakron Cloak",
+     "name": "Nuakum Cloak",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Attack",
-       "+3",
-       "Rare"
-      ],
-      [
        "HP",
-       "+160",
-       "Unique"
+       "+30",
+       "Common"
       ],
       [
-       "Evasion Bonus",
+       "Critical Hit",
        "+7",
        "Rare"
       ],
       [
-       "Accuracy Bonus",
-       "+10",
-       "Legend"
+       "MP",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -6687,12 +6687,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +3.1%",
-      "Block increase +3.1%",
-      "Critical Hit Resist increase +3.1%"
+      "Evasion increase +1.5%",
+      "Block increase +1.5%",
+      "Critical Hit Resist increase +1.5%"
      ],
      "type": "DEX",
-     "value": 31
+     "value": 15
     },
     {
      "name": "Intelligence",
@@ -6703,10 +6703,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +2.1%"
+      "HP increase +1.1%"
      ],
      "type": "CON",
-     "value": 21
+     "value": 11
     },
     {
      "name": "Precision",
@@ -6817,11 +6817,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2423
+     "value": 2434
     }
    ],
    "title": {
-    "ownedCount": 206,
+    "ownedCount": 207,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -6889,8 +6889,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 68,
-      "ownedPercent": 64,
+      "ownedCount": 69,
+      "ownedPercent": 65,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -7701,7 +7701,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -9879,10 +9879,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.2%"
+      "Attack increase +3.3%"
      ],
      "type": "STR",
-     "value": 32
+     "value": 33
     },
     {
      "name": "Dexterity",
@@ -13523,10 +13523,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2%"
+      "Attack increase +2.1%"
      ],
      "type": "STR",
-     "value": 20
+     "value": 21
     },
     {
      "name": "Dexterity",
@@ -14449,15 +14449,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 128218,
-     "il": 2512
+     "cp": 128506,
+     "il": 2517
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 128218,
-   "il": 2512,
+   "cp": 128506,
+   "il": 2517,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15196,10 +15196,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.7%"
+      "Attack increase +0.8%"
      ],
      "type": "STR",
-     "value": 7
+     "value": 8
     },
     {
      "name": "Dexterity",
@@ -15336,7 +15336,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2512
+     "value": 2517
     }
    ],
    "title": {
@@ -16386,10 +16386,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_EarthEleOd_01.png",
-     "id": 1069,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_AddShulack_03.png",
+     "id": 1193,
      "level": 3,
-     "name": "Stone Spirit"
+     "name": "Addicted Shulak Cart Worker"
     },
     "wing": {
      "enchantLevel": 0,
@@ -27948,15 +27948,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 83381,
-     "il": 1953
+     "cp": 83933,
+     "il": 1969
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 83381,
-   "il": 1953,
+   "cp": 83933,
+   "il": 1969,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28264,7 +28264,7 @@
      "slotPosName": "Cape",
      "name": "Bakarma Cloak",
      "grade": "Unique",
-     "enchantLevel": 5,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png",
      "max": 15,
      "slots": 4,
@@ -28431,7 +28431,7 @@
      "slotPosName": "Ring2",
      "name": "Aulamus Ring",
      "grade": "Unique",
-     "enchantLevel": 9,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
      "max": 15,
      "slots": 4,
@@ -28827,7 +28827,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1953
+     "value": 1969
     }
    ],
    "title": {
@@ -28927,8 +28927,8 @@
       "id": 72,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 65,
-      "openPercent": 74,
+      "openNodeCount": 66,
+      "openPercent": 75,
       "totalNodeCount": 88
      },
      {
@@ -28936,8 +28936,8 @@
       "id": 73,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 51,
-      "openPercent": 58,
+      "openNodeCount": 56,
+      "openPercent": 64,
       "totalNodeCount": 88
      },
      {
@@ -29062,7 +29062,7 @@
      "9|13|Common|0|Max HP"
     ],
     "72": [
-     "3|12|Common|0|Defense",
+     "3|12|Common|1|Defense",
      "3|13|Unique|1|Damage Boost",
      "3|10|Common|1|Attack",
      "3|11|Legend|1|Skill Level Up - Bolt",
@@ -29077,7 +29077,7 @@
      "5|3|Legend|1|Skill Level Up - Earth's Retribution",
      "4|5|Rare|1|Skill Level Up - Radiant Benediction",
      "4|3|Common|1|Attack",
-     "4|10|Common|1|Max MP",
+     "4|10|Common|0|Max MP",
      "4|7|Common|0|Max HP",
      "5|12|Rare|1|Skill Level Up - Survival Willpower",
      "5|13|Common|1|Attack",
@@ -29085,7 +29085,7 @@
      "5|7|Common|0|Attack",
      "5|4|Common|0|Max HP",
      "5|5|Common|0|Defense",
-     "5|10|Common|1|Critical Hit Resist",
+     "5|10|Common|0|Critical Hit Resist",
      "5|11|Common|0|Max MP",
      "5|8|Common|0|Max MP",
      "5|9|Legend|1|Skill Level Up - Debilitating Mark",
@@ -29125,7 +29125,7 @@
      "11|5|Common|1|Max HP",
      "11|3|Common|0|Defense",
      "11|8|Common|0|Max HP",
-     "11|9|Common|0|Defense",
+     "11|9|Common|1|Defense",
      "11|6|Common|1|Critical Hit",
      "11|7|Legend|1|Skill Level Up - Healing Light",
      "10|11|Common|1|Max HP",
@@ -29134,7 +29134,7 @@
      "10|13|Common|0|Critical Hit Resist",
      "12|6|Common|1|Max MP",
      "12|3|Common|0|Critical Hit Resist",
-     "12|9|Common|0|Max MP",
+     "12|9|Common|1|Max MP",
      "11|12|Common|1|Max MP",
      "11|13|Legend|1|Skill Level Up - Light of Regeneration",
      "11|11|Common|1|Attack",
@@ -29186,23 +29186,23 @@
      "11|13|Common|1|Attack",
      "11|12|Legend|1|Skill Level Up - Healing Light",
      "11|11|Common|0|Max MP",
-     "13|7|Common|0|Defense",
-     "13|6|Rare|0|Skill Level Up - Healing Enhancement",
+     "13|7|Common|1|Defense",
+     "13|6|Rare|1|Skill Level Up - Healing Enhancement",
      "13|5|Common|1|Critical Hit",
      "13|4|Common|1|Max MP",
      "13|11|Rare|0|Skill Level Up - Empyrean Lords' Benediction",
      "13|9|Common|0|Critical Hit",
-     "13|8|Legend|0|Skill Level Up - Defiance",
+     "13|8|Legend|1|Skill Level Up - Defiance",
      "12|13|Common|1|Critical Hit Resist",
      "12|11|Common|0|Defense",
      "13|3|Unique|1|Critical Damage Tolerance",
      "13|13|Unique|1|Critical Damage Boost",
-     "13|12|Common|0|Critical Hit",
+     "13|12|Common|1|Critical Hit",
      "3|13|Unique|1|Critical Damage Tolerance",
      "3|12|Common|0|Max HP",
      "3|11|Common|1|Critical Hit Resist",
      "3|10|Rare|1|Skill Level Up - Empyrean Lords' Grace",
-     "3|5|Rare|0|Skill Level Up - Warm Benediction",
+     "3|5|Rare|1|Skill Level Up - Warm Benediction",
      "3|4|Common|0|Critical Hit Resist",
      "3|3|Unique|1|Critical Damage Boost",
      "3|9|Common|0|Attack",
@@ -29793,7 +29793,7 @@
       "id": 17240000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -29803,7 +29803,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -29833,7 +29833,7 @@
       "id": 17740000,
       "name": "Healing Enhancement",
       "needLevel": 11,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -30062,7 +30062,7 @@
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 27,
+   "level": 28,
    "cp": 27070,
    "il": 432,
    "gear": [
@@ -31169,8 +31169,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 01:04 UTC",
+ "updated": "2026-11-04 01:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 01:34",
+   "n": "RyBear",
+   "x": "reached level 28"
+  },
+  {
+   "t": "2026-11-04 01:34",
+   "n": "CutieCatty",
+   "x": "new Nuakum Cloak +10"
+  },
+  {
+   "t": "2026-11-04 01:34",
+   "n": "CutieCatty",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-04 01:34",
+   "n": "CutieCatty",
+   "x": "skills up: Raging Spell 13"
+  },
+  {
+   "t": "2026-11-04 01:34",
+   "n": "uTril",
+   "x": "Bakarma Cloak +5 → +10"
+  },
+  {
+   "t": "2026-11-04 01:34",
+   "n": "uTril",
+   "x": "Aulamus Ring +9 → +10"
+  },
+  {
+   "t": "2026-11-04 01:34",
+   "n": "uTril",
+   "x": "opened 6 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-04 01:34",
+   "n": "uTril",
+   "x": "skills up: Defiance 5, Warm Benediction 16, Healing Enhancement 14"
+  },
   {
    "t": "2026-11-04 01:04",
    "n": "RyBear",

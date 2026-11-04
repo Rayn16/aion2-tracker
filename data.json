@@ -54,13 +54,13 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 116292,
+     "cp": 116295,
      "il": 2428
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 116292,
+   "cp": 116295,
    "il": 2428,
    "gear": [
     {
@@ -2053,13 +2053,13 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 72962,
+     "cp": 72988,
      "il": 1529
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 72962,
+   "cp": 72988,
    "il": 1529,
    "gear": [
     {
@@ -30058,14 +30058,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 27070,
+     "cp": 27175,
      "il": 432
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 28,
-   "cp": 27070,
+   "level": 29,
+   "cp": 27175,
    "il": 432,
    "gear": [
     {
@@ -30481,7 +30481,7 @@
     }
    ],
    "title": {
-    "ownedCount": 61,
+    "ownedCount": 66,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30493,8 +30493,8 @@
       "grade": "Rare",
       "id": 22020013,
       "name": "The Only Way Out Is Through",
-      "ownedCount": 24,
-      "ownedPercent": 23,
+      "ownedCount": 28,
+      "ownedPercent": 26,
       "statList": [
        {
         "desc": "Attack Bonus +1"
@@ -30515,8 +30515,8 @@
       "grade": "Legend",
       "id": 23010024,
       "name": "Bond with All Creation",
-      "ownedCount": 16,
-      "ownedPercent": 16,
+      "ownedCount": 17,
+      "ownedPercent": 17,
       "statList": [
        {
         "desc": "Move Speed +0.7%"
@@ -31171,8 +31171,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 05:04 UTC",
+ "updated": "2026-11-04 05:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 05:34",
+   "n": "RyBear",
+   "x": "reached level 29"
+  },
+  {
+   "t": "2026-11-04 05:34",
+   "n": "RyBear",
+   "x": "5 new titles"
+  },
   {
    "t": "2026-11-04 04:03",
    "n": "uTril",

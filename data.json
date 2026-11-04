@@ -54,13 +54,13 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 116314,
+     "cp": 116622,
      "il": 2428
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 116314,
+   "cp": 116622,
    "il": 2428,
    "gear": [
     {
@@ -928,7 +928,7 @@
     }
    ],
    "title": {
-    "ownedCount": 197,
+    "ownedCount": 198,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -971,8 +971,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 69,
-      "ownedPercent": 70,
+      "ownedCount": 70,
+      "ownedPercent": 71,
       "statList": [
        {
         "desc": "MP +20"
@@ -5956,14 +5956,14 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 106199,
+     "cp": 107176,
      "il": 2434
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 106199,
+   "cp": 107176,
    "il": 2434,
    "gear": [
     {
@@ -7875,9 +7875,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_012.png",
-     "id": 40101200,
-     "name": "Black Fragment Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": null,
@@ -14449,14 +14449,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 132131,
+     "cp": 132174,
      "il": 2575
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 132131,
+   "cp": 132174,
    "il": 2575,
    "gear": [
     {
@@ -25111,14 +25111,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 73044,
+     "cp": 73075,
      "il": 1405
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 73044,
+   "cp": 73075,
    "il": 1405,
    "gear": [
     {
@@ -25586,7 +25586,7 @@
     }
    ],
    "title": {
-    "ownedCount": 184,
+    "ownedCount": 185,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -25604,8 +25604,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 61,
-      "ownedPercent": 60,
+      "ownedCount": 62,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "Block +10"
@@ -26784,10 +26784,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Papis_01.png",
-     "id": 1066,
-     "level": 3,
-     "name": "Papis"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_KrallReg_01.png",
+     "id": 1002,
+     "level": 2,
+     "name": "Krall Laborer"
     },
     "wing": {
      "enchantLevel": 0,
@@ -27950,15 +27950,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 84971,
-     "il": 2000
+     "cp": 84814,
+     "il": 2018
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 84971,
-   "il": 2000,
+   "cp": 84814,
+   "il": 2018,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28648,11 +28648,11 @@
     },
     {
      "slotPosName": "Arcana3",
-     "name": "Compass of Magic",
-     "grade": "Common",
-     "enchantLevel": 1,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
-     "max": 2,
+     "name": "Compass of Vigor",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
+     "max": 3,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28674,10 +28674,10 @@
     },
     {
      "slotPosName": "Arcana5",
-     "name": "Mirror of Vigor",
+     "name": "Mirror of Magic",
      "grade": "Rare",
-     "enchantLevel": 1,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_DefenceSet2.png",
      "max": 3,
      "slots": 0,
      "stones": [],
@@ -28749,20 +28749,20 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +3.6%",
-      "Evasion increase +3.6%"
+      "Accuracy increase +4.8%",
+      "Evasion increase +4.8%"
      ],
      "type": "Freedom",
-     "value": 36
+     "value": 48
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -2%",
-      "Endurance Penetration +2%"
+      "Cooldown -0.7%",
+      "Endurance Penetration +0.7%"
      ],
      "type": "Illusion",
-     "value": 20
+     "value": 7
     },
     {
      "name": "Life [Yustiel]",
@@ -28794,20 +28794,20 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +4.7%",
-      "Regeneration Penetration +4.7%"
+      "Critical Hit increase +3.8%",
+      "Regeneration Penetration +3.8%"
      ],
      "type": "Death",
-     "value": 47
+     "value": 38
     },
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -1.1%",
-      "Double Chance +1.1%"
+      "MP Cost -2.3%",
+      "Double Chance +2.3%"
      ],
      "type": "Wisdom",
-     "value": 11
+     "value": 23
     },
     {
      "name": "Destiny [Marchutan]",
@@ -28831,7 +28831,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2000
+     "value": 2018
     }
    ],
    "title": {
@@ -29697,7 +29697,7 @@
       "id": 17040000,
       "name": "Judgment Thunder",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -29767,7 +29767,7 @@
       "id": 17100000,
       "name": "Healing Light",
       "needLevel": 10,
-      "skillLevel": 9
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -29837,7 +29837,7 @@
       "id": 17740000,
       "name": "Healing Enhancement",
       "needLevel": 11,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31264,8 +31264,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 21:03 UTC",
+ "updated": "2026-11-04 21:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 21:34",
+   "n": "uTril",
+   "x": "new Compass of Vigor +0"
+  },
+  {
+   "t": "2026-11-04 21:34",
+   "n": "uTril",
+   "x": "new Mirror of Magic +0"
+  },
+  {
+   "t": "2026-11-04 21:34",
+   "n": "uTril",
+   "x": "skills up: Judgment Thunder 14"
+  },
+  {
+   "t": "2026-11-04 21:33",
+   "n": "iLen",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-04 21:31",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-04 21:02",
    "n": "iLen",

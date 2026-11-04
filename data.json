@@ -54,13 +54,13 @@
     },
     {
      "date": "2026-11-04",
-     "cp": 116313,
+     "cp": 116314,
      "il": 2428
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 116313,
+   "cp": 116314,
    "il": 2428,
    "gear": [
     {
@@ -928,7 +928,7 @@
     }
    ],
    "title": {
-    "ownedCount": 196,
+    "ownedCount": 197,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -971,8 +971,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 68,
-      "ownedPercent": 69,
+      "ownedCount": 69,
+      "ownedPercent": 70,
       "statList": [
        {
         "desc": "MP +20"
@@ -30058,14 +30058,14 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 27409,
+     "cp": 28607,
      "il": 432
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 29,
-   "cp": 27409,
+   "cp": 28607,
    "il": 432,
    "gear": [
     {
@@ -30481,7 +30481,7 @@
     }
    ],
    "title": {
-    "ownedCount": 71,
+    "ownedCount": 76,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30493,8 +30493,8 @@
       "grade": "Rare",
       "id": 22020013,
       "name": "The Only Way Out Is Through",
-      "ownedCount": 28,
-      "ownedPercent": 26,
+      "ownedCount": 30,
+      "ownedPercent": 28,
       "statList": [
        {
         "desc": "Attack Bonus +1"
@@ -30515,8 +30515,8 @@
       "grade": "Legend",
       "id": 23010024,
       "name": "Bond with All Creation",
-      "ownedCount": 21,
-      "ownedPercent": 21,
+      "ownedCount": 23,
+      "ownedPercent": 23,
       "statList": [
        {
         "desc": "Move Speed +0.7%"
@@ -30534,8 +30534,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 22,
-      "ownedPercent": 22,
+      "ownedCount": 23,
+      "ownedPercent": 23,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -31031,17 +31031,17 @@
       "id": 11400000,
       "name": "Lunge Stance",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 5
      },
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_040.png",
       "id": 11250000,
       "name": "Zikel's Blessing",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 0,
@@ -31094,14 +31094,14 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
       "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_039.png",
       "id": 11390000,
       "name": "Rage Burst",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 1
      },
      {
       "acquired": 0,
@@ -31171,8 +31171,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 16:04 UTC",
+ "updated": "2026-11-04 16:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 16:34",
+   "n": "RyBear",
+   "x": "5 new titles"
+  },
+  {
+   "t": "2026-11-04 16:34",
+   "n": "RyBear",
+   "x": "skills up: Lunge Stance 5, Zikel's Blessing 2, Rage Burst 1"
+  },
+  {
+   "t": "2026-11-04 16:31",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-04 11:33",
    "n": "uTril",

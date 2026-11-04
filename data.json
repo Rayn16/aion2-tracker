@@ -27948,15 +27948,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 80368,
-     "il": 1947
+     "cp": 82066,
+     "il": 1932
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 80368,
-   "il": 1947,
+   "cp": 82066,
+   "il": 1932,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28302,7 +28302,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 1,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -28622,7 +28622,7 @@
      "slotPosName": "Arcana1",
      "name": "Chalice of Magic",
      "grade": "Common",
-     "enchantLevel": 0,
+     "enchantLevel": 1,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_DefenceSet2.png",
      "max": 2,
      "slots": 0,
@@ -28635,7 +28635,7 @@
      "slotPosName": "Arcana2",
      "name": "Parchment of Magic",
      "grade": "Common",
-     "enchantLevel": 0,
+     "enchantLevel": 1,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
      "max": 2,
      "slots": 0,
@@ -28646,11 +28646,11 @@
     },
     {
      "slotPosName": "Arcana3",
-     "name": "Compass of Vigor",
-     "grade": "Rare",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
-     "max": 3,
+     "name": "Compass of Magic",
+     "grade": "Common",
+     "enchantLevel": 1,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
+     "max": 2,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28674,7 +28674,7 @@
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
      "grade": "Rare",
-     "enchantLevel": 0,
+     "enchantLevel": 1,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 3,
      "slots": 0,
@@ -28745,20 +28745,20 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +4.8%",
-      "Evasion increase +4.8%"
+      "Accuracy increase +3.6%",
+      "Evasion increase +3.6%"
      ],
      "type": "Freedom",
-     "value": 48
+     "value": 36
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -1.9%",
-      "Endurance Penetration +1.9%"
+      "Cooldown -2%",
+      "Endurance Penetration +2%"
      ],
      "type": "Illusion",
-     "value": 19
+     "value": 20
     },
     {
      "name": "Life [Yustiel]",
@@ -28790,11 +28790,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +3.8%",
-      "Regeneration Penetration +3.8%"
+      "Critical Hit increase +4.7%",
+      "Regeneration Penetration +4.7%"
      ],
      "type": "Death",
-     "value": 38
+     "value": 47
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -28808,26 +28808,26 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +2.3%",
-      "Endurance +2.3%"
+      "MP increase +2.4%",
+      "Endurance +2.4%"
      ],
      "type": "Destiny",
-     "value": 23
+     "value": 24
     },
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +4.4%",
-      "Block increase +4.4%"
+      "Move Speed +4.5%",
+      "Block increase +4.5%"
      ],
      "type": "Space",
-     "value": 44
+     "value": 45
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1947
+     "value": 1932
     }
    ],
    "title": {
@@ -29693,7 +29693,7 @@
       "id": 17040000,
       "name": "Judgment Thunder",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -29703,7 +29703,7 @@
       "id": 17080000,
       "name": "Debilitating Mark",
       "needLevel": 1,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -29723,7 +29723,7 @@
       "id": 17070000,
       "name": "Chain of Torment",
       "needLevel": 4,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -29743,7 +29743,7 @@
       "id": 17090000,
       "name": "Light of Regeneration",
       "needLevel": 7,
-      "skillLevel": 14
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -29823,7 +29823,7 @@
       "id": 17730000,
       "name": "Empyrean Lord's Grace",
       "needLevel": 9,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -29833,7 +29833,7 @@
       "id": 17740000,
       "name": "Healing Enhancement",
       "needLevel": 11,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -30056,15 +30056,15 @@
    "history": [
     {
      "date": "2026-11-04",
-     "cp": 25362,
-     "il": 417
+     "cp": 26415,
+     "il": 432
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 25,
-   "cp": 25362,
-   "il": 417,
+   "level": 26,
+   "cp": 26415,
+   "il": 432,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30098,12 +30098,12 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Outsider Breastplate",
-     "grade": "Common",
+     "name": "Chaser Breastplate",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Torso.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30113,12 +30113,12 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Outsider Greaves",
-     "grade": "Common",
+     "name": "Chaser Greaves",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Pants.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30188,12 +30188,12 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Outsider Cloak",
-     "grade": "Common",
+     "name": "Chaser Cloak",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Cape.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30475,11 +30475,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 417
+     "value": 432
     }
    ],
    "title": {
-    "ownedCount": 55,
+    "ownedCount": 57,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30491,8 +30491,8 @@
       "grade": "Rare",
       "id": 22020013,
       "name": "The Only Way Out Is Through",
-      "ownedCount": 23,
-      "ownedPercent": 22,
+      "ownedCount": 24,
+      "ownedPercent": 23,
       "statList": [
        {
         "desc": "Attack Bonus +1"
@@ -30513,8 +30513,8 @@
       "grade": "Legend",
       "id": 23010024,
       "name": "Bond with All Creation",
-      "ownedCount": 13,
-      "ownedPercent": 13,
+      "ownedCount": 14,
+      "ownedPercent": 14,
       "statList": [
        {
         "desc": "Move Speed +0.7%"
@@ -30799,7 +30799,7 @@
       "id": 11020000,
       "name": "Keen Strike",
       "needLevel": 1,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -30809,7 +30809,7 @@
       "id": 11010000,
       "name": "Rending Blow",
       "needLevel": 1,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -30839,7 +30839,7 @@
       "id": 11170000,
       "name": "Overhead Slam",
       "needLevel": 4,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -30879,7 +30879,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 6
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -30899,7 +30899,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -30949,7 +30949,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -30959,7 +30959,7 @@
       "id": 11750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -31169,8 +31169,68 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 00:17 UTC",
+ "updated": "2026-11-04 00:38 UTC",
  "feed": [
+  {
+   "t": "2026-11-04 00:38",
+   "n": "RyBear",
+   "x": "reached level 26"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "RyBear",
+   "x": "new Chaser Breastplate +0"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "RyBear",
+   "x": "new Chaser Greaves +0"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "RyBear",
+   "x": "new Chaser Cloak +0"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "RyBear",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "RyBear",
+   "x": "skills up: Keen Strike 12, Rending Blow 12, Overhead Slam 10, Ruinous Blow 8 and 2 more"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "uTril",
+   "x": "Noble Belt +1 → +2"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "uTril",
+   "x": "Chalice of Magic +0 → +1"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "uTril",
+   "x": "Parchment of Magic +0 → +1"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "uTril",
+   "x": "new Compass of Magic +1"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "uTril",
+   "x": "Mirror of Vigor +0 → +1"
+  },
+  {
+   "t": "2026-11-04 00:38",
+   "n": "uTril",
+   "x": "skills up: Debilitating Mark 12, Light of Regeneration 16, Empyrean Lord's Grace 15, Healing Enhancement 13"
+  },
   {
    "t": "2026-11-03 05:31",
    "n": "YasuoMain",

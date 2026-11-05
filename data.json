@@ -16454,10 +16454,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_AddShulack_03.png",
-     "id": 1193,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Varg_03.png",
+     "id": 1018,
      "level": 3,
-     "name": "Addicted Shulak Cart Worker"
+     "name": "Varg Berserker"
     },
     "wing": {
      "enchantLevel": 0,
@@ -28063,15 +28063,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 95347,
-     "il": 2157
+     "cp": 95598,
+     "il": 2178
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 95347,
-   "il": 2157,
+   "cp": 95598,
+   "il": 2178,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28341,32 +28341,32 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Vakron Boots",
+     "name": "Nuakum Boots",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Boots.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Boots.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+30",
-       "Rare"
-      ],
-      [
-       "Evasion Bonus",
+       "Critical Hit Resist",
        "+7",
        "Rare"
       ],
       [
-       "Block",
+       "Critical Hit",
        "+10",
-       "Rare"
+       "Legend"
       ],
       [
-       "Accuracy Bonus",
-       "+5",
-       "Common"
+       "MP",
+       "+50",
+       "Legend"
+      ],
+      [
+       "Attack",
+       "+10",
+       "Unique"
       ]
      ],
      "godSlots": 0,
@@ -28814,12 +28814,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.1%",
-      "Block increase +0.1%",
-      "Critical Hit Resist increase +0.1%"
+      "Evasion increase +2%",
+      "Block increase +2%",
+      "Critical Hit Resist increase +2%"
      ],
      "type": "DEX",
-     "value": 1
+     "value": 20
     },
     {
      "name": "Intelligence",
@@ -28946,7 +28946,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2157
+     "value": 2178
     }
    ],
    "title": {
@@ -29922,7 +29922,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -30012,7 +30012,7 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31384,8 +31384,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 05:34 UTC",
+ "updated": "2026-11-05 06:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 06:04",
+   "n": "uTril",
+   "x": "new Nuakum Boots +10"
+  },
+  {
+   "t": "2026-11-05 06:04",
+   "n": "uTril",
+   "x": "skills up: Warm Benediction 17"
+  },
   {
    "t": "2026-11-05 05:32",
    "n": "DeathRunner",

@@ -1444,10 +1444,10 @@
     },
     "wingSkin": {
      "enchantLevel": 0,
-     "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "grade": "Common",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_006A.png",
+     "id": 40200601,
+     "name": "Lesser Daeva Wings"
     }
    },
    "pcId": 7,
@@ -5976,14 +5976,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 110785,
+     "cp": 110787,
      "il": 2468
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 110785,
+   "cp": 110787,
    "il": 2468,
    "gear": [
     {
@@ -28063,50 +28063,52 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 89653,
-     "il": 2109
+     "cp": 95056,
+     "il": 2157
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 89653,
-   "il": 2109,
+   "cp": 95056,
+   "il": 2157,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Spiritforged Mace",
+     "name": "Enraged Kromede Warhammer",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_MA_0078_T05.png",
+     "enchantLevel": 11,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_MA_0041_T06.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Attack",
-       "+1",
-       "Common"
+       "Accuracy Bonus",
+       "+15",
+       "Unique"
       ],
       [
-       "HP",
+       "Defense",
        "+30",
-       "Common"
+       "Rare"
       ],
       [
-       "Attack",
-       "+3",
-       "Rare"
+       "Critical Hit Resist",
+       "+10",
+       "Legend"
       ],
       [
        "Critical Hit",
-       "+7",
-       "Rare"
+       "+10",
+       "Legend"
       ]
      ],
      "godSlots": 1,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -28804,10 +28806,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.2%"
+      "Attack increase +0.7%"
      ],
      "type": "STR",
-     "value": 22
+     "value": 7
     },
     {
      "name": "Dexterity",
@@ -28944,11 +28946,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2109
+     "value": 2157
     }
    ],
    "title": {
-    "ownedCount": 184,
+    "ownedCount": 185,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -29013,8 +29015,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 60,
-      "ownedPercent": 61,
+      "ownedCount": 61,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "MP +20"
@@ -31382,8 +31384,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 04:04 UTC",
+ "updated": "2026-11-05 04:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 04:33",
+   "n": "uTril",
+   "x": "new Enraged Kromede Warhammer +11"
+  },
+  {
+   "t": "2026-11-05 04:33",
+   "n": "uTril",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-05 04:04",
    "n": "uTril",

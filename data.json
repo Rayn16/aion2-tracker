@@ -59,14 +59,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 117732,
-     "il": 2469
+     "cp": 117800,
+     "il": 2472
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 117732,
-   "il": 2469,
+   "cp": 117800,
+   "il": 2472,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -414,7 +414,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 7,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -929,7 +929,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2469
+     "value": 2472
     }
    ],
    "title": {
@@ -964,23 +964,23 @@
       "equipCategory": "Defense",
       "equipStatList": [
        {
-        "desc": "Defense Bonus +300"
+        "desc": "Defense Bonus +320"
        },
        {
-        "desc": "Damage Tolerance +3%"
+        "desc": "Back Attack Damage Tolerance +3%"
        },
        {
-        "desc": "Block +100"
+        "desc": "Boss Damage Tolerance +4%"
        }
       ],
       "grade": "Unique",
-      "id": 22030003,
-      "name": "Saint of Altgard",
+      "id": 23010025,
+      "name": "Rule All Creation",
       "ownedCount": 70,
       "ownedPercent": 71,
       "statList": [
        {
-        "desc": "MP +20"
+        "desc": "Move Speed +1%"
        }
       ],
       "totalCount": 99
@@ -5976,15 +5976,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 108199,
-     "il": 2450
+     "cp": 393117,
+     "il": 2463
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 108199,
-   "il": 2450,
+   "cp": 393117,
+   "il": 2463,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6455,44 +6455,6 @@
      ]
     },
     {
-     "slotPosName": "Ring2",
-     "name": "Aulamus Ring",
-     "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
-     "max": 15,
-     "slots": 4,
-     "stones": [
-      [
-       "Critical Damage Boost",
-       "+30",
-       "Legend"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ],
-      [
-       "Defense",
-       "+30",
-       "Rare"
-      ],
-      [
-       "Defense",
-       "+100",
-       "Unique"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
-    },
-    {
      "slotPosName": "Ring1",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
@@ -6519,6 +6481,44 @@
       [
        "MP",
        "+40",
+       "Rare"
+      ]
+     ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
+     "slotPosName": "Ring2",
+     "name": "Enraged Kromede Ring",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Defense",
+       "+30",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Evasion Bonus",
+       "+7",
        "Rare"
       ]
      ],
@@ -6716,9 +6716,11 @@
     },
     {
      "name": "Intelligence",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Chance +1.1%"
+     ],
      "type": "INT",
-     "value": 0
+     "value": 11
     },
     {
      "name": "Constitution",
@@ -6731,11 +6733,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.8%",
-      "Critical Hit increase +0.8%"
+      "Accuracy increase +0.3%",
+      "Critical Hit increase +0.3%"
      ],
      "type": "AGI",
-     "value": 8
+     "value": 3
     },
     {
      "name": "Willpower",
@@ -6837,7 +6839,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2450
+     "value": 2463
     }
    ],
    "title": {
@@ -14515,14 +14517,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 133467,
+     "cp": 133470,
      "il": 2611
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 133467,
+   "cp": 133470,
    "il": 2611,
    "gear": [
     {
@@ -16484,14 +16486,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 107584,
+     "cp": 108733,
      "il": 2377
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 107584,
+   "cp": 108733,
    "il": 2377,
    "gear": [
     {
@@ -18303,7 +18305,7 @@
       "id": 15400000,
       "name": "Element Enhancement",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 17
      },
      {
       "acquired": 0,
@@ -18353,7 +18355,7 @@
       "id": 15390000,
       "name": "Fire Wall",
       "needLevel": 22,
-      "skillLevel": 11
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -18409,10 +18411,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_WindEle_01.png",
-     "id": 1092,
-     "level": 2,
-     "name": "Lesser Wind Spirit"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_ShugoBeast_01.png",
+     "id": 1111,
+     "level": 3,
+     "name": "Swift Lugi"
     },
     "wing": {
      "enchantLevel": 0,
@@ -28061,14 +28063,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 89306,
+     "cp": 89309,
      "il": 2089
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 89306,
+   "cp": 89309,
    "il": 2089,
    "gear": [
     {
@@ -31380,8 +31382,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 02:04 UTC",
+ "updated": "2026-11-05 02:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 02:34",
+   "n": "CutieCatty",
+   "x": "new Enraged Kromede Ring +10"
+  },
+  {
+   "t": "2026-11-05 02:32",
+   "n": "IBrook",
+   "x": "skills up: Element Enhancement 17"
+  },
+  {
+   "t": "2026-11-05 02:31",
+   "n": "YasuoMain",
+   "x": "Noble Belt +7 → +10"
+  },
   {
    "t": "2026-11-05 01:32",
    "n": "DeathRunner",

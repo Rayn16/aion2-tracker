@@ -56,12 +56,17 @@
      "date": "2026-11-04",
      "cp": 116638,
      "il": 2428
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 116800,
+     "il": 2443
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 116638,
-   "il": 2428,
+   "cp": 116800,
+   "il": 2443,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -141,32 +146,32 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Vakron Breastplate",
+     "name": "Nuakum Breastplate",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
        "Defense",
-       "+20",
+       "+10",
        "Common"
       ],
       [
-       "Critical Hit Resist",
-       "+9",
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
        "Rare"
       ],
       [
-       "Critical Hit Resist",
-       "+6",
-       "Common"
-      ],
-      [
-       "HP",
-       "+130",
-       "Legend"
+       "Defense",
+       "+30",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -544,24 +549,24 @@
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+80",
+       "Evasion Bonus",
+       "+9",
        "Rare"
       ],
       [
-       "Evasion Bonus",
-       "+13",
-       "Legend"
-      ],
-      [
-       "HP",
-       "+45",
+       "Critical Hit Resist",
+       "+6",
        "Common"
       ],
       [
-       "Defense",
-       "+20",
+       "Accuracy Bonus",
+       "+6",
        "Common"
+      ],
+      [
+       "Attack",
+       "+4",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -924,7 +929,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2428
+     "value": 2443
     }
    ],
    "title": {
@@ -2053,6 +2058,11 @@
     },
     {
      "date": "2026-11-04",
+     "cp": 73291,
+     "il": 1529
+    },
+    {
+     "date": "2026-11-05",
      "cp": 73291,
      "il": 1529
     }
@@ -3981,6 +3991,11 @@
     },
     {
      "date": "2026-11-04",
+     "cp": 72476,
+     "il": 1552
+    },
+    {
+     "date": "2026-11-05",
      "cp": 72476,
      "il": 1552
     }
@@ -5958,12 +5973,17 @@
      "date": "2026-11-04",
      "cp": 107216,
      "il": 2435
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 107218,
+     "il": 2435
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 107216,
+   "cp": 107218,
    "il": 2435,
    "gear": [
     {
@@ -7897,6 +7917,11 @@
      "date": "2026-11-04",
      "cp": 48995,
      "il": 1114
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 48995,
+     "il": 1114
     }
    ],
    "server": "Tassin",
@@ -9550,6 +9575,11 @@
    "history": [
     {
      "date": "2026-11-04",
+     "cp": 59398,
+     "il": 1135
+    },
+    {
+     "date": "2026-11-05",
      "cp": 59398,
      "il": 1135
     }
@@ -11248,6 +11278,11 @@
      "date": "2026-11-04",
      "cp": 80571,
      "il": 1655
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 80571,
+     "il": 1655
     }
    ],
    "server": "Tassin",
@@ -11488,7 +11523,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -13238,6 +13294,11 @@
      "date": "2026-11-04",
      "cp": 33233,
      "il": 595
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 33233,
+     "il": 595
     }
    ],
    "server": "Tassin",
@@ -14451,13 +14512,18 @@
      "date": "2026-11-04",
      "cp": 132274,
      "il": 2575
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 132980,
+     "il": 2601
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 132274,
-   "il": 2575,
+   "cp": 132980,
+   "il": 2601,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -14549,24 +14615,24 @@
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+30",
-       "Rare"
-      ],
-      [
-       "Evasion Bonus",
-       "+5",
+       "Critical Hit Resist",
+       "+6",
        "Common"
       ],
       [
-       "Attack",
-       "+3",
-       "Rare"
+       "Defense",
+       "+75",
+       "Legend"
       ],
       [
-       "Evasion Bonus",
-       "+7",
-       "Rare"
+       "Defense",
+       "+20",
+       "Common"
+      ],
+      [
+       "Block",
+       "+9",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -14579,31 +14645,31 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Vakron Greaves",
+     "name": "Nuakum Greaves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
        "Accuracy Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
        "+5",
        "Common"
       ],
       [
-       "HP",
-       "+60",
+       "Critical Hit",
+       "+7",
        "Rare"
       ],
       [
        "Evasion Bonus",
-       "+5",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
+       "+7",
        "Rare"
       ]
      ],
@@ -14693,32 +14759,32 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Vakron Gloves",
+     "name": "Nuakum Gloves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Attack",
-       "+5",
-       "Legend"
-      ],
-      [
-       "Defense",
-       "+50",
-       "Legend"
-      ],
-      [
-       "Critical Hit Resist",
+       "Accuracy Bonus",
        "+7",
        "Rare"
       ],
       [
-       "Block",
-       "+20",
-       "Unique"
+       "Evasion Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -15183,7 +15249,7 @@
      "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
-     "max": 3,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -15204,12 +15270,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +6.3%",
-      "Block increase +6.3%",
-      "Critical Hit Resist increase +6.3%"
+      "Evasion increase +5.4%",
+      "Block increase +5.4%",
+      "Critical Hit Resist increase +5.4%"
      ],
      "type": "DEX",
-     "value": 63
+     "value": 54
     },
     {
      "name": "Intelligence",
@@ -15222,10 +15288,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +3%"
+      "HP increase +3.1%"
      ],
      "type": "CON",
-     "value": 30
+     "value": 31
     },
     {
      "name": "Precision",
@@ -15336,7 +15402,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2575
+     "value": 2601
     }
    ],
    "title": {
@@ -16415,12 +16481,17 @@
      "date": "2026-11-04",
      "cp": 107534,
      "il": 2376
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 107564,
+     "il": 2376
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 107534,
+   "cp": 107564,
    "il": 2376,
    "gear": [
     {
@@ -17115,7 +17186,7 @@
      "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
-     "max": 3,
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -17295,7 +17366,7 @@
     }
    ],
    "title": {
-    "ownedCount": 195,
+    "ownedCount": 196,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -17310,8 +17381,8 @@
       "grade": "Legend",
       "id": 21020034,
       "name": "Lifeguard",
-      "ownedCount": 64,
-      "ownedPercent": 60,
+      "ownedCount": 65,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
@@ -18365,6 +18436,11 @@
    "history": [
     {
      "date": "2026-11-04",
+     "cp": 23827,
+     "il": 496
+    },
+    {
+     "date": "2026-11-05",
      "cp": 23827,
      "il": 496
     }
@@ -19558,6 +19634,11 @@
    "history": [
     {
      "date": "2026-11-04",
+     "cp": 85818,
+     "il": 1713
+    },
+    {
+     "date": "2026-11-05",
      "cp": 85818,
      "il": 1713
     }
@@ -21258,6 +21339,11 @@
      "date": "2026-11-04",
      "cp": 24271,
      "il": 450
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 24271,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -22396,6 +22482,11 @@
    "history": [
     {
      "date": "2026-11-04",
+     "cp": 42174,
+     "il": 799
+    },
+    {
+     "date": "2026-11-05",
      "cp": 42174,
      "il": 799
     }
@@ -24016,6 +24107,11 @@
      "date": "2026-11-04",
      "cp": 18441,
      "il": 361
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 18441,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -25111,6 +25207,11 @@
    "history": [
     {
      "date": "2026-11-04",
+     "cp": 73054,
+     "il": 1405
+    },
+    {
+     "date": "2026-11-05",
      "cp": 73054,
      "il": 1405
     }
@@ -26813,6 +26914,11 @@
      "date": "2026-11-04",
      "cp": 25763,
      "il": 472
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 25763,
+     "il": 472
     }
    ],
    "server": "Tassin",
@@ -27952,12 +28058,17 @@
      "date": "2026-11-04",
      "cp": 87900,
      "il": 2062
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 87977,
+     "il": 2062
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 87900,
+   "cp": 87977,
    "il": 2062,
    "gear": [
     {
@@ -30062,6 +30173,11 @@
      "date": "2026-11-04",
      "cp": 31761,
      "il": 506
+    },
+    {
+     "date": "2026-11-05",
+     "cp": 31761,
+     "il": 506
     }
    ],
    "server": "Tassin",
@@ -31264,8 +31380,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-04 23:34 UTC",
+ "updated": "2026-11-05 00:18 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 00:07",
+   "n": "IBrook",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-05 00:06",
+   "n": "DeathRunner",
+   "x": "new Nuakum Greaves +10"
+  },
+  {
+   "t": "2026-11-05 00:06",
+   "n": "DeathRunner",
+   "x": "new Nuakum Gloves +10"
+  },
+  {
+   "t": "2026-11-05 00:01",
+   "n": "YasuoMain",
+   "x": "new Nuakum Breastplate +10"
+  },
   {
    "t": "2026-11-04 23:34",
    "n": "CutieCatty",

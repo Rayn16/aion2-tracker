@@ -25218,15 +25218,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 73054,
-     "il": 1405
+     "cp": 73806,
+     "il": 1409
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 73054,
-   "il": 1405,
+   "cp": 73806,
+   "il": 1409,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25326,19 +25326,17 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Unyielding Gloves",
-     "grade": "Legend",
+     "name": "High Commander Lagta Gloves",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0049_T05_Gloves.png",
-     "max": 10,
-     "slots": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0062_T06_Gloves.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
+      "Reward Chest"
      ]
     },
     {
@@ -25557,12 +25555,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.2%",
-      "Block increase +0.2%",
-      "Critical Hit Resist increase +0.2%"
+      "Evasion increase +1.2%",
+      "Block increase +1.2%",
+      "Critical Hit Resist increase +1.2%"
      ],
      "type": "DEX",
-     "value": 2
+     "value": 12
     },
     {
      "name": "Intelligence",
@@ -25689,7 +25687,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1405
+     "value": 1409
     }
    ],
    "title": {
@@ -26705,7 +26703,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -28067,14 +28065,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 97456,
+     "cp": 97656,
      "il": 2205
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 97456,
+   "cp": 97656,
    "il": 2205,
    "gear": [
     {
@@ -30021,12 +30019,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 8
      },
      {
       "acquired": 0,
@@ -30061,12 +30059,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 7
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -31388,8 +31386,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 18:34 UTC",
+ "updated": "2026-11-05 19:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 19:03",
+   "n": "uTril",
+   "x": "skills up: Power Burst 8"
+  },
+  {
+   "t": "2026-11-05 19:03",
+   "n": "iLen",
+   "x": "new High Commander Lagta Gloves +0"
+  },
+  {
+   "t": "2026-11-05 19:03",
+   "n": "iLen",
+   "x": "skills up: Attack Preparation 15"
+  },
   {
    "t": "2026-11-05 18:02",
    "n": "IBrook",

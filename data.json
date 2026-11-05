@@ -16490,29 +16490,34 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 110262,
-     "il": 2401
+     "cp": 116284,
+     "il": 2425
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 110262,
-   "il": 2401,
+   "cp": 116284,
+   "il": 2425,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Aulamus Spellbook",
+     "name": "Enraged Kromede Spellbook",
      "grade": "Unique",
-     "enchantLevel": 14,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_MB_0028_T05.png",
+     "enchantLevel": 15,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_MB_0041_T06.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Attack",
-       "+3",
+       "Evasion Bonus",
+       "+7",
        "Rare"
+      ],
+      [
+       "Evasion Bonus",
+       "+10",
+       "Legend"
       ],
       [
        "Attack",
@@ -16520,19 +16525,14 @@
        "Legend"
       ],
       [
-       "MP",
-       "+80",
-       "Unique"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
+       "Block",
+       "+15",
+       "Legend"
       ]
      ],
      "godSlots": 1,
      "god": [
-      "Theostone: Heladrir's Chains"
+      "Theostone: Traufnir's Courage"
      ],
      "src": [
       "Reward Chest",
@@ -16894,44 +16894,6 @@
      ]
     },
     {
-     "slotPosName": "Earring1",
-     "name": "Enraged Kromede Earrings",
-     "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
-     "max": 15,
-     "slots": 4,
-     "stones": [
-      [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
-      ],
-      [
-       "Accuracy Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Attack",
-       "+1",
-       "Common"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
-    },
-    {
      "slotPosName": "Earring2",
      "name": "Enraged Kromede Earrings",
      "grade": "Unique",
@@ -16958,6 +16920,44 @@
       [
        "MP",
        "+15",
+       "Common"
+      ]
+     ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Enraged Kromede Earrings",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+1",
        "Common"
       ]
      ],
@@ -17231,10 +17231,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1%"
+      "Attack increase +4.1%"
      ],
      "type": "STR",
-     "value": 10
+     "value": 41
     },
     {
      "name": "Dexterity",
@@ -17368,34 +17368,12 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2401
+     "value": 2425
     }
    ],
    "title": {
-    "ownedCount": 196,
+    "ownedCount": 197,
     "titleList": [
-     {
-      "equipCategory": "Attack",
-      "equipStatList": [
-       {
-        "desc": "PvE Attack +25"
-       },
-       {
-        "desc": "Attack Bonus +20"
-       }
-      ],
-      "grade": "Legend",
-      "id": 21020034,
-      "name": "Lifeguard",
-      "ownedCount": 65,
-      "ownedPercent": 61,
-      "statList": [
-       {
-        "desc": "Accuracy Bonus +10"
-       }
-      ],
-      "totalCount": 106
-     },
      {
       "equipCategory": "Etc",
       "equipStatList": [
@@ -17445,6 +17423,31 @@
        }
       ],
       "totalCount": 99
+     },
+     {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "Critical Attack +45"
+       },
+       {
+        "desc": "Critical Damage Boost +3%"
+       },
+       {
+        "desc": "Accuracy Bonus +60"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23050017,
+      "name": "Golden Glow",
+      "ownedCount": 66,
+      "ownedPercent": 62,
+      "statList": [
+       {
+        "desc": "Critical Attack +3"
+       }
+      ],
+      "totalCount": 106
      }
     ],
     "totalCount": 307
@@ -18069,7 +18072,7 @@
       "id": 15210000,
       "name": "Flame Arrow",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -18079,7 +18082,7 @@
       "id": 15090000,
       "name": "Ice Chain",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -18149,7 +18152,7 @@
       "id": 15220000,
       "name": "Frost Burst",
       "needLevel": 10,
-      "skillLevel": 12
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -31365,8 +31368,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 21:34 UTC",
+ "updated": "2026-11-05 22:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 22:02",
+   "n": "IBrook",
+   "x": "new Enraged Kromede Spellbook +15"
+  },
+  {
+   "t": "2026-11-05 22:02",
+   "n": "IBrook",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-05 21:02",
    "n": "IBrook",

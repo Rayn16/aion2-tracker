@@ -59,14 +59,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 117357,
-     "il": 2452
+     "cp": 117732,
+     "il": 2469
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 117357,
-   "il": 2452,
+   "cp": 117732,
+   "il": 2469,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -464,44 +464,6 @@
      ]
     },
     {
-     "slotPosName": "Earring1",
-     "name": "Aulamus Earrings",
-     "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
-     "max": 15,
-     "slots": 4,
-     "stones": [
-      [
-       "Block",
-       "+7",
-       "Common"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
-    },
-    {
      "slotPosName": "Earring2",
      "name": "Aulamus Earrings",
      "grade": "Unique",
@@ -529,6 +491,44 @@
        "HP",
        "+30",
        "Common"
+      ]
+     ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Enraged Kromede Earrings",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -929,7 +929,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2452
+     "value": 2469
     }
    ],
    "title": {
@@ -1274,7 +1274,7 @@
       "id": 11780000,
       "name": "Experienced Counterstrike",
       "needLevel": 21,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -5976,14 +5976,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 108196,
+     "cp": 108199,
      "il": 2450
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 108196,
+   "cp": 108199,
    "il": 2450,
    "gear": [
     {
@@ -14515,15 +14515,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 133341,
-     "il": 2607
+     "cp": 133467,
+     "il": 2611
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 133341,
-   "il": 2607,
+   "cp": 133467,
+   "il": 2611,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -14647,7 +14647,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -14761,7 +14761,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -14799,7 +14799,7 @@
      "slotPosName": "Boots",
      "name": "Vakron Boots",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Boots.png",
      "max": 15,
      "slots": 4,
@@ -14890,7 +14890,7 @@
      "slotPosName": "Necklace",
      "name": "Enraged Kromede Necklace",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0053.png",
      "max": 15,
      "slots": 4,
@@ -15402,7 +15402,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2607
+     "value": 2611
     }
    ],
    "title": {
@@ -31380,8 +31380,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 01:25 UTC",
+ "updated": "2026-11-05 01:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 01:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Greaves +10 → +11"
+  },
+  {
+   "t": "2026-11-05 01:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Gloves +10 → +11"
+  },
+  {
+   "t": "2026-11-05 01:32",
+   "n": "DeathRunner",
+   "x": "Vakron Boots +10 → +11"
+  },
+  {
+   "t": "2026-11-05 01:32",
+   "n": "DeathRunner",
+   "x": "Enraged Kromede Necklace +13 → +14"
+  },
+  {
+   "t": "2026-11-05 01:31",
+   "n": "YasuoMain",
+   "x": "new Enraged Kromede Earrings +10"
+  },
+  {
+   "t": "2026-11-05 01:31",
+   "n": "YasuoMain",
+   "x": "skills up: Experienced Counterstrike 17"
+  },
   {
    "t": "2026-11-05 01:04",
    "n": "uTril",

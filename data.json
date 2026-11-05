@@ -16490,15 +16490,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 108733,
-     "il": 2377
+     "cp": 109924,
+     "il": 2387
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 108733,
-   "il": 2377,
+   "cp": 109924,
+   "il": 2387,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17368,7 +17368,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2377
+     "value": 2387
     }
    ],
    "title": {
@@ -17468,8 +17468,8 @@
       "id": 62,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 55,
-      "openPercent": 63,
+      "openNodeCount": 59,
+      "openPercent": 67,
       "totalNodeCount": 88
      },
      {
@@ -17486,8 +17486,8 @@
       "id": 64,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 65,
-      "openPercent": 56,
+      "openNodeCount": 66,
+      "openPercent": 57,
       "totalNodeCount": 116
      },
      {
@@ -17626,8 +17626,8 @@
      "5|5|Common|0|Defense",
      "5|4|Common|1|Max HP",
      "5|7|Common|1|Attack",
-     "5|9|Legend|0|Skill Level Up - Firestorm",
-     "5|8|Common|0|Max MP",
+     "5|9|Legend|1|Skill Level Up - Firestorm",
+     "5|8|Common|1|Max MP",
      "5|11|Common|0|Max MP",
      "5|10|Common|0|Critical Hit Resist",
      "6|13|Common|1|Critical Hit Resist",
@@ -17637,7 +17637,7 @@
      "6|6|Common|0|Critical Hit Resist",
      "6|5|Common|0|Max MP",
      "6|7|Rare|1|Skill Level Up - Grace of Enhancement",
-     "6|9|Common|0|Critical Hit",
+     "6|9|Common|1|Critical Hit",
      "6|11|Common|0|Critical Hit",
      "8|4|Common|1|Attack",
      "7|7|Common|1|Critical Hit",
@@ -17690,7 +17690,7 @@
      "12|11|Rare|1|Skill Level Up - Grace of Enhancement",
      "12|13|Common|0|Defense",
      "13|3|Unique|1|Damage Boost",
-     "13|13|Unique|0|Damage Tolerance",
+     "13|13|Unique|1|Damage Tolerance",
      "13|12|Common|1|Critical Hit Resist"
     ],
     "63": [
@@ -17851,7 +17851,7 @@
      "9|6|Common|1|Max HP",
      "8|8|Start|1|Triniel - Start",
      "8|10|Common|1|Attack",
-     "8|12|Common|0|Attack",
+     "8|12|Common|1|Attack",
      "8|14|Legend|1|Skill Level Up - Hellfire",
      "10|3|Common|1|Critical Hit",
      "10|6|Common|0|Max MP",
@@ -18089,7 +18089,7 @@
       "id": 15040000,
       "name": "Firestorm",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -31388,8 +31388,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 14:04 UTC",
+ "updated": "2026-11-05 14:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 14:32",
+   "n": "IBrook",
+   "x": "opened 5 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-05 14:32",
+   "n": "IBrook",
+   "x": "skills up: Firestorm 16"
+  },
   {
    "t": "2026-11-05 10:31",
    "n": "YasuoMain",

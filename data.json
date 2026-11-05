@@ -59,14 +59,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 126324,
-     "il": 2515
+     "cp": 129109,
+     "il": 2567
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 126324,
-   "il": 2515,
+   "cp": 129109,
+   "il": 2567,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -148,7 +148,7 @@
      "slotPosName": "Torso",
      "name": "Nuakum Breastplate",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
@@ -186,7 +186,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -300,7 +300,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -338,7 +338,7 @@
      "slotPosName": "Boots",
      "name": "Nuakum Boots",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Boots.png",
      "max": 15,
      "slots": 4,
@@ -429,7 +429,7 @@
      "slotPosName": "Necklace",
      "name": "Enraged Kromede Necklace",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0053.png",
      "max": 15,
      "slots": 4,
@@ -505,7 +505,7 @@
      "slotPosName": "Earring1",
      "name": "Enraged Kromede Earrings",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
      "max": 15,
      "slots": 4,
@@ -529,6 +529,44 @@
        "Critical Hit",
        "+7",
        "Rare"
+      ]
+     ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
+     "slotPosName": "Ring2",
+     "name": "Enraged Kromede Ring",
+     "grade": "Unique",
+     "enchantLevel": 12,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -567,39 +605,6 @@
        "Attack",
        "+4",
        "Rare"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
-    },
-    {
-     "slotPosName": "Ring2",
-     "name": "Black Claw Ring",
-     "grade": "Legend",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0057.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [
-      [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "Critical Hit",
-       "+5",
-       "Common"
-      ],
-      [
-       "Critical Hit",
-       "+5",
-       "Common"
       ]
      ],
      "godSlots": 0,
@@ -929,11 +934,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2515
+     "value": 2567
     }
    ],
    "title": {
-    "ownedCount": 199,
+    "ownedCount": 200,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -1001,8 +1006,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 66,
-      "ownedPercent": 62,
+      "ownedCount": 67,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -1094,7 +1099,7 @@
       "id": 11010000,
       "name": "Rending Blow",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -1184,7 +1189,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -2063,13 +2068,13 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 73291,
+     "cp": 73315,
      "il": 1529
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 73291,
+   "cp": 73315,
    "il": 1529,
    "gear": [
     {
@@ -14521,15 +14526,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 138264,
-     "il": 2656
+     "cp": 137843,
+     "il": 2665
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 138264,
-   "il": 2656,
+   "cp": 137843,
+   "il": 2665,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -14615,7 +14620,7 @@
      "slotPosName": "Torso",
      "name": "Nuakum Breastplate",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
@@ -14653,7 +14658,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -14691,7 +14696,7 @@
      "slotPosName": "Helmet",
      "name": "Nuakum Helm",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
@@ -14729,7 +14734,7 @@
      "slotPosName": "Shoulder",
      "name": "Nuakum Pauldrons",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
@@ -14767,7 +14772,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -15048,7 +15053,7 @@
      "slotPosName": "Ring1",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
@@ -15408,7 +15413,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2656
+     "value": 2665
     }
    ],
    "title": {
@@ -31368,8 +31373,83 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 22:04 UTC",
+ "updated": "2026-11-05 22:30 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 22:28",
+   "n": "DeathRunner",
+   "x": "Nuakum Breastplate +12 → +13"
+  },
+  {
+   "t": "2026-11-05 22:28",
+   "n": "DeathRunner",
+   "x": "Nuakum Greaves +11 → +13"
+  },
+  {
+   "t": "2026-11-05 22:28",
+   "n": "DeathRunner",
+   "x": "Nuakum Helm +12 → +13"
+  },
+  {
+   "t": "2026-11-05 22:28",
+   "n": "DeathRunner",
+   "x": "Nuakum Pauldrons +12 → +13"
+  },
+  {
+   "t": "2026-11-05 22:28",
+   "n": "DeathRunner",
+   "x": "Nuakum Gloves +11 → +13"
+  },
+  {
+   "t": "2026-11-05 22:28",
+   "n": "DeathRunner",
+   "x": "Enraged Kromede Ring +12 → +14"
+  },
+  {
+   "t": "2026-11-05 22:26",
+   "n": "YasuoMain",
+   "x": "Nuakum Breastplate +11 → +12"
+  },
+  {
+   "t": "2026-11-05 22:26",
+   "n": "YasuoMain",
+   "x": "Nuakum Greaves +11 → +12"
+  },
+  {
+   "t": "2026-11-05 22:26",
+   "n": "YasuoMain",
+   "x": "Nuakum Gloves +11 → +12"
+  },
+  {
+   "t": "2026-11-05 22:26",
+   "n": "YasuoMain",
+   "x": "Nuakum Boots +10 → +12"
+  },
+  {
+   "t": "2026-11-05 22:26",
+   "n": "YasuoMain",
+   "x": "Enraged Kromede Necklace +10 → +12"
+  },
+  {
+   "t": "2026-11-05 22:26",
+   "n": "YasuoMain",
+   "x": "Enraged Kromede Earrings +10 → +12"
+  },
+  {
+   "t": "2026-11-05 22:26",
+   "n": "YasuoMain",
+   "x": "new Enraged Kromede Ring +12"
+  },
+  {
+   "t": "2026-11-05 22:26",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-05 22:26",
+   "n": "YasuoMain",
+   "x": "skills up: Rending Blow 17, Ruinous Blow 16"
+  },
   {
    "t": "2026-11-05 22:02",
    "n": "IBrook",

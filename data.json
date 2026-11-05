@@ -4571,12 +4571,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.3%",
-      "Block increase +1.3%",
-      "Critical Hit Resist increase +1.3%"
+      "Evasion increase +1.4%",
+      "Block increase +1.4%",
+      "Critical Hit Resist increase +1.4%"
      ],
      "type": "DEX",
-     "value": 13
+     "value": 14
     },
     {
      "name": "Intelligence",
@@ -4587,19 +4587,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +4.5%"
+      "HP increase +4.6%"
      ],
      "type": "CON",
-     "value": 45
+     "value": 46
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.3%",
-      "Critical Hit increase +0.3%"
+      "Accuracy increase +0.4%",
+      "Critical Hit increase +0.4%"
      ],
      "type": "AGI",
-     "value": 3
+     "value": 4
     },
     {
      "name": "Willpower",
@@ -5976,15 +5976,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 110743,
-     "il": 2466
+     "cp": 110782,
+     "il": 2468
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 110743,
-   "il": 2466,
+   "cp": 110782,
+   "il": 2468,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6707,12 +6707,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.5%",
-      "Block increase +1.5%",
-      "Critical Hit Resist increase +1.5%"
+      "Evasion increase +1.6%",
+      "Block increase +1.6%",
+      "Critical Hit Resist increase +1.6%"
      ],
      "type": "DEX",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Intelligence",
@@ -6725,19 +6725,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.1%"
+      "HP increase +1.2%"
      ],
      "type": "CON",
-     "value": 11
+     "value": 12
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.3%",
-      "Critical Hit increase +0.3%"
+      "Accuracy increase +0.4%",
+      "Critical Hit increase +0.4%"
      ],
      "type": "AGI",
-     "value": 3
+     "value": 4
     },
     {
      "name": "Willpower",
@@ -6839,7 +6839,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2466
+     "value": 2468
     }
    ],
    "title": {
@@ -6978,8 +6978,8 @@
       "id": 86,
       "name": "Azphel",
       "open": 1,
-      "openNodeCount": 11,
-      "openPercent": 7,
+      "openNodeCount": 13,
+      "openPercent": 9,
       "totalNodeCount": 152
      }
     ]
@@ -7501,7 +7501,7 @@
      "7|8|Common|1|Max HP",
      "9|5|Common|0|PvP Defense",
      "9|4|Common|0|Max HP",
-     "9|7|Common|0|PvP Attack",
+     "9|7|Common|1|PvP Attack",
      "9|6|Legend|0|Status Effect Resist",
      "9|1|Common|0|PvP Evasion",
      "8|15|Unique|0|PvP Damage Boost",
@@ -7518,7 +7518,7 @@
      "9|9|Rare|1|PvP Critical Hit, PvP Critical Hit Resist",
      "9|8|Common|1|Max MP",
      "9|11|Common|0|PvP Attack",
-     "9|10|Common|0|PvP Evasion",
+     "9|10|Common|1|PvP Evasion",
      "11|7|Common|0|PvP Critical Hit Resist",
      "11|6|Rare|0|PvP Attack, PvP Defense",
      "11|9|Common|0|PvP Defense",
@@ -9919,12 +9919,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.3%",
-      "Block increase +1.3%",
-      "Critical Hit Resist increase +1.3%"
+      "Evasion increase +1.4%",
+      "Block increase +1.4%",
+      "Critical Hit Resist increase +1.4%"
      ],
      "type": "DEX",
-     "value": 13
+     "value": 14
     },
     {
      "name": "Intelligence",
@@ -9943,11 +9943,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.3%",
-      "Critical Hit increase +1.3%"
+      "Accuracy increase +1.4%",
+      "Critical Hit increase +1.4%"
      ],
      "type": "AGI",
-     "value": 13
+     "value": 14
     },
     {
      "name": "Willpower",
@@ -13594,12 +13594,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.3%",
-      "Block increase +1.3%",
-      "Critical Hit Resist increase +1.3%"
+      "Evasion increase +1.4%",
+      "Block increase +1.4%",
+      "Critical Hit Resist increase +1.4%"
      ],
      "type": "DEX",
-     "value": 13
+     "value": 14
     },
     {
      "name": "Intelligence",
@@ -13618,11 +13618,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.3%",
-      "Critical Hit increase +1.3%"
+      "Accuracy increase +1.4%",
+      "Critical Hit increase +1.4%"
      ],
      "type": "AGI",
-     "value": 13
+     "value": 14
     },
     {
      "name": "Willpower",
@@ -14517,14 +14517,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 133476,
+     "cp": 134248,
      "il": 2611
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 133476,
+   "cp": 134248,
    "il": 2611,
    "gear": [
     {
@@ -15272,12 +15272,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +5.4%",
-      "Block increase +5.4%",
-      "Critical Hit Resist increase +5.4%"
+      "Evasion increase +5.5%",
+      "Block increase +5.5%",
+      "Critical Hit Resist increase +5.5%"
      ],
      "type": "DEX",
-     "value": 54
+     "value": 55
     },
     {
      "name": "Intelligence",
@@ -15298,11 +15298,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.3%",
-      "Critical Hit increase +1.3%"
+      "Accuracy increase +1.4%",
+      "Critical Hit increase +1.4%"
      ],
      "type": "AGI",
-     "value": 13
+     "value": 14
     },
     {
      "name": "Willpower",
@@ -16398,7 +16398,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 3
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -30178,15 +30178,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 31761,
-     "il": 506
+     "cp": 31786,
+     "il": 514
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 31,
-   "cp": 31761,
-   "il": 506,
+   "cp": 31786,
+   "il": 514,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30250,12 +30250,12 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Outsider Helm",
-     "grade": "Common",
+     "name": "Chaser Helm",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Helmet.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Helmet.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30597,7 +30597,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 506
+     "value": 514
     }
    ],
    "title": {
@@ -31382,8 +31382,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 03:04 UTC",
+ "updated": "2026-11-05 03:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 03:34",
+   "n": "RyBear",
+   "x": "new Chaser Helm +0"
+  },
+  {
+   "t": "2026-11-05 03:34",
+   "n": "CutieCatty",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-05 03:32",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 5"
+  },
   {
    "t": "2026-11-05 03:04",
    "n": "CutieCatty",

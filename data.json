@@ -5976,14 +5976,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 110782,
+     "cp": 110785,
      "il": 2468
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 110782,
+   "cp": 110785,
    "il": 2468,
    "gear": [
     {
@@ -28063,15 +28063,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 89309,
-     "il": 2089
+     "cp": 89653,
+     "il": 2109
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 89309,
-   "il": 2089,
+   "cp": 89653,
+   "il": 2109,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28787,11 +28787,11 @@
     },
     {
      "slotPosName": "Arcana5",
-     "name": "Mirror of Magic",
-     "grade": "Rare",
+     "name": "Mirror of Vigor",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_DefenceSet2.png",
-     "max": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28871,11 +28871,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.7%",
-      "Endurance Penetration +0.7%"
+      "Cooldown -2.3%",
+      "Endurance Penetration +2.3%"
      ],
      "type": "Illusion",
-     "value": 7
+     "value": 23
     },
     {
      "name": "Life [Yustiel]",
@@ -28916,11 +28916,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -2.7%",
-      "Double Chance +2.7%"
+      "MP Cost -1.5%",
+      "Double Chance +1.5%"
      ],
      "type": "Wisdom",
-     "value": 27
+     "value": 15
     },
     {
      "name": "Destiny [Marchutan]",
@@ -28944,7 +28944,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2089
+     "value": 2109
     }
    ],
    "title": {
@@ -29930,7 +29930,7 @@
       "id": 17720000,
       "name": "Empyrean Lords' Benediction",
       "needLevel": 6,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -29970,7 +29970,7 @@
       "id": 17760000,
       "name": "Heal Block",
       "needLevel": 15,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -29990,7 +29990,7 @@
       "id": 17780000,
       "name": "Earth's Grace",
       "needLevel": 21,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -30161,9 +30161,9 @@
     "wingSkin": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingD_003.png",
-     "id": 40400300,
-     "name": "Radiant Love Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
+     "id": 40200100,
+     "name": "Ultimate Daeva Wings"
     }
    },
    "pcId": 32,
@@ -31382,8 +31382,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 03:34 UTC",
+ "updated": "2026-11-05 04:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 04:04",
+   "n": "uTril",
+   "x": "new Mirror of Vigor +0"
+  },
+  {
+   "t": "2026-11-05 04:04",
+   "n": "uTril",
+   "x": "skills up: Empyrean Lords' Benediction 13, Heal Block 15"
+  },
   {
    "t": "2026-11-05 03:34",
    "n": "RyBear",

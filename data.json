@@ -16490,15 +16490,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 109924,
-     "il": 2387
+     "cp": 109959,
+     "il": 2388
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 109924,
-   "il": 2387,
+   "cp": 109959,
+   "il": 2388,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17368,7 +17368,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2387
+     "value": 2388
     }
    ],
    "title": {
@@ -17486,8 +17486,8 @@
       "id": 64,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 66,
-      "openPercent": 57,
+      "openNodeCount": 67,
+      "openPercent": 58,
       "totalNodeCount": 116
      },
      {
@@ -17798,7 +17798,7 @@
      "3|10|Common|0|Max MP",
      "3|12|Legend|1|Skill Level Up - Ice Chain",
      "3|14|Common|0|Critical Hit",
-     "4|2|Common|0|Critical Hit",
+     "4|2|Common|1|Critical Hit",
      "3|2|Common|0|Max MP",
      "3|5|Common|0|Max MP",
      "3|4|Legend|1|Skill Level Up - Bittercold Wind",
@@ -19645,14 +19645,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 85818,
+     "cp": 85876,
      "il": 1713
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 85818,
+   "cp": 85876,
    "il": 1713,
    "gear": [
     {
@@ -21324,16 +21324,16 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
-     "id": 40200100,
-     "name": "Ultimate Daeva Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
-     "id": 40200100,
-     "name": "Ultimate Daeva Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     }
    },
    "pcId": 23,
@@ -31388,8 +31388,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 17:34 UTC",
+ "updated": "2026-11-05 18:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 18:02",
+   "n": "IBrook",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-05 14:32",
    "n": "IBrook",

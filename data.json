@@ -5976,15 +5976,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 110787,
-     "il": 2468
+     "cp": 115620,
+     "il": 2514
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 110787,
-   "il": 2468,
+   "cp": 115620,
+   "il": 2514,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6028,37 +6028,41 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Spiritforged Guard",
+     "name": "Nuakum Guard",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
+       "Critical Hit",
+       "+9",
+       "Rare"
+      ],
+      [
        "Evasion Bonus",
-       "+5",
-       "Common"
+       "+13",
+       "Legend"
       ],
       [
        "HP",
-       "+30",
-       "Common"
+       "+80",
+       "Rare"
       ],
       [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
+       "Critical Hit Resist",
+       "+9",
        "Rare"
       ]
      ],
      "godSlots": 1,
      "god": [],
-     "src": []
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
     },
     {
      "slotPosName": "Torso",
@@ -6699,10 +6703,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +5.3%"
+      "Attack increase +4.3%"
      ],
      "type": "STR",
-     "value": 53
+     "value": 43
     },
     {
      "name": "Dexterity",
@@ -6733,11 +6737,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.4%",
-      "Critical Hit increase +0.4%"
+      "Accuracy increase +2.9%",
+      "Critical Hit increase +2.9%"
      ],
      "type": "AGI",
-     "value": 4
+     "value": 29
     },
     {
      "name": "Willpower",
@@ -6839,7 +6843,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2468
+     "value": 2514
     }
    ],
    "title": {
@@ -6978,7 +6982,7 @@
       "id": 86,
       "name": "Azphel",
       "open": 1,
-      "openNodeCount": 13,
+      "openNodeCount": 14,
       "openPercent": 9,
       "totalNodeCount": 152
      }
@@ -7471,7 +7475,7 @@
      "6|3|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
      "5|13|Legend|1|Status Effect Resist",
      "5|12|Common|1|PvP Defense",
-     "5|9|Common|0|PvP Critical Hit Resist",
+     "5|9|Common|1|PvP Critical Hit Resist",
      "5|8|Legend|0|Status Effect Chance",
      "5|11|Common|1|PvP Evasion",
      "5|10|Rare|1|PvP Attack, PvP Defense",
@@ -28063,15 +28067,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 95598,
-     "il": 2178
+     "cp": 96777,
+     "il": 2180
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 95598,
-   "il": 2178,
+   "cp": 96777,
+   "il": 2180,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28419,7 +28423,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -28724,7 +28728,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 5,
+     "enchantLevel": 6,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -28806,20 +28810,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.7%"
+      "Attack increase +3.8%"
      ],
      "type": "STR",
-     "value": 7
+     "value": 38
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2%",
-      "Block increase +2%",
-      "Critical Hit Resist increase +2%"
+      "Evasion increase +0.1%",
+      "Block increase +0.1%",
+      "Critical Hit Resist increase +0.1%"
      ],
      "type": "DEX",
-     "value": 20
+     "value": 1
     },
     {
      "name": "Intelligence",
@@ -28946,7 +28950,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2178
+     "value": 2180
     }
    ],
    "title": {
@@ -29922,7 +29926,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -29972,7 +29976,7 @@
       "id": 17760000,
       "name": "Heal Block",
       "needLevel": 15,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -30017,12 +30021,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -30057,12 +30061,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -31384,8 +31388,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 06:04 UTC",
+ "updated": "2026-11-05 06:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 06:34",
+   "n": "CutieCatty",
+   "x": "new Nuakum Guard +10"
+  },
+  {
+   "t": "2026-11-05 06:34",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-05 06:34",
+   "n": "uTril",
+   "x": "Noble Belt +3 → +4"
+  },
+  {
+   "t": "2026-11-05 06:34",
+   "n": "uTril",
+   "x": "Revelation Amulet +5 → +6"
+  },
+  {
+   "t": "2026-11-05 06:34",
+   "n": "uTril",
+   "x": "skills up: Heal Block 16, Power Burst 5"
+  },
   {
    "t": "2026-11-05 06:04",
    "n": "uTril",

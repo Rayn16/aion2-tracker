@@ -28067,21 +28067,21 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 96777,
-     "il": 2180
+     "cp": 97062,
+     "il": 2182
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 96777,
-   "il": 2180,
+   "cp": 97062,
+   "il": 2182,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Enraged Kromede Warhammer",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_MA_0041_T06.png",
      "max": 15,
      "slots": 4,
@@ -28950,7 +28950,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2180
+     "value": 2182
     }
    ],
    "title": {
@@ -31388,8 +31388,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 07:34 UTC",
+ "updated": "2026-11-05 08:03 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 08:03",
+   "n": "uTril",
+   "x": "Enraged Kromede Warhammer +11 → +13"
+  },
   {
    "t": "2026-11-05 06:34",
    "n": "CutieCatty",

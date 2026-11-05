@@ -59,13 +59,13 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 123224,
+     "cp": 117024,
      "il": 2515
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 123224,
+   "cp": 117024,
    "il": 2515,
    "gear": [
     {
@@ -14521,15 +14521,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 134823,
-     "il": 2654
+     "cp": 135128,
+     "il": 2655
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 134823,
-   "il": 2654,
+   "cp": 135128,
+   "il": 2655,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15048,7 +15048,7 @@
      "slotPosName": "Ring1",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
@@ -15408,7 +15408,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2654
+     "value": 2655
     }
    ],
    "title": {
@@ -28065,15 +28065,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 97661,
-     "il": 2205
+     "cp": 98223,
+     "il": 2220
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 97661,
-   "il": 2205,
+   "cp": 98223,
+   "il": 2220,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28434,34 +28434,13 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Aulamus Necklace",
+     "name": "Enraged Kromede Necklace",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0053.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "Evasion Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "Attack",
-       "+1",
-       "Common"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -28840,11 +28819,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.7%",
-      "Critical Hit increase +0.7%"
+      "Accuracy increase +1.9%",
+      "Critical Hit increase +1.9%"
      ],
      "type": "AGI",
-     "value": 7
+     "value": 19
     },
     {
      "name": "Willpower",
@@ -28948,7 +28927,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2205
+     "value": 2220
     }
    ],
    "title": {
@@ -29934,7 +29913,7 @@
       "id": 17720000,
       "name": "Empyrean Lords' Benediction",
       "needLevel": 6,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31386,8 +31365,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 20:04 UTC",
+ "updated": "2026-11-05 20:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 20:33",
+   "n": "uTril",
+   "x": "new Enraged Kromede Necklace +10"
+  },
+  {
+   "t": "2026-11-05 20:33",
+   "n": "uTril",
+   "x": "skills up: Empyrean Lords' Benediction 14"
+  },
+  {
+   "t": "2026-11-05 20:32",
+   "n": "DeathRunner",
+   "x": "Enraged Kromede Ring +11 → +12"
+  },
   {
    "t": "2026-11-05 20:03",
    "n": "uTril",

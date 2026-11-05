@@ -59,13 +59,13 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 121070,
+     "cp": 123086,
      "il": 2515
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 121070,
+   "cp": 123086,
    "il": 2515,
    "gear": [
     {
@@ -838,11 +838,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4.1%",
-      "Perfect Chance +4.1%"
+      "Defense increase +5.1%",
+      "Perfect Chance +5.1%"
      ],
      "type": "Justice",
-     "value": 41
+     "value": 51
     },
     {
      "name": "Freedom [Vaizel]",
@@ -874,20 +874,20 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +6.1%",
-      "Double Resist +6.1%"
+      "Combat Speed +7.1%",
+      "Double Resist +7.1%"
      ],
      "type": "Time",
-     "value": 61
+     "value": 71
     },
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +2.6%",
-      "Perfect Resist +2.6%"
+      "Attack increase +7.1%",
+      "Perfect Resist +7.1%"
      ],
      "type": "Destruction",
-     "value": 26
+     "value": 71
     },
     {
      "name": "Death [Triniel]",
@@ -31388,7 +31388,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 09:34 UTC",
+ "updated": "2026-11-05 10:04 UTC",
  "feed": [
   {
    "t": "2026-11-05 09:04",

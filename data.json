@@ -30169,22 +30169,22 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 31840,
-     "il": 514
+     "cp": 35755,
+     "il": 535
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 31,
-   "cp": 31840,
-   "il": 514,
+   "level": 32,
+   "cp": 35755,
+   "il": 535,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Faded Agate Greatsword",
+     "name": "Chaser Greatsword",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0055_T04.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_GS_0010_T04.png",
      "max": 5,
      "slots": 2,
      "stones": [],
@@ -30196,10 +30196,10 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Outsider Guard",
+     "name": "Chaser Guard",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_023.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_017.png",
      "max": 5,
      "slots": 2,
      "stones": [],
@@ -30456,10 +30456,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.1%"
+      "Attack increase +1.1%"
      ],
      "type": "STR",
-     "value": 1
+     "value": 11
     },
     {
      "name": "Dexterity",
@@ -30481,12 +30481,9 @@
     },
     {
      "name": "Precision",
-     "statSecondList": [
-      "Accuracy increase +1.5%",
-      "Critical Hit increase +1.5%"
-     ],
+     "statSecondList": null,
      "type": "AGI",
-     "value": 15
+     "value": 0
     },
     {
      "name": "Willpower",
@@ -30588,27 +30585,30 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 514
+     "value": 535
     }
    ],
    "title": {
-    "ownedCount": 83,
+    "ownedCount": 84,
     "titleList": [
      {
       "equipCategory": "Attack",
       "equipStatList": [
        {
-        "desc": "Critical Hit +26"
+        "desc": "PvE Damage Boost +3%"
+       },
+       {
+        "desc": "Penetration +210"
        }
       ],
-      "grade": "Rare",
-      "id": 22020013,
-      "name": "The Only Way Out Is Through",
+      "grade": "Legend",
+      "id": 22030002,
+      "name": "Guardian of Altgard",
       "ownedCount": 33,
       "ownedPercent": 31,
       "statList": [
        {
-        "desc": "Attack Bonus +1"
+        "desc": "PvE Attack +4"
        }
       ],
       "totalCount": 106
@@ -30617,20 +30617,23 @@
       "equipCategory": "Defense",
       "equipStatList": [
        {
-        "desc": "Evasion Bonus +36"
+        "desc": "Defense Bonus +320"
        },
        {
-        "desc": "Critical Damage Tolerance +2.2%"
+        "desc": "Back Attack Damage Tolerance +3%"
+       },
+       {
+        "desc": "Boss Damage Tolerance +4%"
        }
       ],
-      "grade": "Legend",
-      "id": 23010024,
-      "name": "Bond with All Creation",
-      "ownedCount": 26,
-      "ownedPercent": 26,
+      "grade": "Unique",
+      "id": 23010025,
+      "name": "Rule All Creation",
+      "ownedCount": 27,
+      "ownedPercent": 27,
       "statList": [
        {
-        "desc": "Move Speed +0.7%"
+        "desc": "Move Speed +1%"
        }
       ],
       "totalCount": 99
@@ -30676,8 +30679,8 @@
       "id": 12,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 25,
-      "openPercent": 28,
+      "openNodeCount": 31,
+      "openPercent": 35,
       "totalNodeCount": 88
      },
      {
@@ -30814,23 +30817,23 @@
      "3|3|Unique|1|Damage Tolerance",
      "3|5|Common|0|Max MP",
      "3|4|Common|0|Critical Hit",
-     "3|7|Legend|0|Skill Level Up - Sword Aura Rampage",
+     "3|7|Legend|1|Skill Level Up - Sword Aura Rampage",
      "3|6|Common|0|Critical Hit Resist",
      "3|9|Rare|0|Skill Level Up - Impact Hit",
      "3|8|Common|0|Defense",
      "3|11|Legend|1|Skill Level Up - Ruinous Blow",
-     "3|10|Common|0|Attack",
+     "3|10|Common|1|Attack",
      "3|13|Unique|1|Damage Boost",
      "3|12|Common|1|Defense",
      "4|3|Common|1|Attack",
      "4|5|Rare|0|Skill Level Up - Murderous Burst",
-     "4|7|Common|0|Max HP",
+     "4|7|Common|1|Max HP",
      "4|10|Common|0|Max MP",
      "4|13|Common|1|Critical Hit",
      "5|3|Legend|1|Skill Level Up - Keen Strike",
      "5|5|Common|0|Defense",
      "5|4|Common|0|Max HP",
-     "5|7|Common|0|Attack",
+     "5|7|Common|1|Attack",
      "5|9|Legend|0|Skill Level Up - Leaping Slam",
      "5|8|Common|0|Max MP",
      "5|11|Common|0|Max MP",
@@ -30840,14 +30843,14 @@
      "6|3|Common|1|Critical Hit",
      "6|6|Common|0|Critical Hit Resist",
      "6|5|Common|0|Max MP",
-     "6|7|Rare|0|Skill Level Up - Experienced Counterstrike",
+     "6|7|Rare|1|Skill Level Up - Experienced Counterstrike",
      "6|9|Common|0|Critical Hit",
      "6|11|Common|0|Critical Hit",
      "6|13|Common|1|Critical Hit Resist",
      "7|3|Common|1|Defense",
      "7|5|Legend|0|Skill Level Up - Mocking Blade",
      "7|4|Common|1|Max HP",
-     "7|7|Common|0|Critical Hit",
+     "7|7|Common|1|Critical Hit",
      "7|9|Common|1|Max MP",
      "7|11|Common|1|Max HP",
      "7|10|Rare|1|Skill Level Up - Destructive Impulse",
@@ -31053,7 +31056,7 @@
       "id": 11280000,
       "name": "Sword Aura Rampage",
       "needLevel": 5,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -31103,7 +31106,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -31123,7 +31126,7 @@
       "id": 11710000,
       "name": "Survival Stance",
       "needLevel": 1,
-      "skillLevel": 11
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31143,7 +31146,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -31153,7 +31156,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -31163,7 +31166,7 @@
       "id": 11750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -31173,7 +31176,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 3
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -31193,7 +31196,7 @@
       "id": 11780000,
       "name": "Experienced Counterstrike",
       "needLevel": 21,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -31213,7 +31216,7 @@
       "id": 11800000,
       "name": "Murderous Burst",
       "needLevel": 25,
-      "skillLevel": 4
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -31243,7 +31246,7 @@
       "id": 11250000,
       "name": "Zikel's Blessing",
       "needLevel": 22,
-      "skillLevel": 3
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -31373,8 +31376,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 23:04 UTC",
+ "updated": "2026-11-05 23:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 23:34",
+   "n": "RyBear",
+   "x": "reached level 32"
+  },
+  {
+   "t": "2026-11-05 23:34",
+   "n": "RyBear",
+   "x": "new Chaser Greatsword +0"
+  },
+  {
+   "t": "2026-11-05 23:34",
+   "n": "RyBear",
+   "x": "new Chaser Guard +0"
+  },
+  {
+   "t": "2026-11-05 23:34",
+   "n": "RyBear",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-05 23:34",
+   "n": "RyBear",
+   "x": "opened 6 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-05 23:34",
+   "n": "RyBear",
+   "x": "skills up: Sword Aura Rampage 4, Ruinous Blow 11, Survival Stance 13, Blood Absorption 11 and 6 more"
+  },
   {
    "t": "2026-11-05 22:28",
    "n": "DeathRunner",

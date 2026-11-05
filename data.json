@@ -5976,15 +5976,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 393117,
-     "il": 2463
+     "cp": 110743,
+     "il": 2466
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 393117,
-   "il": 2463,
+   "cp": 110743,
+   "il": 2466,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6839,7 +6839,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2463
+     "value": 2466
     }
    ],
    "title": {
@@ -6978,7 +6978,7 @@
       "id": 86,
       "name": "Azphel",
       "open": 1,
-      "openNodeCount": 10,
+      "openNodeCount": 11,
       "openPercent": 7,
       "totalNodeCount": 152
      }
@@ -7469,7 +7469,7 @@
      "6|1|Common|0|PvP Critical Hit Resist",
      "6|4|Common|0|PvP Accuracy",
      "6|3|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
-     "5|13|Legend|0|Status Effect Resist",
+     "5|13|Legend|1|Status Effect Resist",
      "5|12|Common|1|PvP Defense",
      "5|9|Common|0|PvP Critical Hit Resist",
      "5|8|Legend|0|Status Effect Chance",
@@ -7793,7 +7793,7 @@
       "id": 18160000,
       "name": "Sprint Mantra",
       "needLevel": 22,
-      "skillLevel": 9
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -14517,14 +14517,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 133470,
+     "cp": 133476,
      "il": 2611
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 133470,
+   "cp": 133476,
    "il": 2611,
    "gear": [
     {
@@ -31382,8 +31382,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 02:34 UTC",
+ "updated": "2026-11-05 03:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 03:04",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-05 03:04",
+   "n": "CutieCatty",
+   "x": "skills up: Sprint Mantra 13"
+  },
   {
    "t": "2026-11-05 02:34",
    "n": "CutieCatty",

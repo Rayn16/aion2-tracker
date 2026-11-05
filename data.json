@@ -14521,14 +14521,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 134345,
+     "cp": 134545,
      "il": 2614
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 134345,
+   "cp": 134545,
    "il": 2614,
    "gear": [
     {
@@ -16490,15 +16490,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 109967,
-     "il": 2388
+     "cp": 109344,
+     "il": 2401
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 109967,
-   "il": 2388,
+   "cp": 109344,
+   "il": 2401,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16857,32 +16857,32 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Aulamus Necklace",
+     "name": "Enraged Kromede Necklace",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0053.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Attack",
-       "+3",
+       "HP",
+       "+60",
        "Rare"
       ],
       [
-       "Evasion Bonus",
-       "+10",
-       "Legend"
+       "HP",
+       "+60",
+       "Rare"
       ],
       [
-       "Critical Hit",
-       "+10",
-       "Legend"
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
       ],
       [
-       "Critical Hit",
-       "+10",
-       "Legend"
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -17262,9 +17262,12 @@
     },
     {
      "name": "Precision",
-     "statSecondList": null,
+     "statSecondList": [
+      "Accuracy increase +1.1%",
+      "Critical Hit increase +1.1%"
+     ],
      "type": "AGI",
-     "value": 0
+     "value": 11
     },
     {
      "name": "Willpower",
@@ -17368,7 +17371,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2388
+     "value": 2401
     }
    ],
    "title": {
@@ -18239,7 +18242,7 @@
       "id": 15770000,
       "name": "Grace of Resistance",
       "needLevel": 15,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -31386,8 +31389,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 19:04 UTC",
+ "updated": "2026-11-05 19:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 19:32",
+   "n": "IBrook",
+   "x": "new Enraged Kromede Necklace +10"
+  },
+  {
+   "t": "2026-11-05 19:32",
+   "n": "IBrook",
+   "x": "skills up: Grace of Resistance 3"
+  },
   {
    "t": "2026-11-05 19:03",
    "n": "uTril",

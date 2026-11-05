@@ -59,14 +59,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 120102,
-     "il": 2485
+     "cp": 120608,
+     "il": 2500
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 120102,
-   "il": 2485,
+   "cp": 120608,
+   "il": 2500,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -427,32 +427,32 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Aulamus Necklace",
+     "name": "Enraged Kromede Necklace",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0053.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
        "Attack",
-       "+3",
-       "Rare"
+       "+1",
+       "Common"
       ],
       [
-       "HP",
-       "+60",
-       "Rare"
+       "Critical Hit",
+       "+5",
+       "Common"
       ],
       [
-       "HP",
-       "+30",
+       "MP",
+       "+15",
        "Common"
       ],
       [
        "Attack",
-       "+1",
-       "Common"
+       "+3",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -929,7 +929,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2485
+     "value": 2500
     }
    ],
    "title": {
@@ -1284,7 +1284,7 @@
       "id": 11790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -28067,15 +28067,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 97062,
-     "il": 2182
+     "cp": 97453,
+     "il": 2205
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 97062,
-   "il": 2182,
+   "cp": 97453,
+   "il": 2205,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28588,32 +28588,32 @@
     },
     {
      "slotPosName": "Ring1",
-     "name": "Aulamus Ring",
+     "name": "Enraged Kromede Ring",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
        "Accuracy Bonus",
-       "+5",
-       "Common"
+       "+7",
+       "Rare"
       ],
       [
        "MP",
-       "+15",
-       "Common"
+       "+50",
+       "Legend"
+      ],
+      [
+       "MP",
+       "+50",
+       "Legend"
+      ],
+      [
+       "Defense",
+       "+50",
+       "Legend"
       ]
      ],
      "godSlots": 0,
@@ -28950,7 +28950,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2182
+     "value": 2205
     }
    ],
    "title": {
@@ -29836,7 +29836,7 @@
       "id": 17150000,
       "name": "Divine Aura",
       "needLevel": 3,
-      "skillLevel": 5
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -29886,7 +29886,7 @@
       "id": 17100000,
       "name": "Healing Light",
       "needLevel": 10,
-      "skillLevel": 8
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -30021,12 +30021,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 0,
@@ -30061,12 +30061,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -31388,8 +31388,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 08:03 UTC",
+ "updated": "2026-11-05 08:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 08:33",
+   "n": "uTril",
+   "x": "new Enraged Kromede Ring +10"
+  },
+  {
+   "t": "2026-11-05 08:33",
+   "n": "uTril",
+   "x": "skills up: Summon Resurrection 7"
+  },
+  {
+   "t": "2026-11-05 08:31",
+   "n": "YasuoMain",
+   "x": "new Enraged Kromede Necklace +10"
+  },
+  {
+   "t": "2026-11-05 08:31",
+   "n": "YasuoMain",
+   "x": "skills up: Survival Willpower 18"
+  },
   {
    "t": "2026-11-05 08:03",
    "n": "uTril",

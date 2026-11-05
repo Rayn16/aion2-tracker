@@ -59,13 +59,13 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 117024,
+     "cp": 126324,
      "il": 2515
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 117024,
+   "cp": 126324,
    "il": 2515,
    "gear": [
     {
@@ -7893,10 +7893,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Rabbit_01.png",
-     "id": 1240,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_ShugoBeast_02.png",
+     "id": 1112,
      "level": 3,
-     "name": "White Bunny"
+     "name": "Wandering Merchant Lugi"
     },
     "wing": {
      "enchantLevel": 0,
@@ -14521,15 +14521,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 135128,
-     "il": 2655
+     "cp": 138464,
+     "il": 2656
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 135128,
-   "il": 2655,
+   "cp": 138464,
+   "il": 2656,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15408,11 +15408,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2655
+     "value": 2656
     }
    ],
    "title": {
-    "ownedCount": 211,
+    "ownedCount": 212,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -15480,8 +15480,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 69,
-      "ownedPercent": 65,
+      "ownedCount": 70,
+      "ownedPercent": 66,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -15520,8 +15520,8 @@
       "id": 43,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 66,
-      "openPercent": 75,
+      "openNodeCount": 67,
+      "openPercent": 76,
       "totalNodeCount": 88
      },
      {
@@ -15810,7 +15810,7 @@
      "3|11|Common|1|Critical Hit Resist",
      "4|9|Common|0|Defense",
      "4|7|Common|0|Max MP",
-     "4|5|Common|0|Attack",
+     "4|5|Common|1|Attack",
      "4|6|Common|0|Critical Hit",
      "4|3|Common|1|Critical Hit",
      "5|3|Common|1|Defense",
@@ -16332,7 +16332,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -16402,7 +16402,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -16490,14 +16490,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 110356,
+     "cp": 111556,
      "il": 2401
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 110356,
+   "cp": 111556,
    "il": 2401,
    "gear": [
     {
@@ -18309,7 +18309,7 @@
       "id": 15400000,
       "name": "Element Enhancement",
       "needLevel": 22,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 0,
@@ -18359,7 +18359,7 @@
       "id": 15390000,
       "name": "Fire Wall",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 0,
@@ -31365,8 +31365,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 20:34 UTC",
+ "updated": "2026-11-05 21:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 21:02",
+   "n": "IBrook",
+   "x": "skills up: Element Enhancement 18, Fire Wall 11"
+  },
+  {
+   "t": "2026-11-05 21:02",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-05 21:02",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-05 21:02",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Fang 7, Triniel's Dagger 10"
+  },
   {
    "t": "2026-11-05 20:33",
    "n": "uTril",

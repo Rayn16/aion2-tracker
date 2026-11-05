@@ -59,14 +59,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 117800,
-     "il": 2472
+     "cp": 120202,
+     "il": 2485
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 117800,
-   "il": 2472,
+   "cp": 120202,
+   "il": 2485,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -336,17 +336,22 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Vakron Boots",
+     "name": "Nuakum Boots",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Boots.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Boots.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Block",
-       "+10",
-       "Rare"
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
       ],
       [
        "HP",
@@ -355,13 +360,8 @@
       ],
       [
        "Attack",
-       "+3",
-       "Rare"
-      ],
-      [
-       "Evasion Bonus",
-       "+7",
-       "Rare"
+       "+1",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -929,7 +929,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2472
+     "value": 2485
     }
    ],
    "title": {
@@ -1224,7 +1224,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -1244,7 +1244,7 @@
       "id": 11750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -1274,7 +1274,7 @@
       "id": 11780000,
       "name": "Experienced Counterstrike",
       "needLevel": 21,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -14517,15 +14517,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 134271,
-     "il": 2613
+     "cp": 134345,
+     "il": 2614
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 134271,
-   "il": 2613,
+   "cp": 134345,
+   "il": 2614,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -14611,7 +14611,7 @@
      "slotPosName": "Torso",
      "name": "Nuakum Breastplate",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
@@ -15404,7 +15404,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2613
+     "value": 2614
     }
    ],
    "title": {
@@ -16328,7 +16328,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 4
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -16338,7 +16338,7 @@
       "id": 13390000,
       "name": "Swift Contract",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 20
      },
      {
       "acquired": 0,
@@ -31384,8 +31384,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 05:04 UTC",
+ "updated": "2026-11-05 05:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 05:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Breastplate +11 → +12"
+  },
+  {
+   "t": "2026-11-05 05:32",
+   "n": "DeathRunner",
+   "x": "skills up: Swift Contract 20"
+  },
+  {
+   "t": "2026-11-05 05:31",
+   "n": "YasuoMain",
+   "x": "new Nuakum Boots +10"
+  },
+  {
+   "t": "2026-11-05 05:31",
+   "n": "YasuoMain",
+   "x": "skills up: Attack Preparation 17"
+  },
   {
    "t": "2026-11-05 05:03",
    "n": "uTril",

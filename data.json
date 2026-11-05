@@ -59,13 +59,13 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 116800,
+     "cp": 116804,
      "il": 2443
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 116800,
+   "cp": 116804,
    "il": 2443,
    "gear": [
     {
@@ -5976,14 +5976,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 107218,
+     "cp": 107220,
      "il": 2435
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 107218,
+   "cp": 107220,
    "il": 2435,
    "gear": [
     {
@@ -14516,14 +14516,14 @@
     {
      "date": "2026-11-05",
      "cp": 132980,
-     "il": 2601
+     "il": 2602
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
    "cp": 132980,
-   "il": 2601,
+   "il": 2602,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15402,7 +15402,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2601
+     "value": 2602
     }
    ],
    "title": {
@@ -28061,15 +28061,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 87977,
-     "il": 2062
+     "cp": 87694,
+     "il": 2082
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 87977,
-   "il": 2062,
+   "cp": 87694,
+   "il": 2082,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28746,11 +28746,11 @@
     },
     {
      "slotPosName": "Arcana2",
-     "name": "Parchment of Magic",
-     "grade": "Rare",
+     "name": "Parchment of Vigor",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
-     "max": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28878,11 +28878,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.5%",
-      "Regeneration +1.5%"
+      "HP increase +3.1%",
+      "Regeneration +3.1%"
      ],
      "type": "Life",
-     "value": 15
+     "value": 31
     },
     {
      "name": "Time [Siel]",
@@ -28923,11 +28923,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +2.7%",
-      "Endurance +2.7%"
+      "MP increase +1.5%",
+      "Endurance +1.5%"
      ],
      "type": "Destiny",
-     "value": 27
+     "value": 15
     },
     {
      "name": "Space [Israphel]",
@@ -28942,7 +28942,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2062
+     "value": 2082
     }
    ],
    "title": {
@@ -29818,7 +29818,7 @@
       "id": 17080000,
       "name": "Debilitating Mark",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -29838,7 +29838,7 @@
       "id": 17070000,
       "name": "Chain of Torment",
       "needLevel": 4,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -29888,7 +29888,7 @@
       "id": 17120000,
       "name": "Radiant Recovery",
       "needLevel": 12,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31380,8 +31380,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 00:18 UTC",
+ "updated": "2026-11-05 00:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 00:34",
+   "n": "uTril",
+   "x": "new Parchment of Vigor +0"
+  },
+  {
+   "t": "2026-11-05 00:34",
+   "n": "uTril",
+   "x": "skills up: Chain of Torment 15, Radiant Recovery 13"
+  },
   {
    "t": "2026-11-05 00:07",
    "n": "IBrook",

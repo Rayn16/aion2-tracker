@@ -14521,15 +14521,15 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 134545,
-     "il": 2614
+     "cp": 134823,
+     "il": 2654
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 134545,
-   "il": 2614,
+   "cp": 134823,
+   "il": 2654,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15239,7 +15239,7 @@
     {
      "slotPosName": "Arcana4",
      "name": "Bell of Vigor",
-     "grade": "Rare",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
      "max": 3,
@@ -15317,11 +15317,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +5.3%",
-      "Perfect Chance +5.3%"
+      "Defense increase +6.1%",
+      "Perfect Chance +6.1%"
      ],
      "type": "Justice",
-     "value": 53
+     "value": 61
     },
     {
      "name": "Freedom [Vaizel]",
@@ -15408,7 +15408,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2614
+     "value": 2654
     }
    ],
    "title": {
@@ -16112,7 +16112,7 @@
       "id": 13010000,
       "name": "Quick Slice",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -16212,7 +16212,7 @@
       "id": 13130000,
       "name": "Insignia Explosion",
       "needLevel": 14,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -16232,7 +16232,7 @@
       "id": 13710000,
       "name": "Heightened Sixth Sense",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -16252,7 +16252,7 @@
       "id": 13730000,
       "name": "Apply Poison",
       "needLevel": 9,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -16292,7 +16292,7 @@
       "id": 13770000,
       "name": "Ambush Stance",
       "needLevel": 17,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -16312,7 +16312,7 @@
       "id": 13790000,
       "name": "Revitalization Contract",
       "needLevel": 23,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -16490,14 +16490,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 109344,
+     "cp": 110356,
      "il": 2401
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 109344,
+   "cp": 110356,
    "il": 2401,
    "gear": [
     {
@@ -17262,12 +17262,9 @@
     },
     {
      "name": "Precision",
-     "statSecondList": [
-      "Accuracy increase +1.1%",
-      "Critical Hit increase +1.1%"
-     ],
+     "statSecondList": null,
      "type": "AGI",
-     "value": 11
+     "value": 0
     },
     {
      "name": "Willpower",
@@ -18242,7 +18239,7 @@
       "id": 15770000,
       "name": "Grace of Resistance",
       "needLevel": 15,
-      "skillLevel": 3
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -28068,14 +28065,14 @@
     },
     {
      "date": "2026-11-05",
-     "cp": 97656,
+     "cp": 97661,
      "il": 2205
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 97656,
+   "cp": 97661,
    "il": 2205,
    "gear": [
     {
@@ -30022,12 +30019,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 8
+      "skillLevel": 0
      },
      {
       "acquired": 0,
@@ -30062,12 +30059,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -31389,8 +31386,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 19:34 UTC",
+ "updated": "2026-11-05 20:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-05 20:03",
+   "n": "uTril",
+   "x": "skills up: Summon Resurrection 8"
+  },
+  {
+   "t": "2026-11-05 20:02",
+   "n": "DeathRunner",
+   "x": "skills up: Quick Slice 15, Heightened Sixth Sense 15, Apply Poison 16, Ambush Stance 16"
+  },
   {
    "t": "2026-11-05 19:32",
    "n": "IBrook",

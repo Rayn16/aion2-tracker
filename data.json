@@ -6001,14 +6001,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 116298,
+     "cp": 116304,
      "il": 2526
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 116298,
+   "cp": 116304,
    "il": 2526,
    "gear": [
     {
@@ -16545,15 +16545,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 116617,
-     "il": 2430
+     "cp": 116588,
+     "il": 2441
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 116617,
-   "il": 2430,
+   "cp": 116588,
+   "il": 2441,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16631,32 +16631,32 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Vakron Breastplate",
+     "name": "Nuakum Breastplate",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Critical Hit Resist",
-       "+7",
+       "Defense",
+       "+40",
        "Rare"
       ],
       [
-       "HP",
-       "+100",
-       "Legend"
+       "Attack",
+       "+2",
+       "Common"
       ],
       [
        "HP",
-       "+160",
-       "Unique"
+       "+80",
+       "Rare"
       ],
       [
-       "Accuracy Bonus",
-       "+10",
-       "Legend"
+       "Attack",
+       "+4",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -17294,12 +17294,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2.9%",
-      "Block increase +2.9%",
-      "Critical Hit Resist increase +2.9%"
+      "Evasion increase +4.1%",
+      "Block increase +4.1%",
+      "Critical Hit Resist increase +4.1%"
      ],
      "type": "DEX",
-     "value": 29
+     "value": 41
     },
     {
      "name": "Intelligence",
@@ -17423,7 +17423,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2430
+     "value": 2441
     }
    ],
    "title": {
@@ -18297,7 +18297,7 @@
       "id": 15770000,
       "name": "Grace of Resistance",
       "needLevel": 15,
-      "skillLevel": 2
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -18317,7 +18317,7 @@
       "id": 15780000,
       "name": "Grace of Enhancement",
       "needLevel": 21,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -30266,26 +30266,26 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 39531,
-     "il": 625
+     "cp": 40173,
+     "il": 640
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 35,
-   "cp": 39531,
-   "il": 625,
+   "level": 37,
+   "cp": 40173,
+   "il": 640,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Chaser Greatsword",
-     "grade": "Rare",
+     "name": "Avenger Greatsword",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_GS_0010_T04.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_GS_0033_T05.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
-     "godSlots": 0,
+     "godSlots": 1,
      "god": [],
      "src": [
       "Quest"
@@ -30383,12 +30383,12 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Chaser Boots",
-     "grade": "Rare",
+     "name": "Avenger Boots",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Boots.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Boots.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30553,10 +30553,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.2%"
+      "Attack increase +1.5%"
      ],
      "type": "STR",
-     "value": 12
+     "value": 15
     },
     {
      "name": "Dexterity",
@@ -30682,11 +30682,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 625
+     "value": 640
     }
    ],
    "title": {
-    "ownedCount": 90,
+    "ownedCount": 92,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30701,8 +30701,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 36,
-      "ownedPercent": 34,
+      "ownedCount": 37,
+      "ownedPercent": 35,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -30726,8 +30726,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 28,
-      "ownedPercent": 28,
+      "ownedCount": 29,
+      "ownedPercent": 29,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31473,8 +31473,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 01:15 UTC",
+ "updated": "2026-11-06 01:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 01:34",
+   "n": "RyBear",
+   "x": "reached level 37"
+  },
+  {
+   "t": "2026-11-06 01:34",
+   "n": "RyBear",
+   "x": "new Avenger Greatsword +0"
+  },
+  {
+   "t": "2026-11-06 01:34",
+   "n": "RyBear",
+   "x": "new Avenger Boots +0"
+  },
+  {
+   "t": "2026-11-06 01:34",
+   "n": "RyBear",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-06 01:32",
+   "n": "IBrook",
+   "x": "new Nuakum Breastplate +10"
+  },
   {
    "t": "2026-11-06 01:15",
    "n": "RyBear",
@@ -32949,31 +32974,6 @@
    "t": "2026-10-30 17:31",
    "n": "YasuoMain",
    "x": "skills up: Aerial Snare 2"
-  },
-  {
-   "t": "2026-10-30 17:01",
-   "n": "CutieCatty",
-   "x": "new Enraged Kromede Rod +10"
-  },
-  {
-   "t": "2026-10-30 04:01",
-   "n": "CutieCatty",
-   "x": "new Mirror of Magic +0"
-  },
-  {
-   "t": "2026-10-30 04:01",
-   "n": "CutieCatty",
-   "x": "skills up: Earth's Promise 14"
-  },
-  {
-   "t": "2026-10-30 03:01",
-   "n": "YasuoMain",
-   "x": "new Parchment of Vigor +0"
-  },
-  {
-   "t": "2026-10-30 03:01",
-   "n": "YasuoMain",
-   "x": "skills up: Ankle Slice 5, Ruinous Blow 15"
   }
  ]
 }

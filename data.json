@@ -14571,15 +14571,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 138215,
-     "il": 2681
+     "cp": 138254,
+     "il": 2684
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 138215,
-   "il": 2681,
+   "cp": 138254,
+   "il": 2684,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -14855,7 +14855,7 @@
      "slotPosName": "Boots",
      "name": "Nuakum Boots",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Boots.png",
      "max": 15,
      "slots": 4,
@@ -15458,7 +15458,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2681
+     "value": 2684
     }
    ],
    "title": {
@@ -28163,15 +28163,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 98300,
-     "il": 2231
+     "cp": 99265,
+     "il": 2290
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 98300,
-   "il": 2231,
+   "cp": 99265,
+   "il": 2290,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28798,10 +28798,10 @@
     {
      "slotPosName": "Arcana1",
      "name": "Chalice of Magic",
-     "grade": "Common",
-     "enchantLevel": 1,
+     "grade": "Legend",
+     "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_DefenceSet2.png",
-     "max": 2,
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28836,11 +28836,11 @@
     },
     {
      "slotPosName": "Arcana4",
-     "name": "Bell of Vigor",
-     "grade": "Rare",
+     "name": "Bell of Magic",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
-     "max": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28915,11 +28915,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +5.3%",
-      "Perfect Chance +5.3%"
+      "Defense increase +4.1%",
+      "Perfect Chance +4.1%"
      ],
      "type": "Justice",
-     "value": 53
+     "value": 41
     },
     {
      "name": "Freedom [Vaizel]",
@@ -28960,11 +28960,11 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.6%",
-      "Perfect Resist +0.6%"
+      "Attack increase +2.2%",
+      "Perfect Resist +2.2%"
      ],
      "type": "Destruction",
-     "value": 6
+     "value": 22
     },
     {
      "name": "Death [Triniel]",
@@ -28996,17 +28996,17 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +4.5%",
-      "Block increase +4.5%"
+      "Move Speed +5.2%",
+      "Block increase +5.2%"
      ],
      "type": "Space",
-     "value": 45
+     "value": 52
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2231
+     "value": 2290
     }
    ],
    "title": {
@@ -30022,7 +30022,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -30072,7 +30072,7 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -30245,15 +30245,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 44839,
-     "il": 713
+     "cp": 44928,
+     "il": 723
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 41,
-   "cp": 44839,
-   "il": 713,
+   "level": 42,
+   "cp": 44928,
+   "il": 723,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30347,10 +30347,10 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Avenger Gloves",
+     "name": "Liberator Gloves",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Gloves.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -30661,11 +30661,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 713
+     "value": 723
     }
    ],
    "title": {
-    "ownedCount": 104,
+    "ownedCount": 106,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30680,8 +30680,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 42,
-      "ownedPercent": 40,
+      "ownedCount": 43,
+      "ownedPercent": 41,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -30705,8 +30705,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 35,
-      "ownedPercent": 35,
+      "ownedCount": 36,
+      "ownedPercent": 36,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31571,8 +31571,43 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 04:34 UTC",
+ "updated": "2026-11-06 05:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 05:04",
+   "n": "RyBear",
+   "x": "reached level 42"
+  },
+  {
+   "t": "2026-11-06 05:04",
+   "n": "RyBear",
+   "x": "new Liberator Gloves +0"
+  },
+  {
+   "t": "2026-11-06 05:04",
+   "n": "RyBear",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-06 05:04",
+   "n": "uTril",
+   "x": "Chalice of Magic +1 → +0"
+  },
+  {
+   "t": "2026-11-06 05:04",
+   "n": "uTril",
+   "x": "new Bell of Magic +0"
+  },
+  {
+   "t": "2026-11-06 05:04",
+   "n": "uTril",
+   "x": "skills up: Immortal Veil 16, Radiant Benediction 16"
+  },
+  {
+   "t": "2026-11-06 05:02",
+   "n": "DeathRunner",
+   "x": "Nuakum Boots +10 → +13"
+  },
   {
    "t": "2026-11-06 04:34",
    "n": "RyBear",
@@ -33037,41 +33072,6 @@
    "t": "2026-10-31 22:31",
    "n": "CutieCatty",
    "x": "Enraged Kromede Ring +11 → +10"
-  },
-  {
-   "t": "2026-10-31 22:01",
-   "n": "YasuoMain",
-   "x": "Nuakum Greaves +10 → +11"
-  },
-  {
-   "t": "2026-10-31 22:01",
-   "n": "YasuoMain",
-   "x": "Nuakum Pauldrons +10 → +12"
-  },
-  {
-   "t": "2026-10-31 22:01",
-   "n": "YasuoMain",
-   "x": "Nuakum Gloves +10 → +11"
-  },
-  {
-   "t": "2026-10-31 22:01",
-   "n": "YasuoMain",
-   "x": "Enraged Kromede Ring +10 → +13"
-  },
-  {
-   "t": "2026-10-31 21:01",
-   "n": "YasuoMain",
-   "x": "new Nuakum Cloak +10"
-  },
-  {
-   "t": "2026-10-31 21:01",
-   "n": "YasuoMain",
-   "x": "skills up: Protection Armor 17, Identify Weakness 15"
-  },
-  {
-   "t": "2026-10-31 20:01",
-   "n": "CutieCatty",
-   "x": "new Nuakum Helm +10"
   }
  ]
 }

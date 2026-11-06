@@ -30310,22 +30310,22 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 44928,
-     "il": 723
+     "cp": 46705,
+     "il": 801
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 42,
-   "cp": 44928,
-   "il": 723,
+   "level": 44,
+   "cp": 46705,
+   "il": 801,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Avenger Greatsword",
+     "name": "Liberator Greatsword",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_GS_0033_T05.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0067_T05.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -30337,10 +30337,10 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Avenger Guard",
+     "name": "Liberator Guard",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_013.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_028.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -30442,10 +30442,10 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Avenger Cloak",
+     "name": "Liberator Cloak",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Cape.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -30487,12 +30487,12 @@
     },
     {
      "slotPosName": "Earring1",
-     "name": "Outsider Earrings",
-     "grade": "Rare",
+     "name": "Liberator Earrings",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0011.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30597,10 +30597,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.5%"
+      "Attack increase +1.6%"
      ],
      "type": "STR",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Dexterity",
@@ -30726,11 +30726,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 723
+     "value": 801
     }
    ],
    "title": {
-    "ownedCount": 106,
+    "ownedCount": 113,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30770,8 +30770,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 36,
-      "ownedPercent": 36,
+      "ownedCount": 39,
+      "ownedPercent": 39,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -30789,8 +30789,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 27,
-      "ownedPercent": 26,
+      "ownedCount": 31,
+      "ownedPercent": 30,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -30829,8 +30829,8 @@
       "id": 13,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 34,
-      "openPercent": 39,
+      "openNodeCount": 51,
+      "openPercent": 58,
       "totalNodeCount": 88
      },
      {
@@ -31099,32 +31099,32 @@
      "10|9|Common|0|Critical Hit Resist",
      "10|12|Common|1|Critical Hit",
      "11|3|Rare|0|Skill Level Up - Destructive Impulse",
-     "11|5|Legend|0|Skill Level Up - Rending Blow",
+     "11|5|Legend|1|Skill Level Up - Rending Blow",
      "11|4|Common|0|Defense",
      "11|7|Common|0|Max HP",
      "11|6|Common|0|Critical Hit Resist",
      "11|9|Legend|0|Skill Level Up - Mocking Blade",
      "11|8|Common|0|Max MP",
      "11|11|Common|0|Max MP",
-     "11|13|Common|0|Attack",
-     "11|12|Legend|0|Skill Level Up - Rush Strike",
+     "11|13|Common|1|Attack",
+     "11|12|Legend|1|Skill Level Up - Rush Strike",
      "12|3|Common|0|Max HP",
-     "12|5|Common|0|Attack",
+     "12|5|Common|1|Attack",
      "12|7|Common|0|Attack",
-     "12|10|Common|0|Critical Hit Resist",
-     "12|9|Common|0|Max HP",
-     "12|11|Common|0|Defense",
-     "12|13|Common|0|Critical Hit Resist",
+     "12|10|Common|1|Critical Hit Resist",
+     "12|9|Common|1|Max HP",
+     "12|11|Common|1|Defense",
+     "12|13|Common|1|Critical Hit Resist",
      "13|3|Unique|0|Critical Damage Tolerance",
-     "13|5|Common|0|Critical Hit",
-     "13|4|Common|0|Max MP",
-     "13|7|Common|0|Defense",
-     "13|6|Rare|0|Skill Level Up - Identify Weakness",
-     "13|9|Common|0|Critical Hit",
-     "13|8|Legend|0|Skill Level Up - Defiance",
-     "13|11|Rare|0|Skill Level Up - Protection Armor",
-     "13|13|Unique|0|Critical Damage Boost",
-     "13|12|Common|0|Critical Hit",
+     "13|5|Common|1|Critical Hit",
+     "13|4|Common|1|Max MP",
+     "13|7|Common|1|Defense",
+     "13|6|Rare|1|Skill Level Up - Identify Weakness",
+     "13|9|Common|1|Critical Hit",
+     "13|8|Legend|1|Skill Level Up - Defiance",
+     "13|11|Rare|1|Skill Level Up - Protection Armor",
+     "13|13|Unique|1|Critical Damage Boost",
+     "13|12|Common|1|Critical Hit",
      "3|3|Unique|1|Critical Damage Boost",
      "3|5|Rare|1|Skill Level Up - Survival Stance",
      "3|4|Common|1|Critical Hit Resist",
@@ -31276,7 +31276,7 @@
       "id": 11010000,
       "name": "Rending Blow",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31346,7 +31346,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 5
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -31376,7 +31376,7 @@
       "id": 11260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -31396,7 +31396,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -31416,7 +31416,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31636,8 +31636,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 20:04 UTC",
+ "updated": "2026-11-06 20:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 20:34",
+   "n": "RyBear",
+   "x": "reached level 44"
+  },
+  {
+   "t": "2026-11-06 20:34",
+   "n": "RyBear",
+   "x": "new Liberator Greatsword +0"
+  },
+  {
+   "t": "2026-11-06 20:34",
+   "n": "RyBear",
+   "x": "new Liberator Guard +0"
+  },
+  {
+   "t": "2026-11-06 20:34",
+   "n": "RyBear",
+   "x": "new Liberator Cloak +0"
+  },
+  {
+   "t": "2026-11-06 20:34",
+   "n": "RyBear",
+   "x": "new Liberator Earrings +0"
+  },
+  {
+   "t": "2026-11-06 20:34",
+   "n": "RyBear",
+   "x": "7 new titles"
+  },
+  {
+   "t": "2026-11-06 20:34",
+   "n": "RyBear",
+   "x": "opened 17 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-06 20:34",
+   "n": "RyBear",
+   "x": "skills up: Rending Blow 13, Rush Strike 8, Defiance 2, Protection Armor 5 and 1 more"
+  },
   {
    "t": "2026-11-06 19:04",
    "n": "uTril",
@@ -33097,46 +33137,6 @@
    "t": "2026-11-01 23:31",
    "n": "YasuoMain16",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-01 20:54",
-   "n": "YasuoMain16",
-   "x": "Liberator Pauldrons +0 → +4"
-  },
-  {
-   "t": "2026-11-01 20:54",
-   "n": "YasuoMain16",
-   "x": "Liberator Earrings +4 → +5"
-  },
-  {
-   "t": "2026-11-01 20:31",
-   "n": "CuteCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-01 20:01",
-   "n": "CuteCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-01 18:31",
-   "n": "CuteCatty",
-   "x": "new Bakarma Helm +10"
-  },
-  {
-   "t": "2026-11-01 18:31",
-   "n": "CuteCatty",
-   "x": "skills up: Warm Benediction 13, Empyrean Lords' Benediction 7, Earth's Grace 13"
-  },
-  {
-   "t": "2026-11-01 18:31",
-   "n": "YasuoMain16",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-01 18:01",
-   "n": "YasuoMain16",
-   "x": "Noble Belt +2 → +3"
   }
  ]
 }

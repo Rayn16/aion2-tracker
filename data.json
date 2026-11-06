@@ -6001,14 +6001,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 116304,
+     "cp": 116308,
      "il": 2526
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 116304,
+   "cp": 116308,
    "il": 2526,
    "gear": [
     {
@@ -7918,10 +7918,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_ShugoBeast_02.png",
-     "id": 1112,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Rabbit_01.png",
+     "id": 1240,
      "level": 3,
-     "name": "Wandering Merchant Lugi"
+     "name": "White Bunny"
     },
     "wing": {
      "enchantLevel": 0,
@@ -9958,12 +9958,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.4%",
-      "Block increase +1.4%",
-      "Critical Hit Resist increase +1.4%"
+      "Evasion increase +1.5%",
+      "Block increase +1.5%",
+      "Critical Hit Resist increase +1.5%"
      ],
      "type": "DEX",
-     "value": 14
+     "value": 15
     },
     {
      "name": "Intelligence",
@@ -13643,12 +13643,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.4%",
-      "Block increase +1.4%",
-      "Critical Hit Resist increase +1.4%"
+      "Evasion increase +1.5%",
+      "Block increase +1.5%",
+      "Critical Hit Resist increase +1.5%"
      ],
      "type": "DEX",
-     "value": 14
+     "value": 15
     },
     {
      "name": "Intelligence",
@@ -14571,14 +14571,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 138287,
+     "cp": 138215,
      "il": 2681
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 138287,
+   "cp": 138215,
    "il": 2681,
    "gear": [
     {
@@ -15326,12 +15326,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2.8%",
-      "Block increase +2.8%",
-      "Critical Hit Resist increase +2.8%"
+      "Evasion increase +2.9%",
+      "Block increase +2.9%",
+      "Critical Hit Resist increase +2.9%"
      ],
      "type": "DEX",
-     "value": 28
+     "value": 29
     },
     {
      "name": "Intelligence",
@@ -30245,15 +30245,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 42822,
-     "il": 674
+     "cp": 44839,
+     "il": 713
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 38,
-   "cp": 42822,
-   "il": 674,
+   "level": 41,
+   "cp": 44839,
+   "il": 713,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30287,10 +30287,10 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Avenger Breastplate",
+     "name": "Liberator Breastplate",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Torso.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -30302,10 +30302,10 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Avenger Greaves",
+     "name": "Liberator Greaves",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Pants.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -30362,10 +30362,10 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Avenger Boots",
+     "name": "Liberator Boots",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Boots.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Boots.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -30661,7 +30661,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 674
+     "value": 713
     }
    ],
    "title": {
@@ -30755,8 +30755,8 @@
       "id": 12,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 53,
-      "openPercent": 60,
+      "openNodeCount": 54,
+      "openPercent": 61,
       "totalNodeCount": 88
      },
      {
@@ -30764,15 +30764,15 @@
       "id": 13,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 26,
-      "openPercent": 30,
+      "openNodeCount": 34,
+      "openPercent": 39,
       "totalNodeCount": 88
      },
      {
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
       "id": 14,
       "name": "Triniel",
-      "open": 0,
+      "open": 1,
       "openNodeCount": 0,
       "openPercent": 0,
       "totalNodeCount": 116
@@ -30966,7 +30966,7 @@
      "12|3|Common|1|Critical Hit Resist",
      "12|6|Common|0|Max MP",
      "12|9|Common|0|Max MP",
-     "12|11|Rare|0|Skill Level Up - Experienced Counterstrike",
+     "12|11|Rare|1|Skill Level Up - Experienced Counterstrike",
      "12|13|Common|1|Defense",
      "13|3|Unique|1|Damage Boost",
      "13|5|Legend|1|Skill Level Up - Overhead Slam",
@@ -30987,7 +30987,7 @@
      "4|7|Common|1|Max MP",
      "4|9|Common|1|Defense",
      "4|11|Common|0|Defense",
-     "4|13|Common|0|Max MP",
+     "4|13|Common|1|Max MP",
      "5|3|Common|0|Defense",
      "5|5|Common|0|Max HP",
      "5|4|Legend|0|Skill Level Up - Leaping Slam",
@@ -30996,7 +30996,7 @@
      "5|8|Common|0|Critical Hit",
      "5|11|Legend|0|Skill Level Up - Crushing Wave",
      "5|10|Common|0|Max HP",
-     "5|13|Rare|0|Skill Level Up - Attack Preparation",
+     "5|13|Rare|1|Skill Level Up - Attack Preparation",
      "5|12|Common|0|Attack",
      "6|4|Common|0|Critical Hit Resist",
      "6|7|Common|0|Critical Hit",
@@ -31014,7 +31014,7 @@
      "7|13|Common|0|Critical Hit",
      "7|12|Common|0|Max HP",
      "8|3|Legend|0|Skill Level Up - Ankle Slice",
-     "8|6|Common|0|Max MP",
+     "8|6|Common|1|Max MP",
      "8|8|Start|1|Vaizel - Start",
      "8|10|Common|0|Max HP",
      "8|13|Legend|1|Skill Level Up - Keen Strike",
@@ -31032,7 +31032,7 @@
      "10|4|Common|0|Critical Hit",
      "10|7|Rare|0|Skill Level Up - Impact Hit",
      "10|9|Common|0|Critical Hit Resist",
-     "10|12|Common|0|Critical Hit",
+     "10|12|Common|1|Critical Hit",
      "11|3|Rare|0|Skill Level Up - Destructive Impulse",
      "11|5|Legend|0|Skill Level Up - Rending Blow",
      "11|4|Common|0|Defense",
@@ -31066,10 +31066,129 @@
      "3|7|Common|1|Critical Hit Resist",
      "3|9|Common|1|Attack",
      "3|8|Legend|1|Skill Level Up - Sword Aura Rampage",
-     "3|11|Common|0|Critical Hit Resist",
-     "3|10|Rare|0|Skill Level Up - Blood Absorption",
-     "3|13|Unique|0|Critical Damage Tolerance",
-     "3|12|Common|0|Max HP"
+     "3|11|Common|1|Critical Hit Resist",
+     "3|10|Rare|1|Skill Level Up - Blood Absorption",
+     "3|13|Unique|1|Critical Damage Tolerance",
+     "3|12|Common|1|Max HP"
+    ],
+    "14": [
+     "2|3|Common|0|Attack",
+     "2|4|Common|0|Critical Hit",
+     "2|2|Unique|0|Multi-Hit Resist",
+     "2|7|Common|0|Attack",
+     "2|8|Unique|0|Multi-Hit Chance",
+     "2|12|Common|0|Defense",
+     "2|9|Common|0|Defense",
+     "2|13|Common|0|Max HP",
+     "2|14|Unique|0|Multi-Hit Resist",
+     "3|4|Legend|0|Skill Level Up - Mocking Blade",
+     "3|5|Common|0|Max MP",
+     "3|2|Common|0|Max MP",
+     "3|9|Rare|0|Skill Level Up - Impact Hit",
+     "3|6|Common|0|Max HP",
+     "3|7|Rare|0|Skill Level Up - Murderous Burst",
+     "3|12|Legend|0|Skill Level Up - Rending Blow",
+     "3|10|Common|0|Max MP",
+     "3|11|Common|0|Critical Hit",
+     "4|2|Common|0|Critical Hit",
+     "3|14|Common|0|Critical Hit",
+     "4|4|Common|0|Max HP",
+     "4|9|Common|0|Critical Hit Resist",
+     "4|7|Common|0|Defense",
+     "4|8|Common|0|Max HP",
+     "4|14|Common|0|Critical Hit Resist",
+     "4|12|Common|0|Attack",
+     "5|2|Legend|0|Skill Level Up - Sword Aura Rampage",
+     "5|3|Common|0|Critical Hit Resist",
+     "5|6|Common|0|Critical Hit Resist",
+     "5|7|Common|0|Attack",
+     "5|4|Common|0|Max MP",
+     "5|5|Rare|0|Skill Level Up - Protection Armor",
+     "5|10|Legend|0|Skill Level Up - Rush Strike",
+     "5|11|Common|0|Critical Hit",
+     "5|9|Common|0|Defense",
+     "5|14|Rare|0|Skill Level Up - Identify Weakness",
+     "5|12|Common|0|Max HP",
+     "5|13|Common|0|Max MP",
+     "6|4|Common|0|Defense",
+     "6|6|Common|0|Critical Hit",
+     "6|10|Common|0|Max HP",
+     "6|13|Common|0|Critical Hit Resist",
+     "7|4|Common|0|Max HP",
+     "7|5|Common|0|Attack",
+     "7|2|Common|0|Critical Hit Resist",
+     "7|3|Common|0|Critical Hit",
+     "7|8|Common|0|Defense",
+     "7|9|Common|0|Critical Hit Resist",
+     "7|6|Legend|0|Skill Level Up - Crushing Wave",
+     "7|7|Common|0|Max MP",
+     "7|12|Rare|0|Skill Level Up - Destructive Impulse",
+     "7|13|Common|0|Defense",
+     "7|10|Common|0|Max MP",
+     "7|11|Common|0|Critical Hit",
+     "8|2|Legend|0|Skill Level Up - Aerial Snare",
+     "7|14|Common|0|Max MP",
+     "8|6|Common|0|Defense",
+     "8|4|Common|0|Defense",
+     "8|10|Common|0|Attack",
+     "8|8|Start|1|Triniel - Start",
+     "8|14|Legend|0|Skill Level Up - Ruinous Blow",
+     "8|12|Common|0|Attack",
+     "9|2|Common|0|Max HP",
+     "9|3|Common|0|Attack",
+     "9|6|Common|0|Max HP",
+     "9|7|Common|0|Critical Hit",
+     "9|4|Rare|0|Skill Level Up - Attack Preparation",
+     "9|5|Common|0|Critical Hit Resist",
+     "9|10|Legend|0|Skill Level Up - Overhead Slam",
+     "9|11|Common|0|Defense",
+     "9|8|Common|0|Attack",
+     "9|9|Common|0|Max HP",
+     "9|14|Common|0|Critical Hit",
+     "9|12|Common|0|Max MP",
+     "9|13|Common|0|Critical Hit Resist",
+     "10|3|Common|0|Critical Hit",
+     "10|6|Common|0|Max MP",
+     "10|12|Common|0|Attack",
+     "10|10|Common|0|Critical Hit Resist",
+     "11|4|Common|0|Max MP",
+     "11|5|Common|0|Critical Hit Resist",
+     "11|2|Rare|0|Skill Level Up - Blood Absorption",
+     "11|3|Common|0|Max HP",
+     "11|9|Common|0|Defense",
+     "11|6|Legend|0|Skill Level Up - Ankle Slice",
+     "11|7|Common|0|Attack",
+     "11|12|Common|0|Max HP",
+     "11|13|Common|0|Critical Hit",
+     "11|10|Common|0|Critical Hit",
+     "11|11|Rare|0|Skill Level Up - Survival Stance",
+     "12|2|Common|0|Critical Hit",
+     "11|14|Legend|0|Skill Level Up - Defiance",
+     "12|4|Common|0|Defense",
+     "12|9|Common|0|Attack",
+     "12|7|Common|0|Critical Hit",
+     "12|8|Common|0|Max MP",
+     "12|14|Common|0|Critical Hit Resist",
+     "12|12|Common|0|Max MP",
+     "13|2|Common|0|Critical Hit Resist",
+     "13|6|Common|0|Max HP",
+     "13|7|Rare|0|Skill Level Up - Experienced Counterstrike",
+     "13|4|Legend|0|Skill Level Up - Leaping Slam",
+     "13|5|Common|0|Critical Hit Resist",
+     "13|10|Common|0|Max MP",
+     "13|11|Common|0|Max HP",
+     "13|9|Rare|0|Skill Level Up - Survival Willpower",
+     "13|14|Common|0|Max HP",
+     "13|12|Legend|0|Skill Level Up - Keen Strike",
+     "14|3|Common|0|Max MP",
+     "14|4|Common|0|Attack",
+     "14|2|Unique|0|Multi-Hit Chance",
+     "14|7|Common|0|Attack",
+     "14|8|Unique|0|Multi-Hit Resist",
+     "14|12|Common|0|Critical Hit Resist",
+     "14|9|Common|0|Defense",
+     "14|13|Common|0|Defense",
+     "14|14|Unique|0|Multi-Hit Chance"
     ]
    },
    "skill": {
@@ -31162,7 +31281,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 2
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -31222,7 +31341,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31242,7 +31361,7 @@
       "id": 11750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31252,7 +31371,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 9
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -31262,7 +31381,7 @@
       "id": 11770000,
       "name": "Destructive Impulse",
       "needLevel": 17,
-      "skillLevel": 3
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -31272,7 +31391,7 @@
       "id": 11780000,
       "name": "Experienced Counterstrike",
       "needLevel": 21,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31452,8 +31571,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 04:04 UTC",
+ "updated": "2026-11-06 04:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 04:34",
+   "n": "RyBear",
+   "x": "reached level 41"
+  },
+  {
+   "t": "2026-11-06 04:34",
+   "n": "RyBear",
+   "x": "new Liberator Breastplate +0"
+  },
+  {
+   "t": "2026-11-06 04:34",
+   "n": "RyBear",
+   "x": "new Liberator Greaves +0"
+  },
+  {
+   "t": "2026-11-06 04:34",
+   "n": "RyBear",
+   "x": "new Liberator Boots +0"
+  },
+  {
+   "t": "2026-11-06 04:34",
+   "n": "RyBear",
+   "x": "opened 9 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-06 04:34",
+   "n": "RyBear",
+   "x": "skills up: Rush Strike 5, Blood Absorption 13, Attack Preparation 13, Impact Hit 12 and 2 more"
+  },
   {
    "t": "2026-11-06 04:04",
    "n": "RyBear",
@@ -32923,36 +33072,6 @@
    "t": "2026-10-31 20:01",
    "n": "CutieCatty",
    "x": "new Nuakum Helm +10"
-  },
-  {
-   "t": "2026-10-31 20:01",
-   "n": "CutieCatty",
-   "x": "skills up: Crossguard 15"
-  },
-  {
-   "t": "2026-10-31 20:01",
-   "n": "YasuoMain",
-   "x": "new Nuakum Pauldrons +10"
-  },
-  {
-   "t": "2026-10-31 20:01",
-   "n": "YasuoMain",
-   "x": "skills up: Blood Absorption 18"
-  },
-  {
-   "t": "2026-10-31 19:31",
-   "n": "YasuoMain",
-   "x": "new Nuakum Greaves +10"
-  },
-  {
-   "t": "2026-10-31 13:31",
-   "n": "CuteCatty",
-   "x": "new Berk Necklace +10"
-  },
-  {
-   "t": "2026-10-31 06:31",
-   "n": "CuteCatty",
-   "x": "new Bakarma Greaves +10"
   }
  ]
 }

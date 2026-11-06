@@ -2078,14 +2078,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 73360,
-     "il": 1529
+     "cp": 74115,
+     "il": 1568
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 73360,
-   "il": 1529,
+   "cp": 74115,
+   "il": 1568,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2277,17 +2277,40 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Liberator Pauldrons",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Shoulder.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Vakron Pauldrons",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Shoulder.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -2735,7 +2758,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1529
+     "value": 1568
     }
    ],
    "title": {
@@ -3047,7 +3070,7 @@
       "id": 12750000,
       "name": "Guarding Seal",
       "needLevel": 13,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -31571,8 +31594,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 07:04 UTC",
+ "updated": "2026-11-06 07:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 07:31",
+   "n": "YasuoMain16",
+   "x": "new Vakron Pauldrons +10"
+  },
+  {
+   "t": "2026-11-06 07:31",
+   "n": "YasuoMain16",
+   "x": "skills up: Guarding Seal 3"
+  },
   {
    "t": "2026-11-06 06:02",
    "n": "DeathRunner",
@@ -33062,16 +33095,6 @@
    "t": "2026-11-01 00:31",
    "n": "YasuoMain",
    "x": "Clash Rune +3 → +4"
-  },
-  {
-   "t": "2026-11-01 00:31",
-   "n": "YasuoMain",
-   "x": "Clash Rune +3 → +4"
-  },
-  {
-   "t": "2026-11-01 00:04",
-   "n": "CutieCatty",
-   "x": "Nuakum Helm +12 → +13"
   }
  ]
 }

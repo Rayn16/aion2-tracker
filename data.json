@@ -6068,14 +6068,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 119119,
+     "cp": 119019,
      "il": 2531
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 119119,
+   "cp": 119019,
    "il": 2531,
    "gear": [
     {
@@ -7944,7 +7944,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_025.png",
       "id": 18250000,
       "name": "Power of the Storm",
@@ -31636,7 +31636,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 21:34 UTC",
+ "updated": "2026-11-06 22:04 UTC",
  "feed": [
   {
    "t": "2026-11-06 21:04",

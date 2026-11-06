@@ -61,6 +61,11 @@
      "date": "2026-11-05",
      "cp": 119809,
      "il": 2567
+    },
+    {
+     "date": "2026-11-06",
+     "cp": 119809,
+     "il": 2567
     }
    ],
    "server": "Tassin",
@@ -587,24 +592,24 @@
      "slots": 4,
      "stones": [
       [
-       "Evasion Bonus",
-       "+9",
-       "Rare"
-      ],
-      [
-       "Critical Hit Resist",
-       "+6",
-       "Common"
-      ],
-      [
-       "Accuracy Bonus",
-       "+6",
+       "Critical Hit",
+       "+5",
        "Common"
       ],
       [
        "Attack",
-       "+4",
-       "Rare"
+       "+1",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -800,10 +805,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.1%"
+      "Attack increase +0.2%"
      ],
      "type": "STR",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Dexterity",
@@ -2070,6 +2075,11 @@
      "date": "2026-11-05",
      "cp": 73315,
      "il": 1529
+    },
+    {
+     "date": "2026-11-06",
+     "cp": 73315,
+     "il": 1529
     }
    ],
    "server": "Tassin",
@@ -2588,10 +2598,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.6%"
+      "Attack increase +1.7%"
      ],
      "type": "STR",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Dexterity",
@@ -31376,7 +31386,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-05 23:34 UTC",
+ "updated": "2026-11-06 00:04 UTC",
  "feed": [
   {
    "t": "2026-11-05 23:34",

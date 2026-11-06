@@ -30266,15 +30266,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 40173,
-     "il": 640
+     "cp": 42417,
+     "il": 674
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 37,
-   "cp": 40173,
-   "il": 640,
+   "level": 38,
+   "cp": 42417,
+   "il": 674,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30338,12 +30338,12 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Chaser Helm",
-     "grade": "Rare",
+     "name": "Avenger Helm",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Helmet.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Helmet.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30682,11 +30682,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 640
+     "value": 674
     }
    ],
    "title": {
-    "ownedCount": 92,
+    "ownedCount": 97,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30701,8 +30701,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 37,
-      "ownedPercent": 35,
+      "ownedCount": 38,
+      "ownedPercent": 36,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -30726,8 +30726,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 29,
-      "ownedPercent": 29,
+      "ownedCount": 32,
+      "ownedPercent": 32,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -30745,8 +30745,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 26,
-      "ownedPercent": 25,
+      "ownedCount": 27,
+      "ownedPercent": 26,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -30776,8 +30776,8 @@
       "id": 12,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 36,
-      "openPercent": 41,
+      "openNodeCount": 53,
+      "openPercent": 60,
       "totalNodeCount": 88
      },
      {
@@ -30957,7 +30957,7 @@
      "8|8|Start|1|Zikel - Start",
      "8|7|Common|1|Defense",
      "8|9|Common|1|Attack",
-     "8|12|Common|0|Defense",
+     "8|12|Common|1|Defense",
      "9|3|Legend|1|Skill Level Up - Crushing Wave",
      "9|5|Common|1|Max MP",
      "9|4|Common|1|Defense",
@@ -30965,40 +30965,40 @@
      "9|6|Rare|1|Skill Level Up - Survival Willpower",
      "9|9|Common|0|Critical Hit Resist",
      "9|11|Legend|0|Skill Level Up - Aerial Snare",
-     "9|13|Common|0|Attack",
-     "9|12|Common|0|Max MP",
-     "10|3|Common|0|Critical Hit",
+     "9|13|Common|1|Attack",
+     "9|12|Common|1|Max MP",
+     "10|3|Common|1|Critical Hit",
      "10|5|Common|0|Critical Hit Resist",
      "10|7|Common|0|Critical Hit Resist",
      "10|10|Common|0|Critical Hit",
      "10|9|Rare|0|Skill Level Up - Murderous Burst",
      "10|11|Common|0|Max HP",
-     "10|13|Common|0|Critical Hit Resist",
-     "11|3|Common|0|Defense",
+     "10|13|Common|1|Critical Hit Resist",
+     "11|3|Common|1|Defense",
      "11|5|Common|0|Max HP",
      "11|4|Rare|0|Skill Level Up - Destructive Impulse",
      "11|7|Legend|0|Skill Level Up - Rush Strike",
      "11|6|Common|0|Critical Hit",
      "11|9|Common|0|Defense",
      "11|8|Common|0|Max HP",
-     "11|11|Common|0|Attack",
-     "11|13|Legend|0|Skill Level Up - Ankle Slice",
-     "11|12|Common|0|Max MP",
-     "12|3|Common|0|Critical Hit Resist",
+     "11|11|Common|1|Attack",
+     "11|13|Legend|1|Skill Level Up - Ankle Slice",
+     "11|12|Common|1|Max MP",
+     "12|3|Common|1|Critical Hit Resist",
      "12|6|Common|0|Max MP",
      "12|9|Common|0|Max MP",
      "12|11|Rare|0|Skill Level Up - Experienced Counterstrike",
-     "12|13|Common|0|Defense",
-     "13|3|Unique|0|Damage Boost",
-     "13|5|Legend|0|Skill Level Up - Overhead Slam",
-     "13|4|Common|0|Attack",
-     "13|7|Rare|0|Skill Level Up - Impact Hit",
-     "13|6|Common|0|Defense",
+     "12|13|Common|1|Defense",
+     "13|3|Unique|1|Damage Boost",
+     "13|5|Legend|1|Skill Level Up - Overhead Slam",
+     "13|4|Common|1|Attack",
+     "13|7|Rare|1|Skill Level Up - Impact Hit",
+     "13|6|Common|1|Defense",
      "13|9|Legend|0|Skill Level Up - Defiance",
      "13|8|Common|0|Attack",
      "13|11|Common|0|Max HP",
      "13|10|Common|0|Critical Hit",
-     "13|13|Unique|0|Damage Tolerance",
+     "13|13|Unique|1|Damage Tolerance",
      "13|12|Common|0|Critical Hit Resist"
     ],
     "13": [
@@ -31143,7 +31143,7 @@
       "id": 11170000,
       "name": "Overhead Slam",
       "needLevel": 4,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31163,7 +31163,7 @@
       "id": 11200000,
       "name": "Ankle Slice",
       "needLevel": 7,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -31203,7 +31203,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31253,7 +31253,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -31263,7 +31263,7 @@
       "id": 11750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -31273,7 +31273,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -31303,7 +31303,7 @@
       "id": 11790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -31313,7 +31313,7 @@
       "id": 11800000,
       "name": "Murderous Burst",
       "needLevel": 25,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 0,
@@ -31398,12 +31398,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_039.png",
       "id": 11390000,
       "name": "Rage Burst",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -31473,8 +31473,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 01:34 UTC",
+ "updated": "2026-11-06 02:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 02:04",
+   "n": "RyBear",
+   "x": "reached level 38"
+  },
+  {
+   "t": "2026-11-06 02:04",
+   "n": "RyBear",
+   "x": "new Avenger Helm +0"
+  },
+  {
+   "t": "2026-11-06 02:04",
+   "n": "RyBear",
+   "x": "5 new titles"
+  },
+  {
+   "t": "2026-11-06 02:04",
+   "n": "RyBear",
+   "x": "opened 17 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-06 02:04",
+   "n": "RyBear",
+   "x": "skills up: Overhead Slam 13, Ankle Slice 2, Ruinous Blow 13, Identify Weakness 12 and 5 more"
+  },
   {
    "t": "2026-11-06 01:34",
    "n": "RyBear",
@@ -32949,31 +32974,6 @@
    "t": "2026-10-31 02:31",
    "n": "CutieCatty",
    "x": "skills up: Sprint Mantra 9"
-  },
-  {
-   "t": "2026-10-30 18:01",
-   "n": "YasuoMain",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-10-30 17:31",
-   "n": "CutieCatty",
-   "x": "Enraged Kromede Rod +10 → +15"
-  },
-  {
-   "t": "2026-10-30 17:31",
-   "n": "YasuoMain",
-   "x": "new Enraged Kromede Claymore +15"
-  },
-  {
-   "t": "2026-10-30 17:31",
-   "n": "YasuoMain",
-   "x": "new Enraged Kromede Ring +10"
-  },
-  {
-   "t": "2026-10-30 17:31",
-   "n": "YasuoMain",
-   "x": "skills up: Aerial Snare 2"
   }
  ]
 }

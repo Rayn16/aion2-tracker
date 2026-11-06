@@ -14571,15 +14571,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 137843,
-     "il": 2665
+     "cp": 138082,
+     "il": 2666
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 137843,
-   "il": 2665,
+   "cp": 138082,
+   "il": 2666,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15251,7 +15251,7 @@
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
      "grade": "Unique",
-     "enchantLevel": 1,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -15403,11 +15403,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +6.2%",
-      "Double Resist +6.2%"
+      "Combat Speed +6.3%",
+      "Double Resist +6.3%"
      ],
      "type": "Time",
-     "value": 62
+     "value": 63
     },
     {
      "name": "Destruction [Zikel]",
@@ -15458,7 +15458,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2665
+     "value": 2666
     }
    ],
    "title": {
@@ -16202,7 +16202,7 @@
       "id": 13350000,
       "name": "Heart Gore",
       "needLevel": 4,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -31473,8 +31473,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 02:04 UTC",
+ "updated": "2026-11-06 02:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 02:32",
+   "n": "DeathRunner",
+   "x": "Chalice of Vigor +1 → +2"
+  },
+  {
+   "t": "2026-11-06 02:32",
+   "n": "DeathRunner",
+   "x": "skills up: Heart Gore 17"
+  },
   {
    "t": "2026-11-06 02:04",
    "n": "RyBear",
@@ -32964,16 +32974,6 @@
    "t": "2026-10-31 03:01",
    "n": "CutieCatty",
    "x": "new Enraged Kromede Ring +11"
-  },
-  {
-   "t": "2026-10-31 02:31",
-   "n": "CutieCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-10-31 02:31",
-   "n": "CutieCatty",
-   "x": "skills up: Sprint Mantra 9"
   }
  ]
 }

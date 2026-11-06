@@ -14571,15 +14571,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 138082,
-     "il": 2666
+     "cp": 138235,
+     "il": 2681
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 138082,
-   "il": 2666,
+   "cp": 138235,
+   "il": 2681,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -14853,17 +14853,17 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Vakron Boots",
+     "name": "Nuakum Boots",
      "grade": "Unique",
-     "enchantLevel": 11,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Boots.png",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Boots.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
        "HP",
-       "+30",
-       "Common"
+       "+60",
+       "Rare"
       ],
       [
        "MP",
@@ -14871,13 +14871,13 @@
        "Rare"
       ],
       [
-       "Critical Hit",
+       "Block",
        "+7",
-       "Rare"
+       "Common"
       ],
       [
-       "HP",
-       "+60",
+       "Critical Hit",
+       "+7",
        "Rare"
       ]
      ],
@@ -15326,12 +15326,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +5.5%",
-      "Block increase +5.5%",
-      "Critical Hit Resist increase +5.5%"
+      "Evasion increase +2.8%",
+      "Block increase +2.8%",
+      "Critical Hit Resist increase +2.8%"
      ],
      "type": "DEX",
-     "value": 55
+     "value": 28
     },
     {
      "name": "Intelligence",
@@ -15458,7 +15458,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2666
+     "value": 2681
     }
    ],
    "title": {
@@ -16292,7 +16292,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 18
+      "skillLevel": 19
      },
      {
       "acquired": 1,
@@ -28163,14 +28163,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 98223,
+     "cp": 98234,
      "il": 2220
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 98223,
+   "cp": 98234,
    "il": 2220,
    "gear": [
     {
@@ -29031,7 +29031,7 @@
     }
    ],
    "title": {
-    "ownedCount": 187,
+    "ownedCount": 188,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -29096,8 +29096,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 62,
-      "ownedPercent": 63,
+      "ownedCount": 63,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "MP +20"
@@ -31473,8 +31473,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 03:04 UTC",
+ "updated": "2026-11-06 03:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 03:33",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-06 03:32",
+   "n": "DeathRunner",
+   "x": "new Nuakum Boots +10"
+  },
+  {
+   "t": "2026-11-06 03:32",
+   "n": "DeathRunner",
+   "x": "skills up: Exploit Weakness 19"
+  },
   {
    "t": "2026-11-06 02:32",
    "n": "DeathRunner",
@@ -32959,21 +32974,6 @@
    "t": "2026-10-31 05:31",
    "n": "CuteCatty",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-10-31 03:01",
-   "n": "CutieCatty",
-   "x": "new Enraged Kromede Necklace +10"
-  },
-  {
-   "t": "2026-10-31 03:01",
-   "n": "CutieCatty",
-   "x": "new Enraged Kromede Earrings +10"
-  },
-  {
-   "t": "2026-10-31 03:01",
-   "n": "CutieCatty",
-   "x": "new Enraged Kromede Ring +11"
   }
  ]
 }

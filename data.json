@@ -4060,14 +4060,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 74232,
+     "cp": 74235,
      "il": 1591
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 74232,
+   "cp": 74235,
    "il": 1591,
    "gear": [
     {
@@ -6068,15 +6068,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 118627,
-     "il": 2526
+     "cp": 119116,
+     "il": 2531
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 118627,
-   "il": 2526,
+   "cp": 119116,
+   "il": 2531,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6122,7 +6122,7 @@
      "slotPosName": "SubHand",
      "name": "Nuakum Guard",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
@@ -6198,7 +6198,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -6312,7 +6312,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -6935,7 +6935,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2526
+     "value": 2531
     }
    ],
    "title": {
@@ -14638,14 +14638,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 140767,
+     "cp": 140777,
      "il": 2687
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 140767,
+   "cp": 140777,
    "il": 2687,
    "gear": [
     {
@@ -31638,8 +31638,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 14:34 UTC",
+ "updated": "2026-11-06 15:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 15:04",
+   "n": "CutieCatty",
+   "x": "Nuakum Guard +10 → +13"
+  },
+  {
+   "t": "2026-11-06 15:04",
+   "n": "CutieCatty",
+   "x": "Nuakum Greaves +10 → +11"
+  },
+  {
+   "t": "2026-11-06 15:04",
+   "n": "CutieCatty",
+   "x": "Nuakum Gloves +11 → +12"
+  },
   {
    "t": "2026-11-06 08:34",
    "n": "CuteCatty",
@@ -33124,21 +33139,6 @@
    "t": "2026-11-01 18:01",
    "n": "YasuoMain16",
    "x": "Liberator Ring +0 → +5"
-  },
-  {
-   "t": "2026-11-01 18:01",
-   "n": "YasuoMain16",
-   "x": "Liberator Bracelet +0 → +5"
-  },
-  {
-   "t": "2026-11-01 18:01",
-   "n": "YasuoMain16",
-   "x": "Clash Rune +2 → +3"
-  },
-  {
-   "t": "2026-11-01 18:01",
-   "n": "YasuoMain16",
-   "x": "Clash Rune +2 → +3"
   }
  ]
 }

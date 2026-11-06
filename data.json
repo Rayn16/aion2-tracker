@@ -6001,14 +6001,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 116308,
+     "cp": 118610,
      "il": 2526
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 116308,
+   "cp": 118610,
    "il": 2526,
    "gear": [
     {
@@ -7822,7 +7822,7 @@
       "id": 18160000,
       "name": "Sprint Mantra",
       "needLevel": 22,
-      "skillLevel": 13
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -11327,15 +11327,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 80585,
-     "il": 1655
+     "cp": 81521,
+     "il": 1668
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 80585,
-   "il": 1655,
+   "cp": 81521,
+   "il": 1668,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -11449,17 +11449,22 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Bakarma Greaves",
+     "name": "Vakron Greaves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
-       "+10",
-       "Legend"
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
       ],
       [
        "Defense",
@@ -11467,14 +11472,9 @@
        "Rare"
       ],
       [
-       "MP",
-       "+30",
+       "HP",
+       "+60",
        "Rare"
-      ],
-      [
-       "Block",
-       "+15",
-       "Legend"
       ]
      ],
      "godSlots": 0,
@@ -12024,11 +12024,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2.4%",
-      "Evasion increase +2.4%"
+      "Accuracy increase +3.6%",
+      "Evasion increase +3.6%"
      ],
      "type": "Freedom",
-     "value": 24
+     "value": 36
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -12042,11 +12042,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.1%",
-      "Regeneration +1.1%"
+      "HP increase +1.5%",
+      "Regeneration +1.5%"
      ],
      "type": "Life",
-     "value": 11
+     "value": 15
     },
     {
      "name": "Time [Siel]",
@@ -12069,48 +12069,48 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +3.8%",
-      "Regeneration Penetration +3.8%"
+      "Critical Hit increase +4.4%",
+      "Regeneration Penetration +4.4%"
      ],
      "type": "Death",
-     "value": 38
+     "value": 44
     },
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.7%",
-      "Double Chance +0.7%"
+      "MP Cost -1.1%",
+      "Double Chance +1.1%"
      ],
      "type": "Wisdom",
-     "value": 7
+     "value": 11
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +1.1%",
-      "Endurance +1.1%"
+      "MP increase +1.5%",
+      "Endurance +1.5%"
      ],
      "type": "Destiny",
-     "value": 11
+     "value": 15
     },
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +1.4%",
-      "Block increase +1.4%"
+      "Move Speed +2.6%",
+      "Block increase +2.6%"
      ],
      "type": "Space",
-     "value": 14
+     "value": 26
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1655
+     "value": 1668
     }
    ],
    "title": {
-    "ownedCount": 184,
+    "ownedCount": 185,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -12153,8 +12153,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 60,
-      "ownedPercent": 61,
+      "ownedCount": 61,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "MP +20"
@@ -13311,10 +13311,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_FireEle_01.png",
-     "id": 1213,
-     "level": 3,
-     "name": "Lesser Fire Spirit"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Guardit_02.png",
+     "id": 1197,
+     "level": 1,
+     "name": "Watcher Guardite"
     },
     "wing": {
      "enchantLevel": 0,
@@ -14571,15 +14571,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 138254,
-     "il": 2684
+     "cp": 139275,
+     "il": 2687
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 138254,
-   "il": 2684,
+   "cp": 139275,
+   "il": 2687,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -14741,7 +14741,7 @@
      "slotPosName": "Helmet",
      "name": "Nuakum Helm",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
@@ -15264,7 +15264,7 @@
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -15394,11 +15394,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +4.7%",
-      "Regeneration +4.7%"
+      "HP increase +4.9%",
+      "Regeneration +4.9%"
      ],
      "type": "Life",
-     "value": 47
+     "value": 49
     },
     {
      "name": "Time [Siel]",
@@ -15458,7 +15458,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2684
+     "value": 2687
     }
    ],
    "title": {
@@ -16162,7 +16162,7 @@
       "id": 13010000,
       "name": "Quick Slice",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -16182,7 +16182,7 @@
       "id": 13070000,
       "name": "Shadowstrike",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -28163,15 +28163,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 99265,
-     "il": 2290
+     "cp": 99408,
+     "il": 2310
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 99265,
-   "il": 2290,
+   "cp": 99408,
+   "il": 2310,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28823,11 +28823,11 @@
     },
     {
      "slotPosName": "Arcana3",
-     "name": "Compass of Vigor",
-     "grade": "Rare",
+     "name": "Compass of Magic",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
-     "max": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28924,11 +28924,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +4.8%",
-      "Evasion increase +4.8%"
+      "Accuracy increase +3.6%",
+      "Evasion increase +3.6%"
      ],
      "type": "Freedom",
-     "value": 48
+     "value": 36
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -28969,11 +28969,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +3.8%",
-      "Regeneration Penetration +3.8%"
+      "Critical Hit increase +5.4%",
+      "Regeneration Penetration +5.4%"
      ],
      "type": "Death",
-     "value": 38
+     "value": 54
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -29006,7 +29006,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2290
+     "value": 2310
     }
    ],
    "title": {
@@ -29872,7 +29872,7 @@
       "id": 17040000,
       "name": "Judgment Thunder",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -29892,7 +29892,7 @@
       "id": 17150000,
       "name": "Divine Aura",
       "needLevel": 3,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -29912,7 +29912,7 @@
       "id": 17370000,
       "name": "Lightning Strike Scattershot",
       "needLevel": 5,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31571,8 +31571,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 05:04 UTC",
+ "updated": "2026-11-06 05:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 05:34",
+   "n": "CutieCatty",
+   "x": "skills up: Sprint Mantra 15"
+  },
+  {
+   "t": "2026-11-06 05:34",
+   "n": "uTril",
+   "x": "new Compass of Magic +0"
+  },
+  {
+   "t": "2026-11-06 05:34",
+   "n": "uTril",
+   "x": "skills up: Divine Aura 5, Lightning Strike Scattershot 13"
+  },
+  {
+   "t": "2026-11-06 05:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Helm +13 → +14"
+  },
+  {
+   "t": "2026-11-06 05:32",
+   "n": "DeathRunner",
+   "x": "Parchment of Vigor +0 → +2"
+  },
+  {
+   "t": "2026-11-06 05:32",
+   "n": "DeathRunner",
+   "x": "skills up: Quick Slice 16, Shadowstrike 13"
+  },
+  {
+   "t": "2026-11-06 05:32",
+   "n": "Darya",
+   "x": "new Vakron Greaves +10"
+  },
+  {
+   "t": "2026-11-06 05:32",
+   "n": "Darya",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-06 05:04",
    "n": "RyBear",
@@ -33032,46 +33072,6 @@
    "t": "2026-11-01 00:04",
    "n": "CutieCatty",
    "x": "Nuakum Gloves +10 → +11"
-  },
-  {
-   "t": "2026-10-31 23:51",
-   "n": "CutieCatty",
-   "x": "skills up: Incandescent Blow 14, Impactful Crush 9, Protection Circle 15, Raging Spell 13"
-  },
-  {
-   "t": "2026-10-31 23:50",
-   "n": "YasuoMain",
-   "x": "new Bell of Magic +0"
-  },
-  {
-   "t": "2026-10-31 23:50",
-   "n": "YasuoMain",
-   "x": "skills up: Survival Stance 15, Survival Willpower 16"
-  },
-  {
-   "t": "2026-10-31 23:31",
-   "n": "YasuoMain",
-   "x": "skills up: Ruinous Blow 15"
-  },
-  {
-   "t": "2026-10-31 23:01",
-   "n": "YasuoMain",
-   "x": "opened 4 Daevanion nodes"
-  },
-  {
-   "t": "2026-10-31 22:31",
-   "n": "CutieCatty",
-   "x": "Nuakum Helm +10 → +12"
-  },
-  {
-   "t": "2026-10-31 22:31",
-   "n": "CutieCatty",
-   "x": "new Nuakum Gloves +10"
-  },
-  {
-   "t": "2026-10-31 22:31",
-   "n": "CutieCatty",
-   "x": "Enraged Kromede Ring +11 → +10"
   }
  ]
 }

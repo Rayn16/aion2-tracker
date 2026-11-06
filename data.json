@@ -28230,14 +28230,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 99408,
+     "cp": 98437,
      "il": 2310
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 99408,
+   "cp": 98437,
    "il": 2310,
    "gear": [
     {
@@ -30189,7 +30189,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 8
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -30199,7 +30199,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -30229,7 +30229,7 @@
       "id": 17410000,
       "name": "Light of Protection",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 17
      },
      {
       "acquired": 0,
@@ -31638,8 +31638,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 18:04 UTC",
+ "updated": "2026-11-06 18:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 18:33",
+   "n": "uTril",
+   "x": "skills up: Light of Protection 17"
+  },
   {
    "t": "2026-11-06 15:32",
    "n": "DeathRunner",
@@ -33134,11 +33139,6 @@
    "t": "2026-11-01 18:01",
    "n": "YasuoMain16",
    "x": "Liberator Earrings +0 → +4"
-  },
-  {
-   "t": "2026-11-01 18:01",
-   "n": "YasuoMain16",
-   "x": "Liberator Ring +0 → +5"
   }
  ]
 }

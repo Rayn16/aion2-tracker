@@ -14571,14 +14571,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 139275,
+     "cp": 140567,
      "il": 2687
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 139275,
+   "cp": 140567,
    "il": 2687,
    "gear": [
     {
@@ -15326,12 +15326,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2.9%",
-      "Block increase +2.9%",
-      "Critical Hit Resist increase +2.9%"
+      "Evasion increase +1.5%",
+      "Block increase +1.5%",
+      "Critical Hit Resist increase +1.5%"
      ],
      "type": "DEX",
-     "value": 29
+     "value": 15
     },
     {
      "name": "Intelligence",
@@ -16302,7 +16302,7 @@
       "id": 13730000,
       "name": "Apply Poison",
       "needLevel": 9,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -31571,8 +31571,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 05:34 UTC",
+ "updated": "2026-11-06 06:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 06:02",
+   "n": "DeathRunner",
+   "x": "skills up: Apply Poison 17"
+  },
   {
    "t": "2026-11-06 05:34",
    "n": "CutieCatty",
@@ -33067,11 +33072,6 @@
    "t": "2026-11-01 00:04",
    "n": "CutieCatty",
    "x": "Nuakum Helm +12 → +13"
-  },
-  {
-   "t": "2026-11-01 00:04",
-   "n": "CutieCatty",
-   "x": "Nuakum Gloves +10 → +11"
   }
  ]
 }

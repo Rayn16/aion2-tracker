@@ -2078,14 +2078,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 74115,
-     "il": 1568
+     "cp": 75579,
+     "il": 1638
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 74115,
-   "il": 1568,
+   "cp": 75579,
+   "il": 1638,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2201,31 +2201,31 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Bakarma Greaves",
+     "name": "Vakron Greaves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png",
      "max": 15,
      "slots": 4,
      "stones": [
+      [
+       "Evasion Bonus",
+       "+7",
+       "Rare"
+      ],
       [
        "Critical Hit",
        "+7",
        "Rare"
       ],
       [
-       "MP",
-       "+15",
-       "Common"
+       "HP",
+       "+60",
+       "Rare"
       ],
       [
        "Attack",
        "+1",
-       "Common"
-      ],
-      [
-       "Block",
-       "+7",
        "Common"
       ]
      ],
@@ -2315,16 +2315,21 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Bakarma Gloves",
+     "name": "Vakron Gloves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+30",
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+7",
        "Rare"
       ],
       [
@@ -2333,14 +2338,9 @@
        "Common"
       ],
       [
-       "HP",
-       "+30",
+       "Accuracy Bonus",
+       "+5",
        "Common"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -2488,22 +2488,45 @@
      ]
     },
     {
-     "slotPosName": "Ring2",
-     "name": "Liberator Ring",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "slotPosName": "Ring1",
+     "name": "Aulamus Ring",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
-     "slotPosName": "Ring1",
+     "slotPosName": "Ring2",
      "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 5,
@@ -2628,13 +2651,9 @@
     },
     {
      "name": "Dexterity",
-     "statSecondList": [
-      "Evasion increase +0.8%",
-      "Block increase +0.8%",
-      "Critical Hit Resist increase +0.8%"
-     ],
+     "statSecondList": null,
      "type": "DEX",
-     "value": 8
+     "value": 0
     },
     {
      "name": "Intelligence",
@@ -2645,10 +2664,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.7%"
+      "HP increase +3%"
      ],
      "type": "CON",
-     "value": 17
+     "value": 30
     },
     {
      "name": "Precision",
@@ -2659,10 +2678,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +1.4%"
+      "Status Effect Resist +1%"
      ],
      "type": "WIS",
-     "value": 14
+     "value": 10
     },
     {
      "name": "Justice [Nezekan]",
@@ -2758,7 +2777,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1568
+     "value": 1638
     }
    ],
    "title": {
@@ -2910,7 +2929,7 @@
       "id": 12010000,
       "name": "Vicious Strike",
       "needLevel": 1,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -4039,14 +4058,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 72605,
+     "cp": 72642,
      "il": 1552
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 72605,
+   "cp": 72642,
    "il": 1552,
    "gear": [
     {
@@ -4748,7 +4767,7 @@
     }
    ],
    "title": {
-    "ownedCount": 182,
+    "ownedCount": 184,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -4763,8 +4782,8 @@
       "grade": "Legend",
       "id": 21020046,
       "name": "Even Better",
-      "ownedCount": 62,
-      "ownedPercent": 58,
+      "ownedCount": 63,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "HP Potion Recovery increase +2%"
@@ -4788,8 +4807,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 59,
-      "ownedPercent": 58,
+      "ownedCount": 60,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "Block +10"
@@ -31594,8 +31613,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 07:34 UTC",
+ "updated": "2026-11-06 08:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 08:04",
+   "n": "CuteCatty",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-06 08:01",
+   "n": "YasuoMain16",
+   "x": "new Vakron Greaves +10"
+  },
+  {
+   "t": "2026-11-06 08:01",
+   "n": "YasuoMain16",
+   "x": "new Vakron Gloves +10"
+  },
+  {
+   "t": "2026-11-06 08:01",
+   "n": "YasuoMain16",
+   "x": "new Aulamus Ring +10"
+  },
+  {
+   "t": "2026-11-06 08:01",
+   "n": "YasuoMain16",
+   "x": "skills up: Vicious Strike 11"
+  },
   {
    "t": "2026-11-06 07:31",
    "n": "YasuoMain16",
@@ -33070,31 +33114,6 @@
    "t": "2026-11-01 17:31",
    "n": "CutieCatty",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-01 15:31",
-   "n": "CutieCatty",
-   "x": "Nuakum Helm +13 → +14"
-  },
-  {
-   "t": "2026-11-01 05:31",
-   "n": "YasuoMain",
-   "x": "new Nuakum Helm +12"
-  },
-  {
-   "t": "2026-11-01 05:31",
-   "n": "YasuoMain",
-   "x": "skills up: Survival Willpower 17"
-  },
-  {
-   "t": "2026-11-01 04:31",
-   "n": "YasuoMain",
-   "x": "Nuakum Cloak +10 → +11"
-  },
-  {
-   "t": "2026-11-01 00:31",
-   "n": "YasuoMain",
-   "x": "Clash Rune +3 → +4"
   }
  ]
 }

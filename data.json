@@ -30310,14 +30310,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 46705,
+     "cp": 50579,
      "il": 801
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 44,
-   "cp": 46705,
+   "cp": 50579,
    "il": 801,
    "gear": [
     {
@@ -30730,7 +30730,7 @@
     }
    ],
    "title": {
-    "ownedCount": 113,
+    "ownedCount": 114,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30789,8 +30789,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 31,
-      "ownedPercent": 30,
+      "ownedCount": 32,
+      "ownedPercent": 31,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -31316,7 +31316,7 @@
       "id": 11280000,
       "name": "Sword Aura Rampage",
       "needLevel": 5,
-      "skillLevel": 8
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31346,7 +31346,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -31506,7 +31506,7 @@
       "id": 11250000,
       "name": "Zikel's Blessing",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -31636,8 +31636,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 20:34 UTC",
+ "updated": "2026-11-06 21:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 21:04",
+   "n": "RyBear",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-06 21:04",
+   "n": "RyBear",
+   "x": "skills up: Sword Aura Rampage 13, Rush Strike 9, Zikel's Blessing 10"
+  },
   {
    "t": "2026-11-06 20:34",
    "n": "RyBear",
@@ -33127,16 +33137,6 @@
    "t": "2026-11-02 00:02",
    "n": "YasuoMain16",
    "x": "new Vakron Helm +10"
-  },
-  {
-   "t": "2026-11-02 00:02",
-   "n": "YasuoMain16",
-   "x": "skills up: Fury 14, Block Pain 15"
-  },
-  {
-   "t": "2026-11-01 23:31",
-   "n": "YasuoMain16",
-   "x": "1 new title"
   }
  ]
 }

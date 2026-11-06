@@ -30310,24 +30310,24 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 50660,
-     "il": 816
+     "cp": 52980,
+     "il": 889
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 44,
-   "cp": 50660,
-   "il": 816,
+   "level": 45,
+   "cp": 52980,
+   "il": 889,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Liberator Greatsword",
-     "grade": "Legend",
+     "name": "Spiritforged Greatsword",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0067_T05.png",
-     "max": 10,
-     "slots": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0078_T05.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 1,
      "god": [],
@@ -30337,32 +30337,36 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Liberator Guard",
+     "name": "Anguish Guard",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_028.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_002.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 1,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
      "slotPosName": "Torso",
-     "name": "Liberator Breastplate",
+     "name": "Anguish Breastplate",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Torso.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -30397,10 +30401,10 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Avenger Pauldrons",
+     "name": "Liberator Pauldrons",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Shoulder.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Shoulder.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -30412,32 +30416,57 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Liberator Gloves",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Gloves.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Gloves",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
      "slotPosName": "Boots",
-     "name": "Liberator Boots",
+     "name": "Anguish Boots",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Boots.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Boots.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -30516,6 +30545,23 @@
      ]
     },
     {
+     "slotPosName": "Ring1",
+     "name": "Anguish Ring",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
+     "max": 10,
+     "slots": 3,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
      "slotPosName": "Ring2",
      "name": "Avenger Ring",
      "grade": "Legend",
@@ -30523,21 +30569,6 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0017.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Quest"
-     ]
-    },
-    {
-     "slotPosName": "Ring1",
-     "name": "Chaser Ring",
-     "grade": "Rare",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png",
-     "max": 5,
-     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30597,10 +30628,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.6%"
+      "Attack increase +1.7%"
      ],
      "type": "STR",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Dexterity",
@@ -30628,27 +30659,29 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Resist +1.5%"
+     ],
      "type": "WIS",
-     "value": 0
+     "value": 15
     },
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4%",
-      "Perfect Chance +4%"
+      "Defense increase +4.1%",
+      "Perfect Chance +4.1%"
      ],
      "type": "Justice",
-     "value": 40
+     "value": 41
     },
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +1.9%",
-      "Evasion increase +1.9%"
+      "Accuracy increase +2%",
+      "Evasion increase +2%"
      ],
      "type": "Freedom",
-     "value": 19
+     "value": 20
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -30662,38 +30695,38 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +0.5%",
-      "Regeneration +0.5%"
+      "HP increase +0.6%",
+      "Regeneration +0.6%"
      ],
      "type": "Life",
-     "value": 5
+     "value": 6
     },
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +4%",
-      "Double Resist +4%"
+      "Combat Speed +4.1%",
+      "Double Resist +4.1%"
      ],
      "type": "Time",
-     "value": 40
+     "value": 41
     },
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.5%",
-      "Perfect Resist +0.5%"
+      "Attack increase +0.6%",
+      "Perfect Resist +0.6%"
      ],
      "type": "Destruction",
-     "value": 5
+     "value": 6
     },
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +2.7%",
-      "Regeneration Penetration +2.7%"
+      "Critical Hit increase +2.8%",
+      "Regeneration Penetration +2.8%"
      ],
      "type": "Death",
-     "value": 27
+     "value": 28
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -30707,31 +30740,53 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +0.5%",
-      "Endurance +0.5%"
+      "MP increase +0.6%",
+      "Endurance +0.6%"
      ],
      "type": "Destiny",
-     "value": 5
+     "value": 6
     },
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +1.3%",
-      "Block increase +1.3%"
+      "Move Speed +1.4%",
+      "Block increase +1.4%"
      ],
      "type": "Space",
-     "value": 13
+     "value": 14
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 816
+     "value": 889
     }
    ],
    "title": {
-    "ownedCount": 114,
+    "ownedCount": 118,
     "titleList": [
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "HP +750"
+       },
+       {
+        "desc": "HP Potion Recovery +300"
+       }
+      ],
+      "grade": "Legend",
+      "id": 21010004,
+      "name": "Grasper of the Core",
+      "ownedCount": 35,
+      "ownedPercent": 34,
+      "statList": [
+       {
+        "desc": "Attack Bonus +2"
+       }
+      ],
+      "totalCount": 102
+     },
      {
       "equipCategory": "Attack",
       "equipStatList": [
@@ -30770,33 +30825,14 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 39,
-      "ownedPercent": 39,
+      "ownedCount": 40,
+      "ownedPercent": 40,
       "statList": [
        {
         "desc": "Move Speed +1%"
        }
       ],
       "totalCount": 99
-     },
-     {
-      "equipCategory": "Etc",
-      "equipStatList": [
-       {
-        "desc": "Combat Speed +1.9%"
-       }
-      ],
-      "grade": "Rare",
-      "id": 23050007,
-      "name": "Fashionista",
-      "ownedCount": 32,
-      "ownedPercent": 31,
-      "statList": [
-       {
-        "desc": "Critical Hit +5"
-       }
-      ],
-      "totalCount": 102
      }
     ],
     "totalCount": 307
@@ -30829,8 +30865,8 @@
       "id": 13,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 51,
-      "openPercent": 58,
+      "openNodeCount": 52,
+      "openPercent": 59,
       "totalNodeCount": 88
      },
      {
@@ -30838,8 +30874,8 @@
       "id": 14,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 0,
-      "openPercent": 0,
+      "openNodeCount": 3,
+      "openPercent": 3,
       "totalNodeCount": 116
      },
      {
@@ -31115,7 +31151,7 @@
      "12|9|Common|1|Max HP",
      "12|11|Common|1|Defense",
      "12|13|Common|1|Critical Hit Resist",
-     "13|3|Unique|0|Critical Damage Tolerance",
+     "13|3|Unique|1|Critical Damage Tolerance",
      "13|5|Common|1|Critical Hit",
      "13|4|Common|1|Max MP",
      "13|7|Common|1|Defense",
@@ -31205,10 +31241,10 @@
      "9|7|Common|0|Critical Hit",
      "9|4|Rare|0|Skill Level Up - Attack Preparation",
      "9|5|Common|0|Critical Hit Resist",
-     "9|10|Legend|0|Skill Level Up - Overhead Slam",
+     "9|10|Legend|1|Skill Level Up - Overhead Slam",
      "9|11|Common|0|Defense",
-     "9|8|Common|0|Attack",
-     "9|9|Common|0|Max HP",
+     "9|8|Common|1|Attack",
+     "9|9|Common|1|Max HP",
      "9|14|Common|0|Critical Hit",
      "9|12|Common|0|Max MP",
      "9|13|Common|0|Critical Hit Resist",
@@ -31616,7 +31652,7 @@
       "id": 11170000,
       "name": "Overhead Slam",
       "needLevel": 4,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31636,7 +31672,7 @@
       "id": 11200000,
       "name": "Ankle Slice",
       "needLevel": 7,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -31656,7 +31692,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 9
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -31706,7 +31742,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 5
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -31716,7 +31752,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31726,7 +31762,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31746,7 +31782,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31756,7 +31792,7 @@
       "id": 11770000,
       "name": "Destructive Impulse",
       "needLevel": 17,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -31786,7 +31822,7 @@
       "id": 11800000,
       "name": "Murderous Burst",
       "needLevel": 25,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 0,
@@ -31946,8 +31982,63 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 23:04 UTC",
+ "updated": "2026-11-06 23:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "reached level 45"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "new Spiritforged Greatsword +0"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "new Anguish Guard +0"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "new Anguish Breastplate +0"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "new Liberator Pauldrons +0"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "new Bakarma Gloves +10"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "new Anguish Boots +0"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "new Anguish Ring +0"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "4 new titles"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "opened 4 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-06 23:35",
+   "n": "RyBear",
+   "x": "skills up: Overhead Slam 14, Ankle Slice 3, Rush Strike 11, Protection Armor 6 and 5 more"
+  },
   {
    "t": "2026-11-06 23:04",
    "n": "RyBear",
@@ -33391,61 +33482,6 @@
   {
    "t": "2026-11-02 21:31",
    "n": "YasuoMain",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-02 20:01",
-   "n": "YasuoMain16",
-   "x": "skills up: Enhance Health 13, Survival Willpower 14"
-  },
-  {
-   "t": "2026-11-02 19:01",
-   "n": "YasuoMain16",
-   "x": "new Vakron Breastplate +10"
-  },
-  {
-   "t": "2026-11-02 19:01",
-   "n": "YasuoMain16",
-   "x": "skills up: Impact Hit 12"
-  },
-  {
-   "t": "2026-11-02 04:31",
-   "n": "YasuoMain16",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-02 02:01",
-   "n": "CutieCatty",
-   "x": "Nuakum Pauldrons +9 → +10"
-  },
-  {
-   "t": "2026-11-02 01:31",
-   "n": "CutieCatty",
-   "x": "new Nuakum Pauldrons +9"
-  },
-  {
-   "t": "2026-11-02 01:31",
-   "n": "CutieCatty",
-   "x": "skills up: Crossguard 15"
-  },
-  {
-   "t": "2026-11-02 01:01",
-   "n": "YasuoMain16",
-   "x": "new Vakron Cloak +10"
-  },
-  {
-   "t": "2026-11-02 00:02",
-   "n": "CuteCatty",
-   "x": "new Vakron Helm +10"
-  },
-  {
-   "t": "2026-11-02 00:02",
-   "n": "CuteCatty",
-   "x": "new Vakron Gloves +10"
-  },
-  {
-   "t": "2026-11-02 00:02",
-   "n": "CuteCatty",
    "x": "1 new title"
   }
  ]

@@ -6068,14 +6068,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 119116,
+     "cp": 119119,
      "il": 2531
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 119116,
+   "cp": 119119,
    "il": 2531,
    "gear": [
     {
@@ -14638,15 +14638,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 140777,
-     "il": 2687
+     "cp": 140823,
+     "il": 2688
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 140777,
-   "il": 2687,
+   "cp": 140823,
+   "il": 2688,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15525,7 +15525,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2687
+     "value": 2688
     }
    ],
    "title": {
@@ -15628,8 +15628,8 @@
       "id": 42,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 58,
-      "openPercent": 66,
+      "openNodeCount": 59,
+      "openPercent": 67,
       "totalNodeCount": 88
      },
      {
@@ -15784,7 +15784,7 @@
      "5|11|Common|1|Max MP",
      "5|8|Common|0|Max MP",
      "5|9|Legend|0|Skill Level Up - Shadowstrike",
-     "5|7|Common|0|Attack",
+     "5|7|Common|1|Attack",
      "5|4|Common|0|Max HP",
      "5|5|Common|0|Defense",
      "6|3|Common|1|Critical Hit",
@@ -31638,8 +31638,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 15:04 UTC",
+ "updated": "2026-11-06 15:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 15:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-06 15:04",
    "n": "CutieCatty",
@@ -33129,11 +33134,6 @@
    "t": "2026-11-01 18:01",
    "n": "YasuoMain16",
    "x": "Liberator Earrings +0 → +4"
-  },
-  {
-   "t": "2026-11-01 18:01",
-   "n": "YasuoMain16",
-   "x": "Liberator Ring +0 → +5"
   },
   {
    "t": "2026-11-01 18:01",

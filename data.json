@@ -64,13 +64,13 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 129168,
+     "cp": 129174,
      "il": 2567
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 129168,
+   "cp": 129174,
    "il": 2567,
    "gear": [
     {
@@ -14571,14 +14571,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 138235,
+     "cp": 138287,
      "il": 2681
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 138235,
+   "cp": 138287,
    "il": 2681,
    "gear": [
     {
@@ -28163,15 +28163,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 98234,
-     "il": 2220
+     "cp": 98300,
+     "il": 2231
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 98234,
-   "il": 2220,
+   "cp": 98300,
+   "il": 2231,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28253,34 +28253,13 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Vakron Breastplate",
+     "name": "Nuakum Breastplate",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Accuracy Bonus",
-       "+5",
-       "Common"
-      ],
-      [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -28895,12 +28874,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.1%",
-      "Block increase +0.1%",
-      "Critical Hit Resist increase +0.1%"
+      "Evasion increase +1.6%",
+      "Block increase +1.6%",
+      "Critical Hit Resist increase +1.6%"
      ],
      "type": "DEX",
-     "value": 1
+     "value": 16
     },
     {
      "name": "Intelligence",
@@ -28928,10 +28907,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +2.8%"
+      "Status Effect Resist +1.8%"
      ],
      "type": "WIS",
-     "value": 28
+     "value": 18
     },
     {
      "name": "Justice [Nezekan]",
@@ -29027,7 +29006,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2220
+     "value": 2231
     }
    ],
    "title": {
@@ -30266,14 +30245,14 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 42417,
+     "cp": 42822,
      "il": 674
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 38,
-   "cp": 42417,
+   "cp": 42822,
    "il": 674,
    "gear": [
     {
@@ -30686,7 +30665,7 @@
     }
    ],
    "title": {
-    "ownedCount": 97,
+    "ownedCount": 104,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -30701,8 +30680,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 38,
-      "ownedPercent": 36,
+      "ownedCount": 42,
+      "ownedPercent": 40,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -30726,8 +30705,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 32,
-      "ownedPercent": 32,
+      "ownedCount": 35,
+      "ownedPercent": 35,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31243,7 +31222,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -31303,7 +31282,7 @@
       "id": 11790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 10
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -31473,8 +31452,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 03:34 UTC",
+ "updated": "2026-11-06 04:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 04:04",
+   "n": "RyBear",
+   "x": "7 new titles"
+  },
+  {
+   "t": "2026-11-06 04:04",
+   "n": "RyBear",
+   "x": "skills up: Blood Absorption 12, Survival Willpower 12"
+  },
+  {
+   "t": "2026-11-06 04:04",
+   "n": "uTril",
+   "x": "new Nuakum Breastplate +10"
+  },
   {
    "t": "2026-11-06 03:33",
    "n": "uTril",
@@ -32959,21 +32953,6 @@
    "t": "2026-10-31 06:31",
    "n": "CuteCatty",
    "x": "new Bakarma Greaves +10"
-  },
-  {
-   "t": "2026-10-31 06:31",
-   "n": "CuteCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-10-31 06:31",
-   "n": "CuteCatty",
-   "x": "skills up: Survival Willpower 16"
-  },
-  {
-   "t": "2026-10-31 05:31",
-   "n": "CuteCatty",
-   "x": "1 new title"
   }
  ]
 }

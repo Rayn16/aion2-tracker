@@ -68,13 +68,17 @@ main { grid-area: main; overflow: auto; padding: 22px clamp(16px, 3vw, 32px) 32p
 .dbar .who b { color: color-mix(in srgb, rgb(var(--cc, 230 230 235)) 55%, var(--fg)); }
 .bosshp .nm .ico { width: 16px; height: 16px; color: var(--bad); vertical-align: -3px; margin-right: 6px; }
 .dskills { display: grid; gap: 4px; margin: 4px 0 8px 12px; }
-.sk { display: grid; grid-template-columns: 24px minmax(90px, 200px) minmax(60px, 1fr) 54px 44px 56px; gap: 8px; align-items: center; font-size: 12.5px; color: var(--fg); }
+.sk { display: grid; grid-template-columns: 24px minmax(90px, 200px) minmax(60px, 1fr) 54px 44px 56px 44px 54px 54px; gap: 8px; align-items: center; font-size: 12.5px; color: var(--fg); }
 .sk img, .sk .noimg { width: 24px; height: 24px; border-radius: 5px; border: 1px solid var(--line); background: var(--bg); }
 .sk .nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .sk .m { height: 6px; border-radius: 3px; background: rgb(0 0 0 / 0.3); overflow: hidden; }
 .sk .m > i { display: block; height: 100%; border-radius: 3px; background: rgb(var(--cc, 140 140 150)); }
 .sk .n { font: 500 12px/1 var(--mono); text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
 .sk .n b { color: var(--fg); }
+.sk.hd { font: 600 10px/1 var(--body); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.sk.hd > span:nth-child(n+4) { text-align: right; }
+.sk.hd .m { background: none; }
+@container app (max-width: 760px) { .sk { grid-template-columns: 24px minmax(80px, 1fr) 54px 40px 50px 40px; } .sk .m, .sk .avg, .sk .max { display: none; } }
 .encrow .ico { width: 15px; height: 15px; color: var(--best); }
 .encrow .av { width: 18px; height: 18px; border-radius: 4px; }
 .tix { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
@@ -1404,7 +1408,13 @@ function sheetFor(name, server) {
   }).catch(() => {});
   return null;
 }
-const skillOf = id => SKILL_INFO.get(id) || { name: (premade('lpc-aion-skills') || {})[id] };
+// every class's skills from NC's character pages ({ id: [name, icon] }, skills.json), so each skill has its name and
+// icon before anyone's sheet comes; a skill NC doesn't list has the name Premade learnt from Combat Analysis, if any
+let SKILLS = {};
+fetch('skills.json').then(r => r.json()).then(v => { SKILLS = v; if (location.hash.startsWith('#/dps')) refreshLive(); }).catch(() => {});
+const skillOf = id => { if (SKILL_INFO.has(id)) return SKILL_INFO.get(id);
+  const name = SKILLS[id]?.[0] || (premade('lpc-aion-skills') || {})[id], k = SKILLS[id] || (name && Object.values(SKILLS).find(([n]) => n === name.replace(/ \(extra hits\)$/, '')));
+  return { name, icon: k && `${NC_ICONS}${k[1]}.png` }; };  // a learnt "X (extra hits)" takes X's icon
 const widths = new Map();  // each bar's last width, so a changed one slides to its new width
 const slideBar = (key, pct, cls) => { const was = widths.get(key) ?? pct; widths.set(key, pct); return `<i class="${cls}" data-to="${pct}" style="width:${was}%"></i>`; };
 function fightBars(players, key) {
@@ -1415,9 +1425,9 @@ function fightBars(players, key) {
     return `<button type="button" class="dbar${p.me ? ' mine' : ''}" data-open="${esc(id)}" ${rgb ? `style="--cc:${rgb}"` : ''} title="Click for top skills">${slideBar(id, (p.dps / top) * 100, 'fill')}
       <span class="txt">${avatar(p.name, me.cls)}<span class="who"><b>${esc(p.name)}</b>${p.me ? '<span class="you">You</span>' : ''}${me.cls ? `<span class="cls">${esc(me.cls)}</span>` : ''}${me.cp ? `<span class="cp">CP ${fmt(me.cp)}</span>` : ''}</span>
       <span class="n dps">${big(p.dps)}</span><span class="n sh">${p.share}%</span><span class="n dmg">${big(p.damage)}</span></span></button>
-      ${opened.has(id) ? `<div class="dskills${p.me ? ' mine' : ''}" ${rgb ? `style="--cc:${rgb}"` : ''}>${(p.skills || []).map(k => { const s = skillOf(k.id);
+      ${opened.has(id) ? `<div class="dskills${p.me ? ' mine' : ''}" ${rgb ? `style="--cc:${rgb}"` : ''}>${p.skills?.length ? '<div class="sk hd"><span></span><span>Skill</span><span class="m"></span><span>Damage</span><span>Share</span><span>Hits</span><span>Crit</span><span class="avg">Average</span><span class="max">Biggest</span></div>' : ''}${(p.skills || []).map(k => { const s = skillOf(k.id);
         return `<div class="sk">${s.icon ? `<img src="${esc(s.icon)}" alt="" loading="lazy">` : '<i class="noimg"></i>'}<span class="nm">${esc(s.name || `Skill ${k.id}`)}</span>
-          <span class="m"><i style="width:${k.share}%"></i></span><span class="n"><b>${big(k.damage)}</b></span><span class="n">${k.share}%</span><span class="n">${k.hits} hits</span></div>`; }).join('') || '<span class="hint">No skills yet.</span>'}
+          <span class="m"><i style="width:${k.share}%"></i></span><span class="n"><b>${big(k.damage)}</b></span><span class="n">${k.share}%</span><span class="n">${k.hits}</span><span class="n">${k.crit ?? '–'}${k.crit != null ? '%' : ''}</span><span class="n avg">${big(Math.round(k.damage / (k.hits || 1)))}</span><span class="n max">${k.max ? big(k.max) : '–'}</span></div>`; }).join('') || '<span class="hint">No skills yet.</span>'}
         ${p.crit ? `<span class="hint">Crits ${p.crit}% of hits</span>` : ''}</div>` : ''}`;
   }).join('')}</div>`;
 }

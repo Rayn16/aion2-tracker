@@ -28230,15 +28230,15 @@
     },
     {
      "date": "2026-11-06",
-     "cp": 98437,
-     "il": 2310
+     "cp": 99469,
+     "il": 2329
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 98437,
-   "il": 2310,
+   "cp": 99469,
+   "il": 2329,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28527,17 +28527,17 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Vakron Cloak",
+     "name": "Nuakum Cloak",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
-       "+5",
-       "Common"
+       "Block",
+       "+15",
+       "Legend"
       ],
       [
        "Critical Hit Resist",
@@ -28545,13 +28545,13 @@
        "Rare"
       ],
       [
-       "Block",
-       "+7",
-       "Common"
-      ],
-      [
        "Critical Hit",
        "+7",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+50",
        "Rare"
       ]
      ],
@@ -28956,11 +28956,9 @@
     },
     {
      "name": "Constitution",
-     "statSecondList": [
-      "HP increase +1.1%"
-     ],
+     "statSecondList": null,
      "type": "CON",
-     "value": 11
+     "value": 0
     },
     {
      "name": "Precision",
@@ -29073,7 +29071,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2310
+     "value": 2329
     }
    ],
    "title": {
@@ -30069,7 +30067,7 @@
       "id": 17730000,
       "name": "Empyrean Lord's Grace",
       "needLevel": 9,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -30079,7 +30077,7 @@
       "id": 17740000,
       "name": "Healing Enhancement",
       "needLevel": 11,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -30089,7 +30087,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -30109,7 +30107,7 @@
       "id": 17770000,
       "name": "Prayer of Concentration",
       "needLevel": 17,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -30139,7 +30137,7 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -30283,16 +30281,16 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
-     "id": 40200100,
-     "name": "Ultimate Daeva Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
-     "id": 40200100,
-     "name": "Ultimate Daeva Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     }
    },
    "pcId": 32,
@@ -31638,8 +31636,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 18:34 UTC",
+ "updated": "2026-11-06 19:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-06 19:04",
+   "n": "uTril",
+   "x": "new Nuakum Cloak +10"
+  },
+  {
+   "t": "2026-11-06 19:04",
+   "n": "uTril",
+   "x": "skills up: Empyrean Lord's Grace 16, Healing Enhancement 14, Prayer of Concentration 16"
+  },
   {
    "t": "2026-11-06 18:33",
    "n": "uTril",
@@ -33129,16 +33137,6 @@
    "t": "2026-11-01 18:01",
    "n": "YasuoMain16",
    "x": "Noble Belt +2 → +3"
-  },
-  {
-   "t": "2026-11-01 18:01",
-   "n": "YasuoMain16",
-   "x": "Liberator Necklace +0 → +5"
-  },
-  {
-   "t": "2026-11-01 18:01",
-   "n": "YasuoMain16",
-   "x": "Liberator Earrings +0 → +4"
   }
  ]
 }

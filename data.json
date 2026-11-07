@@ -6111,15 +6111,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 122751,
-     "il": 2551
+     "cp": 125996,
+     "il": 2598
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 122751,
-   "il": 2551,
+   "cp": 125996,
+   "il": 2598,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6772,7 +6772,7 @@
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -6785,7 +6785,7 @@
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -6810,10 +6810,10 @@
     {
      "slotPosName": "Arcana4",
      "name": "Bell of Vigor",
-     "grade": "Legend",
-     "enchantLevel": 0,
+     "grade": "Unique",
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
-     "max": 4,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -6822,11 +6822,11 @@
     },
     {
      "slotPosName": "Arcana5",
-     "name": "Mirror of Magic",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_DefenceSet2.png",
-     "max": 4,
+     "name": "Mirror of Vigor",
+     "grade": "Unique",
+     "enchantLevel": 1,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -6887,11 +6887,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +6.7%",
-      "Perfect Chance +6.7%"
+      "Defense increase +7.3%",
+      "Perfect Chance +7.3%"
      ],
      "type": "Justice",
-     "value": 67
+     "value": 73
     },
     {
      "name": "Freedom [Vaizel]",
@@ -6905,29 +6905,29 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -1.1%",
-      "Endurance Penetration +1.1%"
+      "Cooldown -3.2%",
+      "Endurance Penetration +3.2%"
      ],
      "type": "Illusion",
-     "value": 11
+     "value": 32
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +3.5%",
-      "Regeneration +3.5%"
+      "HP increase +3.7%",
+      "Regeneration +3.7%"
      ],
      "type": "Life",
-     "value": 35
+     "value": 37
     },
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +7.1%",
-      "Double Resist +7.1%"
+      "Combat Speed +7.3%",
+      "Double Resist +7.3%"
      ],
      "type": "Time",
-     "value": 71
+     "value": 73
     },
     {
      "name": "Destruction [Zikel]",
@@ -6950,11 +6950,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -3.1%",
-      "Double Chance +3.1%"
+      "MP Cost -1.5%",
+      "Double Chance +1.5%"
      ],
      "type": "Wisdom",
-     "value": 31
+     "value": 15
     },
     {
      "name": "Destiny [Marchutan]",
@@ -6978,7 +6978,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2551
+     "value": 2598
     }
    ],
    "title": {
@@ -7702,7 +7702,7 @@
       "id": 18090000,
       "name": "Rushing Smash",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7722,7 +7722,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 16
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -7742,7 +7742,7 @@
       "id": 18150000,
       "name": "Heat Wave Blow",
       "needLevel": 7,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -7772,7 +7772,7 @@
       "id": 18080000,
       "name": "Wave Blow",
       "needLevel": 12,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -7782,7 +7782,7 @@
       "id": 18290000,
       "name": "Spinning Strike",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7802,7 +7802,7 @@
       "id": 18710000,
       "name": "Blessing of Life",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -7812,7 +7812,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -7832,7 +7832,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7842,7 +7842,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 15
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -7852,7 +7852,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -7882,7 +7882,7 @@
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 12
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -7892,7 +7892,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -25476,15 +25476,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 76017,
-     "il": 1445
+     "cp": 76144,
+     "il": 1459
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 76017,
-   "il": 1445,
+   "cp": 76144,
+   "il": 1459,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25533,10 +25533,10 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Bakarma Greaves",
+     "name": "Vakron Greaves",
      "grade": "Unique",
-     "enchantLevel": 2,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Pants.png",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png",
      "max": 15,
      "slots": 4,
      "stones": [],
@@ -25815,12 +25815,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.2%",
-      "Block increase +0.2%",
-      "Critical Hit Resist increase +0.2%"
+      "Evasion increase +1.1%",
+      "Block increase +1.1%",
+      "Critical Hit Resist increase +1.1%"
      ],
      "type": "DEX",
-     "value": 2
+     "value": 11
     },
     {
      "name": "Intelligence",
@@ -25947,7 +25947,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1445
+     "value": 1459
     }
    ],
    "title": {
@@ -26923,7 +26923,7 @@
       "id": 18710000,
       "name": "Blessing of Life",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -26993,7 +26993,7 @@
       "id": 18780000,
       "name": "Earth's Promise",
       "needLevel": 21,
-      "skillLevel": 12
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -32134,8 +32134,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 23:16 UTC",
+ "updated": "2026-11-07 23:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 23:34",
+   "n": "CutieCatty",
+   "x": "Chalice of Vigor +0 → +2"
+  },
+  {
+   "t": "2026-11-07 23:34",
+   "n": "CutieCatty",
+   "x": "Parchment of Vigor +0 → +2"
+  },
+  {
+   "t": "2026-11-07 23:34",
+   "n": "CutieCatty",
+   "x": "Bell of Vigor +0 → +2"
+  },
+  {
+   "t": "2026-11-07 23:34",
+   "n": "CutieCatty",
+   "x": "new Mirror of Vigor +1"
+  },
+  {
+   "t": "2026-11-07 23:34",
+   "n": "CutieCatty",
+   "x": "skills up: Rushing Smash 15, Dark Crush 18, Spinning Strike 15, Blessing of Life 18 and 4 more"
+  },
+  {
+   "t": "2026-11-07 23:33",
+   "n": "iLen",
+   "x": "new Vakron Greaves +0"
+  },
   {
    "t": "2026-11-07 23:14",
    "n": "IBrook",
@@ -33605,36 +33635,6 @@
    "t": "2026-11-04 22:32",
    "n": "DeathRunner",
    "x": "skills up: Triniel's Dagger 3"
-  },
-  {
-   "t": "2026-11-04 22:04",
-   "n": "CutieCatty",
-   "x": "Nuakum Helm +14 → +15"
-  },
-  {
-   "t": "2026-11-04 21:34",
-   "n": "uTril",
-   "x": "new Compass of Vigor +0"
-  },
-  {
-   "t": "2026-11-04 21:34",
-   "n": "uTril",
-   "x": "new Mirror of Magic +0"
-  },
-  {
-   "t": "2026-11-04 21:34",
-   "n": "uTril",
-   "x": "skills up: Judgment Thunder 14"
-  },
-  {
-   "t": "2026-11-04 21:33",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 21:31",
-   "n": "YasuoMain",
-   "x": "1 new title"
   }
  ]
 }

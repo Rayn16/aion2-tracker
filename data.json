@@ -2088,14 +2088,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 77015,
-     "il": 1676
+     "cp": 77919,
+     "il": 1698
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 77015,
-   "il": 1676,
+   "cp": 77919,
+   "il": 1698,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2492,17 +2492,19 @@
     },
     {
      "slotPosName": "Earring1",
-     "name": "Liberator Earrings",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
-     "max": 10,
-     "slots": 3,
+     "name": "Aulamus Earrings",
+     "grade": "Unique",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -2746,11 +2748,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.1%",
-      "Regeneration +1.1%"
+      "HP increase +1.5%",
+      "Regeneration +1.5%"
      ],
      "type": "Life",
-     "value": 11
+     "value": 15
     },
     {
      "name": "Time [Siel]",
@@ -2782,20 +2784,20 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.7%",
-      "Double Chance +0.7%"
+      "MP Cost -1.1%",
+      "Double Chance +1.1%"
      ],
      "type": "Wisdom",
-     "value": 7
+     "value": 11
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +1.1%",
-      "Endurance +1.1%"
+      "MP increase +1.5%",
+      "Endurance +1.5%"
      ],
      "type": "Destiny",
-     "value": 11
+     "value": 15
     },
     {
      "name": "Space [Israphel]",
@@ -2810,7 +2812,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1676
+     "value": 1698
     }
    ],
    "title": {
@@ -3092,7 +3094,7 @@
       "id": 12720000,
       "name": "Warding Shield",
       "needLevel": 6,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -3122,7 +3124,7 @@
       "id": 12750000,
       "name": "Guarding Seal",
       "needLevel": 13,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -32115,8 +32117,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 05:04 UTC",
+ "updated": "2026-11-07 05:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 05:31",
+   "n": "YasuoMain16",
+   "x": "new Aulamus Earrings +0"
+  },
+  {
+   "t": "2026-11-07 05:31",
+   "n": "YasuoMain16",
+   "x": "skills up: Warding Shield 14, Guarding Seal 4"
+  },
   {
    "t": "2026-11-07 05:04",
    "n": "RyBear",
@@ -33606,16 +33618,6 @@
    "t": "2026-11-04 01:04",
    "n": "uTril",
    "x": "opened 13 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-04 01:04",
-   "n": "uTril",
-   "x": "skills up: Lightning Strike Scattershot 12, Bolt 14, Heal Block 14, Prayer of Concentration 15 and 3 more"
-  },
-  {
-   "t": "2026-11-04 00:38",
-   "n": "RyBear",
-   "x": "reached level 26"
   }
  ]
 }

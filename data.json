@@ -25476,14 +25476,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 74051,
+     "cp": 74651,
      "il": 1421
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 74051,
+   "cp": 74651,
    "il": 1421,
    "gear": [
     {
@@ -27121,7 +27121,7 @@
       "id": 18420000,
       "name": "Guardian Blessing",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 8
      },
      {
       "acquired": 0,
@@ -27147,10 +27147,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Skyray_01.png",
-     "id": 1011,
-     "level": 2,
-     "name": "Skyray"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Papis_01.png",
+     "id": 1066,
+     "level": 3,
+     "name": "Papis"
     },
     "wing": {
      "enchantLevel": 0,
@@ -32132,8 +32132,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 19:34 UTC",
+ "updated": "2026-11-07 20:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 20:03",
+   "n": "iLen",
+   "x": "skills up: Guardian Blessing 8"
+  },
   {
    "t": "2026-11-07 19:33",
    "n": "uTril",
@@ -33628,11 +33633,6 @@
    "t": "2026-11-04 17:04",
    "n": "RyBear",
    "x": "7 new titles"
-  },
-  {
-   "t": "2026-11-04 17:04",
-   "n": "RyBear",
-   "x": "opened 34 Daevanion nodes"
   }
  ]
 }

@@ -6111,14 +6111,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 122718,
+     "cp": 122751,
      "il": 2551
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 122718,
+   "cp": 122751,
    "il": 2551,
    "gear": [
     {
@@ -14706,15 +14706,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 142542,
-     "il": 2711
+     "cp": 145541,
+     "il": 2713
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 142542,
-   "il": 2711,
+   "cp": 145541,
+   "il": 2713,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15593,7 +15593,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2711
+     "value": 2713
     }
    ],
    "title": {
@@ -15696,8 +15696,8 @@
       "id": 42,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 59,
-      "openPercent": 67,
+      "openNodeCount": 61,
+      "openPercent": 69,
       "totalNodeCount": 88
      },
      {
@@ -15859,7 +15859,7 @@
      "5|12|Rare|1|Skill Level Up - Revitalization Contract",
      "5|13|Common|1|Attack",
      "6|11|Common|1|Critical Hit",
-     "6|9|Common|0|Critical Hit",
+     "6|9|Common|1|Critical Hit",
      "6|7|Rare|1|Skill Level Up - Defense Break",
      "6|5|Common|0|Max MP",
      "6|6|Common|0|Critical Hit Resist",
@@ -15912,7 +15912,7 @@
      "12|11|Rare|1|Skill Level Up - Defense Break",
      "13|10|Common|0|Critical Hit",
      "13|11|Common|1|Max HP",
-     "13|8|Common|0|Attack",
+     "13|8|Common|1|Attack",
      "13|9|Legend|0|Skill Level Up - Defiance",
      "13|6|Common|1|Defense",
      "13|7|Rare|1|Skill Level Up - Impact Hit",
@@ -16517,7 +16517,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -16587,7 +16587,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 15
      },
      {
       "acquired": 0,
@@ -16685,14 +16685,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 122270,
+     "cp": 122458,
      "il": 2500
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 122270,
+   "cp": 122458,
    "il": 2500,
    "gear": [
     {
@@ -17054,7 +17054,7 @@
      "slotPosName": "Necklace",
      "name": "Enraged Kromede Necklace",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0053.png",
      "max": 15,
      "slots": 4,
@@ -32134,8 +32134,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 23:04 UTC",
+ "updated": "2026-11-07 23:16 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 23:14",
+   "n": "IBrook",
+   "x": "Enraged Kromede Necklace +10 → +11"
+  },
+  {
+   "t": "2026-11-07 23:14",
+   "n": "DeathRunner",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-07 23:14",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 15"
+  },
   {
    "t": "2026-11-07 23:03",
    "n": "iLen",
@@ -33620,21 +33635,6 @@
    "t": "2026-11-04 21:31",
    "n": "YasuoMain",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 21:02",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 20:04",
-   "n": "uTril",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 20:03",
-   "n": "iLen",
-   "x": "Noble Belt +7 → +8"
   }
  ]
 }

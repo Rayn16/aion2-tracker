@@ -69,14 +69,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 131212,
-     "il": 2609
+     "cp": 131723,
+     "il": 2629
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 131212,
-   "il": 2609,
+   "cp": 131723,
+   "il": 2629,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -794,11 +794,11 @@
     },
     {
      "slotPosName": "Arcana5",
-     "name": "Mirror of Vigor",
-     "grade": "Legend",
+     "name": "Mirror of Magic",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
-     "max": 4,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_DefenceSet2.png",
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -871,11 +871,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -3.5%",
-      "Endurance Penetration +3.5%"
+      "Cooldown -1.9%",
+      "Endurance Penetration +1.9%"
      ],
      "type": "Illusion",
-     "value": 35
+     "value": 19
     },
     {
      "name": "Life [Yustiel]",
@@ -916,11 +916,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -2.3%",
-      "Double Chance +2.3%"
+      "MP Cost -4.3%",
+      "Double Chance +4.3%"
      ],
      "type": "Wisdom",
-     "value": 23
+     "value": 43
     },
     {
      "name": "Destiny [Marchutan]",
@@ -944,7 +944,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2609
+     "value": 2629
     }
    ],
    "title": {
@@ -1229,7 +1229,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -1249,7 +1249,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -1309,7 +1309,7 @@
       "id": 11800000,
       "name": "Murderous Burst",
       "needLevel": 25,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -6088,15 +6088,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 121418,
-     "il": 2531
+     "cp": 122335,
+     "il": 2551
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 121418,
-   "il": 2531,
+   "cp": 122335,
+   "il": 2551,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6760,11 +6760,11 @@
     },
     {
      "slotPosName": "Arcana2",
-     "name": "Parchment of Vigor",
-     "grade": "Legend",
+     "name": "Parchment of Magic",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
-     "max": 4,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -6891,11 +6891,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +3.1%",
-      "Regeneration +3.1%"
+      "HP increase +1.5%",
+      "Regeneration +1.5%"
      ],
      "type": "Life",
-     "value": 31
+     "value": 15
     },
     {
      "name": "Time [Siel]",
@@ -6936,11 +6936,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +1.9%",
-      "Endurance +1.9%"
+      "MP increase +3.9%",
+      "Endurance +3.9%"
      ],
      "type": "Destiny",
-     "value": 19
+     "value": 39
     },
     {
      "name": "Space [Israphel]",
@@ -6955,7 +6955,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2531
+     "value": 2551
     }
    ],
    "title": {
@@ -7659,7 +7659,7 @@
       "id": 18010000,
       "name": "Onslaught",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -7679,7 +7679,7 @@
       "id": 18090000,
       "name": "Rushing Smash",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -7719,7 +7719,7 @@
       "id": 18150000,
       "name": "Heat Wave Blow",
       "needLevel": 7,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -32078,8 +32078,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 01:34 UTC",
+ "updated": "2026-11-07 02:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 02:04",
+   "n": "CutieCatty",
+   "x": "new Parchment of Magic +0"
+  },
+  {
+   "t": "2026-11-07 02:04",
+   "n": "CutieCatty",
+   "x": "skills up: Onslaught 16, Rushing Smash 15"
+  },
+  {
+   "t": "2026-11-07 02:01",
+   "n": "YasuoMain",
+   "x": "new Mirror of Magic +0"
+  },
+  {
+   "t": "2026-11-07 02:01",
+   "n": "YasuoMain",
+   "x": "skills up: Protection Armor 18, Identify Weakness 16"
+  },
   {
    "t": "2026-11-07 01:01",
    "n": "YasuoMain",
@@ -33559,26 +33579,6 @@
    "t": "2026-11-03 01:01",
    "n": "CuteCatty",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-03 01:01",
-   "n": "YasuoMain16",
-   "x": "Liberator Pauldrons +4 → +5"
-  },
-  {
-   "t": "2026-11-03 01:01",
-   "n": "YasuoMain16",
-   "x": "Noble Belt +3 → +5"
-  },
-  {
-   "t": "2026-11-03 01:01",
-   "n": "YasuoMain16",
-   "x": "Revelation Amulet +3 → +5"
-  },
-  {
-   "t": "2026-11-03 00:31",
-   "n": "CuteCatty",
-   "x": "Clash Rune +1 → +2"
   }
  ]
 }

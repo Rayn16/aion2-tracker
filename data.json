@@ -2088,14 +2088,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 76375,
-     "il": 1660
+     "cp": 77015,
+     "il": 1676
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 76375,
-   "il": 1660,
+   "cp": 77015,
+   "il": 1676,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2456,11 +2456,32 @@
      "slotPosName": "Necklace",
      "name": "Aulamus Necklace",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -2789,7 +2810,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1660
+     "value": 1676
     }
    ],
    "title": {
@@ -28320,21 +28341,21 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 99630,
-     "il": 2349
+     "cp": 100466,
+     "il": 2372
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 99630,
-   "il": 2349,
+   "cp": 100466,
+   "il": 2372,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Enraged Kromede Warhammer",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_MA_0041_T06.png",
      "max": 15,
      "slots": 4,
@@ -28465,32 +28486,32 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Vakron Helm",
+     "name": "Nuakum Helm",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Helmet.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+30",
+       "Critical Hit",
+       "+15",
+       "Unique"
+      ],
+      [
+       "Evasion Bonus",
+       "+7",
        "Rare"
       ],
       [
        "Defense",
-       "+30",
+       "+100",
+       "Unique"
+      ],
+      [
+       "Evasion Bonus",
+       "+7",
        "Rare"
-      ],
-      [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
       ]
      ],
      "godSlots": 0,
@@ -29062,10 +29083,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +1.8%"
+      "Status Effect Resist +2.9%"
      ],
      "type": "WIS",
-     "value": 18
+     "value": 29
     },
     {
      "name": "Justice [Nezekan]",
@@ -29161,11 +29182,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2349
+     "value": 2372
     }
    ],
    "title": {
-    "ownedCount": 188,
+    "ownedCount": 189,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -29180,8 +29201,8 @@
       "grade": "Legend",
       "id": 21020038,
       "name": "Celebrity",
-      "ownedCount": 63,
-      "ownedPercent": 59,
+      "ownedCount": 64,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Penetration +20"
@@ -30177,7 +30198,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -30197,7 +30218,7 @@
       "id": 17770000,
       "name": "Prayer of Concentration",
       "needLevel": 17,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -30405,15 +30426,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 54124,
-     "il": 932
+     "cp": 54499,
+     "il": 972
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 54124,
-   "il": 932,
+   "cp": 54499,
+   "il": 972,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30704,6 +30725,22 @@
      ]
     },
     {
+     "slotPosName": "Rune1",
+     "name": "Clash Rune",
+     "grade": "Special",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
+     "max": 10,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Quest"
+     ]
+    },
+    {
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Rare",
@@ -30855,11 +30892,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 932
+     "value": 972
     }
    ],
    "title": {
-    "ownedCount": 125,
+    "ownedCount": 126,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -30874,8 +30911,8 @@
       "grade": "Legend",
       "id": 21010004,
       "name": "Grasper of the Core",
-      "ownedCount": 36,
-      "ownedPercent": 35,
+      "ownedCount": 37,
+      "ownedPercent": 36,
       "statList": [
        {
         "desc": "Attack Bonus +2"
@@ -32078,8 +32115,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 04:34 UTC",
+ "updated": "2026-11-07 05:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 05:04",
+   "n": "RyBear",
+   "x": "new Clash Rune +0"
+  },
+  {
+   "t": "2026-11-07 05:04",
+   "n": "RyBear",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-07 05:04",
+   "n": "uTril",
+   "x": "Enraged Kromede Warhammer +13 → +14"
+  },
+  {
+   "t": "2026-11-07 05:04",
+   "n": "uTril",
+   "x": "new Nuakum Helm +10"
+  },
+  {
+   "t": "2026-11-07 05:04",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-07 05:01",
+   "n": "YasuoMain16",
+   "x": "Aulamus Necklace +0 → +10"
+  },
   {
    "t": "2026-11-07 04:34",
    "n": "RyBear",
@@ -33549,36 +33616,6 @@
    "t": "2026-11-04 00:38",
    "n": "RyBear",
    "x": "reached level 26"
-  },
-  {
-   "t": "2026-11-04 00:38",
-   "n": "RyBear",
-   "x": "new Chaser Breastplate +0"
-  },
-  {
-   "t": "2026-11-04 00:38",
-   "n": "RyBear",
-   "x": "new Chaser Greaves +0"
-  },
-  {
-   "t": "2026-11-04 00:38",
-   "n": "RyBear",
-   "x": "new Chaser Cloak +0"
-  },
-  {
-   "t": "2026-11-04 00:38",
-   "n": "RyBear",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-04 00:38",
-   "n": "RyBear",
-   "x": "skills up: Keen Strike 12, Rending Blow 12, Overhead Slam 10, Ruinous Blow 8 and 2 more"
-  },
-  {
-   "t": "2026-11-04 00:38",
-   "n": "uTril",
-   "x": "Noble Belt +1 → +2"
   }
  ]
 }

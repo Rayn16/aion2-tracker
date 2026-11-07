@@ -6088,14 +6088,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 122335,
+     "cp": 122338,
      "il": 2551
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 122335,
+   "cp": 122338,
    "il": 2551,
    "gear": [
     {
@@ -6760,10 +6760,10 @@
     },
     {
      "slotPosName": "Arcana2",
-     "name": "Parchment of Magic",
+     "name": "Parchment of Vigor",
      "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 5,
      "slots": 0,
      "stones": [],
@@ -6891,11 +6891,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.5%",
-      "Regeneration +1.5%"
+      "HP increase +3.5%",
+      "Regeneration +3.5%"
      ],
      "type": "Life",
-     "value": 15
+     "value": 35
     },
     {
      "name": "Time [Siel]",
@@ -6936,11 +6936,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +3.9%",
-      "Endurance +3.9%"
+      "MP increase +1.9%",
+      "Endurance +1.9%"
      ],
      "type": "Destiny",
-     "value": 39
+     "value": 19
     },
     {
      "name": "Space [Israphel]",
@@ -7679,7 +7679,7 @@
       "id": 18090000,
       "name": "Rushing Smash",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7719,7 +7719,7 @@
       "id": 18150000,
       "name": "Heat Wave Blow",
       "needLevel": 7,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7749,7 +7749,7 @@
       "id": 18080000,
       "name": "Wave Blow",
       "needLevel": 12,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -7759,7 +7759,7 @@
       "id": 18290000,
       "name": "Spinning Strike",
       "needLevel": 14,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -14683,15 +14683,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 140623,
-     "il": 2688
+     "cp": 142462,
+     "il": 2689
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 140623,
-   "il": 2688,
+   "cp": 142462,
+   "il": 2689,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15363,7 +15363,7 @@
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
      "grade": "Unique",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -15515,11 +15515,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +6.3%",
-      "Double Resist +6.3%"
+      "Combat Speed +6.4%",
+      "Double Resist +6.4%"
      ],
      "type": "Time",
-     "value": 63
+     "value": 64
     },
     {
      "name": "Destruction [Zikel]",
@@ -15570,7 +15570,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2688
+     "value": 2689
     }
    ],
    "title": {
@@ -16404,7 +16404,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 19
+      "skillLevel": 20
      },
      {
       "acquired": 1,
@@ -16494,7 +16494,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 7
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -32078,8 +32078,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 02:34 UTC",
+ "updated": "2026-11-07 03:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 03:04",
+   "n": "CutieCatty",
+   "x": "new Parchment of Vigor +0"
+  },
+  {
+   "t": "2026-11-07 03:04",
+   "n": "CutieCatty",
+   "x": "skills up: Heat Wave Blow 14, Wave Blow 14"
+  },
+  {
+   "t": "2026-11-07 03:02",
+   "n": "DeathRunner",
+   "x": "Chalice of Vigor +2 → +3"
+  },
+  {
+   "t": "2026-11-07 03:02",
+   "n": "DeathRunner",
+   "x": "skills up: Exploit Weakness 20, Savage Fang 10"
+  },
   {
    "t": "2026-11-07 02:13",
    "n": "YasuoMain",
@@ -33559,26 +33579,6 @@
    "t": "2026-11-03 01:01",
    "n": "CuteCatty",
    "x": "Liberator Earrings +0 → +5"
-  },
-  {
-   "t": "2026-11-03 01:01",
-   "n": "CuteCatty",
-   "x": "Liberator Earrings +0 → +5"
-  },
-  {
-   "t": "2026-11-03 01:01",
-   "n": "CuteCatty",
-   "x": "Liberator Ring +0 → +5"
-  },
-  {
-   "t": "2026-11-03 01:01",
-   "n": "CuteCatty",
-   "x": "Liberator Ring +0 → +5"
-  },
-  {
-   "t": "2026-11-03 01:01",
-   "n": "CuteCatty",
-   "x": "Liberator Bracelet +0 → +5"
   }
  ]
 }

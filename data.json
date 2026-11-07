@@ -69,13 +69,13 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 131914,
+     "cp": 131918,
      "il": 2631
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 131914,
+   "cp": 131918,
    "il": 2631,
    "gear": [
     {
@@ -16685,15 +16685,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 117228,
-     "il": 2483
+     "cp": 118872,
+     "il": 2485
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 117228,
-   "il": 2483,
+   "cp": 118872,
+   "il": 2485,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17526,11 +17526,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +6.4%",
-      "Regeneration Penetration +6.4%"
+      "Critical Hit increase +5.4%",
+      "Regeneration Penetration +5.4%"
      ],
      "type": "Death",
-     "value": 64
+     "value": 54
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -17553,17 +17553,17 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +3.8%",
-      "Block increase +3.8%"
+      "Move Speed +4.8%",
+      "Block increase +4.8%"
      ],
      "type": "Space",
-     "value": 38
+     "value": 48
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2483
+     "value": 2485
     }
    ],
    "title": {
@@ -17657,8 +17657,8 @@
       "id": 61,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 63,
-      "openPercent": 72,
+      "openNodeCount": 64,
+      "openPercent": 73,
       "totalNodeCount": 88
      },
      {
@@ -17684,8 +17684,8 @@
       "id": 64,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 67,
-      "openPercent": 58,
+      "openNodeCount": 68,
+      "openPercent": 59,
       "totalNodeCount": 116
      },
      {
@@ -17712,7 +17712,7 @@
     "61": [
      "3|11|Rare|0|Skill Level Up - Cold Snap",
      "3|13|Unique|1|Cooldown Reduction",
-     "3|12|Common|0|Critical Hit",
+     "3|12|Common|1|Critical Hit",
      "3|3|Unique|1|Combat Speed",
      "3|5|Common|1|Critical Hit Resist",
      "3|4|Common|1|Attack",
@@ -18094,7 +18094,7 @@
      "14|9|Common|0|Defense",
      "14|12|Common|1|Critical Hit Resist",
      "13|12|Legend|1|Skill Level Up - Flame Arrow",
-     "13|14|Common|0|Max HP",
+     "13|14|Common|1|Max HP",
      "14|2|Unique|1|Multi-Hit Chance",
      "14|4|Common|1|Attack",
      "14|3|Common|1|Max MP",
@@ -32132,8 +32132,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 20:34 UTC",
+ "updated": "2026-11-07 21:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 21:02",
+   "n": "IBrook",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-07 20:03",
    "n": "iLen",
@@ -33628,11 +33633,6 @@
    "t": "2026-11-04 17:04",
    "n": "RyBear",
    "x": "new Chaser Ring +0"
-  },
-  {
-   "t": "2026-11-04 17:04",
-   "n": "RyBear",
-   "x": "7 new titles"
   }
  ]
 }

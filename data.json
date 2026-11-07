@@ -6111,14 +6111,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 122705,
+     "cp": 122718,
      "il": 2551
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 122705,
+   "cp": 122718,
    "il": 2551,
    "gear": [
     {
@@ -14706,14 +14706,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 143942,
+     "cp": 142542,
      "il": 2711
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 143942,
+   "cp": 142542,
    "il": 2711,
    "gear": [
     {
@@ -16685,15 +16685,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 119436,
-     "il": 2498
+     "cp": 122270,
+     "il": 2500
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 119436,
-   "il": 2498,
+   "cp": 122270,
+   "il": 2500,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16773,7 +16773,7 @@
      "slotPosName": "Torso",
      "name": "Nuakum Breastplate",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
@@ -16849,7 +16849,7 @@
      "slotPosName": "Helmet",
      "name": "Nuakum Helm",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
@@ -17563,7 +17563,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2498
+     "value": 2500
     }
    ],
    "title": {
@@ -18407,7 +18407,7 @@
       "id": 15730000,
       "name": "Cold Snap",
       "needLevel": 9,
-      "skillLevel": 12
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -18427,7 +18427,7 @@
       "id": 15760000,
       "name": "Absorb Essence",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -18437,7 +18437,7 @@
       "id": 15770000,
       "name": "Grace of Resistance",
       "needLevel": 15,
-      "skillLevel": 1
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -18477,7 +18477,7 @@
       "id": 15800000,
       "name": "Vitality Evaporation",
       "needLevel": 25,
-      "skillLevel": 4
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -18547,7 +18547,7 @@
       "id": 15200000,
       "name": "Cold Storm",
       "needLevel": 22,
-      "skillLevel": 13
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -18557,7 +18557,7 @@
       "id": 15390000,
       "name": "Fire Wall",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 15
      },
      {
       "acquired": 0,
@@ -25476,14 +25476,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 74617,
+     "cp": 76017,
      "il": 1445
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 74617,
+   "cp": 76017,
    "il": 1445,
    "gear": [
     {
@@ -27123,7 +27123,7 @@
       "id": 18420000,
       "name": "Guardian Blessing",
       "needLevel": 22,
-      "skillLevel": 8
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -32134,8 +32134,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 22:34 UTC",
+ "updated": "2026-11-07 23:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 23:03",
+   "n": "iLen",
+   "x": "skills up: Guardian Blessing 10"
+  },
+  {
+   "t": "2026-11-07 23:02",
+   "n": "IBrook",
+   "x": "Nuakum Breastplate +10 → +11"
+  },
+  {
+   "t": "2026-11-07 23:02",
+   "n": "IBrook",
+   "x": "Nuakum Helm +10 → +11"
+  },
+  {
+   "t": "2026-11-07 23:02",
+   "n": "IBrook",
+   "x": "skills up: Grace of Resistance 4, Vitality Evaporation 12, Fire Wall 15"
+  },
   {
    "t": "2026-11-07 22:32",
    "n": "IBrook",
@@ -33615,26 +33635,6 @@
    "t": "2026-11-04 20:03",
    "n": "iLen",
    "x": "Noble Belt +7 → +8"
-  },
-  {
-   "t": "2026-11-04 19:31",
-   "n": "YasuoMain16",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-04 19:03",
-   "n": "iLen",
-   "x": "new Unyielding Boots +0"
-  },
-  {
-   "t": "2026-11-04 19:03",
-   "n": "iLen",
-   "x": "Noble Belt +6 → +7"
-  },
-  {
-   "t": "2026-11-04 19:03",
-   "n": "iLen",
-   "x": "skills up: Attack Preparation 15"
   }
  ]
 }

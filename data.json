@@ -14706,15 +14706,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 143620,
-     "il": 2703
+     "cp": 143942,
+     "il": 2711
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 143620,
-   "il": 2703,
+   "cp": 143942,
+   "il": 2711,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15195,11 +15195,32 @@
      "slotPosName": "Ring2",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Accuracy Bonus",
+       "+6",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+9",
+       "Rare"
+      ],
+      [
+       "Accuracy Bonus",
+       "+13",
+       "Legend"
+      ],
+      [
+       "HP",
+       "+45",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -15572,7 +15593,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2703
+     "value": 2711
     }
    ],
    "title": {
@@ -16664,14 +16685,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 117223,
+     "cp": 117228,
      "il": 2483
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 117223,
+   "cp": 117228,
    "il": 2483,
    "gear": [
     {
@@ -17546,7 +17567,7 @@
     }
    ],
    "title": {
-    "ownedCount": 197,
+    "ownedCount": 198,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -17564,8 +17585,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 65,
-      "ownedPercent": 64,
+      "ownedCount": 66,
+      "ownedPercent": 65,
       "statList": [
        {
         "desc": "Block +10"
@@ -27126,10 +27147,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Papis_01.png",
-     "id": 1066,
-     "level": 3,
-     "name": "Papis"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Skyray_01.png",
+     "id": 1011,
+     "level": 2,
+     "name": "Skyray"
     },
     "wing": {
      "enchantLevel": 0,
@@ -28322,15 +28343,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 101202,
-     "il": 2372
+     "cp": 105549,
+     "il": 2364
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 101202,
-   "il": 2372,
+   "cp": 105549,
+   "il": 2364,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28431,7 +28452,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -29163,7 +29184,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2372
+     "value": 2364
     }
    ],
    "title": {
@@ -29272,8 +29293,8 @@
       "id": 73,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 56,
-      "openPercent": 64,
+      "openNodeCount": 57,
+      "openPercent": 65,
       "totalNodeCount": 88
      },
      {
@@ -29567,7 +29588,7 @@
      "7|3|Common|1|Attack",
      "6|7|Common|1|Critical Hit",
      "6|12|Common|1|Critical Hit Resist",
-     "6|9|Rare|0|Skill Level Up - Earth's Grace",
+     "6|9|Rare|1|Skill Level Up - Earth's Grace",
      "8|6|Common|0|Max MP",
      "8|3|Legend|1|Skill Level Up - Light of Regeneration",
      "7|9|Common|1|Critical Hit Resist",
@@ -30209,7 +30230,7 @@
       "id": 17780000,
       "name": "Earth's Grace",
       "needLevel": 21,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -30289,7 +30310,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 6
      },
      {
       "acquired": 0,
@@ -30319,7 +30340,7 @@
       "id": 17410000,
       "name": "Light of Protection",
       "needLevel": 22,
-      "skillLevel": 19
+      "skillLevel": 20
      },
      {
       "acquired": 0,
@@ -32111,8 +32132,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 19:04 UTC",
+ "updated": "2026-11-07 19:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 19:33",
+   "n": "uTril",
+   "x": "Nuakum Greaves +10 → +0"
+  },
+  {
+   "t": "2026-11-07 19:33",
+   "n": "uTril",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-07 19:33",
+   "n": "uTril",
+   "x": "skills up: Earth's Grace 14, Earth Punishment 6, Light of Protection 20"
+  },
+  {
+   "t": "2026-11-07 19:32",
+   "n": "IBrook",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-07 19:31",
+   "n": "DeathRunner",
+   "x": "Enraged Kromede Ring +11 → +13"
+  },
   {
    "t": "2026-11-07 18:32",
    "n": "IBrook",
@@ -33587,31 +33633,6 @@
    "t": "2026-11-04 17:04",
    "n": "RyBear",
    "x": "opened 34 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-04 17:04",
-   "n": "RyBear",
-   "x": "skills up: Keen Strike 13, Overhead Slam 12, Sword Aura Rampage 3, Rush Strike 2 and 7 more"
-  },
-  {
-   "t": "2026-11-04 17:02",
-   "n": "PeriodPhobic",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 16:34",
-   "n": "RyBear",
-   "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-04 16:34",
-   "n": "RyBear",
-   "x": "skills up: Lunge Stance 5, Zikel's Blessing 2, Rage Burst 1"
-  },
-  {
-   "t": "2026-11-04 16:31",
-   "n": "YasuoMain",
-   "x": "1 new title"
   }
  ]
 }

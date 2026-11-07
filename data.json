@@ -17481,29 +17481,29 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +3.2%",
-      "Evasion increase +3.2%"
+      "Accuracy increase +2.8%",
+      "Evasion increase +2.8%"
      ],
      "type": "Freedom",
-     "value": 32
+     "value": 28
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -2.5%",
-      "Endurance Penetration +2.5%"
+      "Cooldown -3.5%",
+      "Endurance Penetration +3.5%"
      ],
      "type": "Illusion",
-     "value": 25
+     "value": 35
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +0.6%",
-      "Regeneration +0.6%"
+      "HP increase +1.9%",
+      "Regeneration +1.9%"
      ],
      "type": "Life",
-     "value": 6
+     "value": 19
     },
     {
      "name": "Time [Siel]",
@@ -17526,38 +17526,38 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +4.8%",
-      "Regeneration Penetration +4.8%"
+      "Critical Hit increase +6.4%",
+      "Regeneration Penetration +6.4%"
      ],
      "type": "Death",
-     "value": 48
+     "value": 64
     },
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.5%",
-      "Double Chance +0.5%"
+      "MP Cost -1.5%",
+      "Double Chance +1.5%"
      ],
      "type": "Wisdom",
-     "value": 5
+     "value": 15
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +2.2%",
-      "Endurance +2.2%"
+      "MP increase +2.7%",
+      "Endurance +2.7%"
      ],
      "type": "Destiny",
-     "value": 22
+     "value": 27
     },
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +2.2%",
-      "Block increase +2.2%"
+      "Move Speed +3.8%",
+      "Block increase +3.8%"
      ],
      "type": "Space",
-     "value": 22
+     "value": 38
     },
     {
      "name": "아이템레벨",
@@ -25476,14 +25476,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 74651,
+     "cp": 75137,
      "il": 1421
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 74651,
+   "cp": 75137,
    "il": 1421,
    "gear": [
     {
@@ -32132,7 +32132,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 20:04 UTC",
+ "updated": "2026-11-07 20:34 UTC",
  "feed": [
   {
    "t": "2026-11-07 20:03",

@@ -16685,15 +16685,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 118872,
-     "il": 2485
+     "cp": 118858,
+     "il": 2495
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 118872,
-   "il": 2485,
+   "cp": 118858,
+   "il": 2495,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16885,31 +16885,31 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Vakron Pauldrons",
+     "name": "Nuakum Pauldrons",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Shoulder.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Attack",
-       "+10",
-       "Unique"
+       "Evasion Bonus",
+       "+6",
+       "Common"
       ],
       [
-       "HP",
-       "+160",
-       "Unique"
-      ],
-      [
-       "Block",
-       "+10",
+       "Critical Hit",
+       "+9",
        "Rare"
       ],
       [
-       "Accuracy Bonus",
-       "+10",
+       "Attack",
+       "+2",
+       "Common"
+      ],
+      [
+       "Critical Hit Resist",
+       "+13",
        "Legend"
       ]
      ],
@@ -17563,7 +17563,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2485
+     "value": 2495
     }
    ],
    "title": {
@@ -25476,15 +25476,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 75139,
-     "il": 1421
+     "cp": 74617,
+     "il": 1445
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 75139,
-   "il": 1421,
+   "cp": 74617,
+   "il": 1445,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25584,17 +25584,19 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "High Commander Lagta Gloves",
+     "name": "Vakron Gloves",
      "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0062_T06_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png",
      "max": 15,
      "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Reward Chest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -25813,12 +25815,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.2%",
-      "Block increase +1.2%",
-      "Critical Hit Resist increase +1.2%"
+      "Evasion increase +0.2%",
+      "Block increase +0.2%",
+      "Critical Hit Resist increase +0.2%"
      ],
      "type": "DEX",
-     "value": 12
+     "value": 2
     },
     {
      "name": "Intelligence",
@@ -25945,11 +25947,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1421
+     "value": 1445
     }
    ],
    "title": {
-    "ownedCount": 187,
+    "ownedCount": 188,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -25992,8 +25994,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 60,
-      "ownedPercent": 61,
+      "ownedCount": 61,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "MP +20"
@@ -26931,7 +26933,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -26961,7 +26963,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -26971,7 +26973,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -32132,8 +32134,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 21:34 UTC",
+ "updated": "2026-11-07 22:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 22:03",
+   "n": "iLen",
+   "x": "new Vakron Gloves +0"
+  },
+  {
+   "t": "2026-11-07 22:03",
+   "n": "iLen",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-07 22:03",
+   "n": "iLen",
+   "x": "skills up: Crossguard 11, Impact Hit 14"
+  },
+  {
+   "t": "2026-11-07 22:02",
+   "n": "IBrook",
+   "x": "new Nuakum Pauldrons +10"
+  },
   {
    "t": "2026-11-07 21:02",
    "n": "IBrook",
@@ -33613,26 +33635,6 @@
    "t": "2026-11-04 17:34",
    "n": "RyBear",
    "x": "reached level 31"
-  },
-  {
-   "t": "2026-11-04 17:33",
-   "n": "iLen",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-04 17:04",
-   "n": "RyBear",
-   "x": "reached level 30"
-  },
-  {
-   "t": "2026-11-04 17:04",
-   "n": "RyBear",
-   "x": "new Chaser Pauldrons +0"
-  },
-  {
-   "t": "2026-11-04 17:04",
-   "n": "RyBear",
-   "x": "new Chaser Ring +0"
   }
  ]
 }

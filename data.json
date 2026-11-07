@@ -66,6 +66,11 @@
      "date": "2026-11-06",
      "cp": 129225,
      "il": 2567
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 129225,
+     "il": 2567
     }
    ],
    "server": "Tassin",
@@ -2080,6 +2085,11 @@
      "date": "2026-11-06",
      "cp": 76347,
      "il": 1660
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 76347,
+     "il": 1660
     }
    ],
    "server": "Tassin",
@@ -4060,6 +4070,11 @@
     },
     {
      "date": "2026-11-06",
+     "cp": 74235,
+     "il": 1591
+    },
+    {
+     "date": "2026-11-07",
      "cp": 74235,
      "il": 1591
     }
@@ -6070,12 +6085,17 @@
      "date": "2026-11-06",
      "cp": 119019,
      "il": 2531
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 121406,
+     "il": 2531
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 119019,
+   "cp": 121406,
    "il": 2531,
    "gear": [
     {
@@ -6844,11 +6864,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +5.7%",
-      "Perfect Chance +5.7%"
+      "Defense increase +6.7%",
+      "Perfect Chance +6.7%"
      ],
      "type": "Justice",
-     "value": 57
+     "value": 67
     },
     {
      "name": "Freedom [Vaizel]",
@@ -6880,29 +6900,29 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +6.1%",
-      "Double Resist +6.1%"
+      "Combat Speed +7.1%",
+      "Double Resist +7.1%"
      ],
      "type": "Time",
-     "value": 61
+     "value": 71
     },
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.6%",
-      "Perfect Resist +0.6%"
+      "Attack increase +5.1%",
+      "Perfect Resist +5.1%"
      ],
      "type": "Destruction",
-     "value": 6
+     "value": 51
     },
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +3.6%",
-      "Regeneration Penetration +3.6%"
+      "Critical Hit increase +3.8%",
+      "Regeneration Penetration +3.8%"
      ],
      "type": "Death",
-     "value": 36
+     "value": 38
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -6925,11 +6945,11 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +4.6%",
-      "Block increase +4.6%"
+      "Move Speed +4.8%",
+      "Block increase +4.8%"
      ],
      "type": "Space",
-     "value": 46
+     "value": 48
     },
     {
      "name": "아이템레벨",
@@ -8023,6 +8043,11 @@
     },
     {
      "date": "2026-11-06",
+     "cp": 48995,
+     "il": 1114
+    },
+    {
+     "date": "2026-11-07",
      "cp": 48995,
      "il": 1114
     }
@@ -9688,6 +9713,11 @@
     },
     {
      "date": "2026-11-06",
+     "cp": 59398,
+     "il": 1135
+    },
+    {
+     "date": "2026-11-07",
      "cp": 59398,
      "il": 1135
     }
@@ -11394,6 +11424,11 @@
     },
     {
      "date": "2026-11-06",
+     "cp": 81521,
+     "il": 1668
+    },
+    {
+     "date": "2026-11-07",
      "cp": 81521,
      "il": 1668
     }
@@ -13417,6 +13452,11 @@
      "date": "2026-11-06",
      "cp": 33233,
      "il": 595
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 33233,
+     "il": 595
     }
    ],
    "server": "Tassin",
@@ -14638,6 +14678,11 @@
     },
     {
      "date": "2026-11-06",
+     "cp": 140823,
+     "il": 2688
+    },
+    {
+     "date": "2026-11-07",
      "cp": 140823,
      "il": 2688
     }
@@ -16614,6 +16659,11 @@
      "date": "2026-11-06",
      "cp": 116588,
      "il": 2441
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 116588,
+     "il": 2441
     }
    ],
    "server": "Tassin",
@@ -18579,6 +18629,11 @@
      "date": "2026-11-06",
      "cp": 23827,
      "il": 496
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 23827,
+     "il": 496
     }
    ],
    "server": "Tassin",
@@ -19780,6 +19835,11 @@
     },
     {
      "date": "2026-11-06",
+     "cp": 85879,
+     "il": 1713
+    },
+    {
+     "date": "2026-11-07",
      "cp": 85879,
      "il": 1713
     }
@@ -21490,6 +21550,11 @@
      "date": "2026-11-06",
      "cp": 24271,
      "il": 450
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 24271,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -22638,6 +22703,11 @@
     },
     {
      "date": "2026-11-06",
+     "cp": 42174,
+     "il": 799
+    },
+    {
+     "date": "2026-11-07",
      "cp": 42174,
      "il": 799
     }
@@ -24268,6 +24338,11 @@
      "date": "2026-11-06",
      "cp": 18441,
      "il": 361
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 18441,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -25373,6 +25448,11 @@
     },
     {
      "date": "2026-11-06",
+     "cp": 73806,
+     "il": 1409
+    },
+    {
+     "date": "2026-11-07",
      "cp": 73806,
      "il": 1409
     }
@@ -27083,6 +27163,11 @@
      "date": "2026-11-06",
      "cp": 25763,
      "il": 472
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 25763,
+     "il": 472
     }
    ],
    "server": "Tassin",
@@ -28232,13 +28317,18 @@
      "date": "2026-11-06",
      "cp": 99471,
      "il": 2329
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 99623,
+     "il": 2349
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 99471,
-   "il": 2329,
+   "cp": 99623,
+   "il": 2349,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28337,32 +28427,32 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Vakron Greaves",
+     "name": "Nuakum Greaves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "Accuracy Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Accuracy Bonus",
+       "Attack",
        "+5",
-       "Common"
+       "Legend"
       ],
       [
-       "Evasion Bonus",
+       "Accuracy Bonus",
        "+7",
        "Rare"
+      ],
+      [
+       "HP",
+       "+50",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+50",
+       "Legend"
       ]
      ],
      "godSlots": 0,
@@ -29071,7 +29161,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2329
+     "value": 2349
     }
    ],
    "title": {
@@ -30312,13 +30402,18 @@
      "date": "2026-11-06",
      "cp": 52980,
      "il": 889
+    },
+    {
+     "date": "2026-11-07",
+     "cp": 54113,
+     "il": 932
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 52980,
-   "il": 889,
+   "cp": 54113,
+   "il": 932,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30501,12 +30596,12 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Old Mercenary Commander Necklace",
-     "grade": "Common",
+     "name": "Chaser Necklace",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0030.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30516,10 +30611,10 @@
     },
     {
      "slotPosName": "Earring1",
-     "name": "Liberator Earrings",
+     "name": "Avenger Earrings",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0017.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -30531,12 +30626,12 @@
     },
     {
      "slotPosName": "Earring2",
-     "name": "Chaser Earrings",
-     "grade": "Rare",
+     "name": "Liberator Earrings",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0030.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30577,22 +30672,23 @@
      ]
     },
     {
-     "slotPosName": "Bracelet2",
-     "name": "Outsider Bracelet",
-     "grade": "Rare",
+     "slotPosName": "Bracelet1",
+     "name": "Liberator Bracelet",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0011.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
+      "Crafting",
       "Quest"
      ]
     },
     {
-     "slotPosName": "Bracelet1",
+     "slotPosName": "Bracelet2",
      "name": "Chaser Bracelet",
      "grade": "Rare",
      "enchantLevel": 0,
@@ -30695,11 +30791,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +0.6%",
-      "Regeneration +0.6%"
+      "HP increase +0.9%",
+      "Regeneration +0.9%"
      ],
      "type": "Life",
-     "value": 6
+     "value": 9
     },
     {
      "name": "Time [Siel]",
@@ -30740,11 +30836,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +0.6%",
-      "Endurance +0.6%"
+      "MP increase +0.9%",
+      "Endurance +0.9%"
      ],
      "type": "Destiny",
-     "value": 6
+     "value": 9
     },
     {
      "name": "Space [Israphel]",
@@ -30759,11 +30855,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 889
+     "value": 932
     }
    ],
    "title": {
-    "ownedCount": 118,
+    "ownedCount": 124,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -30778,8 +30874,8 @@
       "grade": "Legend",
       "id": 21010004,
       "name": "Grasper of the Core",
-      "ownedCount": 35,
-      "ownedPercent": 34,
+      "ownedCount": 36,
+      "ownedPercent": 35,
       "statList": [
        {
         "desc": "Attack Bonus +2"
@@ -30800,8 +30896,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 43,
-      "ownedPercent": 41,
+      "ownedCount": 46,
+      "ownedPercent": 43,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -30825,8 +30921,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 40,
-      "ownedPercent": 40,
+      "ownedCount": 42,
+      "ownedPercent": 42,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31982,8 +32078,43 @@
    "race": 2
   }
  },
- "updated": "2026-11-06 23:35 UTC",
+ "updated": "2026-11-07 00:18 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 00:16",
+   "n": "RyBear",
+   "x": "new Chaser Necklace +0"
+  },
+  {
+   "t": "2026-11-07 00:16",
+   "n": "RyBear",
+   "x": "new Avenger Earrings +0"
+  },
+  {
+   "t": "2026-11-07 00:16",
+   "n": "RyBear",
+   "x": "new Liberator Earrings +0"
+  },
+  {
+   "t": "2026-11-07 00:16",
+   "n": "RyBear",
+   "x": "new Liberator Bracelet +0"
+  },
+  {
+   "t": "2026-11-07 00:16",
+   "n": "RyBear",
+   "x": "new Chaser Bracelet +0"
+  },
+  {
+   "t": "2026-11-07 00:16",
+   "n": "RyBear",
+   "x": "6 new titles"
+  },
+  {
+   "t": "2026-11-07 00:14",
+   "n": "uTril",
+   "x": "new Nuakum Greaves +10"
+  },
   {
    "t": "2026-11-06 23:35",
    "n": "RyBear",
@@ -33448,41 +33579,6 @@
    "t": "2026-11-03 00:31",
    "n": "YasuoMain16",
    "x": "new Vakron Guard +10"
-  },
-  {
-   "t": "2026-11-03 00:31",
-   "n": "YasuoMain16",
-   "x": "Bakarma Gloves +8 → +10"
-  },
-  {
-   "t": "2026-11-03 00:31",
-   "n": "YasuoMain16",
-   "x": "new Vakron Boots +10"
-  },
-  {
-   "t": "2026-11-03 00:31",
-   "n": "YasuoMain16",
-   "x": "skills up: Impact Hit 13, Survival Willpower 15"
-  },
-  {
-   "t": "2026-11-03 00:04",
-   "n": "CutieCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-02 22:31",
-   "n": "CutieCatty",
-   "x": "new Nuakum Greaves +10"
-  },
-  {
-   "t": "2026-11-02 22:31",
-   "n": "CutieCatty",
-   "x": "skills up: Wind's Promise 13"
-  },
-  {
-   "t": "2026-11-02 21:31",
-   "n": "YasuoMain",
-   "x": "1 new title"
   }
  ]
 }

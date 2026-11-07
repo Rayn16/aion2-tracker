@@ -28343,14 +28343,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 101166,
+     "cp": 101199,
      "il": 2372
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 101166,
+   "cp": 101199,
    "il": 2372,
    "gear": [
     {
@@ -29188,7 +29188,7 @@
     }
    ],
    "title": {
-    "ownedCount": 189,
+    "ownedCount": 190,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -29203,8 +29203,8 @@
       "grade": "Legend",
       "id": 21020038,
       "name": "Celebrity",
-      "ownedCount": 64,
-      "ownedPercent": 60,
+      "ownedCount": 65,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "Penetration +20"
@@ -32116,8 +32116,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 08:04 UTC",
+ "updated": "2026-11-07 08:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 08:34",
+   "n": "uTril",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-07 08:04",
    "n": "RyBear",
@@ -33612,11 +33617,6 @@
    "t": "2026-11-04 02:04",
    "n": "uTril",
    "x": "skills up: Immortal Veil 15, Radiant Benediction 16"
-  },
-  {
-   "t": "2026-11-04 02:02",
-   "n": "DeathRunner",
-   "x": "new Nuakum Breastplate +11"
   }
  ]
 }

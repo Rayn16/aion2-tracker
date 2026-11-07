@@ -4075,14 +4075,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 74252,
+     "cp": 74255,
      "il": 1591
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 74252,
+   "cp": 74255,
    "il": 1591,
    "gear": [
     {
@@ -14683,14 +14683,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 142907,
+     "cp": 142602,
      "il": 2691
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 142907,
+   "cp": 142602,
    "il": 2691,
    "gear": [
     {
@@ -16364,7 +16364,7 @@
       "id": 13220000,
       "name": "Shadow Fall",
       "needLevel": 12,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -32078,8 +32078,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 03:35 UTC",
+ "updated": "2026-11-07 04:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 04:02",
+   "n": "DeathRunner",
+   "x": "skills up: Shadow Fall 4"
+  },
   {
    "t": "2026-11-07 03:32",
    "n": "DeathRunner",
@@ -33574,11 +33579,6 @@
    "t": "2026-11-04 00:38",
    "n": "uTril",
    "x": "Chalice of Magic +0 → +1"
-  },
-  {
-   "t": "2026-11-04 00:38",
-   "n": "uTril",
-   "x": "Parchment of Magic +0 → +1"
   }
  ]
 }

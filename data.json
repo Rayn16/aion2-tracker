@@ -26861,7 +26861,7 @@
       "id": 18150000,
       "name": "Heat Wave Blow",
       "needLevel": 7,
-      "skillLevel": 8
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -27111,7 +27111,7 @@
       "id": 18250000,
       "name": "Power of the Storm",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -27121,7 +27121,7 @@
       "id": 18420000,
       "name": "Guardian Blessing",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -32132,8 +32132,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 17:04 UTC",
+ "updated": "2026-11-07 17:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 17:33",
+   "n": "iLen",
+   "x": "skills up: Heat Wave Blow 10, Power of the Storm 10"
+  },
   {
    "t": "2026-11-07 17:03",
    "n": "iLen",
@@ -33628,11 +33633,6 @@
    "t": "2026-11-04 04:03",
    "n": "uTril",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 03:34",
-   "n": "uTril",
-   "x": "2 new titles"
   }
  ]
 }

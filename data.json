@@ -16685,15 +16685,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 118858,
-     "il": 2495
+     "cp": 119436,
+     "il": 2498
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 118858,
-   "il": 2495,
+   "cp": 119436,
+   "il": 2498,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16811,7 +16811,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -17168,7 +17168,7 @@
      "slotPosName": "Ring1",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
@@ -17206,7 +17206,7 @@
      "slotPosName": "Ring2",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
@@ -17563,7 +17563,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2495
+     "value": 2498
     }
    ],
    "title": {
@@ -18547,7 +18547,7 @@
       "id": 15200000,
       "name": "Cold Storm",
       "needLevel": 22,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -27149,10 +27149,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Papis_01.png",
-     "id": 1066,
-     "level": 3,
-     "name": "Papis"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Tayga_01.png",
+     "id": 1106,
+     "level": 2,
+     "name": "Tayga"
     },
     "wing": {
      "enchantLevel": 0,
@@ -32134,8 +32134,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 22:04 UTC",
+ "updated": "2026-11-07 22:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 22:32",
+   "n": "IBrook",
+   "x": "Nuakum Greaves +10 → +11"
+  },
+  {
+   "t": "2026-11-07 22:32",
+   "n": "IBrook",
+   "x": "Enraged Kromede Ring +10 → +11"
+  },
+  {
+   "t": "2026-11-07 22:32",
+   "n": "IBrook",
+   "x": "Enraged Kromede Ring +10 → +11"
+  },
+  {
+   "t": "2026-11-07 22:32",
+   "n": "IBrook",
+   "x": "skills up: Cold Storm 13"
+  },
   {
    "t": "2026-11-07 22:03",
    "n": "iLen",
@@ -33615,26 +33635,6 @@
    "t": "2026-11-04 19:03",
    "n": "iLen",
    "x": "skills up: Attack Preparation 15"
-  },
-  {
-   "t": "2026-11-04 18:33",
-   "n": "iLen",
-   "x": "new Unyielding Gloves +0"
-  },
-  {
-   "t": "2026-11-04 18:33",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 18:03",
-   "n": "iLen",
-   "x": "Bakarma Greaves +0 → +2"
-  },
-  {
-   "t": "2026-11-04 17:34",
-   "n": "RyBear",
-   "x": "reached level 31"
   }
  ]
 }

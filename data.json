@@ -69,14 +69,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 129225,
-     "il": 2567
+     "cp": 131212,
+     "il": 2609
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 129225,
-   "il": 2567,
+   "cp": 131212,
+   "il": 2609,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -756,10 +756,10 @@
     {
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
-     "grade": "Legend",
-     "enchantLevel": 0,
+     "grade": "Unique",
+     "enchantLevel": 1,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
-     "max": 4,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -769,7 +769,7 @@
     {
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
-     "grade": "Legend",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 4,
@@ -783,7 +783,7 @@
      "slotPosName": "Arcana4",
      "name": "Bell of Magic",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 1,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
      "max": 5,
      "slots": 0,
@@ -862,11 +862,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +4.2%",
-      "Evasion increase +4.2%"
+      "Accuracy increase +4.6%",
+      "Evasion increase +4.6%"
      ],
      "type": "Freedom",
-     "value": 42
+     "value": 46
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -880,11 +880,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +3.5%",
-      "Regeneration +3.5%"
+      "HP increase +4%",
+      "Regeneration +4%"
      ],
      "type": "Life",
-     "value": 35
+     "value": 40
     },
     {
      "name": "Time [Siel]",
@@ -898,11 +898,11 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +7.1%",
-      "Perfect Resist +7.1%"
+      "Attack increase +7.2%",
+      "Perfect Resist +7.2%"
      ],
      "type": "Destruction",
-     "value": 71
+     "value": 72
     },
     {
      "name": "Death [Triniel]",
@@ -944,7 +944,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2567
+     "value": 2609
     }
    ],
    "title": {
@@ -1099,7 +1099,7 @@
       "id": 11020000,
       "name": "Keen Strike",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -1119,7 +1119,7 @@
       "id": 11190000,
       "name": "Leaping Slam",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -1129,7 +1129,7 @@
       "id": 11290000,
       "name": "Mocking Blade",
       "needLevel": 3,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -1169,7 +1169,7 @@
       "id": 11050000,
       "name": "Crushing Wave",
       "needLevel": 8,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -1179,7 +1179,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -1189,7 +1189,7 @@
       "id": 11300000,
       "name": "Aerial Snare",
       "needLevel": 12,
-      "skillLevel": 2
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -1239,7 +1239,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -32078,8 +32078,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 00:34 UTC",
+ "updated": "2026-11-07 01:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 01:01",
+   "n": "YasuoMain",
+   "x": "Parchment of Vigor +0 → +1"
+  },
+  {
+   "t": "2026-11-07 01:01",
+   "n": "YasuoMain",
+   "x": "Bell of Magic +0 → +1"
+  },
+  {
+   "t": "2026-11-07 01:01",
+   "n": "YasuoMain",
+   "x": "skills up: Keen Strike 16, Leaping Slam 13, Mocking Blade 13, Crushing Wave 10 and 1 more"
+  },
   {
    "t": "2026-11-07 00:16",
    "n": "RyBear",
@@ -33564,21 +33579,6 @@
    "t": "2026-11-03 00:31",
    "n": "CuteCatty",
    "x": "Clash Rune +1 → +2"
-  },
-  {
-   "t": "2026-11-03 00:31",
-   "n": "CuteCatty",
-   "x": "Clash Rune +1 → +2"
-  },
-  {
-   "t": "2026-11-03 00:31",
-   "n": "CuteCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-03 00:31",
-   "n": "YasuoMain16",
-   "x": "new Vakron Guard +10"
   }
  ]
 }

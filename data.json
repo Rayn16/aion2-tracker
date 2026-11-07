@@ -25476,15 +25476,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 74146,
-     "il": 1415
+     "cp": 74041,
+     "il": 1421
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 74146,
-   "il": 1415,
+   "cp": 74041,
+   "il": 1421,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25516,10 +25516,10 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Bakarma Breastplate",
+     "name": "Vakron Breastplate",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png",
      "max": 15,
      "slots": 4,
      "stones": [],
@@ -25945,11 +25945,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1415
+     "value": 1421
     }
    ],
    "title": {
-    "ownedCount": 186,
+    "ownedCount": 187,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -26014,8 +26014,8 @@
       "grade": "Legend",
       "id": 23030010,
       "name": "Teleportation Specialist",
-      "ownedCount": 64,
-      "ownedPercent": 60,
+      "ownedCount": 65,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "Critical Hit +10"
@@ -26063,8 +26063,8 @@
       "id": 84,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 48,
-      "openPercent": 41,
+      "openNodeCount": 45,
+      "openPercent": 39,
       "totalNodeCount": 116
      },
      {
@@ -26366,7 +26366,7 @@
      "14|12|Common|1|Critical Hit Resist",
      "14|7|Common|1|Attack",
      "14|8|Unique|0|Multi-Hit Resist",
-     "14|2|Unique|0|Multi-Hit Chance",
+     "14|2|Unique|1|Multi-Hit Chance",
      "14|3|Common|1|Max MP",
      "14|4|Common|1|Attack",
      "13|12|Legend|1|Skill Level Up - Onslaught",
@@ -26410,15 +26410,15 @@
      "5|11|Common|0|Critical Hit",
      "5|4|Common|0|Max MP",
      "5|5|Rare|0|Skill Level Up - Crossguard",
-     "5|6|Common|1|Critical Hit Resist",
+     "5|6|Common|0|Critical Hit Resist",
      "5|7|Common|0|Attack",
      "7|2|Common|0|Critical Hit Resist",
-     "7|3|Common|1|Critical Hit",
+     "7|3|Common|0|Critical Hit",
      "7|4|Common|1|Max HP",
      "7|5|Common|1|Attack",
      "6|13|Common|0|Critical Hit Resist",
      "6|10|Common|0|Max HP",
-     "6|6|Common|1|Critical Hit",
+     "6|6|Common|0|Critical Hit",
      "8|4|Common|1|Defense",
      "8|6|Common|1|Defense",
      "7|14|Common|0|Max MP",
@@ -26435,7 +26435,7 @@
      "9|5|Common|1|Critical Hit Resist",
      "9|6|Common|1|Max HP",
      "9|7|Common|1|Critical Hit",
-     "9|2|Common|1|Max HP",
+     "9|2|Common|0|Max HP",
      "9|3|Common|1|Attack",
      "8|12|Common|0|Attack",
      "8|14|Legend|0|Skill Level Up - Spinning Strike",
@@ -26931,7 +26931,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 11
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -32132,8 +32132,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 17:34 UTC",
+ "updated": "2026-11-07 18:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 18:03",
+   "n": "iLen",
+   "x": "new Vakron Breastplate +0"
+  },
+  {
+   "t": "2026-11-07 18:03",
+   "n": "iLen",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-07 17:33",
    "n": "iLen",
@@ -33623,16 +33633,6 @@
    "t": "2026-11-04 05:34",
    "n": "RyBear",
    "x": "reached level 29"
-  },
-  {
-   "t": "2026-11-04 05:34",
-   "n": "RyBear",
-   "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-04 04:03",
-   "n": "uTril",
-   "x": "1 new title"
   }
  ]
 }

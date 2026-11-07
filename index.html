@@ -304,6 +304,7 @@ dialog.dzoom img.full { max-width: 100%; max-height: calc(100vh - 32px); border-
 .dk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; vertical-align: -1px; }
 .empty { padding: 40px; text-align: center; color: var(--muted); }
 .tag { font: 500 11px/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--link); margin-left: 8px; }
+.unc { font: 600 10px/1 var(--body); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); border: 1px dashed var(--line); border-radius: 4px; padding: 2px 5px; margin-left: 4px; white-space: nowrap; }
 .player { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
 .player .name { font: 700 16px/1.2 var(--display); letter-spacing: 0.04em; }
 /* portraits from the official character pages */
@@ -639,6 +640,102 @@ function checkup(gear) {
   return todo.length ? `<div class="grid2 even">${todo.map(([t, xs]) => `<div class="list"><div class="name">${t} <span class="hint">${xs.length}</span></div>
     <ul class="list" style="margin:0;padding-left:18px;gap:2px">${xs.map(x => `<li class="sub">${esc(x)}</li>`).join('')}</ul></div>`).join('')}</div>`
     : '<p class="hint">Every slot filled and every item at its max enchant.</p>';
+}
+
+// ---- What to do next: gear steps, the next unlock, easy misses, Arcana. Numbers from community guides carry an
+// "unconfirmed" mark until Rayan checks them in game (results/build-nov07/tracker-checks.md lists them).
+const UNC = '<span class="unc" title="From community guides, not checked in the game yet">unconfirmed</span>';
+// Unique enchant chances (allthings.how): 100% up to +10, then these, +5% after each failed try at that level; weapons
+// and armour never lose a level on a fail
+const ODDS = { 11: 0.65, 12: 0.5, 13: 0.35, 14: 0.25, 15: 0.2 };
+const tries = lv => { let e = 0, left = 1; for (let k = 0; left > 1e-9; k++) { e += left; left *= 1 - Math.min(1, (ODDS[lv] ?? 1) + 0.05 * k); } return e; };
+const TRIES = Object.fromEntries([11, 12, 13, 14, 15].map(l => [l, tries(l)]));
+const triesTo = (from, to) => { let s = 0; for (let l = from + 1; l <= to; l++) s += TRIES[l] || 1; return s; };
+const ARC = s => /^(Arcana|Rune)/.test(s.slotPosName);  // Arcana have their own panel; Runes (Special grade) have no known odds, so no steps
+// CP per item level: the median of the legion's last two weeks of daily changes (each enchant level is about +1 item
+// level: every single-level enchant above +10 in the tracker's own history moved item level by 1)
+function cpPerIl() {
+  const r = LIST.flatMap(m => (m.history || []).slice(-15).flatMap((h, i, a) => i && h.il > a[i - 1].il && h.cp > a[i - 1].cp ? [(h.cp - a[i - 1].cp) / (h.il - a[i - 1].il)] : [])).sort((a, b) => a - b);
+  return r.length >= 3 ? Math.round(r[r.length >> 1]) : 0;
+}
+const GRADE_UP = ['Common', 'Rare', 'Legend', 'Unique'];
+// the gear steps worth doing first, in the guides' order (MetaBot): a weaker-grade item replaced, safe enchants to +10,
+// then the Unique +11 to +15 tries, fewest expected tries first
+function gearSteps(m) {
+  const has = (m.gear || []).filter(g => !ARC(g) && 'max' in g), out = [];
+  // only slots where someone in the legion already wears a Unique (no one has a Unique second bracelet yet)
+  const unique = new Set(LIST.flatMap(x => (x.gear || []).filter(g => g.grade === 'Unique').map(g => g.slotPosName)));
+  for (const g of has) {
+    const gi = GRADE_UP.indexOf(g.grade);
+    if (gi >= 0 && gi < 3 && unique.has(g.slotPosName)) { out.push({ rank: gi, text: `Replace ${g.name} (${g.grade}) with a Unique`, sub: 'a weaker grade caps its enchant and item level' }); continue; }
+    if (!g.max || g.enchantLevel >= g.max) continue;
+    const safe = Math.min(g.max, 10);
+    if (g.enchantLevel < safe) out.push({ rank: 3 + g.enchantLevel / 100, text: `${g.name} +${g.enchantLevel} → +${safe}`, sub: g.grade === 'Unique' ? `safe: every try works ${UNC}` : `${safe - g.enchantLevel} levels` });
+    else if (g.grade === 'Unique') { const l = g.enchantLevel + 1, t = TRIES[l];
+      out.push({ rank: 4 + t, text: `${g.name} +${g.enchantLevel} → +${l}`, sub: `${Math.round(ODDS[l] * 100)}% a try, about ${t.toFixed(1)} tries ${UNC}` }); }
+  }
+  return out.sort((a, b) => a.rank - b.rank);
+}
+function gearNext(m) {
+  const steps = gearSteps(m), cp = cpPerIl();
+  const left = (m.gear || []).filter(g => !ARC(g) && g.grade === 'Unique' && g.max > g.enchantLevel && g.enchantLevel >= 10);
+  return `<section class="panel"><h2 class="ph">Gear next</h2>${steps.length ? `<ol class="list">${steps.slice(0, 3).map(s => `<li><b>${esc(s.text)}</b><div class="sub">${s.sub}</div></li>`).join('')}</ol>
+    <p class="hint">Each enchant level is about +1 item level${cp ? `, about ${fmt(cp)} combat power in this legion lately` : ''}. Kina and stones per try differ by item: the game's enchant window shows them.</p>
+    ${left.length ? `<details><summary class="hint">Expected tries to +${left[0].max}, per item</summary><ul class="list" style="margin:6px 0 0;padding-left:18px;gap:2px">${left.map(g => `<li class="sub">${esc(g.name)} +${g.enchantLevel}: about ${Math.round(triesTo(g.enchantLevel, g.max))} tries</li>`).join('')}</ul></details>` : ''}`
+    : `<p class="hint">${(m.gear || []).some(g => 'max' in g) ? 'Nothing left to enchant, and no better grade in the legion for the rest.' : 'Item details arrive with the next update, within 30 minutes.'}</p>`}</section>`;
+}
+
+// content gated by item level (MetaBot, 4 Nov), and when this character gets there at last week's pace
+const GATES = [[2800, 'Ludra Normal'], [3000, 'Ludra Hard']];
+function nextUnlock(m) {
+  const g = GATES.find(([il]) => m.il < il), h = (m.history || []).slice(-8), days = h.length > 1 ? (Date.parse(h.at(-1).date) - Date.parse(h[0].date)) / 864e5 : 0;
+  const pace = days ? (h.at(-1).il - h[0].il) / days : 0;
+  return `<section class="panel"><h2 class="ph">Next unlock</h2>${!g ? `<p class="hint">Item level ${fmt(m.il)}: every gate we know of is open (${GATES.map(([il, n]) => `${n} ${fmt(il)}`).join(', ')}) ${UNC}</p>`
+    : `<b>${esc(g[1])} at item level ${fmt(g[0])}</b> ${UNC}<div class="sub">${fmt(g[0] - m.il)} to go · ${pace > 0 ? `about ${Math.max(1, Math.ceil((g[0] - m.il) / pace))} days at the last week's pace (+${fmt(Math.round(pace))} a day)` : 'no item level gained in the last week'}</div>`}</section>`;
+}
+
+// easy misses (MeinMMO's "11 mistakes"), from what NC's page shows
+function easyMisses(m) {
+  const skills = m.skill?.skillList || [], gear = (m.gear || []).filter(g => 'max' in g), out = [];
+  // a levelled active skill off the bar, if someone in the legion does put it on theirs (Defiance, for one, nobody does)
+  const barred = new Set(LIST.flatMap(x => (x.skill?.skillList || []).filter(s => s.equip).map(s => s.name)));
+  const off = skills.filter(s => s.category === 'Active' && s.acquired && !s.equip && s.skillLevel > 1 && barred.has(s.name));
+  if (off.length) out.push(['Skills', `${off.map(s => `${s.name} (level ${s.skillLevel})`).join(', ')} not on the bar`]);
+  const common = gear.filter(g => g.grade === 'Unique').reduce((n, g) => n + g.stones.filter(s => s[2] === 'Common').length, 0);
+  if (common) out.push(['gear', `${common} Common manastone${common > 1 ? 's' : ''} in Unique gear`]);
+  const empty = gear.reduce((n, g) => n + Math.max(0, g.slots - g.stones.length) + Math.max(0, g.godSlots - g.god.length), 0);
+  if (empty) out.push(['gear', `${empty} empty manastone or Theostone slot${empty > 1 ? 's' : ''}`]);
+  const titles = m.title?.titleList?.length ?? 3;
+  if (titles < 3) out.push(['', `${3 - titles} title slot${titles < 2 ? 's' : ''} empty (attack, defence, other)`]);
+  const a = arcana(m);
+  if (a.cards.length && a.cards.length < 5) out.push(['gear', `${5 - a.cards.length} empty Arcana slot${a.cards.length < 4 ? 's' : ''}`]);
+  else if (a.cards.length && a.set < 4) out.push(['gear', `Arcana: ${a.set} of 4 for the set bonus`]);
+  const base = '#/member/' + encodeURIComponent(m.name);
+  return `<section class="panel"><h2 class="ph">Checkup</h2>${out.length ? `<ul class="list" style="margin:0;padding-left:18px;gap:4px">${out.map(([t, x]) => `<li class="sub"><a href="${base}/${t.toLowerCase()}">${esc(x)}</a></li>`).join('')}</ul>`
+    : '<p class="hint">Nothing easy missed: skills on the bar, stones filled, titles on.</p>'}<p class="hint">NC's page doesn't show unspent Daevanion points or auto-extract filters.</p></section>`;
+}
+
+// Arcana (MetaBot's Arcana guide): five cards, each a Vigor or a Magic one; four of a kind give the set bonus, the
+// biggest effect; a better grade gives +20 item level a step and upgrades can't fail
+const ARCANA = ['Chalice', 'Parchment', 'Compass', 'Bell', 'Mirror'];
+function arcana(m) {
+  const cards = (m.gear || []).filter(g => /^Arcana/.test(g.slotPosName));
+  const kinds = cards.map(g => /of (Vigor|Magic)/.exec(g.name)?.[1]).filter(Boolean), vigor = kinds.filter(k => k === 'Vigor').length;
+  const kind = vigor >= kinds.length - vigor ? 'Vigor' : 'Magic', set = Math.max(vigor, kinds.length - vigor);
+  const weak = [...cards].sort((a, b) => GRADE_UP.indexOf(a.grade) - GRADE_UP.indexOf(b.grade) || a.enchantLevel - b.enchantLevel)[0];
+  return { cards, kind, set, weak };
+}
+function arcanaPanel(m) {
+  const { cards, kind, set, weak } = arcana(m);
+  if (!cards.length) return '';
+  const missing = ARCANA.filter(n => !cards.some(g => g.name.startsWith(n))), gi = GRADE_UP.indexOf(weak.grade);
+  return `<section class="panel"><h2 class="ph">Arcana <span class="hint">${set} of 4 ${kind} for the set bonus</span></h2>
+    <div class="gear">${cards.map(g => iconCard(g.icon, g.name, `<span class="grade">${esc(g.grade)}</span>`, `+${g.enchantLevel}${g.max ? `<span class="sub">/${g.max}</span>` : ''}`, g.grade)).join('')}</div>
+    <ol class="list" style="margin-top:10px">
+      ${missing.length ? `<li>Empty: ${missing.join(', ')}</li>` : ''}
+      ${set < 4 ? `<li>${4 - set} more ${kind} card${set < 3 ? 's' : ''} for the 4-piece set bonus</li>` : ''}
+      <li>Weakest: ${esc(weak.name)} (${esc(weak.grade)} +${weak.enchantLevel}${weak.max ? ` of ${weak.max}` : ''}). ${weak.max > weak.enchantLevel ? 'Level it up first: Arcana upgrades can’t fail.' : ''}
+        ${gi >= 0 && gi < 3 ? `A Unique one is +${(3 - gi) * 20} item level${/^Chalice/.test(weak.name) ? '; a Unique Chalice drops only from Transcendence stage 4 on' : ''}. ${UNC}` : ''}</li></ol></section>`;
 }
 
 const pct = (n, d) => d ? Math.round(n / d * 100) : 0;
@@ -1011,7 +1108,8 @@ function nextUpgrade(m) {
 
 function memberOverview(m) {
   const pw = m.petwing || {}, t = m.title || {}, [dn, dt] = daevTotals(m);
-  return nextUpgrade(m) + `<section class="panel"><h2 class="ph">Combat power over time</h2>${lineChart([{ name: m.name, color: m.color, points: m.history.map(h => ({ date: h.date, v: h.cp })) }])}</section>
+  return `<div class="grid3">${gearNext(m)}${nextUnlock(m)}${easyMisses(m)}</div>` + nextUpgrade(m) + `
+    <section class="panel"><h2 class="ph">Combat power over time</h2>${lineChart([{ name: m.name, color: m.color, points: m.history.map(h => ({ date: h.date, v: h.cp })) }])}</section>
     <div class="grid3">
       <section class="panel"><h2 class="ph">Wings and pet</h2><div class="gear one">
         ${pw.wing ? iconCard(pw.wing.icon, pw.wing.name, `Wings · <span class="grade">${esc(pw.wing.grade)}</span>`, '+' + pw.wing.enchantLevel, pw.wing.grade) : '<p class="hint">No wings.</p>'}
@@ -1066,7 +1164,7 @@ function member(name, tab) {
       ${tile('Daevanion', dt ? pct(dn, dt) + '%' : '–', dt ? `${fmt(dn)} of ${fmt(dt)} nodes` : 'no data yet')}
     </div>
     <nav class="tabs">${tabs.map(([k, l]) => `<a href="${base}${k ? '/' + k : ''}" ${k === (tab || '') ? 'aria-current="page"' : ''}>${l}</a>`).join('')}</nav>
-    ${tab === 'gear' ? `<section class="panel"><h2 class="ph">Gear checkup</h2>${checkup(m.gear)}</section>
+    ${tab === 'gear' ? `<section class="panel"><h2 class="ph">Gear checkup</h2>${checkup(m.gear)}</section>${arcanaPanel(m)}
       <section class="panel"><h2 class="ph">Equipment <span class="hint">dots: manastones, diamonds: Theostones, hollow: empty</span></h2>${gearGrid(m.gear)}</section>`
       : tab === 'skills' ? memberSkills(m) : tab === 'stats' ? memberStats(m) : memberOverview(m)}`;
 }
@@ -1281,10 +1379,69 @@ function timers() {
   const tile = (k, t, sub, period, icon) => `<div class="tile timer">${ring(t - now, period, icon)}<span class="k">${k}</span><span class="v">${span(t - now)}</span><span class="s">${sub}</span></div>`;
   return head('Aion 2', 'Today', `<span class="hint">Daily reset at ${clock(nextReset('day'))} your time · weekly ${weekday(nextReset('week'))}</span>`) + `
     <div class="tiles">${tile('Daily reset', nextReset('day'), `at ${clock(nextReset('day'))} your time`, 864e5, 'clock')}${tile('Weekly reset', nextReset('week'), `${weekday(nextReset('week'))} ${clock(nextReset('week'))}`, 7 * 864e5, 'clock')}
-      ${tile('Shugo Festival', nextAt(0), 'every hour at :00', 36e5, 'star')}${tile('Dimensional Invasion', nextAt(30), 'every hour at :30', 36e5, 'shield')}${siegeTile()}</div>
-` + bossPanel() + (ticketsPanel() || `<div class="panel empty">Your entry tickets show here once Premade’s app reads them: turn on Live fight on the <a href="#/dps">DPS</a> page, then log in to Aion 2 or use a ticket.</div>`) + news();
+      ${tile('Shugo Festival', nextAt(0), 'every hour at :00', 36e5, 'star')}${tile('Dimensional Invasion', nextAt(30), 'every hour at :30', 36e5, 'shield')}${siegeTile()}${EVENTS.map(eventTile).join('')}</div>
+` + planPanel() + bossPanel() + (ticketsPanel() || `<div class="panel empty">Your entry tickets show here once Premade’s app reads them: turn on Live fight on the <a href="#/dps">DPS</a> page, then log in to Aion 2 or use a ticket.</div>`) + news();
 }
 
+// fixed events from community guides, in UTC hours: allthings.how's global times (a GMT+9 "server time", 13 Oct);
+// other guides disagree, so they stay unconfirmed until checked in the game
+const EVENTS = [
+  { n: 'Spacetime Rift', every: 3, from: 0, open: 10, sub: 'every 3 h, open 10 min', icon: 'star' },
+  { n: 'Watcher Kaira', every: 3, from: 1, sub: 'Abyss, every 3 h', icon: 'skull' },
+  { n: 'Guardian Lord Nahma', days: [5, 0], at: 12, sub: 'Abyss, Fri and Sun', icon: 'skull' },
+  { n: 'Argo, Kaira and Tamasa', days: [1, 4, 6], at: 12.5, sub: 'Abyss, Mon, Thu and Sat', icon: 'skull' },
+];
+// an event's next start (t), how long a full ring is (period), and the start before it (last)
+function nextEvent(e, now = Date.now()) {
+  if (e.every) { const p = e.every * 36e5, o = e.from * 36e5, t = Math.ceil((now - o) / p) * p + o; return { t, period: p, last: t - p }; }
+  const day0 = Math.floor(now / 864e5) * 864e5;
+  for (let d = 0; d <= 7; d++) { const t = day0 + d * 864e5 + e.at * 36e5; if (t > now && e.days.includes(new Date(t).getUTCDay())) return { t, period: 7 * 864e5 / e.days.length }; }
+}
+function eventTile(e) {
+  const now = Date.now(), { t, period, last } = nextEvent(e, now), on = e.open && now - last < e.open * 6e4;
+  return `<div class="tile timer"><span class="ring ${on ? 'up' : t - now < 10 * 6e4 ? 'soon' : ''}" style="--p:${on ? 100 : Math.max(0, 100 - ((t - now) / period) * 100).toFixed(1)}">${ico(e.icon)}</span>
+    <span class="k">${e.n}</span><span class="v">${on ? 'Open now' : span(t - now)}</span><span class="s">${e.sub} · ${e.days ? weekday(t) + ' ' : ''}${clock(t)} ${UNC}</span></div>`;
+}
+
+// Tonight's plan: what's about to cap, then what's on a clock, then the week's pace. Ticket counts are live from the
+// game (Live fight); refills from guides (KeenGamer 6 Oct, MeinMMO): [amount, every 3 h | daily | weekly reset]
+const REFILL = { 60000001: [15, '3h'], 4: [2, 'day'], 1: [2, 'day'], 8: [1, 'day'], 101: [0, 'week'], 80000001: [0, 'week'] };
+const SEASON_END = Date.UTC(2026, 11, 16, 7);  // Season 1's Daeva Pass ends 16 Dec 2026 (KeenGamer); the hour is a guess: the reset
+function planItems(now = Date.now()) {
+  // only counts read since the refill they depend on: an older one may have refilled or been wiped since
+  const fresh = x => (x.at || 0) > (REFILL[x.id][1] === 'week' ? lastReset('week') : REFILL[x.id][1] === 'day' ? lastReset('day') : now - 3 * 36e5);
+  const all = Object.values(premade('lpc-aion-tickets') || {}).filter(x => TICKETS[x.id] && REFILL[x.id]), T = all.filter(fresh);
+  const day = nextReset('day'), week = nextReset('week'), caps = [], pace = [], wipe = [];
+  for (const x of T) {
+    const [name, cap] = TICKETS[x.id], max = x.max || cap, [per, when] = REFILL[x.id], left = x.left || 0;
+    if (when === 'week') {
+      if (!left) continue;
+      wipe.push(`${name} ${left}`);
+      const d = Math.max(1, Math.ceil((week - now) / 864e5));
+      pace.push(`${name}: ${left} left, ${Math.ceil(left / d)} a day to use them before ${weekday(week)}’s reset`);
+    } else if (when === 'day') {
+      const lost = Math.min(per, left + per - max);
+      if (lost > 0) caps.push(`${name} ${left} of ${max}: ${lost} lost at the daily reset in ${span(day - now)} unless you use ${lost > 1 ? 'some' : 'one'}`);
+    } else if (left >= max) caps.push(`${name} is full (${fmt(max)}): ${per} wasted every 3 h`);
+    else if (max - left <= per * 2) caps.push(`${name} ${fmt(left)} of ${fmt(max)}: full within ${Math.ceil((max - left) / per) * 3} h`);
+  }
+  const reset = week - now < 864e5 ? `${weekday(week)}’s reset in ${span(week - now)} wipes ${wipe.length ? wipe.join(', ') + ' and ' : ''}the weekly counters: raid attempts, battlefield wins, Abyss hours, Daeva Pass EXP` : '';
+  const g = premade('lpc-aion-sched') || {};
+  const soon = [{ n: 'Shugo Festival', t: nextAt(0) }, { n: 'Dimensional Invasion', t: nextAt(30) }, ...EVENTS.map(e => ({ n: e.n, t: nextEvent(e, now).t, unc: 1 })),
+    ...gameBosses().filter(b => b.due > now).slice(0, 3).map(b => ({ n: b.n, t: b.due })), ...(g.siege > now ? [{ n: 'Artifact Siege', t: g.siege }] : [])]
+    .filter(x => x.t - now <= 3 * 36e5).sort((a, b) => a.t - b.t).slice(0, 5);
+  if (SEASON_END > now) pace.push(`Season 1’s Daeva Pass ends in ${span(SEASON_END - now)}: 50,000 pass EXP a week`);
+  return { caps, reset, soon, pace, tickets: T.length, stale: all.length - T.length };
+}
+function planPanel() {
+  const { caps, reset, soon, pace, tickets, stale } = planItems(), now = Date.now();
+  const part = (title, xs) => `<div><div class="name">${title}</div><ol class="list" style="margin:4px 0 0">${xs.join('')}</ol></div>`;
+  return `<section class="panel"><h2 class="ph">Tonight’s plan <span class="hint">caps and refills from guides ${UNC}</span></h2><div class="grid3">
+    ${part('About to cap', [reset, ...caps].filter(Boolean).length ? [reset, ...caps].filter(Boolean).map(c => `<li>${esc(c)}</li>`)
+      : [`<li class="sub">${tickets ? 'Nothing about to cap.' : stale ? 'The ticket counts are from before the last reset: log in to Aion 2 with Live fight on.' : 'Ticket counts come from Live fight (DPS page).'}</li>`])}
+    ${part('Next 3 hours', soon.length ? soon.map(x => `<li>${esc(x.n)} <span class="num">${span(x.t - now)}</span> <span class="hint">${clock(x.t)}</span>${x.unc ? UNC : ''}</li>`) : ['<li class="sub">Nothing on a clock.</li>'])}
+    ${part('This week', pace.length ? pace.map(p => `<li>${esc(p)}</li>`) : ['<li class="sub">Nothing left to pace.</li>'])}</div></section>`;
+}
 
 // the Artifact Siege, once the game has said when (entering the Abyss with Live fight on)
 function siegeTile() {
@@ -1380,7 +1537,7 @@ const ICON = { bolt: '<path d="M13 3 5 14h6l-1 7 8-11h-6z"/>', clock: '<circle c
   up: '<path d="M12 19V5M5 12l7-7 7 7"/>' };
 // section titles get their icon after each render, by how the title starts
 const PH_ICONS = [['Combat power', 'chart', 'var(--best)'], ['Your characters', 'user', 'var(--link)'], ['Your Aion 2', 'user', 'var(--link)'], ['Lately', 'list', 'var(--link)'], ['Latest', 'list', 'var(--link)'],
-  ['Friends', 'users', 'var(--good)'], ['Patch notes', 'doc', 'var(--link)'], ['Announcements', 'megaphone', 'var(--warn)'], ['Field bosses', 'skull', 'var(--bad)'], ['Gear checkup', 'wrench', 'var(--warn)'],
+  ['Friends', 'users', 'var(--good)'], ['Patch notes', 'doc', 'var(--link)'], ['Announcements', 'megaphone', 'var(--warn)'], ['Field bosses', 'skull', 'var(--bad)'], ['Gear checkup', 'wrench', 'var(--warn)'], ['Checkup', 'wrench', 'var(--warn)'], ['Next unlock', 'up', 'var(--good)'], ['Arcana', 'star', '#b07cff'], ['Tonight', 'clock', 'var(--best)'],
   ['Equipment', 'shield', 'var(--best)'], ['Gear', 'shield', 'var(--best)'], ['Wings', 'feather', 'var(--link)'], ['Titles', 'crown', 'var(--best)'], ['Daevanion', 'grid', '#b07cff'], ['Base stats', 'chart', 'var(--link)'],
   ['Deity stats', 'star', 'var(--best)'], ['Skill', 'bolt', 'var(--warn)'], ['Equipped', 'bolt', 'var(--warn)'], ['Passive', 'bolt', 'var(--muted)'], ['Learned', 'bolt', 'var(--muted)'], ['Not learned', 'bolt', 'var(--muted)'],
   ['The class', 'book', 'var(--link)'], ['Next upgrade', 'up', 'var(--good)'], ['Best', 'trophy', 'var(--best)'], ['Combat Analysis', 'chart', 'var(--link)'], ['Your fights', 'chart', 'var(--link)'], ['About', 'book', 'var(--muted)'], ['Found', 'user', 'var(--link)']];
@@ -1542,7 +1699,7 @@ function aionBeat() {
   const tix = Object.values(premade('lpc-aion-tickets') || {}).filter(x => TICKETS[x.id] && x.id !== 60000001).map(x => `${TICKETS[x.id][0]} ${x.left}`).join(' · ');
   try {
     localStorage.setItem('aion-warned', JSON.stringify([...warned].slice(-50)));
-    localStorage.setItem('lpc-aion-card', JSON.stringify({ at: now, lines: [...next.slice(0, 3).map(k => `${k.b} in ${span(k.due - now)}`),
+    localStorage.setItem('lpc-aion-card', JSON.stringify({ at: now, lines: [...planItems(now).caps.slice(0, 1), ...next.slice(0, 3).map(k => `${k.b} in ${span(k.due - now)}`),
       `Daily reset in ${span(nextReset('day') - now)}`, ...(tix ? [tix] : [])] }));
   } catch {}
 }

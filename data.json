@@ -27126,10 +27126,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Specter_01.png",
-     "id": 1216,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Papis_01.png",
+     "id": 1066,
      "level": 3,
-     "name": "Dark Spirit"
+     "name": "Papis"
     },
     "wing": {
      "enchantLevel": 0,
@@ -28322,14 +28322,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 101199,
+     "cp": 101202,
      "il": 2372
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 101199,
+   "cp": 101202,
    "il": 2372,
    "gear": [
     {
@@ -32111,7 +32111,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 18:34 UTC",
+ "updated": "2026-11-07 19:04 UTC",
  "feed": [
   {
    "t": "2026-11-07 18:32",

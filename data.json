@@ -30428,15 +30428,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 55800,
-     "il": 992
+     "cp": 56278,
+     "il": 996
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 55800,
-   "il": 992,
+   "cp": 56278,
+   "il": 996,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30893,11 +30893,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 992
+     "value": 996
     }
    ],
    "title": {
-    "ownedCount": 131,
+    "ownedCount": 133,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -30934,8 +30934,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 47,
-      "ownedPercent": 44,
+      "ownedCount": 48,
+      "ownedPercent": 45,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -30959,8 +30959,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 45,
-      "ownedPercent": 45,
+      "ownedCount": 46,
+      "ownedPercent": 46,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31008,8 +31008,8 @@
       "id": 14,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 11,
-      "openPercent": 9,
+      "openNodeCount": 14,
+      "openPercent": 12,
       "totalNodeCount": 116
      },
      {
@@ -31331,7 +31331,7 @@
      "4|9|Common|0|Critical Hit Resist",
      "4|7|Common|0|Defense",
      "4|8|Common|0|Max HP",
-     "4|14|Common|0|Critical Hit Resist",
+     "4|14|Common|1|Critical Hit Resist",
      "4|12|Common|0|Attack",
      "5|2|Legend|0|Skill Level Up - Sword Aura Rampage",
      "5|3|Common|0|Critical Hit Resist",
@@ -31342,9 +31342,9 @@
      "5|10|Legend|0|Skill Level Up - Rush Strike",
      "5|11|Common|0|Critical Hit",
      "5|9|Common|0|Defense",
-     "5|14|Rare|0|Skill Level Up - Identify Weakness",
+     "5|14|Rare|1|Skill Level Up - Identify Weakness",
      "5|12|Common|0|Max HP",
-     "5|13|Common|0|Max MP",
+     "5|13|Common|1|Max MP",
      "6|4|Common|0|Defense",
      "6|6|Common|0|Critical Hit",
      "6|10|Common|0|Max HP",
@@ -31896,7 +31896,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -32099,10 +32099,10 @@
     },
     "wing": {
      "enchantLevel": 0,
-     "grade": "Common",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_006A.png",
-     "id": 40200601,
-     "name": "Lesser Daeva Wings"
+     "grade": "Legend",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_007.png",
+     "id": 40200700,
+     "name": "Superior Daeva Wings"
     },
     "wingSkin": {
      "enchantLevel": null,
@@ -32116,8 +32116,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 07:34 UTC",
+ "updated": "2026-11-07 08:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 08:04",
+   "n": "RyBear",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-07 08:04",
+   "n": "RyBear",
+   "x": "opened 3 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-07 08:04",
+   "n": "RyBear",
+   "x": "skills up: Identify Weakness 15"
+  },
   {
    "t": "2026-11-07 07:34",
    "n": "RyBear",
@@ -33602,21 +33617,6 @@
    "t": "2026-11-04 02:02",
    "n": "DeathRunner",
    "x": "new Nuakum Breastplate +11"
-  },
-  {
-   "t": "2026-11-04 02:02",
-   "n": "DeathRunner",
-   "x": "skills up: Determination 16"
-  },
-  {
-   "t": "2026-11-04 01:34",
-   "n": "RyBear",
-   "x": "reached level 28"
-  },
-  {
-   "t": "2026-11-04 01:34",
-   "n": "CutieCatty",
-   "x": "new Nuakum Cloak +10"
   }
  ]
 }

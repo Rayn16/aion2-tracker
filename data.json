@@ -30428,15 +30428,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 56278,
-     "il": 996
+     "cp": 58267,
+     "il": 1085
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 56278,
-   "il": 996,
+   "cp": 58267,
+   "il": 1085,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30605,9 +30605,9 @@
     {
      "slotPosName": "Belt",
      "name": "Noble Belt",
-     "grade": "Rare",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_018.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_021.png",
      "max": 10,
      "slots": 0,
      "stones": [],
@@ -30726,6 +30726,22 @@
      ]
     },
     {
+     "slotPosName": "Rune2",
+     "name": "Clash Rune",
+     "grade": "Special",
+     "enchantLevel": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
+     "max": 10,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Quest"
+     ]
+    },
+    {
      "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
@@ -30744,9 +30760,9 @@
     {
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
-     "grade": "Rare",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv3_01.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv4_01.png",
      "max": 10,
      "slots": 0,
      "stones": [],
@@ -30893,30 +30909,30 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 996
+     "value": 1085
     }
    ],
    "title": {
-    "ownedCount": 133,
+    "ownedCount": 137,
     "titleList": [
      {
       "equipCategory": "Etc",
       "equipStatList": [
        {
-        "desc": "HP +750"
+        "desc": "Combat Speed +2%"
        },
        {
-        "desc": "HP Potion Recovery +300"
+        "desc": "MP +250"
        }
       ],
       "grade": "Legend",
-      "id": 21010004,
-      "name": "Grasper of the Core",
-      "ownedCount": 39,
-      "ownedPercent": 38,
+      "id": 21020057,
+      "name": "Forever in Our Hearts",
+      "ownedCount": 42,
+      "ownedPercent": 41,
       "statList": [
        {
-        "desc": "Attack Bonus +2"
+        "desc": "Critical Hit +10"
        }
       ],
       "totalCount": 102
@@ -30959,8 +30975,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 46,
-      "ownedPercent": 46,
+      "ownedCount": 47,
+      "ownedPercent": 47,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31008,8 +31024,8 @@
       "id": 14,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 14,
-      "openPercent": 12,
+      "openNodeCount": 15,
+      "openPercent": 13,
       "totalNodeCount": 116
      },
      {
@@ -31326,7 +31342,7 @@
      "3|10|Common|0|Max MP",
      "3|11|Common|0|Critical Hit",
      "4|2|Common|0|Critical Hit",
-     "3|14|Common|0|Critical Hit",
+     "3|14|Common|1|Critical Hit",
      "4|4|Common|0|Max HP",
      "4|9|Common|0|Critical Hit Resist",
      "4|7|Common|0|Defense",
@@ -31806,7 +31822,7 @@
       "id": 11200000,
       "name": "Ankle Slice",
       "needLevel": 7,
-      "skillLevel": 3
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -31826,7 +31842,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -32116,8 +32132,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 08:34 UTC",
+ "updated": "2026-11-07 09:02 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 09:02",
+   "n": "RyBear",
+   "x": "new Clash Rune +2"
+  },
+  {
+   "t": "2026-11-07 09:02",
+   "n": "RyBear",
+   "x": "4 new titles"
+  },
+  {
+   "t": "2026-11-07 09:02",
+   "n": "RyBear",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-07 09:02",
+   "n": "RyBear",
+   "x": "skills up: Ankle Slice 7, Rush Strike 8"
+  },
   {
    "t": "2026-11-07 08:34",
    "n": "uTril",
@@ -33597,26 +33633,6 @@
    "t": "2026-11-04 03:04",
    "n": "uTril",
    "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-04 03:02",
-   "n": "DeathRunner",
-   "x": "skills up: Rear Smite 15, Impact Hit 15, Determination 17"
-  },
-  {
-   "t": "2026-11-04 02:34",
-   "n": "uTril",
-   "x": "Vakron Greaves +10 → +0"
-  },
-  {
-   "t": "2026-11-04 02:04",
-   "n": "uTril",
-   "x": "new Vakron Cloak +10"
-  },
-  {
-   "t": "2026-11-04 02:04",
-   "n": "uTril",
-   "x": "skills up: Immortal Veil 15, Radiant Benediction 16"
   }
  ]
 }

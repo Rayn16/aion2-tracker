@@ -25476,15 +25476,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 63434,
-     "il": 1337
+     "cp": 74146,
+     "il": 1415
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 63434,
-   "il": 1337,
+   "cp": 74146,
+   "il": 1415,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25945,7 +25945,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1337
+     "value": 1415
     }
    ],
    "title": {
@@ -26054,8 +26054,8 @@
       "id": 83,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 55,
-      "openPercent": 63,
+      "openNodeCount": 67,
+      "openPercent": 76,
       "totalNodeCount": 88
      },
      {
@@ -26063,8 +26063,8 @@
       "id": 84,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 0,
-      "openPercent": 0,
+      "openNodeCount": 48,
+      "openPercent": 41,
       "totalNodeCount": 116
      },
      {
@@ -26272,30 +26272,30 @@
     ],
     "83": [
      "3|10|Rare|0|Skill Level Up - Protection Circle",
-     "3|11|Common|0|Critical Hit Resist",
-     "3|12|Common|0|Max HP",
+     "3|11|Common|1|Critical Hit Resist",
+     "3|12|Common|1|Max HP",
      "3|13|Unique|0|Critical Damage Tolerance",
      "3|7|Common|0|Critical Hit Resist",
      "3|8|Legend|0|Skill Level Up - Gust Rampage",
-     "3|9|Common|0|Attack",
+     "3|9|Common|1|Attack",
      "3|3|Unique|1|Critical Damage Boost",
      "3|4|Common|0|Critical Hit Resist",
      "3|5|Rare|0|Skill Level Up - Blessing of Life",
      "5|3|Common|1|Defense",
-     "4|11|Common|0|Defense",
+     "4|11|Common|1|Defense",
      "4|13|Common|0|Max MP",
      "4|7|Common|0|Max MP",
-     "4|9|Common|0|Defense",
+     "4|9|Common|1|Defense",
      "4|3|Common|1|Critical Hit",
      "4|5|Common|1|Attack",
      "4|6|Common|1|Critical Hit",
      "6|4|Common|1|Critical Hit Resist",
      "5|12|Common|1|Attack",
      "5|13|Rare|1|Skill Level Up - Attack Preparation",
-     "5|8|Common|0|Critical Hit",
-     "5|9|Common|0|Max MP",
-     "5|10|Common|0|Max HP",
-     "5|11|Legend|0|Skill Level Up - Recuperation",
+     "5|8|Common|1|Critical Hit",
+     "5|9|Common|1|Max MP",
+     "5|10|Common|1|Max HP",
+     "5|11|Legend|1|Skill Level Up - Recuperation",
      "5|4|Legend|1|Skill Level Up - Charging Smash",
      "5|5|Common|1|Max HP",
      "5|7|Legend|0|Skill Level Up - Wave Blow",
@@ -26363,16 +26363,16 @@
     ],
     "84": [
      "14|9|Common|0|Defense",
-     "14|12|Common|0|Critical Hit Resist",
-     "14|7|Common|0|Attack",
+     "14|12|Common|1|Critical Hit Resist",
+     "14|7|Common|1|Attack",
      "14|8|Unique|0|Multi-Hit Resist",
      "14|2|Unique|0|Multi-Hit Chance",
-     "14|3|Common|0|Max MP",
-     "14|4|Common|0|Attack",
-     "13|12|Legend|0|Skill Level Up - Onslaught",
+     "14|3|Common|1|Max MP",
+     "14|4|Common|1|Attack",
+     "13|12|Legend|1|Skill Level Up - Onslaught",
      "13|14|Common|0|Max HP",
-     "14|13|Common|0|Defense",
-     "14|14|Unique|0|Multi-Hit Chance",
+     "14|13|Common|1|Defense",
+     "14|14|Unique|1|Multi-Hit Chance",
      "2|13|Common|0|Max HP",
      "2|14|Unique|0|Multi-Hit Resist",
      "2|9|Common|0|Defense",
@@ -26410,74 +26410,74 @@
      "5|11|Common|0|Critical Hit",
      "5|4|Common|0|Max MP",
      "5|5|Rare|0|Skill Level Up - Crossguard",
-     "5|6|Common|0|Critical Hit Resist",
+     "5|6|Common|1|Critical Hit Resist",
      "5|7|Common|0|Attack",
      "7|2|Common|0|Critical Hit Resist",
-     "7|3|Common|0|Critical Hit",
-     "7|4|Common|0|Max HP",
-     "7|5|Common|0|Attack",
+     "7|3|Common|1|Critical Hit",
+     "7|4|Common|1|Max HP",
+     "7|5|Common|1|Attack",
      "6|13|Common|0|Critical Hit Resist",
      "6|10|Common|0|Max HP",
-     "6|6|Common|0|Critical Hit",
-     "8|4|Common|0|Defense",
-     "8|6|Common|0|Defense",
+     "6|6|Common|1|Critical Hit",
+     "8|4|Common|1|Defense",
+     "8|6|Common|1|Defense",
      "7|14|Common|0|Max MP",
      "8|2|Legend|0|Skill Level Up - Wave Blow",
      "7|10|Common|0|Max MP",
      "7|11|Common|0|Critical Hit",
      "7|12|Rare|0|Skill Level Up - Raging Spell",
      "7|13|Common|0|Defense",
-     "7|6|Legend|0|Skill Level Up - Recuperation",
+     "7|6|Legend|1|Skill Level Up - Recuperation",
      "7|7|Common|0|Max MP",
-     "7|8|Common|0|Defense",
+     "7|8|Common|1|Defense",
      "7|9|Common|0|Critical Hit Resist",
-     "9|4|Rare|0|Skill Level Up - Attack Preparation",
-     "9|5|Common|0|Critical Hit Resist",
-     "9|6|Common|0|Max HP",
-     "9|7|Common|0|Critical Hit",
-     "9|2|Common|0|Max HP",
-     "9|3|Common|0|Attack",
+     "9|4|Rare|1|Skill Level Up - Attack Preparation",
+     "9|5|Common|1|Critical Hit Resist",
+     "9|6|Common|1|Max HP",
+     "9|7|Common|1|Critical Hit",
+     "9|2|Common|1|Max HP",
+     "9|3|Common|1|Attack",
      "8|12|Common|0|Attack",
      "8|14|Legend|0|Skill Level Up - Spinning Strike",
      "8|8|Start|1|Triniel - Start",
      "8|10|Common|0|Attack",
-     "10|6|Common|0|Max MP",
-     "10|3|Common|0|Critical Hit",
-     "9|12|Common|0|Max MP",
-     "9|13|Common|0|Critical Hit Resist",
-     "9|14|Common|0|Critical Hit",
-     "9|8|Common|0|Attack",
-     "9|9|Common|0|Max HP",
-     "9|10|Legend|0|Skill Level Up - Dark Crush",
-     "9|11|Common|0|Defense",
-     "11|6|Legend|0|Skill Level Up - Heat Wave Blow",
-     "11|7|Common|0|Attack",
-     "11|9|Common|0|Defense",
+     "10|6|Common|1|Max MP",
+     "10|3|Common|1|Critical Hit",
+     "9|12|Common|1|Max MP",
+     "9|13|Common|1|Critical Hit Resist",
+     "9|14|Common|1|Critical Hit",
+     "9|8|Common|1|Attack",
+     "9|9|Common|1|Max HP",
+     "9|10|Legend|1|Skill Level Up - Dark Crush",
+     "9|11|Common|1|Defense",
+     "11|6|Legend|1|Skill Level Up - Heat Wave Blow",
+     "11|7|Common|1|Attack",
+     "11|9|Common|1|Defense",
      "11|2|Rare|0|Skill Level Up - Protection Circle",
-     "11|3|Common|0|Max HP",
-     "11|4|Common|0|Max MP",
-     "11|5|Common|0|Critical Hit Resist",
+     "11|3|Common|1|Max HP",
+     "11|4|Common|1|Max MP",
+     "11|5|Common|1|Critical Hit Resist",
      "10|10|Common|0|Critical Hit Resist",
-     "10|12|Common|0|Attack",
-     "12|7|Common|0|Critical Hit",
-     "12|8|Common|0|Max MP",
-     "12|9|Common|0|Attack",
-     "12|4|Common|0|Defense",
+     "10|12|Common|1|Attack",
+     "12|7|Common|1|Critical Hit",
+     "12|8|Common|1|Max MP",
+     "12|9|Common|1|Attack",
+     "12|4|Common|1|Defense",
      "11|14|Legend|0|Skill Level Up - Defiance",
      "12|2|Common|0|Critical Hit",
-     "11|10|Common|0|Critical Hit",
+     "11|10|Common|1|Critical Hit",
      "11|11|Rare|0|Skill Level Up - Blessing of Life",
-     "11|12|Common|0|Max HP",
-     "11|13|Common|0|Critical Hit",
+     "11|12|Common|1|Max HP",
+     "11|13|Common|1|Critical Hit",
      "13|9|Rare|0|Skill Level Up - Survival Willpower",
      "13|10|Common|0|Max MP",
      "13|11|Common|0|Max HP",
-     "13|4|Legend|0|Skill Level Up - Charging Smash",
+     "13|4|Legend|1|Skill Level Up - Charging Smash",
      "13|5|Common|0|Critical Hit Resist",
      "13|6|Common|0|Max HP",
-     "13|7|Rare|0|Skill Level Up - Earth's Promise",
+     "13|7|Rare|1|Skill Level Up - Earth's Promise",
      "13|2|Common|0|Critical Hit Resist",
-     "12|12|Common|0|Max MP",
+     "12|12|Common|1|Max MP",
      "12|14|Common|0|Critical Hit Resist"
     ],
     "85": [
@@ -26801,7 +26801,7 @@
       "id": 18010000,
       "name": "Onslaught",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -26821,7 +26821,7 @@
       "id": 18090000,
       "name": "Rushing Smash",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -26841,7 +26841,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -26861,7 +26861,7 @@
       "id": 18150000,
       "name": "Heat Wave Blow",
       "needLevel": 7,
-      "skillLevel": 9
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -26871,7 +26871,7 @@
       "id": 18120000,
       "name": "Recuperation",
       "needLevel": 8,
-      "skillLevel": 12
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -26886,7 +26886,7 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_008.png",
       "id": 18080000,
       "name": "Wave Blow",
@@ -26931,7 +26931,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 9
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -26961,7 +26961,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 13
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -26981,7 +26981,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 6
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -26991,7 +26991,7 @@
       "id": 18780000,
       "name": "Earth's Promise",
       "needLevel": 21,
-      "skillLevel": 4
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -27001,7 +27001,7 @@
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 7
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -27046,7 +27046,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_016.png",
       "id": 18160000,
       "name": "Sprint Mantra",
@@ -27066,7 +27066,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_033.png",
       "id": 18330000,
       "name": "Marchutan's Wrath",
@@ -27076,7 +27076,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_024.png",
       "id": 18240000,
       "name": "Impeding Authority",
@@ -27116,12 +27116,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_042.png",
       "id": 18420000,
       "name": "Guardian Blessing",
       "needLevel": 22,
-      "skillLevel": 7
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -32132,8 +32132,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 16:34 UTC",
+ "updated": "2026-11-07 17:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 17:03",
+   "n": "iLen",
+   "x": "opened 60 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-07 17:03",
+   "n": "iLen",
+   "x": "skills up: Onslaught 14, Rushing Smash 13, Dark Crush 14, Recuperation 14 and 6 more"
+  },
   {
    "t": "2026-11-07 16:33",
    "n": "iLen",
@@ -33623,16 +33633,6 @@
    "t": "2026-11-04 03:34",
    "n": "uTril",
    "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-04 03:32",
-   "n": "DeathRunner",
-   "x": "skills up: Triniel's Dagger 2"
-  },
-  {
-   "t": "2026-11-04 03:04",
-   "n": "uTril",
-   "x": "Vakron Greaves +0 → +10"
   }
  ]
 }

@@ -32108,10 +32108,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_SkurvWar_01.png",
-     "id": 1054,
-     "level": 3,
-     "name": "Mumu Warrior"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Zaif_01_CV02.png",
+     "id": 1125,
+     "level": 1,
+     "name": "Aberrant Zaif"
     },
     "wing": {
      "enchantLevel": 0,
@@ -32132,7 +32132,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 09:34 UTC",
+ "updated": "2026-11-07 10:05 UTC",
  "feed": [
   {
    "t": "2026-11-07 09:02",

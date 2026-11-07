@@ -14706,15 +14706,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 142602,
-     "il": 2691
+     "cp": 143620,
+     "il": 2703
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 142602,
-   "il": 2691,
+   "cp": 143620,
+   "il": 2703,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15193,34 +15193,13 @@
     },
     {
      "slotPosName": "Ring2",
-     "name": "Aulamus Ring",
+     "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "enchantLevel": 11,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Evasion Bonus",
-       "+5",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -15425,7 +15404,7 @@
      "slotPosName": "Arcana4",
      "name": "Bell of Vigor",
      "grade": "Unique",
-     "enchantLevel": 1,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -15502,11 +15481,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +6.2%",
-      "Perfect Chance +6.2%"
+      "Defense increase +6.3%",
+      "Perfect Chance +6.3%"
      ],
      "type": "Justice",
-     "value": 62
+     "value": 63
     },
     {
      "name": "Freedom [Vaizel]",
@@ -15593,7 +15572,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2691
+     "value": 2703
     }
    ],
    "title": {
@@ -16357,7 +16336,7 @@
       "id": 13210000,
       "name": "Whirlwind Slice",
       "needLevel": 7,
-      "skillLevel": 10
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -16417,7 +16396,7 @@
       "id": 13710000,
       "name": "Heightened Sixth Sense",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -16685,15 +16664,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 116588,
-     "il": 2441
+     "cp": 117223,
+     "il": 2483
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 116588,
-   "il": 2441,
+   "cp": 117223,
+   "il": 2483,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17001,7 +16980,7 @@
      "slotPosName": "Cape",
      "name": "Nuakum Cloak",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
@@ -17092,7 +17071,7 @@
      "slotPosName": "Earring2",
      "name": "Enraged Kromede Earrings",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
      "max": 15,
      "slots": 4,
@@ -17370,11 +17349,11 @@
     },
     {
      "slotPosName": "Arcana2",
-     "name": "Parchment of Vigor",
-     "grade": "Rare",
+     "name": "Parchment of Magic",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
-     "max": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -17410,7 +17389,7 @@
     {
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
-     "grade": "Legend",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 4,
@@ -17490,20 +17469,20 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -2.1%",
-      "Endurance Penetration +2.1%"
+      "Cooldown -2.5%",
+      "Endurance Penetration +2.5%"
      ],
      "type": "Illusion",
-     "value": 21
+     "value": 25
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.8%",
-      "Regeneration +1.8%"
+      "HP increase +0.6%",
+      "Regeneration +0.6%"
      ],
      "type": "Life",
-     "value": 18
+     "value": 6
     },
     {
      "name": "Time [Siel]",
@@ -17544,11 +17523,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +0.6%",
-      "Endurance +0.6%"
+      "MP increase +2.2%",
+      "Endurance +2.2%"
      ],
      "type": "Destiny",
-     "value": 6
+     "value": 22
     },
     {
      "name": "Space [Israphel]",
@@ -17563,7 +17542,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2441
+     "value": 2483
     }
    ],
    "title": {
@@ -18267,7 +18246,7 @@
       "id": 15210000,
       "name": "Flame Arrow",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -18347,7 +18326,7 @@
       "id": 15220000,
       "name": "Frost Burst",
       "needLevel": 10,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -18367,7 +18346,7 @@
       "id": 15060000,
       "name": "Hellfire",
       "needLevel": 14,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -18397,7 +18376,7 @@
       "id": 15720000,
       "name": "Robe of Earth",
       "needLevel": 6,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -18507,7 +18486,7 @@
       "id": 15400000,
       "name": "Element Enhancement",
       "needLevel": 22,
-      "skillLevel": 18
+      "skillLevel": 20
      },
      {
       "acquired": 0,
@@ -18547,7 +18526,7 @@
       "id": 15200000,
       "name": "Cold Storm",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -18557,7 +18536,7 @@
       "id": 15390000,
       "name": "Fire Wall",
       "needLevel": 22,
-      "skillLevel": 11
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -25476,14 +25455,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 74041,
+     "cp": 74051,
      "il": 1421
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 74041,
+   "cp": 74051,
    "il": 1421,
    "gear": [
     {
@@ -27147,10 +27126,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Papis_01.png",
-     "id": 1066,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Specter_01.png",
+     "id": 1216,
      "level": 3,
-     "name": "Papis"
+     "name": "Dark Spirit"
     },
     "wing": {
      "enchantLevel": 0,
@@ -32132,8 +32111,43 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 18:04 UTC",
+ "updated": "2026-11-07 18:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 18:32",
+   "n": "IBrook",
+   "x": "Nuakum Cloak +10 → +11"
+  },
+  {
+   "t": "2026-11-07 18:32",
+   "n": "IBrook",
+   "x": "Enraged Kromede Earrings +10 → +11"
+  },
+  {
+   "t": "2026-11-07 18:32",
+   "n": "IBrook",
+   "x": "new Parchment of Magic +0"
+  },
+  {
+   "t": "2026-11-07 18:32",
+   "n": "IBrook",
+   "x": "skills up: Flame Arrow 15, Frost Burst 12, Robe of Earth 15, Element Enhancement 20"
+  },
+  {
+   "t": "2026-11-07 18:32",
+   "n": "DeathRunner",
+   "x": "new Enraged Kromede Ring +11"
+  },
+  {
+   "t": "2026-11-07 18:32",
+   "n": "DeathRunner",
+   "x": "Bell of Vigor +1 → +2"
+  },
+  {
+   "t": "2026-11-07 18:32",
+   "n": "DeathRunner",
+   "x": "skills up: Heightened Sixth Sense 16"
+  },
   {
    "t": "2026-11-07 18:03",
    "n": "iLen",
@@ -33598,41 +33612,6 @@
    "t": "2026-11-04 16:31",
    "n": "YasuoMain",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 11:33",
-   "n": "uTril",
-   "x": "new Vakron Gloves +10"
-  },
-  {
-   "t": "2026-11-04 11:33",
-   "n": "uTril",
-   "x": "skills up: Warm Benediction 16, Survival Willpower 14"
-  },
-  {
-   "t": "2026-11-04 10:32",
-   "n": "Taila",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 10:03",
-   "n": "Yorichi",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 06:34",
-   "n": "RyBear",
-   "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-04 06:34",
-   "n": "RyBear",
-   "x": "skills up: Ruinous Blow 9, Identify Weakness 10"
-  },
-  {
-   "t": "2026-11-04 05:34",
-   "n": "RyBear",
-   "x": "reached level 29"
   }
  ]
 }

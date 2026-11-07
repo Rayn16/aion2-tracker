@@ -16357,7 +16357,7 @@
       "id": 13210000,
       "name": "Whirlwind Slice",
       "needLevel": 7,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -16387,7 +16387,7 @@
       "id": 13220000,
       "name": "Shadow Fall",
       "needLevel": 12,
-      "skillLevel": 4
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -28343,14 +28343,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 100466,
+     "cp": 102066,
      "il": 2372
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 100466,
+   "cp": 102066,
    "il": 2372,
    "gear": [
     {
@@ -30340,7 +30340,7 @@
       "id": 17410000,
       "name": "Light of Protection",
       "needLevel": 22,
-      "skillLevel": 17
+      "skillLevel": 19
      },
      {
       "acquired": 0,
@@ -32117,8 +32117,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 05:35 UTC",
+ "updated": "2026-11-07 06:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 06:04",
+   "n": "uTril",
+   "x": "skills up: Light of Protection 19"
+  },
+  {
+   "t": "2026-11-07 06:02",
+   "n": "DeathRunner",
+   "x": "skills up: Whirlwind Slice 10"
+  },
   {
    "t": "2026-11-07 05:31",
    "n": "YasuoMain16",
@@ -33608,16 +33618,6 @@
    "t": "2026-11-04 01:04",
    "n": "RyBear",
    "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-04 01:04",
-   "n": "RyBear",
-   "x": "skills up: Leaping Slam 10, Overhead Slam 11, Attack Preparation 8, Murderous Burst 3"
-  },
-  {
-   "t": "2026-11-04 01:04",
-   "n": "uTril",
-   "x": "opened 13 Daevanion nodes"
   }
  ]
 }

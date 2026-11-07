@@ -2088,13 +2088,13 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 77919,
+     "cp": 77935,
      "il": 1698
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 77919,
+   "cp": 77935,
    "il": 1698,
    "gear": [
     {
@@ -4098,14 +4098,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 74255,
+     "cp": 74257,
      "il": 1591
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 74255,
+   "cp": 74257,
    "il": 1591,
    "gear": [
     {
@@ -6111,14 +6111,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 122338,
+     "cp": 122705,
      "il": 2551
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 122338,
+   "cp": 122705,
    "il": 2551,
    "gear": [
     {
@@ -8041,11 +8041,11 @@
      "name": "Dark Veil Wings"
     },
     "wingSkin": {
-     "enchantLevel": null,
-     "grade": null,
-     "icon": null,
-     "id": null,
-     "name": null
+     "enchantLevel": 0,
+     "grade": "Unique",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingD_003.png",
+     "id": 40400300,
+     "name": "Radiant Love Wings"
     }
    },
    "pcId": 36,
@@ -28343,14 +28343,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 102066,
+     "cp": 101166,
      "il": 2372
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 102066,
+   "cp": 101166,
    "il": 2372,
    "gear": [
     {
@@ -30300,7 +30300,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -30428,15 +30428,15 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 54499,
-     "il": 972
+     "cp": 55432,
+     "il": 974
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 54499,
-   "il": 972,
+   "cp": 55432,
+   "il": 974,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30730,7 +30730,7 @@
      "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 0,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -30821,11 +30821,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.4%",
-      "Endurance Penetration +0.4%"
+      "Cooldown -0.5%",
+      "Endurance Penetration +0.5%"
      ],
      "type": "Illusion",
-     "value": 4
+     "value": 5
     },
     {
      "name": "Life [Yustiel]",
@@ -30866,11 +30866,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.4%",
-      "Double Chance +0.4%"
+      "MP Cost -0.5%",
+      "Double Chance +0.5%"
      ],
      "type": "Wisdom",
-     "value": 4
+     "value": 5
     },
     {
      "name": "Destiny [Marchutan]",
@@ -30894,11 +30894,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 972
+     "value": 974
     }
    ],
    "title": {
-    "ownedCount": 126,
+    "ownedCount": 129,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -30913,8 +30913,8 @@
       "grade": "Legend",
       "id": 21010004,
       "name": "Grasper of the Core",
-      "ownedCount": 37,
-      "ownedPercent": 36,
+      "ownedCount": 38,
+      "ownedPercent": 37,
       "statList": [
        {
         "desc": "Attack Bonus +2"
@@ -30935,8 +30935,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 46,
-      "ownedPercent": 43,
+      "ownedCount": 47,
+      "ownedPercent": 44,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -30960,8 +30960,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 43,
-      "ownedPercent": 43,
+      "ownedCount": 44,
+      "ownedPercent": 44,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31777,7 +31777,7 @@
       "id": 11290000,
       "name": "Mocking Blade",
       "needLevel": 3,
-      "skillLevel": 1
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -31827,7 +31827,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 11
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -31877,7 +31877,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 6
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -32117,8 +32117,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 06:04 UTC",
+ "updated": "2026-11-07 06:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 06:34",
+   "n": "RyBear",
+   "x": "Clash Rune +0 → +2"
+  },
+  {
+   "t": "2026-11-07 06:34",
+   "n": "RyBear",
+   "x": "3 new titles"
+  },
+  {
+   "t": "2026-11-07 06:34",
+   "n": "RyBear",
+   "x": "skills up: Mocking Blade 8, Protection Armor 11"
+  },
   {
    "t": "2026-11-07 06:04",
    "n": "uTril",
@@ -33603,21 +33618,6 @@
    "t": "2026-11-04 01:34",
    "n": "uTril",
    "x": "opened 6 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-04 01:34",
-   "n": "uTril",
-   "x": "skills up: Defiance 5, Warm Benediction 16, Healing Enhancement 14"
-  },
-  {
-   "t": "2026-11-04 01:04",
-   "n": "RyBear",
-   "x": "reached level 27"
-  },
-  {
-   "t": "2026-11-04 01:04",
-   "n": "RyBear",
-   "x": "4 new titles"
   }
  ]
 }

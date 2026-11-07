@@ -1609,6 +1609,56 @@ function pastPanel() {
     ${H.slice(0, 30).map(f => { const b = f.players.find(p => p.me) || f.players[0], id = `h${f.at}`, cls = b && info.get(b.name)?.cls;
       return `<details class="fight" data-fight-at="${esc(id)}" ${opened.has(id) ? 'open' : ''}><summary class="encrow">${f.killed ? ico('trophy') : ''}<time>${when(f.at)}</time><span class="t">${esc(f.target || 'Target')}</span><span class="hint">${mmss(f.secs)}</span>${f.killed ? '<span class="k">Killed</span>' : ''}${b ? `<span class="r" style="display:inline-flex;gap:6px;align-items:center">${avatar(b.name, cls)}${esc(b.name)} ${big(b.dps)}/s</span>` : ''}</summary>${opened.has(id) ? fightBars(f.players, id) : ''}</details>`; }).join('')}</section>`;
 }
+// ---- rotation tests (Premade's What's new 130): name a test here or on the pop-up; each fight Live fight saves while it's
+// on is a run. Premade writes lpc-aion-test { name, at } and lpc-aion-tests (newest first: test, at, target, secs, dps,
+// dmg, crit, open = your damage in 0-10 s, burst = in 10-20 s, skills [[id, share]]). A test counts its runs on the
+// target most of them were on, so a trash mob hit while testing doesn't change it.
+const whenAt = at => new Date(at).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+const avgOf = (l, k) => { const v = l.map(x => x[k]).filter(x => x != null); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null; };
+const vs = (a, b) => a == null || !b ? '' : (d => ` <small class="${d >= 0 ? 'up' : 'down'}">${d >= 0 ? '+' : ''}${d}%</small>`)(Math.round((a / b - 1) * 1000) / 10);
+function testRows(list) {
+  const by = new Map();
+  for (const x of list) { if (!by.has(x.test)) by.set(x.test, []); by.get(x.test).push(x); }
+  return [...by].map(([name, all]) => {
+    const n = all.reduce((m, x) => m.set(x.target, (m.get(x.target) || 0) + 1), new Map()), target = [...n].sort((a, b) => b[1] - a[1])[0][0];
+    const runs = all.filter(x => x.target === target), share = new Map();
+    for (const x of runs) for (const [id, sh] of x.skills || []) share.set(id, (share.get(id) || 0) + sh / runs.length);
+    return { name, target, runs, at: runs[0].at, dps: avgOf(runs, 'dps'), open: avgOf(runs, 'open'), burst: avgOf(runs, 'burst'),
+      skills: [...share].sort((a, b) => b[1] - a[1]).slice(0, 4) };
+  });
+}
+function testsPanel() {
+  if (!inPremade()) return '';
+  const T = premade('lpc-aion-test'), list = premade('lpc-aion-tests') || [], tests = testRows(list).slice(0, 8), when = whenAt;
+  const now = T?.name && list.filter(x => x.test === T.name && x.at >= T.at - 2000).length;
+  return `<section class="panel wrap" id="testsPanel"><h2 class="ph"><span class="who">${ico('chart', 'var(--good)')}Rotation tests</span><span class="hint">same gear, change one thing, 3-5 runs of about 3 minutes on a training dummy</span></h2>
+    <div class="chips">${T?.name ? `<span class="hint">Testing <b>${esc(T.name)}</b> since ${when(T.at)} · ${now} run${now === 1 ? '' : 's'}. Stop hitting for 30 s to end a run.</span><button type="button" class="btn small" id="testStop">Stop test</button>`
+      : `<input type="text" id="testName" maxlength="40" placeholder="Name a test, like opener A" aria-label="Test name" value="${esc(testDraft)}"><button type="button" class="btn small" id="testStart">Start test</button>`}</div>
+    ${tests.length ? `<table class="cmp"><tr><th>Test</th><th>Runs</th><th>DPS</th><th>Opener 0-10 s</th><th>Burst 10-20 s</th><th>Top skills</th><th></th></tr>
+    ${tests.map((t, i) => { const b = tests[i + 1]; return `<tr><td><b>${esc(t.name)}</b><br><span class="sub">${esc(t.target || 'Target')} · ${when(t.at)}</span></td><td class="n">${t.runs.length}</td>
+      <td class="n"><b>${fmt(Math.round(t.dps))}</b>${vs(t.dps, b?.dps)}</td><td class="n">${t.open == null ? '–' : big(Math.round(t.open)) + vs(t.open, b?.open)}</td><td class="n">${t.burst == null ? '–' : big(Math.round(t.burst)) + vs(t.burst, b?.burst)}</td>
+      <td class="sub">${t.skills.map(([id, sh]) => `${esc(skillOf(id).name || `Skill ${id}`)} ${Math.round(sh)}%`).join(' · ') || '–'}</td><td><button class="btn small" data-test-del="${esc(t.name)}" aria-label="Remove this test">✕</button></td></tr>`; }).join('')}</table>
+    <p class="hint">Each number is the average of the test’s runs, and the small % is against the test below it (the one before).</p>` : '<p class="hint">No tests yet. Live fight has to be on.</p>'}</section>`;
+}
+let testDraft = '';
+// ---- pull log (Premade's What's new 130): every attempt at each boss from Live fight's past fights, newest first, with
+// its best (the fastest kill, else the least HP left)
+function pullPanel() {
+  const by = new Map();
+  for (const f of premade('lpc-aion-history') || []) if (f.pct != null && f.target) { if (!by.has(f.target)) by.set(f.target, []); by.get(f.target).push(f); }
+  if (!by.size) return '';
+  const when = whenAt;
+  const bosses = [...by].sort((a, b) => b[1].length - a[1].length || b[1][0].at - a[1][0].at).slice(0, 8);
+  return `<section class="panel"><h2 class="ph"><span class="who">${ico('skull', 'var(--bad)')}Pull log</span><span class="hint">every attempt at each boss, read live, kept on this PC</span></h2>
+    ${bosses.map(([name, all]) => {
+      const kills = all.filter(f => f.killed), best = kills.length ? kills.reduce((a, b) => b.secs < a.secs ? b : a) : all.reduce((a, b) => b.pct < a.pct ? b : a), id = `p|${name}`;
+      const party = f => f.players.reduce((a, p) => a + (p.dps || 0), 0), deaths = f => f.players.reduce((a, p) => a + (p.deaths || 0), 0);
+      return `<details class="fight" data-fight-at="${esc(id)}" ${opened.has(id) ? 'open' : ''}><summary class="encrow">${kills.length ? ico('trophy') : ico('skull')}<span class="t">${esc(name)}</span>
+        <span class="hint">${all.length} attempt${all.length === 1 ? '' : 's'}${kills.length ? ` · ${kills.length} kill${kills.length === 1 ? '' : 's'}` : ''}</span><span class="r">best ${best.killed ? `kill ${mmss(best.secs)}` : `${best.pct}% left`}</span></summary>
+        ${opened.has(id) ? `<table class="cmp"><tr><th>When</th><th>HP left</th><th>Time</th><th>Deaths</th><th>Party DPS</th></tr>
+        ${all.slice(0, 30).map(f => `<tr><td>${when(f.at)}${f === best ? ' <b class="up">Best</b>' : ''}</td><td class="n">${f.killed ? '<span class="up">Killed</span>' : `${f.pct}%`}</td><td class="n">${mmss(f.secs)}</td><td class="n">${deaths(f)}</td><td class="n">${big(party(f))}</td></tr>`).join('')}</table>` : ''}</details>`;
+    }).join('')}</section>`;
+}
 // entry tickets (Checklist): names, caps and colours by the game's ticket id (names and caps as Abyss DPS Meter lists them)
 const TICKETS = { 60000001: ['Odyle', 840, '#3cc8c8'], 4: ['Nightmare', 14, '#b07cff'], 80000001: ['Ascension trial', 3, '#e8b84a'], 101: ['Daily dungeon', 14, '#5aa2ff'], 1: ['Shugo Festival', 7, '#ff9a4a'], 8: ['Dimensional Invasion', 7, '#ff6b6b'] };
 function ticketsPanel() {
@@ -1638,6 +1688,18 @@ function wireLive() {  // after each render: the switches, rows opened to skills
     askLive(e.target.checked ? '1' : '0');
   });
   $('#liveParty')?.addEventListener('change', e => askLive(e.target.checked ? 'party' : 'all'));
+  // rotation tests: Premade's page reads lpc-aion-test when Live fight saves a fight
+  const setTest = v => { try { v ? localStorage.setItem('lpc-aion-test', JSON.stringify(v)) : localStorage.removeItem('lpc-aion-test'); } catch {} rerender(); };
+  // (on* properties: the live panel's refresh runs this 4 times a second and these aren't in it)
+  const tn = $('#testName'), ts = $('#testStart'), tx = $('#testStop');
+  if (tn) { tn.oninput = e => { testDraft = e.target.value; }; tn.onkeydown = e => { if (e.key === 'Enter') ts.click(); }; }
+  if (ts) ts.onclick = () => { const name = testDraft.trim(); if (!name) return tn.focus(); testDraft = ''; setTest({ name, at: Date.now() }); };
+  if (tx) tx.onclick = () => setTest(null);
+  document.querySelectorAll('[data-test-del]').forEach(b => b.onclick = () => {
+    if (!confirm(`Remove the test “${b.dataset.testDel}” and its runs?`)) return;
+    try { localStorage.setItem('lpc-aion-tests', JSON.stringify((premade('lpc-aion-tests') || []).filter(x => x.test !== b.dataset.testDel))); } catch {}
+    rerender();
+  });
   // the pop-up meter, a window of Premade's desktop app (1.36+); Premade's page opens it
   $('#livePop')?.addEventListener('click', () => { try { localStorage.setItem('lpc-aion-meter', `1|${Date.now()}`); } catch {} });
   document.querySelectorAll('[data-open]').forEach(r => r.onclick = () => { const k = r.dataset.open; if (!opened.delete(k)) opened.add(k); k.startsWith('live|') ? refreshLive() : rerender(); });
@@ -1665,7 +1727,7 @@ function dpsPage(params) {
     : now - (st.w || 0) < 90e3 ? `<p class="hint"><b class="up">Premade is watching Aion 2.</b> After a fight, open Combat Analysis (Ctrl+X) for a few seconds and the fight is saved here${st.s ? `. It last saw Combat Analysis ${span(now - st.s)} ago` : ''}.</p>`
     : '<p class="hint">While Aion 2 is open, Premade’s app for Windows reads each of your fights off Combat Analysis (Ctrl+X) once its numbers stop: battle time, DPS, total damage, target and top skills. It sees only Aion 2’s window, so play in Borderless or Windowed mode.</p>';
   return head('Aion 2', 'DPS', targets.length > 1 ? `<select id="dpsTarget" aria-label="Target">${targets.map(x => `<option value="${esc(x)}" ${x === tg ? 'selected' : ''}>${esc(x || 'No target read')}</option>`).join('')}</select>` : '') + `
-    ${livePanel()}${pastPanel()}
+    ${livePanel()}${testsPanel()}${pullPanel()}${pastPanel()}
     <section class="panel"><h2 class="ph">Combat Analysis fights <span class="hint">your own, read off the game’s screen, shared with the legion</span></h2>${status}${ME && inPremade() ? `<label class="hint"><input type="checkbox" id="dpsOn" ${on ? 'checked' : ''}>Read my fights off Combat Analysis</label>` : ''}
       ${fightsErr ? `<p class="hint">${esc(fightsErr)}</p>` : ''}</section>` + (!all.length ? '<div class="panel empty">No fights yet.</div>' : `
     <section class="panel wrap"><h2 class="ph">Best on ${esc(tg || 'no target')} <span class="hint">${on_tg.length} fight${on_tg.length === 1 ? '' : 's'}</span></h2>
@@ -1845,16 +1907,16 @@ setInterval(() => {
   const page = location.hash.slice(2).split(/[/?]/)[0];
   (++beats % 4 === 0 && inSight() ? refetch() : Promise.resolve()).then(() => {
     aionBeat();
-    if (['today', 'timers', 'checklist', 'news', 'dps'].includes(page) && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
+    if (['today', 'timers', 'checklist', 'news', 'dps'].includes(page) && inSight() && !document.activeElement?.matches('select, input[type=text]')) rerender();
   });
 }, 30e3);
 // Premade saved a fight (send it), or its watching changed
 addEventListener('storage', e => {
-  const page = location.hash.slice(2).split(/[/?]/)[0], calm = inSight() && document.activeElement?.tagName !== 'SELECT';
-  if (e.key === 'lpc-aion-live' && page === 'dps' && calm) refreshLive();
-  if ((e.key === 'lpc-aion-history' && page === 'dps') || (['lpc-aion-tickets', 'lpc-aion-sched', 'lpc-aion-bosses'].includes(e.key) && ['today', 'timers', 'checklist', 'news'].includes(page)) || (e.key === 'lpc-aion-party' && page === '')) { if (calm) rerender(); }
+  const page = location.hash.slice(2).split(/[/?]/)[0], calm = inSight() && !document.activeElement?.matches('select, input[type=text]');
+  if (e.key === 'lpc-aion-live' && page === 'dps' && inSight() && document.activeElement?.tagName !== 'SELECT') refreshLive();
+  if ((['lpc-aion-history', 'lpc-aion-test', 'lpc-aion-tests'].includes(e.key) && page === 'dps') || (['lpc-aion-tickets', 'lpc-aion-sched', 'lpc-aion-bosses'].includes(e.key) && ['today', 'timers', 'checklist', 'news'].includes(page)) || (e.key === 'lpc-aion-party' && page === '')) { if (calm) rerender(); }
   if (e.key === 'lpc-aion-fights') sendFights();
-  if ((e.key === 'lpc-aion-fights' || e.key === 'lpc-aion-dps') && location.hash.startsWith('#/dps') && inSight() && document.activeElement?.tagName !== 'SELECT') rerender();
+  if ((e.key === 'lpc-aion-fights' || e.key === 'lpc-aion-dps') && location.hash.startsWith('#/dps') && inSight() && !document.activeElement?.matches('select, input[type=text]')) rerender();
 });
 </script>
 </body>

@@ -30405,14 +30405,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 54113,
+     "cp": 54124,
      "il": 932
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 54113,
+   "cp": 54124,
    "il": 932,
    "gear": [
     {
@@ -30859,7 +30859,7 @@
     }
    ],
    "title": {
-    "ownedCount": 124,
+    "ownedCount": 125,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -30921,8 +30921,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 42,
-      "ownedPercent": 42,
+      "ownedCount": 43,
+      "ownedPercent": 43,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -32078,8 +32078,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 04:04 UTC",
+ "updated": "2026-11-07 04:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 04:34",
+   "n": "RyBear",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-07 04:02",
    "n": "DeathRunner",
@@ -33574,11 +33579,6 @@
    "t": "2026-11-04 00:38",
    "n": "uTril",
    "x": "Noble Belt +1 → +2"
-  },
-  {
-   "t": "2026-11-04 00:38",
-   "n": "uTril",
-   "x": "Chalice of Magic +0 → +1"
   }
  ]
 }

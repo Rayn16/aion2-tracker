@@ -69,13 +69,13 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 131723,
+     "cp": 131646,
      "il": 2629
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 131723,
+   "cp": 131646,
    "il": 2629,
    "gear": [
     {
@@ -386,30 +386,30 @@
      "slotPosName": "Cape",
      "name": "Nuakum Cloak",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Evasion Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "MP",
+       "HP",
        "+30",
-       "Rare"
+       "Common"
       ],
       [
-       "Block",
-       "+10",
-       "Rare"
+       "Attack",
+       "+1",
+       "Common"
       ],
       [
-       "Critical Hit Resist",
-       "+7",
-       "Rare"
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -1219,7 +1219,7 @@
       "id": 11710000,
       "name": "Survival Stance",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -1229,7 +1229,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 18
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -1249,7 +1249,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -28320,14 +28320,14 @@
     },
     {
      "date": "2026-11-07",
-     "cp": 99627,
+     "cp": 99630,
      "il": 2349
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 99627,
+   "cp": 99630,
    "il": 2349,
    "gear": [
     {
@@ -32078,8 +32078,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 02:04 UTC",
+ "updated": "2026-11-07 02:16 UTC",
  "feed": [
+  {
+   "t": "2026-11-07 02:13",
+   "n": "YasuoMain",
+   "x": "Nuakum Cloak +11 → +15"
+  },
+  {
+   "t": "2026-11-07 02:13",
+   "n": "YasuoMain",
+   "x": "skills up: Survival Stance 16"
+  },
   {
    "t": "2026-11-07 02:04",
    "n": "CutieCatty",
@@ -33569,16 +33579,6 @@
    "t": "2026-11-03 01:01",
    "n": "CuteCatty",
    "x": "Liberator Bracelet +0 → +5"
-  },
-  {
-   "t": "2026-11-03 01:01",
-   "n": "CuteCatty",
-   "x": "Revelation Amulet +6 → +0"
-  },
-  {
-   "t": "2026-11-03 01:01",
-   "n": "CuteCatty",
-   "x": "1 new title"
   }
  ]
 }

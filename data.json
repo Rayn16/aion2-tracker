@@ -30531,15 +30531,15 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 58267,
-     "il": 1085
+     "cp": 58870,
+     "il": 1108
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 58267,
-   "il": 1085,
+   "cp": 58870,
+   "il": 1108,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30558,20 +30558,37 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Anguish Guard",
-     "grade": "Legend",
+     "name": "Spiritforged Guard",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_002.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
+      ]
+     ],
      "godSlots": 1,
      "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
+     "src": []
     },
     {
      "slotPosName": "Torso",
@@ -30722,12 +30739,12 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Chaser Necklace",
-     "grade": "Rare",
+     "name": "Avenger Necklace",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0030.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0017.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -30881,10 +30898,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.7%"
+      "Attack increase +2.7%"
      ],
      "type": "STR",
-     "value": 17
+     "value": 27
     },
     {
      "name": "Dexterity",
@@ -31012,11 +31029,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1085
+     "value": 1108
     }
    ],
    "title": {
-    "ownedCount": 137,
+    "ownedCount": 142,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31031,8 +31048,8 @@
       "grade": "Legend",
       "id": 21020057,
       "name": "Forever in Our Hearts",
-      "ownedCount": 42,
-      "ownedPercent": 41,
+      "ownedCount": 45,
+      "ownedPercent": 44,
       "statList": [
        {
         "desc": "Critical Hit +10"
@@ -31078,8 +31095,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 47,
-      "ownedPercent": 47,
+      "ownedCount": 49,
+      "ownedPercent": 49,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31127,8 +31144,8 @@
       "id": 14,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 15,
-      "openPercent": 13,
+      "openNodeCount": 16,
+      "openPercent": 14,
       "totalNodeCount": 116
      },
      {
@@ -31434,7 +31451,7 @@
      "2|12|Common|0|Defense",
      "2|9|Common|0|Defense",
      "2|13|Common|0|Max HP",
-     "2|14|Unique|0|Multi-Hit Resist",
+     "2|14|Unique|1|Multi-Hit Resist",
      "3|4|Legend|0|Skill Level Up - Mocking Blade",
      "3|5|Common|0|Max MP",
      "3|2|Common|0|Max MP",
@@ -31925,7 +31942,7 @@
       "id": 11200000,
       "name": "Ankle Slice",
       "needLevel": 7,
-      "skillLevel": 7
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -32235,8 +32252,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 03:35 UTC",
+ "updated": "2026-11-08 04:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-08 04:04",
+   "n": "RyBear",
+   "x": "new Spiritforged Guard +0"
+  },
+  {
+   "t": "2026-11-08 04:04",
+   "n": "RyBear",
+   "x": "new Avenger Necklace +0"
+  },
+  {
+   "t": "2026-11-08 04:04",
+   "n": "RyBear",
+   "x": "5 new titles"
+  },
+  {
+   "t": "2026-11-08 04:04",
+   "n": "RyBear",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-08 03:33",
    "n": "iLen",
@@ -33716,26 +33753,6 @@
    "t": "2026-11-05 04:04",
    "n": "uTril",
    "x": "new Mirror of Vigor +0"
-  },
-  {
-   "t": "2026-11-05 04:04",
-   "n": "uTril",
-   "x": "skills up: Empyrean Lords' Benediction 13, Heal Block 15"
-  },
-  {
-   "t": "2026-11-05 03:34",
-   "n": "RyBear",
-   "x": "new Chaser Helm +0"
-  },
-  {
-   "t": "2026-11-05 03:34",
-   "n": "CutieCatty",
-   "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-05 03:32",
-   "n": "DeathRunner",
-   "x": "skills up: Triniel's Dagger 5"
   }
  ]
 }

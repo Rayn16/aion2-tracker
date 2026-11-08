@@ -71,6 +71,11 @@
      "date": "2026-11-07",
      "cp": 131918,
      "il": 2631
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 131918,
+     "il": 2631
     }
    ],
    "server": "Tassin",
@@ -772,7 +777,7 @@
      "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
-     "max": 4,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -2088,6 +2093,11 @@
     },
     {
      "date": "2026-11-07",
+     "cp": 77935,
+     "il": 1698
+    },
+    {
+     "date": "2026-11-08",
      "cp": 77935,
      "il": 1698
     }
@@ -4098,6 +4108,11 @@
     },
     {
      "date": "2026-11-07",
+     "cp": 74257,
+     "il": 1591
+    },
+    {
+     "date": "2026-11-08",
      "cp": 74257,
      "il": 1591
     }
@@ -6113,6 +6128,11 @@
      "date": "2026-11-07",
      "cp": 125996,
      "il": 2598
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 125996,
+     "il": 2598
     }
    ],
    "server": "Tassin",
@@ -8073,6 +8093,11 @@
      "date": "2026-11-07",
      "cp": 48995,
      "il": 1114
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 48995,
+     "il": 1114
     }
    ],
    "server": "Tassin",
@@ -9741,6 +9766,11 @@
     },
     {
      "date": "2026-11-07",
+     "cp": 59398,
+     "il": 1135
+    },
+    {
+     "date": "2026-11-08",
      "cp": 59398,
      "il": 1135
     }
@@ -11452,6 +11482,11 @@
     },
     {
      "date": "2026-11-07",
+     "cp": 81521,
+     "il": 1668
+    },
+    {
+     "date": "2026-11-08",
      "cp": 81521,
      "il": 1668
     }
@@ -13480,6 +13515,11 @@
      "date": "2026-11-07",
      "cp": 33233,
      "il": 595
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 33233,
+     "il": 595
     }
    ],
    "server": "Tassin",
@@ -14708,13 +14748,18 @@
      "date": "2026-11-07",
      "cp": 145541,
      "il": 2713
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 145867,
+     "il": 2734
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 145541,
-   "il": 2713,
+   "cp": 145867,
+   "il": 2734,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -14996,24 +15041,24 @@
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+30",
-       "Rare"
+       "Block",
+       "+18",
+       "Legend"
       ],
       [
        "Block",
-       "+7",
+       "+9",
        "Common"
       ],
       [
-       "Critical Hit",
-       "+7",
-       "Rare"
+       "HP",
+       "+45",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+6",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -15411,10 +15456,10 @@
     {
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
-     "grade": "Legend",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
-     "max": 4,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -15425,7 +15470,7 @@
      "slotPosName": "Arcana4",
      "name": "Bell of Vigor",
      "grade": "Unique",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -15502,20 +15547,20 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +6.3%",
-      "Perfect Chance +6.3%"
+      "Defense increase +6.4%",
+      "Perfect Chance +6.4%"
      ],
      "type": "Justice",
-     "value": 63
+     "value": 64
     },
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +5%",
-      "Evasion increase +5%"
+      "Accuracy increase +5.4%",
+      "Evasion increase +5.4%"
      ],
      "type": "Freedom",
-     "value": 50
+     "value": 54
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -15593,7 +15638,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2713
+     "value": 2734
     }
    ],
    "title": {
@@ -16307,7 +16352,7 @@
       "id": 13100000,
       "name": "Savage Roar",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -16367,7 +16412,7 @@
       "id": 13050000,
       "name": "Flash Slice",
       "needLevel": 8,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -16407,7 +16452,7 @@
       "id": 13260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 5
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -16477,7 +16522,7 @@
       "id": 13770000,
       "name": "Ambush Stance",
       "needLevel": 17,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -16687,13 +16732,18 @@
      "date": "2026-11-07",
      "cp": 122458,
      "il": 2500
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 123323,
+     "il": 2540
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 122458,
-   "il": 2500,
+   "cp": 123323,
+   "il": 2540,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16817,24 +16867,24 @@
      "slots": 4,
      "stones": [
       [
+       "Attack",
+       "+4",
+       "Rare"
+      ],
+      [
        "Accuracy Bonus",
        "+6",
        "Common"
       ],
       [
-       "HP",
-       "+45",
-       "Common"
+       "MP",
+       "+40",
+       "Rare"
       ],
       [
        "HP",
-       "+130",
-       "Legend"
-      ],
-      [
-       "HP",
-       "+130",
-       "Legend"
+       "+80",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -16855,23 +16905,23 @@
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "Critical Hit Resist",
-       "+5",
+       "Critical Hit",
+       "+6",
        "Common"
       ],
       [
        "Critical Hit",
-       "+5",
+       "+9",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+45",
        "Common"
       ],
       [
        "MP",
-       "+15",
+       "+23",
        "Common"
       ]
      ],
@@ -17384,10 +17434,10 @@
     {
      "slotPosName": "Arcana3",
      "name": "Compass of Magic",
-     "grade": "Legend",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
-     "max": 4,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -17396,11 +17446,11 @@
     },
     {
      "slotPosName": "Arcana4",
-     "name": "Bell of Magic",
-     "grade": "Rare",
+     "name": "Bell of Vigor",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
-     "max": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -17413,7 +17463,7 @@
      "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
-     "max": 4,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -17472,11 +17522,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4.1%",
-      "Perfect Chance +4.1%"
+      "Defense increase +5.7%",
+      "Perfect Chance +5.7%"
      ],
      "type": "Justice",
-     "value": 41
+     "value": 57
     },
     {
      "name": "Freedom [Vaizel]",
@@ -17517,20 +17567,20 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +1.8%",
-      "Perfect Resist +1.8%"
+      "Attack increase +0.6%",
+      "Perfect Resist +0.6%"
      ],
      "type": "Destruction",
-     "value": 18
+     "value": 6
     },
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +5.4%",
-      "Regeneration Penetration +5.4%"
+      "Critical Hit increase +5.8%",
+      "Regeneration Penetration +5.8%"
      ],
      "type": "Death",
-     "value": 54
+     "value": 58
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -17563,7 +17613,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2500
+     "value": 2540
     }
    ],
    "title": {
@@ -18297,7 +18347,7 @@
       "id": 15280000,
       "name": "Bittercold Wind",
       "needLevel": 3,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -18317,7 +18367,7 @@
       "id": 15010000,
       "name": "Flame Scattershot",
       "needLevel": 5,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -18327,7 +18377,7 @@
       "id": 15150000,
       "name": "Frost",
       "needLevel": 7,
-      "skillLevel": 11
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -18387,7 +18437,7 @@
       "id": 15710000,
       "name": "Fire Mark",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -18407,7 +18457,7 @@
       "id": 15730000,
       "name": "Cold Snap",
       "needLevel": 9,
-      "skillLevel": 11
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -18437,7 +18487,7 @@
       "id": 15770000,
       "name": "Grace of Resistance",
       "needLevel": 15,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -18655,6 +18705,11 @@
     },
     {
      "date": "2026-11-07",
+     "cp": 23827,
+     "il": 496
+    },
+    {
+     "date": "2026-11-08",
      "cp": 23827,
      "il": 496
     }
@@ -19863,6 +19918,11 @@
     },
     {
      "date": "2026-11-07",
+     "cp": 85879,
+     "il": 1713
+    },
+    {
+     "date": "2026-11-08",
      "cp": 85879,
      "il": 1713
     }
@@ -21578,6 +21638,11 @@
      "date": "2026-11-07",
      "cp": 24271,
      "il": 450
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 24271,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -22731,6 +22796,11 @@
     },
     {
      "date": "2026-11-07",
+     "cp": 42174,
+     "il": 799
+    },
+    {
+     "date": "2026-11-08",
      "cp": 42174,
      "il": 799
     }
@@ -24366,6 +24436,11 @@
      "date": "2026-11-07",
      "cp": 18441,
      "il": 361
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 18441,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -25478,13 +25553,18 @@
      "date": "2026-11-07",
      "cp": 76144,
      "il": 1459
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 76862,
+     "il": 1491
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 76144,
-   "il": 1459,
+   "cp": 76862,
+   "il": 1491,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25518,7 +25598,7 @@
      "slotPosName": "Torso",
      "name": "Vakron Breastplate",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png",
      "max": 15,
      "slots": 4,
@@ -25535,7 +25615,7 @@
      "slotPosName": "Pants",
      "name": "Vakron Greaves",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png",
      "max": 15,
      "slots": 4,
@@ -25586,7 +25666,7 @@
      "slotPosName": "Gloves",
      "name": "Vakron Gloves",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -25637,7 +25717,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 8,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -25947,7 +26027,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1459
+     "value": 1491
     }
    ],
    "title": {
@@ -27113,7 +27193,7 @@
       "id": 18250000,
       "name": "Power of the Storm",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -27191,6 +27271,11 @@
     },
     {
      "date": "2026-11-07",
+     "cp": 25763,
+     "il": 472
+    },
+    {
+     "date": "2026-11-08",
      "cp": 25763,
      "il": 472
     }
@@ -28345,6 +28430,11 @@
     },
     {
      "date": "2026-11-07",
+     "cp": 105549,
+     "il": 2364
+    },
+    {
+     "date": "2026-11-08",
      "cp": 105549,
      "il": 2364
     }
@@ -30432,6 +30522,11 @@
      "date": "2026-11-07",
      "cp": 58267,
      "il": 1085
+    },
+    {
+     "date": "2026-11-08",
+     "cp": 58267,
+     "il": 1085
     }
    ],
    "server": "Tassin",
@@ -30616,7 +30711,7 @@
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Substance Morph"
      ]
     },
     {
@@ -30771,7 +30866,7 @@
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Substance Morph"
      ]
     }
    ],
@@ -32134,8 +32229,53 @@
    "race": 2
   }
  },
- "updated": "2026-11-07 23:34 UTC",
+ "updated": "2026-11-08 00:17 UTC",
  "feed": [
+  {
+   "t": "2026-11-08 00:11",
+   "n": "iLen",
+   "x": "Vakron Breastplate +0 → +10"
+  },
+  {
+   "t": "2026-11-08 00:11",
+   "n": "iLen",
+   "x": "Vakron Greaves +0 → +10"
+  },
+  {
+   "t": "2026-11-08 00:11",
+   "n": "iLen",
+   "x": "Vakron Gloves +0 → +10"
+  },
+  {
+   "t": "2026-11-08 00:11",
+   "n": "iLen",
+   "x": "Noble Belt +8 → +10"
+  },
+  {
+   "t": "2026-11-08 00:11",
+   "n": "iLen",
+   "x": "skills up: Power of the Storm 11"
+  },
+  {
+   "t": "2026-11-08 00:07",
+   "n": "IBrook",
+   "x": "new Bell of Vigor +0"
+  },
+  {
+   "t": "2026-11-08 00:07",
+   "n": "IBrook",
+   "x": "skills up: Bittercold Wind 15, Flame Scattershot 16, Fire Mark 15, Grace of Resistance 5"
+  },
+  {
+   "t": "2026-11-08 00:06",
+   "n": "DeathRunner",
+   "x": "Bell of Vigor +2 → +3"
+  },
+  {
+   "t": "2026-11-08 00:06",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Roar 15, Defiance 6, Ambush Stance 18"
+  },
   {
    "t": "2026-11-07 23:34",
    "n": "CutieCatty",
@@ -33590,51 +33730,6 @@
    "t": "2026-11-04 23:02",
    "n": "Darya",
    "x": "3 new titles"
-  },
-  {
-   "t": "2026-11-04 23:02",
-   "n": "Darya",
-   "x": "skills up: Exploit Weakness 16"
-  },
-  {
-   "t": "2026-11-04 22:33",
-   "n": "uTril",
-   "x": "Noble Belt +2 → +3"
-  },
-  {
-   "t": "2026-11-04 22:33",
-   "n": "uTril",
-   "x": "Revelation Amulet +1 → +5"
-  },
-  {
-   "t": "2026-11-04 22:33",
-   "n": "uTril",
-   "x": "skills up: Light of Protection 15"
-  },
-  {
-   "t": "2026-11-04 22:33",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 22:32",
-   "n": "IBrook",
-   "x": "new Nuakum Helm +10"
-  },
-  {
-   "t": "2026-11-04 22:32",
-   "n": "IBrook",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-04 22:32",
-   "n": "IBrook",
-   "x": "skills up: Grace of Enhancement 16"
-  },
-  {
-   "t": "2026-11-04 22:32",
-   "n": "DeathRunner",
-   "x": "skills up: Triniel's Dagger 3"
   }
  ]
 }

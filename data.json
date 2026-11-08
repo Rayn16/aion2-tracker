@@ -4703,10 +4703,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.4%"
+      "Attack increase +3.5%"
      ],
      "type": "STR",
-     "value": 34
+     "value": 35
     },
     {
      "name": "Dexterity",
@@ -6131,14 +6131,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 127076,
+     "cp": 127087,
      "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 127076,
+   "cp": 127087,
    "il": 2619,
    "gear": [
     {
@@ -6858,10 +6858,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.3%"
+      "Attack increase +4.4%"
      ],
      "type": "STR",
-     "value": 43
+     "value": 44
     },
     {
      "name": "Dexterity",
@@ -32257,7 +32257,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 21:04 UTC",
+ "updated": "2026-11-08 21:34 UTC",
  "feed": [
   {
    "t": "2026-11-08 16:28",

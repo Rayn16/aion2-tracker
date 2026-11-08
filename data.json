@@ -26035,7 +26035,7 @@
     }
    ],
    "title": {
-    "ownedCount": 191,
+    "ownedCount": 192,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -26053,8 +26053,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 64,
-      "ownedPercent": 63,
+      "ownedCount": 65,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "Block +10"
@@ -32233,8 +32233,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 02:37 UTC",
+ "updated": "2026-11-08 03:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-08 03:03",
+   "n": "iLen",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-08 02:03",
    "n": "iLen",
@@ -33729,11 +33734,6 @@
    "t": "2026-11-05 02:31",
    "n": "YasuoMain",
    "x": "Noble Belt +7 → +10"
-  },
-  {
-   "t": "2026-11-05 01:32",
-   "n": "DeathRunner",
-   "x": "Nuakum Greaves +10 → +11"
   }
  ]
 }

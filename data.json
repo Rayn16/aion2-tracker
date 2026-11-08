@@ -19929,15 +19929,15 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 85899,
-     "il": 1713
+     "cp": 87093,
+     "il": 1750
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 85899,
-   "il": 1713,
+   "cp": 87093,
+   "il": 1750,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -20207,22 +20207,24 @@
      ]
     },
     {
-     "slotPosName": "Earring2",
-     "name": "Liberator Earrings",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
-     "max": 10,
-     "slots": 3,
+     "slotPosName": "Earring1",
+     "name": "Aulamus Earrings",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
-     "slotPosName": "Earring1",
+     "slotPosName": "Earring2",
      "name": "Liberator Earrings",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -20553,7 +20555,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1713
+     "value": 1750
     }
    ],
    "title": {
@@ -32255,8 +32257,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 16:04 UTC",
+ "updated": "2026-11-08 16:30 UTC",
  "feed": [
+  {
+   "t": "2026-11-08 16:28",
+   "n": "PeriodPhobic",
+   "x": "new Aulamus Earrings +10"
+  },
   {
    "t": "2026-11-08 04:34",
    "n": "RyBear",
@@ -33751,11 +33758,6 @@
    "t": "2026-11-05 05:02",
    "n": "DeathRunner",
    "x": "skills up: Savage Fang 4"
-  },
-  {
-   "t": "2026-11-05 04:33",
-   "n": "uTril",
-   "x": "new Enraged Kromede Warhammer +11"
   }
  ]
 }

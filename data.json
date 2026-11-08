@@ -74,14 +74,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 131918,
-     "il": 2631
+     "cp": 132124,
+     "il": 2632
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 131918,
-   "il": 2631,
+   "cp": 132124,
+   "il": 2632,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -762,7 +762,7 @@
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
      "grade": "Unique",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -885,11 +885,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +4.2%",
-      "Regeneration +4.2%"
+      "HP increase +4.3%",
+      "Regeneration +4.3%"
      ],
      "type": "Life",
-     "value": 42
+     "value": 43
     },
     {
      "name": "Time [Siel]",
@@ -949,7 +949,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2631
+     "value": 2632
     }
    ],
    "title": {
@@ -1104,7 +1104,7 @@
       "id": 11020000,
       "name": "Keen Strike",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -6131,14 +6131,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 127073,
+     "cp": 127076,
      "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 127073,
+   "cp": 127076,
    "il": 2619,
    "gear": [
     {
@@ -14751,14 +14751,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 146184,
+     "cp": 146584,
      "il": 2736
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146184,
+   "cp": 146584,
    "il": 2736,
    "gear": [
     {
@@ -25556,15 +25556,15 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 76871,
-     "il": 1491
+     "cp": 76890,
+     "il": 1506
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 76871,
-   "il": 1491,
+   "cp": 76890,
+   "il": 1506,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -26027,7 +26027,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1491
+     "value": 1506
     }
    ],
    "title": {
@@ -26163,8 +26163,8 @@
       "id": 86,
       "name": "Azphel",
       "open": 1,
-      "openNodeCount": 4,
-      "openPercent": 3,
+      "openNodeCount": 13,
+      "openPercent": 9,
       "totalNodeCount": 152
      }
     ]
@@ -26831,30 +26831,30 @@
      "7|15|Common|0|PvP Evasion",
      "8|2|Common|0|PvP Attack",
      "8|1|Unique|0|PvP Damage Boost",
-     "7|11|Common|0|PvP Defense",
-     "7|10|Legend|0|Status Effect Resist",
-     "7|13|Rare|0|PvP Accuracy, PvP Evasion",
-     "7|12|Common|0|Max MP",
+     "7|11|Common|1|PvP Defense",
+     "7|10|Legend|1|Status Effect Resist",
+     "7|13|Rare|1|PvP Accuracy, PvP Evasion",
+     "7|12|Common|1|Max MP",
      "7|7|Rare|1|PvP Attack, PvP Defense",
      "7|6|Common|0|PvP Evasion",
-     "7|9|Common|0|PvP Attack",
+     "7|9|Common|1|PvP Attack",
      "7|8|Common|1|Max HP",
      "9|5|Common|0|PvP Defense",
      "9|4|Common|0|Max HP",
      "9|7|Common|0|PvP Attack",
      "9|6|Legend|0|Status Effect Resist",
      "9|1|Common|0|PvP Evasion",
-     "8|15|Unique|0|PvP Damage Boost",
+     "8|15|Unique|1|PvP Damage Boost",
      "9|3|Rare|0|PvP Accuracy, PvP Evasion",
-     "8|14|Common|0|PvP Attack",
-     "8|13|Common|0|PvP Critical Hit Resist",
+     "8|14|Common|1|PvP Attack",
+     "8|13|Common|1|PvP Critical Hit Resist",
      "8|8|Start|1|Azphel - Start",
      "8|10|Common|0|PvP Critical Hit",
      "10|6|Common|0|PvP Accuracy",
      "10|2|Common|0|PvP Accuracy",
      "10|1|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
      "10|3|Common|0|PvP Critical Hit",
-     "9|15|Common|0|PvP Critical Hit",
+     "9|15|Common|1|PvP Critical Hit",
      "9|9|Rare|1|PvP Critical Hit, PvP Critical Hit Resist",
      "9|8|Common|1|Max MP",
      "9|11|Common|0|PvP Attack",
@@ -27229,10 +27229,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Tayga_01.png",
-     "id": 1106,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_EleGuard_01.png",
+     "id": 1178,
      "level": 2,
-     "name": "Tayga"
+     "name": "Spirit King's Bodyguard Warrior"
     },
     "wing": {
      "enchantLevel": 0,
@@ -32229,8 +32229,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 00:34 UTC",
+ "updated": "2026-11-08 01:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-08 01:03",
+   "n": "iLen",
+   "x": "opened 9 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-08 01:01",
+   "n": "YasuoMain",
+   "x": "Parchment of Vigor +3 → +4"
+  },
+  {
+   "t": "2026-11-08 01:01",
+   "n": "YasuoMain",
+   "x": "skills up: Keen Strike 17"
+  },
   {
    "t": "2026-11-08 00:34",
    "n": "CutieCatty",
@@ -33715,21 +33730,6 @@
    "t": "2026-11-05 00:34",
    "n": "uTril",
    "x": "skills up: Chain of Torment 15, Radiant Recovery 13"
-  },
-  {
-   "t": "2026-11-05 00:07",
-   "n": "IBrook",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-05 00:06",
-   "n": "DeathRunner",
-   "x": "new Nuakum Greaves +10"
-  },
-  {
-   "t": "2026-11-05 00:06",
-   "n": "DeathRunner",
-   "x": "new Nuakum Gloves +10"
   }
  ]
 }

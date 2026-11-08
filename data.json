@@ -13518,15 +13518,15 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 34614,
-     "il": 601
+     "cp": 36746,
+     "il": 647
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 38,
-   "cp": 34614,
-   "il": 601,
+   "cp": 36746,
+   "il": 647,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -13667,7 +13667,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Rare",
-     "enchantLevel": 0,
+     "enchantLevel": 6,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_018.png",
      "max": 10,
      "slots": 0,
@@ -13694,7 +13694,7 @@
      ]
     },
     {
-     "slotPosName": "Earring1",
+     "slotPosName": "Earring2",
      "name": "Avenger Earrings",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -13709,11 +13709,11 @@
      ]
     },
     {
-     "slotPosName": "Earring2",
-     "name": "Outsider Earrings",
+     "slotPosName": "Earring1",
+     "name": "Chaser Earrings",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0011.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0030.png",
      "max": 5,
      "slots": 2,
      "stones": [],
@@ -13754,7 +13754,7 @@
      ]
     },
     {
-     "slotPosName": "Bracelet1",
+     "slotPosName": "Bracelet2",
      "name": "Outsider Bracelet",
      "grade": "Rare",
      "enchantLevel": 0,
@@ -13769,13 +13769,13 @@
      ]
     },
     {
-     "slotPosName": "Bracelet2",
-     "name": "Old Mercenary Commander Bracelet",
-     "grade": "Common",
+     "slotPosName": "Bracelet1",
+     "name": "Chaser Bracelet",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0030.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -13787,9 +13787,9 @@
     {
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
-     "grade": "Rare",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv3_01.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv4_01.png",
      "max": 10,
      "slots": 0,
      "stones": [],
@@ -13852,102 +13852,102 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +3.8%",
-      "Perfect Chance +3.8%"
+      "Defense increase +4%",
+      "Perfect Chance +4%"
      ],
      "type": "Justice",
-     "value": 38
+     "value": 40
     },
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2.6%",
-      "Evasion increase +2.6%"
+      "Accuracy increase +2.8%",
+      "Evasion increase +2.8%"
      ],
      "type": "Freedom",
-     "value": 26
+     "value": 28
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.1%",
-      "Endurance Penetration +0.1%"
+      "Cooldown -0.3%",
+      "Endurance Penetration +0.3%"
      ],
      "type": "Illusion",
-     "value": 1
+     "value": 3
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +0.3%",
-      "Regeneration +0.3%"
+      "HP increase +0.5%",
+      "Regeneration +0.5%"
      ],
      "type": "Life",
-     "value": 3
+     "value": 5
     },
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +3.8%",
-      "Double Resist +3.8%"
+      "Combat Speed +4%",
+      "Double Resist +4%"
      ],
      "type": "Time",
-     "value": 38
+     "value": 40
     },
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.3%",
-      "Perfect Resist +0.3%"
+      "Attack increase +0.5%",
+      "Perfect Resist +0.5%"
      ],
      "type": "Destruction",
-     "value": 3
+     "value": 5
     },
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +2.8%",
-      "Regeneration Penetration +2.8%"
+      "Critical Hit increase +3%",
+      "Regeneration Penetration +3%"
      ],
      "type": "Death",
-     "value": 28
+     "value": 30
     },
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.1%",
-      "Double Chance +0.1%"
+      "MP Cost -0.3%",
+      "Double Chance +0.3%"
      ],
      "type": "Wisdom",
-     "value": 1
+     "value": 3
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +0.3%",
-      "Endurance +0.3%"
+      "MP increase +0.5%",
+      "Endurance +0.5%"
      ],
      "type": "Destiny",
-     "value": 3
+     "value": 5
     },
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +1.1%",
-      "Block increase +1.1%"
+      "Move Speed +1.3%",
+      "Block increase +1.3%"
      ],
      "type": "Space",
-     "value": 11
+     "value": 13
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 601
+     "value": 647
     }
    ],
    "title": {
-    "ownedCount": 46,
+    "ownedCount": 52,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -13959,8 +13959,8 @@
       "grade": "Rare",
       "id": 21020018,
       "name": "Watch My Back",
-      "ownedCount": 15,
-      "ownedPercent": 15,
+      "ownedCount": 17,
+      "ownedPercent": 17,
       "statList": [
        {
         "desc": "Out-of-Combat Natural Stamina Regen +5"
@@ -13981,8 +13981,8 @@
       "grade": "Legend",
       "id": 21020038,
       "name": "Celebrity",
-      "ownedCount": 17,
-      "ownedPercent": 16,
+      "ownedCount": 20,
+      "ownedPercent": 19,
       "statList": [
        {
         "desc": "Penetration +20"
@@ -14006,8 +14006,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 14,
-      "ownedPercent": 14,
+      "ownedCount": 15,
+      "ownedPercent": 15,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -14404,7 +14404,7 @@
       "id": 15050000,
       "name": "Blaze",
       "needLevel": 4,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -14454,7 +14454,7 @@
       "id": 15310000,
       "name": "Wish of Concentration",
       "needLevel": 12,
-      "skillLevel": 6
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -14757,14 +14757,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 146184,
+     "cp": 146584,
      "il": 2736
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146184,
+   "cp": 146584,
    "il": 2736,
    "gear": [
     {
@@ -25562,15 +25562,15 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 76960,
-     "il": 1506
+     "cp": 76880,
+     "il": 1514
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 76960,
-   "il": 1506,
+   "cp": 76880,
+   "il": 1514,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25653,19 +25653,17 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Bakarma Pauldrons",
+     "name": "Gartua Pauldrons",
      "grade": "Unique",
-     "enchantLevel": 8,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Shoulder.png",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0007_T05_Shoulder.png",
      "max": 15,
      "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
+      "Reward Chest"
      ]
     },
     {
@@ -25934,10 +25932,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +1.1%"
+      "Status Effect Resist +3.8%"
      ],
      "type": "WIS",
-     "value": 11
+     "value": 38
     },
     {
      "name": "Justice [Nezekan]",
@@ -26033,11 +26031,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1506
+     "value": 1514
     }
    ],
    "title": {
-    "ownedCount": 189,
+    "ownedCount": 191,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -26055,8 +26053,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 63,
-      "ownedPercent": 62,
+      "ownedCount": 64,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "Block +10"
@@ -26080,8 +26078,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 61,
-      "ownedPercent": 62,
+      "ownedCount": 62,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "MP +20"
@@ -27009,7 +27007,7 @@
       "id": 18710000,
       "name": "Blessing of Life",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -32235,8 +32233,53 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 01:34 UTC",
+ "updated": "2026-11-08 02:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-08 02:03",
+   "n": "iLen",
+   "x": "new Gartua Pauldrons +0"
+  },
+  {
+   "t": "2026-11-08 02:03",
+   "n": "iLen",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-08 02:02",
+   "n": "DeathLotus",
+   "x": "Noble Belt +0 → +6"
+  },
+  {
+   "t": "2026-11-08 02:02",
+   "n": "DeathLotus",
+   "x": "new Avenger Earrings +0"
+  },
+  {
+   "t": "2026-11-08 02:02",
+   "n": "DeathLotus",
+   "x": "new Chaser Earrings +0"
+  },
+  {
+   "t": "2026-11-08 02:02",
+   "n": "DeathLotus",
+   "x": "new Outsider Bracelet +0"
+  },
+  {
+   "t": "2026-11-08 02:02",
+   "n": "DeathLotus",
+   "x": "new Chaser Bracelet +0"
+  },
+  {
+   "t": "2026-11-08 02:02",
+   "n": "DeathLotus",
+   "x": "6 new titles"
+  },
+  {
+   "t": "2026-11-08 02:02",
+   "n": "DeathLotus",
+   "x": "skills up: Blaze 12, Wish of Concentration 8"
+  },
   {
    "t": "2026-11-08 01:32",
    "n": "DeathLotus",
@@ -33691,51 +33734,6 @@
    "t": "2026-11-05 01:32",
    "n": "DeathRunner",
    "x": "Nuakum Greaves +10 → +11"
-  },
-  {
-   "t": "2026-11-05 01:32",
-   "n": "DeathRunner",
-   "x": "Nuakum Gloves +10 → +11"
-  },
-  {
-   "t": "2026-11-05 01:32",
-   "n": "DeathRunner",
-   "x": "Vakron Boots +10 → +11"
-  },
-  {
-   "t": "2026-11-05 01:32",
-   "n": "DeathRunner",
-   "x": "Enraged Kromede Necklace +13 → +14"
-  },
-  {
-   "t": "2026-11-05 01:31",
-   "n": "YasuoMain",
-   "x": "new Enraged Kromede Earrings +10"
-  },
-  {
-   "t": "2026-11-05 01:31",
-   "n": "YasuoMain",
-   "x": "skills up: Experienced Counterstrike 17"
-  },
-  {
-   "t": "2026-11-05 01:04",
-   "n": "uTril",
-   "x": "Liberator Bracelet +5 → +10"
-  },
-  {
-   "t": "2026-11-05 01:04",
-   "n": "uTril",
-   "x": "Parchment of Vigor +0 → +2"
-  },
-  {
-   "t": "2026-11-05 01:04",
-   "n": "uTril",
-   "x": "skills up: Chain of Torment 16, Bolt 14"
-  },
-  {
-   "t": "2026-11-05 01:02",
-   "n": "IBrook",
-   "x": "opened 1 Daevanion nodes"
   }
  ]
 }

@@ -1567,11 +1567,12 @@ function sheetFor(name, server) {
 }
 // every class's skills from NC's character pages ({ id: [name, icon] }, skills.json), so each skill has its name and
 // icon before anyone's sheet comes; a skill NC doesn't list has the name Premade learnt from Combat Analysis, if any
+// (chain skills NC doesn't list, such as 11420000 Smashing Blow, are named from nousx/aion2-dps-meter's list, MIT, with no icon)
 let SKILLS = {};
 fetch('skills.json').then(r => r.json()).then(v => { SKILLS = v; if (location.hash.startsWith('#/dps')) refreshLive(); }).catch(() => {});
 const skillOf = id => { if (SKILL_INFO.has(id)) return SKILL_INFO.get(id);
   const name = SKILLS[id]?.[0] || (premade('lpc-aion-skills') || {})[id], k = SKILLS[id] || (name && Object.values(SKILLS).find(([n]) => n === name.replace(/ \(extra hits\)$/, '')));
-  return { name, icon: k && `${NC_ICONS}${k[1]}.png` }; };  // a learnt "X (extra hits)" takes X's icon
+  return { name, icon: k?.[1] && `${NC_ICONS}${k[1]}.png` }; };  // a learnt "X (extra hits)" takes X's icon
 const widths = new Map();  // each bar's last width, so a changed one slides to its new width
 const slideBar = (key, pct, cls) => { const was = widths.get(key) ?? pct; widths.set(key, pct); return `<i class="${cls}" data-to="${pct}" style="width:${was}%"></i>`; };
 function fightBars(players, key) {

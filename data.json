@@ -6131,15 +6131,15 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 125996,
-     "il": 2598
+     "cp": 127073,
+     "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 125996,
-   "il": 2598,
+   "cp": 127073,
+   "il": 2619,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6185,7 +6185,7 @@
      "slotPosName": "SubHand",
      "name": "Nuakum Guard",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
@@ -6817,7 +6817,7 @@
     {
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
-     "grade": "Legend",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 4,
@@ -6916,11 +6916,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +4.4%",
-      "Evasion increase +4.4%"
+      "Accuracy increase +4.8%",
+      "Evasion increase +4.8%"
      ],
      "type": "Freedom",
-     "value": 44
+     "value": 48
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -6998,7 +6998,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2598
+     "value": 2619
     }
    ],
    "title": {
@@ -7712,7 +7712,7 @@
       "id": 18040000,
       "name": "Incandescent Blow",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -7732,7 +7732,7 @@
       "id": 18060000,
       "name": "Impactful Crush",
       "needLevel": 3,
-      "skillLevel": 9
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -7752,7 +7752,7 @@
       "id": 18300000,
       "name": "Gust Rampage",
       "needLevel": 5,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -7782,7 +7782,7 @@
       "id": 18210000,
       "name": "Tremor Crush",
       "needLevel": 10,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -7812,7 +7812,7 @@
       "id": 18200000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -14751,15 +14751,15 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 145867,
-     "il": 2734
+     "cp": 146184,
+     "il": 2736
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 145867,
-   "il": 2734,
+   "cp": 146184,
+   "il": 2736,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15240,7 +15240,7 @@
      "slotPosName": "Ring2",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
@@ -15483,7 +15483,7 @@
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 1,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -15565,11 +15565,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -3.9%",
-      "Endurance Penetration +3.9%"
+      "Cooldown -4%",
+      "Endurance Penetration +4%"
      ],
      "type": "Illusion",
-     "value": 39
+     "value": 40
     },
     {
      "name": "Life [Yustiel]",
@@ -15638,7 +15638,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2734
+     "value": 2736
     }
    ],
    "title": {
@@ -16492,7 +16492,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -16735,15 +16735,15 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 123323,
-     "il": 2540
+     "cp": 123961,
+     "il": 2560
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 123323,
-   "il": 2540,
+   "cp": 123961,
+   "il": 2560,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17446,11 +17446,11 @@
     },
     {
      "slotPosName": "Arcana4",
-     "name": "Bell of Vigor",
-     "grade": "Legend",
+     "name": "Bell of Magic",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
-     "max": 4,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -17522,11 +17522,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +5.7%",
-      "Perfect Chance +5.7%"
+      "Defense increase +4.1%",
+      "Perfect Chance +4.1%"
      ],
      "type": "Justice",
-     "value": 57
+     "value": 41
     },
     {
      "name": "Freedom [Vaizel]",
@@ -17567,11 +17567,11 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.6%",
-      "Perfect Resist +0.6%"
+      "Attack increase +2.6%",
+      "Perfect Resist +2.6%"
      ],
      "type": "Destruction",
-     "value": 6
+     "value": 26
     },
     {
      "name": "Death [Triniel]",
@@ -17613,7 +17613,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2540
+     "value": 2560
     }
    ],
    "title": {
@@ -18457,7 +18457,7 @@
       "id": 15730000,
       "name": "Cold Snap",
       "needLevel": 9,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -25556,14 +25556,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 76862,
+     "cp": 76871,
      "il": 1491
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 76862,
+   "cp": 76871,
    "il": 1491,
    "gear": [
     {
@@ -26031,7 +26031,7 @@
     }
    ],
    "title": {
-    "ownedCount": 188,
+    "ownedCount": 189,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -26049,8 +26049,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 62,
-      "ownedPercent": 61,
+      "ownedCount": 63,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "Block +10"
@@ -32229,8 +32229,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 00:17 UTC",
+ "updated": "2026-11-08 00:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-08 00:34",
+   "n": "CutieCatty",
+   "x": "Nuakum Guard +13 → +14"
+  },
+  {
+   "t": "2026-11-08 00:34",
+   "n": "CutieCatty",
+   "x": "skills up: Gust Rampage 16, Tremor Crush 10, Defiance 4"
+  },
+  {
+   "t": "2026-11-08 00:33",
+   "n": "iLen",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-08 00:32",
+   "n": "IBrook",
+   "x": "new Bell of Magic +0"
+  },
+  {
+   "t": "2026-11-08 00:32",
+   "n": "IBrook",
+   "x": "skills up: Cold Snap 11"
+  },
+  {
+   "t": "2026-11-08 00:32",
+   "n": "DeathRunner",
+   "x": "Enraged Kromede Ring +13 → +14"
+  },
+  {
+   "t": "2026-11-08 00:32",
+   "n": "DeathRunner",
+   "x": "Mirror of Vigor +0 → +1"
+  },
+  {
+   "t": "2026-11-08 00:32",
+   "n": "DeathRunner",
+   "x": "skills up: Rear Smite 16"
+  },
   {
    "t": "2026-11-08 00:11",
    "n": "iLen",
@@ -33690,46 +33730,6 @@
    "t": "2026-11-05 00:06",
    "n": "DeathRunner",
    "x": "new Nuakum Gloves +10"
-  },
-  {
-   "t": "2026-11-05 00:01",
-   "n": "YasuoMain",
-   "x": "new Nuakum Breastplate +10"
-  },
-  {
-   "t": "2026-11-04 23:34",
-   "n": "CutieCatty",
-   "x": "skills up: Focused Defense 5"
-  },
-  {
-   "t": "2026-11-04 23:04",
-   "n": "uTril",
-   "x": "Parchment of Magic +1 → +0"
-  },
-  {
-   "t": "2026-11-04 23:04",
-   "n": "uTril",
-   "x": "new Bell of Vigor +0"
-  },
-  {
-   "t": "2026-11-04 23:04",
-   "n": "uTril",
-   "x": "skills up: Earth's Retribution 14, Survival Willpower 15, Summon Resurrection 5"
-  },
-  {
-   "t": "2026-11-04 23:02",
-   "n": "IBrook",
-   "x": "new Bell of Magic +0"
-  },
-  {
-   "t": "2026-11-04 23:02",
-   "n": "IBrook",
-   "x": "skills up: Ice Chain 16, Frost 11, Winter's Shackles 15, Cold Snap 12 and 1 more"
-  },
-  {
-   "t": "2026-11-04 23:02",
-   "n": "Darya",
-   "x": "3 new titles"
   }
  ]
 }

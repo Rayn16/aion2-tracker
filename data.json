@@ -1464,10 +1464,10 @@
     },
     "wingSkin": {
      "enchantLevel": 0,
-     "grade": "Common",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_006A.png",
-     "id": 40200601,
-     "name": "Lesser Daeva Wings"
+     "grade": "Unique",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     }
    },
    "pcId": 7,
@@ -14757,14 +14757,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 146584,
+     "cp": 146184,
      "il": 2736
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146584,
+   "cp": 146184,
    "il": 2736,
    "gear": [
     {
@@ -25562,14 +25562,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 76880,
+     "cp": 76901,
      "il": 1514
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 76880,
+   "cp": 76901,
    "il": 1514,
    "gear": [
     {
@@ -32233,7 +32233,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 02:05 UTC",
+ "updated": "2026-11-08 02:34 UTC",
  "feed": [
   {
    "t": "2026-11-08 02:03",

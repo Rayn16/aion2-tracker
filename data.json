@@ -30531,14 +30531,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 58870,
+     "cp": 60739,
      "il": 1108
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 58870,
+   "cp": 60739,
    "il": 1108,
    "gear": [
     {
@@ -31033,30 +31033,8 @@
     }
    ],
    "title": {
-    "ownedCount": 142,
+    "ownedCount": 143,
     "titleList": [
-     {
-      "equipCategory": "Etc",
-      "equipStatList": [
-       {
-        "desc": "Combat Speed +2%"
-       },
-       {
-        "desc": "MP +250"
-       }
-      ],
-      "grade": "Legend",
-      "id": 21020057,
-      "name": "Forever in Our Hearts",
-      "ownedCount": 45,
-      "ownedPercent": 44,
-      "statList": [
-       {
-        "desc": "Critical Hit +10"
-       }
-      ],
-      "totalCount": 102
-     },
      {
       "equipCategory": "Attack",
       "equipStatList": [
@@ -31078,6 +31056,31 @@
        }
       ],
       "totalCount": 106
+     },
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "HP Potion Recovery +400"
+       },
+       {
+        "desc": "Move Speed +3%"
+       },
+       {
+        "desc": "HP +900"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010010,
+      "name": "Encountering Zikel's Core",
+      "ownedCount": 46,
+      "ownedPercent": 45,
+      "statList": [
+       {
+        "desc": "HP +120"
+       }
+      ],
+      "totalCount": 102
      },
      {
       "equipCategory": "Defense",
@@ -31912,7 +31915,7 @@
       "id": 11290000,
       "name": "Mocking Blade",
       "needLevel": 3,
-      "skillLevel": 8
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -31937,17 +31940,17 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_020.png",
       "id": 11200000,
       "name": "Ankle Slice",
       "needLevel": 7,
-      "skillLevel": 6
+      "skillLevel": 2
      },
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_005.png",
       "id": 11050000,
       "name": "Crushing Wave",
@@ -31967,7 +31970,7 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_015.png",
       "id": 11300000,
       "name": "Aerial Snare",
@@ -31992,7 +31995,7 @@
       "id": 11260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -32132,7 +32135,7 @@
       "id": 11110000,
       "name": "Focused Block",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -32252,8 +32255,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 04:04 UTC",
+ "updated": "2026-11-08 04:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-08 04:34",
+   "n": "RyBear",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-08 04:34",
+   "n": "RyBear",
+   "x": "skills up: Mocking Blade 10, Defiance 3, Focused Block 5"
+  },
   {
    "t": "2026-11-08 04:04",
    "n": "RyBear",
@@ -33743,16 +33756,6 @@
    "t": "2026-11-05 04:33",
    "n": "uTril",
    "x": "new Enraged Kromede Warhammer +11"
-  },
-  {
-   "t": "2026-11-05 04:33",
-   "n": "uTril",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-05 04:04",
-   "n": "uTril",
-   "x": "new Mirror of Vigor +0"
   }
  ]
 }

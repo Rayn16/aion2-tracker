@@ -13518,15 +13518,15 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 33233,
-     "il": 595
+     "cp": 34614,
+     "il": 601
     }
    ],
    "server": "Tassin",
    "owner": "",
-   "level": 37,
-   "cp": 33233,
-   "il": 595,
+   "level": 38,
+   "cp": 34614,
+   "il": 601,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -13605,12 +13605,12 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Chaser Pauldrons",
-     "grade": "Rare",
+     "name": "Avenger Pauldrons",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Shoulder.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Shoulder.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -13943,11 +13943,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 595
+     "value": 601
     }
    ],
    "title": {
-    "ownedCount": 44,
+    "ownedCount": 46,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -13969,45 +13969,51 @@
       "totalCount": 102
      },
      {
-      "equipCategory": "Defense",
+      "equipCategory": "Attack",
       "equipStatList": [
        {
-        "desc": "Evasion Bonus +36"
+        "desc": "Critical Attack +30"
        },
        {
-        "desc": "Critical Damage Tolerance +2.2%"
+        "desc": "Block Penetration +40"
        }
       ],
       "grade": "Legend",
-      "id": 23010024,
-      "name": "Bond with All Creation",
+      "id": 21020038,
+      "name": "Celebrity",
+      "ownedCount": 17,
+      "ownedPercent": 16,
+      "statList": [
+       {
+        "desc": "Penetration +20"
+       }
+      ],
+      "totalCount": 106
+     },
+     {
+      "equipCategory": "Defense",
+      "equipStatList": [
+       {
+        "desc": "Defense Bonus +320"
+       },
+       {
+        "desc": "Back Attack Damage Tolerance +3%"
+       },
+       {
+        "desc": "Boss Damage Tolerance +4%"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010025,
+      "name": "Rule All Creation",
       "ownedCount": 14,
       "ownedPercent": 14,
       "statList": [
        {
-        "desc": "Move Speed +0.7%"
+        "desc": "Move Speed +1%"
        }
       ],
       "totalCount": 99
-     },
-     {
-      "equipCategory": "Attack",
-      "equipStatList": [
-       {
-        "desc": "Critical Attack +24"
-       }
-      ],
-      "grade": "Rare",
-      "id": 23040001,
-      "name": "Krao Cave Sightseer",
-      "ownedCount": 15,
-      "ownedPercent": 14,
-      "statList": [
-       {
-        "desc": "Power Shard Damage Bonus +1"
-       }
-      ],
-      "totalCount": 106
      }
     ],
     "totalCount": 307
@@ -14398,7 +14404,7 @@
       "id": 15050000,
       "name": "Blaze",
       "needLevel": 4,
-      "skillLevel": 9
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -14448,7 +14454,7 @@
       "id": 15310000,
       "name": "Wish of Concentration",
       "needLevel": 12,
-      "skillLevel": 2
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -14618,7 +14624,7 @@
       "id": 15230000,
       "name": "Arctic Armor",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 0,
@@ -14704,10 +14710,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_WindEle_03.png",
-     "id": 1095,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Duduka_02.png",
+     "id": 1173,
      "level": 3,
-     "name": "Superior Wind Spirit"
+     "name": "Duduka Trebuchet Worker"
     },
     "wing": {
      "enchantLevel": 0,
@@ -14751,14 +14757,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 146584,
+     "cp": 146184,
      "il": 2736
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146584,
+   "cp": 146184,
    "il": 2736,
    "gear": [
     {
@@ -24698,10 +24704,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.3%"
+      "Attack increase +0.4%"
      ],
      "type": "STR",
-     "value": 3
+     "value": 4
     },
     {
      "name": "Dexterity",
@@ -25556,14 +25562,14 @@
     },
     {
      "date": "2026-11-08",
-     "cp": 76890,
+     "cp": 76960,
      "il": 1506
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 76890,
+   "cp": 76960,
    "il": 1506,
    "gear": [
     {
@@ -25887,10 +25893,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.8%"
+      "Attack increase +2.9%"
      ],
      "type": "STR",
-     "value": 28
+     "value": 29
     },
     {
      "name": "Dexterity",
@@ -32229,8 +32235,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-08 01:04 UTC",
+ "updated": "2026-11-08 01:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-08 01:32",
+   "n": "DeathLotus",
+   "x": "reached level 38"
+  },
+  {
+   "t": "2026-11-08 01:32",
+   "n": "DeathLotus",
+   "x": "new Avenger Pauldrons +0"
+  },
+  {
+   "t": "2026-11-08 01:32",
+   "n": "DeathLotus",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-08 01:32",
+   "n": "DeathLotus",
+   "x": "skills up: Blaze 11, Wish of Concentration 6, Arctic Armor 2"
+  },
   {
    "t": "2026-11-08 01:03",
    "n": "iLen",
@@ -33710,26 +33736,6 @@
    "t": "2026-11-05 01:02",
    "n": "IBrook",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-05 01:01",
-   "n": "YasuoMain",
-   "x": "Nuakum Breastplate +10 → +11"
-  },
-  {
-   "t": "2026-11-05 01:01",
-   "n": "YasuoMain",
-   "x": "Revelation Amulet +7 → +10"
-  },
-  {
-   "t": "2026-11-05 00:34",
-   "n": "uTril",
-   "x": "new Parchment of Vigor +0"
-  },
-  {
-   "t": "2026-11-05 00:34",
-   "n": "uTril",
-   "x": "skills up: Chain of Torment 15, Radiant Recovery 13"
   }
  ]
 }

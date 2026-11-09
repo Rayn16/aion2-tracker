@@ -79,13 +79,13 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 131423,
+     "cp": 132316,
      "il": 2632
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 131423,
+   "cp": 132316,
    "il": 2632,
    "gear": [
     {
@@ -2108,14 +2108,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 77935,
-     "il": 1698
+     "cp": 80065,
+     "il": 1771
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 77935,
-   "il": 1698,
+   "cp": 80065,
+   "il": 1771,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2460,9 +2460,9 @@
     {
      "slotPosName": "Belt",
      "name": "Noble Belt",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_021.png",
+     "grade": "Unique",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
      "stones": [],
@@ -2514,11 +2514,32 @@
      "slotPosName": "Earring1",
      "name": "Aulamus Earrings",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -2584,7 +2605,7 @@
      "slotPosName": "Ring2",
      "name": "Liberator Ring",
      "grade": "Legend",
-     "enchantLevel": 5,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
      "max": 10,
      "slots": 3,
@@ -2635,7 +2656,7 @@
      "slotPosName": "Bracelet2",
      "name": "Liberator Bracelet",
      "grade": "Legend",
-     "enchantLevel": 5,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png",
      "max": 10,
      "slots": 3,
@@ -2682,9 +2703,9 @@
     {
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv4_01.png",
+     "grade": "Unique",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
      "stones": [],
@@ -2832,11 +2853,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1698
+     "value": 1771
     }
    ],
    "title": {
-    "ownedCount": 175,
+    "ownedCount": 177,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -2854,8 +2875,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 58,
-      "ownedPercent": 57,
+      "ownedCount": 59,
+      "ownedPercent": 58,
       "statList": [
        {
         "desc": "Block +10"
@@ -2901,8 +2922,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 57,
-      "ownedPercent": 58,
+      "ownedCount": 58,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -4128,15 +4149,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 74257,
-     "il": 1591
+     "cp": 75098,
+     "il": 1611
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 74257,
-   "il": 1591,
+   "cp": 75098,
+   "il": 1611,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4535,7 +4556,7 @@
      "slotPosName": "Earring1",
      "name": "Liberator Earrings",
      "grade": "Legend",
-     "enchantLevel": 5,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
      "max": 10,
      "slots": 3,
@@ -4550,7 +4571,7 @@
      "slotPosName": "Earring2",
      "name": "Liberator Earrings",
      "grade": "Legend",
-     "enchantLevel": 5,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
      "max": 10,
      "slots": 3,
@@ -4603,7 +4624,7 @@
      "slotPosName": "Ring2",
      "name": "Liberator Ring",
      "grade": "Legend",
-     "enchantLevel": 5,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
      "max": 10,
      "slots": 3,
@@ -4654,7 +4675,7 @@
      "slotPosName": "Bracelet2",
      "name": "Liberator Bracelet",
      "grade": "Legend",
-     "enchantLevel": 5,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png",
      "max": 10,
      "slots": 3,
@@ -4856,7 +4877,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1591
+     "value": 1611
     }
    ],
    "title": {
@@ -32352,8 +32373,58 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 01:05 UTC",
+ "updated": "2026-11-09 01:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 01:34",
+   "n": "CuteCatty",
+   "x": "Liberator Earrings +5 → +10"
+  },
+  {
+   "t": "2026-11-09 01:34",
+   "n": "CuteCatty",
+   "x": "Liberator Earrings +5 → +10"
+  },
+  {
+   "t": "2026-11-09 01:34",
+   "n": "CuteCatty",
+   "x": "Liberator Ring +5 → +10"
+  },
+  {
+   "t": "2026-11-09 01:34",
+   "n": "CuteCatty",
+   "x": "Liberator Bracelet +5 → +10"
+  },
+  {
+   "t": "2026-11-09 01:31",
+   "n": "YasuoMain16",
+   "x": "Noble Belt +5 → +0"
+  },
+  {
+   "t": "2026-11-09 01:31",
+   "n": "YasuoMain16",
+   "x": "Aulamus Earrings +0 → +10"
+  },
+  {
+   "t": "2026-11-09 01:31",
+   "n": "YasuoMain16",
+   "x": "Liberator Ring +5 → +10"
+  },
+  {
+   "t": "2026-11-09 01:31",
+   "n": "YasuoMain16",
+   "x": "Liberator Bracelet +5 → +10"
+  },
+  {
+   "t": "2026-11-09 01:31",
+   "n": "YasuoMain16",
+   "x": "Revelation Amulet +5 → +0"
+  },
+  {
+   "t": "2026-11-09 01:31",
+   "n": "YasuoMain16",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-11-08 16:28",
    "n": "PeriodPhobic",
@@ -33803,56 +33874,6 @@
    "t": "2026-11-05 06:34",
    "n": "uTril",
    "x": "skills up: Heal Block 16, Power Burst 5"
-  },
-  {
-   "t": "2026-11-05 06:04",
-   "n": "uTril",
-   "x": "new Nuakum Boots +10"
-  },
-  {
-   "t": "2026-11-05 06:04",
-   "n": "uTril",
-   "x": "skills up: Warm Benediction 17"
-  },
-  {
-   "t": "2026-11-05 05:32",
-   "n": "DeathRunner",
-   "x": "Nuakum Breastplate +11 → +12"
-  },
-  {
-   "t": "2026-11-05 05:32",
-   "n": "DeathRunner",
-   "x": "skills up: Swift Contract 20"
-  },
-  {
-   "t": "2026-11-05 05:31",
-   "n": "YasuoMain",
-   "x": "new Nuakum Boots +10"
-  },
-  {
-   "t": "2026-11-05 05:31",
-   "n": "YasuoMain",
-   "x": "skills up: Attack Preparation 17"
-  },
-  {
-   "t": "2026-11-05 05:03",
-   "n": "uTril",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-05 05:02",
-   "n": "DeathRunner",
-   "x": "Nuakum Helm +11 → +12"
-  },
-  {
-   "t": "2026-11-05 05:02",
-   "n": "DeathRunner",
-   "x": "Nuakum Pauldrons +11 → +12"
-  },
-  {
-   "t": "2026-11-05 05:02",
-   "n": "DeathRunner",
-   "x": "skills up: Savage Fang 4"
   }
  ]
 }

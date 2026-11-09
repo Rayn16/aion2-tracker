@@ -25719,15 +25719,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 82280,
-     "il": 1580
+     "cp": 82789,
+     "il": 1607
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 82280,
-   "il": 1580,
+   "cp": 82789,
+   "il": 1607,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -25937,6 +25937,23 @@
      ]
     },
     {
+     "slotPosName": "Ring1",
+     "name": "Aulamus Ring",
+     "grade": "Unique",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
      "slotPosName": "Ring2",
      "name": "Aulamus Ring",
      "grade": "Unique",
@@ -25951,21 +25968,6 @@
       "Reward Chest",
       "Expedition",
       "Sanctuary"
-     ]
-    },
-    {
-     "slotPosName": "Ring1",
-     "name": "Liberator Ring",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Quest"
      ]
     },
     {
@@ -26192,7 +26194,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1580
+     "value": 1607
     }
    ],
    "title": {
@@ -30687,25 +30689,46 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 61293,
-     "il": 1126
+     "cp": 63329,
+     "il": 1160
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 61293,
-   "il": 1126,
+   "cp": 63329,
+   "il": 1160,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Spiritforged Greatsword",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0078_T05.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 1,
      "god": [],
      "src": [
@@ -30765,17 +30788,19 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Liberator Greaves",
+     "name": "Anguish Greaves",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Pants.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -30939,6 +30964,23 @@
      ]
     },
     {
+     "slotPosName": "Ring2",
+     "name": "Anguish Ring",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
+     "max": 10,
+     "slots": 3,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
      "slotPosName": "Ring1",
      "name": "Anguish Ring",
      "grade": "Legend",
@@ -30956,25 +30998,10 @@
      ]
     },
     {
-     "slotPosName": "Ring2",
-     "name": "Avenger Ring",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0017.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Quest"
-     ]
-    },
-    {
      "slotPosName": "Bracelet2",
      "name": "Ascension Bracelet",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png",
      "max": 15,
      "slots": 4,
@@ -31061,9 +31088,13 @@
     },
     {
      "name": "Dexterity",
-     "statSecondList": null,
+     "statSecondList": [
+      "Evasion increase +1.1%",
+      "Block increase +1.1%",
+      "Critical Hit Resist increase +1.1%"
+     ],
      "type": "DEX",
-     "value": 0
+     "value": 11
     },
     {
      "name": "Intelligence",
@@ -31185,7 +31216,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1126
+     "value": 1160
     }
    ],
    "title": {
@@ -32061,7 +32092,7 @@
       "id": 11190000,
       "name": "Leaping Slam",
       "needLevel": 1,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -32411,8 +32442,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 19:34 UTC",
+ "updated": "2026-11-09 20:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 20:04",
+   "n": "RyBear",
+   "x": "Spiritforged Greatsword +0 → +10"
+  },
+  {
+   "t": "2026-11-09 20:04",
+   "n": "RyBear",
+   "x": "new Anguish Greaves +0"
+  },
+  {
+   "t": "2026-11-09 20:04",
+   "n": "RyBear",
+   "x": "new Anguish Ring +0"
+  },
+  {
+   "t": "2026-11-09 20:04",
+   "n": "RyBear",
+   "x": "Ascension Bracelet +0 → +10"
+  },
+  {
+   "t": "2026-11-09 20:04",
+   "n": "RyBear",
+   "x": "skills up: Leaping Slam 11"
+  },
+  {
+   "t": "2026-11-09 20:03",
+   "n": "iLen",
+   "x": "new Aulamus Ring +0"
+  },
   {
    "t": "2026-11-09 19:34",
    "n": "RyBear",
@@ -33882,36 +33943,6 @@
    "t": "2026-11-05 22:26",
    "n": "YasuoMain",
    "x": "new Enraged Kromede Ring +12"
-  },
-  {
-   "t": "2026-11-05 22:26",
-   "n": "YasuoMain",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-05 22:26",
-   "n": "YasuoMain",
-   "x": "skills up: Rending Blow 17, Ruinous Blow 16"
-  },
-  {
-   "t": "2026-11-05 22:02",
-   "n": "IBrook",
-   "x": "new Enraged Kromede Spellbook +15"
-  },
-  {
-   "t": "2026-11-05 22:02",
-   "n": "IBrook",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-05 21:02",
-   "n": "IBrook",
-   "x": "skills up: Element Enhancement 18, Fire Wall 11"
-  },
-  {
-   "t": "2026-11-05 21:02",
-   "n": "DeathRunner",
-   "x": "1 new title"
   }
  ]
 }

@@ -25719,21 +25719,21 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 82789,
-     "il": 1607
+     "cp": 85917,
+     "il": 1666
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 82789,
-   "il": 1607,
+   "cp": 85917,
+   "il": 1666,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Aulamus Staff",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0028_T05.png",
      "max": 15,
      "slots": 4,
@@ -25893,17 +25893,19 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Liberator Necklace",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0071.png",
-     "max": 10,
-     "slots": 3,
+     "name": "Aulamus Necklace",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -25940,7 +25942,7 @@
      "slotPosName": "Ring1",
      "name": "Aulamus Ring",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
      "max": 15,
      "slots": 4,
@@ -25971,7 +25973,7 @@
      ]
     },
     {
-     "slotPosName": "Bracelet1",
+     "slotPosName": "Bracelet2",
      "name": "Ascension Bracelet",
      "grade": "Unique",
      "enchantLevel": 10,
@@ -25986,7 +25988,7 @@
      ]
     },
     {
-     "slotPosName": "Bracelet2",
+     "slotPosName": "Bracelet1",
      "name": "Liberator Bracelet",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -26037,7 +26039,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 7,
+     "enchantLevel": 9,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -26194,7 +26196,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1607
+     "value": 1666
     }
    ],
    "title": {
@@ -27170,7 +27172,7 @@
       "id": 18710000,
       "name": "Blessing of Life",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -27260,7 +27262,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -30689,15 +30691,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 63329,
-     "il": 1160
+     "cp": 63718,
+     "il": 1167
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 63329,
-   "il": 1160,
+   "cp": 63718,
+   "il": 1167,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30935,17 +30937,17 @@
     },
     {
      "slotPosName": "Earring1",
-     "name": "Avenger Earrings",
+     "name": "Saraswati Earrings",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0017.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0037.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Expedition"
      ]
     },
     {
@@ -31216,7 +31218,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1160
+     "value": 1167
     }
    ],
    "title": {
@@ -32442,8 +32444,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 20:04 UTC",
+ "updated": "2026-11-09 20:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 20:35",
+   "n": "RyBear",
+   "x": "new Saraswati Earrings +0"
+  },
+  {
+   "t": "2026-11-09 20:33",
+   "n": "iLen",
+   "x": "Aulamus Staff +0 → +10"
+  },
+  {
+   "t": "2026-11-09 20:33",
+   "n": "iLen",
+   "x": "new Aulamus Necklace +10"
+  },
+  {
+   "t": "2026-11-09 20:33",
+   "n": "iLen",
+   "x": "Aulamus Ring +0 → +10"
+  },
+  {
+   "t": "2026-11-09 20:33",
+   "n": "iLen",
+   "x": "new Ascension Bracelet +10"
+  },
+  {
+   "t": "2026-11-09 20:33",
+   "n": "iLen",
+   "x": "new Liberator Bracelet +0"
+  },
+  {
+   "t": "2026-11-09 20:33",
+   "n": "iLen",
+   "x": "Revelation Amulet +7 → +9"
+  },
+  {
+   "t": "2026-11-09 20:33",
+   "n": "iLen",
+   "x": "skills up: Blessing of Life 13, Wind's Promise 14"
+  },
   {
    "t": "2026-11-09 20:04",
    "n": "RyBear",
@@ -33903,46 +33945,6 @@
    "t": "2026-11-05 22:28",
    "n": "DeathRunner",
    "x": "Nuakum Gloves +11 → +13"
-  },
-  {
-   "t": "2026-11-05 22:28",
-   "n": "DeathRunner",
-   "x": "Enraged Kromede Ring +12 → +14"
-  },
-  {
-   "t": "2026-11-05 22:26",
-   "n": "YasuoMain",
-   "x": "Nuakum Breastplate +11 → +12"
-  },
-  {
-   "t": "2026-11-05 22:26",
-   "n": "YasuoMain",
-   "x": "Nuakum Greaves +11 → +12"
-  },
-  {
-   "t": "2026-11-05 22:26",
-   "n": "YasuoMain",
-   "x": "Nuakum Gloves +11 → +12"
-  },
-  {
-   "t": "2026-11-05 22:26",
-   "n": "YasuoMain",
-   "x": "Nuakum Boots +10 → +12"
-  },
-  {
-   "t": "2026-11-05 22:26",
-   "n": "YasuoMain",
-   "x": "Enraged Kromede Necklace +10 → +12"
-  },
-  {
-   "t": "2026-11-05 22:26",
-   "n": "YasuoMain",
-   "x": "Enraged Kromede Earrings +10 → +12"
-  },
-  {
-   "t": "2026-11-05 22:26",
-   "n": "YasuoMain",
-   "x": "new Enraged Kromede Ring +12"
   }
  ]
 }

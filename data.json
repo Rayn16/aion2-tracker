@@ -79,13 +79,13 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 135521,
+     "cp": 135530,
      "il": 2637
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 135521,
+   "cp": 135530,
    "il": 2637,
    "gear": [
     {
@@ -4177,15 +4177,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 76540,
-     "il": 1751
+     "cp": 77307,
+     "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 76540,
-   "il": 1751,
+   "cp": 77307,
+   "il": 1785,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4650,17 +4650,40 @@
     },
     {
      "slotPosName": "Ring2",
-     "name": "Liberator Ring",
-     "grade": "Legend",
+     "name": "Aulamus Ring",
+     "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -4864,11 +4887,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.4%",
-      "Critical Hit increase +0.4%"
+      "Accuracy increase +1.1%",
+      "Critical Hit increase +1.1%"
      ],
      "type": "AGI",
-     "value": 4
+     "value": 11
     },
     {
      "name": "Willpower",
@@ -4970,7 +4993,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1751
+     "value": 1785
     }
    ],
    "title": {
@@ -6265,14 +6288,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 127236,
+     "cp": 127261,
      "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 127236,
+   "cp": 127261,
    "il": 2619,
    "gear": [
     {
@@ -32494,8 +32517,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 22:34 UTC",
+ "updated": "2026-11-09 23:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 23:04",
+   "n": "CuteCatty",
+   "x": "new Aulamus Ring +10"
+  },
   {
    "t": "2026-11-09 22:34",
    "n": "CuteCatty",
@@ -33990,11 +34018,6 @@
    "t": "2026-11-06 01:15",
    "n": "RyBear",
    "x": "new Avenger Breastplate +0"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "new Avenger Greaves +0"
   }
  ]
 }

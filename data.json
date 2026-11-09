@@ -79,13 +79,13 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 132316,
+     "cp": 132396,
      "il": 2632
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 132316,
+   "cp": 132396,
    "il": 2632,
    "gear": [
     {
@@ -958,7 +958,7 @@
     }
    ],
    "title": {
-    "ownedCount": 201,
+    "ownedCount": 203,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -976,8 +976,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 63,
-      "ownedPercent": 62,
+      "ownedCount": 64,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "Block +10"
@@ -1001,8 +1001,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 71,
-      "ownedPercent": 72,
+      "ownedCount": 72,
+      "ownedPercent": 73,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -4149,15 +4149,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 76083,
-     "il": 1691
+     "cp": 76209,
+     "il": 1711
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 76083,
-   "il": 1691,
+   "cp": 76209,
+   "il": 1711,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4749,10 +4749,23 @@
     },
     {
      "slotPosName": "Arcana2",
-     "name": "Parchment of Magic",
+     "name": "Parchment of Vigor",
      "grade": "Common",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
+     "slotPosName": "Arcana3",
+     "name": "Compass of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 2,
      "slots": 0,
      "stones": [],
@@ -4834,11 +4847,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2.8%",
-      "Evasion increase +2.8%"
+      "Accuracy increase +3.6%",
+      "Evasion increase +3.6%"
      ],
      "type": "Freedom",
-     "value": 28
+     "value": 36
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -4852,11 +4865,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.1%",
-      "Regeneration +1.1%"
+      "HP increase +1.9%",
+      "Regeneration +1.9%"
      ],
      "type": "Life",
-     "value": 11
+     "value": 19
     },
     {
      "name": "Time [Siel]",
@@ -4897,11 +4910,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +2.3%",
-      "Endurance +2.3%"
+      "MP increase +1.5%",
+      "Endurance +1.5%"
      ],
      "type": "Destiny",
-     "value": 23
+     "value": 15
     },
     {
      "name": "Space [Israphel]",
@@ -4916,7 +4929,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1691
+     "value": 1711
     }
    ],
    "title": {
@@ -5772,7 +5785,7 @@
       "id": 17010000,
       "name": "Earth's Retribution",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -5782,7 +5795,7 @@
       "id": 17040000,
       "name": "Judgment Thunder",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -5872,7 +5885,7 @@
       "id": 17060000,
       "name": "Bolt",
       "needLevel": 14,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -28593,21 +28606,21 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 105882,
-     "il": 2364
+     "cp": 106972,
+     "il": 2380
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 105882,
-   "il": 2364,
+   "cp": 106972,
+   "il": 2380,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Enraged Kromede Warhammer",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_MA_0041_T06.png",
      "max": 15,
      "slots": 4,
@@ -28814,34 +28827,13 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Vakron Gloves",
+     "name": "Nuakum Gloves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+30",
-       "Rare"
-      ],
-      [
-       "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "Defense",
-       "+10",
-       "Common"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -29434,34 +29426,12 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2364
+     "value": 2380
     }
    ],
    "title": {
-    "ownedCount": 190,
+    "ownedCount": 191,
     "titleList": [
-     {
-      "equipCategory": "Attack",
-      "equipStatList": [
-       {
-        "desc": "Critical Attack +30"
-       },
-       {
-        "desc": "Block Penetration +40"
-       }
-      ],
-      "grade": "Legend",
-      "id": 21020038,
-      "name": "Celebrity",
-      "ownedCount": 65,
-      "ownedPercent": 61,
-      "statList": [
-       {
-        "desc": "Penetration +20"
-       }
-      ],
-      "totalCount": 106
-     },
      {
       "equipCategory": "Etc",
       "equipStatList": [
@@ -29511,6 +29481,31 @@
        }
       ],
       "totalCount": 99
+     },
+     {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "Critical Attack +45"
+       },
+       {
+        "desc": "Critical Damage Boost +3%"
+       },
+       {
+        "desc": "Accuracy Bonus +60"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23050017,
+      "name": "Golden Glow",
+      "ownedCount": 66,
+      "ownedPercent": 62,
+      "statList": [
+       {
+        "desc": "Critical Attack +3"
+       }
+      ],
+      "totalCount": 106
      }
     ],
     "totalCount": 307
@@ -30490,7 +30485,7 @@
       "id": 17790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -32412,8 +32407,43 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 02:04 UTC",
+ "updated": "2026-11-09 02:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 02:34",
+   "n": "CuteCatty",
+   "x": "new Parchment of Vigor +0"
+  },
+  {
+   "t": "2026-11-09 02:34",
+   "n": "CuteCatty",
+   "x": "new Compass of Vigor +0"
+  },
+  {
+   "t": "2026-11-09 02:34",
+   "n": "CuteCatty",
+   "x": "skills up: Judgment Thunder 15, Bolt 13"
+  },
+  {
+   "t": "2026-11-09 02:34",
+   "n": "uTril",
+   "x": "Enraged Kromede Warhammer +14 → +15"
+  },
+  {
+   "t": "2026-11-09 02:34",
+   "n": "uTril",
+   "x": "new Nuakum Gloves +10"
+  },
+  {
+   "t": "2026-11-09 02:34",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-09 02:31",
+   "n": "YasuoMain",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-11-09 02:04",
    "n": "CuteCatty",
@@ -33878,41 +33908,6 @@
    "t": "2026-11-05 09:04",
    "n": "CutieCatty",
    "x": "new Enraged Kromede Earrings +10"
-  },
-  {
-   "t": "2026-11-05 09:04",
-   "n": "CutieCatty",
-   "x": "skills up: Attack Preparation 15"
-  },
-  {
-   "t": "2026-11-05 09:01",
-   "n": "YasuoMain",
-   "x": "new Enraged Kromede Earrings +10"
-  },
-  {
-   "t": "2026-11-05 08:33",
-   "n": "uTril",
-   "x": "new Enraged Kromede Ring +10"
-  },
-  {
-   "t": "2026-11-05 08:33",
-   "n": "uTril",
-   "x": "skills up: Summon Resurrection 7"
-  },
-  {
-   "t": "2026-11-05 08:31",
-   "n": "YasuoMain",
-   "x": "new Enraged Kromede Necklace +10"
-  },
-  {
-   "t": "2026-11-05 08:31",
-   "n": "YasuoMain",
-   "x": "skills up: Survival Willpower 18"
-  },
-  {
-   "t": "2026-11-05 08:03",
-   "n": "uTril",
-   "x": "Enraged Kromede Warhammer +11 → +13"
   }
  ]
 }

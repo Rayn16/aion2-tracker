@@ -4149,14 +4149,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 76255,
+     "cp": 76276,
      "il": 1711
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 76255,
+   "cp": 76276,
    "il": 1711,
    "gear": [
     {
@@ -27398,10 +27398,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Guardit_02.png",
-     "id": 1197,
-     "level": 2,
-     "name": "Watcher Guardite"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Papis_01.png",
+     "id": 1066,
+     "level": 3,
+     "name": "Papis"
     },
     "wing": {
      "enchantLevel": 0,
@@ -30691,15 +30691,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 66251,
-     "il": 1195
+     "cp": 68153,
+     "il": 1254
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 66251,
-   "il": 1195,
+   "cp": 68153,
+   "il": 1254,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30926,7 +30926,7 @@
      "slotPosName": "Necklace",
      "name": "Division Necklace",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0065.png",
      "max": 10,
      "slots": 3,
@@ -30943,7 +30943,7 @@
      "slotPosName": "Earring1",
      "name": "Saraswati Earrings",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0037.png",
      "max": 10,
      "slots": 3,
@@ -30958,7 +30958,7 @@
      "slotPosName": "Earring2",
      "name": "Liberator Earrings",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
      "max": 10,
      "slots": 3,
@@ -30973,7 +30973,7 @@
      "slotPosName": "Ring2",
      "name": "Anguish Ring",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
      "max": 10,
      "slots": 3,
@@ -30990,7 +30990,7 @@
      "slotPosName": "Ring1",
      "name": "Anguish Ring",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
      "max": 10,
      "slots": 3,
@@ -31022,7 +31022,7 @@
      "slotPosName": "Bracelet1",
      "name": "Liberator Bracelet",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png",
      "max": 10,
      "slots": 3,
@@ -31069,9 +31069,9 @@
     {
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
-     "grade": "Legend",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv4_01.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
      "stones": [],
@@ -31227,11 +31227,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1195
+     "value": 1254
     }
    ],
    "title": {
-    "ownedCount": 148,
+    "ownedCount": 150,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -31246,8 +31246,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 50,
-      "ownedPercent": 47,
+      "ownedCount": 51,
+      "ownedPercent": 48,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -31296,8 +31296,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 50,
-      "ownedPercent": 51,
+      "ownedCount": 51,
+      "ownedPercent": 52,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -32163,7 +32163,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -32453,8 +32453,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 21:34 UTC",
+ "updated": "2026-11-09 22:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 22:04",
+   "n": "RyBear",
+   "x": "Division Necklace +0 → +5"
+  },
+  {
+   "t": "2026-11-09 22:04",
+   "n": "RyBear",
+   "x": "Saraswati Earrings +0 → +5"
+  },
+  {
+   "t": "2026-11-09 22:04",
+   "n": "RyBear",
+   "x": "Liberator Earrings +0 → +5"
+  },
+  {
+   "t": "2026-11-09 22:04",
+   "n": "RyBear",
+   "x": "Anguish Ring +0 → +5"
+  },
+  {
+   "t": "2026-11-09 22:04",
+   "n": "RyBear",
+   "x": "Anguish Ring +0 → +5"
+  },
+  {
+   "t": "2026-11-09 22:04",
+   "n": "RyBear",
+   "x": "Liberator Bracelet +0 → +5"
+  },
+  {
+   "t": "2026-11-09 22:04",
+   "n": "RyBear",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-09 22:04",
+   "n": "RyBear",
+   "x": "skills up: Rush Strike 9"
+  },
   {
    "t": "2026-11-09 21:34",
    "n": "RyBear",
@@ -33914,46 +33954,6 @@
    "t": "2026-11-06 01:15",
    "n": "RyBear",
    "x": "new Chaser Bracelet +0"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "6 new titles"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "opened 5 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "skills up: Sword Aura Rampage 8, Crushing Wave 3, Ruinous Blow 12, Attack Preparation 11 and 6 more"
-  },
-  {
-   "t": "2026-11-05 23:34",
-   "n": "RyBear",
-   "x": "reached level 32"
-  },
-  {
-   "t": "2026-11-05 23:34",
-   "n": "RyBear",
-   "x": "new Chaser Greatsword +0"
-  },
-  {
-   "t": "2026-11-05 23:34",
-   "n": "RyBear",
-   "x": "new Chaser Guard +0"
-  },
-  {
-   "t": "2026-11-05 23:34",
-   "n": "RyBear",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-05 23:34",
-   "n": "RyBear",
-   "x": "opened 6 Daevanion nodes"
   }
  ]
 }

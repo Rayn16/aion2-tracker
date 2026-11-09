@@ -79,14 +79,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 132396,
-     "il": 2632
+     "cp": 132858,
+     "il": 2633
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 132396,
-   "il": 2632,
+   "cp": 132858,
+   "il": 2633,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -954,11 +954,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2632
+     "value": 2633
     }
    ],
    "title": {
-    "ownedCount": 203,
+    "ownedCount": 204,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -976,8 +976,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 64,
-      "ownedPercent": 63,
+      "ownedCount": 65,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "Block +10"
@@ -1075,7 +1075,7 @@
       "id": 14,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 68,
+      "openNodeCount": 69,
       "openPercent": 59,
       "totalNodeCount": 116
      },
@@ -1845,7 +1845,7 @@
      "12|2|Common|1|Critical Hit",
      "11|14|Legend|1|Skill Level Up - Defiance",
      "12|4|Common|0|Defense",
-     "12|9|Common|0|Attack",
+     "12|9|Common|1|Attack",
      "12|7|Common|0|Critical Hit",
      "12|8|Common|0|Max MP",
      "12|14|Common|0|Critical Hit Resist",
@@ -25717,14 +25717,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 78493,
+     "cp": 66093,
      "il": 1565
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 78493,
+   "cp": 66093,
    "il": 1565,
    "gear": [
     {
@@ -32407,8 +32407,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 15:34 UTC",
+ "updated": "2026-11-09 16:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 16:01",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-09 16:01",
+   "n": "YasuoMain",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-09 12:34",
    "n": "CutieCatty",
@@ -33898,16 +33908,6 @@
    "t": "2026-11-05 19:32",
    "n": "IBrook",
    "x": "skills up: Grace of Resistance 3"
-  },
-  {
-   "t": "2026-11-05 19:03",
-   "n": "uTril",
-   "x": "skills up: Power Burst 8"
-  },
-  {
-   "t": "2026-11-05 19:03",
-   "n": "iLen",
-   "x": "new High Commander Lagta Gloves +0"
   }
  ]
 }

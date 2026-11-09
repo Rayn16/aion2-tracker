@@ -21787,14 +21787,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 24271,
+     "cp": 25214,
      "il": 450
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 24,
-   "cp": 24271,
+   "cp": 25214,
    "il": 450,
    "gear": [
     {
@@ -22234,7 +22234,7 @@
     }
    ],
    "title": {
-    "ownedCount": 41,
+    "ownedCount": 42,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -22246,8 +22246,8 @@
       "grade": "Rare",
       "id": 22010016,
       "name": "Shutting Down",
-      "ownedCount": 10,
-      "ownedPercent": 10,
+      "ownedCount": 11,
+      "ownedPercent": 11,
       "statList": [
        {
         "desc": "Evasion Bonus +5"
@@ -22952,14 +22952,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 42174,
+     "cp": 43120,
      "il": 799
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 42174,
+   "cp": 43120,
    "il": 799,
    "gear": [
     {
@@ -23354,7 +23354,7 @@
     }
    ],
    "title": {
-    "ownedCount": 51,
+    "ownedCount": 52,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -23369,8 +23369,8 @@
       "grade": "Legend",
       "id": 21020039,
       "name": "Worst of the Worst",
-      "ownedCount": 19,
-      "ownedPercent": 19,
+      "ownedCount": 20,
+      "ownedPercent": 20,
       "statList": [
        {
         "desc": "Natural MP Regen +5"
@@ -32407,8 +32407,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 07:03 UTC",
+ "updated": "2026-11-09 07:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 07:33",
+   "n": "Yorichi",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-09 07:33",
+   "n": "Taila",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-09 02:34",
    "n": "CuteCatty",
@@ -33898,16 +33908,6 @@
    "t": "2026-11-05 14:32",
    "n": "IBrook",
    "x": "skills up: Firestorm 16"
-  },
-  {
-   "t": "2026-11-05 10:31",
-   "n": "YasuoMain",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-05 09:04",
-   "n": "CutieCatty",
-   "x": "new Enraged Kromede Earrings +10"
   }
  ]
 }

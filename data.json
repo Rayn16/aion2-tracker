@@ -2108,49 +2108,51 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 80083,
-     "il": 1771
+     "cp": 83163,
+     "il": 1834
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 80083,
-   "il": 1771,
+   "cp": 83163,
+   "il": 1834,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Spiritforged Longsword",
+     "name": "Aulamus Longsword",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_SW_0078_T05.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_SW_0028_T05.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Defense",
-       "+30",
-       "Rare"
-      ],
-      [
-       "Critical Hit Resist",
-       "+7",
-       "Rare"
-      ],
-      [
        "Critical Hit",
-       "+7",
-       "Rare"
+       "+5",
+       "Common"
       ],
       [
-       "Defense",
-       "+10",
+       "Attack",
+       "+1",
        "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
       ]
      ],
      "godSlots": 1,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -2714,16 +2716,42 @@
      "src": [
       "Substance Morph"
      ]
+    },
+    {
+     "slotPosName": "Arcana3",
+     "name": "Compass of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
+     "slotPosName": "Arcana4",
+     "name": "Bell of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
     }
    ],
    "stats": [
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.7%"
+      "Attack increase +0.2%"
      ],
      "type": "STR",
-     "value": 17
+     "value": 2
     },
     {
      "name": "Dexterity",
@@ -2762,20 +2790,20 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4.1%",
-      "Perfect Chance +4.1%"
+      "Defense increase +4.9%",
+      "Perfect Chance +4.9%"
      ],
      "type": "Justice",
-     "value": 41
+     "value": 49
     },
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2.8%",
-      "Evasion increase +2.8%"
+      "Accuracy increase +3.6%",
+      "Evasion increase +3.6%"
      ],
      "type": "Freedom",
-     "value": 28
+     "value": 36
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -2853,7 +2881,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1771
+     "value": 1834
     }
    ],
    "title": {
@@ -3065,7 +3093,7 @@
       "id": 12270000,
       "name": "Debilitating Smash",
       "needLevel": 7,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -3085,7 +3113,7 @@
       "id": 12430000,
       "name": "Shield Rush",
       "needLevel": 10,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -3095,7 +3123,7 @@
       "id": 12300000,
       "name": "Annihilate",
       "needLevel": 12,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -3165,7 +3193,7 @@
       "id": 12750000,
       "name": "Guarding Seal",
       "needLevel": 13,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -4149,15 +4177,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 76276,
-     "il": 1711
+     "cp": 76540,
+     "il": 1751
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 76276,
-   "il": 1711,
+   "cp": 76540,
+   "il": 1751,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4774,6 +4802,19 @@
      "src": []
     },
     {
+     "slotPosName": "Arcana4",
+     "name": "Bell of Vigor",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
+     "max": 3,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
      "grade": "Rare",
@@ -4838,11 +4879,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4.1%",
-      "Perfect Chance +4.1%"
+      "Defense increase +5.3%",
+      "Perfect Chance +5.3%"
      ],
      "type": "Justice",
-     "value": 41
+     "value": 53
     },
     {
      "name": "Freedom [Vaizel]",
@@ -4929,7 +4970,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1711
+     "value": 1751
     }
    ],
    "title": {
@@ -5945,7 +5986,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -5965,7 +6006,7 @@
       "id": 17770000,
       "name": "Prayer of Concentration",
       "needLevel": 17,
-      "skillLevel": 5
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -22954,14 +22995,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 43120,
+     "cp": 43150,
      "il": 799
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 43120,
+   "cp": 43150,
    "il": 799,
    "gear": [
     {
@@ -28614,14 +28655,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 107397,
+     "cp": 107400,
      "il": 2405
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 107397,
+   "cp": 107400,
    "il": 2405,
    "gear": [
     {
@@ -32453,8 +32494,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 22:04 UTC",
+ "updated": "2026-11-09 22:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 22:34",
+   "n": "CuteCatty",
+   "x": "new Bell of Vigor +0"
+  },
+  {
+   "t": "2026-11-09 22:34",
+   "n": "CuteCatty",
+   "x": "skills up: Immortal Veil 14, Prayer of Concentration 6"
+  },
+  {
+   "t": "2026-11-09 22:31",
+   "n": "YasuoMain16",
+   "x": "new Aulamus Longsword +10"
+  },
+  {
+   "t": "2026-11-09 22:31",
+   "n": "YasuoMain16",
+   "x": "new Compass of Vigor +0"
+  },
+  {
+   "t": "2026-11-09 22:31",
+   "n": "YasuoMain16",
+   "x": "new Bell of Vigor +0"
+  },
+  {
+   "t": "2026-11-09 22:31",
+   "n": "YasuoMain16",
+   "x": "skills up: Debilitating Smash 14, Shield Rush 13, Annihilate 15, Guarding Seal 5"
+  },
   {
    "t": "2026-11-09 22:04",
    "n": "RyBear",
@@ -33924,36 +33995,6 @@
    "t": "2026-11-06 01:15",
    "n": "RyBear",
    "x": "new Avenger Greaves +0"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "new Avenger Gloves +0"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "new Avenger Cloak +0"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "new Chaser Earrings +0"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "new Avenger Ring +0"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "new Outsider Bracelet +0"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "new Chaser Bracelet +0"
   }
  ]
 }

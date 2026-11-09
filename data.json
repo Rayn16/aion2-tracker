@@ -79,14 +79,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 132858,
-     "il": 2633
+     "cp": 135504,
+     "il": 2637
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 132858,
-   "il": 2633,
+   "cp": 135504,
+   "il": 2637,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -754,7 +754,7 @@
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -899,11 +899,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +7.1%",
-      "Double Resist +7.1%"
+      "Combat Speed +7.5%",
+      "Double Resist +7.5%"
      ],
      "type": "Time",
-     "value": 71
+     "value": 75
     },
     {
      "name": "Destruction [Zikel]",
@@ -954,7 +954,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2633
+     "value": 2637
     }
    ],
    "title": {
@@ -1149,7 +1149,7 @@
       "id": 11170000,
       "name": "Overhead Slam",
       "needLevel": 4,
-      "skillLevel": 18
+      "skillLevel": 19
      },
      {
       "acquired": 1,
@@ -1279,7 +1279,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -1309,7 +1309,7 @@
       "id": 11790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 19
+      "skillLevel": 21
      },
      {
       "acquired": 1,
@@ -25717,29 +25717,31 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 66093,
-     "il": 1565
+     "cp": 81050,
+     "il": 1580
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 66093,
-   "il": 1565,
+   "cp": 81050,
+   "il": 1580,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Spiritforged Staff",
+     "name": "Aulamus Staff",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0078_T05.png",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0028_T05.png",
      "max": 15,
      "slots": 4,
      "stones": [],
      "godSlots": 1,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -26048,10 +26050,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.9%"
+      "Attack increase +1.4%"
      ],
      "type": "STR",
-     "value": 29
+     "value": 14
     },
     {
      "name": "Dexterity",
@@ -26188,7 +26190,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1565
+     "value": 1580
     }
    ],
    "title": {
@@ -27129,7 +27131,7 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_008.png",
       "id": 18080000,
       "name": "Wave Blow",
@@ -27299,7 +27301,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_043.png",
       "id": 18130000,
       "name": "Fracturing Blow",
@@ -32407,8 +32409,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 16:04 UTC",
+ "updated": "2026-11-09 16:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 16:33",
+   "n": "iLen",
+   "x": "new Aulamus Staff +0"
+  },
+  {
+   "t": "2026-11-09 16:31",
+   "n": "YasuoMain",
+   "x": "Chalice of Vigor +0 → +4"
+  },
+  {
+   "t": "2026-11-09 16:31",
+   "n": "YasuoMain",
+   "x": "skills up: Overhead Slam 19, Impact Hit 16, Survival Willpower 21"
+  },
   {
    "t": "2026-11-09 16:01",
    "n": "YasuoMain",
@@ -33893,21 +33910,6 @@
    "t": "2026-11-05 20:03",
    "n": "uTril",
    "x": "skills up: Summon Resurrection 8"
-  },
-  {
-   "t": "2026-11-05 20:02",
-   "n": "DeathRunner",
-   "x": "skills up: Quick Slice 15, Heightened Sixth Sense 15, Apply Poison 16, Ambush Stance 16"
-  },
-  {
-   "t": "2026-11-05 19:32",
-   "n": "IBrook",
-   "x": "new Enraged Kromede Necklace +10"
-  },
-  {
-   "t": "2026-11-05 19:32",
-   "n": "IBrook",
-   "x": "skills up: Grace of Resistance 3"
   }
  ]
 }

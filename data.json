@@ -6224,14 +6224,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 127135,
+     "cp": 127195,
      "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 127135,
+   "cp": 127195,
    "il": 2619,
    "gear": [
     {
@@ -7095,7 +7095,7 @@
     }
    ],
    "title": {
-    "ownedCount": 207,
+    "ownedCount": 208,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -7113,8 +7113,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 68,
-      "ownedPercent": 67,
+      "ownedCount": 69,
+      "ownedPercent": 68,
       "statList": [
        {
         "desc": "Block +10"
@@ -32407,8 +32407,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 12:04 UTC",
+ "updated": "2026-11-09 12:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 12:34",
+   "n": "CutieCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-09 10:04",
    "n": "uTril",
@@ -33903,11 +33908,6 @@
    "t": "2026-11-05 19:03",
    "n": "iLen",
    "x": "new High Commander Lagta Gloves +0"
-  },
-  {
-   "t": "2026-11-05 19:03",
-   "n": "iLen",
-   "x": "skills up: Attack Preparation 15"
   }
  ]
 }

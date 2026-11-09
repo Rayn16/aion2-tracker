@@ -40,6 +40,11 @@ const assert = require('assert');
     await p.goto('http://localhost:8765/' + h); await p.waitForTimeout(300);
   }
   assert(await p.locator('text=Tonight’s plan').count());
+  // Premade's overlay panels: every one there, each line text with no HTML left in it
+  const prog = await p.evaluate(() => progPanels());
+  assert.deepStrictEqual(prog.map(x => x.id).slice(-2), ['events', 'plan']);
+  assert(prog.every(x => x.title && x.lines.length && x.lines.every(l => l.length === 3 && !/[<>]/.test(l[0] + l[1]))), JSON.stringify(prog));
+  assert(prog.find(x => x.id === 'events').lines.some(l => /^Spacetime Rift (open now|in )/.test(l[0])));
   assert.deepStrictEqual(errs, []);
   console.log('progression check: ok');
   await b.close();

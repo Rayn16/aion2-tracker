@@ -687,15 +687,18 @@ function gearNext(m) {
 
 // content gated by item level (MetaBot, 4 Nov), and when this character gets there at last week's pace
 const GATES = [[2800, 'Ludra Normal'], [3000, 'Ludra Hard']];
-function nextUnlock(m) {
+function unlockOf(m) {
   const g = GATES.find(([il]) => m.il < il), h = (m.history || []).slice(-8), days = h.length > 1 ? (Date.parse(h.at(-1).date) - Date.parse(h[0].date)) / 864e5 : 0;
-  const pace = days ? (h.at(-1).il - h[0].il) / days : 0;
+  return { g, pace: days ? (h.at(-1).il - h[0].il) / days : 0 };
+}
+function nextUnlock(m) {
+  const { g, pace } = unlockOf(m);
   return `<section class="panel"><h2 class="ph">Next unlock</h2>${!g ? `<p class="hint">Item level ${fmt(m.il)}: every gate we know of is open (${GATES.map(([il, n]) => `${n} ${fmt(il)}`).join(', ')}) ${UNC}</p>`
     : `<b>${esc(g[1])} at item level ${fmt(g[0])}</b> ${UNC}<div class="sub">${fmt(g[0] - m.il)} to go · ${pace > 0 ? `about ${Math.max(1, Math.ceil((g[0] - m.il) / pace))} days at the last week's pace (+${fmt(Math.round(pace))} a day)` : 'no item level gained in the last week'}</div>`}</section>`;
 }
 
-// easy misses (MeinMMO's "11 mistakes"), from what NC's page shows
-function easyMisses(m) {
+// easy misses (MeinMMO's "11 mistakes"), from what NC's page shows: [tab, text]
+function missesOf(m) {
   const skills = m.skill?.skillList || [], gear = (m.gear || []).filter(g => 'max' in g), out = [];
   // a levelled active skill off the bar, if someone in the legion does put it on theirs (Defiance, for one, nobody does)
   const barred = new Set(LIST.flatMap(x => (x.skill?.skillList || []).filter(s => s.equip).map(s => s.name)));
@@ -710,7 +713,10 @@ function easyMisses(m) {
   const a = arcana(m);
   if (a.cards.length && a.cards.length < 5) out.push(['gear', `${5 - a.cards.length} empty Arcana slot${a.cards.length < 4 ? 's' : ''}`]);
   else if (a.cards.length && a.set < 4) out.push(['gear', `Arcana: ${a.set} of 4 for the set bonus`]);
-  const base = '#/member/' + encodeURIComponent(m.name);
+  return out;
+}
+function easyMisses(m) {
+  const out = missesOf(m), base = '#/member/' + encodeURIComponent(m.name);
   return `<section class="panel"><h2 class="ph">Checkup</h2>${out.length ? `<ul class="list" style="margin:0;padding-left:18px;gap:4px">${out.map(([t, x]) => `<li class="sub"><a href="${base}/${t.toLowerCase()}">${esc(x)}</a></li>`).join('')}</ul>`
     : '<p class="hint">Nothing easy missed: skills on the bar, stones filled, titles on.</p>'}<p class="hint">NC's page doesn't show unspent Daevanion points or auto-extract filters.</p></section>`;
 }
@@ -1764,7 +1770,31 @@ function aionBeat() {
     localStorage.setItem('aion-warned', JSON.stringify([...warned].slice(-50)));
     localStorage.setItem('lpc-aion-card', JSON.stringify({ at: now, lines: [...planItems(now).caps.slice(0, 1), ...next.slice(0, 3).map(k => `${k.b} in ${span(k.due - now)}`),
       `Daily reset in ${span(nextReset('day') - now)}`, ...(tix ? [tix] : [])] }));
+    localStorage.setItem('lpc-aion-prog', JSON.stringify({ at: now, panels: progPanels(now) }));
   } catch {}
+}
+
+// Premade's Aion 2 overlay (What's new 143): the same tools as panels you can open, close and drag over the game, for
+// your strongest character, written with the card. Each: { id, title, lines: [[text, under it, tracker link]] }.
+function progPanels(now = Date.now()) {
+  const m = mine().filter(c => !c.n)[0], out = [];
+  if (m) {
+    const base = '#/member/' + encodeURIComponent(m.name), steps = gearSteps(m).slice(0, 3), { g, pace } = unlockOf(m), a = arcana(m);
+    out.push({ id: 'gear', title: `Gear next · ${m.name}`, lines: steps.length ? steps.map(s => [s.text, plain(s.sub.replace(UNC, '(unconfirmed)')), base + '/gear']) : [['Nothing left to enchant.', '', base + '/gear']] });
+    out.push({ id: 'unlock', title: 'Next unlock', lines: [g ? [`${g[1]} at item level ${fmt(g[0])} (unconfirmed)`, `${fmt(g[0] - m.il)} to go${pace > 0 ? ` · about ${Math.max(1, Math.ceil((g[0] - m.il) / pace))} days at last week's pace` : ''}`, base]
+      : [`Item level ${fmt(m.il)}: every gate we know of is open`, '', base]] });
+    const miss = missesOf(m);
+    out.push({ id: 'checkup', title: 'Checkup', lines: miss.length ? miss.map(([t, x]) => [x, '', `${base}/${t.toLowerCase()}`]) : [['Nothing easy missed.', '', base]] });
+    if (a.cards.length) out.push({ id: 'arcana', title: `Arcana · ${a.set >= 4 ? `${a.kind} set bonus on` : `${a.set} of 4 ${a.kind}`}`, lines: [
+      ...ARCANA.filter(n => !a.cards.some(c => c.name.startsWith(n))).map(n => [`Empty: ${n}`, '', base + '/gear']),
+      [`Weakest: ${a.weak.name} (${a.weak.grade} +${a.weak.enchantLevel}${a.weak.max ? ` of ${a.weak.max}` : ''})`, a.weak.max > a.weak.enchantLevel ? 'Level it up first: Arcana upgrades can’t fail.' : '', base + '/gear']] });
+  }
+  out.push({ id: 'events', title: 'Rift and Abyss', lines: EVENTS.map(e => { const { t, last } = nextEvent(e, now), on = e.open && now - last < e.open * 6e4;
+    return [`${e.n} ${on ? 'open now' : `in ${span(t - now)}`}`, `${e.sub} · ${clock(t)} (unconfirmed)`, '#/today']; }) });
+  const p = planItems(now);
+  out.push({ id: 'plan', title: 'Tonight’s plan', lines: [...[p.reset, ...p.caps].filter(Boolean).map(c => [c, 'about to cap', '#/today']),
+    ...p.soon.map(x => [`${x.n} in ${span(x.t - now)}`, clock(x.t), '#/today']), ...p.pace.map(x => [x, 'this week', '#/today'])] });
+  return out;
 }
 
 // the old Settings page, now the end of Profile: who you are, picking your characters (unless Profile already asks above), about

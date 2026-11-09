@@ -4149,15 +4149,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 75098,
-     "il": 1611
+     "cp": 76083,
+     "il": 1691
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 75098,
-   "il": 1611,
+   "cp": 76083,
+   "il": 1691,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4733,6 +4733,45 @@
      "src": [
       "Substance Morph"
      ]
+    },
+    {
+     "slotPosName": "Arcana1",
+     "name": "Chalice of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
+     "slotPosName": "Arcana2",
+     "name": "Parchment of Magic",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
+     "slotPosName": "Arcana5",
+     "name": "Mirror of Vigor",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
+     "max": 3,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
     }
    ],
    "stats": [
@@ -4804,11 +4843,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -1.1%",
-      "Endurance Penetration +1.1%"
+      "Cooldown -2.3%",
+      "Endurance Penetration +2.3%"
      ],
      "type": "Illusion",
-     "value": 11
+     "value": 23
     },
     {
      "name": "Life [Yustiel]",
@@ -4822,11 +4861,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +4.1%",
-      "Double Resist +4.1%"
+      "Combat Speed +4.9%",
+      "Double Resist +4.9%"
      ],
      "type": "Time",
-     "value": 41
+     "value": 49
     },
     {
      "name": "Destruction [Zikel]",
@@ -4858,11 +4897,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +1.5%",
-      "Endurance +1.5%"
+      "MP increase +2.3%",
+      "Endurance +2.3%"
      ],
      "type": "Destiny",
-     "value": 15
+     "value": 23
     },
     {
      "name": "Space [Israphel]",
@@ -4877,7 +4916,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1611
+     "value": 1691
     }
    ],
    "title": {
@@ -5733,7 +5772,7 @@
       "id": 17010000,
       "name": "Earth's Retribution",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -5743,7 +5782,7 @@
       "id": 17040000,
       "name": "Judgment Thunder",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -5903,7 +5942,7 @@
       "id": 17760000,
       "name": "Heal Block",
       "needLevel": 15,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -5943,7 +5982,7 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -28554,14 +28593,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 105551,
+     "cp": 105882,
      "il": 2364
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 105551,
+   "cp": 105882,
    "il": 2364,
    "gear": [
     {
@@ -29296,10 +29335,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +2.9%"
+      "Status Effect Resist +1.8%"
      ],
      "type": "WIS",
-     "value": 29
+     "value": 18
     },
     {
      "name": "Justice [Nezekan]",
@@ -30371,7 +30410,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -32373,8 +32412,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 01:35 UTC",
+ "updated": "2026-11-09 02:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 02:04",
+   "n": "CuteCatty",
+   "x": "new Chalice of Vigor +0"
+  },
+  {
+   "t": "2026-11-09 02:04",
+   "n": "CuteCatty",
+   "x": "new Parchment of Magic +0"
+  },
+  {
+   "t": "2026-11-09 02:04",
+   "n": "CuteCatty",
+   "x": "new Mirror of Vigor +0"
+  },
+  {
+   "t": "2026-11-09 02:04",
+   "n": "CuteCatty",
+   "x": "skills up: Earth's Retribution 14, Judgment Thunder 14, Heal Block 8, Radiant Benediction 14"
+  },
+  {
+   "t": "2026-11-09 02:03",
+   "n": "uTril",
+   "x": "skills up: Warm Benediction 17"
+  },
   {
    "t": "2026-11-09 01:34",
    "n": "CuteCatty",
@@ -33849,31 +33913,6 @@
    "t": "2026-11-05 08:03",
    "n": "uTril",
    "x": "Enraged Kromede Warhammer +11 → +13"
-  },
-  {
-   "t": "2026-11-05 06:34",
-   "n": "CutieCatty",
-   "x": "new Nuakum Guard +10"
-  },
-  {
-   "t": "2026-11-05 06:34",
-   "n": "CutieCatty",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-05 06:34",
-   "n": "uTril",
-   "x": "Noble Belt +3 → +4"
-  },
-  {
-   "t": "2026-11-05 06:34",
-   "n": "uTril",
-   "x": "Revelation Amulet +5 → +6"
-  },
-  {
-   "t": "2026-11-05 06:34",
-   "n": "uTril",
-   "x": "skills up: Heal Block 16, Power Burst 5"
   }
  ]
 }

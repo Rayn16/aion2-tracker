@@ -28606,15 +28606,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 106858,
-     "il": 2377
+     "cp": 107397,
+     "il": 2405
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 106858,
-   "il": 2377,
+   "cp": 107397,
+   "il": 2405,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28715,7 +28715,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 7,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -29426,11 +29426,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2377
+     "value": 2405
     }
    ],
    "title": {
-    "ownedCount": 191,
+    "ownedCount": 192,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -29448,8 +29448,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 62,
-      "ownedPercent": 61,
+      "ownedCount": 63,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "Block +10"
@@ -30555,7 +30555,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 0,
@@ -32407,8 +32407,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 09:34 UTC",
+ "updated": "2026-11-09 10:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 10:04",
+   "n": "uTril",
+   "x": "Nuakum Greaves +0 → +7"
+  },
+  {
+   "t": "2026-11-09 10:04",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-09 10:04",
+   "n": "uTril",
+   "x": "skills up: Earth Punishment 7"
+  },
   {
    "t": "2026-11-09 07:33",
    "n": "Yorichi",
@@ -33893,21 +33908,6 @@
    "t": "2026-11-05 19:03",
    "n": "iLen",
    "x": "skills up: Attack Preparation 15"
-  },
-  {
-   "t": "2026-11-05 18:02",
-   "n": "IBrook",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-05 14:32",
-   "n": "IBrook",
-   "x": "opened 5 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-05 14:32",
-   "n": "IBrook",
-   "x": "skills up: Firestorm 16"
   }
  ]
 }

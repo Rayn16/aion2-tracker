@@ -2108,13 +2108,13 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 80065,
+     "cp": 80083,
      "il": 1771
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 80065,
+   "cp": 80083,
    "il": 1771,
    "gear": [
     {
@@ -30691,15 +30691,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 63718,
-     "il": 1167
+     "cp": 64828,
+     "il": 1178
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 63718,
-   "il": 1167,
+   "cp": 64828,
+   "il": 1178,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30741,7 +30741,7 @@
      "slotPosName": "SubHand",
      "name": "Spiritforged Guard",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png",
      "max": 15,
      "slots": 4,
@@ -31031,10 +31031,10 @@
      ]
     },
     {
-     "slotPosName": "Rune2",
+     "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -31047,7 +31047,7 @@
      ]
     },
     {
-     "slotPosName": "Rune1",
+     "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
      "enchantLevel": 2,
@@ -31145,20 +31145,20 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.5%",
-      "Endurance Penetration +0.5%"
+      "Cooldown -0.9%",
+      "Endurance Penetration +0.9%"
      ],
      "type": "Illusion",
-     "value": 5
+     "value": 9
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +0.9%",
-      "Regeneration +0.9%"
+      "HP increase +1.3%",
+      "Regeneration +1.3%"
      ],
      "type": "Life",
-     "value": 9
+     "value": 13
     },
     {
      "name": "Time [Siel]",
@@ -31190,11 +31190,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.5%",
-      "Double Chance +0.5%"
+      "MP Cost -0.9%",
+      "Double Chance +0.9%"
      ],
      "type": "Wisdom",
-     "value": 5
+     "value": 9
     },
     {
      "name": "Destiny [Marchutan]",
@@ -31218,11 +31218,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1167
+     "value": 1178
     }
    ],
    "title": {
-    "ownedCount": 143,
+    "ownedCount": 148,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -31237,8 +31237,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 48,
-      "ownedPercent": 45,
+      "ownedCount": 50,
+      "ownedPercent": 47,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -31262,8 +31262,8 @@
       "grade": "Unique",
       "id": 23010010,
       "name": "Encountering Zikel's Core",
-      "ownedCount": 46,
-      "ownedPercent": 45,
+      "ownedCount": 48,
+      "ownedPercent": 47,
       "statList": [
        {
         "desc": "HP +120"
@@ -31287,8 +31287,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 49,
-      "ownedPercent": 49,
+      "ownedCount": 50,
+      "ownedPercent": 51,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -32444,8 +32444,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 20:35 UTC",
+ "updated": "2026-11-09 21:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 21:04",
+   "n": "RyBear",
+   "x": "Spiritforged Guard +0 → +10"
+  },
+  {
+   "t": "2026-11-09 21:04",
+   "n": "RyBear",
+   "x": "Clash Rune +2 → +3"
+  },
+  {
+   "t": "2026-11-09 21:04",
+   "n": "RyBear",
+   "x": "5 new titles"
+  },
   {
    "t": "2026-11-09 20:35",
    "n": "RyBear",
@@ -33930,21 +33945,6 @@
    "t": "2026-11-05 22:28",
    "n": "DeathRunner",
    "x": "Nuakum Greaves +11 → +13"
-  },
-  {
-   "t": "2026-11-05 22:28",
-   "n": "DeathRunner",
-   "x": "Nuakum Helm +12 → +13"
-  },
-  {
-   "t": "2026-11-05 22:28",
-   "n": "DeathRunner",
-   "x": "Nuakum Pauldrons +12 → +13"
-  },
-  {
-   "t": "2026-11-05 22:28",
-   "n": "DeathRunner",
-   "x": "Nuakum Gloves +11 → +13"
   }
  ]
 }

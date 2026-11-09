@@ -20062,15 +20062,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 87093,
-     "il": 1750
+     "cp": 88490,
+     "il": 1787
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 87093,
-   "il": 1750,
+   "cp": 88490,
+   "il": 1787,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -20372,22 +20372,24 @@
      ]
     },
     {
-     "slotPosName": "Ring2",
-     "name": "Liberator Ring",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
-     "max": 10,
-     "slots": 3,
+     "slotPosName": "Ring1",
+     "name": "Aulamus Ring",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
-     "slotPosName": "Ring1",
+     "slotPosName": "Ring2",
      "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -20688,7 +20690,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1750
+     "value": 1787
     }
    ],
    "title": {
@@ -25717,14 +25719,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 81080,
+     "cp": 82280,
      "il": 1580
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 81080,
+   "cp": 82280,
    "il": 1580,
    "gear": [
     {
@@ -25935,7 +25937,7 @@
      ]
     },
     {
-     "slotPosName": "Ring1",
+     "slotPosName": "Ring2",
      "name": "Aulamus Ring",
      "grade": "Unique",
      "enchantLevel": 10,
@@ -25952,7 +25954,7 @@
      ]
     },
     {
-     "slotPosName": "Ring2",
+     "slotPosName": "Ring1",
      "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -27316,7 +27318,7 @@
       "id": 18330000,
       "name": "Marchutan's Wrath",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -27392,10 +27394,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Gartua_01_V01.png",
-     "id": 1177,
-     "level": 1,
-     "name": "Ancient Spirit"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Guardit_02.png",
+     "id": 1197,
+     "level": 2,
+     "name": "Watcher Guardite"
     },
     "wing": {
      "enchantLevel": 0,
@@ -30685,15 +30687,15 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 60739,
-     "il": 1108
+     "cp": 61293,
+     "il": 1126
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 60739,
-   "il": 1108,
+   "cp": 61293,
+   "il": 1126,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30970,17 +30972,17 @@
     },
     {
      "slotPosName": "Bracelet2",
-     "name": "Avenger Bracelet",
-     "grade": "Legend",
+     "name": "Ascension Bracelet",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0017.png",
-     "max": 10,
-     "slots": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Ascension"
      ]
     },
     {
@@ -31183,7 +31185,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1108
+     "value": 1126
     }
    ],
    "title": {
@@ -32409,8 +32411,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 19:04 UTC",
+ "updated": "2026-11-09 19:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 19:34",
+   "n": "RyBear",
+   "x": "new Ascension Bracelet +0"
+  },
+  {
+   "t": "2026-11-09 19:33",
+   "n": "iLen",
+   "x": "new Aulamus Ring +10"
+  },
+  {
+   "t": "2026-11-09 19:33",
+   "n": "iLen",
+   "x": "new Liberator Ring +0"
+  },
+  {
+   "t": "2026-11-09 19:33",
+   "n": "iLen",
+   "x": "skills up: Marchutan's Wrath 13"
+  },
+  {
+   "t": "2026-11-09 19:32",
+   "n": "PeriodPhobic",
+   "x": "new Aulamus Ring +10"
+  },
   {
    "t": "2026-11-09 19:03",
    "n": "iLen",
@@ -33885,31 +33912,6 @@
    "t": "2026-11-05 21:02",
    "n": "DeathRunner",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-05 21:02",
-   "n": "DeathRunner",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-05 21:02",
-   "n": "DeathRunner",
-   "x": "skills up: Savage Fang 7, Triniel's Dagger 10"
-  },
-  {
-   "t": "2026-11-05 20:33",
-   "n": "uTril",
-   "x": "new Enraged Kromede Necklace +10"
-  },
-  {
-   "t": "2026-11-05 20:33",
-   "n": "uTril",
-   "x": "skills up: Empyrean Lords' Benediction 14"
-  },
-  {
-   "t": "2026-11-05 20:32",
-   "n": "DeathRunner",
-   "x": "Enraged Kromede Ring +11 → +12"
   }
  ]
 }

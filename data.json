@@ -6224,14 +6224,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 127234,
+     "cp": 127236,
      "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 127234,
+   "cp": 127236,
    "il": 2619,
    "gear": [
     {
@@ -25717,14 +25717,14 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 76650,
+     "cp": 81080,
      "il": 1580
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 76650,
+   "cp": 81080,
    "il": 1580,
    "gear": [
     {
@@ -26194,7 +26194,7 @@
     }
    ],
    "title": {
-    "ownedCount": 192,
+    "ownedCount": 193,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -26237,8 +26237,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 62,
-      "ownedPercent": 63,
+      "ownedCount": 63,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "MP +20"
@@ -27392,10 +27392,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_EleGuard_01.png",
-     "id": 1178,
-     "level": 2,
-     "name": "Spirit King's Bodyguard Warrior"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Gartua_01_V01.png",
+     "id": 1177,
+     "level": 1,
+     "name": "Ancient Spirit"
     },
     "wing": {
      "enchantLevel": 0,
@@ -32409,8 +32409,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 18:34 UTC",
+ "updated": "2026-11-09 19:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 19:03",
+   "n": "iLen",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-09 16:33",
    "n": "iLen",
@@ -33905,11 +33910,6 @@
    "t": "2026-11-05 20:32",
    "n": "DeathRunner",
    "x": "Enraged Kromede Ring +11 → +12"
-  },
-  {
-   "t": "2026-11-05 20:03",
-   "n": "uTril",
-   "x": "skills up: Summon Resurrection 8"
   }
  ]
 }

@@ -79,13 +79,13 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 135504,
+     "cp": 135521,
      "il": 2637
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 135504,
+   "cp": 135521,
    "il": 2637,
    "gear": [
     {
@@ -30691,34 +30691,29 @@
     },
     {
      "date": "2026-11-09",
-     "cp": 64828,
-     "il": 1178
+     "cp": 66251,
+     "il": 1195
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 64828,
-   "il": 1178,
+   "cp": 66251,
+   "il": 1195,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Spiritforged Greatsword",
+     "name": "Rupture Claymore",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_GS_0078_T05.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_GS_0031_T06.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Critical Hit",
-       "+7",
+       "Attack",
+       "+3",
        "Rare"
-      ],
-      [
-       "Block",
-       "+7",
-       "Common"
       ],
       [
        "Block",
@@ -30729,12 +30724,19 @@
        "Accuracy Bonus",
        "+5",
        "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
       ]
      ],
      "godSlots": 1,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -30922,17 +30924,19 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Avenger Necklace",
+     "name": "Division Necklace",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0017.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0065.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -31083,10 +31087,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.7%"
+      "Attack increase +1.2%"
      ],
      "type": "STR",
-     "value": 27
+     "value": 12
     },
     {
      "name": "Dexterity",
@@ -31100,9 +31104,11 @@
     },
     {
      "name": "Intelligence",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Chance +1%"
+     ],
      "type": "INT",
-     "value": 0
+     "value": 10
     },
     {
      "name": "Constitution",
@@ -31112,9 +31118,12 @@
     },
     {
      "name": "Precision",
-     "statSecondList": null,
+     "statSecondList": [
+      "Accuracy increase +2.3%",
+      "Critical Hit increase +2.3%"
+     ],
      "type": "AGI",
-     "value": 0
+     "value": 23
     },
     {
      "name": "Willpower",
@@ -31218,7 +31227,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1178
+     "value": 1195
     }
    ],
    "title": {
@@ -32194,7 +32203,7 @@
       "id": 11710000,
       "name": "Survival Stance",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -32444,8 +32453,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 21:04 UTC",
+ "updated": "2026-11-09 21:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-09 21:34",
+   "n": "RyBear",
+   "x": "new Rupture Claymore +10"
+  },
+  {
+   "t": "2026-11-09 21:34",
+   "n": "RyBear",
+   "x": "new Division Necklace +0"
+  },
+  {
+   "t": "2026-11-09 21:34",
+   "n": "RyBear",
+   "x": "skills up: Survival Stance 14"
+  },
   {
    "t": "2026-11-09 21:04",
    "n": "RyBear",
@@ -33930,21 +33954,6 @@
    "t": "2026-11-05 23:34",
    "n": "RyBear",
    "x": "opened 6 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-05 23:34",
-   "n": "RyBear",
-   "x": "skills up: Sword Aura Rampage 4, Ruinous Blow 11, Survival Stance 13, Blood Absorption 11 and 6 more"
-  },
-  {
-   "t": "2026-11-05 22:28",
-   "n": "DeathRunner",
-   "x": "Nuakum Breastplate +12 → +13"
-  },
-  {
-   "t": "2026-11-05 22:28",
-   "n": "DeathRunner",
-   "x": "Nuakum Greaves +11 → +13"
   }
  ]
 }

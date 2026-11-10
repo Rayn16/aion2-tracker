@@ -81,12 +81,17 @@
      "date": "2026-11-09",
      "cp": 135530,
      "il": 2637
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 138221,
+     "il": 2668
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 135530,
-   "il": 2637,
+   "cp": 138221,
+   "il": 2668,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -128,32 +133,32 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Vakron Guard",
+     "name": "Nuakum Guard",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_U_003.png",
+     "enchantLevel": 15,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Critical Hit Resist",
-       "+7",
-       "Rare"
-      ],
-      [
        "Evasion Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Accuracy Bonus",
-       "+7",
-       "Rare"
+       "+13",
+       "Legend"
       ],
       [
        "Critical Hit",
-       "+15",
-       "Unique"
+       "+9",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+4",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+2",
+       "Common"
       ]
      ],
      "godSlots": 1,
@@ -206,30 +211,30 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
        "Critical Hit",
        "+5",
        "Common"
       ],
       [
-       "Evasion Bonus",
-       "+5",
+       "MP",
+       "+15",
        "Common"
-      ],
-      [
-       "Critical Hit",
-       "+5",
-       "Common"
-      ],
-      [
-       "Evasion Bonus",
-       "+7",
-       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -954,7 +959,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2637
+     "value": 2668
     }
    ],
    "title": {
@@ -2108,6 +2113,11 @@
     },
     {
      "date": "2026-11-09",
+     "cp": 83163,
+     "il": 1834
+    },
+    {
+     "date": "2026-11-10",
      "cp": 83163,
      "il": 1834
     }
@@ -4177,6 +4187,11 @@
     },
     {
      "date": "2026-11-09",
+     "cp": 77307,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-10",
      "cp": 77307,
      "il": 1785
     }
@@ -6290,12 +6305,17 @@
      "date": "2026-11-09",
      "cp": 127261,
      "il": 2619
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 127516,
+     "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 127261,
+   "cp": 127516,
    "il": 2619,
    "gear": [
     {
@@ -7159,7 +7179,7 @@
     }
    ],
    "title": {
-    "ownedCount": 208,
+    "ownedCount": 209,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -7202,8 +7222,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 70,
-      "ownedPercent": 71,
+      "ownedCount": 71,
+      "ownedPercent": 72,
       "statList": [
        {
         "desc": "MP +20"
@@ -8258,6 +8278,11 @@
     },
     {
      "date": "2026-11-09",
+     "cp": 48995,
+     "il": 1114
+    },
+    {
+     "date": "2026-11-10",
      "cp": 48995,
      "il": 1114
     }
@@ -9938,6 +9963,11 @@
     },
     {
      "date": "2026-11-09",
+     "cp": 59398,
+     "il": 1135
+    },
+    {
+     "date": "2026-11-10",
      "cp": 59398,
      "il": 1135
     }
@@ -13697,6 +13727,11 @@
      "date": "2026-11-09",
      "cp": 36746,
      "il": 647
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 36746,
+     "il": 647
     }
    ],
    "server": "Tassin",
@@ -14939,6 +14974,11 @@
     },
     {
      "date": "2026-11-09",
+     "cp": 146184,
+     "il": 2736
+    },
+    {
+     "date": "2026-11-10",
      "cp": 146184,
      "il": 2736
     }
@@ -16930,6 +16970,11 @@
      "date": "2026-11-09",
      "cp": 123961,
      "il": 2560
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 123961,
+     "il": 2560
     }
    ],
    "server": "Tassin",
@@ -18910,6 +18955,11 @@
      "date": "2026-11-09",
      "cp": 23827,
      "il": 496
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 23827,
+     "il": 496
     }
    ],
    "server": "Tassin",
@@ -20126,6 +20176,11 @@
     },
     {
      "date": "2026-11-09",
+     "cp": 88490,
+     "il": 1787
+    },
+    {
+     "date": "2026-11-10",
      "cp": 88490,
      "il": 1787
     }
@@ -21855,6 +21910,11 @@
      "date": "2026-11-09",
      "cp": 25214,
      "il": 450
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 25214,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -23018,6 +23078,11 @@
     },
     {
      "date": "2026-11-09",
+     "cp": 43150,
+     "il": 799
+    },
+    {
+     "date": "2026-11-10",
      "cp": 43150,
      "il": 799
     }
@@ -24663,6 +24728,11 @@
      "date": "2026-11-09",
      "cp": 18441,
      "il": 361
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 18441,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -25783,6 +25853,11 @@
     },
     {
      "date": "2026-11-09",
+     "cp": 85917,
+     "il": 1666
+    },
+    {
+     "date": "2026-11-10",
      "cp": 85917,
      "il": 1666
     }
@@ -27516,6 +27591,11 @@
      "date": "2026-11-09",
      "cp": 25763,
      "il": 472
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 25763,
+     "il": 472
     }
    ],
    "server": "Tassin",
@@ -28680,12 +28760,17 @@
      "date": "2026-11-09",
      "cp": 107284,
      "il": 2405
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 107290,
+     "il": 2405
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 107284,
+   "cp": 107290,
    "il": 2405,
    "gear": [
     {
@@ -28698,24 +28783,24 @@
      "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
-       "+15",
-       "Unique"
+       "HP",
+       "+50",
+       "Rare"
       ],
       [
-       "Defense",
+       "MP",
        "+30",
        "Rare"
       ],
       [
-       "Critical Hit Resist",
-       "+10",
+       "Defense",
+       "+50",
        "Legend"
       ],
       [
-       "Critical Hit",
-       "+10",
-       "Legend"
+       "Attack",
+       "+3",
+       "Rare"
       ]
      ],
      "godSlots": 1,
@@ -28774,7 +28859,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+5",
+       "Legend"
+      ],
+      [
+       "Defense",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Evasion Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -28905,7 +29011,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "PvP Defense",
+       "+100",
+       "Legend"
+      ],
+      [
+       "PvP Attack",
+       "+2",
+       "Common"
+      ],
+      [
+       "PvP Defense",
+       "+20",
+       "Common"
+      ],
+      [
+       "Block",
+       "+10",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -29013,7 +29140,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0053.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "MP",
+       "+23",
+       "Common"
+      ],
+      [
+       "Block",
+       "+9",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+4",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+45",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -30755,6 +30903,11 @@
     },
     {
      "date": "2026-11-09",
+     "cp": 68153,
+     "il": 1254
+    },
+    {
+     "date": "2026-11-10",
      "cp": 68153,
      "il": 1254
     }
@@ -32517,8 +32670,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-09 23:34 UTC",
+ "updated": "2026-11-10 00:17 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 00:15",
+   "n": "CutieCatty",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-10 00:01",
+   "n": "YasuoMain",
+   "x": "new Nuakum Guard +15"
+  },
+  {
+   "t": "2026-11-10 00:01",
+   "n": "YasuoMain",
+   "x": "Nuakum Greaves +12 → +15"
+  },
   {
    "t": "2026-11-09 23:04",
    "n": "CuteCatty",
@@ -34003,21 +34171,6 @@
    "t": "2026-11-06 01:32",
    "n": "IBrook",
    "x": "new Nuakum Breastplate +10"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "reached level 35"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "new Avenger Guard +0"
-  },
-  {
-   "t": "2026-11-06 01:15",
-   "n": "RyBear",
-   "x": "new Avenger Breastplate +0"
   }
  ]
 }

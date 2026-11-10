@@ -2118,14 +2118,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 83163,
-     "il": 1834
+     "cp": 83209,
+     "il": 1854
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 83163,
-   "il": 1834,
+   "cp": 83209,
+   "il": 1854,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2728,6 +2728,19 @@
      ]
     },
     {
+     "slotPosName": "Arcana1",
+     "name": "Chalice of Magic",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_DefenceSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
      "grade": "Common",
@@ -2881,17 +2894,17 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +3.6%",
-      "Block increase +3.6%"
+      "Move Speed +4.4%",
+      "Block increase +4.4%"
      ],
      "type": "Space",
-     "value": 36
+     "value": 44
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1834
+     "value": 1854
     }
    ],
    "title": {
@@ -3173,7 +3186,7 @@
       "id": 12720000,
       "name": "Warding Shield",
       "needLevel": 6,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -32670,8 +32683,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 08:34 UTC",
+ "updated": "2026-11-10 09:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 09:01",
+   "n": "YasuoMain16",
+   "x": "new Chalice of Magic +0"
+  },
+  {
+   "t": "2026-11-10 09:01",
+   "n": "YasuoMain16",
+   "x": "skills up: Warding Shield 15"
+  },
   {
    "t": "2026-11-10 00:48",
    "n": "CuteCatty",
@@ -34161,16 +34184,6 @@
    "t": "2026-11-06 01:34",
    "n": "RyBear",
    "x": "reached level 37"
-  },
-  {
-   "t": "2026-11-06 01:34",
-   "n": "RyBear",
-   "x": "new Avenger Greatsword +0"
-  },
-  {
-   "t": "2026-11-06 01:34",
-   "n": "RyBear",
-   "x": "new Avenger Boots +0"
   }
  ]
 }

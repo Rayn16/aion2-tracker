@@ -30932,14 +30932,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 68289,
+     "cp": 68291,
      "il": 1254
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 68289,
+   "cp": 68291,
    "il": 1254,
    "gear": [
     {
@@ -31472,7 +31472,7 @@
     }
    ],
    "title": {
-    "ownedCount": 157,
+    "ownedCount": 159,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -31487,8 +31487,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 54,
-      "ownedPercent": 51,
+      "ownedCount": 55,
+      "ownedPercent": 52,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -31537,8 +31537,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 53,
-      "ownedPercent": 54,
+      "ownedCount": 54,
+      "ownedPercent": 55,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -32694,8 +32694,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 21:04 UTC",
+ "updated": "2026-11-10 21:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 21:34",
+   "n": "RyBear",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-11-10 21:04",
    "n": "RyBear",
@@ -34190,11 +34195,6 @@
    "t": "2026-11-06 04:04",
    "n": "uTril",
    "x": "new Nuakum Breastplate +10"
-  },
-  {
-   "t": "2026-11-06 03:33",
-   "n": "uTril",
-   "x": "1 new title"
   }
  ]
 }

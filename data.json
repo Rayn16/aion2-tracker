@@ -11704,12 +11704,17 @@
      "date": "2026-11-09",
      "cp": 81521,
      "il": 1668
+    },
+    {
+     "date": "2026-11-10",
+     "cp": 81575,
+     "il": 1668
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 81521,
+   "cp": 81575,
    "il": 1668,
    "gear": [
     {
@@ -12485,7 +12490,7 @@
     }
    ],
    "title": {
-    "ownedCount": 185,
+    "ownedCount": 187,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -12503,8 +12508,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 60,
-      "ownedPercent": 59,
+      "ownedCount": 61,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Block +10"
@@ -12528,8 +12533,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 61,
-      "ownedPercent": 62,
+      "ownedCount": 62,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "MP +20"
@@ -13686,10 +13691,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Guardit_02.png",
-     "id": 1197,
-     "level": 1,
-     "name": "Watcher Guardite"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_FireEle_01.png",
+     "id": 1213,
+     "level": 3,
+     "name": "Lesser Fire Spirit"
     },
     "wing": {
      "enchantLevel": 0,
@@ -32683,8 +32688,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 15:04 UTC",
+ "updated": "2026-11-10 15:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 15:32",
+   "n": "Darya",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-11-10 09:31",
    "n": "YasuoMain16",
@@ -34179,11 +34189,6 @@
    "t": "2026-11-06 02:04",
    "n": "RyBear",
    "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-06 02:04",
-   "n": "RyBear",
-   "x": "opened 17 Daevanion nodes"
   }
  ]
 }

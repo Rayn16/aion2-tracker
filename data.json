@@ -20199,15 +20199,15 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 90152,
-     "il": 1824
+     "cp": 91749,
+     "il": 1861
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 90152,
-   "il": 1824,
+   "cp": 91749,
+   "il": 1861,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -20463,17 +20463,19 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Liberator Necklace",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0071.png",
-     "max": 10,
-     "slots": 3,
+     "name": "Aulamus Necklace",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -20831,7 +20833,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1824
+     "value": 1861
     }
    ],
    "title": {
@@ -21702,7 +21704,7 @@
       "id": 16760000,
       "name": "Mental Focus",
       "needLevel": 15,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -21722,7 +21724,7 @@
       "id": 16770000,
       "name": "Spirit Communion",
       "needLevel": 21,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -25880,14 +25882,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 85917,
+     "cp": 85923,
      "il": 1666
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 85917,
+   "cp": 85923,
    "il": 1666,
    "gear": [
     {
@@ -32692,8 +32694,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 18:04 UTC",
+ "updated": "2026-11-10 18:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 18:32",
+   "n": "PeriodPhobic",
+   "x": "new Aulamus Necklace +10"
+  },
+  {
+   "t": "2026-11-10 18:32",
+   "n": "PeriodPhobic",
+   "x": "skills up: Mental Focus 16, Spirit Communion 9"
+  },
   {
    "t": "2026-11-10 18:02",
    "n": "PeriodPhobic",
@@ -34183,16 +34195,6 @@
    "t": "2026-11-06 02:32",
    "n": "DeathRunner",
    "x": "Chalice of Vigor +1 → +2"
-  },
-  {
-   "t": "2026-11-06 02:32",
-   "n": "DeathRunner",
-   "x": "skills up: Heart Gore 17"
-  },
-  {
-   "t": "2026-11-06 02:04",
-   "n": "RyBear",
-   "x": "reached level 38"
   }
  ]
 }

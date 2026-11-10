@@ -84,13 +84,13 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 138456,
+     "cp": 139114,
      "il": 2669
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 138456,
+   "cp": 139114,
    "il": 2669,
    "gear": [
     {
@@ -757,10 +757,10 @@
     },
     {
      "slotPosName": "Arcana1",
-     "name": "Chalice of Vigor",
+     "name": "Chalice of Magic",
      "grade": "Unique",
      "enchantLevel": 4,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_DefenceSet2.png",
      "max": 5,
      "slots": 0,
      "stones": [],
@@ -904,11 +904,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +7.5%",
-      "Double Resist +7.5%"
+      "Combat Speed +5.1%",
+      "Double Resist +5.1%"
      ],
      "type": "Time",
-     "value": 75
+     "value": 51
     },
     {
      "name": "Destruction [Zikel]",
@@ -949,11 +949,11 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +3.6%",
-      "Block increase +3.6%"
+      "Move Speed +6%",
+      "Block increase +6%"
      ],
      "type": "Space",
-     "value": 36
+     "value": 60
     },
     {
      "name": "아이템레벨",
@@ -1124,7 +1124,7 @@
       "id": 11010000,
       "name": "Rending Blow",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -1144,7 +1144,7 @@
       "id": 11290000,
       "name": "Mocking Blade",
       "needLevel": 3,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -1154,7 +1154,7 @@
       "id": 11170000,
       "name": "Overhead Slam",
       "needLevel": 4,
-      "skillLevel": 19
+      "skillLevel": 20
      },
      {
       "acquired": 1,
@@ -1214,7 +1214,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 16
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -1234,7 +1234,7 @@
       "id": 11710000,
       "name": "Survival Stance",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -1284,7 +1284,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 16
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -1314,7 +1314,7 @@
       "id": 11790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 21
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -14997,14 +14997,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 146219,
+     "cp": 146419,
      "il": 2737
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146219,
+   "cp": 146419,
    "il": 2737,
    "gear": [
     {
@@ -16808,7 +16808,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -28787,15 +28787,15 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 107617,
-     "il": 2411
+     "cp": 107673,
+     "il": 2412
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 107617,
-   "il": 2411,
+   "cp": 107673,
+   "il": 2412,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28917,7 +28917,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 8,
+     "enchantLevel": 9,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -29670,7 +29670,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2411
+     "value": 2412
     }
    ],
    "title": {
@@ -32694,8 +32694,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 23:05 UTC",
+ "updated": "2026-11-10 23:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 23:34",
+   "n": "uTril",
+   "x": "Nuakum Greaves +8 → +9"
+  },
+  {
+   "t": "2026-11-10 23:32",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Fang 6"
+  },
+  {
+   "t": "2026-11-10 23:31",
+   "n": "YasuoMain",
+   "x": "new Chalice of Magic +4"
+  },
+  {
+   "t": "2026-11-10 23:31",
+   "n": "YasuoMain",
+   "x": "skills up: Rending Blow 18, Overhead Slam 20, Ruinous Blow 18, Survival Stance 17"
+  },
   {
    "t": "2026-11-10 23:04",
    "n": "uTril",
@@ -34175,26 +34195,6 @@
    "t": "2026-11-06 05:04",
    "n": "uTril",
    "x": "new Bell of Magic +0"
-  },
-  {
-   "t": "2026-11-06 05:04",
-   "n": "uTril",
-   "x": "skills up: Immortal Veil 16, Radiant Benediction 16"
-  },
-  {
-   "t": "2026-11-06 05:02",
-   "n": "DeathRunner",
-   "x": "Nuakum Boots +10 → +13"
-  },
-  {
-   "t": "2026-11-06 04:34",
-   "n": "RyBear",
-   "x": "reached level 41"
-  },
-  {
-   "t": "2026-11-06 04:34",
-   "n": "RyBear",
-   "x": "new Liberator Breastplate +0"
   }
  ]
 }

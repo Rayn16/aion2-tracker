@@ -6308,14 +6308,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 127516,
+     "cp": 127991,
      "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 127516,
+   "cp": 127991,
    "il": 2619,
    "gear": [
     {
@@ -7179,7 +7179,7 @@
     }
    ],
    "title": {
-    "ownedCount": 209,
+    "ownedCount": 214,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -7197,8 +7197,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 69,
-      "ownedPercent": 68,
+      "ownedCount": 70,
+      "ownedPercent": 69,
       "statList": [
        {
         "desc": "Block +10"
@@ -7222,8 +7222,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 71,
-      "ownedPercent": 72,
+      "ownedCount": 74,
+      "ownedPercent": 75,
       "statList": [
        {
         "desc": "MP +20"
@@ -7247,8 +7247,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 69,
-      "ownedPercent": 65,
+      "ownedCount": 70,
+      "ownedPercent": 66,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -32670,8 +32670,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 00:17 UTC",
+ "updated": "2026-11-10 00:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 00:34",
+   "n": "CutieCatty",
+   "x": "5 new titles"
+  },
   {
    "t": "2026-11-10 00:15",
    "n": "CutieCatty",
@@ -34166,11 +34171,6 @@
    "t": "2026-11-06 01:34",
    "n": "RyBear",
    "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-06 01:32",
-   "n": "IBrook",
-   "x": "new Nuakum Breastplate +10"
   }
  ]
 }

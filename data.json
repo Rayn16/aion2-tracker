@@ -14997,15 +14997,15 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 146184,
-     "il": 2736
+     "cp": 146219,
+     "il": 2737
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146184,
-   "il": 2736,
+   "cp": 146219,
+   "il": 2737,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15884,7 +15884,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2736
+     "value": 2737
     }
    ],
    "title": {
@@ -15987,8 +15987,8 @@
       "id": 42,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 61,
-      "openPercent": 69,
+      "openNodeCount": 62,
+      "openPercent": 70,
       "totalNodeCount": 88
      },
      {
@@ -16201,7 +16201,7 @@
      "13|3|Unique|1|Damage Boost",
      "12|13|Common|0|Defense",
      "12|11|Rare|1|Skill Level Up - Defense Break",
-     "13|10|Common|0|Critical Hit",
+     "13|10|Common|1|Critical Hit",
      "13|11|Common|1|Max HP",
      "13|8|Common|1|Attack",
      "13|9|Legend|0|Skill Level Up - Defiance",
@@ -30932,15 +30932,15 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 68291,
-     "il": 1254
+     "cp": 68530,
+     "il": 1255
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 68291,
-   "il": 1254,
+   "cp": 68530,
+   "il": 1255,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31295,7 +31295,7 @@
      "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -31468,11 +31468,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1254
+     "value": 1255
     }
    ],
    "title": {
-    "ownedCount": 159,
+    "ownedCount": 166,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -31487,8 +31487,8 @@
       "grade": "Legend",
       "id": 22030002,
       "name": "Guardian of Altgard",
-      "ownedCount": 55,
-      "ownedPercent": 52,
+      "ownedCount": 57,
+      "ownedPercent": 54,
       "statList": [
        {
         "desc": "PvE Attack +4"
@@ -31512,8 +31512,8 @@
       "grade": "Unique",
       "id": 23010010,
       "name": "Encountering Zikel's Core",
-      "ownedCount": 50,
-      "ownedPercent": 49,
+      "ownedCount": 52,
+      "ownedPercent": 51,
       "statList": [
        {
         "desc": "HP +120"
@@ -31537,8 +31537,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 54,
-      "ownedPercent": 55,
+      "ownedCount": 57,
+      "ownedPercent": 58,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -32694,8 +32694,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 21:34 UTC",
+ "updated": "2026-11-10 22:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 22:04",
+   "n": "RyBear",
+   "x": "Clash Rune +2 → +3"
+  },
+  {
+   "t": "2026-11-10 22:04",
+   "n": "RyBear",
+   "x": "7 new titles"
+  },
+  {
+   "t": "2026-11-10 22:02",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-10 21:34",
    "n": "RyBear",
@@ -34180,21 +34195,6 @@
    "t": "2026-11-06 04:34",
    "n": "RyBear",
    "x": "skills up: Rush Strike 5, Blood Absorption 13, Attack Preparation 13, Impact Hit 12 and 2 more"
-  },
-  {
-   "t": "2026-11-06 04:04",
-   "n": "RyBear",
-   "x": "7 new titles"
-  },
-  {
-   "t": "2026-11-06 04:04",
-   "n": "RyBear",
-   "x": "skills up: Blood Absorption 12, Survival Willpower 12"
-  },
-  {
-   "t": "2026-11-06 04:04",
-   "n": "uTril",
-   "x": "new Nuakum Breastplate +10"
   }
  ]
 }

@@ -84,14 +84,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 138223,
-     "il": 2668
+     "cp": 138456,
+     "il": 2669
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 138223,
-   "il": 2668,
+   "cp": 138456,
+   "il": 2669,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -811,7 +811,7 @@
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 1,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -886,11 +886,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -3.9%",
-      "Endurance Penetration +3.9%"
+      "Cooldown -4%",
+      "Endurance Penetration +4%"
      ],
      "type": "Illusion",
-     "value": 39
+     "value": 40
     },
     {
      "name": "Life [Yustiel]",
@@ -959,7 +959,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2668
+     "value": 2669
     }
    ],
    "title": {
@@ -1324,7 +1324,7 @@
       "id": 11800000,
       "name": "Murderous Burst",
       "needLevel": 25,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -6321,14 +6321,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 128066,
+     "cp": 128072,
      "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 128066,
+   "cp": 128072,
    "il": 2619,
    "gear": [
     {
@@ -28787,15 +28787,15 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 107296,
-     "il": 2405
+     "cp": 107617,
+     "il": 2411
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 107296,
-   "il": 2405,
+   "cp": 107617,
+   "il": 2411,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28917,7 +28917,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 7,
+     "enchantLevel": 8,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -29670,7 +29670,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2405
+     "value": 2411
     }
    ],
    "title": {
@@ -32694,8 +32694,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 22:34 UTC",
+ "updated": "2026-11-10 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 23:04",
+   "n": "uTril",
+   "x": "Nuakum Greaves +7 → +8"
+  },
+  {
+   "t": "2026-11-10 23:01",
+   "n": "YasuoMain",
+   "x": "Mirror of Vigor +0 → +1"
+  },
+  {
+   "t": "2026-11-10 23:01",
+   "n": "YasuoMain",
+   "x": "skills up: Murderous Burst 16"
+  },
   {
    "t": "2026-11-10 22:34",
    "n": "RyBear",
@@ -34180,21 +34195,6 @@
    "t": "2026-11-06 04:34",
    "n": "RyBear",
    "x": "new Liberator Breastplate +0"
-  },
-  {
-   "t": "2026-11-06 04:34",
-   "n": "RyBear",
-   "x": "new Liberator Greaves +0"
-  },
-  {
-   "t": "2026-11-06 04:34",
-   "n": "RyBear",
-   "x": "new Liberator Boots +0"
-  },
-  {
-   "t": "2026-11-06 04:34",
-   "n": "RyBear",
-   "x": "opened 9 Daevanion nodes"
   }
  ]
 }

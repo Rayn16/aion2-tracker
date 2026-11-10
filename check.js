@@ -45,6 +45,7 @@ const assert = require('assert');
   assert.deepStrictEqual(prog.map(x => x.id).slice(-2), ['events', 'plan']);
   assert(prog.every(x => x.title && x.lines.length && x.lines.every(l => l.length === 3 && !/[<>]/.test(l[0] + l[1]))), JSON.stringify(prog));
   assert(prog.find(x => x.id === 'events').lines.some(l => /^Spacetime Rift (open now|in )/.test(l[0])));
+  assert(!/unconfirmed/.test(prog.find(x => x.id === 'events').lines[0][1]));  // the Rift was seen in the game
   assert.deepStrictEqual(errs, []);
   console.log('progression check: ok');
   await b.close();

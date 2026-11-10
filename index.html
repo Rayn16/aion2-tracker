@@ -1791,7 +1791,7 @@ function progPanels(now = Date.now()) {
       [`Weakest: ${a.weak.name} (${a.weak.grade} +${a.weak.enchantLevel}${a.weak.max ? ` of ${a.weak.max}` : ''})`, a.weak.max > a.weak.enchantLevel ? 'Level it up first: Arcana upgrades can’t fail.' : '', base + '/gear']] });
   }
   out.push({ id: 'events', title: 'Rift and Abyss', lines: EVENTS.map(e => { const { t, last } = nextEvent(e, now), on = e.open && now - last < e.open * 6e4;
-    return [`${e.n} ${on ? 'open now' : `in ${span(t - now)}`}`, `${e.sub} · ${clock(t)} (unconfirmed)`, '#/today']; }) });
+    return [`${e.n} ${on ? 'open now' : `in ${span(t - now)}`}`, `${e.sub} · ${clock(t)}${e.ok ? '' : ' (unconfirmed)'}`, '#/today']; }) });
   const p = planItems(now);
   out.push({ id: 'plan', title: 'Tonight’s plan', lines: [...[p.reset, ...p.caps].filter(Boolean).map(c => [c, 'about to cap', '#/today']),
     ...p.soon.map(x => [`${x.n} in ${span(x.t - now)}`, clock(x.t), '#/today']), ...p.pace.map(x => [x, 'this week', '#/today'])] });

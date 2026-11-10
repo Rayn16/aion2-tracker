@@ -30932,14 +30932,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 68177,
+     "cp": 68187,
      "il": 1254
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 68177,
+   "cp": 68187,
    "il": 1254,
    "gear": [
     {
@@ -31472,7 +31472,7 @@
     }
    ],
    "title": {
-    "ownedCount": 150,
+    "ownedCount": 151,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -31512,8 +31512,8 @@
       "grade": "Unique",
       "id": 23010010,
       "name": "Encountering Zikel's Core",
-      "ownedCount": 48,
-      "ownedPercent": 47,
+      "ownedCount": 49,
+      "ownedPercent": 48,
       "statList": [
        {
         "desc": "HP +120"
@@ -32409,7 +32409,7 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_015.png",
       "id": 11300000,
       "name": "Aerial Snare",
@@ -32537,14 +32537,14 @@
       "skillLevel": 13
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_007.png",
       "id": 11240000,
       "name": "Wrath Wave",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -32569,12 +32569,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 0,
@@ -32694,8 +32694,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 20:04 UTC",
+ "updated": "2026-11-10 20:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 20:34",
+   "n": "RyBear",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-10 20:34",
+   "n": "RyBear",
+   "x": "skills up: Wrath Wave 5"
+  },
   {
    "t": "2026-11-10 18:32",
    "n": "PeriodPhobic",
@@ -34185,16 +34195,6 @@
    "t": "2026-11-06 03:32",
    "n": "DeathRunner",
    "x": "new Nuakum Boots +10"
-  },
-  {
-   "t": "2026-11-06 03:32",
-   "n": "DeathRunner",
-   "x": "skills up: Exploit Weakness 19"
-  },
-  {
-   "t": "2026-11-06 02:32",
-   "n": "DeathRunner",
-   "x": "Chalice of Vigor +1 → +2"
   }
  ]
 }

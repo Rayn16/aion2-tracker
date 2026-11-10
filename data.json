@@ -2118,14 +2118,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 83209,
-     "il": 1854
+     "cp": 85441,
+     "il": 1865
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 83209,
-   "il": 1854,
+   "cp": 85441,
+   "il": 1865,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2904,7 +2904,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1854
+     "value": 1865
     }
    ],
    "title": {
@@ -3004,8 +3004,8 @@
       "id": 22,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 41,
-      "openPercent": 47,
+      "openNodeCount": 47,
+      "openPercent": 53,
       "totalNodeCount": 88
      },
      {
@@ -3056,7 +3056,7 @@
       "id": 12010000,
       "name": "Vicious Strike",
       "needLevel": 1,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -3086,7 +3086,7 @@
       "id": 12100000,
       "name": "Shield Smite",
       "needLevel": 3,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -3246,7 +3246,7 @@
       "id": 12780000,
       "name": "Fury",
       "needLevel": 21,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -3519,12 +3519,12 @@
     "22": [
      "11|13|Legend|1|Skill Level Up - Debilitating Smash",
      "11|12|Common|0|Max MP",
-     "11|11|Common|0|Attack",
+     "11|11|Common|1|Attack",
      "12|6|Common|1|Max MP",
      "12|3|Common|0|Critical Hit Resist",
      "12|9|Common|0|Max MP",
      "12|13|Common|1|Defense",
-     "12|11|Rare|0|Skill Level Up - Fury",
+     "12|11|Rare|1|Skill Level Up - Fury",
      "13|3|Unique|1|Damage Boost",
      "13|7|Rare|0|Skill Level Up - Impact Hit",
      "13|6|Common|1|Defense",
@@ -3548,11 +3548,11 @@
      "3|11|Legend|1|Skill Level Up - Punishment",
      "3|10|Common|0|Attack",
      "4|5|Rare|1|Skill Level Up - Block Pain",
-     "4|3|Common|0|Attack",
+     "4|3|Common|1|Attack",
      "4|10|Common|0|Max MP",
      "4|7|Common|0|Max HP",
      "4|13|Common|1|Critical Hit",
-     "5|3|Legend|0|Skill Level Up - Vicious Strike",
+     "5|3|Legend|1|Skill Level Up - Vicious Strike",
      "5|7|Common|0|Attack",
      "5|5|Common|1|Defense",
      "5|4|Common|0|Max HP",
@@ -3569,7 +3569,7 @@
      "6|11|Common|0|Critical Hit",
      "6|9|Common|0|Critical Hit",
      "6|13|Common|1|Critical Hit Resist",
-     "7|5|Legend|0|Skill Level Up - Shield Smite",
+     "7|5|Legend|1|Skill Level Up - Shield Smite",
      "7|4|Common|0|Max HP",
      "7|3|Common|0|Defense",
      "7|9|Common|1|Max MP",
@@ -3595,7 +3595,7 @@
      "10|3|Common|0|Critical Hit",
      "10|7|Common|1|Critical Hit Resist",
      "10|5|Common|0|Critical Hit Resist",
-     "10|11|Common|0|Max HP",
+     "10|11|Common|1|Max HP",
      "10|10|Common|0|Critical Hit",
      "10|9|Rare|0|Skill Level Up - Block Pain",
      "10|13|Common|1|Critical Hit Resist",
@@ -32683,8 +32683,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 09:04 UTC",
+ "updated": "2026-11-10 09:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 09:31",
+   "n": "YasuoMain16",
+   "x": "opened 6 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-10 09:31",
+   "n": "YasuoMain16",
+   "x": "skills up: Vicious Strike 12, Shield Smite 12, Fury 14"
+  },
   {
    "t": "2026-11-10 09:01",
    "n": "YasuoMain16",
@@ -34174,16 +34184,6 @@
    "t": "2026-11-06 02:04",
    "n": "RyBear",
    "x": "opened 17 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-06 02:04",
-   "n": "RyBear",
-   "x": "skills up: Overhead Slam 13, Ankle Slice 2, Ruinous Blow 13, Identify Weakness 12 and 5 more"
-  },
-  {
-   "t": "2026-11-06 01:34",
-   "n": "RyBear",
-   "x": "reached level 37"
   }
  ]
 }

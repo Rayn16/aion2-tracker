@@ -30932,14 +30932,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 68530,
+     "cp": 68532,
      "il": 1255
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 68530,
+   "cp": 68532,
    "il": 1255,
    "gear": [
     {
@@ -31472,7 +31472,7 @@
     }
    ],
    "title": {
-    "ownedCount": 166,
+    "ownedCount": 167,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -31512,8 +31512,8 @@
       "grade": "Unique",
       "id": 23010010,
       "name": "Encountering Zikel's Core",
-      "ownedCount": 52,
-      "ownedPercent": 51,
+      "ownedCount": 53,
+      "ownedPercent": 52,
       "statList": [
        {
         "desc": "HP +120"
@@ -32694,8 +32694,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 22:04 UTC",
+ "updated": "2026-11-10 22:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 22:34",
+   "n": "RyBear",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-10 22:04",
    "n": "RyBear",
@@ -34190,11 +34195,6 @@
    "t": "2026-11-06 04:34",
    "n": "RyBear",
    "x": "opened 9 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-06 04:34",
-   "n": "RyBear",
-   "x": "skills up: Rush Strike 5, Blood Absorption 13, Attack Preparation 13, Impact Hit 12 and 2 more"
   }
  ]
 }

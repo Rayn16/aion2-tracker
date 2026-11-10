@@ -18,7 +18,7 @@ const assert = require('assert');
       { ...g('Arcana1', 'Unique', 0, 5), name: 'Chalice of Vigor' }, { ...g('Arcana2', 'Rare', 1, 3), name: 'Bell of Magic' }, { ...g('Arcana3', 'Legend', 0, 4), name: 'Mirror of Vigor' }] };
     const t = Date.UTC(2026, 10, 7, 4, 10);  // Saturday 04:10 UTC
     return { t11: TRIES[11], t15: TRIES[15], to15: triesTo(13, 15), steps: gearSteps(m).map(s => s.text), arc: arcana(m), unlock: nextUnlock(m),
-      rift: nextEvent(EVENTS[0], t).t - t, kaira: nextEvent(EVENTS[1], t).t - t, nahma: new Date(nextEvent(EVENTS[2], t).t).toISOString(),
+      rift: nextEvent(EVENTS[0], t).t - t, riftOpen: nextEvent(EVENTS[0], Date.UTC(2026, 10, 10, 22, 1)).last, kaira: nextEvent(EVENTS[1], t).t - t, nahma: new Date(nextEvent(EVENTS[2], t).t).toISOString(),
       argo: new Date(nextEvent(EVENTS[3], t).t).toISOString(), plan: planItems() };
   });
   // 65%, then 70% and so on: 1 + 0.35 + 0.35*0.3 + 0.35*0.3*0.25 + ... = 1.4874
@@ -28,7 +28,7 @@ const assert = require('assert');
   assert.deepStrictEqual(r.steps, ['Replace Boots (Legend) with a Unique', 'Helmet +7 → +10', 'Pants +11 → +12', 'Torso +13 → +14']);  // no enchant for the Boots being replaced
   assert.strictEqual(r.arc.set, 2); assert.strictEqual(r.arc.weak.name, 'Bell of Magic');
   assert(/Ludra Normal at item level 2,800/.test(r.unlock) && /about 10 days/.test(r.unlock), r.unlock);  // 100 to go at +10 a day
-  assert.strictEqual(r.rift, 110 * 6e4); assert.strictEqual(r.kaira, 170 * 6e4);
+  assert.strictEqual(r.rift, 170 * 6e4); assert.strictEqual(r.riftOpen, Date.UTC(2026, 10, 10, 22));  // seen open 22:00 UTC assert.strictEqual(r.kaira, 170 * 6e4);
   assert.strictEqual(r.nahma, '2026-11-08T12:00:00.000Z'); assert.strictEqual(r.argo, '2026-11-07T12:30:00.000Z');
   assert(r.plan.caps.some(c => /^Odyle is full/.test(c)) && r.plan.caps.some(c => /^Nightmare 14 of 14: 2 lost/.test(c)), r.plan.caps);
   assert(!r.plan.caps.some(c => /Shugo/.test(c)));

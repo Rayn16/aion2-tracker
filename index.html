@@ -1384,9 +1384,10 @@ function timers() {
 }
 
 // fixed events from community guides, in UTC hours: allthings.how's global times (a GMT+9 "server time", 13 Oct);
-// other guides disagree, so they stay unconfirmed until checked in the game
+// other guides disagree, so they stay unconfirmed until checked in the game (ok: seen in the game);
+// Rayan saw the Rift open at 22:00 UTC on 10 Nov 2026
 const EVENTS = [
-  { n: 'Spacetime Rift', every: 3, from: 0, open: 10, sub: 'every 3 h, open 10 min', icon: 'star' },
+  { n: 'Spacetime Rift', every: 3, from: 1, open: 10, ok: 1, sub: 'every 3 h, open 10 min', icon: 'star' },
   { n: 'Watcher Kaira', every: 3, from: 1, sub: 'Abyss, every 3 h', icon: 'skull' },
   { n: 'Guardian Lord Nahma', days: [5, 0], at: 12, sub: 'Abyss, Fri and Sun', icon: 'skull' },
   { n: 'Argo, Kaira and Tamasa', days: [1, 4, 6], at: 12.5, sub: 'Abyss, Mon, Thu and Sat', icon: 'skull' },
@@ -1400,7 +1401,7 @@ function nextEvent(e, now = Date.now()) {
 function eventTile(e) {
   const now = Date.now(), { t, period, last } = nextEvent(e, now), on = e.open && now - last < e.open * 6e4;
   return `<div class="tile timer"><span class="ring ${on ? 'up' : t - now < 10 * 6e4 ? 'soon' : ''}" style="--p:${on ? 100 : Math.max(0, 100 - ((t - now) / period) * 100).toFixed(1)}">${ico(e.icon)}</span>
-    <span class="k">${e.n}</span><span class="v">${on ? 'Open now' : span(t - now)}</span><span class="s">${e.sub} · ${e.days ? weekday(t) + ' ' : ''}${clock(t)} ${UNC}</span></div>`;
+    <span class="k">${e.n}</span><span class="v">${on ? 'Open now' : span(t - now)}</span><span class="s">${e.sub} · ${e.days ? weekday(t) + ' ' : ''}${clock(t)} ${e.ok ? '' : UNC}</span></div>`;
 }
 
 // Tonight's plan: what's about to cap, then what's on a clock, then the week's pace. Ticket counts are live from the
@@ -1427,7 +1428,7 @@ function planItems(now = Date.now()) {
   }
   const reset = week - now < 864e5 ? `${weekday(week)}’s reset in ${span(week - now)} wipes ${wipe.length ? wipe.join(', ') + ' and ' : ''}the weekly counters: raid attempts, battlefield wins, Abyss hours, Daeva Pass EXP` : '';
   const g = premade('lpc-aion-sched') || {};
-  const soon = [{ n: 'Shugo Festival', t: nextAt(0) }, { n: 'Dimensional Invasion', t: nextAt(30) }, ...EVENTS.map(e => ({ n: e.n, t: nextEvent(e, now).t, unc: 1 })),
+  const soon = [{ n: 'Shugo Festival', t: nextAt(0) }, { n: 'Dimensional Invasion', t: nextAt(30) }, ...EVENTS.map(e => ({ n: e.n, t: nextEvent(e, now).t, unc: !e.ok })),
     ...gameBosses().filter(b => b.due > now).slice(0, 3).map(b => ({ n: b.n, t: b.due })), ...(g.siege > now ? [{ n: 'Artifact Siege', t: g.siege }] : [])]
     .filter(x => x.t - now <= 3 * 36e5).sort((a, b) => a.t - b.t).slice(0, 5);
   if (SEASON_END > now) pace.push(`Season 1’s Daeva Pass ends in ${span(SEASON_END - now)}: 50,000 pass EXP a week`);

@@ -4192,14 +4192,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 77307,
+     "cp": 77939,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 77307,
+   "cp": 77939,
    "il": 1785,
    "gear": [
     {
@@ -5012,7 +5012,7 @@
     }
    ],
    "title": {
-    "ownedCount": 184,
+    "ownedCount": 190,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -5027,8 +5027,8 @@
       "grade": "Legend",
       "id": 21020046,
       "name": "Even Better",
-      "ownedCount": 63,
-      "ownedPercent": 59,
+      "ownedCount": 64,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "HP Potion Recovery increase +2%"
@@ -5052,8 +5052,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 60,
-      "ownedPercent": 59,
+      "ownedCount": 61,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Block +10"
@@ -5077,8 +5077,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 61,
-      "ownedPercent": 62,
+      "ownedCount": 65,
+      "ownedPercent": 66,
       "statList": [
        {
         "desc": "MP +20"
@@ -6308,14 +6308,14 @@
     },
     {
      "date": "2026-11-10",
-     "cp": 127991,
+     "cp": 128040,
      "il": 2619
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 127991,
+   "cp": 128040,
    "il": 2619,
    "gear": [
     {
@@ -32670,8 +32670,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 00:34 UTC",
+ "updated": "2026-11-10 00:49 UTC",
  "feed": [
+  {
+   "t": "2026-11-10 00:48",
+   "n": "CuteCatty",
+   "x": "6 new titles"
+  },
   {
    "t": "2026-11-10 00:34",
    "n": "CutieCatty",
@@ -34166,11 +34171,6 @@
    "t": "2026-11-06 01:34",
    "n": "RyBear",
    "x": "new Avenger Boots +0"
-  },
-  {
-   "t": "2026-11-06 01:34",
-   "n": "RyBear",
-   "x": "2 new titles"
   }
  ]
 }

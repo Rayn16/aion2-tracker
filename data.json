@@ -25295,14 +25295,14 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 18529,
+     "cp": 18535,
      "il": 361
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 22,
-   "cp": 18529,
+   "cp": 18535,
    "il": 361,
    "gear": [
     {
@@ -26427,14 +26427,14 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 85938,
+     "cp": 86154,
      "il": 1666
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 85938,
+   "cp": 86154,
    "il": 1666,
    "gear": [
     {
@@ -26552,10 +26552,10 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Unyielding Boots",
+     "name": "Divine Canyon Boots",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0049_T05_Boots.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0072_T05_Boots.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -27900,7 +27900,7 @@
       "id": 18730000,
       "name": "Protection Circle",
       "needLevel": 9,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -27910,7 +27910,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -27920,7 +27920,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -28106,10 +28106,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_EleGuard_01.png",
-     "id": 1178,
-     "level": 2,
-     "name": "Spirit King's Bodyguard Warrior"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Ferk_01.png",
+     "id": 1191,
+     "level": 1,
+     "name": "Furious Feruk"
     },
     "wing": {
      "enchantLevel": 0,
@@ -33254,8 +33254,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 20:04 UTC",
+ "updated": "2026-11-11 21:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-11 21:03",
+   "n": "iLen",
+   "x": "new Divine Canyon Boots +0"
+  },
+  {
+   "t": "2026-11-11 21:03",
+   "n": "iLen",
+   "x": "skills up: Protection Circle 12, Inspiring Spell 13, Attack Preparation 15"
+  },
   {
    "t": "2026-11-11 02:34",
    "n": "CutieCatty",
@@ -34745,16 +34755,6 @@
    "t": "2026-11-06 08:01",
    "n": "YasuoMain16",
    "x": "skills up: Vicious Strike 11"
-  },
-  {
-   "t": "2026-11-06 07:31",
-   "n": "YasuoMain16",
-   "x": "new Vakron Pauldrons +10"
-  },
-  {
-   "t": "2026-11-06 07:31",
-   "n": "YasuoMain16",
-   "x": "skills up: Guarding Seal 3"
   }
  ]
 }

@@ -89,14 +89,14 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 138756,
-     "il": 2670
+     "cp": 140186,
+     "il": 2674
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 138756,
-   "il": 2670,
+   "cp": 140186,
+   "il": 2674,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -790,7 +790,7 @@
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -816,7 +816,7 @@
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
      "grade": "Unique",
-     "enchantLevel": 1,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -882,20 +882,20 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +4.6%",
-      "Evasion increase +4.6%"
+      "Accuracy increase +4.9%",
+      "Evasion increase +4.9%"
      ],
      "type": "Freedom",
-     "value": 46
+     "value": 49
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -4%",
-      "Endurance Penetration +4%"
+      "Cooldown -4.1%",
+      "Endurance Penetration +4.1%"
      ],
      "type": "Illusion",
-     "value": 40
+     "value": 41
     },
     {
      "name": "Life [Yustiel]",
@@ -964,7 +964,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2670
+     "value": 2674
     }
    ],
    "title": {
@@ -1249,7 +1249,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -32789,8 +32789,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 00:18 UTC",
+ "updated": "2026-11-11 00:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-11 00:31",
+   "n": "YasuoMain",
+   "x": "Compass of Vigor +0 → +3"
+  },
+  {
+   "t": "2026-11-11 00:31",
+   "n": "YasuoMain",
+   "x": "Mirror of Vigor +1 → +2"
+  },
+  {
+   "t": "2026-11-11 00:31",
+   "n": "YasuoMain",
+   "x": "skills up: Protection Armor 17"
+  },
   {
    "t": "2026-11-11 00:07",
    "n": "DeathRunner",
@@ -34275,21 +34290,6 @@
    "t": "2026-11-06 05:32",
    "n": "DeathRunner",
    "x": "skills up: Quick Slice 16, Shadowstrike 13"
-  },
-  {
-   "t": "2026-11-06 05:32",
-   "n": "Darya",
-   "x": "new Vakron Greaves +10"
-  },
-  {
-   "t": "2026-11-06 05:32",
-   "n": "Darya",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-06 05:04",
-   "n": "RyBear",
-   "x": "reached level 42"
   }
  ]
 }

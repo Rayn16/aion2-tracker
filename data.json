@@ -26427,15 +26427,15 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 86154,
-     "il": 1666
+     "cp": 86944,
+     "il": 1741
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 86154,
-   "il": 1666,
+   "cp": 86944,
+   "il": 1741,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -26904,7 +26904,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1666
+     "value": 1741
     }
    ],
    "title": {
@@ -33254,7 +33254,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 21:04 UTC",
+ "updated": "2026-11-11 21:34 UTC",
  "feed": [
   {
    "t": "2026-11-11 21:03",

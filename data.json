@@ -1364,7 +1364,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -15042,15 +15042,15 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 146658,
-     "il": 2738
+     "cp": 147048,
+     "il": 2743
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146658,
-   "il": 2738,
+   "cp": 147048,
+   "il": 2743,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15929,7 +15929,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2738
+     "value": 2743
     }
    ],
    "title": {
@@ -28877,15 +28877,15 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 107673,
-     "il": 2412
+     "cp": 107792,
+     "il": 2413
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 107673,
-   "il": 2412,
+   "cp": 107792,
+   "il": 2413,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -29007,7 +29007,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 9,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -29760,7 +29760,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2412
+     "value": 2413
     }
    ],
    "title": {
@@ -30834,12 +30834,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 2
      },
      {
       "acquired": 0,
@@ -30874,12 +30874,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -32789,8 +32789,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 01:04 UTC",
+ "updated": "2026-11-11 01:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-11 01:34",
+   "n": "uTril",
+   "x": "Nuakum Greaves +9 → +10"
+  },
+  {
+   "t": "2026-11-11 01:34",
+   "n": "uTril",
+   "x": "skills up: Power Burst 2"
+  },
   {
    "t": "2026-11-11 00:31",
    "n": "YasuoMain",
@@ -34280,16 +34290,6 @@
    "t": "2026-11-06 05:32",
    "n": "DeathRunner",
    "x": "Nuakum Helm +13 → +14"
-  },
-  {
-   "t": "2026-11-06 05:32",
-   "n": "DeathRunner",
-   "x": "Parchment of Vigor +0 → +2"
-  },
-  {
-   "t": "2026-11-06 05:32",
-   "n": "DeathRunner",
-   "x": "skills up: Quick Slice 16, Shadowstrike 13"
   }
  ]
 }

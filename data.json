@@ -6496,15 +6496,15 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 128152,
-     "il": 2621
+     "cp": 128182,
+     "il": 2624
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 128152,
-   "il": 2621,
+   "cp": 128182,
+   "il": 2624,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6740,7 +6740,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -7363,7 +7363,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2621
+     "value": 2624
     }
    ],
    "title": {
@@ -15352,15 +15352,15 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 147101,
-     "il": 2745
+     "cp": 147280,
+     "il": 2750
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 147101,
-   "il": 2745,
+   "cp": 147280,
+   "il": 2750,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16239,7 +16239,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2745
+     "value": 2750
     }
    ],
    "title": {
@@ -33254,8 +33254,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 02:04 UTC",
+ "updated": "2026-11-11 02:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-11 02:34",
+   "n": "CutieCatty",
+   "x": "Nuakum Gloves +12 → +15"
+  },
   {
    "t": "2026-11-11 02:04",
    "n": "CutieCatty",
@@ -34750,11 +34755,6 @@
    "t": "2026-11-06 07:31",
    "n": "YasuoMain16",
    "x": "skills up: Guarding Seal 3"
-  },
-  {
-   "t": "2026-11-06 06:02",
-   "n": "DeathRunner",
-   "x": "skills up: Apply Poison 17"
   }
  ]
 }

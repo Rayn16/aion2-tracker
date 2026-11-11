@@ -28106,10 +28106,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Papis_01.png",
-     "id": 1066,
-     "level": 3,
-     "name": "Papis"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_EleGuard_01.png",
+     "id": 1178,
+     "level": 2,
+     "name": "Spirit King's Bodyguard Warrior"
     },
     "wing": {
      "enchantLevel": 0,
@@ -33254,7 +33254,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 18:34 UTC",
+ "updated": "2026-11-11 19:04 UTC",
  "feed": [
   {
    "t": "2026-11-11 02:34",

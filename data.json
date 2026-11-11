@@ -26427,15 +26427,15 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 87113,
-     "il": 1752
+     "cp": 88219,
+     "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 87113,
-   "il": 1752,
+   "cp": 88219,
+   "il": 1785,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -26639,17 +26639,40 @@
     },
     {
      "slotPosName": "Earring1",
-     "name": "Liberator Earrings",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Aulamus Earrings",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -26925,11 +26948,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1752
+     "value": 1785
     }
    ],
    "title": {
-    "ownedCount": 193,
+    "ownedCount": 194,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -26947,8 +26970,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 65,
-      "ownedPercent": 64,
+      "ownedCount": 66,
+      "ownedPercent": 65,
       "statList": [
        {
         "desc": "Block +10"
@@ -27981,7 +28004,7 @@
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -33277,8 +33300,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 23:16 UTC",
+ "updated": "2026-11-11 23:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-11 23:33",
+   "n": "iLen",
+   "x": "new Aulamus Earrings +10"
+  },
+  {
+   "t": "2026-11-11 23:33",
+   "n": "iLen",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-11 23:33",
+   "n": "iLen",
+   "x": "skills up: Survival Willpower 12"
+  },
   {
    "t": "2026-11-11 23:03",
    "n": "iLen",
@@ -34763,21 +34801,6 @@
    "t": "2026-11-06 08:31",
    "n": "YasuoMain16",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-06 08:31",
-   "n": "YasuoMain16",
-   "x": "skills up: Ironclad Defense 13, Block Pain 15"
-  },
-  {
-   "t": "2026-11-06 08:04",
-   "n": "CuteCatty",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-06 08:01",
-   "n": "YasuoMain16",
-   "x": "new Vakron Greaves +10"
   }
  ]
 }

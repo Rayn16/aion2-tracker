@@ -86,12 +86,17 @@
      "date": "2026-11-10",
      "cp": 139114,
      "il": 2669
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 138756,
+     "il": 2670
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 139114,
-   "il": 2669,
+   "cp": 138756,
+   "il": 2670,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -796,10 +801,10 @@
     },
     {
      "slotPosName": "Arcana4",
-     "name": "Bell of Magic",
+     "name": "Bell of Vigor",
      "grade": "Unique",
-     "enchantLevel": 1,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
+     "enchantLevel": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
      "max": 5,
      "slots": 0,
      "stones": [],
@@ -868,11 +873,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +5.1%",
-      "Perfect Chance +5.1%"
+      "Defense increase +7.3%",
+      "Perfect Chance +7.3%"
      ],
      "type": "Justice",
-     "value": 51
+     "value": 73
     },
     {
      "name": "Freedom [Vaizel]",
@@ -913,11 +918,11 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +7.2%",
-      "Perfect Resist +7.2%"
+      "Attack increase +5.1%",
+      "Perfect Resist +5.1%"
      ],
      "type": "Destruction",
-     "value": 72
+     "value": 51
     },
     {
      "name": "Death [Triniel]",
@@ -959,7 +964,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2669
+     "value": 2670
     }
    ],
    "title": {
@@ -1124,7 +1129,7 @@
       "id": 11010000,
       "name": "Rending Blow",
       "needLevel": 1,
-      "skillLevel": 18
+      "skillLevel": 19
      },
      {
       "acquired": 1,
@@ -1144,7 +1149,7 @@
       "id": 11290000,
       "name": "Mocking Blade",
       "needLevel": 3,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -1164,7 +1169,7 @@
       "id": 11280000,
       "name": "Sword Aura Rampage",
       "needLevel": 5,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -1184,7 +1189,7 @@
       "id": 11050000,
       "name": "Crushing Wave",
       "needLevel": 8,
-      "skillLevel": 10
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -1224,7 +1229,7 @@
       "id": 11260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 5
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -1234,7 +1239,7 @@
       "id": 11710000,
       "name": "Survival Stance",
       "needLevel": 1,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -1254,7 +1259,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -1294,7 +1299,7 @@
       "id": 11770000,
       "name": "Destructive Impulse",
       "needLevel": 17,
-      "skillLevel": 14
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -1314,7 +1319,7 @@
       "id": 11790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 18
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -2118,6 +2123,11 @@
     },
     {
      "date": "2026-11-10",
+     "cp": 85441,
+     "il": 1865
+    },
+    {
+     "date": "2026-11-11",
      "cp": 85441,
      "il": 1865
     }
@@ -4205,6 +4215,11 @@
     },
     {
      "date": "2026-11-10",
+     "cp": 77965,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-11",
      "cp": 77965,
      "il": 1785
     }
@@ -6323,6 +6338,11 @@
      "date": "2026-11-10",
      "cp": 128072,
      "il": 2619
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 128072,
+     "il": 2619
     }
    ],
    "server": "Tassin",
@@ -8298,6 +8318,11 @@
      "date": "2026-11-10",
      "cp": 48995,
      "il": 1114
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 48995,
+     "il": 1114
     }
    ],
    "server": "Tassin",
@@ -9981,6 +10006,11 @@
     },
     {
      "date": "2026-11-10",
+     "cp": 59398,
+     "il": 1135
+    },
+    {
+     "date": "2026-11-11",
      "cp": 59398,
      "il": 1135
     }
@@ -11707,6 +11737,11 @@
     },
     {
      "date": "2026-11-10",
+     "cp": 81575,
+     "il": 1668
+    },
+    {
+     "date": "2026-11-11",
      "cp": 81575,
      "il": 1668
     }
@@ -13750,6 +13785,11 @@
      "date": "2026-11-10",
      "cp": 36746,
      "il": 647
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 36746,
+     "il": 647
     }
    ],
    "server": "Tassin",
@@ -14999,13 +15039,18 @@
      "date": "2026-11-10",
      "cp": 146419,
      "il": 2737
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 146658,
+     "il": 2738
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146419,
-   "il": 2737,
+   "cp": 146658,
+   "il": 2738,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15677,7 +15722,7 @@
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
      "grade": "Unique",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -15829,11 +15874,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +6.4%",
-      "Double Resist +6.4%"
+      "Combat Speed +6.5%",
+      "Double Resist +6.5%"
      ],
      "type": "Time",
-     "value": 64
+     "value": 65
     },
     {
      "name": "Destruction [Zikel]",
@@ -15884,7 +15929,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2737
+     "value": 2738
     }
    ],
    "title": {
@@ -16628,7 +16673,7 @@
       "id": 13350000,
       "name": "Heart Gore",
       "needLevel": 4,
-      "skillLevel": 18
+      "skillLevel": 19
      },
      {
       "acquired": 1,
@@ -16934,10 +16979,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Varg_03.png",
-     "id": 1018,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Ursuss_01_V01.png",
+     "id": 1123,
      "level": 3,
-     "name": "Varg Berserker"
+     "name": "Young Ursus"
     },
     "wing": {
      "enchantLevel": 0,
@@ -16991,6 +17036,11 @@
     },
     {
      "date": "2026-11-10",
+     "cp": 123961,
+     "il": 2560
+    },
+    {
+     "date": "2026-11-11",
      "cp": 123961,
      "il": 2560
     }
@@ -18978,6 +19028,11 @@
      "date": "2026-11-10",
      "cp": 23827,
      "il": 496
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 23827,
+     "il": 496
     }
    ],
    "server": "Tassin",
@@ -20199,6 +20254,11 @@
     },
     {
      "date": "2026-11-10",
+     "cp": 91749,
+     "il": 1861
+    },
+    {
+     "date": "2026-11-11",
      "cp": 91749,
      "il": 1861
     }
@@ -21939,6 +21999,11 @@
      "date": "2026-11-10",
      "cp": 25214,
      "il": 450
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 25214,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -23107,6 +23172,11 @@
     },
     {
      "date": "2026-11-10",
+     "cp": 43150,
+     "il": 799
+    },
+    {
+     "date": "2026-11-11",
      "cp": 43150,
      "il": 799
     }
@@ -24757,6 +24827,11 @@
      "date": "2026-11-10",
      "cp": 18441,
      "il": 361
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 18441,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -25882,6 +25957,11 @@
     },
     {
      "date": "2026-11-10",
+     "cp": 85923,
+     "il": 1666
+    },
+    {
+     "date": "2026-11-11",
      "cp": 85923,
      "il": 1666
     }
@@ -27620,6 +27700,11 @@
      "date": "2026-11-10",
      "cp": 25763,
      "il": 472
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 25763,
+     "il": 472
     }
    ],
    "server": "Tassin",
@@ -28787,6 +28872,11 @@
     },
     {
      "date": "2026-11-10",
+     "cp": 107673,
+     "il": 2412
+    },
+    {
+     "date": "2026-11-11",
      "cp": 107673,
      "il": 2412
     }
@@ -30934,6 +31024,11 @@
      "date": "2026-11-10",
      "cp": 68532,
      "il": 1255
+    },
+    {
+     "date": "2026-11-11",
+     "cp": 68532,
+     "il": 1255
     }
    ],
    "server": "Tassin",
@@ -32694,8 +32789,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-10 23:34 UTC",
+ "updated": "2026-11-11 00:18 UTC",
  "feed": [
+  {
+   "t": "2026-11-11 00:07",
+   "n": "DeathRunner",
+   "x": "Chalice of Vigor +3 → +4"
+  },
+  {
+   "t": "2026-11-11 00:07",
+   "n": "DeathRunner",
+   "x": "skills up: Heart Gore 19"
+  },
+  {
+   "t": "2026-11-11 00:01",
+   "n": "YasuoMain",
+   "x": "new Bell of Vigor +2"
+  },
+  {
+   "t": "2026-11-11 00:01",
+   "n": "YasuoMain",
+   "x": "skills up: Rending Blow 19, Mocking Blade 14, Sword Aura Rampage 15, Defiance 6 and 2 more"
+  },
   {
    "t": "2026-11-10 23:34",
    "n": "uTril",
@@ -34175,26 +34290,6 @@
    "t": "2026-11-06 05:04",
    "n": "RyBear",
    "x": "reached level 42"
-  },
-  {
-   "t": "2026-11-06 05:04",
-   "n": "RyBear",
-   "x": "new Liberator Gloves +0"
-  },
-  {
-   "t": "2026-11-06 05:04",
-   "n": "RyBear",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-06 05:04",
-   "n": "uTril",
-   "x": "Chalice of Magic +1 → +0"
-  },
-  {
-   "t": "2026-11-06 05:04",
-   "n": "uTril",
-   "x": "new Bell of Magic +0"
   }
  ]
 }

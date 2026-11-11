@@ -8907,7 +8907,7 @@
      ]
     },
     {
-     "slotPosName": "Rune1",
+     "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
      "enchantLevel": 1,
@@ -8923,7 +8923,7 @@
      ]
     },
     {
-     "slotPosName": "Rune2",
+     "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
      "enchantLevel": 1,
@@ -17910,44 +17910,6 @@
      ]
     },
     {
-     "slotPosName": "Earring1",
-     "name": "Enraged Kromede Earrings",
-     "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
-     "max": 15,
-     "slots": 4,
-     "stones": [
-      [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
-      ],
-      [
-       "Accuracy Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Attack",
-       "+1",
-       "Common"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
-    },
-    {
      "slotPosName": "Earring2",
      "name": "Enraged Kromede Earrings",
      "grade": "Unique",
@@ -17974,6 +17936,44 @@
       [
        "MP",
        "+15",
+       "Common"
+      ]
+     ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Enraged Kromede Earrings",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+1",
        "Common"
       ]
      ],
@@ -29970,10 +29970,10 @@
      ]
     },
     {
-     "slotPosName": "Rune2",
+     "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -29986,10 +29986,10 @@
      ]
     },
     {
-     "slotPosName": "Rune1",
+     "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 4,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -33254,7 +33254,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 07:35 UTC",
+ "updated": "2026-11-11 08:04 UTC",
  "feed": [
   {
    "t": "2026-11-11 02:34",

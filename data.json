@@ -26427,14 +26427,14 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 86944,
+     "cp": 86946,
      "il": 1741
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 86944,
+   "cp": 86946,
    "il": 1741,
    "gear": [
     {
@@ -28106,10 +28106,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Ferk_01.png",
-     "id": 1191,
-     "level": 1,
-     "name": "Furious Feruk"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_EleGuard_01.png",
+     "id": 1178,
+     "level": 2,
+     "name": "Spirit King's Bodyguard Warrior"
     },
     "wing": {
      "enchantLevel": 0,
@@ -29342,14 +29342,14 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 109295,
+     "cp": 109449,
      "il": 2413
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 109295,
+   "cp": 109449,
    "il": 2413,
    "gear": [
     {
@@ -30110,9 +30110,11 @@
     },
     {
      "name": "Constitution",
-     "statSecondList": null,
+     "statSecondList": [
+      "HP increase +0.1%"
+     ],
      "type": "CON",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Precision",
@@ -33254,7 +33256,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 21:34 UTC",
+ "updated": "2026-11-11 22:06 UTC",
  "feed": [
   {
    "t": "2026-11-11 21:03",

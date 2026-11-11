@@ -6496,14 +6496,14 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 128182,
+     "cp": 128196,
      "il": 2624
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 128182,
+   "cp": 128196,
    "il": 2624,
    "gear": [
     {
@@ -28106,10 +28106,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_EleGuard_01.png",
-     "id": 1178,
-     "level": 2,
-     "name": "Spirit King's Bodyguard Warrior"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Ferk_01.png",
+     "id": 1191,
+     "level": 1,
+     "name": "Furious Feruk"
     },
     "wing": {
      "enchantLevel": 0,
@@ -29342,14 +29342,14 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 109449,
+     "cp": 109507,
      "il": 2413
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 109449,
+   "cp": 109507,
    "il": 2413,
    "gear": [
     {
@@ -31216,7 +31216,7 @@
       "id": 17720000,
       "name": "Empyrean Lords' Benediction",
       "needLevel": 6,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -33256,8 +33256,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 22:06 UTC",
+ "updated": "2026-11-11 22:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-11 22:34",
+   "n": "uTril",
+   "x": "skills up: Empyrean Lords' Benediction 15"
+  },
   {
    "t": "2026-11-11 21:03",
    "n": "iLen",
@@ -34752,11 +34757,6 @@
    "t": "2026-11-06 08:01",
    "n": "YasuoMain16",
    "x": "new Aulamus Ring +10"
-  },
-  {
-   "t": "2026-11-06 08:01",
-   "n": "YasuoMain16",
-   "x": "skills up: Vicious Strike 11"
   }
  ]
 }

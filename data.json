@@ -26427,15 +26427,15 @@
     },
     {
      "date": "2026-11-11",
-     "cp": 86946,
-     "il": 1741
+     "cp": 87113,
+     "il": 1752
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 86946,
-   "il": 1741,
+   "cp": 87113,
+   "il": 1752,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -26571,11 +26571,32 @@
      "slotPosName": "Cape",
      "name": "Bakarma Cloak",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -26747,7 +26768,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 9,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -26904,7 +26925,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1741
+     "value": 1752
     }
    ],
    "title": {
@@ -33256,8 +33277,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-11 22:35 UTC",
+ "updated": "2026-11-11 23:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-11 23:03",
+   "n": "iLen",
+   "x": "Bakarma Cloak +0 → +10"
+  },
+  {
+   "t": "2026-11-11 23:03",
+   "n": "iLen",
+   "x": "Revelation Amulet +9 → +10"
+  },
   {
    "t": "2026-11-11 22:34",
    "n": "uTril",
@@ -34747,16 +34778,6 @@
    "t": "2026-11-06 08:01",
    "n": "YasuoMain16",
    "x": "new Vakron Greaves +10"
-  },
-  {
-   "t": "2026-11-06 08:01",
-   "n": "YasuoMain16",
-   "x": "new Vakron Gloves +10"
-  },
-  {
-   "t": "2026-11-06 08:01",
-   "n": "YasuoMain16",
-   "x": "new Aulamus Ring +10"
   }
  ]
 }

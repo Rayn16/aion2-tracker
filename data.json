@@ -29767,15 +29767,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 109144,
-     "il": 2423
+     "cp": 111367,
+     "il": 2448
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 109144,
-   "il": 2423,
+   "cp": 111367,
+   "il": 2448,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -29819,34 +29819,13 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Bakarma Guard",
+     "name": "Nuakum Guard",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_011.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Accuracy Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "Block",
-       "+10",
-       "Rare"
-      ]
-     ],
+     "stones": [],
      "godSlots": 1,
      "god": [],
      "src": [
@@ -30631,7 +30610,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2423
+     "value": 2448
     }
    ],
    "title": {
@@ -31530,7 +31509,7 @@
       "id": 17070000,
       "name": "Chain of Torment",
       "needLevel": 4,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -31580,7 +31559,7 @@
       "id": 17120000,
       "name": "Radiant Recovery",
       "needLevel": 12,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -31705,12 +31684,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 2
      },
      {
       "acquired": 0,
@@ -31745,12 +31724,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -33665,8 +33644,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 06:04 UTC",
+ "updated": "2026-11-12 06:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 06:34",
+   "n": "uTril",
+   "x": "new Nuakum Guard +10"
+  },
+  {
+   "t": "2026-11-12 06:34",
+   "n": "uTril",
+   "x": "skills up: Chain of Torment 17, Power Burst 2"
+  },
   {
    "t": "2026-11-12 06:01",
    "n": "YasuoMain",
@@ -35156,16 +35145,6 @@
    "t": "2026-11-06 23:04",
    "n": "RyBear",
    "x": "new Liberator Helm +0"
-  },
-  {
-   "t": "2026-11-06 23:04",
-   "n": "RyBear",
-   "x": "new Avenger Pauldrons +0"
-  },
-  {
-   "t": "2026-11-06 21:04",
-   "n": "RyBear",
-   "x": "1 new title"
   }
  ]
 }

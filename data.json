@@ -22544,14 +22544,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 25215,
+     "cp": 25443,
      "il": 450
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 24,
-   "cp": 25215,
+   "cp": 25443,
    "il": 450,
    "gear": [
     {
@@ -23724,14 +23724,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 43152,
+     "cp": 43370,
      "il": 799
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 43152,
+   "cp": 43370,
    "il": 799,
    "gear": [
     {
@@ -29767,15 +29767,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 111373,
-     "il": 2448
+     "cp": 111825,
+     "il": 2469
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 111373,
-   "il": 2448,
+   "cp": 111825,
+   "il": 2469,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30610,7 +30610,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2448
+     "value": 2469
     }
    ],
    "title": {
@@ -31629,7 +31629,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31659,7 +31659,7 @@
       "id": 17780000,
       "name": "Earth's Grace",
       "needLevel": 21,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31684,12 +31684,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 0
      },
      {
       "acquired": 0,
@@ -31724,12 +31724,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_039.png",
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -33644,8 +33644,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 07:05 UTC",
+ "updated": "2026-11-12 07:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 07:34",
+   "n": "uTril",
+   "x": "skills up: Earth's Grace 15, Summon Resurrection 2"
+  },
   {
    "t": "2026-11-12 06:34",
    "n": "uTril",
@@ -35140,11 +35145,6 @@
    "t": "2026-11-06 23:35",
    "n": "RyBear",
    "x": "skills up: Overhead Slam 14, Ankle Slice 3, Rush Strike 11, Protection Armor 6 and 5 more"
-  },
-  {
-   "t": "2026-11-06 23:04",
-   "n": "RyBear",
-   "x": "new Liberator Helm +0"
   }
  ]
 }

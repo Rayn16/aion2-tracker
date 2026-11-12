@@ -15415,14 +15415,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 148119,
+     "cp": 148219,
      "il": 2771
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 148119,
+   "cp": 148219,
    "il": 2771,
    "gear": [
     {
@@ -17191,7 +17191,7 @@
       "id": 13060000,
       "name": "Ambush",
       "needLevel": 3,
-      "skillLevel": 3
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -17211,7 +17211,7 @@
       "id": 13340000,
       "name": "Storm Rampage",
       "needLevel": 5,
-      "skillLevel": 7
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -17221,7 +17221,7 @@
       "id": 13210000,
       "name": "Whirlwind Slice",
       "needLevel": 7,
-      "skillLevel": 9
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -17271,7 +17271,7 @@
       "id": 13260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 6
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -22550,14 +22550,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 25446,
+     "cp": 25457,
      "il": 450
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 24,
-   "cp": 25446,
+   "cp": 25457,
    "il": 450,
    "gear": [
     {
@@ -23730,14 +23730,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 43373,
+     "cp": 43377,
      "il": 799
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 43373,
+   "cp": 43377,
    "il": 799,
    "gear": [
     {
@@ -25388,14 +25388,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 18535,
+     "cp": 18563,
      "il": 361
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 22,
-   "cp": 18535,
+   "cp": 18563,
    "il": 361,
    "gear": [
     {
@@ -25789,7 +25789,7 @@
     }
    ],
    "title": {
-    "ownedCount": 41,
+    "ownedCount": 43,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -25826,8 +25826,8 @@
       "grade": "Legend",
       "id": 23010024,
       "name": "Bond with All Creation",
-      "ownedCount": 10,
-      "ownedPercent": 10,
+      "ownedCount": 12,
+      "ownedPercent": 12,
       "statList": [
        {
         "desc": "Move Speed +0.7%"
@@ -26525,14 +26525,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 90260,
+     "cp": 90272,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 90260,
+   "cp": 90272,
    "il": 1785,
    "gear": [
     {
@@ -29773,15 +29773,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 112492,
-     "il": 2479
+     "cp": 112156,
+     "il": 2478
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 112492,
-   "il": 2479,
+   "cp": 112156,
+   "il": 2478,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30139,44 +30139,6 @@
      ]
     },
     {
-     "slotPosName": "Earring1",
-     "name": "Aulamus Earrings",
-     "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
-     "max": 15,
-     "slots": 4,
-     "stones": [
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Block",
-       "+10",
-       "Rare"
-      ],
-      [
-       "Critical Hit",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Evasion Bonus",
-       "+7",
-       "Rare"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
-    },
-    {
      "slotPosName": "Earring2",
      "name": "Aulamus Earrings",
      "grade": "Unique",
@@ -30206,6 +30168,23 @@
        "Rare"
       ]
      ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Enraged Kromede Earrings",
+     "grade": "Unique",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -30476,10 +30455,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.8%"
+      "Attack increase +3.1%"
      ],
      "type": "STR",
-     "value": 38
+     "value": 31
     },
     {
      "name": "Dexterity",
@@ -30616,7 +30595,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2479
+     "value": 2478
     }
    ],
    "title": {
@@ -31665,7 +31644,7 @@
       "id": 17780000,
       "name": "Earth's Grace",
       "needLevel": 21,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31685,7 +31664,7 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -33653,8 +33632,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 22:34 UTC",
+ "updated": "2026-11-12 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 23:04",
+   "n": "uTril",
+   "x": "new Enraged Kromede Earrings +0"
+  },
+  {
+   "t": "2026-11-12 23:04",
+   "n": "uTril",
+   "x": "skills up: Radiant Benediction 16"
+  },
+  {
+   "t": "2026-11-12 23:03",
+   "n": "iAyame",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-12 23:02",
+   "n": "DeathRunner",
+   "x": "skills up: Ambush 6, Storm Rampage 12"
+  },
   {
    "t": "2026-11-12 22:34",
    "n": "RyBear",
@@ -35134,26 +35133,6 @@
    "t": "2026-11-07 01:01",
    "n": "YasuoMain",
    "x": "skills up: Keen Strike 16, Leaping Slam 13, Mocking Blade 13, Crushing Wave 10 and 1 more"
-  },
-  {
-   "t": "2026-11-07 00:16",
-   "n": "RyBear",
-   "x": "new Chaser Necklace +0"
-  },
-  {
-   "t": "2026-11-07 00:16",
-   "n": "RyBear",
-   "x": "new Avenger Earrings +0"
-  },
-  {
-   "t": "2026-11-07 00:16",
-   "n": "RyBear",
-   "x": "new Liberator Earrings +0"
-  },
-  {
-   "t": "2026-11-07 00:16",
-   "n": "RyBear",
-   "x": "new Liberator Bracelet +0"
   }
  ]
 }

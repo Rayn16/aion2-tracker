@@ -10680,10 +10680,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.5%"
+      "Attack increase +3.6%"
      ],
      "type": "STR",
-     "value": 35
+     "value": 36
     },
     {
      "name": "Dexterity",
@@ -14437,10 +14437,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.3%"
+      "Attack increase +2.4%"
      ],
      "type": "STR",
-     "value": 23
+     "value": 24
     },
     {
      "name": "Dexterity",
@@ -15409,15 +15409,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 147063,
-     "il": 2766
+     "cp": 147300,
+     "il": 2769
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 147063,
-   "il": 2766,
+   "cp": 147300,
+   "il": 2769,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16156,10 +16156,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.5%"
+      "Attack increase +3.6%"
      ],
      "type": "STR",
-     "value": 35
+     "value": 36
     },
     {
      "name": "Dexterity",
@@ -16296,7 +16296,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2766
+     "value": 2769
     }
    ],
    "title": {
@@ -16408,8 +16408,8 @@
       "id": 43,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 67,
-      "openPercent": 76,
+      "openNodeCount": 68,
+      "openPercent": 77,
       "totalNodeCount": 88
      },
      {
@@ -16699,7 +16699,7 @@
      "4|9|Common|0|Defense",
      "4|7|Common|0|Max MP",
      "4|5|Common|1|Attack",
-     "4|6|Common|0|Critical Hit",
+     "4|6|Common|1|Critical Hit",
      "4|3|Common|1|Critical Hit",
      "5|3|Common|1|Defense",
      "4|13|Common|1|Max MP",
@@ -33665,8 +33665,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 03:04 UTC",
+ "updated": "2026-11-12 03:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 03:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-12 03:02",
    "n": "DeathRunner",
@@ -35161,11 +35166,6 @@
    "t": "2026-11-06 20:34",
    "n": "RyBear",
    "x": "new Liberator Earrings +0"
-  },
-  {
-   "t": "2026-11-06 20:34",
-   "n": "RyBear",
-   "x": "7 new titles"
   }
  ]
 }

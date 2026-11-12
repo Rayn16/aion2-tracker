@@ -1369,7 +1369,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -12084,13 +12084,18 @@
      "date": "2026-11-11",
      "cp": 81575,
      "il": 1668
+    },
+    {
+     "date": "2026-11-12",
+     "cp": 83806,
+     "il": 1725
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 81575,
-   "il": 1668,
+   "cp": 83806,
+   "il": 1725,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -12447,33 +12452,40 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Liberator Necklace",
-     "grade": "Legend",
+     "name": "Aulamus Necklace",
+     "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0071.png",
-     "max": 10,
-     "slots": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png",
+     "max": 15,
+     "slots": 4,
      "stones": [
       [
-       "Damage Boost",
-       "+10",
-       "Rare"
+       "HP",
+       "+30",
+       "Common"
       ],
       [
-       "Attack",
+       "Critical Hit",
        "+5",
-       "Legend"
+       "Common"
+      ],
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
       ],
       [
        "Evasion Bonus",
-       "+7",
-       "Rare"
+       "+5",
+       "Common"
       ]
      ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -12539,6 +12551,44 @@
      ]
     },
     {
+     "slotPosName": "Ring1",
+     "name": "Aulamus Ring",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ]
+     ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
      "slotPosName": "Ring2",
      "name": "Liberator Ring",
      "grade": "Legend",
@@ -12567,39 +12617,6 @@
      "god": [],
      "src": [
       "Quest"
-     ]
-    },
-    {
-     "slotPosName": "Ring1",
-     "name": "Divine Canyon Ring",
-     "grade": "Legend",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0019.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ],
-      [
-       "Accuracy Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Block",
-       "+10",
-       "Rare"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
      ]
     },
     {
@@ -12706,7 +12723,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 4,
+     "enchantLevel": 9,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -12861,11 +12878,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1668
+     "value": 1725
     }
    ],
    "title": {
-    "ownedCount": 187,
+    "ownedCount": 188,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -12933,8 +12950,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 64,
-      "ownedPercent": 60,
+      "ownedCount": 65,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -13810,7 +13827,7 @@
       "id": 13220000,
       "name": "Shadow Fall",
       "needLevel": 12,
-      "skillLevel": 11
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -13850,7 +13867,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -13870,7 +13887,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -15392,14 +15409,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 122080,
+     "cp": 146986,
      "il": 2750
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 122080,
+   "cp": 146986,
    "il": 2750,
    "gear": [
     {
@@ -17208,7 +17225,7 @@
       "id": 13050000,
       "name": "Flash Slice",
       "needLevel": 8,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -33648,8 +33665,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 02:04 UTC",
+ "updated": "2026-11-12 02:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 02:33",
+   "n": "DeathRunner",
+   "x": "skills up: Flash Slice 14"
+  },
+  {
+   "t": "2026-11-12 02:32",
+   "n": "Darya",
+   "x": "new Aulamus Necklace +10"
+  },
+  {
+   "t": "2026-11-12 02:32",
+   "n": "Darya",
+   "x": "new Aulamus Ring +10"
+  },
+  {
+   "t": "2026-11-12 02:32",
+   "n": "Darya",
+   "x": "Revelation Amulet +4 → +9"
+  },
+  {
+   "t": "2026-11-12 02:32",
+   "n": "Darya",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-12 02:32",
+   "n": "Darya",
+   "x": "skills up: Exploit Weakness 17, Rear Smite 15"
+  },
   {
    "t": "2026-11-12 02:02",
    "n": "DeathRunner",
@@ -35119,36 +35166,6 @@
    "t": "2026-11-06 20:34",
    "n": "RyBear",
    "x": "opened 17 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-06 20:34",
-   "n": "RyBear",
-   "x": "skills up: Rending Blow 13, Rush Strike 8, Defiance 2, Protection Armor 5 and 1 more"
-  },
-  {
-   "t": "2026-11-06 19:04",
-   "n": "uTril",
-   "x": "new Nuakum Cloak +10"
-  },
-  {
-   "t": "2026-11-06 19:04",
-   "n": "uTril",
-   "x": "skills up: Empyrean Lord's Grace 16, Healing Enhancement 14, Prayer of Concentration 16"
-  },
-  {
-   "t": "2026-11-06 18:33",
-   "n": "uTril",
-   "x": "skills up: Light of Protection 17"
-  },
-  {
-   "t": "2026-11-06 15:32",
-   "n": "DeathRunner",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-06 15:04",
-   "n": "CutieCatty",
-   "x": "Nuakum Guard +10 → +13"
   }
  ]
 }

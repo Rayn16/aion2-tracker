@@ -4393,14 +4393,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 79328,
+     "cp": 79343,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 79328,
+   "cp": 79343,
    "il": 1785,
    "gear": [
     {
@@ -5213,7 +5213,7 @@
     }
    ],
    "title": {
-    "ownedCount": 190,
+    "ownedCount": 191,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -5231,8 +5231,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 61,
-      "ownedPercent": 60,
+      "ownedCount": 62,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "Block +10"
@@ -33653,8 +33653,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 16:04 UTC",
+ "updated": "2026-11-12 16:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 16:34",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-12 15:31",
    "n": "YasuoMain16",
@@ -35149,11 +35154,6 @@
    "t": "2026-11-06 23:35",
    "n": "RyBear",
    "x": "new Anguish Breastplate +0"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "new Liberator Pauldrons +0"
   }
  ]
 }

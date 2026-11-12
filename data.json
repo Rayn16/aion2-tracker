@@ -4390,14 +4390,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 77973,
+     "cp": 78121,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 77973,
+   "cp": 78121,
    "il": 1785,
    "gear": [
     {
@@ -5142,11 +5142,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.9%",
-      "Regeneration +1.9%"
+      "HP increase +2.3%",
+      "Regeneration +2.3%"
      ],
      "type": "Life",
-     "value": 19
+     "value": 23
     },
     {
      "name": "Time [Siel]",
@@ -5178,20 +5178,20 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -1.1%",
-      "Double Chance +1.1%"
+      "MP Cost -1.5%",
+      "Double Chance +1.5%"
      ],
      "type": "Wisdom",
-     "value": 11
+     "value": 15
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +1.5%",
-      "Endurance +1.5%"
+      "MP increase +1.9%",
+      "Endurance +1.9%"
      ],
      "type": "Destiny",
-     "value": 15
+     "value": 19
     },
     {
      "name": "Space [Israphel]",
@@ -31907,15 +31907,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 68532,
-     "il": 1255
+     "cp": 68956,
+     "il": 1274
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 68532,
-   "il": 1255,
+   "cp": 68956,
+   "il": 1274,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -32443,7 +32443,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1255
+     "value": 1274
     }
    ],
    "title": {
@@ -32561,8 +32561,8 @@
       "id": 14,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 16,
-      "openPercent": 14,
+      "openNodeCount": 28,
+      "openPercent": 24,
       "totalNodeCount": 116
      },
      {
@@ -32875,9 +32875,9 @@
      "3|9|Rare|0|Skill Level Up - Impact Hit",
      "3|6|Common|0|Max HP",
      "3|7|Rare|0|Skill Level Up - Murderous Burst",
-     "3|12|Legend|0|Skill Level Up - Rending Blow",
-     "3|10|Common|0|Max MP",
-     "3|11|Common|0|Critical Hit",
+     "3|12|Legend|1|Skill Level Up - Rending Blow",
+     "3|10|Common|1|Max MP",
+     "3|11|Common|1|Critical Hit",
      "4|2|Common|0|Critical Hit",
      "3|14|Common|1|Critical Hit",
      "4|4|Common|0|Max HP",
@@ -32885,7 +32885,7 @@
      "4|7|Common|0|Defense",
      "4|8|Common|0|Max HP",
      "4|14|Common|1|Critical Hit Resist",
-     "4|12|Common|0|Attack",
+     "4|12|Common|1|Attack",
      "5|2|Legend|0|Skill Level Up - Sword Aura Rampage",
      "5|3|Common|0|Critical Hit Resist",
      "5|6|Common|0|Critical Hit Resist",
@@ -32896,7 +32896,7 @@
      "5|11|Common|0|Critical Hit",
      "5|9|Common|0|Defense",
      "5|14|Rare|1|Skill Level Up - Identify Weakness",
-     "5|12|Common|0|Max HP",
+     "5|12|Common|1|Max HP",
      "5|13|Common|1|Max MP",
      "6|4|Common|0|Defense",
      "6|6|Common|0|Critical Hit",
@@ -32937,7 +32937,7 @@
      "9|13|Common|1|Critical Hit Resist",
      "10|3|Common|0|Critical Hit",
      "10|6|Common|0|Max MP",
-     "10|12|Common|0|Attack",
+     "10|12|Common|1|Attack",
      "10|10|Common|0|Critical Hit Resist",
      "11|4|Common|0|Max MP",
      "11|5|Common|0|Critical Hit Resist",
@@ -32946,7 +32946,7 @@
      "11|9|Common|0|Defense",
      "11|6|Legend|0|Skill Level Up - Ankle Slice",
      "11|7|Common|0|Attack",
-     "11|12|Common|0|Max HP",
+     "11|12|Common|1|Max HP",
      "11|13|Common|0|Critical Hit",
      "11|10|Common|0|Critical Hit",
      "11|11|Rare|0|Skill Level Up - Survival Stance",
@@ -32957,7 +32957,7 @@
      "12|7|Common|0|Critical Hit",
      "12|8|Common|0|Max MP",
      "12|14|Common|0|Critical Hit Resist",
-     "12|12|Common|0|Max MP",
+     "12|12|Common|1|Max MP",
      "13|2|Common|0|Critical Hit Resist",
      "13|6|Common|0|Max HP",
      "13|7|Rare|0|Skill Level Up - Experienced Counterstrike",
@@ -32967,16 +32967,16 @@
      "13|11|Common|0|Max HP",
      "13|9|Rare|0|Skill Level Up - Survival Willpower",
      "13|14|Common|0|Max HP",
-     "13|12|Legend|0|Skill Level Up - Keen Strike",
+     "13|12|Legend|1|Skill Level Up - Keen Strike",
      "14|3|Common|0|Max MP",
      "14|4|Common|0|Attack",
      "14|2|Unique|0|Multi-Hit Chance",
      "14|7|Common|0|Attack",
      "14|8|Unique|0|Multi-Hit Resist",
-     "14|12|Common|0|Critical Hit Resist",
+     "14|12|Common|1|Critical Hit Resist",
      "14|9|Common|0|Defense",
-     "14|13|Common|0|Defense",
-     "14|14|Unique|0|Multi-Hit Chance"
+     "14|13|Common|1|Defense",
+     "14|14|Unique|1|Multi-Hit Chance"
     ],
     "15": [
      "2|3|Common|0|Boss Defense",
@@ -33299,7 +33299,7 @@
       "id": 11020000,
       "name": "Keen Strike",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -33309,7 +33309,7 @@
       "id": 11010000,
       "name": "Rending Blow",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -33669,8 +33669,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 00:17 UTC",
+ "updated": "2026-11-12 00:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 00:34",
+   "n": "RyBear",
+   "x": "opened 12 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-12 00:34",
+   "n": "RyBear",
+   "x": "skills up: Keen Strike 14, Rending Blow 14"
+  },
   {
    "t": "2026-11-11 23:33",
    "n": "iLen",
@@ -35160,16 +35170,6 @@
    "t": "2026-11-06 08:34",
    "n": "CuteCatty",
    "x": "skills up: Divine Aura 13, Healing Light 15, Bolt 12"
-  },
-  {
-   "t": "2026-11-06 08:31",
-   "n": "YasuoMain16",
-   "x": "new Aulamus Necklace +0"
-  },
-  {
-   "t": "2026-11-06 08:31",
-   "n": "YasuoMain16",
-   "x": "1 new title"
   }
  ]
 }

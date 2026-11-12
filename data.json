@@ -94,14 +94,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 140192,
-     "il": 2675
+     "cp": 140425,
+     "il": 2676
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 140192,
-   "il": 2675,
+   "cp": 140425,
+   "il": 2676,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -821,7 +821,7 @@
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
      "grade": "Unique",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -896,11 +896,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -4.1%",
-      "Endurance Penetration +4.1%"
+      "Cooldown -4.2%",
+      "Endurance Penetration +4.2%"
      ],
      "type": "Illusion",
-     "value": 41
+     "value": 42
     },
     {
      "name": "Life [Yustiel]",
@@ -969,7 +969,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2675
+     "value": 2676
     }
    ],
    "title": {
@@ -1254,7 +1254,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 17
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -1294,7 +1294,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 14
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -15409,15 +15409,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 147354,
-     "il": 2769
+     "cp": 147571,
+     "il": 2770
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 147354,
-   "il": 2769,
+   "cp": 147571,
+   "il": 2770,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15731,30 +15731,30 @@
      "slotPosName": "Cape",
      "name": "Nuakum Cloak",
      "grade": "Unique",
-     "enchantLevel": 11,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+60",
-       "Rare"
+       "Attack",
+       "+2",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+13",
+       "Legend"
+      ],
+      [
+       "Attack",
+       "+2",
+       "Common"
       ],
       [
        "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
+       "+40",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -16296,7 +16296,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2769
+     "value": 2770
     }
    ],
    "title": {
@@ -17285,7 +17285,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 20
+      "skillLevel": 22
      },
      {
       "acquired": 1,
@@ -17305,7 +17305,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 16
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -17501,10 +17501,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Phaini_01.png",
-     "id": 1022,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Jellofi_01.png",
+     "id": 1219,
      "level": 3,
-     "name": "Crasaur"
+     "name": "Zelophi"
     },
     "wing": {
      "enchantLevel": 0,
@@ -33665,8 +33665,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 04:01 UTC",
+ "updated": "2026-11-12 04:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 04:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Cloak +11 → +12"
+  },
+  {
+   "t": "2026-11-12 04:32",
+   "n": "DeathRunner",
+   "x": "skills up: Exploit Weakness 22"
+  },
+  {
+   "t": "2026-11-12 04:31",
+   "n": "YasuoMain",
+   "x": "Mirror of Vigor +2 → +3"
+  },
+  {
+   "t": "2026-11-12 04:31",
+   "n": "YasuoMain",
+   "x": "skills up: Impact Hit 17"
+  },
   {
    "t": "2026-11-12 03:32",
    "n": "DeathRunner",
@@ -35146,26 +35166,6 @@
    "t": "2026-11-06 20:34",
    "n": "RyBear",
    "x": "reached level 44"
-  },
-  {
-   "t": "2026-11-06 20:34",
-   "n": "RyBear",
-   "x": "new Liberator Greatsword +0"
-  },
-  {
-   "t": "2026-11-06 20:34",
-   "n": "RyBear",
-   "x": "new Liberator Guard +0"
-  },
-  {
-   "t": "2026-11-06 20:34",
-   "n": "RyBear",
-   "x": "new Liberator Cloak +0"
-  },
-  {
-   "t": "2026-11-06 20:34",
-   "n": "RyBear",
-   "x": "new Liberator Earrings +0"
   }
  ]
 }

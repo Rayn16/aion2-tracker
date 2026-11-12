@@ -10680,10 +10680,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.6%"
+      "Attack increase +3.7%"
      ],
      "type": "STR",
-     "value": 36
+     "value": 37
     },
     {
      "name": "Dexterity",
@@ -14437,10 +14437,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.4%"
+      "Attack increase +2.5%"
      ],
      "type": "STR",
-     "value": 24
+     "value": 25
     },
     {
      "name": "Dexterity",
@@ -15409,14 +15409,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 147300,
+     "cp": 147354,
      "il": 2769
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 147300,
+   "cp": 147354,
    "il": 2769,
    "gear": [
     {
@@ -16156,10 +16156,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.6%"
+      "Attack increase +3.7%"
      ],
      "type": "STR",
-     "value": 36
+     "value": 37
     },
     {
      "name": "Dexterity",
@@ -17501,10 +17501,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Ursuss_01_V01.png",
-     "id": 1123,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Phaini_01.png",
+     "id": 1022,
      "level": 3,
-     "name": "Young Ursus"
+     "name": "Crasaur"
     },
     "wing": {
      "enchantLevel": 0,
@@ -33665,7 +33665,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 03:34 UTC",
+ "updated": "2026-11-12 04:01 UTC",
  "feed": [
   {
    "t": "2026-11-12 03:32",

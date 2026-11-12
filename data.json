@@ -15415,14 +15415,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 147872,
+     "cp": 148119,
      "il": 2771
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 147872,
+   "cp": 148119,
    "il": 2771,
    "gear": [
     {
@@ -16220,11 +16220,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +4.6%",
-      "Evasion increase +4.6%"
+      "Accuracy increase +4.8%",
+      "Evasion increase +4.8%"
      ],
      "type": "Freedom",
-     "value": 46
+     "value": 48
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -16265,11 +16265,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +3.8%",
-      "Regeneration Penetration +3.8%"
+      "Critical Hit increase +4.8%",
+      "Regeneration Penetration +4.8%"
      ],
      "type": "Death",
-     "value": 38
+     "value": 48
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -16292,11 +16292,11 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +4.6%",
-      "Block increase +4.6%"
+      "Move Speed +3.8%",
+      "Block increase +3.8%"
      ],
      "type": "Space",
-     "value": 46
+     "value": 38
     },
     {
      "name": "아이템레벨",
@@ -17381,7 +17381,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 7
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -17416,7 +17416,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_022.png",
       "id": 13280000,
       "name": "Spiral Slice",
@@ -29773,14 +29773,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 112487,
+     "cp": 112492,
      "il": 2479
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 112487,
+   "cp": 112492,
    "il": 2479,
    "gear": [
     {
@@ -30620,7 +30620,7 @@
     }
    ],
    "title": {
-    "ownedCount": 192,
+    "ownedCount": 193,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -30638,8 +30638,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 63,
-      "ownedPercent": 62,
+      "ownedCount": 64,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "Block +10"
@@ -31888,14 +31888,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 70632,
+     "cp": 72302,
      "il": 1274
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 70632,
+   "cp": 72302,
    "il": 1274,
    "gear": [
     {
@@ -32309,9 +32309,11 @@
     },
     {
      "name": "Constitution",
-     "statSecondList": null,
+     "statSecondList": [
+      "HP increase +0.8%"
+     ],
      "type": "CON",
-     "value": 0
+     "value": 8
     },
     {
      "name": "Precision",
@@ -32324,11 +32326,9 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": [
-      "Status Effect Resist +1.5%"
-     ],
+     "statSecondList": null,
      "type": "WIS",
-     "value": 15
+     "value": 0
     },
     {
      "name": "Justice [Nezekan]",
@@ -33423,7 +33423,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -33453,7 +33453,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -33653,8 +33653,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 22:04 UTC",
+ "updated": "2026-11-12 22:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 22:34",
+   "n": "RyBear",
+   "x": "skills up: Impact Hit 14"
+  },
+  {
+   "t": "2026-11-12 22:34",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-12 22:32",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Fang 9"
+  },
   {
    "t": "2026-11-12 22:04",
    "n": "uTril",
@@ -35139,21 +35154,6 @@
    "t": "2026-11-07 00:16",
    "n": "RyBear",
    "x": "new Liberator Bracelet +0"
-  },
-  {
-   "t": "2026-11-07 00:16",
-   "n": "RyBear",
-   "x": "new Chaser Bracelet +0"
-  },
-  {
-   "t": "2026-11-07 00:16",
-   "n": "RyBear",
-   "x": "6 new titles"
-  },
-  {
-   "t": "2026-11-07 00:14",
-   "n": "uTril",
-   "x": "new Nuakum Greaves +10"
   }
  ]
 }

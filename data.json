@@ -31882,14 +31882,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 70631,
+     "cp": 70632,
      "il": 1274
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 70631,
+   "cp": 70632,
    "il": 1274,
    "gear": [
     {
@@ -32422,7 +32422,7 @@
     }
    ],
    "title": {
-    "ownedCount": 171,
+    "ownedCount": 172,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -32440,8 +32440,8 @@
       "grade": "Unique",
       "id": 23010010,
       "name": "Encountering Zikel's Core",
-      "ownedCount": 53,
-      "ownedPercent": 52,
+      "ownedCount": 54,
+      "ownedPercent": 53,
       "statList": [
        {
         "desc": "HP +120"
@@ -33647,8 +33647,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 14:04 UTC",
+ "updated": "2026-11-12 14:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 14:34",
+   "n": "RyBear",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-12 14:04",
    "n": "RyBear",
@@ -35143,11 +35148,6 @@
    "t": "2026-11-06 23:35",
    "n": "RyBear",
    "x": "new Anguish Boots +0"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "new Anguish Ring +0"
   }
  ]
 }

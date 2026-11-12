@@ -29750,15 +29750,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 109507,
-     "il": 2413
+     "cp": 109144,
+     "il": 2423
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 109507,
-   "il": 2413,
+   "cp": 109144,
+   "il": 2423,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -29954,34 +29954,13 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Vakron Pauldrons",
+     "name": "Nuakum Pauldrons",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Shoulder.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Critical Hit",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ],
-      [
-       "Attack",
-       "+1",
-       "Common"
-      ],
-      [
-       "Evasion Bonus",
-       "+5",
-       "Common"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -30635,7 +30614,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2413
+     "value": 2423
     }
    ],
    "title": {
@@ -31614,7 +31593,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -31624,7 +31603,7 @@
       "id": 17720000,
       "name": "Empyrean Lords' Benediction",
       "needLevel": 6,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31654,7 +31633,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31664,7 +31643,7 @@
       "id": 17760000,
       "name": "Heal Block",
       "needLevel": 15,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31907,14 +31886,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 68956,
+     "cp": 69756,
      "il": 1274
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 68956,
+   "cp": 69756,
    "il": 1274,
    "gear": [
     {
@@ -33329,7 +33308,7 @@
       "id": 11290000,
       "name": "Mocking Blade",
       "needLevel": 3,
-      "skillLevel": 10
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -33379,7 +33358,7 @@
       "id": 11360000,
       "name": "Rush Strike",
       "needLevel": 10,
-      "skillLevel": 9
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -33429,7 +33408,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 11
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -33669,8 +33648,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 00:34 UTC",
+ "updated": "2026-11-12 01:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 01:04",
+   "n": "RyBear",
+   "x": "skills up: Rush Strike 12, Protection Armor 13"
+  },
+  {
+   "t": "2026-11-12 01:04",
+   "n": "uTril",
+   "x": "new Nuakum Pauldrons +10"
+  },
+  {
+   "t": "2026-11-12 01:04",
+   "n": "uTril",
+   "x": "skills up: Immortal Veil 15"
+  },
   {
    "t": "2026-11-12 00:34",
    "n": "RyBear",
@@ -35155,21 +35149,6 @@
    "t": "2026-11-06 15:04",
    "n": "CutieCatty",
    "x": "Nuakum Greaves +10 → +11"
-  },
-  {
-   "t": "2026-11-06 15:04",
-   "n": "CutieCatty",
-   "x": "Nuakum Gloves +11 → +12"
-  },
-  {
-   "t": "2026-11-06 08:34",
-   "n": "CuteCatty",
-   "x": "new Aulamus Ring +10"
-  },
-  {
-   "t": "2026-11-06 08:34",
-   "n": "CuteCatty",
-   "x": "skills up: Divine Aura 13, Healing Light 15, Bolt 12"
   }
  ]
 }

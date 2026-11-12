@@ -22544,14 +22544,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 25443,
+     "cp": 25444,
      "il": 450
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 24,
-   "cp": 25443,
+   "cp": 25444,
    "il": 450,
    "gear": [
     {
@@ -22991,7 +22991,7 @@
     }
    ],
    "title": {
-    "ownedCount": 42,
+    "ownedCount": 43,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -23003,8 +23003,8 @@
       "grade": "Rare",
       "id": 22010016,
       "name": "Shutting Down",
-      "ownedCount": 11,
-      "ownedPercent": 11,
+      "ownedCount": 12,
+      "ownedPercent": 12,
       "statList": [
        {
         "desc": "Evasion Bonus +5"
@@ -23724,14 +23724,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 43370,
+     "cp": 43371,
      "il": 799
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 43370,
+   "cp": 43371,
    "il": 799,
    "gear": [
     {
@@ -24126,7 +24126,7 @@
     }
    ],
    "title": {
-    "ownedCount": 52,
+    "ownedCount": 53,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -24141,8 +24141,8 @@
       "grade": "Legend",
       "id": 21020039,
       "name": "Worst of the Worst",
-      "ownedCount": 20,
-      "ownedPercent": 20,
+      "ownedCount": 21,
+      "ownedPercent": 21,
       "statList": [
        {
         "desc": "Natural MP Regen +5"
@@ -33644,8 +33644,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 09:04 UTC",
+ "updated": "2026-11-12 09:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 09:33",
+   "n": "Yorichi",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-12 09:33",
+   "n": "Taila",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-12 07:34",
    "n": "uTril",
@@ -35135,16 +35145,6 @@
    "t": "2026-11-06 23:35",
    "n": "RyBear",
    "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "opened 4 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "skills up: Overhead Slam 14, Ankle Slice 3, Rush Strike 11, Protection Armor 6 and 5 more"
   }
  ]
 }

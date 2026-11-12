@@ -94,14 +94,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 140025,
-     "il": 2676
+     "cp": 140203,
+     "il": 2679
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 140025,
-   "il": 2676,
+   "cp": 140203,
+   "il": 2679,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -969,7 +969,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2676
+     "value": 2679
     }
    ],
    "title": {
@@ -1099,8 +1099,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 1,
-      "openPercent": 1,
+      "openNodeCount": 4,
+      "openPercent": 3,
       "totalNodeCount": 152
      },
      {
@@ -1951,7 +1951,7 @@
      "8|6|Common|0|PvE Accuracy",
      "8|3|Common|0|Max HP",
      "8|9|Common|1|PvE Defense",
-     "8|10|Common|0|PvE Accuracy",
+     "8|10|Common|1|PvE Accuracy",
      "8|7|Common|0|PvE Defense",
      "8|8|Start|1|Ariel - Start",
      "8|13|Common|0|Max MP",
@@ -1962,8 +1962,8 @@
      "9|6|Common|0|Boss Defense",
      "9|4|Common|0|PvE Evasion",
      "9|5|Legend|0|Boss Damage Tolerance",
-     "9|10|Common|0|Boss Attack",
-     "9|11|Common|0|Boss Defense",
+     "9|10|Common|1|Boss Attack",
+     "9|11|Common|1|Boss Defense",
      "9|8|Common|0|PvE Attack",
      "9|14|Rare|0|PvE Attack, PvE Defense",
      "9|15|Common|0|Max HP",
@@ -33665,8 +33665,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 05:35 UTC",
+ "updated": "2026-11-12 06:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 06:01",
+   "n": "YasuoMain",
+   "x": "opened 3 Daevanion nodes"
+  },
   {
    "t": "2026-11-12 05:01",
    "n": "YasuoMain",
@@ -35161,11 +35166,6 @@
    "t": "2026-11-06 21:04",
    "n": "RyBear",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-06 21:04",
-   "n": "RyBear",
-   "x": "skills up: Sword Aura Rampage 13, Rush Strike 9, Zikel's Blessing 10"
   }
  ]
 }

@@ -31694,7 +31694,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_028.png",
       "id": 17290000,
       "name": "Absolution",
@@ -33644,7 +33644,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 10:34 UTC",
+ "updated": "2026-11-12 11:04 UTC",
  "feed": [
   {
    "t": "2026-11-12 09:33",

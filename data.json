@@ -15415,15 +15415,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 147573,
-     "il": 2770
+     "cp": 147872,
+     "il": 2771
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 147573,
-   "il": 2770,
+   "cp": 147872,
+   "il": 2771,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15737,7 +15737,7 @@
      "slotPosName": "Cape",
      "name": "Nuakum Cloak",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
@@ -16220,11 +16220,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +5.4%",
-      "Evasion increase +5.4%"
+      "Accuracy increase +4.6%",
+      "Evasion increase +4.6%"
      ],
      "type": "Freedom",
-     "value": 54
+     "value": 46
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -16265,11 +16265,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +3.6%",
-      "Regeneration Penetration +3.6%"
+      "Critical Hit increase +3.8%",
+      "Regeneration Penetration +3.8%"
      ],
      "type": "Death",
-     "value": 36
+     "value": 38
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -16292,17 +16292,17 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +3.6%",
-      "Block increase +3.6%"
+      "Move Speed +4.6%",
+      "Block increase +4.6%"
      ],
      "type": "Space",
-     "value": 36
+     "value": 46
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2770
+     "value": 2771
     }
    ],
    "title": {
@@ -26525,14 +26525,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 88219,
+     "cp": 90260,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 88219,
+   "cp": 90260,
    "il": 1785,
    "gear": [
     {
@@ -27329,7 +27329,7 @@
     }
    ],
    "title": {
-    "ownedCount": 194,
+    "ownedCount": 195,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -27372,8 +27372,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 63,
-      "ownedPercent": 64,
+      "ownedCount": 64,
+      "ownedPercent": 65,
       "statList": [
        {
         "desc": "MP +20"
@@ -28451,7 +28451,7 @@
       "id": 18330000,
       "name": "Marchutan's Wrath",
       "needLevel": 22,
-      "skillLevel": 13
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -28491,7 +28491,7 @@
       "id": 18250000,
       "name": "Power of the Storm",
       "needLevel": 22,
-      "skillLevel": 11
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -28535,9 +28535,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
-     "id": 40200100,
-     "name": "Ultimate Daeva Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingE_002.png",
+     "id": 40500200,
+     "name": "Ancient Aullaeu Wings"
     },
     "wingSkin": {
      "enchantLevel": null,
@@ -29773,15 +29773,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 111825,
-     "il": 2469
+     "cp": 112487,
+     "il": 2479
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 111825,
-   "il": 2469,
+   "cp": 112487,
+   "il": 2479,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30216,32 +30216,32 @@
     },
     {
      "slotPosName": "Ring2",
-     "name": "Aulamus Ring",
+     "name": "Enraged Kromede Ring",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+30",
+       "Accuracy Bonus",
+       "+7",
        "Rare"
+      ],
+      [
+       "MP",
+       "+50",
+       "Legend"
+      ],
+      [
+       "MP",
+       "+50",
+       "Legend"
       ],
       [
        "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
+       "+50",
+       "Legend"
       ]
      ],
      "godSlots": 0,
@@ -30508,11 +30508,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.9%",
-      "Critical Hit increase +1.9%"
+      "Accuracy increase +1.2%",
+      "Critical Hit increase +1.2%"
      ],
      "type": "AGI",
-     "value": 19
+     "value": 12
     },
     {
      "name": "Willpower",
@@ -30616,7 +30616,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2469
+     "value": 2479
     }
    ],
    "title": {
@@ -33653,8 +33653,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 21:34 UTC",
+ "updated": "2026-11-12 22:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 22:04",
+   "n": "uTril",
+   "x": "new Enraged Kromede Ring +10"
+  },
+  {
+   "t": "2026-11-12 22:03",
+   "n": "iLen",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-12 22:03",
+   "n": "iLen",
+   "x": "skills up: Power of the Storm 15"
+  },
+  {
+   "t": "2026-11-12 22:02",
+   "n": "DeathRunner",
+   "x": "Nuakum Cloak +12 → +13"
+  },
   {
    "t": "2026-11-12 16:34",
    "n": "CuteCatty",
@@ -35134,26 +35154,6 @@
    "t": "2026-11-07 00:14",
    "n": "uTril",
    "x": "new Nuakum Greaves +10"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "reached level 45"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "new Spiritforged Greatsword +0"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "new Anguish Guard +0"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "new Anguish Breastplate +0"
   }
  ]
 }

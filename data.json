@@ -2293,13 +2293,13 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 84418,
+     "cp": 85264,
      "il": 1865
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 84418,
+   "cp": 85264,
    "il": 1865,
    "gear": [
     {
@@ -3083,7 +3083,7 @@
     }
    ],
    "title": {
-    "ownedCount": 177,
+    "ownedCount": 181,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -3114,20 +3114,23 @@
       "equipCategory": "Attack",
       "equipStatList": [
        {
-        "desc": "PvE Damage Boost +3%"
+        "desc": "PvE Damage Boost +4.5%"
        },
        {
-        "desc": "Penetration +210"
+        "desc": "Attack Bonus +34"
+       },
+       {
+        "desc": "Critical Hit +68"
        }
       ],
-      "grade": "Legend",
-      "id": 22030002,
-      "name": "Guardian of Altgard",
-      "ownedCount": 60,
-      "ownedPercent": 57,
+      "grade": "Unique",
+      "id": 23010021,
+      "name": "Unbound by Genus",
+      "ownedCount": 61,
+      "ownedPercent": 58,
       "statList": [
        {
-        "desc": "PvE Attack +4"
+        "desc": "PvE Damage Boost +1%"
        }
       ],
       "totalCount": 106
@@ -3148,8 +3151,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 58,
-      "ownedPercent": 59,
+      "ownedCount": 61,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -4390,14 +4393,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 78382,
+     "cp": 79328,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 78382,
+   "cp": 79328,
    "il": 1785,
    "gear": [
     {
@@ -5213,28 +5216,6 @@
     "ownedCount": 190,
     "titleList": [
      {
-      "equipCategory": "Attack",
-      "equipStatList": [
-       {
-        "desc": "Attack Bonus +20"
-       },
-       {
-        "desc": "Back Attack Critical Hit +50"
-       }
-      ],
-      "grade": "Legend",
-      "id": 21020046,
-      "name": "Even Better",
-      "ownedCount": 64,
-      "ownedPercent": 60,
-      "statList": [
-       {
-        "desc": "HP Potion Recovery increase +2%"
-       }
-      ],
-      "totalCount": 106
-     },
-     {
       "equipCategory": "Etc",
       "equipStatList": [
        {
@@ -5283,6 +5264,31 @@
        }
       ],
       "totalCount": 99
+     },
+     {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "PvE Damage Boost +4.5%"
+       },
+       {
+        "desc": "Attack Bonus +34"
+       },
+       {
+        "desc": "Critical Hit +68"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010021,
+      "name": "Unbound by Genus",
+      "ownedCount": 64,
+      "ownedPercent": 60,
+      "statList": [
+       {
+        "desc": "PvE Damage Boost +1%"
+       }
+      ],
+      "totalCount": 106
      }
     ],
     "totalCount": 307
@@ -33647,8 +33653,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 15:04 UTC",
+ "updated": "2026-11-12 15:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 15:31",
+   "n": "YasuoMain16",
+   "x": "4 new titles"
+  },
   {
    "t": "2026-11-12 15:01",
    "n": "YasuoMain",
@@ -35143,11 +35154,6 @@
    "t": "2026-11-06 23:35",
    "n": "RyBear",
    "x": "new Liberator Pauldrons +0"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "new Bakarma Gloves +10"
   }
  ]
 }

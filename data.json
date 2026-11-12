@@ -1369,7 +1369,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -15415,14 +15415,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 148219,
+     "cp": 146419,
      "il": 2771
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 148219,
+   "cp": 146419,
    "il": 2771,
    "gear": [
     {
@@ -17376,7 +17376,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_025.png",
       "id": 13270000,
       "name": "Savage Fang",
@@ -17404,9 +17404,9 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_024.png",
       "id": 13080000,
       "name": "Evasion Stance",
@@ -17522,9 +17522,9 @@
     "wingSkin": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingD_003.png",
-     "id": 40400300,
-     "name": "Radiant Love Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     }
    },
    "pcId": 19,
@@ -33632,7 +33632,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 23:05 UTC",
+ "updated": "2026-11-12 23:34 UTC",
  "feed": [
   {
    "t": "2026-11-12 23:04",

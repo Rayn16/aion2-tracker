@@ -31882,14 +31882,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 69007,
+     "cp": 70631,
      "il": 1274
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 69007,
+   "cp": 70631,
    "il": 1274,
    "gear": [
     {
@@ -32336,29 +32336,29 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2%",
-      "Evasion increase +2%"
+      "Accuracy increase +2.8%",
+      "Evasion increase +2.8%"
      ],
      "type": "Freedom",
-     "value": 20
+     "value": 28
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.9%",
-      "Endurance Penetration +0.9%"
+      "Cooldown -1.1%",
+      "Endurance Penetration +1.1%"
      ],
      "type": "Illusion",
-     "value": 9
+     "value": 11
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.3%",
-      "Regeneration +1.3%"
+      "HP increase +1.5%",
+      "Regeneration +1.5%"
      ],
      "type": "Life",
-     "value": 13
+     "value": 15
     },
     {
      "name": "Time [Siel]",
@@ -32381,11 +32381,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +2.8%",
-      "Regeneration Penetration +2.8%"
+      "Critical Hit increase +4.6%",
+      "Regeneration Penetration +4.6%"
      ],
      "type": "Death",
-     "value": 28
+     "value": 46
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -32408,11 +32408,11 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +1.4%",
-      "Block increase +1.4%"
+      "Move Speed +3.6%",
+      "Block increase +3.6%"
      ],
      "type": "Space",
-     "value": 14
+     "value": 36
     },
     {
      "name": "아이템레벨",
@@ -32422,30 +32422,8 @@
     }
    ],
    "title": {
-    "ownedCount": 167,
+    "ownedCount": 171,
     "titleList": [
-     {
-      "equipCategory": "Attack",
-      "equipStatList": [
-       {
-        "desc": "PvE Damage Boost +3%"
-       },
-       {
-        "desc": "Penetration +210"
-       }
-      ],
-      "grade": "Legend",
-      "id": 22030002,
-      "name": "Guardian of Altgard",
-      "ownedCount": 57,
-      "ownedPercent": 54,
-      "statList": [
-       {
-        "desc": "PvE Attack +4"
-       }
-      ],
-      "totalCount": 106
-     },
      {
       "equipCategory": "Etc",
       "equipStatList": [
@@ -32472,6 +32450,31 @@
       "totalCount": 102
      },
      {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "PvE Damage Boost +4.5%"
+       },
+       {
+        "desc": "Attack Bonus +34"
+       },
+       {
+        "desc": "Critical Hit +68"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010021,
+      "name": "Unbound by Genus",
+      "ownedCount": 58,
+      "ownedPercent": 55,
+      "statList": [
+       {
+        "desc": "PvE Damage Boost +1%"
+       }
+      ],
+      "totalCount": 106
+     },
+     {
       "equipCategory": "Defense",
       "equipStatList": [
        {
@@ -32487,8 +32490,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 57,
-      "ownedPercent": 58,
+      "ownedCount": 60,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -33644,8 +33647,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 13:34 UTC",
+ "updated": "2026-11-12 14:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 14:04",
+   "n": "RyBear",
+   "x": "4 new titles"
+  },
   {
    "t": "2026-11-12 09:33",
    "n": "Yorichi",
@@ -35140,11 +35148,6 @@
    "t": "2026-11-06 23:35",
    "n": "RyBear",
    "x": "new Anguish Ring +0"
-  },
-  {
-   "t": "2026-11-06 23:35",
-   "n": "RyBear",
-   "x": "4 new titles"
   }
  ]
 }

@@ -15409,15 +15409,15 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 146986,
-     "il": 2750
+     "cp": 147063,
+     "il": 2766
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146986,
-   "il": 2750,
+   "cp": 147063,
+   "il": 2766,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15729,32 +15729,32 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Vakron Cloak",
+     "name": "Nuakum Cloak",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Cape.png",
+     "enchantLevel": 11,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
-       "+6",
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+10",
        "Common"
       ],
       [
        "MP",
-       "+23",
+       "+15",
        "Common"
       ],
       [
-       "Evasion Bonus",
-       "+9",
-       "Rare"
-      ],
-      [
-       "Block",
-       "+13",
-       "Rare"
+       "Critical Hit Resist",
+       "+5",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -16296,7 +16296,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2750
+     "value": 2766
     }
    ],
    "title": {
@@ -33665,8 +33665,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 02:35 UTC",
+ "updated": "2026-11-12 03:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 03:02",
+   "n": "DeathRunner",
+   "x": "new Nuakum Cloak +11"
+  },
   {
    "t": "2026-11-12 02:33",
    "n": "DeathRunner",
@@ -35161,11 +35166,6 @@
    "t": "2026-11-06 20:34",
    "n": "RyBear",
    "x": "7 new titles"
-  },
-  {
-   "t": "2026-11-06 20:34",
-   "n": "RyBear",
-   "x": "opened 17 Daevanion nodes"
   }
  ]
 }

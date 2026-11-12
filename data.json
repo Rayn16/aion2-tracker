@@ -15392,14 +15392,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 147280,
+     "cp": 122080,
      "il": 2750
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 147280,
+   "cp": 122080,
    "il": 2750,
    "gear": [
     {
@@ -17358,7 +17358,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -33648,8 +33648,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 01:34 UTC",
+ "updated": "2026-11-12 02:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 02:02",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Fang 7"
+  },
   {
    "t": "2026-11-12 01:04",
    "n": "RyBear",
@@ -35144,11 +35149,6 @@
    "t": "2026-11-06 15:04",
    "n": "CutieCatty",
    "x": "Nuakum Guard +10 → +13"
-  },
-  {
-   "t": "2026-11-06 15:04",
-   "n": "CutieCatty",
-   "x": "Nuakum Greaves +10 → +11"
   }
  ]
 }

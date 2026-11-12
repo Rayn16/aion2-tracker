@@ -94,13 +94,13 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 140425,
+     "cp": 140018,
      "il": 2676
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 140425,
+   "cp": 140018,
    "il": 2676,
    "gear": [
     {
@@ -973,7 +973,7 @@
     }
    ],
    "title": {
-    "ownedCount": 204,
+    "ownedCount": 208,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -1001,6 +1001,31 @@
       "totalCount": 102
      },
      {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "PvE Damage Boost +4.5%"
+       },
+       {
+        "desc": "Attack Bonus +34"
+       },
+       {
+        "desc": "Critical Hit +68"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010021,
+      "name": "Unbound by Genus",
+      "ownedCount": 68,
+      "ownedPercent": 64,
+      "statList": [
+       {
+        "desc": "PvE Damage Boost +1%"
+       }
+      ],
+      "totalCount": 106
+     },
+     {
       "equipCategory": "Defense",
       "equipStatList": [
        {
@@ -1016,39 +1041,14 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 72,
-      "ownedPercent": 73,
+      "ownedCount": 75,
+      "ownedPercent": 76,
       "statList": [
        {
         "desc": "Move Speed +1%"
        }
       ],
       "totalCount": 99
-     },
-     {
-      "equipCategory": "Attack",
-      "equipStatList": [
-       {
-        "desc": "Critical Attack +45"
-       },
-       {
-        "desc": "Critical Damage Boost +3%"
-       },
-       {
-        "desc": "Accuracy Bonus +60"
-       }
-      ],
-      "grade": "Unique",
-      "id": 23050017,
-      "name": "Golden Glow",
-      "ownedCount": 67,
-      "ownedPercent": 63,
-      "statList": [
-       {
-        "desc": "Critical Attack +3"
-       }
-      ],
-      "totalCount": 106
      }
     ],
     "totalCount": 307
@@ -15409,14 +15409,14 @@
     },
     {
      "date": "2026-11-12",
-     "cp": 147571,
+     "cp": 147573,
      "il": 2770
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 147571,
+   "cp": 147573,
    "il": 2770,
    "gear": [
     {
@@ -17240,7 +17240,7 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_020.png",
       "id": 13220000,
       "name": "Shadow Fall",
@@ -33665,8 +33665,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 04:34 UTC",
+ "updated": "2026-11-12 05:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-12 05:01",
+   "n": "YasuoMain",
+   "x": "4 new titles"
+  },
   {
    "t": "2026-11-12 04:32",
    "n": "DeathRunner",
@@ -35161,11 +35166,6 @@
    "t": "2026-11-06 21:04",
    "n": "RyBear",
    "x": "skills up: Sword Aura Rampage 13, Rush Strike 9, Zikel's Blessing 10"
-  },
-  {
-   "t": "2026-11-06 20:34",
-   "n": "RyBear",
-   "x": "reached level 44"
   }
  ]
 }

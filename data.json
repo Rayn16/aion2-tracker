@@ -34758,14 +34758,14 @@
    "history": [
     {
      "date": "2026-11-13",
-     "cp": 25266,
+     "cp": 25299,
      "il": 420
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 29,
-   "cp": 25266,
+   "cp": 25299,
    "il": 420,
    "gear": [
     {
@@ -35167,7 +35167,7 @@
     }
    ],
    "title": {
-    "ownedCount": 71,
+    "ownedCount": 74,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -35175,8 +35175,8 @@
       "grade": null,
       "id": null,
       "name": null,
-      "ownedCount": 17,
-      "ownedPercent": 17,
+      "ownedCount": 18,
+      "ownedPercent": 18,
       "statList": null,
       "totalCount": 102
      },
@@ -35186,8 +35186,8 @@
       "grade": null,
       "id": null,
       "name": null,
-      "ownedCount": 29,
-      "ownedPercent": 27,
+      "ownedCount": 31,
+      "ownedPercent": 29,
       "statList": null,
       "totalCount": 106
      },
@@ -35830,8 +35830,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 23:05 UTC",
+ "updated": "2026-11-13 23:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 23:35",
+   "n": "YasuoMain8",
+   "x": "3 new titles"
+  },
   {
    "t": "2026-11-13 20:03",
    "n": "iLen",
@@ -37326,11 +37331,6 @@
    "t": "2026-11-07 08:04",
    "n": "RyBear",
    "x": "opened 3 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-07 08:04",
-   "n": "RyBear",
-   "x": "skills up: Identify Weakness 15"
   }
  ]
 }

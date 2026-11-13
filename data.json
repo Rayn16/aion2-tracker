@@ -29879,14 +29879,14 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 114746,
+     "cp": 115946,
      "il": 2586
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 114746,
+   "cp": 115946,
    "il": 2586,
    "gear": [
     {
@@ -31841,7 +31841,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -31851,7 +31851,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 0,
@@ -31921,7 +31921,7 @@
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 4
+      "skillLevel": 6
      }
     ]
    },
@@ -33764,8 +33764,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 10:34 UTC",
+ "updated": "2026-11-13 11:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 11:04",
+   "n": "uTril",
+   "x": "skills up: Earth Punishment 11, Noble Aura 6"
+  },
   {
    "t": "2026-11-13 10:34",
    "n": "uTril",
@@ -35260,11 +35265,6 @@
    "t": "2026-11-07 06:04",
    "n": "uTril",
    "x": "skills up: Light of Protection 19"
-  },
-  {
-   "t": "2026-11-07 06:02",
-   "n": "DeathRunner",
-   "x": "skills up: Whirlwind Slice 10"
   }
  ]
 }

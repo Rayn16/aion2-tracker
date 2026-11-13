@@ -15455,15 +15455,15 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 149209,
-     "il": 2774
+     "cp": 149945,
+     "il": 2776
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 149209,
-   "il": 2774,
+   "cp": 149945,
+   "il": 2776,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16161,7 +16161,7 @@
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -16260,11 +16260,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +4.8%",
-      "Evasion increase +4.8%"
+      "Accuracy increase +5%",
+      "Evasion increase +5%"
      ],
      "type": "Freedom",
-     "value": 48
+     "value": 50
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -16342,7 +16342,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2774
+     "value": 2776
     }
    ],
    "title": {
@@ -17211,7 +17211,7 @@
       "id": 13100000,
       "name": "Savage Roar",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -17311,7 +17311,7 @@
       "id": 13260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -17555,9 +17555,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
-     "id": 40201900,
-     "name": "Dark Veil Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -29858,15 +29858,15 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 112932,
-     "il": 2488
+     "cp": 112889,
+     "il": 2521
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 112932,
-   "il": 2488,
+   "cp": 112889,
+   "il": 2521,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30531,11 +30531,11 @@
     },
     {
      "slotPosName": "Arcana4",
-     "name": "Bell of Magic",
-     "grade": "Legend",
+     "name": "Bell of Vigor",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
-     "max": 4,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -30610,11 +30610,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4.1%",
-      "Perfect Chance +4.1%"
+      "Defense increase +6.1%",
+      "Perfect Chance +6.1%"
      ],
      "type": "Justice",
-     "value": 41
+     "value": 61
     },
     {
      "name": "Freedom [Vaizel]",
@@ -30655,11 +30655,11 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +2.2%",
-      "Perfect Resist +2.2%"
+      "Attack increase +0.6%",
+      "Perfect Resist +0.6%"
      ],
      "type": "Destruction",
-     "value": 22
+     "value": 6
     },
     {
      "name": "Death [Triniel]",
@@ -30701,7 +30701,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2488
+     "value": 2521
     }
    ],
    "title": {
@@ -31680,7 +31680,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -31700,7 +31700,7 @@
       "id": 17730000,
       "name": "Empyrean Lord's Grace",
       "needLevel": 9,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31720,7 +31720,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -33743,8 +33743,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 01:34 UTC",
+ "updated": "2026-11-13 02:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 02:04",
+   "n": "uTril",
+   "x": "new Bell of Vigor +0"
+  },
+  {
+   "t": "2026-11-13 02:04",
+   "n": "uTril",
+   "x": "skills up: Warm Benediction 17, Immortal Veil 15"
+  },
+  {
+   "t": "2026-11-13 02:02",
+   "n": "DeathRunner",
+   "x": "Compass of Vigor +0 → +2"
+  },
+  {
+   "t": "2026-11-13 02:02",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Roar 16, Defiance 4"
+  },
   {
    "t": "2026-11-13 01:33",
    "n": "uTril",
@@ -35224,26 +35244,6 @@
    "t": "2026-11-07 02:13",
    "n": "YasuoMain",
    "x": "Nuakum Cloak +11 → +15"
-  },
-  {
-   "t": "2026-11-07 02:13",
-   "n": "YasuoMain",
-   "x": "skills up: Survival Stance 16"
-  },
-  {
-   "t": "2026-11-07 02:04",
-   "n": "CutieCatty",
-   "x": "new Parchment of Magic +0"
-  },
-  {
-   "t": "2026-11-07 02:04",
-   "n": "CutieCatty",
-   "x": "skills up: Onslaught 16, Rushing Smash 15"
-  },
-  {
-   "t": "2026-11-07 02:01",
-   "n": "YasuoMain",
-   "x": "new Mirror of Magic +0"
   }
  ]
 }

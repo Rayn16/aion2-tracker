@@ -25738,20 +25738,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.2%"
+      "Attack increase +1.3%"
      ],
      "type": "STR",
-     "value": 12
+     "value": 13
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.4%",
-      "Block increase +0.4%",
-      "Critical Hit Resist increase +0.4%"
+      "Evasion increase +0.8%",
+      "Block increase +0.8%",
+      "Critical Hit Resist increase +0.8%"
      ],
      "type": "DEX",
-     "value": 4
+     "value": 8
     },
     {
      "name": "Intelligence",
@@ -26621,14 +26621,14 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 91598,
+     "cp": 83410,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91598,
+   "cp": 83410,
    "il": 1785,
    "gear": [
     {
@@ -27281,20 +27281,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.2%"
+      "Attack increase +2.3%"
      ],
      "type": "STR",
-     "value": 22
+     "value": 23
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.3%",
-      "Block increase +1.3%",
-      "Critical Hit Resist increase +1.3%"
+      "Evasion increase +1.7%",
+      "Block increase +1.7%",
+      "Critical Hit Resist increase +1.7%"
      ],
      "type": "DEX",
-     "value": 13
+     "value": 17
     },
     {
      "name": "Intelligence",
@@ -27425,7 +27425,7 @@
     }
    ],
    "title": {
-    "ownedCount": 198,
+    "ownedCount": 199,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -27443,8 +27443,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 68,
-      "ownedPercent": 67,
+      "ownedCount": 69,
+      "ownedPercent": 68,
       "statList": [
        {
         "desc": "Block +10"
@@ -28631,16 +28631,16 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingE_002.png",
+     "id": 40500200,
+     "name": "Ancient Aullaeu Wings"
+    },
+    "wingSkin": {
+     "enchantLevel": 0,
+     "grade": "Unique",
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
      "id": 40200100,
      "name": "Ultimate Daeva Wings"
-    },
-    "wingSkin": {
-     "enchantLevel": null,
-     "grade": null,
-     "icon": null,
-     "id": null,
-     "name": null
     }
    },
    "pcId": 36,
@@ -35828,8 +35828,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 18:05 UTC",
+ "updated": "2026-11-13 19:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 19:04",
+   "n": "iLen",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-13 16:03",
    "n": "iLen",
@@ -37324,11 +37329,6 @@
    "t": "2026-11-07 07:04",
    "n": "RyBear",
    "x": "new Avenger Bracelet +0"
-  },
-  {
-   "t": "2026-11-07 07:04",
-   "n": "RyBear",
-   "x": "1 new title"
   }
  ]
 }

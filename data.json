@@ -6542,15 +6542,15 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 128196,
-     "il": 2624
+     "cp": 128213,
+     "il": 2625
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 128196,
-   "il": 2624,
+   "cp": 128213,
+   "il": 2625,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7409,7 +7409,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2624
+     "value": 2625
     }
    ],
    "title": {
@@ -7539,8 +7539,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 2,
-      "openPercent": 1,
+      "openNodeCount": 3,
+      "openPercent": 2,
       "totalNodeCount": 152
      },
      {
@@ -8011,7 +8011,7 @@
      "6|12|Common|0|PvE Attack",
      "6|6|Legend|0|Critical Hit",
      "6|7|Common|0|PvE Evasion",
-     "6|8|Common|0|Max HP",
+     "6|8|Common|1|Max HP",
      "8|3|Common|0|Max HP",
      "8|6|Common|0|PvE Accuracy",
      "7|14|Rare|0|PvE Accuracy, PvE Evasion",
@@ -29879,14 +29879,14 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 115946,
+     "cp": 115972,
      "il": 2586
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 115946,
+   "cp": 115972,
    "il": 2586,
    "gear": [
     {
@@ -33764,8 +33764,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 11:05 UTC",
+ "updated": "2026-11-13 11:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 11:34",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-13 11:04",
    "n": "uTril",
@@ -35260,11 +35265,6 @@
    "t": "2026-11-07 06:34",
    "n": "RyBear",
    "x": "skills up: Mocking Blade 8, Protection Armor 11"
-  },
-  {
-   "t": "2026-11-07 06:04",
-   "n": "uTril",
-   "x": "skills up: Light of Protection 19"
   }
  ]
 }

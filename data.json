@@ -15455,15 +15455,15 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 149512,
-     "il": 2777
+     "cp": 149525,
+     "il": 2778
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 149512,
-   "il": 2777,
+   "cp": 149525,
+   "il": 2778,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15701,7 +15701,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -16342,7 +16342,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2777
+     "value": 2778
     }
    ],
    "title": {
@@ -29858,15 +29858,15 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 113612,
-     "il": 2579
+     "cp": 114546,
+     "il": 2586
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 113612,
-   "il": 2579,
+   "cp": 114546,
+   "il": 2586,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30494,9 +30494,9 @@
      "slotPosName": "Arcana1",
      "name": "Chalice of Magic",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_DefenceSet2.png",
-     "max": 4,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -30507,7 +30507,7 @@
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -30637,11 +30637,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +3.9%",
-      "Regeneration +3.9%"
+      "HP increase +4.2%",
+      "Regeneration +4.2%"
      ],
      "type": "Life",
-     "value": 39
+     "value": 42
     },
     {
      "name": "Time [Siel]",
@@ -30691,17 +30691,17 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +5.6%",
-      "Block increase +5.6%"
+      "Move Speed +6%",
+      "Block increase +6%"
      ],
      "type": "Space",
-     "value": 56
+     "value": 60
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2579
+     "value": 2586
     }
    ],
    "title": {
@@ -31560,7 +31560,7 @@
       "id": 17010000,
       "name": "Earth's Retribution",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31600,7 +31600,7 @@
       "id": 17070000,
       "name": "Chain of Torment",
       "needLevel": 4,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -31630,7 +31630,7 @@
       "id": 17350000,
       "name": "Condemnation",
       "needLevel": 8,
-      "skillLevel": 16
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -31650,7 +31650,7 @@
       "id": 17120000,
       "name": "Radiant Recovery",
       "needLevel": 12,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31740,7 +31740,7 @@
       "id": 17770000,
       "name": "Prayer of Concentration",
       "needLevel": 17,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -31760,7 +31760,7 @@
       "id": 17790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -33743,8 +33743,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 02:34 UTC",
+ "updated": "2026-11-13 03:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 03:04",
+   "n": "uTril",
+   "x": "Chalice of Magic +0 → +4"
+  },
+  {
+   "t": "2026-11-13 03:04",
+   "n": "uTril",
+   "x": "Parchment of Vigor +0 → +3"
+  },
+  {
+   "t": "2026-11-13 03:04",
+   "n": "uTril",
+   "x": "skills up: Earth's Retribution 15, Chain of Torment 17, Condemnation 18, Radiant Recovery 13 and 2 more"
+  },
+  {
+   "t": "2026-11-13 03:02",
+   "n": "DeathRunner",
+   "x": "Nuakum Gloves +13 → +14"
+  },
   {
    "t": "2026-11-13 02:34",
    "n": "uTril",
@@ -35224,26 +35244,6 @@
    "t": "2026-11-07 03:32",
    "n": "DeathRunner",
    "x": "Bell of Vigor +0 → +1"
-  },
-  {
-   "t": "2026-11-07 03:32",
-   "n": "DeathRunner",
-   "x": "skills up: Heart Gore 18, Ambush Stance 17"
-  },
-  {
-   "t": "2026-11-07 03:31",
-   "n": "YasuoMain",
-   "x": "Parchment of Vigor +1 → +3"
-  },
-  {
-   "t": "2026-11-07 03:31",
-   "n": "YasuoMain",
-   "x": "new Mirror of Vigor +0"
-  },
-  {
-   "t": "2026-11-07 03:31",
-   "n": "YasuoMain",
-   "x": "skills up: Leaping Slam 14, Mocking Blade 14, Overhead Slam 18, Survival Willpower 19 and 1 more"
   }
  ]
 }

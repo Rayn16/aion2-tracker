@@ -25746,12 +25746,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.2%",
-      "Block increase +0.2%",
-      "Critical Hit Resist increase +0.2%"
+      "Evasion increase +0.4%",
+      "Block increase +0.4%",
+      "Critical Hit Resist increase +0.4%"
      ],
      "type": "DEX",
-     "value": 2
+     "value": 4
     },
     {
      "name": "Intelligence",
@@ -25762,19 +25762,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +0.6%"
+      "HP increase +0.7%"
      ],
      "type": "CON",
-     "value": 6
+     "value": 7
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.6%",
-      "Critical Hit increase +1.6%"
+      "Accuracy increase +1.9%",
+      "Critical Hit increase +1.9%"
      ],
      "type": "AGI",
-     "value": 16
+     "value": 19
     },
     {
      "name": "Willpower",
@@ -26621,14 +26621,14 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 90407,
+     "cp": 90929,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 90407,
+   "cp": 90929,
    "il": 1785,
    "gear": [
     {
@@ -27289,12 +27289,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.1%",
-      "Block increase +1.1%",
-      "Critical Hit Resist increase +1.1%"
+      "Evasion increase +1.3%",
+      "Block increase +1.3%",
+      "Critical Hit Resist increase +1.3%"
      ],
      "type": "DEX",
-     "value": 11
+     "value": 13
     },
     {
      "name": "Intelligence",
@@ -27305,19 +27305,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.9%"
+      "HP increase +2%"
      ],
      "type": "CON",
-     "value": 19
+     "value": 20
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.1%",
-      "Critical Hit increase +0.1%"
+      "Accuracy increase +0.4%",
+      "Critical Hit increase +0.4%"
      ],
      "type": "AGI",
-     "value": 1
+     "value": 4
     },
     {
      "name": "Willpower",
@@ -27425,7 +27425,7 @@
     }
    ],
    "title": {
-    "ownedCount": 195,
+    "ownedCount": 197,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -27443,8 +27443,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 66,
-      "ownedPercent": 65,
+      "ownedCount": 68,
+      "ownedPercent": 67,
       "statList": [
        {
         "desc": "Block +10"
@@ -28547,7 +28547,7 @@
       "id": 18330000,
       "name": "Marchutan's Wrath",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -33762,10 +33762,2084 @@
    },
    "pcId": 8,
    "race": 2
+  },
+  "YasuoMain4": {
+   "history": [
+    {
+     "date": "2026-11-13",
+     "cp": 17820,
+     "il": 201
+    }
+   ],
+   "server": "Tassin",
+   "owner": "Rayan1000RR#KING",
+   "level": 21,
+   "cp": 17820,
+   "il": 201,
+   "gear": [
+    {
+     "slotPosName": "MainHand",
+     "name": "Strange Karma Staff",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0014_T03.png",
+     "max": 5,
+     "slots": 2,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "SubHand",
+     "name": "Strange Karma Guard",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_012.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Torso",
+     "name": "Old Mercenary Commander Breastplate",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Torso.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Pants",
+     "name": "Old Mercenary Commander Greaves",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Pants.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Helmet",
+     "name": "Old Mercenary Commander Helm",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Helmet.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Shoulder",
+     "name": "Old Mercenary Commander Pauldrons",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Shoulder.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Gloves",
+     "name": "Old Mercenary Commander Gloves",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Gloves.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Boots",
+     "name": "Old Mercenary Commander Boots",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Boots.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Cape",
+     "name": "Old Mercenary Commander Cloak",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Cape.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Belt",
+     "name": "Noble Belt",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_018.png",
+     "max": 10,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Ring1",
+     "name": "Old Mercenary Commander Ring",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    }
+   ],
+   "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898986801",
+   "stats": [
+    {
+     "name": "Might",
+     "statSecondList": [
+      "Attack increase +0.2%"
+     ],
+     "type": "STR",
+     "value": 2
+    },
+    {
+     "name": "Dexterity",
+     "statSecondList": null,
+     "type": "DEX",
+     "value": 0
+    },
+    {
+     "name": "Intelligence",
+     "statSecondList": null,
+     "type": "INT",
+     "value": 0
+    },
+    {
+     "name": "Constitution",
+     "statSecondList": null,
+     "type": "CON",
+     "value": 0
+    },
+    {
+     "name": "Precision",
+     "statSecondList": null,
+     "type": "AGI",
+     "value": 0
+    },
+    {
+     "name": "Willpower",
+     "statSecondList": null,
+     "type": "WIS",
+     "value": 0
+    },
+    {
+     "name": "Justice [Nezekan]",
+     "statSecondList": null,
+     "type": "Justice",
+     "value": 0
+    },
+    {
+     "name": "Freedom [Vaizel]",
+     "statSecondList": null,
+     "type": "Freedom",
+     "value": 0
+    },
+    {
+     "name": "Illusion [Kaisinel]",
+     "statSecondList": null,
+     "type": "Illusion",
+     "value": 0
+    },
+    {
+     "name": "Life [Yustiel]",
+     "statSecondList": null,
+     "type": "Life",
+     "value": 0
+    },
+    {
+     "name": "Time [Siel]",
+     "statSecondList": null,
+     "type": "Time",
+     "value": 0
+    },
+    {
+     "name": "Destruction [Zikel]",
+     "statSecondList": null,
+     "type": "Destruction",
+     "value": 0
+    },
+    {
+     "name": "Death [Triniel]",
+     "statSecondList": null,
+     "type": "Death",
+     "value": 0
+    },
+    {
+     "name": "Wisdom [Lumiel]",
+     "statSecondList": null,
+     "type": "Wisdom",
+     "value": 0
+    },
+    {
+     "name": "Destiny [Marchutan]",
+     "statSecondList": null,
+     "type": "Destiny",
+     "value": 0
+    },
+    {
+     "name": "Space [Israphel]",
+     "statSecondList": null,
+     "type": "Space",
+     "value": 0
+    },
+    {
+     "name": "아이템레벨",
+     "statSecondList": null,
+     "type": "ItemLevel",
+     "value": 201
+    }
+   ],
+   "title": {
+    "ownedCount": 51,
+    "titleList": [
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "MP +260"
+       },
+       {
+        "desc": "Natural MP Regen +17"
+       }
+      ],
+      "grade": "Legend",
+      "id": 23010019,
+      "name": "Varian to the Bone",
+      "ownedCount": 13,
+      "ownedPercent": 13,
+      "statList": [
+       {
+        "desc": "Back Attack Critical Hit +10"
+       }
+      ],
+      "totalCount": 102
+     },
+     {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "PvE Damage Boost +4.5%"
+       },
+       {
+        "desc": "Attack Bonus +34"
+       },
+       {
+        "desc": "Critical Hit +68"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010021,
+      "name": "Unbound by Genus",
+      "ownedCount": 19,
+      "ownedPercent": 18,
+      "statList": [
+       {
+        "desc": "PvE Damage Boost +1%"
+       }
+      ],
+      "totalCount": 106
+     },
+     {
+      "equipCategory": "Defense",
+      "equipStatList": [
+       {
+        "desc": "Defense Bonus +320"
+       },
+       {
+        "desc": "Back Attack Damage Tolerance +3%"
+       },
+       {
+        "desc": "Boss Damage Tolerance +4%"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010025,
+      "name": "Rule All Creation",
+      "ownedCount": 19,
+      "ownedPercent": 19,
+      "statList": [
+       {
+        "desc": "Move Speed +1%"
+       }
+      ],
+      "totalCount": 99
+     }
+    ],
+    "totalCount": 307
+   },
+   "ranking": {
+    "rankingList": null
+   },
+   "daevanion": {
+    "boardList": [
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 81,
+      "name": "Nezekan",
+      "open": 1,
+      "openNodeCount": 49,
+      "openPercent": 56,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 82,
+      "name": "Zikel",
+      "open": 1,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 83,
+      "name": "Vaizel",
+      "open": 0,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 84,
+      "name": "Triniel",
+      "open": 0,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 116
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 85,
+      "name": "Ariel",
+      "open": 0,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 152
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 86,
+      "name": "Azphel",
+      "open": 0,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 152
+     }
+    ]
+   },
+   "boards": {
+    "81": [
+     "3|11|Rare|1|Skill Level Up - Protection Circle",
+     "3|12|Common|1|Critical Hit",
+     "3|13|Unique|1|Cooldown Reduction",
+     "3|7|Rare|0|Skill Level Up - Crossguard",
+     "3|8|Common|0|Critical Hit Resist",
+     "3|9|Legend|1|Skill Level Up - Wave Blow",
+     "3|3|Unique|1|Combat Speed",
+     "3|4|Common|1|Attack",
+     "3|5|Common|1|Critical Hit Resist",
+     "5|3|Rare|0|Skill Level Up - Blessing of Life",
+     "4|11|Common|1|Critical Hit Resist",
+     "4|13|Common|0|Max MP",
+     "4|7|Common|0|Defense",
+     "4|9|Common|1|Max MP",
+     "4|10|Common|1|Defense",
+     "4|3|Common|0|Critical Hit",
+     "4|5|Legend|1|Skill Level Up - Dark Crush",
+     "4|6|Common|0|Max MP",
+     "6|4|Common|1|Max HP",
+     "5|12|Common|0|Max HP",
+     "5|13|Rare|0|Skill Level Up - Inspiring Spell",
+     "5|8|Legend|1|Skill Level Up - Charging Smash",
+     "5|9|Common|1|Max HP",
+     "5|11|Legend|0|Skill Level Up - Recuperation",
+     "5|4|Common|1|Defense",
+     "5|5|Common|1|Max HP",
+     "5|7|Common|1|Critical Hit",
+     "7|3|Common|0|Max MP",
+     "7|4|Common|1|Attack",
+     "7|5|Legend|1|Skill Level Up - Incandescent Blow",
+     "6|13|Common|0|Defense",
+     "6|9|Common|0|Defense",
+     "6|11|Common|0|Attack",
+     "6|7|Common|1|Critical Hit Resist",
+     "8|3|Legend|0|Skill Level Up - Defiance",
+     "8|6|Common|0|Defense",
+     "7|10|Rare|0|Skill Level Up - Attack Preparation",
+     "7|11|Common|0|Max MP",
+     "7|12|Common|0|Critical Hit",
+     "7|13|Common|0|Critical Hit Resist",
+     "7|6|Common|1|Max HP",
+     "7|7|Common|1|Max MP",
+     "7|8|Common|1|Attack",
+     "7|9|Common|0|Critical Hit Resist",
+     "9|4|Common|0|Critical Hit Resist",
+     "9|5|Common|0|Max HP",
+     "9|6|Rare|0|Skill Level Up - Inspiring Spell",
+     "9|7|Common|0|Critical Hit",
+     "9|3|Common|0|Critical Hit",
+     "8|13|Legend|1|Skill Level Up - Gust Rampage",
+     "8|8|Start|1|Nezekan - Start",
+     "8|10|Common|0|Attack",
+     "10|5|Common|0|Defense",
+     "10|7|Common|0|Attack",
+     "10|3|Common|0|Attack",
+     "9|12|Common|1|Defense",
+     "9|13|Common|1|Max HP",
+     "9|8|Common|1|Defense",
+     "9|9|Common|1|Max HP",
+     "9|10|Common|1|Max MP",
+     "9|11|Legend|1|Skill Level Up - Onslaught",
+     "11|7|Common|1|Max MP",
+     "11|8|Legend|1|Skill Level Up - Impactful Crush",
+     "11|9|Common|1|Critical Hit Resist",
+     "11|3|Rare|0|Skill Level Up - Attack Preparation",
+     "11|4|Common|0|Max MP",
+     "11|5|Legend|1|Skill Level Up - Tremor Crush",
+     "10|9|Common|1|Critical Hit",
+     "10|12|Common|1|Max MP",
+     "12|7|Common|1|Max HP",
+     "12|9|Common|0|Attack",
+     "12|10|Common|0|Max HP",
+     "12|3|Common|0|Max HP",
+     "12|5|Common|1|Critical Hit",
+     "12|6|Common|1|Attack",
+     "11|11|Common|1|Max MP",
+     "11|12|Common|1|Attack",
+     "11|13|Rare|0|Skill Level Up - Crossguard",
+     "13|8|Common|0|Critical Hit",
+     "13|9|Rare|0|Skill Level Up - Blessing of Life",
+     "13|11|Common|1|Critical Hit",
+     "13|4|Common|1|Critical Hit Resist",
+     "13|5|Rare|1|Skill Level Up - Protection Circle",
+     "13|7|Legend|1|Skill Level Up - Spinning Strike",
+     "13|3|Unique|1|Cooldown Reduction",
+     "12|11|Legend|1|Skill Level Up - Heat Wave Blow",
+     "12|13|Common|0|Critical Hit Resist",
+     "13|12|Common|1|Defense",
+     "13|13|Unique|1|Combat Speed"
+    ],
+    "82": [
+     "3|10|Common|0|Attack",
+     "3|11|Legend|0|Skill Level Up - Spinning Strike",
+     "3|12|Common|0|Defense",
+     "3|13|Unique|0|Damage Boost",
+     "3|6|Common|0|Critical Hit Resist",
+     "3|7|Legend|0|Skill Level Up - Gust Rampage",
+     "3|8|Common|0|Defense",
+     "3|9|Rare|0|Skill Level Up - Impact Hit",
+     "3|3|Unique|0|Damage Tolerance",
+     "3|4|Common|0|Critical Hit",
+     "3|5|Common|0|Max MP",
+     "5|3|Legend|0|Skill Level Up - Onslaught",
+     "4|13|Common|0|Critical Hit",
+     "4|7|Common|0|Max HP",
+     "4|10|Common|0|Max MP",
+     "4|3|Common|0|Attack",
+     "4|5|Rare|0|Skill Level Up - Wind's Promise",
+     "6|3|Common|0|Critical Hit",
+     "5|12|Rare|0|Skill Level Up - Survival Willpower",
+     "5|13|Common|0|Attack",
+     "5|8|Common|0|Max MP",
+     "5|9|Legend|0|Skill Level Up - Charging Smash",
+     "5|10|Common|0|Critical Hit Resist",
+     "5|11|Common|0|Max MP",
+     "5|4|Common|0|Max HP",
+     "5|5|Common|0|Defense",
+     "5|7|Common|0|Attack",
+     "7|3|Common|0|Defense",
+     "7|4|Common|0|Max HP",
+     "7|5|Legend|0|Skill Level Up - Impactful Crush",
+     "6|13|Common|0|Critical Hit Resist",
+     "6|9|Common|0|Critical Hit",
+     "6|11|Common|0|Critical Hit",
+     "6|5|Common|0|Max MP",
+     "6|6|Common|0|Critical Hit Resist",
+     "6|7|Rare|0|Skill Level Up - Earth's Promise",
+     "8|4|Common|0|Attack",
+     "7|10|Rare|0|Skill Level Up - Raging Spell",
+     "7|11|Common|0|Max HP",
+     "7|12|Common|0|Attack",
+     "7|13|Legend|0|Skill Level Up - Incandescent Blow",
+     "7|7|Common|0|Critical Hit",
+     "7|9|Common|0|Max MP",
+     "9|4|Common|0|Defense",
+     "9|5|Common|0|Max MP",
+     "9|6|Rare|0|Skill Level Up - Survival Willpower",
+     "9|7|Common|0|Max HP",
+     "9|3|Legend|0|Skill Level Up - Recuperation",
+     "8|12|Common|0|Defense",
+     "8|7|Common|0|Defense",
+     "8|8|Start|1|Zikel - Start",
+     "8|9|Common|0|Attack",
+     "10|5|Common|0|Critical Hit Resist",
+     "10|7|Common|0|Critical Hit Resist",
+     "10|3|Common|0|Critical Hit",
+     "9|12|Common|0|Max MP",
+     "9|13|Common|0|Attack",
+     "9|9|Common|0|Critical Hit Resist",
+     "9|11|Legend|0|Skill Level Up - Wave Blow",
+     "11|6|Common|0|Critical Hit",
+     "11|7|Legend|0|Skill Level Up - Tremor Crush",
+     "11|8|Common|0|Max HP",
+     "11|9|Common|0|Defense",
+     "11|3|Common|0|Defense",
+     "11|4|Rare|0|Skill Level Up - Raging Spell",
+     "11|5|Common|0|Max HP",
+     "10|13|Common|0|Critical Hit Resist",
+     "10|9|Rare|0|Skill Level Up - Wind's Promise",
+     "10|10|Common|0|Critical Hit",
+     "10|11|Common|0|Max HP",
+     "12|9|Common|0|Max MP",
+     "12|3|Common|0|Critical Hit Resist",
+     "12|6|Common|0|Max MP",
+     "11|11|Common|0|Attack",
+     "11|12|Common|0|Max MP",
+     "11|13|Legend|0|Skill Level Up - Heat Wave Blow",
+     "13|8|Common|0|Attack",
+     "13|9|Legend|0|Skill Level Up - Defiance",
+     "13|10|Common|0|Critical Hit",
+     "13|11|Common|0|Max HP",
+     "13|4|Common|0|Attack",
+     "13|5|Legend|0|Skill Level Up - Dark Crush",
+     "13|6|Common|0|Defense",
+     "13|7|Rare|0|Skill Level Up - Impact Hit",
+     "13|3|Unique|0|Damage Boost",
+     "12|11|Rare|0|Skill Level Up - Earth's Promise",
+     "12|13|Common|0|Defense",
+     "13|12|Common|0|Critical Hit Resist",
+     "13|13|Unique|0|Damage Tolerance"
+    ]
+   },
+   "skill": {
+    "skillList": [
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_001.png",
+      "id": 18010000,
+      "name": "Onslaught",
+      "needLevel": 1,
+      "skillLevel": 9
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_004.png",
+      "id": 18040000,
+      "name": "Incandescent Blow",
+      "needLevel": 1,
+      "skillLevel": 9
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_009.png",
+      "id": 18090000,
+      "name": "Rushing Smash",
+      "needLevel": 1,
+      "skillLevel": 9
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_006.png",
+      "id": 18060000,
+      "name": "Impactful Crush",
+      "needLevel": 3,
+      "skillLevel": 8
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_010.png",
+      "id": 18100000,
+      "name": "Dark Crush",
+      "needLevel": 4,
+      "skillLevel": 8
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_030.png",
+      "id": 18300000,
+      "name": "Gust Rampage",
+      "needLevel": 5,
+      "skillLevel": 7
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_015.png",
+      "id": 18150000,
+      "name": "Heat Wave Blow",
+      "needLevel": 7,
+      "skillLevel": 2
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_013.png",
+      "id": 18120000,
+      "name": "Recuperation",
+      "needLevel": 8,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_021.png",
+      "id": 18210000,
+      "name": "Tremor Crush",
+      "needLevel": 10,
+      "skillLevel": 2
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_008.png",
+      "id": 18080000,
+      "name": "Wave Blow",
+      "needLevel": 12,
+      "skillLevel": 2
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_029.png",
+      "id": 18290000,
+      "name": "Spinning Strike",
+      "needLevel": 14,
+      "skillLevel": 4
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CO_SKILL_002.png",
+      "id": 18200000,
+      "name": "Defiance",
+      "needLevel": 16,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_012.png",
+      "id": 18710000,
+      "name": "Blessing of Life",
+      "needLevel": 1,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_002.png",
+      "id": 18720000,
+      "name": "Crossguard",
+      "needLevel": 6,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_001.png",
+      "id": 18730000,
+      "name": "Protection Circle",
+      "needLevel": 9,
+      "skillLevel": 3
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_011.png",
+      "id": 18740000,
+      "name": "Inspiring Spell",
+      "needLevel": 11,
+      "skillLevel": 4
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_005.png",
+      "id": 18750000,
+      "name": "Attack Preparation",
+      "needLevel": 13,
+      "skillLevel": 4
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_006.png",
+      "id": 18760000,
+      "name": "Impact Hit",
+      "needLevel": 15,
+      "skillLevel": 3
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_007.png",
+      "id": 18770000,
+      "name": "Raging Spell",
+      "needLevel": 17,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_010.png",
+      "id": 18780000,
+      "name": "Earth's Promise",
+      "needLevel": 21,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 0,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_009.png",
+      "id": 18790000,
+      "name": "Survival Willpower",
+      "needLevel": 23,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_Passive_008.png",
+      "id": 18800000,
+      "name": "Wind's Promise",
+      "needLevel": 25,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_022.png",
+      "id": 18220000,
+      "name": "Obliterate",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_019.png",
+      "id": 18190000,
+      "name": "Undefeated Mantra",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_014.png",
+      "id": 18140000,
+      "name": "Focused Defense",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_016.png",
+      "id": 18160000,
+      "name": "Sprint Mantra",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_043.png",
+      "id": 18130000,
+      "name": "Fracturing Blow",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_033.png",
+      "id": 18330000,
+      "name": "Marchutan's Wrath",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_024.png",
+      "id": 18240000,
+      "name": "Impeding Authority",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_023.png",
+      "id": 18230000,
+      "name": "Ensnaring Mark",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_017.png",
+      "id": 18170000,
+      "name": "Healing Touch",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_025.png",
+      "id": 18250000,
+      "name": "Power of the Storm",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_042.png",
+      "id": 18420000,
+      "name": "Guardian Blessing",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CO_SKILL_003.png",
+      "id": 18700000,
+      "name": "Assault Shock",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_044.png",
+      "id": 18440000,
+      "name": "Barrier Spell",
+      "needLevel": 22,
+      "skillLevel": 0
+     }
+    ]
+   },
+   "petwing": {
+    "pet": {
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_SkurvWar_01.png",
+     "id": 1054,
+     "level": 3,
+     "name": "Mumu Warrior"
+    },
+    "wing": {
+     "enchantLevel": 0,
+     "grade": "Common",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_006A.png",
+     "id": 40200601,
+     "name": "Lesser Daeva Wings"
+    },
+    "wingSkin": {
+     "enchantLevel": null,
+     "grade": null,
+     "icon": null,
+     "id": null,
+     "name": null
+    }
+   },
+   "pcId": 36,
+   "race": 2
+  },
+  "YasuoMain8": {
+   "history": [
+    {
+     "date": "2026-11-13",
+     "cp": 25266,
+     "il": 420
+    }
+   ],
+   "server": "Tassin",
+   "owner": "Rayan1000RR#KING",
+   "level": 29,
+   "cp": 25266,
+   "il": 420,
+   "gear": [
+    {
+     "slotPosName": "MainHand",
+     "name": "Faded Agate Longsword",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_SW_0055_T04.png",
+     "max": 5,
+     "slots": 2,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "SubHand",
+     "name": "Outsider Guard",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_023.png",
+     "max": 5,
+     "slots": 2,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Torso",
+     "name": "Chaser Breastplate",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Torso.png",
+     "max": 5,
+     "slots": 2,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Pants",
+     "name": "Chaser Greaves",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Pants.png",
+     "max": 5,
+     "slots": 2,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Helmet",
+     "name": "Outsider Helm",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Helmet.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Shoulder",
+     "name": "Outsider Pauldrons",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Shoulder.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Gloves",
+     "name": "Chaser Gloves",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Gloves.png",
+     "max": 5,
+     "slots": 2,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Boots",
+     "name": "Chaser Boots",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Boots.png",
+     "max": 5,
+     "slots": 2,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Cape",
+     "name": "Outsider Cloak",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Cape.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Belt",
+     "name": "Noble Belt",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_018.png",
+     "max": 10,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Necklace",
+     "name": "Old Mercenary Commander Necklace",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Old Mercenary Commander Earrings",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Ring1",
+     "name": "Old Mercenary Commander Ring",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Ring2",
+     "name": "Old Mercenary Commander Ring",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Bracelet1",
+     "name": "Old Mercenary Commander Bracelet",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Crafting",
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Bracelet2",
+     "name": "Old Mercenary Commander Bracelet",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Crafting",
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Amulet",
+     "name": "Revelation Amulet",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv3_01.png",
+     "max": 10,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    }
+   ],
+   "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898982925",
+   "stats": [
+    {
+     "name": "Might",
+     "statSecondList": [
+      "Attack increase +0.2%"
+     ],
+     "type": "STR",
+     "value": 2
+    },
+    {
+     "name": "Dexterity",
+     "statSecondList": null,
+     "type": "DEX",
+     "value": 0
+    },
+    {
+     "name": "Intelligence",
+     "statSecondList": null,
+     "type": "INT",
+     "value": 0
+    },
+    {
+     "name": "Constitution",
+     "statSecondList": null,
+     "type": "CON",
+     "value": 0
+    },
+    {
+     "name": "Precision",
+     "statSecondList": [
+      "Accuracy increase +1.5%",
+      "Critical Hit increase +1.5%"
+     ],
+     "type": "AGI",
+     "value": 15
+    },
+    {
+     "name": "Willpower",
+     "statSecondList": null,
+     "type": "WIS",
+     "value": 0
+    },
+    {
+     "name": "Justice [Nezekan]",
+     "statSecondList": [
+      "Defense increase +0.3%",
+      "Perfect Chance +0.3%"
+     ],
+     "type": "Justice",
+     "value": 3
+    },
+    {
+     "name": "Freedom [Vaizel]",
+     "statSecondList": [
+      "Accuracy increase +1.1%",
+      "Evasion increase +1.1%"
+     ],
+     "type": "Freedom",
+     "value": 11
+    },
+    {
+     "name": "Illusion [Kaisinel]",
+     "statSecondList": [
+      "Cooldown -0.2%",
+      "Endurance Penetration +0.2%"
+     ],
+     "type": "Illusion",
+     "value": 2
+    },
+    {
+     "name": "Life [Yustiel]",
+     "statSecondList": [
+      "HP increase +0.4%",
+      "Regeneration +0.4%"
+     ],
+     "type": "Life",
+     "value": 4
+    },
+    {
+     "name": "Time [Siel]",
+     "statSecondList": [
+      "Combat Speed +0.4%",
+      "Double Resist +0.4%"
+     ],
+     "type": "Time",
+     "value": 4
+    },
+    {
+     "name": "Destruction [Zikel]",
+     "statSecondList": [
+      "Attack increase +0.3%",
+      "Perfect Resist +0.3%"
+     ],
+     "type": "Destruction",
+     "value": 3
+    },
+    {
+     "name": "Death [Triniel]",
+     "statSecondList": [
+      "Critical Hit increase +1.1%",
+      "Regeneration Penetration +1.1%"
+     ],
+     "type": "Death",
+     "value": 11
+    },
+    {
+     "name": "Wisdom [Lumiel]",
+     "statSecondList": [
+      "MP Cost -0.2%",
+      "Double Chance +0.2%"
+     ],
+     "type": "Wisdom",
+     "value": 2
+    },
+    {
+     "name": "Destiny [Marchutan]",
+     "statSecondList": [
+      "MP increase +0.4%",
+      "Endurance +0.4%"
+     ],
+     "type": "Destiny",
+     "value": 4
+    },
+    {
+     "name": "Space [Israphel]",
+     "statSecondList": [
+      "Move Speed +0.4%",
+      "Block increase +0.4%"
+     ],
+     "type": "Space",
+     "value": 4
+    },
+    {
+     "name": "아이템레벨",
+     "statSecondList": null,
+     "type": "ItemLevel",
+     "value": 420
+    }
+   ],
+   "title": {
+    "ownedCount": 71,
+    "titleList": [
+     {
+      "equipCategory": "Etc",
+      "equipStatList": null,
+      "grade": null,
+      "id": null,
+      "name": null,
+      "ownedCount": 17,
+      "ownedPercent": 17,
+      "statList": null,
+      "totalCount": 102
+     },
+     {
+      "equipCategory": "Attack",
+      "equipStatList": null,
+      "grade": null,
+      "id": null,
+      "name": null,
+      "ownedCount": 29,
+      "ownedPercent": 27,
+      "statList": null,
+      "totalCount": 106
+     },
+     {
+      "equipCategory": "Defense",
+      "equipStatList": null,
+      "grade": null,
+      "id": null,
+      "name": null,
+      "ownedCount": 25,
+      "ownedPercent": 25,
+      "statList": null,
+      "totalCount": 99
+     }
+    ],
+    "totalCount": 307
+   },
+   "ranking": {
+    "rankingList": null
+   },
+   "daevanion": {
+    "boardList": [
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 21,
+      "name": "Nezekan",
+      "open": 1,
+      "openNodeCount": 38,
+      "openPercent": 43,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 22,
+      "name": "Zikel",
+      "open": 1,
+      "openNodeCount": 45,
+      "openPercent": 51,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 23,
+      "name": "Vaizel",
+      "open": 0,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 88
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 24,
+      "name": "Triniel",
+      "open": 0,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 116
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
+      "id": 25,
+      "name": "Ariel",
+      "open": 0,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 152
+     },
+     {
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
+      "id": 26,
+      "name": "Azphel",
+      "open": 0,
+      "openNodeCount": 0,
+      "openPercent": 0,
+      "totalNodeCount": 152
+     }
+    ]
+   },
+   "boards": {
+    "21": [
+     "3|5|Common|1|Critical Hit Resist",
+     "3|4|Common|1|Attack",
+     "3|3|Unique|1|Combat Speed",
+     "3|9|Legend|1|Skill Level Up - Annihilate",
+     "3|8|Common|1|Critical Hit Resist",
+     "3|7|Rare|1|Skill Level Up - Warding Shield",
+     "3|13|Unique|1|Cooldown Reduction",
+     "3|12|Common|1|Critical Hit",
+     "3|11|Rare|1|Skill Level Up - Punishing Benediction",
+     "4|6|Common|1|Max MP",
+     "4|5|Legend|1|Skill Level Up - Judgment",
+     "4|3|Common|0|Critical Hit",
+     "4|10|Common|1|Defense",
+     "4|9|Common|1|Max MP",
+     "4|7|Common|1|Defense",
+     "4|13|Common|0|Max MP",
+     "4|11|Common|1|Critical Hit Resist",
+     "5|3|Rare|0|Skill Level Up - Enhance Health",
+     "5|7|Common|1|Critical Hit",
+     "5|5|Common|0|Max HP",
+     "5|4|Common|0|Defense",
+     "5|11|Legend|0|Skill Level Up - Warding Strike",
+     "5|9|Common|0|Max HP",
+     "5|8|Legend|0|Skill Level Up - Poach",
+     "5|13|Rare|0|Skill Level Up - Ironclad Defense",
+     "5|12|Common|0|Max HP",
+     "6|4|Common|0|Max HP",
+     "6|7|Common|1|Critical Hit Resist",
+     "6|11|Common|0|Attack",
+     "6|9|Common|0|Defense",
+     "6|13|Common|0|Defense",
+     "7|5|Legend|1|Skill Level Up - Pummel",
+     "7|4|Common|0|Attack",
+     "7|3|Common|0|Max MP",
+     "7|9|Common|0|Critical Hit Resist",
+     "7|8|Common|1|Attack",
+     "7|7|Common|1|Max MP",
+     "7|6|Common|1|Max HP",
+     "7|13|Common|0|Critical Hit Resist",
+     "7|12|Common|0|Critical Hit",
+     "7|11|Common|0|Max MP",
+     "7|10|Rare|0|Skill Level Up - Guarding Seal",
+     "8|6|Common|0|Defense",
+     "8|3|Legend|0|Skill Level Up - Defiance",
+     "8|10|Common|0|Attack",
+     "8|8|Start|1|Nezekan - Start",
+     "8|13|Legend|0|Skill Level Up - Flash Rampage",
+     "9|3|Common|0|Critical Hit",
+     "9|7|Common|1|Critical Hit",
+     "9|6|Rare|0|Skill Level Up - Ironclad Defense",
+     "9|5|Common|0|Max HP",
+     "9|4|Common|0|Critical Hit Resist",
+     "9|11|Legend|1|Skill Level Up - Vicious Strike",
+     "9|10|Common|1|Max MP",
+     "9|9|Common|1|Max HP",
+     "9|8|Common|1|Defense",
+     "9|13|Common|0|Max HP",
+     "9|12|Common|1|Defense",
+     "10|3|Common|0|Attack",
+     "10|7|Common|1|Attack",
+     "10|5|Common|0|Defense",
+     "10|12|Common|1|Max MP",
+     "10|9|Common|0|Critical Hit",
+     "11|5|Legend|0|Skill Level Up - Shield Rush",
+     "11|4|Common|0|Max MP",
+     "11|3|Rare|0|Skill Level Up - Guarding Seal",
+     "11|9|Common|0|Critical Hit Resist",
+     "11|8|Legend|0|Skill Level Up - Shield Smite",
+     "11|7|Common|1|Max MP",
+     "11|13|Rare|1|Skill Level Up - Warding Shield",
+     "11|12|Common|1|Attack",
+     "11|11|Common|0|Max MP",
+     "12|6|Common|1|Attack",
+     "12|5|Common|1|Critical Hit",
+     "12|3|Common|0|Max HP",
+     "12|10|Common|0|Max HP",
+     "12|9|Common|0|Attack",
+     "12|7|Common|1|Max HP",
+     "12|13|Common|1|Critical Hit Resist",
+     "12|11|Legend|0|Skill Level Up - Debilitating Smash",
+     "13|3|Unique|0|Cooldown Reduction",
+     "13|7|Legend|1|Skill Level Up - Punishment",
+     "13|5|Rare|0|Skill Level Up - Punishing Benediction",
+     "13|4|Common|0|Critical Hit Resist",
+     "13|11|Common|0|Critical Hit",
+     "13|9|Rare|0|Skill Level Up - Enhance Health",
+     "13|8|Common|0|Critical Hit",
+     "13|13|Unique|1|Combat Speed",
+     "13|12|Common|0|Defense"
+    ],
+    "22": [
+     "11|13|Legend|0|Skill Level Up - Debilitating Smash",
+     "11|12|Common|0|Max MP",
+     "11|11|Common|1|Attack",
+     "12|6|Common|1|Max MP",
+     "12|3|Common|0|Critical Hit Resist",
+     "12|9|Common|0|Max MP",
+     "12|13|Common|0|Defense",
+     "12|11|Rare|1|Skill Level Up - Fury",
+     "13|3|Unique|1|Damage Boost",
+     "13|7|Rare|1|Skill Level Up - Impact Hit",
+     "13|6|Common|1|Defense",
+     "13|5|Legend|1|Skill Level Up - Judgment",
+     "13|4|Common|1|Attack",
+     "13|11|Common|1|Max HP",
+     "13|10|Common|0|Critical Hit",
+     "13|9|Legend|0|Skill Level Up - Defiance",
+     "13|8|Common|0|Attack",
+     "13|13|Unique|1|Damage Tolerance",
+     "13|12|Common|1|Critical Hit Resist",
+     "3|5|Common|1|Max MP",
+     "3|4|Common|1|Critical Hit",
+     "3|3|Unique|1|Damage Tolerance",
+     "3|9|Rare|1|Skill Level Up - Impact Hit",
+     "3|8|Common|0|Defense",
+     "3|7|Legend|0|Skill Level Up - Flash Rampage",
+     "3|6|Common|0|Critical Hit Resist",
+     "3|13|Unique|1|Damage Boost",
+     "3|12|Common|1|Defense",
+     "3|11|Legend|1|Skill Level Up - Punishment",
+     "3|10|Common|1|Attack",
+     "4|5|Rare|1|Skill Level Up - Block Pain",
+     "4|3|Common|1|Attack",
+     "4|10|Common|0|Max MP",
+     "4|7|Common|0|Max HP",
+     "4|13|Common|1|Critical Hit",
+     "5|3|Legend|1|Skill Level Up - Vicious Strike",
+     "5|7|Common|0|Attack",
+     "5|5|Common|1|Defense",
+     "5|4|Common|0|Max HP",
+     "5|11|Common|0|Max MP",
+     "5|10|Common|0|Critical Hit Resist",
+     "5|9|Legend|0|Skill Level Up - Poach",
+     "5|8|Common|0|Max MP",
+     "5|13|Common|1|Attack",
+     "5|12|Rare|0|Skill Level Up - Survival Willpower",
+     "6|3|Common|0|Critical Hit",
+     "6|7|Rare|1|Skill Level Up - Fury",
+     "6|6|Common|1|Critical Hit Resist",
+     "6|5|Common|1|Max MP",
+     "6|11|Common|0|Critical Hit",
+     "6|9|Common|0|Critical Hit",
+     "6|13|Common|1|Critical Hit Resist",
+     "7|5|Legend|0|Skill Level Up - Shield Smite",
+     "7|4|Common|0|Max HP",
+     "7|3|Common|0|Defense",
+     "7|9|Common|1|Max MP",
+     "7|7|Common|1|Critical Hit",
+     "7|13|Legend|1|Skill Level Up - Pummel",
+     "7|12|Common|1|Attack",
+     "7|11|Common|1|Max HP",
+     "7|10|Rare|1|Skill Level Up - Insulting Roar",
+     "8|4|Common|0|Attack",
+     "8|9|Common|1|Attack",
+     "8|8|Start|1|Zikel - Start",
+     "8|7|Common|1|Defense",
+     "8|12|Common|0|Defense",
+     "9|3|Legend|0|Skill Level Up - Warding Strike",
+     "9|7|Common|1|Max HP",
+     "9|6|Rare|0|Skill Level Up - Survival Willpower",
+     "9|5|Common|0|Max MP",
+     "9|4|Common|0|Defense",
+     "9|11|Legend|0|Skill Level Up - Annihilate",
+     "9|9|Common|1|Critical Hit Resist",
+     "9|13|Common|0|Attack",
+     "9|12|Common|0|Max MP",
+     "10|3|Common|0|Critical Hit",
+     "10|7|Common|1|Critical Hit Resist",
+     "10|5|Common|0|Critical Hit Resist",
+     "10|11|Common|1|Max HP",
+     "10|10|Common|1|Critical Hit",
+     "10|9|Rare|1|Skill Level Up - Block Pain",
+     "10|13|Common|0|Critical Hit Resist",
+     "11|5|Common|0|Max HP",
+     "11|4|Rare|0|Skill Level Up - Insulting Roar",
+     "11|3|Common|0|Defense",
+     "11|9|Common|0|Defense",
+     "11|8|Common|0|Max HP",
+     "11|7|Legend|1|Skill Level Up - Shield Rush",
+     "11|6|Common|1|Critical Hit"
+    ]
+   },
+   "skill": {
+    "skillList": [
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_001.png",
+      "id": 12010000,
+      "name": "Vicious Strike",
+      "needLevel": 1,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_006.png",
+      "id": 12040000,
+      "name": "Pummel",
+      "needLevel": 1,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_013.png",
+      "id": 12130000,
+      "name": "Poach",
+      "needLevel": 1,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_010.png",
+      "id": 12100000,
+      "name": "Shield Smite",
+      "needLevel": 3,
+      "skillLevel": 10
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_004.png",
+      "id": 12240000,
+      "name": "Judgment",
+      "needLevel": 4,
+      "skillLevel": 11
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_027.png",
+      "id": 12340000,
+      "name": "Flash Rampage",
+      "needLevel": 5,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_025.png",
+      "id": 12270000,
+      "name": "Debilitating Smash",
+      "needLevel": 7,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_035.png",
+      "id": 12350000,
+      "name": "Warding Strike",
+      "needLevel": 8,
+      "skillLevel": 8
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_015.png",
+      "id": 12430000,
+      "name": "Shield Rush",
+      "needLevel": 10,
+      "skillLevel": 8
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_028.png",
+      "id": 12300000,
+      "name": "Annihilate",
+      "needLevel": 12,
+      "skillLevel": 2
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_009.png",
+      "id": 12090000,
+      "name": "Punishment",
+      "needLevel": 14,
+      "skillLevel": 8
+     },
+     {
+      "acquired": 1,
+      "category": "Active",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CO_SKILL_002.png",
+      "id": 12260000,
+      "name": "Defiance",
+      "needLevel": 16,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_Passive_001.png",
+      "id": 12710000,
+      "name": "Enhance Health",
+      "needLevel": 1,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_Passive_002.png",
+      "id": 12720000,
+      "name": "Warding Shield",
+      "needLevel": 6,
+      "skillLevel": 3
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_Passive_003.png",
+      "id": 12730000,
+      "name": "Punishing Benediction",
+      "needLevel": 9,
+      "skillLevel": 9
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_Passive_004.png",
+      "id": 12740000,
+      "name": "Ironclad Defense",
+      "needLevel": 11,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_Passive_005.png",
+      "id": 12750000,
+      "name": "Guarding Seal",
+      "needLevel": 13,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_006.png",
+      "id": 12760000,
+      "name": "Impact Hit",
+      "needLevel": 15,
+      "skillLevel": 8
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_Passive_007.png",
+      "id": 12770000,
+      "name": "Insulting Roar",
+      "needLevel": 17,
+      "skillLevel": 6
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_Passive_008.png",
+      "id": 12780000,
+      "name": "Fury",
+      "needLevel": 21,
+      "skillLevel": 12
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_009.png",
+      "id": 12790000,
+      "name": "Survival Willpower",
+      "needLevel": 23,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 1,
+      "category": "Passive",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_Passive_010.png",
+      "id": 12800000,
+      "name": "Block Pain",
+      "needLevel": 25,
+      "skillLevel": 3
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_029.png",
+      "id": 12310000,
+      "name": "Empyrean Lord's Punishment",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_030.png",
+      "id": 12320000,
+      "name": "Nezekan's Shield",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_011.png",
+      "id": 12110000,
+      "name": "Shield of Protection",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 1,
+      "category": "Dp",
+      "equip": 1,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_012.png",
+      "id": 12120000,
+      "name": "Taunt",
+      "needLevel": 22,
+      "skillLevel": 1
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_013.png",
+      "id": 12200000,
+      "name": "Armor of Balance",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_018.png",
+      "id": 12190000,
+      "name": "Second Skin",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_007.png",
+      "id": 12070000,
+      "name": "Doom Shield",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_022.png",
+      "id": 12230000,
+      "name": "Noble Armor",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_041.png",
+      "id": 12410000,
+      "name": "Executing Blade",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_024.png",
+      "id": 12250000,
+      "name": "Comrade in Arms",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_021.png",
+      "id": 12220000,
+      "name": "Grapple",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CO_SKILL_003.png",
+      "id": 12700000,
+      "name": "Assault Fury",
+      "needLevel": 22,
+      "skillLevel": 0
+     },
+     {
+      "acquired": 0,
+      "category": "Dp",
+      "equip": 0,
+      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_045.png",
+      "id": 12450000,
+      "name": "Battlefield Banner",
+      "needLevel": 22,
+      "skillLevel": 0
+     }
+    ]
+   },
+   "petwing": {
+    "pet": {
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_SkurvWar_01.png",
+     "id": 1054,
+     "level": 3,
+     "name": "Mumu Warrior"
+    },
+    "wing": {
+     "enchantLevel": 0,
+     "grade": "Common",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_006A.png",
+     "id": 40200601,
+     "name": "Lesser Daeva Wings"
+    },
+    "wingSkin": {
+     "enchantLevel": null,
+     "grade": null,
+     "icon": null,
+     "id": null,
+     "name": null
+    }
+   },
+   "pcId": 12,
+   "race": 2
   }
  },
- "updated": "2026-11-13 15:05 UTC",
+ "updated": "2026-11-13 15:36 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 15:33",
+   "n": "iLen",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-13 15:33",
+   "n": "iLen",
+   "x": "skills up: Marchutan's Wrath 11"
+  },
   {
    "t": "2026-11-13 15:04",
    "n": "uTril",
@@ -35255,16 +37329,6 @@
    "t": "2026-11-07 07:04",
    "n": "RyBear",
    "x": "opened 8 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-07 07:04",
-   "n": "RyBear",
-   "x": "skills up: Ruinous Blow 14"
-  },
-  {
-   "t": "2026-11-07 06:34",
-   "n": "RyBear",
-   "x": "Clash Rune +0 → +2"
   }
  ]
 }

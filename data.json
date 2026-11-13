@@ -15455,15 +15455,15 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 149945,
-     "il": 2776
+     "cp": 149512,
+     "il": 2777
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 149945,
-   "il": 2776,
+   "cp": 149512,
+   "il": 2777,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16161,7 +16161,7 @@
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
      "grade": "Unique",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -16260,11 +16260,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +5%",
-      "Evasion increase +5%"
+      "Accuracy increase +5.1%",
+      "Evasion increase +5.1%"
      ],
      "type": "Freedom",
-     "value": 50
+     "value": 51
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -16342,7 +16342,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2776
+     "value": 2777
     }
    ],
    "title": {
@@ -17211,7 +17211,7 @@
       "id": 13100000,
       "name": "Savage Roar",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -17231,7 +17231,7 @@
       "id": 13060000,
       "name": "Ambush",
       "needLevel": 3,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -17251,7 +17251,7 @@
       "id": 13340000,
       "name": "Storm Rampage",
       "needLevel": 5,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -17281,7 +17281,7 @@
       "id": 13360000,
       "name": "Infiltrate",
       "needLevel": 10,
-      "skillLevel": 13
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -17311,7 +17311,7 @@
       "id": 13260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 4
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -17555,9 +17555,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -29858,15 +29858,15 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 112889,
-     "il": 2521
+     "cp": 113612,
+     "il": 2579
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 112889,
-   "il": 2521,
+   "cp": 113612,
+   "il": 2579,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30493,7 +30493,7 @@
     {
      "slotPosName": "Arcana1",
      "name": "Chalice of Magic",
-     "grade": "Legend",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_DefenceSet2.png",
      "max": 4,
@@ -30506,10 +30506,10 @@
     {
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
-     "grade": "Legend",
-     "enchantLevel": 2,
+     "grade": "Unique",
+     "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
-     "max": 4,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -30518,10 +30518,10 @@
     },
     {
      "slotPosName": "Arcana3",
-     "name": "Compass of Magic",
+     "name": "Compass of Vigor",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 4,
      "slots": 0,
      "stones": [],
@@ -30545,7 +30545,7 @@
     {
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
-     "grade": "Legend",
+     "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 4,
@@ -30619,29 +30619,29 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +3.6%",
-      "Evasion increase +3.6%"
+      "Accuracy increase +5.2%",
+      "Evasion increase +5.2%"
      ],
      "type": "Freedom",
-     "value": 36
+     "value": 52
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -2.7%",
-      "Endurance Penetration +2.7%"
+      "Cooldown -3.1%",
+      "Endurance Penetration +3.1%"
      ],
      "type": "Illusion",
-     "value": 27
+     "value": 31
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +3.7%",
-      "Regeneration +3.7%"
+      "HP increase +3.9%",
+      "Regeneration +3.9%"
      ],
      "type": "Life",
-     "value": 37
+     "value": 39
     },
     {
      "name": "Time [Siel]",
@@ -30664,11 +30664,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +5.4%",
-      "Regeneration Penetration +5.4%"
+      "Critical Hit increase +3.8%",
+      "Regeneration Penetration +3.8%"
      ],
      "type": "Death",
-     "value": 54
+     "value": 38
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -30691,17 +30691,17 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +5.2%",
-      "Block increase +5.2%"
+      "Move Speed +5.6%",
+      "Block increase +5.6%"
      ],
      "type": "Space",
-     "value": 52
+     "value": 56
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2521
+     "value": 2579
     }
    ],
    "title": {
@@ -31600,7 +31600,7 @@
       "id": 17070000,
       "name": "Chain of Torment",
       "needLevel": 4,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -31610,7 +31610,7 @@
       "id": 17370000,
       "name": "Lightning Strike Scattershot",
       "needLevel": 5,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31620,7 +31620,7 @@
       "id": 17090000,
       "name": "Light of Regeneration",
       "needLevel": 7,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31630,7 +31630,7 @@
       "id": 17350000,
       "name": "Condemnation",
       "needLevel": 8,
-      "skillLevel": 14
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -31660,7 +31660,7 @@
       "id": 17060000,
       "name": "Bolt",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -31710,7 +31710,7 @@
       "id": 17740000,
       "name": "Healing Enhancement",
       "needLevel": 11,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31720,7 +31720,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31730,7 +31730,7 @@
       "id": 17760000,
       "name": "Heal Block",
       "needLevel": 15,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -31740,7 +31740,7 @@
       "id": 17770000,
       "name": "Prayer of Concentration",
       "needLevel": 17,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -31750,7 +31750,7 @@
       "id": 17780000,
       "name": "Earth's Grace",
       "needLevel": 21,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31760,7 +31760,7 @@
       "id": 17790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -31770,7 +31770,7 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -33743,8 +33743,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 02:04 UTC",
+ "updated": "2026-11-13 02:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 02:34",
+   "n": "uTril",
+   "x": "Parchment of Vigor +2 → +0"
+  },
+  {
+   "t": "2026-11-13 02:34",
+   "n": "uTril",
+   "x": "new Compass of Vigor +0"
+  },
+  {
+   "t": "2026-11-13 02:34",
+   "n": "uTril",
+   "x": "skills up: Lightning Strike Scattershot 14, Condemnation 16, Healing Enhancement 15, Prayer of Concentration 16 and 2 more"
+  },
+  {
+   "t": "2026-11-13 02:32",
+   "n": "DeathRunner",
+   "x": "Compass of Vigor +2 → +3"
+  },
+  {
+   "t": "2026-11-13 02:32",
+   "n": "DeathRunner",
+   "x": "skills up: Ambush 7, Storm Rampage 13, Infiltrate 15"
+  },
   {
    "t": "2026-11-13 02:04",
    "n": "uTril",
@@ -35219,31 +35244,6 @@
    "t": "2026-11-07 03:31",
    "n": "YasuoMain",
    "x": "skills up: Leaping Slam 14, Mocking Blade 14, Overhead Slam 18, Survival Willpower 19 and 1 more"
-  },
-  {
-   "t": "2026-11-07 03:04",
-   "n": "CutieCatty",
-   "x": "new Parchment of Vigor +0"
-  },
-  {
-   "t": "2026-11-07 03:04",
-   "n": "CutieCatty",
-   "x": "skills up: Heat Wave Blow 14, Wave Blow 14"
-  },
-  {
-   "t": "2026-11-07 03:02",
-   "n": "DeathRunner",
-   "x": "Chalice of Vigor +2 → +3"
-  },
-  {
-   "t": "2026-11-07 03:02",
-   "n": "DeathRunner",
-   "x": "skills up: Exploit Weakness 20, Savage Fang 10"
-  },
-  {
-   "t": "2026-11-07 02:13",
-   "n": "YasuoMain",
-   "x": "Nuakum Cloak +11 → +15"
   }
  ]
 }

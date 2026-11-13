@@ -96,6 +96,11 @@
      "date": "2026-11-12",
      "cp": 140226,
      "il": 2681
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 140226,
+     "il": 2681
     }
    ],
    "server": "Tassin",
@@ -2295,6 +2300,11 @@
      "date": "2026-11-12",
      "cp": 85264,
      "il": 1865
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 85264,
+     "il": 1865
     }
    ],
    "server": "Tassin",
@@ -4393,6 +4403,11 @@
     },
     {
      "date": "2026-11-12",
+     "cp": 79343,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-13",
      "cp": 79343,
      "il": 1785
     }
@@ -6522,6 +6537,11 @@
     },
     {
      "date": "2026-11-12",
+     "cp": 128196,
+     "il": 2624
+    },
+    {
+     "date": "2026-11-13",
      "cp": 128196,
      "il": 2624
     }
@@ -8664,6 +8684,11 @@
      "date": "2026-11-12",
      "cp": 48995,
      "il": 1114
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 48995,
+     "il": 1114
     }
    ],
    "server": "Tassin",
@@ -10357,6 +10382,11 @@
     },
     {
      "date": "2026-11-12",
+     "cp": 59398,
+     "il": 1135
+    },
+    {
+     "date": "2026-11-13",
      "cp": 59398,
      "il": 1135
     }
@@ -14158,6 +14188,11 @@
      "date": "2026-11-12",
      "cp": 36746,
      "il": 647
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 36746,
+     "il": 647
     }
    ],
    "server": "Tassin",
@@ -15417,13 +15452,18 @@
      "date": "2026-11-12",
      "cp": 146419,
      "il": 2771
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 149191,
+     "il": 2772
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 146419,
-   "il": 2771,
+   "cp": 149191,
+   "il": 2772,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16108,7 +16148,7 @@
      "slotPosName": "Arcana2",
      "name": "Parchment of Vigor",
      "grade": "Unique",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -16238,11 +16278,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +5%",
-      "Regeneration +5%"
+      "HP increase +5.1%",
+      "Regeneration +5.1%"
      ],
      "type": "Life",
-     "value": 50
+     "value": 51
     },
     {
      "name": "Time [Siel]",
@@ -16302,7 +16342,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2771
+     "value": 2772
     }
    ],
    "title": {
@@ -17201,7 +17241,7 @@
       "id": 13350000,
       "name": "Heart Gore",
       "needLevel": 4,
-      "skillLevel": 19
+      "skillLevel": 20
      },
      {
       "acquired": 1,
@@ -17231,7 +17271,7 @@
       "id": 13050000,
       "name": "Flash Slice",
       "needLevel": 8,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -17376,7 +17416,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_025.png",
       "id": 13270000,
       "name": "Savage Fang",
@@ -17406,7 +17446,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_024.png",
       "id": 13080000,
       "name": "Evasion Stance",
@@ -17574,6 +17614,11 @@
     },
     {
      "date": "2026-11-12",
+     "cp": 123961,
+     "il": 2560
+    },
+    {
+     "date": "2026-11-13",
      "cp": 123961,
      "il": 2560
     }
@@ -19571,6 +19616,11 @@
      "date": "2026-11-12",
      "cp": 23827,
      "il": 496
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 23827,
+     "il": 496
     }
    ],
    "server": "Tassin",
@@ -20802,6 +20852,11 @@
     },
     {
      "date": "2026-11-12",
+     "cp": 91749,
+     "il": 1861
+    },
+    {
+     "date": "2026-11-13",
      "cp": 91749,
      "il": 1861
     }
@@ -22552,6 +22607,11 @@
      "date": "2026-11-12",
      "cp": 25457,
      "il": 450
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 25457,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -23730,6 +23790,11 @@
     },
     {
      "date": "2026-11-12",
+     "cp": 43377,
+     "il": 799
+    },
+    {
+     "date": "2026-11-13",
      "cp": 43377,
      "il": 799
     }
@@ -25390,6 +25455,11 @@
      "date": "2026-11-12",
      "cp": 18563,
      "il": 361
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 18563,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -26525,6 +26595,11 @@
     },
     {
      "date": "2026-11-12",
+     "cp": 90272,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-13",
      "cp": 90272,
      "il": 1785
     }
@@ -28596,6 +28671,11 @@
      "date": "2026-11-12",
      "cp": 25763,
      "il": 472
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 25763,
+     "il": 472
     }
    ],
    "server": "Tassin",
@@ -29775,6 +29855,11 @@
      "date": "2026-11-12",
      "cp": 112156,
      "il": 2478
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 112156,
+     "il": 2478
     }
    ],
    "server": "Tassin",
@@ -29831,7 +29916,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Critical Hit Resist",
+       "+13",
+       "Legend"
+      ],
+      [
+       "Critical Hit Resist",
+       "+13",
+       "Legend"
+      ],
+      [
+       "HP",
+       "+80",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+23",
+       "Common"
+      ]
+     ],
      "godSlots": 1,
      "god": [],
      "src": [
@@ -29962,7 +30068,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "MP",
+       "+65",
+       "Legend"
+      ],
+      [
+       "HP",
+       "+45",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+6",
+       "Common"
+      ],
+      [
+       "Block",
+       "+13",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -30239,28 +30366,7 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Accuracy Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+50",
-       "Legend"
-      ],
-      [
-       "MP",
-       "+50",
-       "Legend"
-      ],
-      [
-       "Defense",
-       "+50",
-       "Legend"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -31867,6 +31973,11 @@
     },
     {
      "date": "2026-11-12",
+     "cp": 72302,
+     "il": 1274
+    },
+    {
+     "date": "2026-11-13",
      "cp": 72302,
      "il": 1274
     }
@@ -33632,8 +33743,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-12 23:34 UTC",
+ "updated": "2026-11-13 00:17 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 00:06",
+   "n": "DeathRunner",
+   "x": "Parchment of Vigor +3 → +4"
+  },
+  {
+   "t": "2026-11-13 00:06",
+   "n": "DeathRunner",
+   "x": "skills up: Heart Gore 20"
+  },
   {
    "t": "2026-11-12 23:04",
    "n": "uTril",
@@ -35123,16 +35244,6 @@
    "t": "2026-11-07 01:01",
    "n": "YasuoMain",
    "x": "Parchment of Vigor +0 → +1"
-  },
-  {
-   "t": "2026-11-07 01:01",
-   "n": "YasuoMain",
-   "x": "Bell of Magic +0 → +1"
-  },
-  {
-   "t": "2026-11-07 01:01",
-   "n": "YasuoMain",
-   "x": "skills up: Keen Strike 16, Leaping Slam 13, Mocking Blade 13, Crushing Wave 10 and 1 more"
   }
  ]
 }

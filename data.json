@@ -12125,50 +12125,57 @@
      "date": "2026-11-12",
      "cp": 83806,
      "il": 1725
+    },
+    {
+     "date": "2026-11-13",
+     "cp": 90744,
+     "il": 1825
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 83806,
-   "il": 1725,
+   "cp": 90744,
+   "il": 1825,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Spiritforged Dagger",
+     "name": "Aulamus Dagger",
      "grade": "Unique",
      "enchantLevel": 11,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_DA_0078_T05.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_DA_0028_T05.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Attack",
+       "Critical Hit Resist",
        "+5",
-       "Legend"
+       "Common"
       ],
       [
        "MP",
-       "+80",
-       "Unique"
+       "+15",
+       "Common"
       ],
       [
-       "Evasion Bonus",
-       "+7",
+       "MP",
+       "+30",
        "Rare"
       ],
       [
-       "Critical Hit Resist",
-       "+15",
-       "Unique"
+       "Attack",
+       "+3",
+       "Rare"
       ]
      ],
      "godSlots": 1,
      "god": [
-      "Theostone: Rathman's Greed"
+      "Theostone: Aultross's Promise"
      ],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -12329,24 +12336,24 @@
      "slots": 4,
      "stones": [
       [
-       "Evasion Bonus",
-       "+5",
-       "Common"
+       "HP",
+       "+50",
+       "Rare"
       ],
       [
-       "Evasion Bonus",
+       "Critical Damage Boost",
+       "+10",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
        "+7",
        "Rare"
       ],
       [
-       "Attack",
-       "+1",
-       "Common"
-      ],
-      [
-       "PvP Critical Hit Resist",
+       "Critical Hit Resist",
        "+10",
-       "Common"
+       "Legend"
       ]
      ],
      "godSlots": 0,
@@ -12399,7 +12406,7 @@
      "slotPosName": "Boots",
      "name": "Bakarma Boots",
      "grade": "Unique",
-     "enchantLevel": 7,
+     "enchantLevel": 8,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Boots.png",
      "max": 15,
      "slots": 4,
@@ -12475,7 +12482,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 1,
+     "enchantLevel": 6,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -12525,6 +12532,44 @@
      ]
     },
     {
+     "slotPosName": "Earring2",
+     "name": "Aulamus Earrings",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ],
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ]
+     ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
      "slotPosName": "Earring1",
      "name": "Liberator Earrings",
      "grade": "Legend",
@@ -12556,38 +12601,7 @@
      ]
     },
     {
-     "slotPosName": "Earring2",
-     "name": "Liberator Earrings",
-     "grade": "Legend",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [
-      [
-       "Critical Hit Resist",
-       "+7",
-       "Rare"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+1",
-       "Common"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Quest"
-     ]
-    },
-    {
-     "slotPosName": "Ring1",
+     "slotPosName": "Ring2",
      "name": "Aulamus Ring",
      "grade": "Unique",
      "enchantLevel": 10,
@@ -12625,34 +12639,41 @@
      ]
     },
     {
-     "slotPosName": "Ring2",
-     "name": "Liberator Ring",
-     "grade": "Legend",
-     "enchantLevel": 7,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
-     "max": 10,
-     "slots": 3,
+     "slotPosName": "Ring1",
+     "name": "Aulamus Ring",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "max": 15,
+     "slots": 4,
      "stones": [
       [
-       "Critical Hit",
-       "+5",
+       "HP",
+       "+30",
        "Common"
       ],
       [
-       "MP",
-       "+15",
+       "Accuracy Bonus",
+       "+5",
        "Common"
       ],
       [
        "Attack",
        "+3",
        "Rare"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
       ]
      ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -12759,7 +12780,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 9,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -12776,10 +12797,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.5%"
+      "Attack increase +3.8%"
      ],
      "type": "STR",
-     "value": 25
+     "value": 38
     },
     {
      "name": "Dexterity",
@@ -12808,11 +12829,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.1%",
-      "Critical Hit increase +0.1%"
+      "Accuracy increase +3%",
+      "Critical Hit increase +3%"
      ],
      "type": "AGI",
-     "value": 1
+     "value": 30
     },
     {
      "name": "Willpower",
@@ -12914,11 +12935,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1725
+     "value": 1825
     }
    ],
    "title": {
-    "ownedCount": 188,
+    "ownedCount": 189,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -12961,8 +12982,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 62,
-      "ownedPercent": 63,
+      "ownedCount": 63,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "MP +20"
@@ -13017,8 +13038,8 @@
       "id": 42,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 52,
-      "openPercent": 59,
+      "openNodeCount": 57,
+      "openPercent": 65,
       "totalNodeCount": 88
      },
      {
@@ -13035,8 +13056,8 @@
       "id": 44,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 52,
-      "openPercent": 45,
+      "openNodeCount": 54,
+      "openPercent": 47,
       "totalNodeCount": 116
      },
      {
@@ -13152,7 +13173,7 @@
      "8|3|Legend|0|Skill Level Up - Defiance"
     ],
     "42": [
-     "3|8|Common|0|Defense",
+     "3|8|Common|1|Defense",
      "3|9|Rare|1|Skill Level Up - Impact Hit",
      "3|6|Common|0|Critical Hit Resist",
      "3|7|Legend|0|Skill Level Up - Storm Rampage",
@@ -13172,7 +13193,7 @@
      "5|10|Common|0|Critical Hit Resist",
      "5|11|Common|1|Max MP",
      "5|8|Common|0|Max MP",
-     "5|9|Legend|0|Skill Level Up - Shadowstrike",
+     "5|9|Legend|1|Skill Level Up - Shadowstrike",
      "5|7|Common|0|Attack",
      "5|4|Common|1|Max HP",
      "5|5|Common|1|Defense",
@@ -13180,8 +13201,8 @@
      "5|12|Rare|1|Skill Level Up - Revitalization Contract",
      "5|13|Common|1|Attack",
      "6|11|Common|1|Critical Hit",
-     "6|9|Common|0|Critical Hit",
-     "6|7|Rare|0|Skill Level Up - Defense Break",
+     "6|9|Common|1|Critical Hit",
+     "6|7|Rare|1|Skill Level Up - Defense Break",
      "6|5|Common|0|Max MP",
      "6|6|Common|0|Critical Hit Resist",
      "7|4|Common|1|Max HP",
@@ -13193,7 +13214,7 @@
      "7|10|Rare|1|Skill Level Up - Ambush Stance",
      "7|11|Common|1|Max HP",
      "7|9|Common|1|Max MP",
-     "7|7|Common|0|Critical Hit",
+     "7|7|Common|1|Critical Hit",
      "8|4|Common|1|Attack",
      "8|12|Common|0|Defense",
      "8|9|Common|1|Attack",
@@ -13433,9 +13454,9 @@
      "13|2|Common|1|Critical Hit Resist",
      "12|14|Common|0|Critical Hit Resist",
      "12|12|Common|1|Max MP",
-     "13|10|Common|0|Max MP",
+     "13|10|Common|1|Max MP",
      "13|11|Common|1|Max HP",
-     "13|9|Rare|0|Skill Level Up - Revitalization Contract",
+     "13|9|Rare|1|Skill Level Up - Revitalization Contract",
      "13|6|Common|0|Max HP",
      "13|7|Rare|0|Skill Level Up - Defense Break",
      "13|4|Legend|0|Skill Level Up - Shadowstrike",
@@ -13783,7 +13804,7 @@
       "id": 13100000,
       "name": "Savage Roar",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -13793,7 +13814,7 @@
       "id": 13070000,
       "name": "Shadowstrike",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -13873,7 +13894,7 @@
       "id": 13130000,
       "name": "Insignia Explosion",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -13923,7 +13944,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -13963,7 +13984,7 @@
       "id": 13780000,
       "name": "Defense Break",
       "needLevel": 21,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -13973,7 +13994,7 @@
       "id": 13790000,
       "name": "Revitalization Contract",
       "needLevel": 23,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -14063,7 +14084,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 0,
@@ -33743,8 +33764,53 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 04:34 UTC",
+ "updated": "2026-11-13 05:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 05:02",
+   "n": "Darya",
+   "x": "new Aulamus Dagger +11"
+  },
+  {
+   "t": "2026-11-13 05:02",
+   "n": "Darya",
+   "x": "Bakarma Boots +7 → +8"
+  },
+  {
+   "t": "2026-11-13 05:02",
+   "n": "Darya",
+   "x": "Noble Belt +1 → +6"
+  },
+  {
+   "t": "2026-11-13 05:02",
+   "n": "Darya",
+   "x": "new Aulamus Earrings +10"
+  },
+  {
+   "t": "2026-11-13 05:02",
+   "n": "Darya",
+   "x": "new Aulamus Ring +10"
+  },
+  {
+   "t": "2026-11-13 05:02",
+   "n": "Darya",
+   "x": "Revelation Amulet +9 → +10"
+  },
+  {
+   "t": "2026-11-13 05:02",
+   "n": "Darya",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-13 05:02",
+   "n": "Darya",
+   "x": "opened 7 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-13 05:02",
+   "n": "Darya",
+   "x": "skills up: Savage Roar 15, Shadowstrike 13, Insignia Explosion 15, Rear Smite 16 and 3 more"
+  },
   {
    "t": "2026-11-13 04:02",
    "n": "DeathRunner",
@@ -35199,51 +35265,6 @@
    "t": "2026-11-07 05:31",
    "n": "YasuoMain16",
    "x": "new Aulamus Earrings +0"
-  },
-  {
-   "t": "2026-11-07 05:31",
-   "n": "YasuoMain16",
-   "x": "skills up: Warding Shield 14, Guarding Seal 4"
-  },
-  {
-   "t": "2026-11-07 05:04",
-   "n": "RyBear",
-   "x": "new Clash Rune +0"
-  },
-  {
-   "t": "2026-11-07 05:04",
-   "n": "RyBear",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-07 05:04",
-   "n": "uTril",
-   "x": "Enraged Kromede Warhammer +13 → +14"
-  },
-  {
-   "t": "2026-11-07 05:04",
-   "n": "uTril",
-   "x": "new Nuakum Helm +10"
-  },
-  {
-   "t": "2026-11-07 05:04",
-   "n": "uTril",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-07 05:01",
-   "n": "YasuoMain16",
-   "x": "Aulamus Necklace +0 → +10"
-  },
-  {
-   "t": "2026-11-07 04:34",
-   "n": "RyBear",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-07 04:02",
-   "n": "DeathRunner",
-   "x": "skills up: Shadow Fall 4"
   }
  ]
 }

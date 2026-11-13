@@ -29879,14 +29879,14 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 114546,
+     "cp": 114746,
      "il": 2586
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 114546,
+   "cp": 114746,
    "il": 2586,
    "gear": [
     {
@@ -31916,12 +31916,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 4
      }
     ]
    },
@@ -33764,8 +33764,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 10:04 UTC",
+ "updated": "2026-11-13 10:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 10:34",
+   "n": "uTril",
+   "x": "skills up: Noble Aura 4"
+  },
   {
    "t": "2026-11-13 05:02",
    "n": "Darya",
@@ -35260,11 +35265,6 @@
    "t": "2026-11-07 06:02",
    "n": "DeathRunner",
    "x": "skills up: Whirlwind Slice 10"
-  },
-  {
-   "t": "2026-11-07 05:31",
-   "n": "YasuoMain16",
-   "x": "new Aulamus Earrings +0"
   }
  ]
 }

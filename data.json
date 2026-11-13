@@ -15455,15 +15455,15 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 149191,
-     "il": 2772
+     "cp": 149209,
+     "il": 2774
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 149191,
-   "il": 2772,
+   "cp": 149209,
+   "il": 2774,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16342,7 +16342,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2772
+     "value": 2774
     }
    ],
    "title": {
@@ -16472,8 +16472,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 2,
-      "openPercent": 1,
+      "openNodeCount": 3,
+      "openPercent": 2,
       "totalNodeCount": 152
      },
      {
@@ -16941,7 +16941,7 @@
      "9|10|Common|0|Boss Attack",
      "9|11|Common|0|Boss Defense",
      "9|8|Common|1|PvE Attack",
-     "10|7|Rare|0|Boss Attack, Boss Defense",
+     "10|7|Rare|1|Boss Attack, Boss Defense",
      "10|8|Common|1|Max MP",
      "10|6|Common|0|Boss Attack",
      "10|4|Common|0|PvE Attack",
@@ -29858,15 +29858,15 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 112156,
-     "il": 2478
+     "cp": 112932,
+     "il": 2488
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 112156,
-   "il": 2478,
+   "cp": 112932,
+   "il": 2488,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30307,7 +30307,7 @@
      "slotPosName": "Earring1",
      "name": "Enraged Kromede Earrings",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
      "max": 15,
      "slots": 4,
@@ -30701,7 +30701,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2478
+     "value": 2488
     }
    ],
    "title": {
@@ -33743,8 +33743,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 01:18 UTC",
+ "updated": "2026-11-13 01:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 01:33",
+   "n": "uTril",
+   "x": "Enraged Kromede Earrings +0 → +10"
+  },
+  {
+   "t": "2026-11-13 01:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-13 00:06",
    "n": "DeathRunner",
@@ -35234,16 +35244,6 @@
    "t": "2026-11-07 02:01",
    "n": "YasuoMain",
    "x": "new Mirror of Magic +0"
-  },
-  {
-   "t": "2026-11-07 02:01",
-   "n": "YasuoMain",
-   "x": "skills up: Protection Armor 18, Identify Weakness 16"
-  },
-  {
-   "t": "2026-11-07 01:01",
-   "n": "YasuoMain",
-   "x": "Parchment of Vigor +0 → +1"
   }
  ]
 }

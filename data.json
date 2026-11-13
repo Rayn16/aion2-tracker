@@ -22943,9 +22943,11 @@
    "stats": [
     {
      "name": "Might",
-     "statSecondList": null,
+     "statSecondList": [
+      "Attack increase +0.1%"
+     ],
      "type": "STR",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Dexterity",
@@ -24080,10 +24082,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.5%"
+      "Attack increase +1.6%"
      ],
      "type": "STR",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Dexterity",
@@ -35828,7 +35830,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 20:35 UTC",
+ "updated": "2026-11-13 21:05 UTC",
  "feed": [
   {
    "t": "2026-11-13 20:03",

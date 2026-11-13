@@ -26621,14 +26621,14 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 91312,
+     "cp": 91325,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91312,
+   "cp": 91325,
    "il": 1785,
    "gear": [
     {
@@ -27016,7 +27016,7 @@
      ]
     },
     {
-     "slotPosName": "Earring1",
+     "slotPosName": "Earring2",
      "name": "Aulamus Earrings",
      "grade": "Unique",
      "enchantLevel": 10,
@@ -27054,7 +27054,7 @@
      ]
     },
     {
-     "slotPosName": "Earring2",
+     "slotPosName": "Earring1",
      "name": "Liberator Earrings",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -35828,8 +35828,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 19:35 UTC",
+ "updated": "2026-11-13 20:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 20:03",
+   "n": "iLen",
+   "x": "new Aulamus Earrings +10"
+  },
+  {
+   "t": "2026-11-13 20:03",
+   "n": "iLen",
+   "x": "new Liberator Earrings +0"
+  },
   {
    "t": "2026-11-13 19:04",
    "n": "iLen",
@@ -37319,16 +37329,6 @@
    "t": "2026-11-07 08:04",
    "n": "RyBear",
    "x": "skills up: Identify Weakness 15"
-  },
-  {
-   "t": "2026-11-07 07:34",
-   "n": "RyBear",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-07 07:04",
-   "n": "RyBear",
-   "x": "new Avenger Bracelet +0"
   }
  ]
 }

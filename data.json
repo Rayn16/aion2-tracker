@@ -25738,10 +25738,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.7%"
+      "Attack increase +0.8%"
      ],
      "type": "STR",
-     "value": 7
+     "value": 8
     },
     {
      "name": "Dexterity",
@@ -25770,11 +25770,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.9%",
-      "Critical Hit increase +1.9%"
+      "Accuracy increase +2.4%",
+      "Critical Hit increase +2.4%"
      ],
      "type": "AGI",
-     "value": 19
+     "value": 24
     },
     {
      "name": "Willpower",
@@ -26621,14 +26621,14 @@
     },
     {
      "date": "2026-11-13",
-     "cp": 90929,
+     "cp": 83515,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 90929,
+   "cp": 83515,
    "il": 1785,
    "gear": [
     {
@@ -27281,10 +27281,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.7%"
+      "Attack increase +1.8%"
      ],
      "type": "STR",
-     "value": 17
+     "value": 18
     },
     {
      "name": "Dexterity",
@@ -27313,11 +27313,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.4%",
-      "Critical Hit increase +0.4%"
+      "Accuracy increase +0.9%",
+      "Critical Hit increase +0.9%"
      ],
      "type": "AGI",
-     "value": 4
+     "value": 9
     },
     {
      "name": "Willpower",
@@ -27425,7 +27425,7 @@
     }
    ],
    "title": {
-    "ownedCount": 197,
+    "ownedCount": 198,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -27468,8 +27468,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 64,
-      "ownedPercent": 65,
+      "ownedCount": 65,
+      "ownedPercent": 66,
       "statList": [
        {
         "desc": "MP +20"
@@ -28631,9 +28631,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingE_002.png",
-     "id": 40500200,
-     "name": "Ancient Aullaeu Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
+     "id": 40200100,
+     "name": "Ultimate Daeva Wings"
     },
     "wingSkin": {
      "enchantLevel": null,
@@ -35828,8 +35828,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 15:36 UTC",
+ "updated": "2026-11-13 16:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-13 16:03",
+   "n": "iLen",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-13 15:33",
    "n": "iLen",
@@ -37324,11 +37329,6 @@
    "t": "2026-11-07 07:04",
    "n": "RyBear",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-07 07:04",
-   "n": "RyBear",
-   "x": "opened 8 Daevanion nodes"
   }
  ]
 }

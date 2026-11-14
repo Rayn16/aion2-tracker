@@ -701,7 +701,32 @@
      "name": "Liberator Bracelet",
      "grade": "Legend",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png",
+     "max": 10,
+     "slots": 3,
+     "stones": [
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
+      ]
+     ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Crafting",
+      "Quest"
+     ]
     },
     {
      "slotPosName": "Rune1",
@@ -34875,14 +34900,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 27511,
+     "cp": 27549,
      "il": 425
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 30,
-   "cp": 27511,
+   "level": 31,
+   "cp": 27549,
    "il": 425,
    "gear": [
     {
@@ -35284,7 +35309,7 @@
     }
    ],
    "title": {
-    "ownedCount": 82,
+    "ownedCount": 83,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -35303,8 +35328,8 @@
       "grade": null,
       "id": null,
       "name": null,
-      "ownedCount": 33,
-      "ownedPercent": 31,
+      "ownedCount": 34,
+      "ownedPercent": 32,
       "statList": null,
       "totalCount": 106
      },
@@ -36038,8 +36063,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 00:19 UTC",
+ "updated": "2026-11-14 00:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 00:35",
+   "n": "YasuoMain8",
+   "x": "reached level 31"
+  },
+  {
+   "t": "2026-11-14 00:35",
+   "n": "YasuoMain8",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-14 00:17",
    "n": "YasuoMain8",
@@ -37529,16 +37564,6 @@
    "t": "2026-11-07 09:02",
    "n": "RyBear",
    "x": "new Clash Rune +2"
-  },
-  {
-   "t": "2026-11-07 09:02",
-   "n": "RyBear",
-   "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-07 09:02",
-   "n": "RyBear",
-   "x": "opened 1 Daevanion nodes"
   }
  ]
 }

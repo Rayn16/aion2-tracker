@@ -34905,14 +34905,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 32575,
+     "cp": 32753,
      "il": 472
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 32,
-   "cp": 32575,
+   "level": 33,
+   "cp": 32753,
    "il": 472,
    "gear": [
     {
@@ -35314,7 +35314,7 @@
     }
    ],
    "title": {
-    "ownedCount": 89,
+    "ownedCount": 93,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35357,8 +35357,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 32,
-      "ownedPercent": 32,
+      "ownedCount": 35,
+      "ownedPercent": 35,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -35376,8 +35376,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 21,
-      "ownedPercent": 21,
+      "ownedCount": 22,
+      "ownedPercent": 22,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -35949,12 +35949,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_029.png",
       "id": 12310000,
       "name": "Empyrean Lord's Punishment",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 0,
@@ -35979,12 +35979,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_012.png",
       "id": 12120000,
       "name": "Taunt",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 0
      },
      {
       "acquired": 0,
@@ -36047,14 +36047,14 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_021.png",
       "id": 12220000,
       "name": "Grapple",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -36067,14 +36067,14 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_045.png",
       "id": 12450000,
       "name": "Battlefield Banner",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 2
      }
     ]
    },
@@ -36104,8 +36104,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 09:05 UTC",
+ "updated": "2026-11-14 09:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 09:35",
+   "n": "YasuoMain8",
+   "x": "reached level 33"
+  },
+  {
+   "t": "2026-11-14 09:35",
+   "n": "YasuoMain8",
+   "x": "4 new titles"
+  },
+  {
+   "t": "2026-11-14 09:35",
+   "n": "YasuoMain8",
+   "x": "skills up: Grapple 5, Battlefield Banner 2"
+  },
   {
    "t": "2026-11-14 09:05",
    "n": "YasuoMain8",
@@ -37590,21 +37605,6 @@
    "t": "2026-11-07 18:32",
    "n": "IBrook",
    "x": "Nuakum Cloak +10 → +11"
-  },
-  {
-   "t": "2026-11-07 18:32",
-   "n": "IBrook",
-   "x": "Enraged Kromede Earrings +10 → +11"
-  },
-  {
-   "t": "2026-11-07 18:32",
-   "n": "IBrook",
-   "x": "new Parchment of Magic +0"
-  },
-  {
-   "t": "2026-11-07 18:32",
-   "n": "IBrook",
-   "x": "skills up: Flame Arrow 15, Frost Burst 12, Robe of Earth 15, Element Enhancement 20"
   }
  ]
 }

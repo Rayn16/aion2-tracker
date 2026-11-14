@@ -23009,10 +23009,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.2%"
+      "Attack increase +0.3%"
      ],
      "type": "STR",
-     "value": 2
+     "value": 3
     },
     {
      "name": "Dexterity",
@@ -24152,10 +24152,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.7%"
+      "Attack increase +1.8%"
      ],
      "type": "STR",
-     "value": 17
+     "value": 18
     },
     {
      "name": "Dexterity",
@@ -36146,7 +36146,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 20:54 UTC",
+ "updated": "2026-11-14 21:04 UTC",
  "feed": [
   {
    "t": "2026-11-14 20:53",

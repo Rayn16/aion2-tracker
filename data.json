@@ -4423,14 +4423,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 79388,
+     "cp": 79390,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 79388,
+   "cp": 79390,
    "il": 1785,
    "gear": [
     {
@@ -5243,7 +5243,7 @@
     }
    ],
    "title": {
-    "ownedCount": 191,
+    "ownedCount": 192,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -5286,8 +5286,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 65,
-      "ownedPercent": 66,
+      "ownedCount": 66,
+      "ownedPercent": 67,
       "statList": [
        {
         "desc": "MP +20"
@@ -36146,8 +36146,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 18:34 UTC",
+ "updated": "2026-11-14 19:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 19:04",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-14 18:34",
    "n": "YasuoMain8",
@@ -37642,11 +37647,6 @@
    "t": "2026-11-07 23:02",
    "n": "IBrook",
    "x": "Nuakum Helm +10 → +11"
-  },
-  {
-   "t": "2026-11-07 23:02",
-   "n": "IBrook",
-   "x": "skills up: Grace of Resistance 4, Vitality Evaporation 12, Fire Wall 15"
   }
  ]
 }

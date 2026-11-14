@@ -29971,14 +29971,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 115485,
+     "cp": 115985,
      "il": 2607
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 115485,
+   "cp": 115985,
    "il": 2607,
    "gear": [
     {
@@ -31985,7 +31985,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 0,
@@ -32055,7 +32055,7 @@
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 3
      }
     ]
    },
@@ -36104,8 +36104,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 12:35 UTC",
+ "updated": "2026-11-14 13:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 13:03",
+   "n": "uTril",
+   "x": "skills up: Earth Punishment 13, Noble Aura 3"
+  },
   {
    "t": "2026-11-14 09:35",
    "n": "YasuoMain8",
@@ -37600,11 +37605,6 @@
    "t": "2026-11-07 19:31",
    "n": "DeathRunner",
    "x": "Enraged Kromede Ring +11 → +13"
-  },
-  {
-   "t": "2026-11-07 18:32",
-   "n": "IBrook",
-   "x": "Nuakum Cloak +10 → +11"
   }
  ]
 }

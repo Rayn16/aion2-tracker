@@ -23888,14 +23888,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 43402,
+     "cp": 43421,
      "il": 799
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 43402,
+   "cp": 43421,
    "il": 799,
    "gear": [
     {
@@ -24290,7 +24290,7 @@
     }
    ],
    "title": {
-    "ownedCount": 53,
+    "ownedCount": 54,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -24305,8 +24305,8 @@
       "grade": "Legend",
       "id": 21020039,
       "name": "Worst of the Worst",
-      "ownedCount": 21,
-      "ownedPercent": 21,
+      "ownedCount": 22,
+      "ownedPercent": 22,
       "statList": [
        {
         "desc": "Natural MP Regen +5"
@@ -36104,8 +36104,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 16:35 UTC",
+ "updated": "2026-11-14 17:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 17:03",
+   "n": "Yorichi",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-14 13:34",
    "n": "uTril",
@@ -37600,11 +37605,6 @@
    "t": "2026-11-07 19:33",
    "n": "uTril",
    "x": "skills up: Earth's Grace 14, Earth Punishment 6, Light of Protection 20"
-  },
-  {
-   "t": "2026-11-07 19:32",
-   "n": "IBrook",
-   "x": "1 new title"
   }
  ]
 }

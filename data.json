@@ -15521,14 +15521,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 153854,
+     "cp": 153910,
      "il": 2781
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 153854,
+   "cp": 153910,
    "il": 2781,
    "gear": [
     {
@@ -17317,7 +17317,7 @@
       "id": 13340000,
       "name": "Storm Rampage",
       "needLevel": 5,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -36146,8 +36146,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 22:35 UTC",
+ "updated": "2026-11-14 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 23:02",
+   "n": "DeathRunner",
+   "x": "skills up: Storm Rampage 14"
+  },
   {
    "t": "2026-11-14 20:53",
    "n": "CuteCatty",
@@ -37642,11 +37647,6 @@
    "t": "2026-11-07 23:03",
    "n": "iLen",
    "x": "skills up: Guardian Blessing 10"
-  },
-  {
-   "t": "2026-11-07 23:02",
-   "n": "IBrook",
-   "x": "Nuakum Breastplate +10 → +11"
   }
  ]
 }

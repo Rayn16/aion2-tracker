@@ -6562,14 +6562,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 128221,
+     "cp": 128230,
      "il": 2625
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 128221,
+   "cp": 128230,
    "il": 2625,
    "gear": [
     {
@@ -34905,15 +34905,15 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 27549,
-     "il": 425
+     "cp": 32575,
+     "il": 472
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 31,
-   "cp": 27549,
-   "il": 425,
+   "level": 32,
+   "cp": 32575,
+   "il": 472,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35310,44 +35310,80 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 425
+     "value": 472
     }
    ],
    "title": {
-    "ownedCount": 83,
+    "ownedCount": 89,
     "titleList": [
      {
-      "equipCategory": "Etc",
-      "equipStatList": null,
-      "grade": null,
-      "id": null,
-      "name": null,
-      "ownedCount": 20,
-      "ownedPercent": 20,
-      "statList": null,
-      "totalCount": 102
-     },
-     {
       "equipCategory": "Attack",
-      "equipStatList": null,
-      "grade": null,
-      "id": null,
-      "name": null,
-      "ownedCount": 34,
-      "ownedPercent": 32,
-      "statList": null,
+      "equipStatList": [
+       {
+        "desc": "PvE Damage Boost +4.5%"
+       },
+       {
+        "desc": "Attack Bonus +34"
+       },
+       {
+        "desc": "Critical Hit +68"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010021,
+      "name": "Unbound by Genus",
+      "ownedCount": 36,
+      "ownedPercent": 34,
+      "statList": [
+       {
+        "desc": "PvE Damage Boost +1%"
+       }
+      ],
       "totalCount": 106
      },
      {
       "equipCategory": "Defense",
-      "equipStatList": null,
-      "grade": null,
-      "id": null,
-      "name": null,
-      "ownedCount": 29,
-      "ownedPercent": 29,
-      "statList": null,
+      "equipStatList": [
+       {
+        "desc": "Defense Bonus +320"
+       },
+       {
+        "desc": "Back Attack Damage Tolerance +3%"
+       },
+       {
+        "desc": "Boss Damage Tolerance +4%"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010025,
+      "name": "Rule All Creation",
+      "ownedCount": 32,
+      "ownedPercent": 32,
+      "statList": [
+       {
+        "desc": "Move Speed +1%"
+       }
+      ],
       "totalCount": 99
+     },
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "Combat Speed +1.9%"
+       }
+      ],
+      "grade": "Rare",
+      "id": 23050007,
+      "name": "Fashionista",
+      "ownedCount": 21,
+      "ownedPercent": 21,
+      "statList": [
+       {
+        "desc": "Critical Hit +5"
+       }
+      ],
+      "totalCount": 102
      }
     ],
     "totalCount": 307
@@ -35380,8 +35416,8 @@
       "id": 23,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 0,
-      "openPercent": 0,
+      "openNodeCount": 29,
+      "openPercent": 33,
       "totalNodeCount": 88
      },
      {
@@ -35597,9 +35633,9 @@
      "11|6|Common|1|Critical Hit"
     ],
     "23": [
-     "3|5|Rare|0|Skill Level Up - Enhance Health",
-     "3|4|Common|0|Critical Hit Resist",
-     "3|3|Unique|0|Critical Damage Boost",
+     "3|5|Rare|1|Skill Level Up - Enhance Health",
+     "3|4|Common|1|Critical Hit Resist",
+     "3|3|Unique|1|Critical Damage Boost",
      "3|9|Common|0|Attack",
      "3|8|Legend|0|Skill Level Up - Flash Rampage",
      "3|7|Common|0|Critical Hit Resist",
@@ -35607,15 +35643,15 @@
      "3|12|Common|0|Max HP",
      "3|11|Common|0|Critical Hit Resist",
      "3|10|Rare|0|Skill Level Up - Punishing Benediction",
-     "4|6|Common|0|Critical Hit",
-     "4|5|Common|0|Attack",
+     "4|6|Common|1|Critical Hit",
+     "4|5|Common|1|Attack",
      "4|3|Common|0|Critical Hit",
      "4|9|Common|0|Defense",
-     "4|7|Common|0|Max MP",
+     "4|7|Common|1|Max MP",
      "4|13|Common|0|Max MP",
      "4|11|Common|0|Defense",
      "5|3|Common|0|Defense",
-     "5|7|Legend|0|Skill Level Up - Annihilate",
+     "5|7|Legend|1|Skill Level Up - Annihilate",
      "5|5|Common|0|Max HP",
      "5|4|Legend|0|Skill Level Up - Poach",
      "5|11|Legend|0|Skill Level Up - Warding Strike",
@@ -35625,23 +35661,23 @@
      "5|13|Rare|0|Skill Level Up - Guarding Seal",
      "5|12|Common|0|Attack",
      "6|4|Common|0|Critical Hit Resist",
-     "6|7|Common|0|Critical Hit",
+     "6|7|Common|1|Critical Hit",
      "6|12|Common|0|Critical Hit Resist",
-     "6|9|Rare|0|Skill Level Up - Fury",
+     "6|9|Rare|1|Skill Level Up - Fury",
      "7|5|Common|0|Defense",
      "7|4|Common|0|Max MP",
      "7|3|Common|0|Attack",
-     "7|9|Common|0|Critical Hit Resist",
-     "7|8|Common|0|Attack",
-     "7|7|Common|0|Max HP",
+     "7|9|Common|1|Critical Hit Resist",
+     "7|8|Common|1|Attack",
+     "7|7|Common|1|Max HP",
      "7|6|Rare|0|Skill Level Up - Survival Willpower",
      "7|13|Common|0|Critical Hit",
      "7|12|Common|0|Max HP",
-     "7|11|Legend|0|Skill Level Up - Judgment",
-     "7|10|Common|0|Defense",
+     "7|11|Legend|1|Skill Level Up - Judgment",
+     "7|10|Common|1|Defense",
      "8|6|Common|0|Max MP",
      "8|3|Legend|0|Skill Level Up - Debilitating Smash",
-     "8|10|Common|0|Max HP",
+     "8|10|Common|1|Max HP",
      "8|8|Start|1|Vaizel - Start",
      "8|13|Legend|0|Skill Level Up - Vicious Strike",
      "9|3|Common|0|Critical Hit Resist",
@@ -35650,42 +35686,42 @@
      "9|5|Legend|0|Skill Level Up - Punishment",
      "9|4|Common|0|Max MP",
      "9|11|Common|0|Attack",
-     "9|10|Rare|0|Skill Level Up - Block Pain",
-     "9|9|Common|0|Max MP",
+     "9|10|Rare|1|Skill Level Up - Block Pain",
+     "9|9|Common|1|Max MP",
      "9|8|Common|0|Defense",
      "9|13|Common|0|Defense",
      "9|12|Common|0|Max HP",
      "10|4|Common|0|Critical Hit",
      "10|7|Rare|0|Skill Level Up - Impact Hit",
      "10|12|Common|0|Critical Hit",
-     "10|9|Common|0|Critical Hit Resist",
-     "11|5|Legend|0|Skill Level Up - Pummel",
+     "10|9|Common|1|Critical Hit Resist",
+     "11|5|Legend|1|Skill Level Up - Pummel",
      "11|4|Common|0|Defense",
      "11|3|Rare|0|Skill Level Up - Insulting Roar",
-     "11|9|Legend|0|Skill Level Up - Shield Smite",
-     "11|8|Common|0|Max MP",
-     "11|7|Common|0|Max HP",
-     "11|6|Common|0|Critical Hit Resist",
+     "11|9|Legend|1|Skill Level Up - Shield Smite",
+     "11|8|Common|1|Max MP",
+     "11|7|Common|1|Max HP",
+     "11|6|Common|1|Critical Hit Resist",
      "11|13|Common|0|Attack",
      "11|12|Legend|0|Skill Level Up - Shield Rush",
      "11|11|Common|0|Max MP",
      "12|5|Common|0|Attack",
      "12|3|Common|0|Max HP",
-     "12|10|Common|0|Critical Hit Resist",
-     "12|9|Common|0|Max HP",
+     "12|10|Common|1|Critical Hit Resist",
+     "12|9|Common|1|Max HP",
      "12|7|Common|0|Attack",
      "12|13|Common|0|Critical Hit Resist",
-     "12|11|Common|0|Defense",
+     "12|11|Common|1|Defense",
      "13|3|Unique|0|Critical Damage Tolerance",
      "13|7|Common|0|Defense",
      "13|6|Rare|0|Skill Level Up - Ironclad Defense",
      "13|5|Common|0|Critical Hit",
      "13|4|Common|0|Max MP",
-     "13|11|Rare|0|Skill Level Up - Warding Shield",
+     "13|11|Rare|1|Skill Level Up - Warding Shield",
      "13|9|Common|0|Critical Hit",
      "13|8|Legend|0|Skill Level Up - Defiance",
-     "13|13|Unique|0|Critical Damage Boost",
-     "13|12|Common|0|Critical Hit"
+     "13|13|Unique|1|Critical Damage Boost",
+     "13|12|Common|1|Critical Hit"
     ]
    },
    "skill": {
@@ -35708,7 +35744,7 @@
       "id": 12040000,
       "name": "Pummel",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -35728,7 +35764,7 @@
       "id": 12100000,
       "name": "Shield Smite",
       "needLevel": 3,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -35738,7 +35774,7 @@
       "id": 12240000,
       "name": "Judgment",
       "needLevel": 4,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -35768,7 +35804,7 @@
       "id": 12350000,
       "name": "Warding Strike",
       "needLevel": 8,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -35778,7 +35814,7 @@
       "id": 12430000,
       "name": "Shield Rush",
       "needLevel": 10,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -35788,7 +35824,7 @@
       "id": 12300000,
       "name": "Annihilate",
       "needLevel": 12,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -35798,7 +35834,7 @@
       "id": 12090000,
       "name": "Punishment",
       "needLevel": 14,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -35818,7 +35854,7 @@
       "id": 12710000,
       "name": "Enhance Health",
       "needLevel": 1,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -35828,7 +35864,7 @@
       "id": 12720000,
       "name": "Warding Shield",
       "needLevel": 6,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -35878,7 +35914,7 @@
       "id": 12770000,
       "name": "Insulting Roar",
       "needLevel": 17,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -35888,7 +35924,7 @@
       "id": 12780000,
       "name": "Fury",
       "needLevel": 21,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -35898,7 +35934,7 @@
       "id": 12790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -35908,17 +35944,17 @@
       "id": 12800000,
       "name": "Block Pain",
       "needLevel": 25,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_029.png",
       "id": 12310000,
       "name": "Empyrean Lord's Punishment",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -35971,14 +36007,14 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_007.png",
       "id": 12070000,
       "name": "Doom Shield",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -36068,8 +36104,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 08:35 UTC",
+ "updated": "2026-11-14 09:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 09:05",
+   "n": "YasuoMain8",
+   "x": "reached level 32"
+  },
+  {
+   "t": "2026-11-14 09:05",
+   "n": "YasuoMain8",
+   "x": "6 new titles"
+  },
+  {
+   "t": "2026-11-14 09:05",
+   "n": "YasuoMain8",
+   "x": "opened 29 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-14 09:05",
+   "n": "YasuoMain8",
+   "x": "skills up: Pummel 13, Shield Smite 11, Judgment 13, Warding Strike 10 and 11 more"
+  },
   {
    "t": "2026-11-14 05:33",
    "n": "uTril",
@@ -37549,26 +37605,6 @@
    "t": "2026-11-07 18:32",
    "n": "IBrook",
    "x": "skills up: Flame Arrow 15, Frost Burst 12, Robe of Earth 15, Element Enhancement 20"
-  },
-  {
-   "t": "2026-11-07 18:32",
-   "n": "DeathRunner",
-   "x": "new Enraged Kromede Ring +11"
-  },
-  {
-   "t": "2026-11-07 18:32",
-   "n": "DeathRunner",
-   "x": "Bell of Vigor +1 → +2"
-  },
-  {
-   "t": "2026-11-07 18:32",
-   "n": "DeathRunner",
-   "x": "skills up: Heightened Sixth Sense 16"
-  },
-  {
-   "t": "2026-11-07 18:03",
-   "n": "iLen",
-   "x": "new Vakron Breastplate +0"
   }
  ]
 }

@@ -32138,15 +32138,15 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 72302,
-     "il": 1274
+     "cp": 73163,
+     "il": 1332
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 72302,
-   "il": 1274,
+   "cp": 73163,
+   "il": 1332,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -32224,7 +32224,7 @@
      "slotPosName": "Torso",
      "name": "Anguish Breastplate",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Torso.png",
      "max": 10,
      "slots": 3,
@@ -32241,7 +32241,7 @@
      "slotPosName": "Pants",
      "name": "Anguish Greaves",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Pants.png",
      "max": 10,
      "slots": 3,
@@ -32256,24 +32256,47 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Liberator Helm",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Helmet.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Helm",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Helmet.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
      "slotPosName": "Shoulder",
      "name": "Liberator Pauldrons",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Shoulder.png",
      "max": 10,
      "slots": 3,
@@ -32326,7 +32349,7 @@
      "slotPosName": "Boots",
      "name": "Anguish Boots",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Boots.png",
      "max": 10,
      "slots": 3,
@@ -32343,7 +32366,7 @@
      "slotPosName": "Cape",
      "name": "Liberator Cloak",
      "grade": "Legend",
-     "enchantLevel": 0,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Cape.png",
      "max": 10,
      "slots": 3,
@@ -32674,7 +32697,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1274
+     "value": 1332
     }
    ],
    "title": {
@@ -34905,14 +34928,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 32753,
+     "cp": 32861,
      "il": 472
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 33,
-   "cp": 32753,
+   "level": 34,
+   "cp": 32861,
    "il": 472,
    "gear": [
     {
@@ -35314,7 +35337,7 @@
     }
    ],
    "title": {
-    "ownedCount": 93,
+    "ownedCount": 96,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35332,8 +35355,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 36,
-      "ownedPercent": 34,
+      "ownedCount": 38,
+      "ownedPercent": 36,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -35376,8 +35399,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 22,
-      "ownedPercent": 22,
+      "ownedCount": 23,
+      "ownedPercent": 23,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -36104,8 +36127,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 17:05 UTC",
+ "updated": "2026-11-14 17:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 17:35",
+   "n": "YasuoMain8",
+   "x": "reached level 34"
+  },
+  {
+   "t": "2026-11-14 17:35",
+   "n": "YasuoMain8",
+   "x": "3 new titles"
+  },
+  {
+   "t": "2026-11-14 17:34",
+   "n": "RyBear",
+   "x": "Anguish Breastplate +0 → +5"
+  },
+  {
+   "t": "2026-11-14 17:34",
+   "n": "RyBear",
+   "x": "Anguish Greaves +0 → +5"
+  },
+  {
+   "t": "2026-11-14 17:34",
+   "n": "RyBear",
+   "x": "new Bakarma Helm +10"
+  },
+  {
+   "t": "2026-11-14 17:34",
+   "n": "RyBear",
+   "x": "Liberator Pauldrons +0 → +5"
+  },
+  {
+   "t": "2026-11-14 17:34",
+   "n": "RyBear",
+   "x": "Anguish Boots +0 → +5"
+  },
+  {
+   "t": "2026-11-14 17:34",
+   "n": "RyBear",
+   "x": "Liberator Cloak +0 → +5"
+  },
   {
    "t": "2026-11-14 17:03",
    "n": "Yorichi",
@@ -37565,46 +37628,6 @@
    "t": "2026-11-07 22:03",
    "n": "iLen",
    "x": "new Vakron Gloves +0"
-  },
-  {
-   "t": "2026-11-07 22:03",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-07 22:03",
-   "n": "iLen",
-   "x": "skills up: Crossguard 11, Impact Hit 14"
-  },
-  {
-   "t": "2026-11-07 22:02",
-   "n": "IBrook",
-   "x": "new Nuakum Pauldrons +10"
-  },
-  {
-   "t": "2026-11-07 21:02",
-   "n": "IBrook",
-   "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-07 20:03",
-   "n": "iLen",
-   "x": "skills up: Guardian Blessing 8"
-  },
-  {
-   "t": "2026-11-07 19:33",
-   "n": "uTril",
-   "x": "Nuakum Greaves +10 → +0"
-  },
-  {
-   "t": "2026-11-07 19:33",
-   "n": "uTril",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-07 19:33",
-   "n": "uTril",
-   "x": "skills up: Earth's Grace 14, Earth Punishment 6, Light of Protection 20"
   }
  ]
 }

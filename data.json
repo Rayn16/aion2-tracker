@@ -12160,12 +12160,17 @@
      "date": "2026-11-13",
      "cp": 90744,
      "il": 1825
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 90788,
+     "il": 1825
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 90744,
+   "cp": 90788,
    "il": 1825,
    "gear": [
     {
@@ -12827,10 +12832,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.8%"
+      "Attack increase +3.9%"
      ],
      "type": "STR",
-     "value": 38
+     "value": 39
     },
     {
      "name": "Dexterity",
@@ -36063,7 +36068,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 08:05 UTC",
+ "updated": "2026-11-14 08:35 UTC",
  "feed": [
   {
    "t": "2026-11-14 05:33",

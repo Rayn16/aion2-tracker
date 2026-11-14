@@ -2313,13 +2313,13 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 85264,
+     "cp": 85292,
      "il": 1865
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 85264,
+   "cp": 85292,
    "il": 1865,
    "gear": [
     {
@@ -4423,14 +4423,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 79343,
+     "cp": 79388,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 79343,
+   "cp": 79388,
    "il": 1785,
    "gear": [
     {
@@ -34947,14 +34947,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 32861,
+     "cp": 33325,
      "il": 472
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 34,
-   "cp": 32861,
+   "level": 35,
+   "cp": 33325,
    "il": 472,
    "gear": [
     {
@@ -35356,7 +35356,7 @@
     }
    ],
    "title": {
-    "ownedCount": 96,
+    "ownedCount": 101,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35374,8 +35374,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 38,
-      "ownedPercent": 36,
+      "ownedCount": 40,
+      "ownedPercent": 38,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -35399,8 +35399,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 35,
-      "ownedPercent": 35,
+      "ownedCount": 37,
+      "ownedPercent": 37,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -35418,8 +35418,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 23,
-      "ownedPercent": 23,
+      "ownedCount": 24,
+      "ownedPercent": 24,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -35856,7 +35856,7 @@
       "id": 12430000,
       "name": "Shield Rush",
       "needLevel": 10,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -35916,7 +35916,7 @@
       "id": 12730000,
       "name": "Punishing Benediction",
       "needLevel": 9,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -35946,7 +35946,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -36146,8 +36146,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 18:04 UTC",
+ "updated": "2026-11-14 18:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 18:34",
+   "n": "YasuoMain8",
+   "x": "reached level 35"
+  },
+  {
+   "t": "2026-11-14 18:34",
+   "n": "YasuoMain8",
+   "x": "5 new titles"
+  },
+  {
+   "t": "2026-11-14 18:34",
+   "n": "YasuoMain8",
+   "x": "skills up: Shield Rush 11, Punishing Benediction 11, Impact Hit 10"
+  },
   {
    "t": "2026-11-14 18:04",
    "n": "RyBear",
@@ -37632,21 +37647,6 @@
    "t": "2026-11-07 23:02",
    "n": "IBrook",
    "x": "skills up: Grace of Resistance 4, Vitality Evaporation 12, Fire Wall 15"
-  },
-  {
-   "t": "2026-11-07 22:32",
-   "n": "IBrook",
-   "x": "Nuakum Greaves +10 → +11"
-  },
-  {
-   "t": "2026-11-07 22:32",
-   "n": "IBrook",
-   "x": "Enraged Kromede Ring +10 → +11"
-  },
-  {
-   "t": "2026-11-07 22:32",
-   "n": "IBrook",
-   "x": "Enraged Kromede Ring +10 → +11"
   }
  ]
 }

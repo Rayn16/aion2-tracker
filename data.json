@@ -101,6 +101,11 @@
      "date": "2026-11-13",
      "cp": 140226,
      "il": 2681
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 140226,
+     "il": 2681
     }
    ],
    "server": "Tassin",
@@ -696,32 +701,7 @@
      "name": "Liberator Bracelet",
      "grade": "Legend",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [
-      [
-       "Block",
-       "+7",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ],
-      [
-       "Critical Hit Resist",
-       "+7",
-       "Rare"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Crafting",
-      "Quest"
-     ]
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png"
     },
     {
      "slotPosName": "Rune1",
@@ -2303,6 +2283,11 @@
     },
     {
      "date": "2026-11-13",
+     "cp": 85264,
+     "il": 1865
+    },
+    {
+     "date": "2026-11-14",
      "cp": 85264,
      "il": 1865
     }
@@ -4408,6 +4393,11 @@
     },
     {
      "date": "2026-11-13",
+     "cp": 79343,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-14",
      "cp": 79343,
      "il": 1785
     }
@@ -6542,6 +6532,11 @@
     },
     {
      "date": "2026-11-13",
+     "cp": 128213,
+     "il": 2625
+    },
+    {
+     "date": "2026-11-14",
      "cp": 128213,
      "il": 2625
     }
@@ -8689,6 +8684,11 @@
      "date": "2026-11-13",
      "cp": 48995,
      "il": 1114
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 48995,
+     "il": 1114
     }
    ],
    "server": "Tassin",
@@ -10387,6 +10387,11 @@
     },
     {
      "date": "2026-11-13",
+     "cp": 59398,
+     "il": 1135
+    },
+    {
+     "date": "2026-11-14",
      "cp": 59398,
      "il": 1135
     }
@@ -14214,6 +14219,11 @@
      "date": "2026-11-13",
      "cp": 36746,
      "il": 647
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 36746,
+     "il": 647
     }
    ],
    "server": "Tassin",
@@ -15476,6 +15486,11 @@
     },
     {
      "date": "2026-11-13",
+     "cp": 150192,
+     "il": 2780
+    },
+    {
+     "date": "2026-11-14",
      "cp": 150192,
      "il": 2780
     }
@@ -17642,6 +17657,11 @@
      "date": "2026-11-13",
      "cp": 123961,
      "il": 2560
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 123961,
+     "il": 2560
     }
    ],
    "server": "Tassin",
@@ -19642,6 +19662,11 @@
      "date": "2026-11-13",
      "cp": 23827,
      "il": 496
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 23827,
+     "il": 496
     }
    ],
    "server": "Tassin",
@@ -20878,6 +20903,11 @@
     },
     {
      "date": "2026-11-13",
+     "cp": 91749,
+     "il": 1861
+    },
+    {
+     "date": "2026-11-14",
      "cp": 91749,
      "il": 1861
     }
@@ -22633,6 +22663,11 @@
      "date": "2026-11-13",
      "cp": 25481,
      "il": 450
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 25481,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -23818,6 +23853,11 @@
     },
     {
      "date": "2026-11-13",
+     "cp": 43399,
+     "il": 799
+    },
+    {
+     "date": "2026-11-14",
      "cp": 43399,
      "il": 799
     }
@@ -25483,6 +25523,11 @@
      "date": "2026-11-13",
      "cp": 18563,
      "il": 361
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 18563,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -26623,6 +26668,11 @@
     },
     {
      "date": "2026-11-13",
+     "cp": 91325,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-14",
      "cp": 91325,
      "il": 1785
     }
@@ -28699,6 +28749,11 @@
      "date": "2026-11-13",
      "cp": 25763,
      "il": 472
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 25763,
+     "il": 472
     }
    ],
    "server": "Tassin",
@@ -29883,6 +29938,11 @@
      "date": "2026-11-13",
      "cp": 115630,
      "il": 2606
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 115630,
+     "il": 2606
     }
    ],
    "server": "Tassin",
@@ -30298,24 +30358,24 @@
      "slots": 4,
      "stones": [
       [
-       "Critical Hit",
+       "Critical Hit Resist",
        "+5",
        "Common"
       ],
       [
-       "Attack",
-       "+1",
-       "Common"
-      ],
-      [
-       "Accuracy Bonus",
-       "+5",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
+       "Evasion Bonus",
+       "+7",
        "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -30334,7 +30394,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -30389,7 +30470,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -30571,7 +30673,7 @@
      "grade": "Unique",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
-     "max": 4,
+     "max": 5,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -32001,6 +32103,11 @@
     },
     {
      "date": "2026-11-13",
+     "cp": 72302,
+     "il": 1274
+    },
+    {
+     "date": "2026-11-14",
      "cp": 72302,
      "il": 1274
     }
@@ -33771,6 +33878,11 @@
      "date": "2026-11-13",
      "cp": 17820,
      "il": 201
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 17820,
+     "il": 201
     }
    ],
    "server": "Tassin",
@@ -34760,13 +34872,18 @@
      "date": "2026-11-13",
      "cp": 25299,
      "il": 420
+    },
+    {
+     "date": "2026-11-14",
+     "cp": 27511,
+     "il": 425
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 29,
-   "cp": 25299,
-   "il": 420,
+   "level": 30,
+   "cp": 27511,
+   "il": 425,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34890,12 +35007,12 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Outsider Cloak",
-     "grade": "Common",
+     "name": "Chaser Cloak",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Cape.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35163,11 +35280,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 420
+     "value": 425
     }
    ],
    "title": {
-    "ownedCount": 74,
+    "ownedCount": 82,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -35175,8 +35292,8 @@
       "grade": null,
       "id": null,
       "name": null,
-      "ownedCount": 18,
-      "ownedPercent": 18,
+      "ownedCount": 20,
+      "ownedPercent": 20,
       "statList": null,
       "totalCount": 102
      },
@@ -35186,8 +35303,8 @@
       "grade": null,
       "id": null,
       "name": null,
-      "ownedCount": 31,
-      "ownedPercent": 29,
+      "ownedCount": 33,
+      "ownedPercent": 31,
       "statList": null,
       "totalCount": 106
      },
@@ -35197,8 +35314,8 @@
       "grade": null,
       "id": null,
       "name": null,
-      "ownedCount": 25,
-      "ownedPercent": 25,
+      "ownedCount": 29,
+      "ownedPercent": 29,
       "statList": null,
       "totalCount": 99
      }
@@ -35232,7 +35349,7 @@
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
       "id": 23,
       "name": "Vaizel",
-      "open": 0,
+      "open": 1,
       "openNodeCount": 0,
       "openPercent": 0,
       "totalNodeCount": 88
@@ -35448,6 +35565,97 @@
      "11|8|Common|0|Max HP",
      "11|7|Legend|1|Skill Level Up - Shield Rush",
      "11|6|Common|1|Critical Hit"
+    ],
+    "23": [
+     "3|5|Rare|0|Skill Level Up - Enhance Health",
+     "3|4|Common|0|Critical Hit Resist",
+     "3|3|Unique|0|Critical Damage Boost",
+     "3|9|Common|0|Attack",
+     "3|8|Legend|0|Skill Level Up - Flash Rampage",
+     "3|7|Common|0|Critical Hit Resist",
+     "3|13|Unique|0|Critical Damage Tolerance",
+     "3|12|Common|0|Max HP",
+     "3|11|Common|0|Critical Hit Resist",
+     "3|10|Rare|0|Skill Level Up - Punishing Benediction",
+     "4|6|Common|0|Critical Hit",
+     "4|5|Common|0|Attack",
+     "4|3|Common|0|Critical Hit",
+     "4|9|Common|0|Defense",
+     "4|7|Common|0|Max MP",
+     "4|13|Common|0|Max MP",
+     "4|11|Common|0|Defense",
+     "5|3|Common|0|Defense",
+     "5|7|Legend|0|Skill Level Up - Annihilate",
+     "5|5|Common|0|Max HP",
+     "5|4|Legend|0|Skill Level Up - Poach",
+     "5|11|Legend|0|Skill Level Up - Warding Strike",
+     "5|10|Common|0|Max HP",
+     "5|9|Common|0|Max MP",
+     "5|8|Common|0|Critical Hit",
+     "5|13|Rare|0|Skill Level Up - Guarding Seal",
+     "5|12|Common|0|Attack",
+     "6|4|Common|0|Critical Hit Resist",
+     "6|7|Common|0|Critical Hit",
+     "6|12|Common|0|Critical Hit Resist",
+     "6|9|Rare|0|Skill Level Up - Fury",
+     "7|5|Common|0|Defense",
+     "7|4|Common|0|Max MP",
+     "7|3|Common|0|Attack",
+     "7|9|Common|0|Critical Hit Resist",
+     "7|8|Common|0|Attack",
+     "7|7|Common|0|Max HP",
+     "7|6|Rare|0|Skill Level Up - Survival Willpower",
+     "7|13|Common|0|Critical Hit",
+     "7|12|Common|0|Max HP",
+     "7|11|Legend|0|Skill Level Up - Judgment",
+     "7|10|Common|0|Defense",
+     "8|6|Common|0|Max MP",
+     "8|3|Legend|0|Skill Level Up - Debilitating Smash",
+     "8|10|Common|0|Max HP",
+     "8|8|Start|1|Vaizel - Start",
+     "8|13|Legend|0|Skill Level Up - Vicious Strike",
+     "9|3|Common|0|Critical Hit Resist",
+     "9|7|Common|0|Critical Hit",
+     "9|6|Common|0|Attack",
+     "9|5|Legend|0|Skill Level Up - Punishment",
+     "9|4|Common|0|Max MP",
+     "9|11|Common|0|Attack",
+     "9|10|Rare|0|Skill Level Up - Block Pain",
+     "9|9|Common|0|Max MP",
+     "9|8|Common|0|Defense",
+     "9|13|Common|0|Defense",
+     "9|12|Common|0|Max HP",
+     "10|4|Common|0|Critical Hit",
+     "10|7|Rare|0|Skill Level Up - Impact Hit",
+     "10|12|Common|0|Critical Hit",
+     "10|9|Common|0|Critical Hit Resist",
+     "11|5|Legend|0|Skill Level Up - Pummel",
+     "11|4|Common|0|Defense",
+     "11|3|Rare|0|Skill Level Up - Insulting Roar",
+     "11|9|Legend|0|Skill Level Up - Shield Smite",
+     "11|8|Common|0|Max MP",
+     "11|7|Common|0|Max HP",
+     "11|6|Common|0|Critical Hit Resist",
+     "11|13|Common|0|Attack",
+     "11|12|Legend|0|Skill Level Up - Shield Rush",
+     "11|11|Common|0|Max MP",
+     "12|5|Common|0|Attack",
+     "12|3|Common|0|Max HP",
+     "12|10|Common|0|Critical Hit Resist",
+     "12|9|Common|0|Max HP",
+     "12|7|Common|0|Attack",
+     "12|13|Common|0|Critical Hit Resist",
+     "12|11|Common|0|Defense",
+     "13|3|Unique|0|Critical Damage Tolerance",
+     "13|7|Common|0|Defense",
+     "13|6|Rare|0|Skill Level Up - Ironclad Defense",
+     "13|5|Common|0|Critical Hit",
+     "13|4|Common|0|Max MP",
+     "13|11|Rare|0|Skill Level Up - Warding Shield",
+     "13|9|Common|0|Critical Hit",
+     "13|8|Legend|0|Skill Level Up - Defiance",
+     "13|13|Unique|0|Critical Damage Boost",
+     "13|12|Common|0|Critical Hit"
     ]
    },
    "skill": {
@@ -35500,7 +35708,7 @@
       "id": 12240000,
       "name": "Judgment",
       "needLevel": 4,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -35510,7 +35718,7 @@
       "id": 12340000,
       "name": "Flash Rampage",
       "needLevel": 5,
-      "skillLevel": 1
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -35530,7 +35738,7 @@
       "id": 12350000,
       "name": "Warding Strike",
       "needLevel": 8,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -35540,7 +35748,7 @@
       "id": 12430000,
       "name": "Shield Rush",
       "needLevel": 10,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -35560,7 +35768,7 @@
       "id": 12090000,
       "name": "Punishment",
       "needLevel": 14,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -35600,7 +35808,7 @@
       "id": 12730000,
       "name": "Punishing Benediction",
       "needLevel": 9,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -35630,7 +35838,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -35640,7 +35848,7 @@
       "id": 12770000,
       "name": "Insulting Roar",
       "needLevel": 17,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -35830,8 +36038,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-13 23:35 UTC",
+ "updated": "2026-11-14 00:19 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 00:17",
+   "n": "YasuoMain8",
+   "x": "reached level 30"
+  },
+  {
+   "t": "2026-11-14 00:17",
+   "n": "YasuoMain8",
+   "x": "new Chaser Cloak +0"
+  },
+  {
+   "t": "2026-11-14 00:17",
+   "n": "YasuoMain8",
+   "x": "8 new titles"
+  },
+  {
+   "t": "2026-11-14 00:17",
+   "n": "YasuoMain8",
+   "x": "skills up: Judgment 12, Flash Rampage 10, Warding Strike 9, Shield Rush 9 and 4 more"
+  },
   {
    "t": "2026-11-13 23:35",
    "n": "YasuoMain8",
@@ -37311,26 +37539,6 @@
    "t": "2026-11-07 09:02",
    "n": "RyBear",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-07 09:02",
-   "n": "RyBear",
-   "x": "skills up: Ankle Slice 7, Rush Strike 8"
-  },
-  {
-   "t": "2026-11-07 08:34",
-   "n": "uTril",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-07 08:04",
-   "n": "RyBear",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-07 08:04",
-   "n": "RyBear",
-   "x": "opened 3 Daevanion nodes"
   }
  ]
 }

@@ -15516,15 +15516,15 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 153850,
-     "il": 2780
+     "cp": 153854,
+     "il": 2781
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 153850,
-   "il": 2780,
+   "cp": 153854,
+   "il": 2781,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16403,7 +16403,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2780
+     "value": 2781
     }
    ],
    "title": {
@@ -16533,8 +16533,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 3,
-      "openPercent": 2,
+      "openNodeCount": 4,
+      "openPercent": 3,
       "totalNodeCount": 152
      },
      {
@@ -17009,7 +17009,7 @@
      "10|2|Common|0|Boss Attack",
      "10|15|Common|0|PvE Defense",
      "10|12|Common|0|PvE Evasion",
-     "10|9|Common|0|PvE Evasion",
+     "10|9|Common|1|PvE Evasion",
      "10|10|Legend|0|Critical Hit",
      "11|9|Common|0|PvE Defense",
      "11|6|Common|0|PvE Defense",
@@ -29966,15 +29966,15 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 115630,
-     "il": 2606
+     "cp": 115535,
+     "il": 2607
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 115630,
-   "il": 2606,
+   "cp": 115535,
+   "il": 2607,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30851,7 +30851,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2606
+     "value": 2607
     }
    ],
    "title": {
@@ -30981,8 +30981,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 0,
-      "openPercent": 0,
+      "openNodeCount": 1,
+      "openPercent": 1,
       "totalNodeCount": 152
      },
      {
@@ -31407,7 +31407,7 @@
      "7|14|Rare|0|PvE Accuracy, PvE Evasion",
      "8|6|Common|0|PvE Accuracy",
      "8|3|Common|0|Max HP",
-     "7|8|Common|0|PvE Attack",
+     "7|8|Common|1|PvE Attack",
      "7|6|Common|0|Boss Attack",
      "7|13|Common|0|PvE Defense",
      "7|12|Common|0|PvE Evasion",
@@ -31970,7 +31970,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -32045,12 +32045,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 2
      }
     ]
    },
@@ -36063,8 +36063,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 02:05 UTC",
+ "updated": "2026-11-14 02:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 02:33",
+   "n": "uTril",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-14 02:33",
+   "n": "uTril",
+   "x": "skills up: Noble Aura 2"
+  },
+  {
+   "t": "2026-11-14 02:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-14 01:32",
    "n": "IBrook",
@@ -37549,21 +37564,6 @@
    "t": "2026-11-07 18:03",
    "n": "iLen",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-07 17:33",
-   "n": "iLen",
-   "x": "skills up: Heat Wave Blow 10, Power of the Storm 10"
-  },
-  {
-   "t": "2026-11-07 17:03",
-   "n": "iLen",
-   "x": "opened 60 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-07 17:03",
-   "n": "iLen",
-   "x": "skills up: Onslaught 14, Rushing Smash 13, Dark Crush 14, Recuperation 14 and 6 more"
   }
  ]
 }

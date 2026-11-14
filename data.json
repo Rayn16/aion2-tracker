@@ -15516,14 +15516,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 149922,
+     "cp": 153550,
      "il": 2780
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 149922,
+   "cp": 153550,
    "il": 2780,
    "gear": [
     {
@@ -16312,11 +16312,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +6.4%",
-      "Perfect Chance +6.4%"
+      "Defense increase +7.4%",
+      "Perfect Chance +7.4%"
      ],
      "type": "Justice",
-     "value": 64
+     "value": 74
     },
     {
      "name": "Freedom [Vaizel]",
@@ -16348,20 +16348,20 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +6.5%",
-      "Double Resist +6.5%"
+      "Combat Speed +7.5%",
+      "Double Resist +7.5%"
      ],
      "type": "Time",
-     "value": 65
+     "value": 75
     },
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.6%",
-      "Perfect Resist +0.6%"
+      "Attack increase +5.1%",
+      "Perfect Resist +5.1%"
      ],
      "type": "Destruction",
-     "value": 6
+     "value": 51
     },
     {
      "name": "Death [Triniel]",
@@ -17482,7 +17482,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -17616,9 +17616,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -17685,14 +17685,14 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 123961,
+     "cp": 124365,
      "il": 2560
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 123961,
+   "cp": 124365,
    "il": 2560,
    "gear": [
     {
@@ -19547,7 +19547,7 @@
       "id": 15200000,
       "name": "Cold Storm",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -36063,8 +36063,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 01:04 UTC",
+ "updated": "2026-11-14 01:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 01:32",
+   "n": "IBrook",
+   "x": "skills up: Cold Storm 11"
+  },
+  {
+   "t": "2026-11-14 01:32",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Fang 10"
+  },
   {
    "t": "2026-11-14 00:35",
    "n": "YasuoMain8",
@@ -37554,16 +37564,6 @@
    "t": "2026-11-07 17:03",
    "n": "iLen",
    "x": "skills up: Onslaught 14, Rushing Smash 13, Dark Crush 14, Recuperation 14 and 6 more"
-  },
-  {
-   "t": "2026-11-07 16:33",
-   "n": "iLen",
-   "x": "skills up: Onslaught 13, Inspiring Spell 12, Impact Hit 13, Survival Willpower 7 and 2 more"
-  },
-  {
-   "t": "2026-11-07 09:02",
-   "n": "RyBear",
-   "x": "new Clash Rune +2"
   }
  ]
 }

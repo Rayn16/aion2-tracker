@@ -32138,15 +32138,15 @@
     },
     {
      "date": "2026-11-14",
-     "cp": 73163,
-     "il": 1332
+     "cp": 73638,
+     "il": 1356
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 73163,
-   "il": 1332,
+   "cp": 73638,
+   "il": 1356,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -32239,13 +32239,34 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Anguish Greaves",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Pants.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Greaves",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Pants.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -32564,13 +32585,9 @@
     },
     {
      "name": "Dexterity",
-     "statSecondList": [
-      "Evasion increase +1.1%",
-      "Block increase +1.1%",
-      "Critical Hit Resist increase +1.1%"
-     ],
+     "statSecondList": null,
      "type": "DEX",
-     "value": 11
+     "value": 0
     },
     {
      "name": "Intelligence",
@@ -32599,9 +32616,11 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Resist +1%"
+     ],
      "type": "WIS",
-     "value": 0
+     "value": 10
     },
     {
      "name": "Justice [Nezekan]",
@@ -32697,7 +32716,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1332
+     "value": 1356
     }
    ],
    "title": {
@@ -33676,7 +33695,7 @@
       "id": 11710000,
       "name": "Survival Stance",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -33696,7 +33715,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -36127,8 +36146,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 17:35 UTC",
+ "updated": "2026-11-14 18:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-14 18:04",
+   "n": "RyBear",
+   "x": "new Bakarma Greaves +10"
+  },
+  {
+   "t": "2026-11-14 18:04",
+   "n": "RyBear",
+   "x": "skills up: Survival Stance 15, Blood Absorption 14"
+  },
   {
    "t": "2026-11-14 17:35",
    "n": "YasuoMain8",
@@ -37618,16 +37647,6 @@
    "t": "2026-11-07 22:32",
    "n": "IBrook",
    "x": "Enraged Kromede Ring +10 → +11"
-  },
-  {
-   "t": "2026-11-07 22:32",
-   "n": "IBrook",
-   "x": "skills up: Cold Storm 13"
-  },
-  {
-   "t": "2026-11-07 22:03",
-   "n": "iLen",
-   "x": "new Vakron Gloves +0"
   }
  ]
 }

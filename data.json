@@ -12198,14 +12198,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 90879,
+     "cp": 91342,
      "il": 1825
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 90879,
+   "cp": 91342,
    "il": 1825,
    "gear": [
     {
@@ -12867,10 +12867,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.1%"
+      "Attack increase +4.2%"
      ],
      "type": "STR",
-     "value": 41
+     "value": 42
     },
     {
      "name": "Dexterity",
@@ -14154,7 +14154,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 0,
@@ -36270,8 +36270,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 10:34 UTC",
+ "updated": "2026-11-15 11:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 11:02",
+   "n": "Darya",
+   "x": "skills up: Triniel's Dagger 12"
+  },
   {
    "t": "2026-11-15 04:33",
    "n": "uTril",
@@ -37766,11 +37771,6 @@
    "t": "2026-11-08 00:07",
    "n": "IBrook",
    "x": "skills up: Bittercold Wind 15, Flame Scattershot 16, Fire Mark 15, Grace of Resistance 5"
-  },
-  {
-   "t": "2026-11-08 00:06",
-   "n": "DeathRunner",
-   "x": "Bell of Vigor +2 → +3"
   }
  ]
 }

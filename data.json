@@ -6631,15 +6631,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 128021,
-     "il": 2625
+     "cp": 128167,
+     "il": 2626
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 128021,
-   "il": 2625,
+   "cp": 128167,
+   "il": 2626,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -6685,7 +6685,7 @@
      "slotPosName": "SubHand",
      "name": "Nuakum Guard",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
@@ -7498,7 +7498,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2625
+     "value": 2626
     }
    ],
    "title": {
@@ -12247,14 +12247,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 91342,
+     "cp": 91360,
      "il": 1825
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91342,
+   "cp": 91360,
    "il": 1825,
    "gear": [
     {
@@ -35125,15 +35125,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 42199,
-     "il": 691
+     "cp": 45157,
+     "il": 729
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 37,
-   "cp": 42199,
-   "il": 691,
+   "level": 39,
+   "cp": 45157,
+   "il": 729,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35287,12 +35287,12 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Old Mercenary Commander Necklace",
-     "grade": "Common",
+     "name": "Outsider Necklace",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0011.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35317,12 +35317,12 @@
     },
     {
      "slotPosName": "Earring1",
-     "name": "Old Mercenary Commander Earrings",
-     "grade": "Common",
+     "name": "Chaser Earrings",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0030.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35361,29 +35361,28 @@
      ]
     },
     {
-     "slotPosName": "Bracelet1",
-     "name": "Old Mercenary Commander Bracelet",
-     "grade": "Common",
+     "slotPosName": "Bracelet2",
+     "name": "Outsider Bracelet",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0011.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Crafting",
       "Quest"
      ]
     },
     {
-     "slotPosName": "Bracelet2",
-     "name": "Old Mercenary Commander Bracelet",
-     "grade": "Common",
+     "slotPosName": "Bracelet1",
+     "name": "Chaser Bracelet",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0030.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35549,11 +35548,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 691
+     "value": 729
     }
    ],
    "title": {
-    "ownedCount": 106,
+    "ownedCount": 120,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35571,8 +35570,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 41,
-      "ownedPercent": 39,
+      "ownedCount": 45,
+      "ownedPercent": 42,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -35596,8 +35595,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 40,
-      "ownedPercent": 40,
+      "ownedCount": 43,
+      "ownedPercent": 43,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -35615,8 +35614,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 25,
-      "ownedPercent": 25,
+      "ownedCount": 32,
+      "ownedPercent": 31,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -35637,8 +35636,8 @@
       "id": 21,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 43,
-      "openPercent": 49,
+      "openNodeCount": 45,
+      "openPercent": 51,
       "totalNodeCount": 88
      },
      {
@@ -35663,7 +35662,7 @@
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Mace.png",
       "id": 24,
       "name": "Triniel",
-      "open": 0,
+      "open": 1,
       "openNodeCount": 0,
       "openPercent": 0,
       "totalNodeCount": 116
@@ -35753,11 +35752,11 @@
      "10|5|Common|0|Defense",
      "10|12|Common|1|Max MP",
      "10|9|Common|0|Critical Hit",
-     "11|5|Legend|0|Skill Level Up - Shield Rush",
+     "11|5|Legend|1|Skill Level Up - Shield Rush",
      "11|4|Common|0|Max MP",
      "11|3|Rare|0|Skill Level Up - Guarding Seal",
      "11|9|Common|0|Critical Hit Resist",
-     "11|8|Legend|0|Skill Level Up - Shield Smite",
+     "11|8|Legend|1|Skill Level Up - Shield Smite",
      "11|7|Common|1|Max MP",
      "11|13|Rare|1|Skill Level Up - Warding Shield",
      "11|12|Common|1|Attack",
@@ -35961,6 +35960,125 @@
      "13|8|Legend|0|Skill Level Up - Defiance",
      "13|13|Unique|1|Critical Damage Boost",
      "13|12|Common|1|Critical Hit"
+    ],
+    "24": [
+     "9|11|Common|0|Defense",
+     "9|10|Legend|0|Skill Level Up - Judgment",
+     "9|9|Common|0|Max HP",
+     "9|8|Common|0|Attack",
+     "9|14|Common|0|Critical Hit",
+     "9|13|Common|0|Critical Hit Resist",
+     "9|12|Common|0|Max MP",
+     "10|3|Common|0|Critical Hit",
+     "10|6|Common|0|Max MP",
+     "10|12|Common|0|Attack",
+     "10|10|Common|0|Critical Hit Resist",
+     "11|5|Common|0|Critical Hit Resist",
+     "11|4|Common|0|Max MP",
+     "11|3|Common|0|Max HP",
+     "11|2|Rare|0|Skill Level Up - Punishing Benediction",
+     "11|9|Common|0|Defense",
+     "11|7|Common|0|Attack",
+     "11|6|Legend|0|Skill Level Up - Debilitating Smash",
+     "11|13|Common|0|Critical Hit",
+     "11|12|Common|0|Max HP",
+     "11|11|Rare|0|Skill Level Up - Enhance Health",
+     "11|10|Common|0|Critical Hit",
+     "12|2|Common|0|Critical Hit",
+     "11|14|Legend|0|Skill Level Up - Defiance",
+     "12|4|Common|0|Defense",
+     "12|9|Common|0|Attack",
+     "12|8|Common|0|Max MP",
+     "12|7|Common|0|Critical Hit",
+     "12|14|Common|0|Critical Hit Resist",
+     "12|12|Common|0|Max MP",
+     "13|2|Common|0|Critical Hit Resist",
+     "13|7|Rare|0|Skill Level Up - Fury",
+     "13|6|Common|0|Max HP",
+     "13|5|Common|0|Critical Hit Resist",
+     "13|4|Legend|0|Skill Level Up - Poach",
+     "13|11|Common|0|Max HP",
+     "13|10|Common|0|Max MP",
+     "13|9|Rare|0|Skill Level Up - Survival Willpower",
+     "13|14|Common|0|Max HP",
+     "13|12|Legend|0|Skill Level Up - Vicious Strike",
+     "14|4|Common|0|Attack",
+     "14|3|Common|0|Max MP",
+     "14|2|Unique|0|Multi-Hit Chance",
+     "14|8|Unique|0|Multi-Hit Resist",
+     "14|7|Common|0|Attack",
+     "14|12|Common|0|Critical Hit Resist",
+     "14|9|Common|0|Defense",
+     "14|14|Unique|0|Multi-Hit Chance",
+     "14|13|Common|0|Defense",
+     "2|4|Common|0|Critical Hit",
+     "2|3|Common|0|Attack",
+     "2|2|Unique|0|Multi-Hit Resist",
+     "2|8|Unique|0|Multi-Hit Chance",
+     "2|7|Common|0|Attack",
+     "2|12|Common|0|Defense",
+     "2|9|Common|0|Defense",
+     "2|14|Unique|0|Multi-Hit Resist",
+     "2|13|Common|0|Max HP",
+     "3|5|Common|0|Max MP",
+     "3|4|Legend|0|Skill Level Up - Shield Smite",
+     "3|2|Common|0|Max MP",
+     "3|9|Rare|0|Skill Level Up - Impact Hit",
+     "3|7|Rare|0|Skill Level Up - Block Pain",
+     "3|6|Common|0|Max HP",
+     "3|12|Legend|0|Skill Level Up - Pummel",
+     "3|11|Common|0|Critical Hit",
+     "3|10|Common|0|Max MP",
+     "4|2|Common|0|Critical Hit",
+     "3|14|Common|0|Critical Hit",
+     "4|4|Common|0|Max HP",
+     "4|9|Common|0|Critical Hit Resist",
+     "4|8|Common|0|Max HP",
+     "4|7|Common|0|Defense",
+     "4|14|Common|0|Critical Hit Resist",
+     "4|12|Common|0|Attack",
+     "5|3|Common|0|Critical Hit Resist",
+     "5|2|Legend|0|Skill Level Up - Flash Rampage",
+     "5|7|Common|0|Attack",
+     "5|6|Common|0|Critical Hit Resist",
+     "5|5|Rare|0|Skill Level Up - Warding Shield",
+     "5|4|Common|0|Max MP",
+     "5|11|Common|0|Critical Hit",
+     "5|10|Legend|0|Skill Level Up - Shield Rush",
+     "5|9|Common|0|Defense",
+     "5|14|Rare|0|Skill Level Up - Ironclad Defense",
+     "5|13|Common|0|Max MP",
+     "5|12|Common|0|Max HP",
+     "6|4|Common|0|Defense",
+     "6|6|Common|0|Critical Hit",
+     "6|10|Common|0|Max HP",
+     "6|13|Common|0|Critical Hit Resist",
+     "7|5|Common|0|Attack",
+     "7|4|Common|0|Max HP",
+     "7|3|Common|0|Critical Hit",
+     "7|2|Common|0|Critical Hit Resist",
+     "7|9|Common|0|Critical Hit Resist",
+     "7|8|Common|0|Defense",
+     "7|7|Common|0|Max MP",
+     "7|6|Legend|0|Skill Level Up - Warding Strike",
+     "7|13|Common|0|Defense",
+     "7|12|Rare|0|Skill Level Up - Insulting Roar",
+     "7|11|Common|0|Critical Hit",
+     "7|10|Common|0|Max MP",
+     "8|2|Legend|0|Skill Level Up - Annihilate",
+     "7|14|Common|0|Max MP",
+     "8|6|Common|0|Defense",
+     "8|4|Common|0|Defense",
+     "8|10|Common|0|Attack",
+     "8|8|Start|1|Triniel - Start",
+     "8|14|Legend|0|Skill Level Up - Punishment",
+     "8|12|Common|0|Attack",
+     "9|3|Common|0|Attack",
+     "9|2|Common|0|Max HP",
+     "9|7|Common|0|Critical Hit",
+     "9|6|Common|0|Max HP",
+     "9|5|Common|0|Critical Hit Resist",
+     "9|4|Rare|0|Skill Level Up - Guarding Seal"
     ]
    },
    "skill": {
@@ -35993,7 +36111,7 @@
       "id": 12130000,
       "name": "Poach",
       "needLevel": 1,
-      "skillLevel": 1
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -36003,7 +36121,7 @@
       "id": 12100000,
       "name": "Shield Smite",
       "needLevel": 3,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36053,7 +36171,7 @@
       "id": 12430000,
       "name": "Shield Rush",
       "needLevel": 10,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36143,7 +36261,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -36343,8 +36461,53 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 21:35 UTC",
+ "updated": "2026-11-15 22:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 22:05",
+   "n": "YasuoMain8",
+   "x": "reached level 39"
+  },
+  {
+   "t": "2026-11-15 22:05",
+   "n": "YasuoMain8",
+   "x": "new Outsider Necklace +0"
+  },
+  {
+   "t": "2026-11-15 22:05",
+   "n": "YasuoMain8",
+   "x": "new Chaser Earrings +0"
+  },
+  {
+   "t": "2026-11-15 22:05",
+   "n": "YasuoMain8",
+   "x": "new Outsider Bracelet +0"
+  },
+  {
+   "t": "2026-11-15 22:05",
+   "n": "YasuoMain8",
+   "x": "new Chaser Bracelet +0"
+  },
+  {
+   "t": "2026-11-15 22:05",
+   "n": "YasuoMain8",
+   "x": "14 new titles"
+  },
+  {
+   "t": "2026-11-15 22:05",
+   "n": "YasuoMain8",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-15 22:05",
+   "n": "YasuoMain8",
+   "x": "skills up: Poach 8, Shield Smite 12, Shield Rush 12, Impact Hit 13"
+  },
+  {
+   "t": "2026-11-15 22:04",
+   "n": "CutieCatty",
+   "x": "Nuakum Guard +14 → +15"
+  },
   {
    "t": "2026-11-15 21:34",
    "n": "YasuoMain8",
@@ -37799,51 +37962,6 @@
    "t": "2026-11-09 01:31",
    "n": "YasuoMain16",
    "x": "Revelation Amulet +5 → +0"
-  },
-  {
-   "t": "2026-11-09 01:31",
-   "n": "YasuoMain16",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-08 16:28",
-   "n": "PeriodPhobic",
-   "x": "new Aulamus Earrings +10"
-  },
-  {
-   "t": "2026-11-08 04:34",
-   "n": "RyBear",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-08 04:34",
-   "n": "RyBear",
-   "x": "skills up: Mocking Blade 10, Defiance 3, Focused Block 5"
-  },
-  {
-   "t": "2026-11-08 04:04",
-   "n": "RyBear",
-   "x": "new Spiritforged Guard +0"
-  },
-  {
-   "t": "2026-11-08 04:04",
-   "n": "RyBear",
-   "x": "new Avenger Necklace +0"
-  },
-  {
-   "t": "2026-11-08 04:04",
-   "n": "RyBear",
-   "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-08 04:04",
-   "n": "RyBear",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-08 03:33",
-   "n": "iLen",
-   "x": "Gartua Pauldrons +0 → +10"
   }
  ]
 }

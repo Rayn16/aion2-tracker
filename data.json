@@ -4487,14 +4487,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 76506,
+     "cp": 79506,
      "il": 1793
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 76506,
+   "cp": 79506,
    "il": 1793,
    "gear": [
     {
@@ -6465,14 +6465,14 @@
       "skillLevel": 5
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_042.png",
       "id": 17420000,
       "name": "Yustiel's Power",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -36325,8 +36325,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 15:35 UTC",
+ "updated": "2026-11-15 16:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 16:04",
+   "n": "CuteCatty",
+   "x": "skills up: Yustiel's Power 10"
+  },
   {
    "t": "2026-11-15 15:05",
    "n": "YasuoMain8",
@@ -37821,11 +37826,6 @@
    "t": "2026-11-08 01:01",
    "n": "YasuoMain",
    "x": "Parchment of Vigor +3 → +4"
-  },
-  {
-   "t": "2026-11-08 01:01",
-   "n": "YasuoMain",
-   "x": "skills up: Keen Strike 17"
   }
  ]
 }

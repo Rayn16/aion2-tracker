@@ -109,13 +109,13 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 140442,
+     "cp": 140467,
      "il": 2683
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 140442,
+   "cp": 140467,
    "il": 2683,
    "gear": [
     {
@@ -4487,14 +4487,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 79506,
+     "cp": 76506,
      "il": 1793
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 79506,
+   "cp": 76506,
    "il": 1793,
    "gear": [
     {
@@ -6412,7 +6412,7 @@
       "id": 17430000,
       "name": "Prayer of Amplification",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -36325,7 +36325,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 15:05 UTC",
+ "updated": "2026-11-15 15:35 UTC",
  "feed": [
   {
    "t": "2026-11-15 15:05",

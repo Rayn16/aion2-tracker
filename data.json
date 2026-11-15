@@ -106,6 +106,11 @@
      "date": "2026-11-14",
      "cp": 140226,
      "il": 2681
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 140226,
+     "il": 2681
     }
    ],
    "server": "Tassin",
@@ -2315,6 +2320,11 @@
      "date": "2026-11-14",
      "cp": 85292,
      "il": 1865
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 85292,
+     "il": 1865
     }
    ],
    "server": "Tassin",
@@ -4423,6 +4433,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 79408,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-15",
      "cp": 79408,
      "il": 1785
     }
@@ -6562,6 +6577,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 128762,
+     "il": 2625
+    },
+    {
+     "date": "2026-11-15",
      "cp": 128762,
      "il": 2625
     }
@@ -8714,6 +8734,11 @@
      "date": "2026-11-14",
      "cp": 48995,
      "il": 1114
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 48995,
+     "il": 1114
     }
    ],
    "server": "Tassin",
@@ -8976,48 +9001,21 @@
      "name": "Liberator Bracelet",
      "grade": "Legend",
      "enchantLevel": 3,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Crafting",
-      "Quest"
-     ]
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png"
     },
     {
      "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
      "enchantLevel": 1,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
-     "max": 10,
-     "slots": 0,
-     "stones": [],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Quest"
-     ]
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png"
     },
     {
      "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
      "enchantLevel": 1,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
-     "max": 10,
-     "slots": 0,
-     "stones": [],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Quest"
-     ]
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png"
     },
     {
      "slotPosName": "Amulet",
@@ -10417,6 +10415,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 59398,
+     "il": 1135
+    },
+    {
+     "date": "2026-11-15",
      "cp": 59398,
      "il": 1135
     }
@@ -12163,6 +12166,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 90879,
+     "il": 1825
+    },
+    {
+     "date": "2026-11-15",
      "cp": 90879,
      "il": 1825
     }
@@ -14254,6 +14262,11 @@
      "date": "2026-11-14",
      "cp": 36746,
      "il": 647
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 36746,
+     "il": 647
     }
    ],
    "server": "Tassin",
@@ -15523,12 +15536,17 @@
      "date": "2026-11-14",
      "cp": 153910,
      "il": 2781
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 153608,
+     "il": 2781
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 153910,
+   "cp": 153608,
    "il": 2781,
    "gear": [
     {
@@ -17621,9 +17639,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
-     "id": 40201900,
-     "name": "Dark Veil Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -17690,6 +17708,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 124365,
+     "il": 2560
+    },
+    {
+     "date": "2026-11-15",
      "cp": 124365,
      "il": 2560
     }
@@ -19697,6 +19720,11 @@
      "date": "2026-11-14",
      "cp": 23827,
      "il": 496
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 23827,
+     "il": 496
     }
    ],
    "server": "Tassin",
@@ -20938,6 +20966,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 91749,
+     "il": 1861
+    },
+    {
+     "date": "2026-11-15",
      "cp": 91749,
      "il": 1861
     }
@@ -22698,6 +22731,11 @@
      "date": "2026-11-14",
      "cp": 25540,
      "il": 450
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 25540,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -23888,6 +23926,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 43478,
+     "il": 799
+    },
+    {
+     "date": "2026-11-15",
      "cp": 43478,
      "il": 799
     }
@@ -25558,6 +25601,11 @@
      "date": "2026-11-14",
      "cp": 18563,
      "il": 361
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 18563,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -26703,6 +26751,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 91325,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-15",
      "cp": 91325,
      "il": 1785
     }
@@ -28784,6 +28837,11 @@
      "date": "2026-11-14",
      "cp": 25763,
      "il": 472
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 25763,
+     "il": 472
     }
    ],
    "server": "Tassin",
@@ -29971,6 +30029,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 115985,
+     "il": 2607
+    },
+    {
+     "date": "2026-11-15",
      "cp": 115985,
      "il": 2607
     }
@@ -32140,6 +32203,11 @@
      "date": "2026-11-14",
      "cp": 73638,
      "il": 1356
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 73638,
+     "il": 1356
     }
    ],
    "server": "Tassin",
@@ -32502,7 +32570,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -33955,6 +34044,11 @@
      "date": "2026-11-14",
      "cp": 17820,
      "il": 201
+    },
+    {
+     "date": "2026-11-15",
+     "cp": 17820,
+     "il": 201
     }
    ],
    "server": "Tassin",
@@ -34947,6 +35041,11 @@
     },
     {
      "date": "2026-11-14",
+     "cp": 33325,
+     "il": 472
+    },
+    {
+     "date": "2026-11-15",
      "cp": 33325,
      "il": 472
     }
@@ -36146,7 +36245,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-14 23:35 UTC",
+ "updated": "2026-11-15 00:20 UTC",
  "feed": [
   {
    "t": "2026-11-14 23:02",

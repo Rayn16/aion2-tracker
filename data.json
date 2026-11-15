@@ -876,11 +876,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2.4%",
-      "Critical Hit increase +2.4%"
+      "Accuracy increase +2.5%",
+      "Critical Hit increase +2.5%"
      ],
      "type": "AGI",
-     "value": 24
+     "value": 25
     },
     {
      "name": "Willpower",
@@ -3049,9 +3049,12 @@
     },
     {
      "name": "Precision",
-     "statSecondList": null,
+     "statSecondList": [
+      "Accuracy increase +0.1%",
+      "Critical Hit increase +0.1%"
+     ],
      "type": "AGI",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Willpower",
@@ -32768,11 +32771,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2.3%",
-      "Critical Hit increase +2.3%"
+      "Accuracy increase +2.4%",
+      "Critical Hit increase +2.4%"
      ],
      "type": "AGI",
-     "value": 23
+     "value": 24
     },
     {
      "name": "Willpower",
@@ -34324,9 +34327,12 @@
     },
     {
      "name": "Precision",
-     "statSecondList": null,
+     "statSecondList": [
+      "Accuracy increase +0.1%",
+      "Critical Hit increase +0.1%"
+     ],
      "type": "AGI",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Willpower",
@@ -35117,22 +35123,22 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 33325,
-     "il": 472
+     "cp": 34175,
+     "il": 511
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 35,
-   "cp": 33325,
-   "il": 472,
+   "cp": 34175,
+   "il": 511,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Faded Agate Longsword",
+     "name": "Chaser Longsword",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_SW_0055_T04.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_SW_0010_T04.png",
      "max": 5,
      "slots": 2,
      "stones": [],
@@ -35144,10 +35150,10 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Outsider Guard",
+     "name": "Chaser Guard",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_023.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_017.png",
      "max": 5,
      "slots": 2,
      "stones": [],
@@ -35189,12 +35195,12 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Outsider Helm",
-     "grade": "Common",
+     "name": "Chaser Helm",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Helmet.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Helmet.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35204,12 +35210,12 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Outsider Pauldrons",
-     "grade": "Common",
+     "name": "Chaser Pauldrons",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Shoulder.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Shoulder.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35309,12 +35315,12 @@
     },
     {
      "slotPosName": "Ring1",
-     "name": "Old Mercenary Commander Ring",
-     "grade": "Common",
+     "name": "Chaser Ring",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35390,10 +35396,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.2%"
+      "Attack increase +1.2%"
      ],
      "type": "STR",
-     "value": 2
+     "value": 12
     },
     {
      "name": "Dexterity",
@@ -35416,11 +35422,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.5%",
-      "Critical Hit increase +1.5%"
+      "Accuracy increase +0.1%",
+      "Critical Hit increase +0.1%"
      ],
      "type": "AGI",
-     "value": 15
+     "value": 1
     },
     {
      "name": "Willpower",
@@ -35522,11 +35528,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 472
+     "value": 511
     }
    ],
    "title": {
-    "ownedCount": 101,
+    "ownedCount": 103,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35569,8 +35575,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 37,
-      "ownedPercent": 37,
+      "ownedCount": 39,
+      "ownedPercent": 39,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -36316,8 +36322,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 14:05 UTC",
+ "updated": "2026-11-15 14:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 14:35",
+   "n": "YasuoMain8",
+   "x": "new Chaser Longsword +0"
+  },
+  {
+   "t": "2026-11-15 14:35",
+   "n": "YasuoMain8",
+   "x": "new Chaser Guard +0"
+  },
+  {
+   "t": "2026-11-15 14:35",
+   "n": "YasuoMain8",
+   "x": "new Chaser Helm +0"
+  },
+  {
+   "t": "2026-11-15 14:35",
+   "n": "YasuoMain8",
+   "x": "new Chaser Pauldrons +0"
+  },
+  {
+   "t": "2026-11-15 14:35",
+   "n": "YasuoMain8",
+   "x": "new Chaser Ring +0"
+  },
+  {
+   "t": "2026-11-15 14:35",
+   "n": "YasuoMain8",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-11-15 14:04",
    "n": "CuteCatty",
@@ -37787,36 +37823,6 @@
    "t": "2026-11-08 00:32",
    "n": "IBrook",
    "x": "skills up: Cold Snap 11"
-  },
-  {
-   "t": "2026-11-08 00:32",
-   "n": "DeathRunner",
-   "x": "Enraged Kromede Ring +13 → +14"
-  },
-  {
-   "t": "2026-11-08 00:32",
-   "n": "DeathRunner",
-   "x": "Mirror of Vigor +0 → +1"
-  },
-  {
-   "t": "2026-11-08 00:32",
-   "n": "DeathRunner",
-   "x": "skills up: Rear Smite 16"
-  },
-  {
-   "t": "2026-11-08 00:11",
-   "n": "iLen",
-   "x": "Vakron Breastplate +0 → +10"
-  },
-  {
-   "t": "2026-11-08 00:11",
-   "n": "iLen",
-   "x": "Vakron Greaves +0 → +10"
-  },
-  {
-   "t": "2026-11-08 00:11",
-   "n": "iLen",
-   "x": "Vakron Gloves +0 → +10"
   }
  ]
 }

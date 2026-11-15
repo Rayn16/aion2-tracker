@@ -35123,15 +35123,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 34175,
-     "il": 511
+     "cp": 35695,
+     "il": 538
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 35,
-   "cp": 34175,
-   "il": 511,
+   "level": 36,
+   "cp": 35695,
+   "il": 538,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35165,17 +35165,17 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Chaser Breastplate",
-     "grade": "Rare",
+     "name": "Faith Breastplate",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Torso.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0152_T04_Torso.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Expedition"
      ]
     },
     {
@@ -35240,31 +35240,32 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Chaser Boots",
-     "grade": "Rare",
+     "name": "Faith Boots",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Boots.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0152_T04_Boots.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Expedition"
      ]
     },
     {
      "slotPosName": "Cape",
-     "name": "Chaser Cloak",
+     "name": "Intruder Cloak",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0064_T03_Cape.png",
      "max": 5,
      "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
+      "Expedition",
       "Quest"
      ]
     },
@@ -35430,9 +35431,11 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Resist +0.7%"
+     ],
      "type": "WIS",
-     "value": 0
+     "value": 7
     },
     {
      "name": "Justice [Nezekan]",
@@ -35528,7 +35531,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 511
+     "value": 538
     }
    ],
    "title": {
@@ -36052,7 +36055,7 @@
       "id": 12090000,
       "name": "Punishment",
       "needLevel": 14,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -36092,7 +36095,7 @@
       "id": 12730000,
       "name": "Punishing Benediction",
       "needLevel": 9,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36122,7 +36125,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -36132,7 +36135,7 @@
       "id": 12770000,
       "name": "Insulting Roar",
       "needLevel": 17,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -36292,7 +36295,7 @@
       "id": 12450000,
       "name": "Battlefield Banner",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 5
      }
     ]
    },
@@ -36322,8 +36325,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 14:35 UTC",
+ "updated": "2026-11-15 15:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 15:05",
+   "n": "YasuoMain8",
+   "x": "reached level 36"
+  },
+  {
+   "t": "2026-11-15 15:05",
+   "n": "YasuoMain8",
+   "x": "new Faith Breastplate +0"
+  },
+  {
+   "t": "2026-11-15 15:05",
+   "n": "YasuoMain8",
+   "x": "new Faith Boots +0"
+  },
+  {
+   "t": "2026-11-15 15:05",
+   "n": "YasuoMain8",
+   "x": "new Intruder Cloak +0"
+  },
+  {
+   "t": "2026-11-15 15:05",
+   "n": "YasuoMain8",
+   "x": "skills up: Punishment 11, Punishing Benediction 12, Impact Hit 11, Insulting Roar 9 and 1 more"
+  },
   {
    "t": "2026-11-15 14:35",
    "n": "YasuoMain8",
@@ -37798,31 +37826,6 @@
    "t": "2026-11-08 01:01",
    "n": "YasuoMain",
    "x": "skills up: Keen Strike 17"
-  },
-  {
-   "t": "2026-11-08 00:34",
-   "n": "CutieCatty",
-   "x": "Nuakum Guard +13 → +14"
-  },
-  {
-   "t": "2026-11-08 00:34",
-   "n": "CutieCatty",
-   "x": "skills up: Gust Rampage 16, Tremor Crush 10, Defiance 4"
-  },
-  {
-   "t": "2026-11-08 00:33",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-08 00:32",
-   "n": "IBrook",
-   "x": "new Bell of Magic +0"
-  },
-  {
-   "t": "2026-11-08 00:32",
-   "n": "IBrook",
-   "x": "skills up: Cold Snap 11"
   }
  ]
 }

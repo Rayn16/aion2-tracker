@@ -109,13 +109,13 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 141030,
+     "cp": 141032,
      "il": 2683
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 141030,
+   "cp": 141032,
    "il": 2683,
    "gear": [
     {
@@ -35125,15 +35125,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 45157,
-     "il": 729
+     "cp": 44952,
+     "il": 734
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 39,
-   "cp": 45157,
-   "il": 729,
+   "level": 40,
+   "cp": 44952,
+   "il": 734,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35167,17 +35167,17 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Faith Breastplate",
+     "name": "Liberator Breastplate",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0152_T04_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Torso.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Expedition"
+      "Quest"
      ]
     },
     {
@@ -35448,11 +35448,9 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": [
-      "Status Effect Resist +0.7%"
-     ],
+     "statSecondList": null,
      "type": "WIS",
-     "value": 7
+     "value": 0
     },
     {
      "name": "Justice [Nezekan]",
@@ -35548,7 +35546,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 729
+     "value": 734
     }
    ],
    "title": {
@@ -36461,8 +36459,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 22:05 UTC",
+ "updated": "2026-11-15 22:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 22:35",
+   "n": "YasuoMain8",
+   "x": "reached level 40"
+  },
+  {
+   "t": "2026-11-15 22:35",
+   "n": "YasuoMain8",
+   "x": "new Liberator Breastplate +0"
+  },
   {
    "t": "2026-11-15 22:05",
    "n": "YasuoMain8",
@@ -37952,16 +37960,6 @@
    "t": "2026-11-09 01:31",
    "n": "YasuoMain16",
    "x": "Liberator Ring +5 → +10"
-  },
-  {
-   "t": "2026-11-09 01:31",
-   "n": "YasuoMain16",
-   "x": "Liberator Bracelet +5 → +10"
-  },
-  {
-   "t": "2026-11-09 01:31",
-   "n": "YasuoMain16",
-   "x": "Revelation Amulet +5 → +0"
   }
  ]
 }

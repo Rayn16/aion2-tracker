@@ -15566,15 +15566,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 156755,
-     "il": 2796
+     "cp": 156812,
+     "il": 2795
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 156755,
-   "il": 2796,
+   "cp": 156812,
+   "il": 2795,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16453,7 +16453,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2796
+     "value": 2795
     }
    ],
    "title": {
@@ -30061,14 +30061,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 116146,
+     "cp": 116578,
      "il": 2610
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 116146,
+   "cp": 116578,
    "il": 2610,
    "gear": [
     {
@@ -30846,11 +30846,9 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": [
-      "Status Effect Resist +1.8%"
-     ],
+     "statSecondList": null,
      "type": "WIS",
-     "value": 18
+     "value": 0
     },
     {
      "name": "Justice [Nezekan]",
@@ -31935,7 +31933,7 @@
       "id": 17720000,
       "name": "Empyrean Lords' Benediction",
       "needLevel": 6,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -36272,8 +36270,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 04:05 UTC",
+ "updated": "2026-11-15 04:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 04:33",
+   "n": "uTril",
+   "x": "skills up: Empyrean Lords' Benediction 15"
+  },
   {
    "t": "2026-11-15 04:04",
    "n": "uTril",
@@ -37768,11 +37771,6 @@
    "t": "2026-11-08 00:06",
    "n": "DeathRunner",
    "x": "Bell of Vigor +2 → +3"
-  },
-  {
-   "t": "2026-11-08 00:06",
-   "n": "DeathRunner",
-   "x": "skills up: Savage Roar 15, Defiance 6, Ambush Stance 18"
   }
  ]
 }

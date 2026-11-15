@@ -10776,20 +10776,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.8%"
+      "Attack increase +4%"
      ],
      "type": "STR",
-     "value": 38
+     "value": 40
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.5%",
-      "Block increase +1.5%",
-      "Critical Hit Resist increase +1.5%"
+      "Evasion increase +1.6%",
+      "Block increase +1.6%",
+      "Critical Hit Resist increase +1.6%"
      ],
      "type": "DEX",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Intelligence",
@@ -14579,20 +14579,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.6%"
+      "Attack increase +2.8%"
      ],
      "type": "STR",
-     "value": 26
+     "value": 28
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.5%",
-      "Block increase +1.5%",
-      "Critical Hit Resist increase +1.5%"
+      "Evasion increase +1.6%",
+      "Block increase +1.6%",
+      "Critical Hit Resist increase +1.6%"
      ],
      "type": "DEX",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Intelligence",
@@ -15566,15 +15566,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 155792,
-     "il": 2789
+     "cp": 156755,
+     "il": 2796
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 155792,
-   "il": 2789,
+   "cp": 156755,
+   "il": 2796,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16313,20 +16313,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +6.9%"
+      "Attack increase +7.1%"
      ],
      "type": "STR",
-     "value": 69
+     "value": 71
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.5%",
-      "Block increase +1.5%",
-      "Critical Hit Resist increase +1.5%"
+      "Evasion increase +1.6%",
+      "Block increase +1.6%",
+      "Critical Hit Resist increase +1.6%"
      ],
      "type": "DEX",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Intelligence",
@@ -16453,7 +16453,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2789
+     "value": 2796
     }
    ],
    "title": {
@@ -17452,7 +17452,7 @@
       "id": 13730000,
       "name": "Apply Poison",
       "needLevel": 9,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -17666,9 +17666,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -30061,15 +30061,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 116023,
-     "il": 2607
+     "cp": 116146,
+     "il": 2610
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 116023,
-   "il": 2607,
+   "cp": 116146,
+   "il": 2610,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30763,10 +30763,10 @@
     },
     {
      "slotPosName": "Arcana3",
-     "name": "Compass of Magic",
+     "name": "Compass of Vigor",
      "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 5,
      "slots": 0,
      "stones": [],
@@ -30806,10 +30806,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.1%"
+      "Attack increase +3.2%"
      ],
      "type": "STR",
-     "value": 31
+     "value": 32
     },
     {
      "name": "Dexterity",
@@ -30864,11 +30864,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +3.6%",
-      "Evasion increase +3.6%"
+      "Accuracy increase +5.6%",
+      "Evasion increase +5.6%"
      ],
      "type": "Freedom",
-     "value": 36
+     "value": 56
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -30909,11 +30909,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +5.8%",
-      "Regeneration Penetration +5.8%"
+      "Critical Hit increase +3.8%",
+      "Regeneration Penetration +3.8%"
      ],
      "type": "Death",
-     "value": 58
+     "value": 38
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -30946,7 +30946,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2607
+     "value": 2610
     }
    ],
    "title": {
@@ -31076,8 +31076,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 1,
-      "openPercent": 1,
+      "openNodeCount": 4,
+      "openPercent": 3,
       "totalNodeCount": 152
      },
      {
@@ -31491,8 +31491,8 @@
      "7|4|Rare|0|PvE Attack, PvE Defense",
      "7|3|Common|0|PvE Accuracy",
      "7|2|Rare|0|Boss Attack, Boss Defense",
-     "6|8|Common|0|Max HP",
-     "6|7|Common|0|PvE Evasion",
+     "6|8|Common|1|Max HP",
+     "6|7|Common|1|PvE Evasion",
      "6|6|Legend|0|Critical Hit",
      "6|12|Common|0|PvE Attack",
      "6|10|Common|0|Boss Attack",
@@ -31635,7 +31635,7 @@
      "5|12|Common|0|PvE Accuracy",
      "6|4|Common|0|PvE Evasion",
      "6|1|Common|0|PvE Defense",
-     "5|7|Common|0|PvE Defense",
+     "5|7|Common|1|PvE Defense",
      "5|4|Legend|0|Boss Damage Tolerance",
      "5|10|Common|0|PvE Defense"
     ],
@@ -32055,7 +32055,7 @@
       "id": 17430000,
       "name": "Prayer of Amplification",
       "needLevel": 22,
-      "skillLevel": 7
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -32065,7 +32065,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -32075,7 +32075,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 0,
@@ -32140,12 +32140,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 2
      }
     ]
    },
@@ -36272,8 +36272,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 03:35 UTC",
+ "updated": "2026-11-15 04:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 04:04",
+   "n": "uTril",
+   "x": "new Compass of Vigor +0"
+  },
+  {
+   "t": "2026-11-15 04:04",
+   "n": "uTril",
+   "x": "opened 3 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-15 04:04",
+   "n": "uTril",
+   "x": "skills up: Earth Punishment 14, Noble Aura 2"
+  },
   {
    "t": "2026-11-15 03:32",
    "n": "DeathRunner",
@@ -37758,21 +37773,6 @@
    "t": "2026-11-08 00:06",
    "n": "DeathRunner",
    "x": "skills up: Savage Roar 15, Defiance 6, Ambush Stance 18"
-  },
-  {
-   "t": "2026-11-07 23:34",
-   "n": "CutieCatty",
-   "x": "Chalice of Vigor +0 → +2"
-  },
-  {
-   "t": "2026-11-07 23:34",
-   "n": "CutieCatty",
-   "x": "Parchment of Vigor +0 → +2"
-  },
-  {
-   "t": "2026-11-07 23:34",
-   "n": "CutieCatty",
-   "x": "Bell of Vigor +0 → +2"
   }
  ]
 }

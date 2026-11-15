@@ -10496,15 +10496,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 59398,
-     "il": 1135
+     "cp": 60236,
+     "il": 1136
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 59398,
-   "il": 1135,
+   "cp": 60236,
+   "il": 1136,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -10745,7 +10745,7 @@
      "slotPosName": "Bracelet1",
      "name": "Ascension Bracelet",
      "grade": "Unique",
-     "enchantLevel": 6,
+     "enchantLevel": 7,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png",
      "max": 15,
      "slots": 4,
@@ -10963,7 +10963,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1135
+     "value": 1136
     }
    ],
    "title": {
@@ -12129,7 +12129,7 @@
       "id": 14060000,
       "name": "Griffon Arrow",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -15615,14 +15615,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 156812,
+     "cp": 156512,
      "il": 2795
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 156812,
+   "cp": 156512,
    "il": 2795,
    "gear": [
     {
@@ -36325,8 +36325,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 19:35 UTC",
+ "updated": "2026-11-15 20:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 20:01",
+   "n": "Carmella",
+   "x": "Ascension Bracelet +6 → +7"
+  },
+  {
+   "t": "2026-11-15 20:01",
+   "n": "Carmella",
+   "x": "skills up: Griffon Arrow 6"
+  },
   {
    "t": "2026-11-15 19:34",
    "n": "CuteCatty",
@@ -37816,16 +37826,6 @@
    "t": "2026-11-08 01:32",
    "n": "DeathLotus",
    "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-08 01:32",
-   "n": "DeathLotus",
-   "x": "skills up: Blaze 11, Wish of Concentration 6, Arctic Armor 2"
-  },
-  {
-   "t": "2026-11-08 01:03",
-   "n": "iLen",
-   "x": "opened 9 Daevanion nodes"
   }
  ]
 }

@@ -4487,14 +4487,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 79506,
+     "cp": 79536,
      "il": 1793
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 79506,
+   "cp": 79536,
    "il": 1793,
    "gear": [
     {
@@ -5307,7 +5307,7 @@
     }
    ],
    "title": {
-    "ownedCount": 194,
+    "ownedCount": 195,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -5325,8 +5325,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 62,
-      "ownedPercent": 61,
+      "ownedCount": 63,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "Block +10"
@@ -36325,8 +36325,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 19:05 UTC",
+ "updated": "2026-11-15 19:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 19:34",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-15 16:04",
    "n": "CuteCatty",
@@ -37821,11 +37826,6 @@
    "t": "2026-11-08 01:03",
    "n": "iLen",
    "x": "opened 9 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-08 01:01",
-   "n": "YasuoMain",
-   "x": "Parchment of Vigor +3 → +4"
   }
  ]
 }

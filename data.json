@@ -4487,14 +4487,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 79536,
+     "cp": 79538,
      "il": 1793
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 79536,
+   "cp": 79538,
    "il": 1793,
    "gear": [
     {
@@ -15615,15 +15615,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 156792,
-     "il": 2795
+     "cp": 156880,
+     "il": 2796
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 156792,
-   "il": 2795,
+   "cp": 156880,
+   "il": 2796,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15785,30 +15785,30 @@
      "slotPosName": "Helmet",
      "name": "Nuakum Helm",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+60",
+       "MP",
+       "+23",
+       "Common"
+      ],
+      [
+       "MP",
+       "+40",
        "Rare"
       ],
       [
        "Critical Hit",
-       "+5",
+       "+6",
        "Common"
       ],
       [
        "Critical Hit",
-       "+5",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
+       "+13",
+       "Legend"
       ]
      ],
      "godSlots": 0,
@@ -16504,7 +16504,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2795
+     "value": 2796
     }
    ],
    "title": {
@@ -17583,7 +17583,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -17653,7 +17653,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -35125,26 +35125,26 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 37106,
-     "il": 578
+     "cp": 42199,
+     "il": 691
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 36,
-   "cp": 37106,
-   "il": 578,
+   "level": 37,
+   "cp": 42199,
+   "il": 691,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Chaser Longsword",
-     "grade": "Rare",
+     "name": "Avenger Longsword",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_SW_0010_T04.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_SW_0033_T05.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
-     "godSlots": 0,
+     "godSlots": 1,
      "god": [],
      "src": [
       "Quest"
@@ -35197,12 +35197,12 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Chaser Helm",
-     "grade": "Rare",
+     "name": "Avenger Helm",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Helmet.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Helmet.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35301,6 +35301,21 @@
      ]
     },
     {
+     "slotPosName": "Earring2",
+     "name": "Avenger Earrings",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0017.png",
+     "max": 10,
+     "slots": 3,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
      "slotPosName": "Earring1",
      "name": "Old Mercenary Commander Earrings",
      "grade": "Common",
@@ -35317,12 +35332,12 @@
     },
     {
      "slotPosName": "Ring1",
-     "name": "Chaser Ring",
-     "grade": "Rare",
+     "name": "Avenger Ring",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0017.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35332,12 +35347,12 @@
     },
     {
      "slotPosName": "Ring2",
-     "name": "Old Mercenary Commander Ring",
-     "grade": "Common",
+     "name": "Chaser Ring",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35398,10 +35413,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.2%"
+      "Attack increase +1.5%"
      ],
      "type": "STR",
-     "value": 12
+     "value": 15
     },
     {
      "name": "Dexterity",
@@ -35452,11 +35467,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +1.1%",
-      "Evasion increase +1.1%"
+      "Accuracy increase +2.1%",
+      "Evasion increase +2.1%"
      ],
      "type": "Freedom",
-     "value": 11
+     "value": 21
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -35497,11 +35512,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +1.1%",
-      "Regeneration Penetration +1.1%"
+      "Critical Hit increase +2.1%",
+      "Regeneration Penetration +2.1%"
      ],
      "type": "Death",
-     "value": 11
+     "value": 21
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -35534,11 +35549,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 578
+     "value": 691
     }
    ],
    "title": {
-    "ownedCount": 103,
+    "ownedCount": 106,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35556,8 +35571,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 40,
-      "ownedPercent": 38,
+      "ownedCount": 41,
+      "ownedPercent": 39,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -35581,8 +35596,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 39,
-      "ownedPercent": 39,
+      "ownedCount": 40,
+      "ownedPercent": 40,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -35600,8 +35615,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 24,
-      "ownedPercent": 24,
+      "ownedCount": 25,
+      "ownedPercent": 25,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -35622,8 +35637,8 @@
       "id": 21,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 38,
-      "openPercent": 43,
+      "openNodeCount": 43,
+      "openPercent": 49,
       "totalNodeCount": 88
      },
      {
@@ -35631,8 +35646,8 @@
       "id": 22,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 45,
-      "openPercent": 51,
+      "openNodeCount": 52,
+      "openPercent": 59,
       "totalNodeCount": 88
      },
      {
@@ -35640,8 +35655,8 @@
       "id": 23,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 29,
-      "openPercent": 33,
+      "openNodeCount": 46,
+      "openPercent": 52,
       "totalNodeCount": 88
      },
      {
@@ -35721,7 +35736,7 @@
      "8|3|Legend|0|Skill Level Up - Defiance",
      "8|10|Common|0|Attack",
      "8|8|Start|1|Nezekan - Start",
-     "8|13|Legend|0|Skill Level Up - Flash Rampage",
+     "8|13|Legend|1|Skill Level Up - Flash Rampage",
      "9|3|Common|0|Critical Hit",
      "9|7|Common|1|Critical Hit",
      "9|6|Rare|0|Skill Level Up - Ironclad Defense",
@@ -35731,7 +35746,7 @@
      "9|10|Common|1|Max MP",
      "9|9|Common|1|Max HP",
      "9|8|Common|1|Defense",
-     "9|13|Common|0|Max HP",
+     "9|13|Common|1|Max HP",
      "9|12|Common|1|Defense",
      "10|3|Common|0|Attack",
      "10|7|Common|1|Attack",
@@ -35755,10 +35770,10 @@
      "12|7|Common|1|Max HP",
      "12|13|Common|1|Critical Hit Resist",
      "12|11|Legend|0|Skill Level Up - Debilitating Smash",
-     "13|3|Unique|0|Cooldown Reduction",
+     "13|3|Unique|1|Cooldown Reduction",
      "13|7|Legend|1|Skill Level Up - Punishment",
-     "13|5|Rare|0|Skill Level Up - Punishing Benediction",
-     "13|4|Common|0|Critical Hit Resist",
+     "13|5|Rare|1|Skill Level Up - Punishing Benediction",
+     "13|4|Common|1|Critical Hit Resist",
      "13|11|Common|0|Critical Hit",
      "13|9|Rare|0|Skill Level Up - Enhance Health",
      "13|8|Common|0|Critical Hit",
@@ -35770,7 +35785,7 @@
      "11|12|Common|0|Max MP",
      "11|11|Common|1|Attack",
      "12|6|Common|1|Max MP",
-     "12|3|Common|0|Critical Hit Resist",
+     "12|3|Common|1|Critical Hit Resist",
      "12|9|Common|0|Max MP",
      "12|13|Common|0|Defense",
      "12|11|Rare|1|Skill Level Up - Fury",
@@ -35789,8 +35804,8 @@
      "3|4|Common|1|Critical Hit",
      "3|3|Unique|1|Damage Tolerance",
      "3|9|Rare|1|Skill Level Up - Impact Hit",
-     "3|8|Common|0|Defense",
-     "3|7|Legend|0|Skill Level Up - Flash Rampage",
+     "3|8|Common|1|Defense",
+     "3|7|Legend|1|Skill Level Up - Flash Rampage",
      "3|6|Common|0|Critical Hit Resist",
      "3|13|Unique|1|Damage Boost",
      "3|12|Common|1|Defense",
@@ -35832,7 +35847,7 @@
      "8|8|Start|1|Zikel - Start",
      "8|7|Common|1|Defense",
      "8|12|Common|0|Defense",
-     "9|3|Legend|0|Skill Level Up - Warding Strike",
+     "9|3|Legend|1|Skill Level Up - Warding Strike",
      "9|7|Common|1|Max HP",
      "9|6|Rare|0|Skill Level Up - Survival Willpower",
      "9|5|Common|0|Max MP",
@@ -35841,7 +35856,7 @@
      "9|9|Common|1|Critical Hit Resist",
      "9|13|Common|0|Attack",
      "9|12|Common|0|Max MP",
-     "10|3|Common|0|Critical Hit",
+     "10|3|Common|1|Critical Hit",
      "10|7|Common|1|Critical Hit Resist",
      "10|5|Common|0|Critical Hit Resist",
      "10|11|Common|1|Max HP",
@@ -35849,8 +35864,8 @@
      "10|9|Rare|1|Skill Level Up - Block Pain",
      "10|13|Common|0|Critical Hit Resist",
      "11|5|Common|0|Max HP",
-     "11|4|Rare|0|Skill Level Up - Insulting Roar",
-     "11|3|Common|0|Defense",
+     "11|4|Rare|1|Skill Level Up - Insulting Roar",
+     "11|3|Common|1|Defense",
      "11|9|Common|0|Defense",
      "11|8|Common|0|Max HP",
      "11|7|Legend|1|Skill Level Up - Shield Rush",
@@ -35861,8 +35876,8 @@
      "3|4|Common|1|Critical Hit Resist",
      "3|3|Unique|1|Critical Damage Boost",
      "3|9|Common|0|Attack",
-     "3|8|Legend|0|Skill Level Up - Flash Rampage",
-     "3|7|Common|0|Critical Hit Resist",
+     "3|8|Legend|1|Skill Level Up - Flash Rampage",
+     "3|7|Common|1|Critical Hit Resist",
      "3|13|Unique|0|Critical Damage Tolerance",
      "3|12|Common|0|Max HP",
      "3|11|Common|0|Critical Hit Resist",
@@ -35878,10 +35893,10 @@
      "5|7|Legend|1|Skill Level Up - Annihilate",
      "5|5|Common|0|Max HP",
      "5|4|Legend|0|Skill Level Up - Poach",
-     "5|11|Legend|0|Skill Level Up - Warding Strike",
-     "5|10|Common|0|Max HP",
-     "5|9|Common|0|Max MP",
-     "5|8|Common|0|Critical Hit",
+     "5|11|Legend|1|Skill Level Up - Warding Strike",
+     "5|10|Common|1|Max HP",
+     "5|9|Common|1|Max MP",
+     "5|8|Common|1|Critical Hit",
      "5|13|Rare|0|Skill Level Up - Guarding Seal",
      "5|12|Common|0|Attack",
      "6|4|Common|0|Critical Hit Resist",
@@ -35900,23 +35915,23 @@
      "7|11|Legend|1|Skill Level Up - Judgment",
      "7|10|Common|1|Defense",
      "8|6|Common|0|Max MP",
-     "8|3|Legend|0|Skill Level Up - Debilitating Smash",
+     "8|3|Legend|1|Skill Level Up - Debilitating Smash",
      "8|10|Common|1|Max HP",
      "8|8|Start|1|Vaizel - Start",
      "8|13|Legend|0|Skill Level Up - Vicious Strike",
-     "9|3|Common|0|Critical Hit Resist",
-     "9|7|Common|0|Critical Hit",
-     "9|6|Common|0|Attack",
-     "9|5|Legend|0|Skill Level Up - Punishment",
-     "9|4|Common|0|Max MP",
+     "9|3|Common|1|Critical Hit Resist",
+     "9|7|Common|1|Critical Hit",
+     "9|6|Common|1|Attack",
+     "9|5|Legend|1|Skill Level Up - Punishment",
+     "9|4|Common|1|Max MP",
      "9|11|Common|0|Attack",
      "9|10|Rare|1|Skill Level Up - Block Pain",
      "9|9|Common|1|Max MP",
-     "9|8|Common|0|Defense",
+     "9|8|Common|1|Defense",
      "9|13|Common|0|Defense",
      "9|12|Common|0|Max HP",
      "10|4|Common|0|Critical Hit",
-     "10|7|Rare|0|Skill Level Up - Impact Hit",
+     "10|7|Rare|1|Skill Level Up - Impact Hit",
      "10|12|Common|0|Critical Hit",
      "10|9|Common|1|Critical Hit Resist",
      "11|5|Legend|1|Skill Level Up - Pummel",
@@ -35929,7 +35944,7 @@
      "11|13|Common|0|Attack",
      "11|12|Legend|0|Skill Level Up - Shield Rush",
      "11|11|Common|0|Max MP",
-     "12|5|Common|0|Attack",
+     "12|5|Common|1|Attack",
      "12|3|Common|0|Max HP",
      "12|10|Common|1|Critical Hit Resist",
      "12|9|Common|1|Max HP",
@@ -35938,8 +35953,8 @@
      "12|11|Common|1|Defense",
      "13|3|Unique|0|Critical Damage Tolerance",
      "13|7|Common|0|Defense",
-     "13|6|Rare|0|Skill Level Up - Ironclad Defense",
-     "13|5|Common|0|Critical Hit",
+     "13|6|Rare|1|Skill Level Up - Ironclad Defense",
+     "13|5|Common|1|Critical Hit",
      "13|4|Common|0|Max MP",
      "13|11|Rare|1|Skill Level Up - Warding Shield",
      "13|9|Common|0|Critical Hit",
@@ -36008,7 +36023,7 @@
       "id": 12340000,
       "name": "Flash Rampage",
       "needLevel": 5,
-      "skillLevel": 10
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -36018,7 +36033,7 @@
       "id": 12270000,
       "name": "Debilitating Smash",
       "needLevel": 7,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -36028,7 +36043,7 @@
       "id": 12350000,
       "name": "Warding Strike",
       "needLevel": 8,
-      "skillLevel": 10
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36058,7 +36073,7 @@
       "id": 12090000,
       "name": "Punishment",
       "needLevel": 14,
-      "skillLevel": 11
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -36098,7 +36113,7 @@
       "id": 12730000,
       "name": "Punishing Benediction",
       "needLevel": 9,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36108,7 +36123,7 @@
       "id": 12740000,
       "name": "Ironclad Defense",
       "needLevel": 11,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -36128,7 +36143,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36138,7 +36153,7 @@
       "id": 12770000,
       "name": "Insulting Roar",
       "needLevel": 17,
-      "skillLevel": 10
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36203,12 +36218,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_012.png",
       "id": 12120000,
       "name": "Taunt",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 2
      },
      {
       "acquired": 0,
@@ -36328,8 +36343,63 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 21:05 UTC",
+ "updated": "2026-11-15 21:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 21:34",
+   "n": "YasuoMain8",
+   "x": "reached level 37"
+  },
+  {
+   "t": "2026-11-15 21:34",
+   "n": "YasuoMain8",
+   "x": "new Avenger Longsword +0"
+  },
+  {
+   "t": "2026-11-15 21:34",
+   "n": "YasuoMain8",
+   "x": "new Avenger Helm +0"
+  },
+  {
+   "t": "2026-11-15 21:34",
+   "n": "YasuoMain8",
+   "x": "new Avenger Earrings +0"
+  },
+  {
+   "t": "2026-11-15 21:34",
+   "n": "YasuoMain8",
+   "x": "new Avenger Ring +0"
+  },
+  {
+   "t": "2026-11-15 21:34",
+   "n": "YasuoMain8",
+   "x": "new Chaser Ring +0"
+  },
+  {
+   "t": "2026-11-15 21:34",
+   "n": "YasuoMain8",
+   "x": "3 new titles"
+  },
+  {
+   "t": "2026-11-15 21:34",
+   "n": "YasuoMain8",
+   "x": "opened 29 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-15 21:34",
+   "n": "YasuoMain8",
+   "x": "skills up: Flash Rampage 13, Debilitating Smash 3, Warding Strike 12, Punishment 13 and 5 more"
+  },
+  {
+   "t": "2026-11-15 21:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Helm +14 → +15"
+  },
+  {
+   "t": "2026-11-15 21:32",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Fang 15"
+  },
   {
    "t": "2026-11-15 21:05",
    "n": "YasuoMain8",
@@ -37774,61 +37844,6 @@
    "t": "2026-11-08 03:33",
    "n": "iLen",
    "x": "Gartua Pauldrons +0 → +10"
-  },
-  {
-   "t": "2026-11-08 03:33",
-   "n": "iLen",
-   "x": "new Aulamus Ring +10"
-  },
-  {
-   "t": "2026-11-08 03:33",
-   "n": "iLen",
-   "x": "Revelation Amulet +3 → +7"
-  },
-  {
-   "t": "2026-11-08 03:33",
-   "n": "iLen",
-   "x": "skills up: Dark Crush 15"
-  },
-  {
-   "t": "2026-11-08 03:31",
-   "n": "YasuoMain",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-08 03:03",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-08 02:03",
-   "n": "iLen",
-   "x": "new Gartua Pauldrons +0"
-  },
-  {
-   "t": "2026-11-08 02:03",
-   "n": "iLen",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-08 02:02",
-   "n": "DeathLotus",
-   "x": "Noble Belt +0 → +6"
-  },
-  {
-   "t": "2026-11-08 02:02",
-   "n": "DeathLotus",
-   "x": "new Avenger Earrings +0"
-  },
-  {
-   "t": "2026-11-08 02:02",
-   "n": "DeathLotus",
-   "x": "new Chaser Earrings +0"
-  },
-  {
-   "t": "2026-11-08 02:02",
-   "n": "DeathLotus",
-   "x": "new Outsider Bracelet +0"
   }
  ]
 }

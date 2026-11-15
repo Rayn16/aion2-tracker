@@ -35125,15 +35125,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 44952,
-     "il": 734
+     "cp": 44879,
+     "il": 739
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 40,
-   "cp": 44952,
-   "il": 734,
+   "cp": 44879,
+   "il": 739,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35182,17 +35182,17 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Faith Greaves",
+     "name": "Liberator Greaves",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0152_T04_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Pants.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Expedition"
+      "Quest"
      ]
     },
     {
@@ -35431,11 +35431,9 @@
     },
     {
      "name": "Constitution",
-     "statSecondList": [
-      "HP increase +1.1%"
-     ],
+     "statSecondList": null,
      "type": "CON",
-     "value": 11
+     "value": 0
     },
     {
      "name": "Precision",
@@ -35546,7 +35544,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 734
+     "value": 739
     }
    ],
    "title": {
@@ -36289,7 +36287,7 @@
       "id": 12790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 3
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -36459,8 +36457,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 22:35 UTC",
+ "updated": "2026-11-15 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 23:05",
+   "n": "YasuoMain8",
+   "x": "new Liberator Greaves +0"
+  },
   {
    "t": "2026-11-15 22:35",
    "n": "YasuoMain8",
@@ -37955,11 +37958,6 @@
    "t": "2026-11-09 01:31",
    "n": "YasuoMain16",
    "x": "Aulamus Earrings +0 → +10"
-  },
-  {
-   "t": "2026-11-09 01:31",
-   "n": "YasuoMain16",
-   "x": "Liberator Ring +5 → +10"
   }
  ]
 }

@@ -15566,15 +15566,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 155840,
-     "il": 2786
+     "cp": 155792,
+     "il": 2789
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 155840,
-   "il": 2786,
+   "cp": 155792,
+   "il": 2789,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16453,7 +16453,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2786
+     "value": 2789
     }
    ],
    "title": {
@@ -16583,8 +16583,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 8,
-      "openPercent": 5,
+      "openNodeCount": 11,
+      "openPercent": 7,
       "totalNodeCount": 152
      },
      {
@@ -17026,7 +17026,7 @@
      "7|13|Common|0|PvE Defense",
      "7|10|Common|0|Boss Defense",
      "7|11|Legend|0|Boss Damage Tolerance",
-     "7|8|Common|0|PvE Attack",
+     "7|8|Common|1|PvE Attack",
      "7|6|Common|0|Boss Attack",
      "8|6|Common|0|PvE Accuracy",
      "8|3|Common|0|Max HP",
@@ -17054,7 +17054,7 @@
      "9|8|Common|1|PvE Attack",
      "10|7|Rare|1|Boss Attack, Boss Defense",
      "10|8|Common|1|Max MP",
-     "10|6|Common|0|Boss Attack",
+     "10|6|Common|1|Boss Attack",
      "10|4|Common|0|PvE Attack",
      "10|2|Common|0|Boss Attack",
      "10|15|Common|0|PvE Defense",
@@ -17107,7 +17107,7 @@
      "14|13|Common|0|Boss Defense",
      "15|13|Rare|0|Boss Attack, Boss Defense",
      "15|8|Unique|0|PvE Damage Boost",
-     "15|9|Common|0|PvE Accuracy",
+     "15|9|Common|1|PvE Accuracy",
      "15|7|Common|0|Max MP",
      "15|14|Common|0|Boss Attack",
      "15|15|Unique|0|PvE Damage Boost",
@@ -17442,7 +17442,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 24
+      "skillLevel": 23
      },
      {
       "acquired": 1,
@@ -17452,7 +17452,7 @@
       "id": 13730000,
       "name": "Apply Poison",
       "needLevel": 9,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -17482,7 +17482,7 @@
       "id": 13760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -17522,7 +17522,7 @@
       "id": 13800000,
       "name": "Determination",
       "needLevel": 25,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -17666,9 +17666,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
-     "id": 40201900,
-     "name": "Dark Veil Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -30061,14 +30061,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 114708,
+     "cp": 116023,
      "il": 2607
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 114708,
+   "cp": 116023,
    "il": 2607,
    "gear": [
     {
@@ -36272,8 +36272,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 03:04 UTC",
+ "updated": "2026-11-15 03:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 03:32",
+   "n": "DeathRunner",
+   "x": "opened 3 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-15 03:32",
+   "n": "DeathRunner",
+   "x": "skills up: Impact Hit 16, Determination 18"
+  },
   {
    "t": "2026-11-15 02:32",
    "n": "DeathRunner",
@@ -37763,16 +37773,6 @@
    "t": "2026-11-07 23:34",
    "n": "CutieCatty",
    "x": "Bell of Vigor +0 → +2"
-  },
-  {
-   "t": "2026-11-07 23:34",
-   "n": "CutieCatty",
-   "x": "new Mirror of Vigor +1"
-  },
-  {
-   "t": "2026-11-07 23:34",
-   "n": "CutieCatty",
-   "x": "skills up: Rushing Smash 15, Dark Crush 18, Spinning Strike 15, Blessing of Life 18 and 4 more"
   }
  ]
 }

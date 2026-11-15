@@ -109,14 +109,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 140438,
-     "il": 2682
+     "cp": 140442,
+     "il": 2683
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 140438,
-   "il": 2682,
+   "cp": 140442,
+   "il": 2683,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -984,7 +984,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2682
+     "value": 2683
     }
    ],
    "title": {
@@ -1114,8 +1114,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 5,
-      "openPercent": 3,
+      "openNodeCount": 6,
+      "openPercent": 4,
       "totalNodeCount": 152
      },
      {
@@ -1989,7 +1989,7 @@
      "10|7|Rare|0|Boss Attack, Boss Defense",
      "10|8|Common|0|Max MP",
      "10|6|Common|0|Boss Attack",
-     "10|12|Common|0|PvE Evasion",
+     "10|12|Common|1|PvE Evasion",
      "10|9|Common|0|PvE Evasion",
      "10|10|Legend|0|Critical Hit",
      "10|15|Common|0|PvE Defense",
@@ -15566,15 +15566,15 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 155257,
-     "il": 2784
+     "cp": 155019,
+     "il": 2786
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 155257,
-   "il": 2784,
+   "cp": 155019,
+   "il": 2786,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16453,7 +16453,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2784
+     "value": 2786
     }
    ],
    "title": {
@@ -16583,8 +16583,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 6,
-      "openPercent": 4,
+      "openNodeCount": 8,
+      "openPercent": 5,
       "totalNodeCount": 152
      },
      {
@@ -17082,7 +17082,7 @@
      "12|11|Common|0|PvE Attack",
      "12|12|Common|0|PvE Accuracy",
      "13|8|Common|0|PvE Evasion",
-     "13|9|Common|0|Boss Attack",
+     "13|9|Common|1|Boss Attack",
      "13|6|Common|0|Boss Defense",
      "13|7|Common|0|PvE Accuracy",
      "13|4|Common|0|PvE Evasion",
@@ -17094,7 +17094,7 @@
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "14|11|Common|0|PvE Defense",
      "14|12|Common|0|PvE Evasion",
-     "14|9|Common|0|PvE Attack",
+     "14|9|Common|1|PvE Attack",
      "14|10|Legend|0|Critical Hit Resist",
      "14|7|Rare|0|PvE Attack, PvE Defense",
      "14|5|Common|0|Boss Attack",
@@ -30061,14 +30061,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 115985,
+     "cp": 116008,
      "il": 2607
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 115985,
+   "cp": 116008,
    "il": 2607,
    "gear": [
     {
@@ -36272,8 +36272,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 02:04 UTC",
+ "updated": "2026-11-15 02:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 02:32",
+   "n": "DeathRunner",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-15 02:31",
+   "n": "YasuoMain",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-15 02:01",
    "n": "YasuoMain",
@@ -37763,16 +37773,6 @@
    "t": "2026-11-07 23:34",
    "n": "CutieCatty",
    "x": "skills up: Rushing Smash 15, Dark Crush 18, Spinning Strike 15, Blessing of Life 18 and 4 more"
-  },
-  {
-   "t": "2026-11-07 23:33",
-   "n": "iLen",
-   "x": "new Vakron Greaves +0"
-  },
-  {
-   "t": "2026-11-07 23:14",
-   "n": "IBrook",
-   "x": "Enraged Kromede Necklace +10 → +11"
   }
  ]
 }

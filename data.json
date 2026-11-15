@@ -109,14 +109,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 140226,
-     "il": 2681
+     "cp": 140438,
+     "il": 2682
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 140226,
-   "il": 2681,
+   "cp": 140438,
+   "il": 2682,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -823,7 +823,7 @@
      "slotPosName": "Arcana4",
      "name": "Bell of Vigor",
      "grade": "Unique",
-     "enchantLevel": 2,
+     "enchantLevel": 3,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -893,11 +893,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +7.3%",
-      "Perfect Chance +7.3%"
+      "Defense increase +7.4%",
+      "Perfect Chance +7.4%"
      ],
      "type": "Justice",
-     "value": 73
+     "value": 74
     },
     {
      "name": "Freedom [Vaizel]",
@@ -984,7 +984,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2681
+     "value": 2682
     }
    ],
    "title": {
@@ -1299,7 +1299,7 @@
       "id": 11750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -1384,7 +1384,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -10776,10 +10776,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.7%"
+      "Attack increase +3.8%"
      ],
      "type": "STR",
-     "value": 37
+     "value": 38
     },
     {
      "name": "Dexterity",
@@ -14579,10 +14579,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.5%"
+      "Attack increase +2.6%"
      ],
      "type": "STR",
-     "value": 25
+     "value": 26
     },
     {
      "name": "Dexterity",
@@ -15566,14 +15566,14 @@
     },
     {
      "date": "2026-11-15",
-     "cp": 153668,
+     "cp": 155257,
      "il": 2784
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 153668,
+   "cp": 155257,
    "il": 2784,
    "gear": [
     {
@@ -16313,10 +16313,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.7%"
+      "Attack increase +6.9%"
      ],
      "type": "STR",
-     "value": 37
+     "value": 69
     },
     {
      "name": "Dexterity",
@@ -17362,7 +17362,7 @@
       "id": 13340000,
       "name": "Storm Rampage",
       "needLevel": 5,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -17666,9 +17666,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -36272,8 +36272,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-15 01:35 UTC",
+ "updated": "2026-11-15 02:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-15 02:01",
+   "n": "YasuoMain",
+   "x": "Bell of Vigor +2 → +3"
+  },
+  {
+   "t": "2026-11-15 02:01",
+   "n": "YasuoMain",
+   "x": "skills up: Attack Preparation 18"
+  },
   {
    "t": "2026-11-15 00:31",
    "n": "DeathRunner",
@@ -37763,16 +37773,6 @@
    "t": "2026-11-07 23:14",
    "n": "IBrook",
    "x": "Enraged Kromede Necklace +10 → +11"
-  },
-  {
-   "t": "2026-11-07 23:14",
-   "n": "DeathRunner",
-   "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-07 23:14",
-   "n": "DeathRunner",
-   "x": "skills up: Triniel's Dagger 15"
   }
  ]
 }

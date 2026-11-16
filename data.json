@@ -6552,10 +6552,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Rabbit_01.png",
-     "id": 1240,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Cat_01.png",
+     "id": 1243,
      "level": 3,
-     "name": "White Bunny"
+     "name": "Babymeow"
     },
     "wing": {
      "enchantLevel": 0,
@@ -12313,14 +12313,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 91360,
+     "cp": 91366,
      "il": 1825
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91360,
+   "cp": 91366,
    "il": 1825,
    "gear": [
     {
@@ -37292,7 +37292,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 21:34 UTC",
+ "updated": "2026-11-16 22:05 UTC",
  "feed": [
   {
    "t": "2026-11-16 19:35",

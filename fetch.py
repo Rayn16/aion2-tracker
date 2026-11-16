@@ -232,20 +232,4 @@ def demo():
 
 if __name__ == "__main__":
     import sys
-    if "--test" in sys.argv:
-        demo()
-    else:  # PROBE, reverted next commit: print the raw Daevanion fields (node costs?), then fail so the run commits nothing
-        c = find(get(SEARCH.format(kw="YasuoMain", region=REGION)), "YasuoMain", "Tassin")
-        ids = dict(region=REGION, cid=c["characterId"], sid=c["serverId"])
-        for bid in (11, 15):
-            d = get(API.format(kind="daevanion/detail", **ids) + f"&boardId={bid}")
-            print("DETAIL", bid, json.dumps({k: v for k, v in d.items() if k != "nodeList"})[:3000])
-            nl = d["nodeList"]
-            print("KEYS", sorted({k for n in nl for k in n}))
-            for g in ("Common", "Rare", "Legend", "Unique"):
-                print("NODE", g, json.dumps(next((n for n in nl if n.get("grade") == g), None))[:1500])
-        info = get(API.format(kind="info", **ids))
-        print("INFOKEYS", list(info.keys()))
-        print("DAEV", json.dumps(info.get("daevanion"))[:3000])
-        print("STATS", json.dumps(info.get("stat"))[:3000])
-        sys.exit(1)
+    demo() if "--test" in sys.argv else main()

@@ -34225,22 +34225,22 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 17820,
-     "il": 201
+     "cp": 18980,
+     "il": 231
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 21,
-   "cp": 17820,
-   "il": 201,
+   "level": 22,
+   "cp": 18980,
+   "il": 231,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Strange Karma Staff",
+     "name": "Old Mercenary Commander Staff",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0014_T03.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_ST_0016_T04.png",
      "max": 5,
      "slots": 2,
      "stones": [],
@@ -34252,12 +34252,12 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Strange Karma Guard",
-     "grade": "Common",
+     "name": "Old Mercenary Commander Guard",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_012.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_019.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34342,10 +34342,10 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Old Mercenary Commander Boots",
+     "name": "Outsider Boots",
      "grade": "Common",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Boots.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Boots.png",
      "max": 5,
      "slots": 1,
      "stones": [],
@@ -34399,6 +34399,21 @@
      "src": [
       "Quest"
      ]
+    },
+    {
+     "slotPosName": "Amulet",
+     "name": "Revelation Amulet",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv3_01.png",
+     "max": 10,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
     }
    ],
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898986801",
@@ -34432,11 +34447,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.1%",
-      "Critical Hit increase +0.1%"
+      "Accuracy increase +1.6%",
+      "Critical Hit increase +1.6%"
      ],
      "type": "AGI",
-     "value": 1
+     "value": 16
     },
     {
      "name": "Willpower",
@@ -34446,96 +34461,104 @@
     },
     {
      "name": "Justice [Nezekan]",
-     "statSecondList": null,
+     "statSecondList": [
+      "Defense increase +0.3%",
+      "Perfect Chance +0.3%"
+     ],
      "type": "Justice",
-     "value": 0
+     "value": 3
     },
     {
      "name": "Freedom [Vaizel]",
-     "statSecondList": null,
+     "statSecondList": [
+      "Accuracy increase +0.3%",
+      "Evasion increase +0.3%"
+     ],
      "type": "Freedom",
-     "value": 0
+     "value": 3
     },
     {
      "name": "Illusion [Kaisinel]",
-     "statSecondList": null,
+     "statSecondList": [
+      "Cooldown -0.2%",
+      "Endurance Penetration +0.2%"
+     ],
      "type": "Illusion",
-     "value": 0
+     "value": 2
     },
     {
      "name": "Life [Yustiel]",
-     "statSecondList": null,
+     "statSecondList": [
+      "HP increase +0.3%",
+      "Regeneration +0.3%"
+     ],
      "type": "Life",
-     "value": 0
+     "value": 3
     },
     {
      "name": "Time [Siel]",
-     "statSecondList": null,
+     "statSecondList": [
+      "Combat Speed +0.3%",
+      "Double Resist +0.3%"
+     ],
      "type": "Time",
-     "value": 0
+     "value": 3
     },
     {
      "name": "Destruction [Zikel]",
-     "statSecondList": null,
+     "statSecondList": [
+      "Attack increase +0.3%",
+      "Perfect Resist +0.3%"
+     ],
      "type": "Destruction",
-     "value": 0
+     "value": 3
     },
     {
      "name": "Death [Triniel]",
-     "statSecondList": null,
+     "statSecondList": [
+      "Critical Hit increase +0.3%",
+      "Regeneration Penetration +0.3%"
+     ],
      "type": "Death",
-     "value": 0
+     "value": 3
     },
     {
      "name": "Wisdom [Lumiel]",
-     "statSecondList": null,
+     "statSecondList": [
+      "MP Cost -0.2%",
+      "Double Chance +0.2%"
+     ],
      "type": "Wisdom",
-     "value": 0
+     "value": 2
     },
     {
      "name": "Destiny [Marchutan]",
-     "statSecondList": null,
+     "statSecondList": [
+      "MP increase +0.3%",
+      "Endurance +0.3%"
+     ],
      "type": "Destiny",
-     "value": 0
+     "value": 3
     },
     {
      "name": "Space [Israphel]",
-     "statSecondList": null,
+     "statSecondList": [
+      "Move Speed +0.3%",
+      "Block increase +0.3%"
+     ],
      "type": "Space",
-     "value": 0
+     "value": 3
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 201
+     "value": 231
     }
    ],
    "title": {
-    "ownedCount": 51,
+    "ownedCount": 54,
     "titleList": [
-     {
-      "equipCategory": "Etc",
-      "equipStatList": [
-       {
-        "desc": "MP +260"
-       },
-       {
-        "desc": "Natural MP Regen +17"
-       }
-      ],
-      "grade": "Legend",
-      "id": 23010019,
-      "name": "Varian to the Bone",
-      "ownedCount": 13,
-      "ownedPercent": 13,
-      "statList": [
-       {
-        "desc": "Back Attack Critical Hit +10"
-       }
-      ],
-      "totalCount": 102
-     },
      {
       "equipCategory": "Attack",
       "equipStatList": [
@@ -34552,8 +34575,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 19,
-      "ownedPercent": 18,
+      "ownedCount": 20,
+      "ownedPercent": 19,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -34585,6 +34608,25 @@
        }
       ],
       "totalCount": 99
+     },
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "Combat Speed +1.9%"
+       }
+      ],
+      "grade": "Rare",
+      "id": 23050007,
+      "name": "Fashionista",
+      "ownedCount": 15,
+      "ownedPercent": 15,
+      "statList": [
+       {
+        "desc": "Critical Hit +5"
+       }
+      ],
+      "totalCount": 102
      }
     ],
     "totalCount": 307
@@ -35232,15 +35274,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 61146,
-     "il": 1075
+     "cp": 61232,
+     "il": 1081
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 61146,
-   "il": 1075,
+   "cp": 61232,
+   "il": 1081,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35593,22 +35635,23 @@
      ]
     },
     {
-     "slotPosName": "Bracelet2",
-     "name": "Outsider Bracelet",
+     "slotPosName": "Bracelet1",
+     "name": "Chaser Bracelet",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0011.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0030.png",
      "max": 5,
      "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
+      "Crafting",
       "Quest"
      ]
     },
     {
-     "slotPosName": "Bracelet1",
+     "slotPosName": "Bracelet2",
      "name": "Chaser Bracelet",
      "grade": "Rare",
      "enchantLevel": 0,
@@ -35780,11 +35823,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1075
+     "value": 1081
     }
    ],
    "title": {
-    "ownedCount": 130,
+    "ownedCount": 132,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35802,8 +35845,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 46,
-      "ownedPercent": 43,
+      "ownedCount": 47,
+      "ownedPercent": 44,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -35846,8 +35889,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 37,
-      "ownedPercent": 36,
+      "ownedCount": 38,
+      "ownedPercent": 37,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -37003,8 +37046,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 07:05 UTC",
+ "updated": "2026-11-16 07:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 07:35",
+   "n": "YasuoMain8",
+   "x": "new Chaser Bracelet +0"
+  },
+  {
+   "t": "2026-11-16 07:35",
+   "n": "YasuoMain8",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-16 07:35",
+   "n": "YasuoMain4",
+   "x": "reached level 22"
+  },
+  {
+   "t": "2026-11-16 07:35",
+   "n": "YasuoMain4",
+   "x": "new Old Mercenary Commander Staff +0"
+  },
+  {
+   "t": "2026-11-16 07:35",
+   "n": "YasuoMain4",
+   "x": "new Old Mercenary Commander Guard +0"
+  },
+  {
+   "t": "2026-11-16 07:35",
+   "n": "YasuoMain4",
+   "x": "new Outsider Boots +0"
+  },
+  {
+   "t": "2026-11-16 07:35",
+   "n": "YasuoMain4",
+   "x": "new Revelation Amulet +0"
+  },
+  {
+   "t": "2026-11-16 07:35",
+   "n": "YasuoMain4",
+   "x": "3 new titles"
+  },
   {
    "t": "2026-11-16 04:32",
    "n": "DeathRunner",
@@ -38464,46 +38547,6 @@
    "t": "2026-11-09 22:04",
    "n": "RyBear",
    "x": "Liberator Bracelet +0 → +5"
-  },
-  {
-   "t": "2026-11-09 22:04",
-   "n": "RyBear",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-09 22:04",
-   "n": "RyBear",
-   "x": "skills up: Rush Strike 9"
-  },
-  {
-   "t": "2026-11-09 21:34",
-   "n": "RyBear",
-   "x": "new Rupture Claymore +10"
-  },
-  {
-   "t": "2026-11-09 21:34",
-   "n": "RyBear",
-   "x": "new Division Necklace +0"
-  },
-  {
-   "t": "2026-11-09 21:34",
-   "n": "RyBear",
-   "x": "skills up: Survival Stance 14"
-  },
-  {
-   "t": "2026-11-09 21:04",
-   "n": "RyBear",
-   "x": "Spiritforged Guard +0 → +10"
-  },
-  {
-   "t": "2026-11-09 21:04",
-   "n": "RyBear",
-   "x": "Clash Rune +2 → +3"
-  },
-  {
-   "t": "2026-11-09 21:04",
-   "n": "RyBear",
-   "x": "5 new titles"
   }
  ]
 }

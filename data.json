@@ -15664,14 +15664,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 159560,
+     "cp": 159960,
      "il": 2814
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 159560,
+   "cp": 159960,
    "il": 2814,
    "gear": [
     {
@@ -17702,7 +17702,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 0,
@@ -37204,8 +37204,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 15:35 UTC",
+ "updated": "2026-11-16 16:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 16:02",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 12"
+  },
   {
    "t": "2026-11-16 15:34",
    "n": "YasuoMain4",
@@ -38700,11 +38705,6 @@
    "t": "2026-11-12 01:04",
    "n": "uTril",
    "x": "new Nuakum Pauldrons +10"
-  },
-  {
-   "t": "2026-11-12 01:04",
-   "n": "uTril",
-   "x": "skills up: Immortal Veil 15"
   }
  ]
 }

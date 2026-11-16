@@ -288,8 +288,6 @@ table.skills .meter { min-width: 80px; }
 .dboards.look-tiles .dgrid i.stop.skill { transform: scale(0.95); }
 /* lit skill nodes in their own grade's colour, bright, so a lit blue one doesn't read as closed */
 .dboards.look-tiles .dgrid i.path.skill:not(.stop) { border-color: color-mix(in srgb, var(--g) 60%, #fff); background: radial-gradient(circle at 35% 35%, color-mix(in srgb, var(--g) 65%, #fff), var(--g) 75%); }
-/* nodes we added to join Game8's numbers: dashed and hollow */
-.dboards.look-tiles .dgrid i.path.add, .dk.add { background: transparent; border: 1.5px dashed var(--gold-hi); box-shadow: none; }
 /* Game8's maps: green numbers for its priority nodes, yellow for its secondary ones */
 .pri { --tone: #3ddc6a; }
 .sec { --tone: #ffd23f; }
@@ -1072,7 +1070,7 @@ const boardGrid = ({ board, nodes, pick }) => {
   const r0 = Math.min(...nodes.map(n => n.row)), c0 = Math.min(...nodes.map(n => n.col));
   const cols = Math.max(...nodes.map(n => n.col)) - c0 + 1, rows = Math.max(...nodes.map(n => n.row)) - r0 + 1;
   return `<figure class="dboard"><figcaption>${board.icon ? `<img src="${esc(board.icon)}" alt="">` : ''}${esc(board.name)} ${board.openNodeCount != null ? `<span class="hint">${fmt(board.openNodeCount)} / ${fmt(board.totalNodeCount)}</span>` : ''}${board.note ? `<span class="note">${board.note}</span>` : ''}</figcaption>
-    <div class="dgrid" style="--cols:${cols}">${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.num ? ' stop' : ''}${n.tone ? ' ' + n.tone : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}${n.add ? ' add' : ''}"${n.num ? ` data-n="${n.num}"` : ''}
+    <div class="dgrid" style="--cols:${cols}">${nodes.map(n => `<i class="${n.grade === 'Start' ? 'start' : ''}${n.open ? ' on' : ''}${n.path ? ' path' : ''}${n.goal ? ' goal' : ''}${n.num ? ' stop' : ''}${n.tone ? ' ' + n.tone : ''}${n.name.startsWith('Skill Level Up') ? ' skill' : ''}"${n.num ? ` data-n="${n.num}"` : ''}
       style="grid-area:${n.row - r0 + 1}/${n.col - c0 + 1};--g:${GRADE[n.grade] || 'var(--muted)'}" title="${n.num ? ({ pri: 'Green ', sec: 'Yellow ' }[n.tone] || '') + n.num + '. ' : ''}${esc(n.name)}${n.goal ? ' (goal)' : n.add ? ' (ours: joins Game8’s numbers)' : n.path ? ' (on the way)' : n.open ? ' (open)' : ''}">${n.num ? `<b>${n.num}</b>` : ''}</i>`).join('')}</div>
     ${pick ? `<p class="sub">Goal: <b>${esc(pick.node.name)}</b>${pick.g8 ? ` (${pick.g8})` : ''}, ${pick.node.cost} pts${pick.steps > 1 ? `, open ${esc(pick.first.name)} first` : ''}</p>` : ''}</figure>`;
 };
@@ -1230,9 +1228,9 @@ function classGuide(name, which) {
         const { nodes, stops } = guidePath(rows, b, stats);
         const prio = [...new Set(stops.map(n => n.name.replace(/^Skill Level Up - /, '')))].slice(0, 5);  // in the path's order
         return boardGrid({ board: { name, note: `${stops.length} stops · ${stops.reduce((s, n) => s + n.pts, 0)} pts` }, nodes }).replace(/<\/figure>$/, end(prio));
-      }).join('')}</div>${b.g8?.maps ? G8_KEY.replace(/<\/p>$/, adds ? '<span><i class="dk add"></i>Dashed: ours, joins numbers Game8’s picture leaves cut off</span></p>' : '</p>') : GUIDE_KEY}`
+      }).join('')}</div>${b.g8?.maps ? G8_KEY : GUIDE_KEY}`
         : `<p class="hint">${CLASS_BOARDS === null ? 'Loading the boards…' : 'Couldn’t load the boards. Try again later.'}</p>`}
-      <p class="hint">${b.g8?.maps ? `The four main boards are <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a> maps, node for node${adds ? ', plus the cheapest nodes that join numbers Game8’s pictures leave cut off (dashed)' : ''}. Ariel and Azphel have no Game8 map, so their numbered path is ours.`
+      <p class="hint">${b.g8?.maps ? `The four main boards are <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a> maps, node for node${adds ? ', plus the cheapest nodes that join numbers Game8’s pictures leave cut off' : ''}. Ariel and Azphel have no Game8 map, so their numbered path is ours.`
         : b.g8 ? `Node priority on the four main boards from <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a>; the numbered path opens those nodes in that order, big ones first, each the cheapest way.` : `The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above and the big nodes for ${esc(b.stats.slice(0, 3).join(', '))} and the rest, in that order, then the small ones; each reached the cheapest way.`} Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}. ${PTS}</p></section>
     ${chars.length ? `<section class="panel"><h2 class="ph">Gear of the legion’s best ${b.cls} <a class="hint" href="${memberLink(chars[0].name)}">${esc(chars[0].name)}</a></h2>${gearGrid(chars[0].gear)}</section>
     <section class="panel"><h2 class="ph">${b.cls}s in the legion <span class="hint">open one for its own next points</span></h2><div class="cards">${chars.map(charCard).join('')}</div></section>`

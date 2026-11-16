@@ -34227,15 +34227,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 25428,
-     "il": 340
+     "cp": 25491,
+     "il": 348
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 27,
-   "cp": 25428,
-   "il": 340,
+   "level": 28,
+   "cp": 25491,
+   "il": 348,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34314,12 +34314,12 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Outsider Pauldrons",
-     "grade": "Common",
+     "name": "Chaser Pauldrons",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Shoulder.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Shoulder.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34557,11 +34557,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 340
+     "value": 348
     }
    ],
    "title": {
-    "ownedCount": 55,
+    "ownedCount": 56,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34604,8 +34604,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 19,
-      "ownedPercent": 19,
+      "ownedCount": 20,
+      "ownedPercent": 20,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -37098,8 +37098,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 14:05 UTC",
+ "updated": "2026-11-16 14:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 14:34",
+   "n": "YasuoMain4",
+   "x": "reached level 28"
+  },
+  {
+   "t": "2026-11-16 14:34",
+   "n": "YasuoMain4",
+   "x": "new Chaser Pauldrons +0"
+  },
+  {
+   "t": "2026-11-16 14:34",
+   "n": "YasuoMain4",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-16 14:05",
    "n": "YasuoMain4",
@@ -38584,21 +38599,6 @@
    "t": "2026-11-11 02:34",
    "n": "CutieCatty",
    "x": "Nuakum Gloves +12 → +15"
-  },
-  {
-   "t": "2026-11-11 02:04",
-   "n": "CutieCatty",
-   "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-11 02:03",
-   "n": "uTril",
-   "x": "skills up: Summon Resurrection 1, Earth Punishment 10"
-  },
-  {
-   "t": "2026-11-11 02:02",
-   "n": "DeathRunner",
-   "x": "opened 2 Daevanion nodes"
   }
  ]
 }

@@ -114,13 +114,13 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 141072,
+     "cp": 141081,
      "il": 2683
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 141072,
+   "cp": 141081,
    "il": 2683,
    "gear": [
     {
@@ -2335,13 +2335,13 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 87860,
+     "cp": 87874,
      "il": 1929
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 87860,
+   "cp": 87874,
    "il": 1929,
    "gear": [
     {
@@ -4504,50 +4504,31 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 80571,
-     "il": 1821
+     "cp": 82722,
+     "il": 1830
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 80571,
-   "il": 1821,
+   "cp": 82722,
+   "il": 1830,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Spiritforged Mace",
+     "name": "Aulamus Mace",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_MA_0078_T05.png",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_MA_0028_T05.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "MP",
-       "+30",
-       "Rare"
-      ],
-      [
-       "Critical Hit",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Block",
-       "+7",
-       "Common"
-      ]
-     ],
+     "stones": [],
      "godSlots": 1,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -5182,10 +5163,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.6%"
+      "Attack increase +2.1%"
      ],
      "type": "STR",
-     "value": 36
+     "value": 21
     },
     {
      "name": "Dexterity",
@@ -5214,11 +5195,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.1%",
-      "Critical Hit increase +1.1%"
+      "Accuracy increase +3%",
+      "Critical Hit increase +3%"
      ],
      "type": "AGI",
-     "value": 11
+     "value": 30
     },
     {
      "name": "Willpower",
@@ -5320,7 +5301,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1821
+     "value": 1830
     }
    ],
    "title": {
@@ -6279,7 +6260,7 @@
       "id": 17060000,
       "name": "Bolt",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -34227,14 +34208,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 30050,
+     "cp": 30100,
      "il": 438
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 31,
-   "cp": 30050,
+   "cp": 30100,
    "il": 438,
    "gear": [
     {
@@ -37204,8 +37185,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 16:38 UTC",
+ "updated": "2026-11-16 17:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 17:04",
+   "n": "CuteCatty",
+   "x": "new Aulamus Mace +0"
+  },
+  {
+   "t": "2026-11-16 17:04",
+   "n": "CuteCatty",
+   "x": "skills up: Bolt 15"
+  },
   {
    "t": "2026-11-16 16:32",
    "n": "DeathRunner",
@@ -38695,16 +38686,6 @@
    "t": "2026-11-12 02:32",
    "n": "Darya",
    "x": "skills up: Exploit Weakness 17, Rear Smite 15"
-  },
-  {
-   "t": "2026-11-12 02:02",
-   "n": "DeathRunner",
-   "x": "skills up: Savage Fang 7"
-  },
-  {
-   "t": "2026-11-12 01:04",
-   "n": "RyBear",
-   "x": "skills up: Rush Strike 12, Protection Armor 13"
   }
  ]
 }

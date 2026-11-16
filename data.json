@@ -34254,15 +34254,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 30371,
-     "il": 438
+     "cp": 30997,
+     "il": 462
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 32,
-   "cp": 30371,
-   "il": 438,
+   "cp": 30997,
+   "il": 462,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34311,12 +34311,12 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Chaser Greaves",
-     "grade": "Rare",
+     "name": "Avenger Greaves",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Pants.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Pants.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34356,12 +34356,12 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Chaser Gloves",
-     "grade": "Rare",
+     "name": "Avenger Gloves",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Gloves.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Gloves.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34386,12 +34386,12 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Chaser Cloak",
-     "grade": "Rare",
+     "name": "Avenger Cloak",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Cape.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Cape.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34508,11 +34508,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +0.3%",
-      "Perfect Chance +0.3%"
+      "Defense increase +3.8%",
+      "Perfect Chance +3.8%"
      ],
      "type": "Justice",
-     "value": 3
+     "value": 38
     },
     {
      "name": "Freedom [Vaizel]",
@@ -34544,11 +34544,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +0.4%",
-      "Double Resist +0.4%"
+      "Combat Speed +3.9%",
+      "Double Resist +3.9%"
      ],
      "type": "Time",
-     "value": 4
+     "value": 39
     },
     {
      "name": "Destruction [Zikel]",
@@ -34599,7 +34599,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 438
+     "value": 462
     }
    ],
    "title": {
@@ -37231,8 +37231,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 17:35 UTC",
+ "updated": "2026-11-16 18:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 18:04",
+   "n": "YasuoMain4",
+   "x": "new Avenger Greaves +0"
+  },
+  {
+   "t": "2026-11-16 18:04",
+   "n": "YasuoMain4",
+   "x": "new Avenger Gloves +0"
+  },
+  {
+   "t": "2026-11-16 18:04",
+   "n": "YasuoMain4",
+   "x": "new Avenger Cloak +0"
+  },
   {
    "t": "2026-11-16 17:35",
    "n": "YasuoMain4",
@@ -38717,21 +38732,6 @@
    "t": "2026-11-12 04:31",
    "n": "YasuoMain",
    "x": "skills up: Impact Hit 17"
-  },
-  {
-   "t": "2026-11-12 03:32",
-   "n": "DeathRunner",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-12 03:02",
-   "n": "DeathRunner",
-   "x": "new Nuakum Cloak +11"
-  },
-  {
-   "t": "2026-11-12 02:33",
-   "n": "DeathRunner",
-   "x": "skills up: Flash Slice 14"
   }
  ]
 }

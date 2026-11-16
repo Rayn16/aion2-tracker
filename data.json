@@ -15662,14 +15662,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 157530,
+     "cp": 157700,
      "il": 2804
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 157530,
+   "cp": 157700,
    "il": 2804,
    "gear": [
     {
@@ -17560,7 +17560,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -17683,7 +17683,7 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
       "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_031.png",
@@ -37003,8 +37003,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 04:05 UTC",
+ "updated": "2026-11-16 04:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 04:32",
+   "n": "DeathRunner",
+   "x": "skills up: Rear Smite 16"
+  },
   {
    "t": "2026-11-16 04:04",
    "n": "uTril",
@@ -38499,11 +38504,6 @@
    "t": "2026-11-09 21:04",
    "n": "RyBear",
    "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-09 20:35",
-   "n": "RyBear",
-   "x": "new Saraswati Earrings +0"
   }
  ]
 }

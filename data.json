@@ -35232,15 +35232,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 60764,
-     "il": 1045
+     "cp": 61146,
+     "il": 1075
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 60764,
-   "il": 1045,
+   "cp": 61146,
+   "il": 1075,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35369,17 +35369,40 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Liberator Pauldrons",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Shoulder.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Pauldrons",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Shoulder.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Defense",
+       "+30",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -35757,11 +35780,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1045
+     "value": 1075
     }
    ],
    "title": {
-    "ownedCount": 129,
+    "ownedCount": 130,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35823,8 +35846,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 36,
-      "ownedPercent": 35,
+      "ownedCount": 37,
+      "ownedPercent": 36,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -36750,7 +36773,7 @@
       "id": 12730000,
       "name": "Punishing Benediction",
       "needLevel": 9,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -36980,8 +37003,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 02:05 UTC",
+ "updated": "2026-11-16 02:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 02:35",
+   "n": "YasuoMain8",
+   "x": "new Bakarma Pauldrons +10"
+  },
+  {
+   "t": "2026-11-16 02:35",
+   "n": "YasuoMain8",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-16 02:35",
+   "n": "YasuoMain8",
+   "x": "skills up: Punishing Benediction 14"
+  },
   {
    "t": "2026-11-16 02:05",
    "n": "YasuoMain8",
@@ -38466,21 +38504,6 @@
    "t": "2026-11-09 20:33",
    "n": "iLen",
    "x": "new Ascension Bracelet +10"
-  },
-  {
-   "t": "2026-11-09 20:33",
-   "n": "iLen",
-   "x": "new Liberator Bracelet +0"
-  },
-  {
-   "t": "2026-11-09 20:33",
-   "n": "iLen",
-   "x": "Revelation Amulet +7 → +9"
-  },
-  {
-   "t": "2026-11-09 20:33",
-   "n": "iLen",
-   "x": "skills up: Blessing of Life 13, Wind's Promise 14"
   }
  ]
 }

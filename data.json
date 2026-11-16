@@ -34227,14 +34227,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 25425,
+     "cp": 25428,
      "il": 340
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 26,
-   "cp": 25425,
+   "level": 27,
+   "cp": 25428,
    "il": 340,
    "gear": [
     {
@@ -34561,7 +34561,7 @@
     }
    ],
    "title": {
-    "ownedCount": 54,
+    "ownedCount": 55,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34579,8 +34579,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 20,
-      "ownedPercent": 19,
+      "ownedCount": 21,
+      "ownedPercent": 20,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -37098,8 +37098,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 13:35 UTC",
+ "updated": "2026-11-16 14:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 14:05",
+   "n": "YasuoMain4",
+   "x": "reached level 27"
+  },
+  {
+   "t": "2026-11-16 14:05",
+   "n": "YasuoMain4",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-16 13:35",
    "n": "YasuoMain4",
@@ -38589,16 +38599,6 @@
    "t": "2026-11-11 02:02",
    "n": "DeathRunner",
    "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-11 02:01",
-   "n": "YasuoMain",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-11 01:34",
-   "n": "uTril",
-   "x": "Nuakum Greaves +9 → +10"
   }
  ]
 }

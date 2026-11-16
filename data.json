@@ -34254,15 +34254,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 30997,
-     "il": 462
+     "cp": 33126,
+     "il": 518
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 33,
-   "cp": 30997,
-   "il": 462,
+   "cp": 33126,
+   "il": 518,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34415,6 +34415,51 @@
      ]
     },
     {
+     "slotPosName": "Necklace",
+     "name": "Old Mercenary Commander Necklace",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Earring2",
+     "name": "Old Mercenary Commander Earrings",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Old Mercenary Commander Earrings",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
      "slotPosName": "Ring2",
      "name": "Chaser Ring",
      "grade": "Rare",
@@ -34441,6 +34486,22 @@
      "godSlots": 0,
      "god": [],
      "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Bracelet1",
+     "name": "Old Mercenary Commander Bracelet",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0014.png",
+     "max": 5,
+     "slots": 1,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Crafting",
       "Quest"
      ]
     },
@@ -34508,29 +34569,29 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +3.8%",
-      "Perfect Chance +3.8%"
+      "Defense increase +3.9%",
+      "Perfect Chance +3.9%"
      ],
      "type": "Justice",
-     "value": 38
+     "value": 39
     },
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +1.1%",
-      "Evasion increase +1.1%"
+      "Accuracy increase +1.2%",
+      "Evasion increase +1.2%"
      ],
      "type": "Freedom",
-     "value": 11
+     "value": 12
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.2%",
-      "Endurance Penetration +0.2%"
+      "Cooldown -0.3%",
+      "Endurance Penetration +0.3%"
      ],
      "type": "Illusion",
-     "value": 2
+     "value": 3
     },
     {
      "name": "Life [Yustiel]",
@@ -34553,29 +34614,29 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.3%",
-      "Perfect Resist +0.3%"
+      "Attack increase +0.4%",
+      "Perfect Resist +0.4%"
      ],
      "type": "Destruction",
-     "value": 3
+     "value": 4
     },
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +1.9%",
-      "Regeneration Penetration +1.9%"
+      "Critical Hit increase +2%",
+      "Regeneration Penetration +2%"
      ],
      "type": "Death",
-     "value": 19
+     "value": 20
     },
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.2%",
-      "Double Chance +0.2%"
+      "MP Cost -0.3%",
+      "Double Chance +0.3%"
      ],
      "type": "Wisdom",
-     "value": 2
+     "value": 3
     },
     {
      "name": "Destiny [Marchutan]",
@@ -34599,11 +34660,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 462
+     "value": 518
     }
    ],
    "title": {
-    "ownedCount": 63,
+    "ownedCount": 70,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34621,8 +34682,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 24,
-      "ownedPercent": 23,
+      "ownedCount": 26,
+      "ownedPercent": 25,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -34646,8 +34707,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 22,
-      "ownedPercent": 22,
+      "ownedCount": 24,
+      "ownedPercent": 24,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -34665,8 +34726,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 17,
-      "ownedPercent": 17,
+      "ownedCount": 20,
+      "ownedPercent": 20,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -35063,7 +35124,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -35123,7 +35184,7 @@
       "id": 18290000,
       "name": "Spinning Strike",
       "needLevel": 14,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -35173,7 +35234,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -35183,7 +35244,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -35193,7 +35254,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 8
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -37231,8 +37292,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 18:35 UTC",
+ "updated": "2026-11-16 19:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 19:35",
+   "n": "YasuoMain4",
+   "x": "new Old Mercenary Commander Necklace +0"
+  },
+  {
+   "t": "2026-11-16 19:35",
+   "n": "YasuoMain4",
+   "x": "new Old Mercenary Commander Earrings +0"
+  },
+  {
+   "t": "2026-11-16 19:35",
+   "n": "YasuoMain4",
+   "x": "new Old Mercenary Commander Earrings +0"
+  },
+  {
+   "t": "2026-11-16 19:35",
+   "n": "YasuoMain4",
+   "x": "new Old Mercenary Commander Bracelet +0"
+  },
+  {
+   "t": "2026-11-16 19:35",
+   "n": "YasuoMain4",
+   "x": "7 new titles"
+  },
+  {
+   "t": "2026-11-16 19:35",
+   "n": "YasuoMain4",
+   "x": "skills up: Dark Crush 12, Spinning Strike 10, Inspiring Spell 7, Attack Preparation 8 and 1 more"
+  },
   {
    "t": "2026-11-16 18:34",
    "n": "YasuoMain4",
@@ -38702,36 +38793,6 @@
    "t": "2026-11-12 06:34",
    "n": "uTril",
    "x": "new Nuakum Guard +10"
-  },
-  {
-   "t": "2026-11-12 06:34",
-   "n": "uTril",
-   "x": "skills up: Chain of Torment 17, Power Burst 2"
-  },
-  {
-   "t": "2026-11-12 06:01",
-   "n": "YasuoMain",
-   "x": "opened 3 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-12 05:01",
-   "n": "YasuoMain",
-   "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-12 04:32",
-   "n": "DeathRunner",
-   "x": "Nuakum Cloak +11 → +12"
-  },
-  {
-   "t": "2026-11-12 04:32",
-   "n": "DeathRunner",
-   "x": "skills up: Exploit Weakness 22"
-  },
-  {
-   "t": "2026-11-12 04:31",
-   "n": "YasuoMain",
-   "x": "Mirror of Vigor +2 → +3"
   }
  ]
 }

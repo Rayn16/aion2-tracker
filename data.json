@@ -15664,15 +15664,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 157700,
-     "il": 2804
+     "cp": 157740,
+     "il": 2805
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 157700,
-   "il": 2804,
+   "cp": 157740,
+   "il": 2805,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16553,7 +16553,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2804
+     "value": 2805
     }
    ],
    "title": {
@@ -16683,8 +16683,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 11,
-      "openPercent": 7,
+      "openNodeCount": 12,
+      "openPercent": 8,
       "totalNodeCount": 152
      },
      {
@@ -17126,7 +17126,7 @@
      "7|13|Common|0|PvE Defense",
      "7|10|Common|0|Boss Defense",
      "7|11|Legend|0|Boss Damage Tolerance",
-     "7|8|Common|0|PvE Attack",
+     "7|8|Common|1|PvE Attack",
      "7|6|Common|0|Boss Attack",
      "8|6|Common|0|PvE Accuracy",
      "8|3|Common|0|Max HP",
@@ -30206,14 +30206,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 115266,
+     "cp": 118466,
      "il": 2613
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 115266,
+   "cp": 118466,
    "il": 2613,
    "gear": [
     {
@@ -32208,7 +32208,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -32283,12 +32283,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 0
      }
     ]
    },
@@ -37098,8 +37098,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 12:05 UTC",
+ "updated": "2026-11-16 12:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 12:34",
+   "n": "uTril",
+   "x": "skills up: Summon Resurrection 1"
+  },
+  {
+   "t": "2026-11-16 12:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-16 11:35",
    "n": "YasuoMain8",
@@ -38589,16 +38599,6 @@
    "t": "2026-11-10 18:32",
    "n": "PeriodPhobic",
    "x": "skills up: Mental Focus 16, Spirit Communion 9"
-  },
-  {
-   "t": "2026-11-10 18:02",
-   "n": "PeriodPhobic",
-   "x": "new Aulamus Earrings +10"
-  },
-  {
-   "t": "2026-11-10 18:02",
-   "n": "PeriodPhobic",
-   "x": "skills up: Spirit Strike 15, Spirit Communion 8"
   }
  ]
 }

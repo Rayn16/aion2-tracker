@@ -30204,14 +30204,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 116578,
+     "cp": 118492,
      "il": 2610
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 116578,
+   "cp": 118492,
    "il": 2610,
    "gear": [
     {
@@ -32216,7 +32216,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 0,
@@ -35232,15 +35232,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 59455,
-     "il": 978
+     "cp": 60764,
+     "il": 1045
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 59455,
-   "il": 978,
+   "cp": 60764,
+   "il": 1045,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35331,17 +35331,40 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Liberator Helm",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Helmet.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Helm",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Helmet.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -35399,13 +35422,34 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Anguish Boots",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Boots.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Boots",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Boots.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Evasion Bonus",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35510,17 +35554,19 @@
     },
     {
      "slotPosName": "Ring1",
-     "name": "Avenger Ring",
+     "name": "Anguish Ring",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0017.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -35594,9 +35640,11 @@
     },
     {
      "name": "Constitution",
-     "statSecondList": null,
+     "statSecondList": [
+      "HP increase +1.5%"
+     ],
      "type": "CON",
-     "value": 0
+     "value": 15
     },
     {
      "name": "Precision",
@@ -35709,7 +35757,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 978
+     "value": 1045
     }
    ],
    "title": {
@@ -36582,7 +36630,7 @@
       "id": 12130000,
       "name": "Poach",
       "needLevel": 1,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -36702,7 +36750,7 @@
       "id": 12730000,
       "name": "Punishing Benediction",
       "needLevel": 9,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -36932,8 +36980,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 01:35 UTC",
+ "updated": "2026-11-16 02:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 02:05",
+   "n": "YasuoMain8",
+   "x": "new Bakarma Helm +10"
+  },
+  {
+   "t": "2026-11-16 02:05",
+   "n": "YasuoMain8",
+   "x": "new Bakarma Boots +10"
+  },
+  {
+   "t": "2026-11-16 02:05",
+   "n": "YasuoMain8",
+   "x": "new Anguish Ring +0"
+  },
+  {
+   "t": "2026-11-16 02:05",
+   "n": "YasuoMain8",
+   "x": "skills up: Poach 9, Punishing Benediction 13"
+  },
+  {
+   "t": "2026-11-16 02:04",
+   "n": "uTril",
+   "x": "skills up: Earth Punishment 15"
+  },
   {
    "t": "2026-11-16 01:35",
    "n": "YasuoMain8",
@@ -38408,31 +38481,6 @@
    "t": "2026-11-09 20:33",
    "n": "iLen",
    "x": "skills up: Blessing of Life 13, Wind's Promise 14"
-  },
-  {
-   "t": "2026-11-09 20:04",
-   "n": "RyBear",
-   "x": "Spiritforged Greatsword +0 → +10"
-  },
-  {
-   "t": "2026-11-09 20:04",
-   "n": "RyBear",
-   "x": "new Anguish Greaves +0"
-  },
-  {
-   "t": "2026-11-09 20:04",
-   "n": "RyBear",
-   "x": "new Anguish Ring +0"
-  },
-  {
-   "t": "2026-11-09 20:04",
-   "n": "RyBear",
-   "x": "Ascension Bracelet +0 → +10"
-  },
-  {
-   "t": "2026-11-09 20:04",
-   "n": "RyBear",
-   "x": "skills up: Leaping Slam 11"
   }
  ]
 }

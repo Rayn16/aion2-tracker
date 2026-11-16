@@ -874,9 +874,11 @@
     },
     {
      "name": "Constitution",
-     "statSecondList": null,
+     "statSecondList": [
+      "HP increase +0.1%"
+     ],
      "type": "CON",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Precision",
@@ -3052,10 +3054,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +3%"
+      "HP increase +3.1%"
      ],
      "type": "CON",
-     "value": 30
+     "value": 31
     },
     {
      "name": "Precision",
@@ -32862,10 +32864,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +0.8%"
+      "HP increase +0.9%"
      ],
      "type": "CON",
-     "value": 8
+     "value": 9
     },
     {
      "name": "Precision",
@@ -34440,9 +34442,11 @@
     },
     {
      "name": "Constitution",
-     "statSecondList": null,
+     "statSecondList": [
+      "HP increase +0.1%"
+     ],
      "type": "CON",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Precision",
@@ -35274,15 +35278,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 65594,
-     "il": 1239
+     "cp": 66553,
+     "il": 1242
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 65594,
-   "il": 1239,
+   "cp": 66553,
+   "il": 1242,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35616,24 +35620,22 @@
      ]
     },
     {
-     "slotPosName": "Ring1",
-     "name": "Anguish Ring",
+     "slotPosName": "Ring2",
+     "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
+      "Quest"
      ]
     },
     {
-     "slotPosName": "Ring2",
+     "slotPosName": "Ring1",
      "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -35751,10 +35753,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.5%"
+      "HP increase +1.6%"
      ],
      "type": "CON",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Precision",
@@ -35867,11 +35869,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1239
+     "value": 1242
     }
    ],
    "title": {
-    "ownedCount": 158,
+    "ownedCount": 166,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35889,8 +35891,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 54,
-      "ownedPercent": 51,
+      "ownedCount": 57,
+      "ownedPercent": 54,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -35914,8 +35916,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 57,
-      "ownedPercent": 58,
+      "ownedCount": 58,
+      "ownedPercent": 59,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -35933,8 +35935,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 47,
-      "ownedPercent": 46,
+      "ownedCount": 51,
+      "ownedPercent": 50,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -36740,7 +36742,7 @@
       "id": 12130000,
       "name": "Poach",
       "needLevel": 1,
-      "skillLevel": 9
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -36775,12 +36777,12 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_TE_SKILL_025.png",
       "id": 12270000,
       "name": "Debilitating Smash",
       "needLevel": 7,
-      "skillLevel": 8
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36850,7 +36852,7 @@
       "id": 12720000,
       "name": "Warding Shield",
       "needLevel": 6,
-      "skillLevel": 4
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -37090,8 +37092,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 10:35 UTC",
+ "updated": "2026-11-16 11:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 11:05",
+   "n": "YasuoMain8",
+   "x": "new Liberator Ring +0"
+  },
+  {
+   "t": "2026-11-16 11:05",
+   "n": "YasuoMain8",
+   "x": "8 new titles"
+  },
+  {
+   "t": "2026-11-16 11:05",
+   "n": "YasuoMain8",
+   "x": "skills up: Debilitating Smash 12, Warding Shield 7"
+  },
   {
    "t": "2026-11-16 10:35",
    "n": "YasuoMain8",
@@ -38576,21 +38593,6 @@
    "t": "2026-11-10 09:01",
    "n": "YasuoMain16",
    "x": "skills up: Warding Shield 15"
-  },
-  {
-   "t": "2026-11-10 00:48",
-   "n": "CuteCatty",
-   "x": "6 new titles"
-  },
-  {
-   "t": "2026-11-10 00:34",
-   "n": "CutieCatty",
-   "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-10 00:15",
-   "n": "CutieCatty",
-   "x": "1 new title"
   }
  ]
 }

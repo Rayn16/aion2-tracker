@@ -15662,14 +15662,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 156880,
+     "cp": 156913,
      "il": 2796
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 156880,
+   "cp": 156913,
    "il": 2796,
    "gear": [
     {
@@ -17700,7 +17700,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 0,
@@ -17764,9 +17764,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
-     "id": 40201900,
-     "name": "Dark Veil Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -37003,8 +37003,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 02:35 UTC",
+ "updated": "2026-11-16 03:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 03:02",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 11"
+  },
   {
    "t": "2026-11-16 02:35",
    "n": "YasuoMain8",
@@ -38499,11 +38504,6 @@
    "t": "2026-11-09 20:33",
    "n": "iLen",
    "x": "Aulamus Ring +0 → +10"
-  },
-  {
-   "t": "2026-11-09 20:33",
-   "n": "iLen",
-   "x": "new Ascension Bracelet +10"
   }
  ]
 }

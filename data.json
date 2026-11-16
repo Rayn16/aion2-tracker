@@ -15662,15 +15662,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 156913,
-     "il": 2796
+     "cp": 157175,
+     "il": 2797
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 156913,
-   "il": 2796,
+   "cp": 157175,
+   "il": 2797,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16478,11 +16478,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -4.2%",
-      "Endurance Penetration +4.2%"
+      "Cooldown -4.5%",
+      "Endurance Penetration +4.5%"
      ],
      "type": "Illusion",
-     "value": 42
+     "value": 45
     },
     {
      "name": "Life [Yustiel]",
@@ -16523,11 +16523,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -2.7%",
-      "Double Chance +2.7%"
+      "MP Cost -3%",
+      "Double Chance +3%"
      ],
      "type": "Wisdom",
-     "value": 27
+     "value": 30
     },
     {
      "name": "Destiny [Marchutan]",
@@ -16551,11 +16551,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2796
+     "value": 2797
     }
    ],
    "title": {
-    "ownedCount": 212,
+    "ownedCount": 213,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -16623,8 +16623,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 70,
-      "ownedPercent": 66,
+      "ownedCount": 71,
+      "ownedPercent": 67,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -16681,8 +16681,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 11,
-      "openPercent": 7,
+      "openNodeCount": 12,
+      "openPercent": 8,
       "totalNodeCount": 152
      },
      {
@@ -17179,7 +17179,7 @@
      "12|14|Common|0|PvE Attack",
      "12|11|Common|0|PvE Attack",
      "12|12|Common|0|PvE Accuracy",
-     "13|8|Common|0|PvE Evasion",
+     "13|8|Common|1|PvE Evasion",
      "13|9|Common|1|Boss Attack",
      "13|6|Common|0|Boss Defense",
      "13|7|Common|0|PvE Accuracy",
@@ -30204,14 +30204,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 118492,
+     "cp": 115192,
      "il": 2610
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 118492,
+   "cp": 115192,
    "il": 2610,
    "gear": [
     {
@@ -37003,8 +37003,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 03:05 UTC",
+ "updated": "2026-11-16 03:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 03:32",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-16 03:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-16 03:02",
    "n": "DeathRunner",
@@ -38494,16 +38504,6 @@
    "t": "2026-11-09 20:33",
    "n": "iLen",
    "x": "Aulamus Staff +0 → +10"
-  },
-  {
-   "t": "2026-11-09 20:33",
-   "n": "iLen",
-   "x": "new Aulamus Necklace +10"
-  },
-  {
-   "t": "2026-11-09 20:33",
-   "n": "iLen",
-   "x": "Aulamus Ring +0 → +10"
   }
  ]
 }

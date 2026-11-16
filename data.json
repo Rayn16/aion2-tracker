@@ -12281,6 +12281,11 @@
      "date": "2026-11-15",
      "cp": 91360,
      "il": 1825
+    },
+    {
+     "date": "2026-11-16",
+     "cp": 91360,
+     "il": 1825
     }
    ],
    "server": "Tassin",
@@ -35227,15 +35232,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 57991,
-     "il": 929
+     "cp": 59182,
+     "il": 963
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 57991,
-   "il": 929,
+   "cp": 59182,
+   "il": 963,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35275,17 +35280,19 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Liberator Guard",
+     "name": "Anguish Guard",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_028.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_002.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 1,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -35307,17 +35314,19 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Liberator Greaves",
+     "name": "Anguish Greaves",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Pants.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -35352,17 +35361,40 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Liberator Gloves",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Gloves.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Gloves",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Gloves.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -35541,10 +35573,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.7%"
+      "Attack increase +2.8%"
      ],
      "type": "STR",
-     "value": 17
+     "value": 28
     },
     {
      "name": "Dexterity",
@@ -35575,9 +35607,11 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Resist +1.1%"
+     ],
      "type": "WIS",
-     "value": 0
+     "value": 11
     },
     {
      "name": "Justice [Nezekan]",
@@ -35673,7 +35707,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 929
+     "value": 963
     }
    ],
    "title": {
@@ -36896,8 +36930,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 00:41 UTC",
+ "updated": "2026-11-16 01:06 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 01:05",
+   "n": "YasuoMain8",
+   "x": "new Anguish Guard +0"
+  },
+  {
+   "t": "2026-11-16 01:05",
+   "n": "YasuoMain8",
+   "x": "new Anguish Greaves +0"
+  },
+  {
+   "t": "2026-11-16 01:05",
+   "n": "YasuoMain8",
+   "x": "new Bakarma Gloves +10"
+  },
   {
    "t": "2026-11-16 00:41",
    "n": "YasuoMain8",
@@ -38382,21 +38431,6 @@
    "t": "2026-11-09 19:34",
    "n": "RyBear",
    "x": "new Ascension Bracelet +0"
-  },
-  {
-   "t": "2026-11-09 19:33",
-   "n": "iLen",
-   "x": "new Aulamus Ring +10"
-  },
-  {
-   "t": "2026-11-09 19:33",
-   "n": "iLen",
-   "x": "new Liberator Ring +0"
-  },
-  {
-   "t": "2026-11-09 19:33",
-   "n": "iLen",
-   "x": "skills up: Marchutan's Wrath 13"
   }
  ]
 }

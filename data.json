@@ -10530,14 +10530,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 60236,
+     "cp": 60301,
      "il": 1136
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 60236,
+   "cp": 60301,
    "il": 1136,
    "gear": [
     {
@@ -15664,15 +15664,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 157740,
-     "il": 2805
+     "cp": 159570,
+     "il": 2814
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 157740,
-   "il": 2805,
+   "cp": 159570,
+   "il": 2814,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16191,7 +16191,7 @@
      "slotPosName": "Ring1",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
@@ -16396,7 +16396,7 @@
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
      "grade": "Unique",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -16480,11 +16480,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -4.5%",
-      "Endurance Penetration +4.5%"
+      "Cooldown -4.6%",
+      "Endurance Penetration +4.6%"
      ],
      "type": "Illusion",
-     "value": 45
+     "value": 46
     },
     {
      "name": "Life [Yustiel]",
@@ -16553,7 +16553,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2805
+     "value": 2814
     }
    ],
    "title": {
@@ -17126,7 +17126,7 @@
      "7|13|Common|0|PvE Defense",
      "7|10|Common|0|Boss Defense",
      "7|11|Legend|0|Boss Damage Tolerance",
-     "7|8|Common|1|PvE Attack",
+     "7|8|Common|0|PvE Attack",
      "7|6|Common|0|Boss Attack",
      "8|6|Common|0|PvE Accuracy",
      "8|3|Common|0|Max HP",
@@ -17160,7 +17160,7 @@
      "10|15|Common|0|PvE Defense",
      "10|12|Common|0|PvE Evasion",
      "10|9|Common|1|PvE Evasion",
-     "10|10|Legend|0|Critical Hit",
+     "10|10|Legend|1|Critical Hit",
      "11|9|Common|1|PvE Defense",
      "11|6|Common|0|PvE Defense",
      "11|4|Common|0|PvE Accuracy",
@@ -17422,7 +17422,7 @@
       "id": 13100000,
       "name": "Savage Roar",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -17442,7 +17442,7 @@
       "id": 13060000,
       "name": "Ambush",
       "needLevel": 3,
-      "skillLevel": 7
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -17492,7 +17492,7 @@
       "id": 13360000,
       "name": "Infiltrate",
       "needLevel": 10,
-      "skillLevel": 15
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -17522,7 +17522,7 @@
       "id": 13260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -17552,7 +17552,7 @@
       "id": 13730000,
       "name": "Apply Poison",
       "needLevel": 9,
-      "skillLevel": 15
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -17582,7 +17582,7 @@
       "id": 13760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -17592,7 +17592,7 @@
       "id": 13770000,
       "name": "Ambush Stance",
       "needLevel": 17,
-      "skillLevel": 18
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -17766,9 +17766,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -30206,15 +30206,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 118466,
-     "il": 2613
+     "cp": 118856,
+     "il": 2620
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 118466,
-   "il": 2613,
+   "cp": 118856,
+   "il": 2620,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31089,7 +31089,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2613
+     "value": 2620
     }
    ],
    "title": {
@@ -31219,8 +31219,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 6,
-      "openPercent": 4,
+      "openNodeCount": 8,
+      "openPercent": 5,
       "totalNodeCount": 152
      },
      {
@@ -31739,7 +31739,7 @@
      "1|3|Rare|0|PvE Attack, PvE Defense",
      "1|2|Common|0|Boss Attack",
      "1|1|Unique|0|PvE Damage Boost",
-     "1|7|Common|0|PvE Accuracy",
+     "1|7|Common|1|PvE Accuracy",
      "2|11|Common|0|Boss Attack",
      "2|9|Rare|0|Boss Attack, Boss Defense",
      "3|1|Common|0|PvE Defense",
@@ -31748,7 +31748,7 @@
      "2|4|Common|0|PvE Evasion",
      "2|3|Common|0|Boss Defense",
      "2|1|Common|0|PvE Accuracy",
-     "2|7|Common|0|PvE Attack",
+     "2|7|Common|1|PvE Attack",
      "2|6|Legend|0|Critical Hit Resist",
      "2|5|Common|0|PvE Defense",
      "3|13|Common|0|PvE Defense",
@@ -34227,15 +34227,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 19012,
-     "il": 231
+     "cp": 21151,
+     "il": 293
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 22,
-   "cp": 19012,
-   "il": 231,
+   "level": 23,
+   "cp": 21151,
+   "il": 293,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34254,10 +34254,10 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Old Mercenary Commander Guard",
+     "name": "Outsider Guard",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_019.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_023.png",
      "max": 5,
      "slots": 2,
      "stones": [],
@@ -34269,25 +34269,25 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Old Mercenary Commander Breastplate",
+     "name": "Phantasm Breastplate",
      "grade": "Common",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0024_T04_Torso.png",
      "max": 5,
      "slots": 1,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Looted from monsters"
      ]
     },
     {
      "slotPosName": "Pants",
-     "name": "Old Mercenary Commander Greaves",
+     "name": "Outsider Greaves",
      "grade": "Common",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Pants.png",
      "max": 5,
      "slots": 1,
      "stones": [],
@@ -34299,10 +34299,10 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Old Mercenary Commander Helm",
+     "name": "Outsider Helm",
      "grade": "Common",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Helmet.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Helmet.png",
      "max": 5,
      "slots": 1,
      "stones": [],
@@ -34314,10 +34314,10 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Old Mercenary Commander Pauldrons",
+     "name": "Outsider Pauldrons",
      "grade": "Common",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Shoulder.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Shoulder.png",
      "max": 5,
      "slots": 1,
      "stones": [],
@@ -34329,10 +34329,10 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Old Mercenary Commander Gloves",
+     "name": "Outsider Gloves",
      "grade": "Common",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Gloves.png",
      "max": 5,
      "slots": 1,
      "stones": [],
@@ -34359,10 +34359,10 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Old Mercenary Commander Cloak",
+     "name": "Outsider Cloak",
      "grade": "Common",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0099_T03_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Cape.png",
      "max": 5,
      "slots": 1,
      "stones": [],
@@ -34459,9 +34459,11 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Resist +0.7%"
+     ],
      "type": "WIS",
-     "value": 0
+     "value": 7
     },
     {
      "name": "Justice [Nezekan]",
@@ -34475,11 +34477,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +0.3%",
-      "Evasion increase +0.3%"
+      "Accuracy increase +1.1%",
+      "Evasion increase +1.1%"
      ],
      "type": "Freedom",
-     "value": 3
+     "value": 11
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -34520,11 +34522,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +0.3%",
-      "Regeneration Penetration +0.3%"
+      "Critical Hit increase +1.1%",
+      "Regeneration Penetration +1.1%"
      ],
      "type": "Death",
-     "value": 3
+     "value": 11
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -34557,7 +34559,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 231
+     "value": 293
     }
    ],
    "title": {
@@ -34654,8 +34656,8 @@
       "id": 82,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 0,
-      "openPercent": 0,
+      "openNodeCount": 10,
+      "openPercent": 11,
       "totalNodeCount": 88
      },
      {
@@ -34789,10 +34791,10 @@
      "13|13|Unique|1|Combat Speed"
     ],
     "82": [
-     "3|10|Common|0|Attack",
-     "3|11|Legend|0|Skill Level Up - Spinning Strike",
-     "3|12|Common|0|Defense",
-     "3|13|Unique|0|Damage Boost",
+     "3|10|Common|1|Attack",
+     "3|11|Legend|1|Skill Level Up - Spinning Strike",
+     "3|12|Common|1|Defense",
+     "3|13|Unique|1|Damage Boost",
      "3|6|Common|0|Critical Hit Resist",
      "3|7|Legend|0|Skill Level Up - Gust Rampage",
      "3|8|Common|0|Defense",
@@ -34803,15 +34805,15 @@
      "5|3|Legend|0|Skill Level Up - Onslaught",
      "4|13|Common|0|Critical Hit",
      "4|7|Common|0|Max HP",
-     "4|10|Common|0|Max MP",
+     "4|10|Common|1|Max MP",
      "4|3|Common|0|Attack",
      "4|5|Rare|0|Skill Level Up - Wind's Promise",
      "6|3|Common|0|Critical Hit",
      "5|12|Rare|0|Skill Level Up - Survival Willpower",
      "5|13|Common|0|Attack",
      "5|8|Common|0|Max MP",
-     "5|9|Legend|0|Skill Level Up - Charging Smash",
-     "5|10|Common|0|Critical Hit Resist",
+     "5|9|Legend|1|Skill Level Up - Charging Smash",
+     "5|10|Common|1|Critical Hit Resist",
      "5|11|Common|0|Max MP",
      "5|4|Common|0|Max HP",
      "5|5|Common|0|Defense",
@@ -34820,7 +34822,7 @@
      "7|4|Common|0|Max HP",
      "7|5|Legend|0|Skill Level Up - Impactful Crush",
      "6|13|Common|0|Critical Hit Resist",
-     "6|9|Common|0|Critical Hit",
+     "6|9|Common|1|Critical Hit",
      "6|11|Common|0|Critical Hit",
      "6|5|Common|0|Max MP",
      "6|6|Common|0|Critical Hit Resist",
@@ -34831,7 +34833,7 @@
      "7|12|Common|0|Attack",
      "7|13|Legend|0|Skill Level Up - Incandescent Blow",
      "7|7|Common|0|Critical Hit",
-     "7|9|Common|0|Max MP",
+     "7|9|Common|1|Max MP",
      "9|4|Common|0|Defense",
      "9|5|Common|0|Max MP",
      "9|6|Rare|0|Skill Level Up - Survival Willpower",
@@ -34840,7 +34842,7 @@
      "8|12|Common|0|Defense",
      "8|7|Common|0|Defense",
      "8|8|Start|1|Zikel - Start",
-     "8|9|Common|0|Attack",
+     "8|9|Common|1|Attack",
      "10|5|Common|0|Critical Hit Resist",
      "10|7|Common|0|Critical Hit Resist",
      "10|3|Common|0|Critical Hit",
@@ -34890,7 +34892,7 @@
       "id": 18010000,
       "name": "Onslaught",
       "needLevel": 1,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -34900,7 +34902,7 @@
       "id": 18040000,
       "name": "Incandescent Blow",
       "needLevel": 1,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -34910,7 +34912,7 @@
       "id": 18090000,
       "name": "Rushing Smash",
       "needLevel": 1,
-      "skillLevel": 9
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -34920,7 +34922,7 @@
       "id": 18060000,
       "name": "Impactful Crush",
       "needLevel": 3,
-      "skillLevel": 8
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -34930,7 +34932,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -34940,7 +34942,7 @@
       "id": 18300000,
       "name": "Gust Rampage",
       "needLevel": 5,
-      "skillLevel": 7
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -34990,7 +34992,7 @@
       "id": 18290000,
       "name": "Spinning Strike",
       "needLevel": 14,
-      "skillLevel": 4
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -35040,7 +35042,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 4
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -35050,7 +35052,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -35060,7 +35062,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 3
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -35070,7 +35072,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 1
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -35083,14 +35085,14 @@
       "skillLevel": 1
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Passive",
       "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_Passive_009.png",
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 0
+      "skillLevel": 1
      },
      {
       "acquired": 0,
@@ -37098,8 +37100,78 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 12:35 UTC",
+ "updated": "2026-11-16 13:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "reached level 23"
+  },
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "new Outsider Guard +0"
+  },
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "new Phantasm Breastplate +0"
+  },
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "new Outsider Greaves +0"
+  },
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "new Outsider Helm +0"
+  },
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "new Outsider Pauldrons +0"
+  },
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "new Outsider Gloves +0"
+  },
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "new Outsider Cloak +0"
+  },
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "opened 10 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-16 13:05",
+   "n": "YasuoMain4",
+   "x": "skills up: Onslaught 10, Incandescent Blow 10, Rushing Smash 11, Impactful Crush 10 and 8 more"
+  },
+  {
+   "t": "2026-11-16 13:04",
+   "n": "uTril",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-16 13:02",
+   "n": "DeathRunner",
+   "x": "Enraged Kromede Ring +14 → +15"
+  },
+  {
+   "t": "2026-11-16 13:02",
+   "n": "DeathRunner",
+   "x": "Mirror of Vigor +3 → +4"
+  },
+  {
+   "t": "2026-11-16 13:02",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Roar 17, Defiance 3, Apply Poison 17, Impact Hit 17"
+  },
   {
    "t": "2026-11-16 12:34",
    "n": "uTril",
@@ -38529,76 +38601,6 @@
    "t": "2026-11-10 23:31",
    "n": "YasuoMain",
    "x": "new Chalice of Magic +4"
-  },
-  {
-   "t": "2026-11-10 23:31",
-   "n": "YasuoMain",
-   "x": "skills up: Rending Blow 18, Overhead Slam 20, Ruinous Blow 18, Survival Stance 17"
-  },
-  {
-   "t": "2026-11-10 23:04",
-   "n": "uTril",
-   "x": "Nuakum Greaves +7 → +8"
-  },
-  {
-   "t": "2026-11-10 23:01",
-   "n": "YasuoMain",
-   "x": "Mirror of Vigor +0 → +1"
-  },
-  {
-   "t": "2026-11-10 23:01",
-   "n": "YasuoMain",
-   "x": "skills up: Murderous Burst 16"
-  },
-  {
-   "t": "2026-11-10 22:34",
-   "n": "RyBear",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-10 22:04",
-   "n": "RyBear",
-   "x": "Clash Rune +2 → +3"
-  },
-  {
-   "t": "2026-11-10 22:04",
-   "n": "RyBear",
-   "x": "7 new titles"
-  },
-  {
-   "t": "2026-11-10 22:02",
-   "n": "DeathRunner",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-10 21:34",
-   "n": "RyBear",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-10 21:04",
-   "n": "RyBear",
-   "x": "6 new titles"
-  },
-  {
-   "t": "2026-11-10 20:34",
-   "n": "RyBear",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-10 20:34",
-   "n": "RyBear",
-   "x": "skills up: Wrath Wave 5"
-  },
-  {
-   "t": "2026-11-10 18:32",
-   "n": "PeriodPhobic",
-   "x": "new Aulamus Necklace +10"
-  },
-  {
-   "t": "2026-11-10 18:32",
-   "n": "PeriodPhobic",
-   "x": "skills up: Mental Focus 16, Spirit Communion 9"
   }
  ]
 }

@@ -15664,15 +15664,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 159960,
-     "il": 2814
+     "cp": 159729,
+     "il": 2815
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 159960,
-   "il": 2814,
+   "cp": 159729,
+   "il": 2815,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16419,12 +16419,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.6%",
-      "Block increase +1.6%",
-      "Critical Hit Resist increase +1.6%"
+      "Evasion increase +3.7%",
+      "Block increase +3.7%",
+      "Critical Hit Resist increase +3.7%"
      ],
      "type": "DEX",
-     "value": 16
+     "value": 37
     },
     {
      "name": "Intelligence",
@@ -16553,7 +16553,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2814
+     "value": 2815
     }
    ],
    "title": {
@@ -16683,8 +16683,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 12,
-      "openPercent": 8,
+      "openNodeCount": 13,
+      "openPercent": 9,
       "totalNodeCount": 152
      },
      {
@@ -17149,7 +17149,7 @@
      "9|15|Common|0|Max HP",
      "9|12|Rare|0|Boss Attack, Boss Defense",
      "9|13|Common|0|PvE Accuracy",
-     "9|10|Common|0|Boss Attack",
+     "9|10|Common|1|Boss Attack",
      "9|11|Common|0|Boss Defense",
      "9|8|Common|1|PvE Attack",
      "10|7|Rare|1|Boss Attack, Boss Defense",
@@ -17542,7 +17542,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 23
+      "skillLevel": 22
      },
      {
       "acquired": 1,
@@ -37204,8 +37204,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 16:04 UTC",
+ "updated": "2026-11-16 16:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 16:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-16 16:02",
    "n": "DeathRunner",
@@ -38700,11 +38705,6 @@
    "t": "2026-11-12 01:04",
    "n": "RyBear",
    "x": "skills up: Rush Strike 12, Protection Armor 13"
-  },
-  {
-   "t": "2026-11-12 01:04",
-   "n": "uTril",
-   "x": "new Nuakum Pauldrons +10"
   }
  ]
 }

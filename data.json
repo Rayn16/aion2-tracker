@@ -2335,13 +2335,13 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 87874,
+     "cp": 88215,
      "il": 1929
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 87874,
+   "cp": 88215,
    "il": 1929,
    "gear": [
     {
@@ -4504,25 +4504,46 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 82722,
-     "il": 1830
+     "cp": 85429,
+     "il": 1893
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 82722,
-   "il": 1830,
+   "cp": 85429,
+   "il": 1893,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Aulamus Mace",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_MA_0028_T05.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ]
+     ],
      "godSlots": 1,
      "god": [],
      "src": [
@@ -4533,32 +4554,32 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Bakarma Guard",
+     "name": "Vakron Guard",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_011.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_U_003.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
+       "Critical Hit",
        "+5",
        "Common"
       ],
       [
-       "Block",
-       "+7",
-       "Common"
+       "Attack",
+       "+3",
+       "Rare"
       ],
       [
        "Evasion Bonus",
-       "+7",
-       "Rare"
+       "+5",
+       "Common"
       ],
       [
        "Critical Hit Resist",
-       "+7",
-       "Rare"
+       "+5",
+       "Common"
       ]
      ],
      "godSlots": 1,
@@ -4890,17 +4911,40 @@
     },
     {
      "slotPosName": "Earring1",
-     "name": "Liberator Earrings",
-     "grade": "Legend",
+     "name": "Aulamus Earrings",
+     "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -5163,10 +5207,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.1%"
+      "Attack increase +1%"
      ],
      "type": "STR",
-     "value": 21
+     "value": 10
     },
     {
      "name": "Dexterity",
@@ -5180,9 +5224,11 @@
     },
     {
      "name": "Intelligence",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Chance +1.8%"
+     ],
      "type": "INT",
-     "value": 0
+     "value": 18
     },
     {
      "name": "Constitution",
@@ -5195,11 +5241,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +3%",
-      "Critical Hit increase +3%"
+      "Accuracy increase +4.6%",
+      "Critical Hit increase +4.6%"
      ],
      "type": "AGI",
-     "value": 30
+     "value": 46
     },
     {
      "name": "Willpower",
@@ -5301,7 +5347,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1830
+     "value": 1893
     }
    ],
    "title": {
@@ -6180,7 +6226,7 @@
       "id": 17080000,
       "name": "Debilitating Mark",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -6220,7 +6266,7 @@
       "id": 17090000,
       "name": "Light of Regeneration",
       "needLevel": 7,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -6320,7 +6366,7 @@
       "id": 17750000,
       "name": "Immortal Veil",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -6634,14 +6680,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 130642,
+     "cp": 130644,
      "il": 2658
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 130642,
+   "cp": 130644,
    "il": 2658,
    "gear": [
     {
@@ -34208,14 +34254,14 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 30100,
+     "cp": 30371,
      "il": 438
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 31,
-   "cp": 30100,
+   "level": 32,
+   "cp": 30371,
    "il": 438,
    "gear": [
     {
@@ -37185,8 +37231,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 17:05 UTC",
+ "updated": "2026-11-16 17:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 17:35",
+   "n": "YasuoMain4",
+   "x": "reached level 32"
+  },
+  {
+   "t": "2026-11-16 17:34",
+   "n": "CuteCatty",
+   "x": "Aulamus Mace +0 → +10"
+  },
+  {
+   "t": "2026-11-16 17:34",
+   "n": "CuteCatty",
+   "x": "new Vakron Guard +10"
+  },
+  {
+   "t": "2026-11-16 17:34",
+   "n": "CuteCatty",
+   "x": "new Aulamus Earrings +10"
+  },
+  {
+   "t": "2026-11-16 17:34",
+   "n": "CuteCatty",
+   "x": "skills up: Debilitating Mark 15, Immortal Veil 15"
+  },
   {
    "t": "2026-11-16 17:04",
    "n": "CuteCatty",
@@ -38661,31 +38732,6 @@
    "t": "2026-11-12 02:33",
    "n": "DeathRunner",
    "x": "skills up: Flash Slice 14"
-  },
-  {
-   "t": "2026-11-12 02:32",
-   "n": "Darya",
-   "x": "new Aulamus Necklace +10"
-  },
-  {
-   "t": "2026-11-12 02:32",
-   "n": "Darya",
-   "x": "new Aulamus Ring +10"
-  },
-  {
-   "t": "2026-11-12 02:32",
-   "n": "Darya",
-   "x": "Revelation Amulet +4 → +9"
-  },
-  {
-   "t": "2026-11-12 02:32",
-   "n": "Darya",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-12 02:32",
-   "n": "Darya",
-   "x": "skills up: Exploit Weakness 17, Rear Smite 15"
   }
  ]
 }

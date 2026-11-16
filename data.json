@@ -15662,15 +15662,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 157175,
-     "il": 2797
+     "cp": 157530,
+     "il": 2804
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 157175,
-   "il": 2797,
+   "cp": 157530,
+   "il": 2804,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16551,7 +16551,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2797
+     "value": 2804
     }
    ],
    "title": {
@@ -16681,8 +16681,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 12,
-      "openPercent": 8,
+      "openNodeCount": 11,
+      "openPercent": 7,
       "totalNodeCount": 152
      },
      {
@@ -17124,7 +17124,7 @@
      "7|13|Common|0|PvE Defense",
      "7|10|Common|0|Boss Defense",
      "7|11|Legend|0|Boss Damage Tolerance",
-     "7|8|Common|1|PvE Attack",
+     "7|8|Common|0|PvE Attack",
      "7|6|Common|0|Boss Attack",
      "8|6|Common|0|PvE Accuracy",
      "8|3|Common|0|Max HP",
@@ -17179,7 +17179,7 @@
      "12|14|Common|0|PvE Attack",
      "12|11|Common|0|PvE Attack",
      "12|12|Common|0|PvE Accuracy",
-     "13|8|Common|1|PvE Evasion",
+     "13|8|Common|0|PvE Evasion",
      "13|9|Common|1|Boss Attack",
      "13|6|Common|0|Boss Defense",
      "13|7|Common|0|PvE Accuracy",
@@ -17204,7 +17204,7 @@
      "15|1|Unique|0|PvE Damage Tolerance",
      "14|13|Common|0|Boss Defense",
      "15|13|Rare|0|Boss Attack, Boss Defense",
-     "15|8|Unique|0|PvE Damage Boost",
+     "15|8|Unique|1|PvE Damage Boost",
      "15|9|Common|1|PvE Accuracy",
      "15|7|Common|0|Max MP",
      "15|14|Common|0|Boss Attack",
@@ -30204,15 +30204,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 115192,
-     "il": 2610
+     "cp": 115266,
+     "il": 2613
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 115192,
-   "il": 2610,
+   "cp": 115266,
+   "il": 2613,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31087,7 +31087,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2610
+     "value": 2613
     }
    ],
    "title": {
@@ -31217,8 +31217,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 4,
-      "openPercent": 3,
+      "openNodeCount": 6,
+      "openPercent": 4,
       "totalNodeCount": 152
      },
      {
@@ -31760,7 +31760,7 @@
      "3|2|Legend|0|Boss Damage Boost",
      "3|9|Common|0|PvE Accuracy",
      "3|8|Common|0|PvE Evasion",
-     "3|7|Common|0|Boss Attack",
+     "3|7|Common|1|Boss Attack",
      "4|14|Common|0|PvE Evasion",
      "4|12|Rare|0|Boss Attack, Boss Defense",
      "5|3|Common|0|Boss Attack",
@@ -31770,7 +31770,7 @@
      "4|5|Common|0|PvE Attack",
      "4|4|Common|0|PvE Accuracy",
      "4|10|Legend|0|Critical Hit Resist",
-     "4|7|Rare|0|PvE Accuracy, PvE Evasion",
+     "4|7|Rare|1|PvE Accuracy, PvE Evasion",
      "5|14|Legend|0|Boss Damage Boost",
      "5|13|Common|0|Boss Defense",
      "5|12|Common|0|PvE Accuracy",
@@ -37003,8 +37003,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 03:34 UTC",
+ "updated": "2026-11-16 04:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 04:04",
+   "n": "uTril",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-16 03:32",
    "n": "DeathRunner",
@@ -38499,11 +38504,6 @@
    "t": "2026-11-09 20:35",
    "n": "RyBear",
    "x": "new Saraswati Earrings +0"
-  },
-  {
-   "t": "2026-11-09 20:33",
-   "n": "iLen",
-   "x": "Aulamus Staff +0 → +10"
   }
  ]
 }

@@ -34227,15 +34227,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 25491,
-     "il": 348
+     "cp": 28859,
+     "il": 429
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 28,
-   "cp": 25491,
-   "il": 348,
+   "cp": 28859,
+   "il": 429,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34254,10 +34254,10 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Outsider Guard",
+     "name": "Chaser Guard",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_023.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_017.png",
      "max": 5,
      "slots": 2,
      "stones": [],
@@ -34299,12 +34299,12 @@
     },
     {
      "slotPosName": "Helmet",
-     "name": "Outsider Helm",
-     "grade": "Common",
+     "name": "Chaser Helm",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0038_T05_Helmet.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Helmet.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34388,6 +34388,21 @@
      ]
     },
     {
+     "slotPosName": "Ring2",
+     "name": "Chaser Ring",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png",
+     "max": 5,
+     "slots": 2,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
      "slotPosName": "Ring1",
      "name": "Old Mercenary Commander Ring",
      "grade": "Common",
@@ -34405,9 +34420,9 @@
     {
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
-     "grade": "Rare",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv3_01.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv4_01.png",
      "max": 10,
      "slots": 0,
      "stones": [],
@@ -34451,11 +34466,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.6%",
-      "Critical Hit increase +1.6%"
+      "Accuracy increase +0.1%",
+      "Critical Hit increase +0.1%"
      ],
      "type": "AGI",
-     "value": 16
+     "value": 1
     },
     {
      "name": "Willpower",
@@ -34557,11 +34572,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 348
+     "value": 429
     }
    ],
    "title": {
-    "ownedCount": 56,
+    "ownedCount": 62,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34579,8 +34594,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 21,
-      "ownedPercent": 20,
+      "ownedCount": 24,
+      "ownedPercent": 23,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -34604,8 +34619,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 20,
-      "ownedPercent": 20,
+      "ownedCount": 22,
+      "ownedPercent": 22,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -34623,8 +34638,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 15,
-      "ownedPercent": 15,
+      "ownedCount": 16,
+      "ownedPercent": 16,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -34654,15 +34669,15 @@
       "id": 82,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 21,
-      "openPercent": 24,
+      "openNodeCount": 31,
+      "openPercent": 35,
       "totalNodeCount": 88
      },
      {
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Weapon_Sword_1H.png",
       "id": 83,
       "name": "Vaizel",
-      "open": 0,
+      "open": 1,
       "openNodeCount": 0,
       "openPercent": 0,
       "totalNodeCount": 88
@@ -34793,19 +34808,19 @@
      "3|11|Legend|1|Skill Level Up - Spinning Strike",
      "3|12|Common|1|Defense",
      "3|13|Unique|1|Damage Boost",
-     "3|6|Common|0|Critical Hit Resist",
-     "3|7|Legend|0|Skill Level Up - Gust Rampage",
-     "3|8|Common|0|Defense",
-     "3|9|Rare|0|Skill Level Up - Impact Hit",
-     "3|3|Unique|0|Damage Tolerance",
-     "3|4|Common|0|Critical Hit",
-     "3|5|Common|0|Max MP",
-     "5|3|Legend|0|Skill Level Up - Onslaught",
+     "3|6|Common|1|Critical Hit Resist",
+     "3|7|Legend|1|Skill Level Up - Gust Rampage",
+     "3|8|Common|1|Defense",
+     "3|9|Rare|1|Skill Level Up - Impact Hit",
+     "3|3|Unique|1|Damage Tolerance",
+     "3|4|Common|1|Critical Hit",
+     "3|5|Common|1|Max MP",
+     "5|3|Legend|1|Skill Level Up - Onslaught",
      "4|13|Common|0|Critical Hit",
      "4|7|Common|0|Max HP",
      "4|10|Common|1|Max MP",
-     "4|3|Common|0|Attack",
-     "4|5|Rare|0|Skill Level Up - Wind's Promise",
+     "4|3|Common|1|Attack",
+     "4|5|Rare|1|Skill Level Up - Wind's Promise",
      "6|3|Common|0|Critical Hit",
      "5|12|Rare|0|Skill Level Up - Survival Willpower",
      "5|13|Common|0|Attack",
@@ -34878,6 +34893,97 @@
      "12|13|Common|0|Defense",
      "13|12|Common|0|Critical Hit Resist",
      "13|13|Unique|0|Damage Tolerance"
+    ],
+    "83": [
+     "3|10|Rare|0|Skill Level Up - Protection Circle",
+     "3|11|Common|0|Critical Hit Resist",
+     "3|12|Common|0|Max HP",
+     "3|13|Unique|0|Critical Damage Tolerance",
+     "3|7|Common|0|Critical Hit Resist",
+     "3|8|Legend|0|Skill Level Up - Gust Rampage",
+     "3|9|Common|0|Attack",
+     "3|3|Unique|0|Critical Damage Boost",
+     "3|4|Common|0|Critical Hit Resist",
+     "3|5|Rare|0|Skill Level Up - Blessing of Life",
+     "5|3|Common|0|Defense",
+     "4|11|Common|0|Defense",
+     "4|13|Common|0|Max MP",
+     "4|7|Common|0|Max MP",
+     "4|9|Common|0|Defense",
+     "4|3|Common|0|Critical Hit",
+     "4|5|Common|0|Attack",
+     "4|6|Common|0|Critical Hit",
+     "6|4|Common|0|Critical Hit Resist",
+     "5|12|Common|0|Attack",
+     "5|13|Rare|0|Skill Level Up - Attack Preparation",
+     "5|8|Common|0|Critical Hit",
+     "5|9|Common|0|Max MP",
+     "5|10|Common|0|Max HP",
+     "5|11|Legend|0|Skill Level Up - Recuperation",
+     "5|4|Legend|0|Skill Level Up - Charging Smash",
+     "5|5|Common|0|Max HP",
+     "5|7|Legend|0|Skill Level Up - Wave Blow",
+     "7|3|Common|0|Attack",
+     "7|4|Common|0|Max MP",
+     "7|5|Common|0|Defense",
+     "6|9|Rare|0|Skill Level Up - Earth's Promise",
+     "6|12|Common|0|Critical Hit Resist",
+     "6|7|Common|0|Critical Hit",
+     "8|3|Legend|0|Skill Level Up - Heat Wave Blow",
+     "8|6|Common|0|Max MP",
+     "7|10|Common|0|Defense",
+     "7|11|Legend|0|Skill Level Up - Dark Crush",
+     "7|12|Common|0|Max HP",
+     "7|13|Common|0|Critical Hit",
+     "7|6|Rare|0|Skill Level Up - Survival Willpower",
+     "7|7|Common|0|Max HP",
+     "7|8|Common|0|Attack",
+     "7|9|Common|0|Critical Hit Resist",
+     "9|4|Common|0|Max MP",
+     "9|5|Legend|0|Skill Level Up - Spinning Strike",
+     "9|6|Common|0|Attack",
+     "9|7|Common|0|Critical Hit",
+     "9|3|Common|0|Critical Hit Resist",
+     "8|13|Legend|0|Skill Level Up - Onslaught",
+     "8|8|Start|1|Vaizel - Start",
+     "8|10|Common|0|Max HP",
+     "10|7|Rare|0|Skill Level Up - Impact Hit",
+     "10|4|Common|0|Critical Hit",
+     "9|12|Common|0|Max HP",
+     "9|13|Common|0|Defense",
+     "9|8|Common|0|Defense",
+     "9|9|Common|0|Max MP",
+     "9|10|Rare|0|Skill Level Up - Wind's Promise",
+     "9|11|Common|0|Attack",
+     "11|6|Common|0|Critical Hit Resist",
+     "11|7|Common|0|Max HP",
+     "11|8|Common|0|Max MP",
+     "11|9|Legend|0|Skill Level Up - Impactful Crush",
+     "11|3|Rare|0|Skill Level Up - Raging Spell",
+     "11|4|Common|0|Defense",
+     "11|5|Legend|0|Skill Level Up - Incandescent Blow",
+     "10|9|Common|0|Critical Hit Resist",
+     "10|12|Common|0|Critical Hit",
+     "12|7|Common|0|Attack",
+     "12|9|Common|0|Max HP",
+     "12|10|Common|0|Critical Hit Resist",
+     "12|3|Common|0|Max HP",
+     "12|5|Common|0|Attack",
+     "11|11|Common|0|Max MP",
+     "11|12|Legend|0|Skill Level Up - Tremor Crush",
+     "11|13|Common|0|Attack",
+     "13|8|Legend|0|Skill Level Up - Defiance",
+     "13|9|Common|0|Critical Hit",
+     "13|11|Rare|0|Skill Level Up - Crossguard",
+     "13|4|Common|0|Max MP",
+     "13|5|Common|0|Critical Hit",
+     "13|6|Rare|0|Skill Level Up - Inspiring Spell",
+     "13|7|Common|0|Defense",
+     "13|3|Unique|0|Critical Damage Tolerance",
+     "12|11|Common|0|Defense",
+     "12|13|Common|0|Critical Hit Resist",
+     "13|12|Common|0|Critical Hit",
+     "13|13|Unique|0|Critical Damage Boost"
     ]
    },
    "skill": {
@@ -34890,7 +34996,7 @@
       "id": 18010000,
       "name": "Onslaught",
       "needLevel": 1,
-      "skillLevel": 10
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -34920,7 +35026,7 @@
       "id": 18060000,
       "name": "Impactful Crush",
       "needLevel": 3,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -34930,7 +35036,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -34940,7 +35046,7 @@
       "id": 18300000,
       "name": "Gust Rampage",
       "needLevel": 5,
-      "skillLevel": 9
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -34990,7 +35096,7 @@
       "id": 18290000,
       "name": "Spinning Strike",
       "needLevel": 14,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -35060,7 +35166,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -35100,7 +35206,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 0,
@@ -35140,7 +35246,7 @@
       "id": 18160000,
       "name": "Sprint Mantra",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 3
      },
      {
       "acquired": 0,
@@ -35193,7 +35299,7 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
       "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_025.png",
@@ -37098,8 +37204,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 14:35 UTC",
+ "updated": "2026-11-16 15:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 15:05",
+   "n": "YasuoMain4",
+   "x": "new Chaser Guard +0"
+  },
+  {
+   "t": "2026-11-16 15:05",
+   "n": "YasuoMain4",
+   "x": "new Chaser Helm +0"
+  },
+  {
+   "t": "2026-11-16 15:05",
+   "n": "YasuoMain4",
+   "x": "new Chaser Ring +0"
+  },
+  {
+   "t": "2026-11-16 15:05",
+   "n": "YasuoMain4",
+   "x": "6 new titles"
+  },
+  {
+   "t": "2026-11-16 15:05",
+   "n": "YasuoMain4",
+   "x": "opened 10 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-16 15:05",
+   "n": "YasuoMain4",
+   "x": "skills up: Onslaught 12, Impactful Crush 11, Dark Crush 11, Gust Rampage 12 and 4 more"
+  },
   {
    "t": "2026-11-16 14:34",
    "n": "YasuoMain4",
@@ -38569,36 +38705,6 @@
    "t": "2026-11-11 23:33",
    "n": "iLen",
    "x": "skills up: Survival Willpower 12"
-  },
-  {
-   "t": "2026-11-11 23:03",
-   "n": "iLen",
-   "x": "Bakarma Cloak +0 → +10"
-  },
-  {
-   "t": "2026-11-11 23:03",
-   "n": "iLen",
-   "x": "Revelation Amulet +9 → +10"
-  },
-  {
-   "t": "2026-11-11 22:34",
-   "n": "uTril",
-   "x": "skills up: Empyrean Lords' Benediction 15"
-  },
-  {
-   "t": "2026-11-11 21:03",
-   "n": "iLen",
-   "x": "new Divine Canyon Boots +0"
-  },
-  {
-   "t": "2026-11-11 21:03",
-   "n": "iLen",
-   "x": "skills up: Protection Circle 12, Inspiring Spell 13, Attack Preparation 15"
-  },
-  {
-   "t": "2026-11-11 02:34",
-   "n": "CutieCatty",
-   "x": "Nuakum Gloves +12 → +15"
   }
  ]
 }

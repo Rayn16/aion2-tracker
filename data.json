@@ -34227,22 +34227,22 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 28859,
-     "il": 429
+     "cp": 30050,
+     "il": 438
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 28,
-   "cp": 28859,
-   "il": 429,
+   "level": 31,
+   "cp": 30050,
+   "il": 438,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Faded Agate Staff",
+     "name": "Chaser Staff",
      "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_WP_L_ST_0055_T04.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0010_T04.png",
      "max": 5,
      "slots": 2,
      "stones": [],
@@ -34438,10 +34438,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.2%"
+      "Attack increase +1.2%"
      ],
      "type": "STR",
-     "value": 2
+     "value": 12
     },
     {
      "name": "Dexterity",
@@ -34535,11 +34535,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +1.1%",
-      "Regeneration Penetration +1.1%"
+      "Critical Hit increase +1.9%",
+      "Regeneration Penetration +1.9%"
      ],
      "type": "Death",
-     "value": 11
+     "value": 19
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -34562,21 +34562,21 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +0.4%",
-      "Block increase +0.4%"
+      "Move Speed +1.2%",
+      "Block increase +1.2%"
      ],
      "type": "Space",
-     "value": 4
+     "value": 12
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 429
+     "value": 438
     }
    ],
    "title": {
-    "ownedCount": 62,
+    "ownedCount": 63,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34638,8 +34638,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 16,
-      "ownedPercent": 16,
+      "ownedCount": 17,
+      "ownedPercent": 17,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -34669,8 +34669,8 @@
       "id": 82,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 31,
-      "openPercent": 35,
+      "openNodeCount": 33,
+      "openPercent": 38,
       "totalNodeCount": 88
      },
      {
@@ -34861,7 +34861,7 @@
      "10|3|Common|0|Critical Hit",
      "9|12|Common|0|Max MP",
      "9|13|Common|0|Attack",
-     "9|9|Common|0|Critical Hit Resist",
+     "9|9|Common|1|Critical Hit Resist",
      "9|11|Legend|0|Skill Level Up - Wave Blow",
      "11|6|Common|1|Critical Hit",
      "11|7|Legend|1|Skill Level Up - Tremor Crush",
@@ -34871,7 +34871,7 @@
      "11|4|Rare|0|Skill Level Up - Raging Spell",
      "11|5|Common|0|Max HP",
      "10|13|Common|0|Critical Hit Resist",
-     "10|9|Rare|0|Skill Level Up - Wind's Promise",
+     "10|9|Rare|1|Skill Level Up - Wind's Promise",
      "10|10|Common|0|Critical Hit",
      "10|11|Common|0|Max HP",
      "12|9|Common|0|Max MP",
@@ -35051,7 +35051,7 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_015.png",
       "id": 18150000,
       "name": "Heat Wave Blow",
@@ -35071,7 +35071,7 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_021.png",
       "id": 18210000,
       "name": "Tremor Crush",
@@ -35081,7 +35081,7 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_008.png",
       "id": 18080000,
       "name": "Wave Blow",
@@ -35156,7 +35156,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -35166,7 +35166,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -35206,7 +35206,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 0,
@@ -37204,8 +37204,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 15:05 UTC",
+ "updated": "2026-11-16 15:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 15:34",
+   "n": "YasuoMain4",
+   "x": "reached level 31"
+  },
+  {
+   "t": "2026-11-16 15:34",
+   "n": "YasuoMain4",
+   "x": "new Chaser Staff +0"
+  },
+  {
+   "t": "2026-11-16 15:34",
+   "n": "YasuoMain4",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-16 15:34",
+   "n": "YasuoMain4",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-16 15:34",
+   "n": "YasuoMain4",
+   "x": "skills up: Attack Preparation 7, Impact Hit 8, Wind's Promise 12"
+  },
   {
    "t": "2026-11-16 15:05",
    "n": "YasuoMain4",
@@ -38680,31 +38705,6 @@
    "t": "2026-11-12 01:04",
    "n": "uTril",
    "x": "skills up: Immortal Veil 15"
-  },
-  {
-   "t": "2026-11-12 00:34",
-   "n": "RyBear",
-   "x": "opened 12 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-12 00:34",
-   "n": "RyBear",
-   "x": "skills up: Keen Strike 14, Rending Blow 14"
-  },
-  {
-   "t": "2026-11-11 23:33",
-   "n": "iLen",
-   "x": "new Aulamus Earrings +10"
-  },
-  {
-   "t": "2026-11-11 23:33",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-11 23:33",
-   "n": "iLen",
-   "x": "skills up: Survival Willpower 12"
   }
  ]
 }

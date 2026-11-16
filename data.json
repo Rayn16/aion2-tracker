@@ -35232,15 +35232,15 @@
     },
     {
      "date": "2026-11-16",
-     "cp": 59182,
-     "il": 963
+     "cp": 59455,
+     "il": 978
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 59182,
-   "il": 963,
+   "cp": 59455,
+   "il": 978,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35492,6 +35492,23 @@
      ]
     },
     {
+     "slotPosName": "Ring2",
+     "name": "Anguish Ring",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
+     "max": 10,
+     "slots": 3,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
      "slotPosName": "Ring1",
      "name": "Avenger Ring",
      "grade": "Legend",
@@ -35499,21 +35516,6 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0017.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Quest"
-     ]
-    },
-    {
-     "slotPosName": "Ring2",
-     "name": "Chaser Ring",
-     "grade": "Rare",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png",
-     "max": 5,
-     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -35707,11 +35709,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 963
+     "value": 978
     }
    ],
    "title": {
-    "ownedCount": 128,
+    "ownedCount": 129,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -35754,8 +35756,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 46,
-      "ownedPercent": 46,
+      "ownedCount": 47,
+      "ownedPercent": 47,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -36930,8 +36932,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-16 01:06 UTC",
+ "updated": "2026-11-16 01:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-16 01:35",
+   "n": "YasuoMain8",
+   "x": "new Anguish Ring +0"
+  },
+  {
+   "t": "2026-11-16 01:35",
+   "n": "YasuoMain8",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-16 01:05",
    "n": "YasuoMain8",
@@ -38421,16 +38433,6 @@
    "t": "2026-11-09 20:04",
    "n": "RyBear",
    "x": "skills up: Leaping Slam 11"
-  },
-  {
-   "t": "2026-11-09 20:03",
-   "n": "iLen",
-   "x": "new Aulamus Ring +0"
-  },
-  {
-   "t": "2026-11-09 19:34",
-   "n": "RyBear",
-   "x": "new Ascension Bracelet +0"
   }
  ]
 }

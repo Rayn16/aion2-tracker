@@ -30323,14 +30323,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 120082,
+     "cp": 119882,
      "il": 2627
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 120082,
+   "cp": 119882,
    "il": 2627,
    "gear": [
     {
@@ -34356,14 +34356,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 51033,
+     "cp": 51046,
      "il": 851
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 51033,
+   "cp": 51046,
    "il": 851,
    "gear": [
     {
@@ -34791,7 +34791,7 @@
     }
    ],
    "title": {
-    "ownedCount": 128,
+    "ownedCount": 129,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34834,8 +34834,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 45,
-      "ownedPercent": 45,
+      "ownedCount": 46,
+      "ownedPercent": 46,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -37853,8 +37853,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 14:35 UTC",
+ "updated": "2026-11-17 15:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 15:05",
+   "n": "YasuoMain4",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-17 14:34",
    "n": "YasuoMain4",
@@ -39347,11 +39352,6 @@
   },
   {
    "t": "2026-11-13 19:04",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-13 16:03",
    "n": "iLen",
    "x": "1 new title"
   }

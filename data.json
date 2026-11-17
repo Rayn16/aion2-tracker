@@ -34356,15 +34356,15 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 33126,
-     "il": 518
+     "cp": 34079,
+     "il": 566
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
-   "level": 33,
-   "cp": 33126,
-   "il": 518,
+   "level": 34,
+   "cp": 34079,
+   "il": 566,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34398,12 +34398,12 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Chaser Breastplate",
-     "grade": "Rare",
+     "name": "Avenger Breastplate",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0033_T04_Torso.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Torso.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34532,6 +34532,21 @@
      ]
     },
     {
+     "slotPosName": "Earring1",
+     "name": "Avenger Earrings",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0017.png",
+     "max": 10,
+     "slots": 3,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
      "slotPosName": "Earring2",
      "name": "Old Mercenary Commander Earrings",
      "grade": "Common",
@@ -34547,13 +34562,13 @@
      ]
     },
     {
-     "slotPosName": "Earring1",
-     "name": "Old Mercenary Commander Earrings",
-     "grade": "Common",
+     "slotPosName": "Ring1",
+     "name": "Avenger Ring",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0014.png",
-     "max": 5,
-     "slots": 1,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0017.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34569,21 +34584,6 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png",
      "max": 5,
      "slots": 2,
-     "stones": [],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Quest"
-     ]
-    },
-    {
-     "slotPosName": "Ring1",
-     "name": "Old Mercenary Commander Ring",
-     "grade": "Common",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0014.png",
-     "max": 5,
-     "slots": 1,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34762,11 +34762,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 518
+     "value": 566
     }
    ],
    "title": {
-    "ownedCount": 70,
+    "ownedCount": 75,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34784,7 +34784,7 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 26,
+      "ownedCount": 27,
       "ownedPercent": 25,
       "statList": [
        {
@@ -34809,8 +34809,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 24,
-      "ownedPercent": 24,
+      "ownedCount": 27,
+      "ownedPercent": 27,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -34828,8 +34828,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 20,
-      "ownedPercent": 20,
+      "ownedCount": 21,
+      "ownedPercent": 21,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -35346,7 +35346,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -37399,8 +37399,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 04:05 UTC",
+ "updated": "2026-11-17 04:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 04:34",
+   "n": "YasuoMain4",
+   "x": "reached level 34"
+  },
+  {
+   "t": "2026-11-17 04:34",
+   "n": "YasuoMain4",
+   "x": "new Avenger Breastplate +0"
+  },
+  {
+   "t": "2026-11-17 04:34",
+   "n": "YasuoMain4",
+   "x": "new Avenger Earrings +0"
+  },
+  {
+   "t": "2026-11-17 04:34",
+   "n": "YasuoMain4",
+   "x": "new Avenger Ring +0"
+  },
+  {
+   "t": "2026-11-17 04:34",
+   "n": "YasuoMain4",
+   "x": "5 new titles"
+  },
+  {
+   "t": "2026-11-17 04:34",
+   "n": "YasuoMain4",
+   "x": "skills up: Attack Preparation 9"
+  },
   {
    "t": "2026-11-17 02:02",
    "n": "DeathRunner",
@@ -38869,36 +38899,6 @@
   {
    "t": "2026-11-12 16:34",
    "n": "CuteCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-12 15:31",
-   "n": "YasuoMain16",
-   "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-12 15:01",
-   "n": "YasuoMain",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-12 14:34",
-   "n": "RyBear",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-12 14:04",
-   "n": "RyBear",
-   "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-12 09:33",
-   "n": "Yorichi",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-12 09:33",
-   "n": "Taila",
    "x": "1 new title"
   }
  ]

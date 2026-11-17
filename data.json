@@ -1396,7 +1396,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -34356,24 +34356,24 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 46478,
-     "il": 828
+     "cp": 50385,
+     "il": 851
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 46478,
-   "il": 828,
+   "cp": 50385,
+   "il": 851,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Liberator Staff",
-     "grade": "Legend",
+     "name": "Spiritforged Staff",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0067_T05.png",
-     "max": 10,
-     "slots": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0078_T05.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 1,
      "god": [],
@@ -34458,32 +34458,36 @@
     },
     {
      "slotPosName": "Gloves",
-     "name": "Liberator Gloves",
+     "name": "Anguish Gloves",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Gloves.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Gloves.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
      "slotPosName": "Boots",
-     "name": "Liberator Boots",
+     "name": "Anguish Boots",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Boots.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Boots.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -34564,6 +34568,23 @@
      ]
     },
     {
+     "slotPosName": "Ring2",
+     "name": "Anguish Ring",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
+     "max": 10,
+     "slots": 3,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
      "slotPosName": "Ring1",
      "name": "Avenger Ring",
      "grade": "Legend",
@@ -34571,21 +34592,6 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0017.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Quest"
-     ]
-    },
-    {
-     "slotPosName": "Ring2",
-     "name": "Chaser Ring",
-     "grade": "Rare",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0030.png",
-     "max": 5,
-     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34645,10 +34651,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.6%"
+      "Attack increase +1.7%"
      ],
      "type": "STR",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Dexterity",
@@ -34665,10 +34671,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +0.1%"
+      "HP increase +1%"
      ],
      "type": "CON",
-     "value": 1
+     "value": 10
     },
     {
      "name": "Precision",
@@ -34681,9 +34687,11 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Resist +1.2%"
+     ],
      "type": "WIS",
-     "value": 0
+     "value": 12
     },
     {
      "name": "Justice [Nezekan]",
@@ -34779,7 +34787,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 828
+     "value": 851
     }
    ],
    "title": {
@@ -35692,7 +35700,7 @@
       "id": 18150000,
       "name": "Heat Wave Blow",
       "needLevel": 7,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -35752,7 +35760,7 @@
       "id": 18710000,
       "name": "Blessing of Life",
       "needLevel": 1,
-      "skillLevel": 2
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -35762,7 +35770,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -35772,7 +35780,7 @@
       "id": 18730000,
       "name": "Protection Circle",
       "needLevel": 9,
-      "skillLevel": 3
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -35792,7 +35800,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -35812,7 +35820,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 4
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -35832,7 +35840,7 @@
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 1
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -37845,8 +37853,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 09:35 UTC",
+ "updated": "2026-11-17 10:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 10:05",
+   "n": "YasuoMain4",
+   "x": "new Spiritforged Staff +0"
+  },
+  {
+   "t": "2026-11-17 10:05",
+   "n": "YasuoMain4",
+   "x": "new Anguish Gloves +0"
+  },
+  {
+   "t": "2026-11-17 10:05",
+   "n": "YasuoMain4",
+   "x": "new Anguish Boots +0"
+  },
+  {
+   "t": "2026-11-17 10:05",
+   "n": "YasuoMain4",
+   "x": "new Anguish Ring +0"
+  },
+  {
+   "t": "2026-11-17 10:05",
+   "n": "YasuoMain4",
+   "x": "skills up: Heat Wave Blow 3, Blessing of Life 11, Crossguard 3, Protection Circle 7 and 3 more"
+  },
   {
    "t": "2026-11-17 09:35",
    "n": "YasuoMain4",
@@ -39321,31 +39354,6 @@
    "t": "2026-11-13 15:04",
    "n": "uTril",
    "x": "skills up: Healing Light 8, Defiance 6, Prayer of Amplification 6, Summon Resurrection 1 and 1 more"
-  },
-  {
-   "t": "2026-11-13 11:34",
-   "n": "CutieCatty",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-13 11:04",
-   "n": "uTril",
-   "x": "skills up: Earth Punishment 11, Noble Aura 6"
-  },
-  {
-   "t": "2026-11-13 10:34",
-   "n": "uTril",
-   "x": "skills up: Noble Aura 4"
-  },
-  {
-   "t": "2026-11-13 05:02",
-   "n": "Darya",
-   "x": "new Aulamus Dagger +11"
-  },
-  {
-   "t": "2026-11-13 05:02",
-   "n": "Darya",
-   "x": "Bakarma Boots +7 → +8"
   }
  ]
 }

@@ -4519,14 +4519,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 85429,
+     "cp": 85741,
      "il": 1893
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 85429,
+   "cp": 85741,
    "il": 1893,
    "gear": [
     {
@@ -5366,7 +5366,7 @@
     }
    ],
    "title": {
-    "ownedCount": 195,
+    "ownedCount": 196,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -5409,8 +5409,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 68,
-      "ownedPercent": 69,
+      "ownedCount": 69,
+      "ownedPercent": 70,
       "statList": [
        {
         "desc": "MP +20"
@@ -6700,14 +6700,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 132417,
+     "cp": 132419,
      "il": 2673
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 132417,
+   "cp": 132419,
    "il": 2673,
    "gear": [
     {
@@ -30323,14 +30323,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 119882,
+     "cp": 120082,
      "il": 2627
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 119882,
+   "cp": 120082,
    "il": 2627,
    "gear": [
     {
@@ -34791,7 +34791,7 @@
     }
    ],
    "title": {
-    "ownedCount": 129,
+    "ownedCount": 130,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34834,8 +34834,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 46,
-      "ownedPercent": 46,
+      "ownedCount": 47,
+      "ownedPercent": 47,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -37853,8 +37853,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 15:05 UTC",
+ "updated": "2026-11-17 15:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 15:35",
+   "n": "YasuoMain4",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-17 15:34",
+   "n": "CuteCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-17 15:05",
    "n": "YasuoMain4",
@@ -39344,16 +39354,6 @@
    "t": "2026-11-13 20:03",
    "n": "iLen",
    "x": "new Aulamus Earrings +10"
-  },
-  {
-   "t": "2026-11-13 20:03",
-   "n": "iLen",
-   "x": "new Liberator Earrings +0"
-  },
-  {
-   "t": "2026-11-13 19:04",
-   "n": "iLen",
-   "x": "1 new title"
   }
  ]
 }

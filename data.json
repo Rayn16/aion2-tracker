@@ -32413,10 +32413,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Rotan_01.png",
-     "id": 1192,
-     "level": 1,
-     "name": "Silver Blade Rotan"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Cat_02.png",
+     "id": 1244,
+     "level": 3,
+     "name": "Prissypaws"
     },
     "wing": {
      "enchantLevel": 0,
@@ -34356,15 +34356,15 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 59454,
-     "il": 1103
+     "cp": 59708,
+     "il": 1113
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 59454,
-   "il": 1103,
+   "cp": 59708,
+   "il": 1113,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34536,11 +34536,11 @@
      ]
     },
     {
-     "slotPosName": "Earring2",
-     "name": "Avenger Earrings",
+     "slotPosName": "Earring1",
+     "name": "Liberator Earrings",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0017.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -34551,7 +34551,7 @@
      ]
     },
     {
-     "slotPosName": "Earring1",
+     "slotPosName": "Earring2",
      "name": "Liberator Earrings",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -34854,11 +34854,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1103
+     "value": 1113
     }
    ],
    "title": {
-    "ownedCount": 142,
+    "ownedCount": 146,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34876,8 +34876,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 50,
-      "ownedPercent": 47,
+      "ownedCount": 52,
+      "ownedPercent": 49,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -34901,8 +34901,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 49,
-      "ownedPercent": 49,
+      "ownedCount": 50,
+      "ownedPercent": 51,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -34920,8 +34920,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 43,
-      "ownedPercent": 42,
+      "ownedCount": 44,
+      "ownedPercent": 43,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -37920,8 +37920,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 18:34 UTC",
+ "updated": "2026-11-17 19:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 19:04",
+   "n": "YasuoMain4",
+   "x": "new Liberator Earrings +0"
+  },
+  {
+   "t": "2026-11-17 19:04",
+   "n": "YasuoMain4",
+   "x": "4 new titles"
+  },
   {
    "t": "2026-11-17 18:02",
    "n": "YasuoMain4",
@@ -39411,16 +39421,6 @@
    "t": "2026-11-14 09:05",
    "n": "YasuoMain8",
    "x": "reached level 32"
-  },
-  {
-   "t": "2026-11-14 09:05",
-   "n": "YasuoMain8",
-   "x": "6 new titles"
-  },
-  {
-   "t": "2026-11-14 09:05",
-   "n": "YasuoMain8",
-   "x": "opened 29 Daevanion nodes"
   }
  ]
 }

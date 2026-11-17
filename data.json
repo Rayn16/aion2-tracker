@@ -34356,26 +34356,26 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 34079,
-     "il": 566
+     "cp": 36629,
+     "il": 606
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 34,
-   "cp": 34079,
-   "il": 566,
+   "cp": 36629,
+   "il": 606,
    "gear": [
     {
      "slotPosName": "MainHand",
-     "name": "Chaser Staff",
-     "grade": "Rare",
+     "name": "Avenger Staff",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0010_T04.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0033_T05.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
-     "godSlots": 0,
+     "godSlots": 1,
      "god": [],
      "src": [
       "Quest"
@@ -34383,14 +34383,14 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Chaser Guard",
-     "grade": "Rare",
+     "name": "Avenger Guard",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_017.png",
-     "max": 5,
-     "slots": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_C_013.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
-     "godSlots": 0,
+     "godSlots": 1,
      "god": [],
      "src": [
       "Quest"
@@ -34628,10 +34628,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.2%"
+      "Attack increase +1.5%"
      ],
      "type": "STR",
-     "value": 12
+     "value": 15
     },
     {
      "name": "Dexterity",
@@ -34762,11 +34762,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 566
+     "value": 606
     }
    ],
    "title": {
-    "ownedCount": 75,
+    "ownedCount": 79,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34809,8 +34809,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 27,
-      "ownedPercent": 27,
+      "ownedCount": 28,
+      "ownedPercent": 28,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -34828,8 +34828,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 21,
-      "ownedPercent": 21,
+      "ownedCount": 24,
+      "ownedPercent": 24,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -34868,8 +34868,8 @@
       "id": 83,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 0,
-      "openPercent": 0,
+      "openNodeCount": 18,
+      "openPercent": 20,
       "totalNodeCount": 88
      },
      {
@@ -35121,38 +35121,38 @@
      "6|7|Common|0|Critical Hit",
      "8|3|Legend|0|Skill Level Up - Heat Wave Blow",
      "8|6|Common|0|Max MP",
-     "7|10|Common|0|Defense",
-     "7|11|Legend|0|Skill Level Up - Dark Crush",
-     "7|12|Common|0|Max HP",
-     "7|13|Common|0|Critical Hit",
+     "7|10|Common|1|Defense",
+     "7|11|Legend|1|Skill Level Up - Dark Crush",
+     "7|12|Common|1|Max HP",
+     "7|13|Common|1|Critical Hit",
      "7|6|Rare|0|Skill Level Up - Survival Willpower",
      "7|7|Common|0|Max HP",
-     "7|8|Common|0|Attack",
-     "7|9|Common|0|Critical Hit Resist",
+     "7|8|Common|1|Attack",
+     "7|9|Common|1|Critical Hit Resist",
      "9|4|Common|0|Max MP",
-     "9|5|Legend|0|Skill Level Up - Spinning Strike",
-     "9|6|Common|0|Attack",
-     "9|7|Common|0|Critical Hit",
+     "9|5|Legend|1|Skill Level Up - Spinning Strike",
+     "9|6|Common|1|Attack",
+     "9|7|Common|1|Critical Hit",
      "9|3|Common|0|Critical Hit Resist",
-     "8|13|Legend|0|Skill Level Up - Onslaught",
+     "8|13|Legend|1|Skill Level Up - Onslaught",
      "8|8|Start|1|Vaizel - Start",
      "8|10|Common|0|Max HP",
-     "10|7|Rare|0|Skill Level Up - Impact Hit",
+     "10|7|Rare|1|Skill Level Up - Impact Hit",
      "10|4|Common|0|Critical Hit",
      "9|12|Common|0|Max HP",
      "9|13|Common|0|Defense",
-     "9|8|Common|0|Defense",
-     "9|9|Common|0|Max MP",
+     "9|8|Common|1|Defense",
+     "9|9|Common|1|Max MP",
      "9|10|Rare|0|Skill Level Up - Wind's Promise",
      "9|11|Common|0|Attack",
-     "11|6|Common|0|Critical Hit Resist",
-     "11|7|Common|0|Max HP",
+     "11|6|Common|1|Critical Hit Resist",
+     "11|7|Common|1|Max HP",
      "11|8|Common|0|Max MP",
-     "11|9|Legend|0|Skill Level Up - Impactful Crush",
+     "11|9|Legend|1|Skill Level Up - Impactful Crush",
      "11|3|Rare|0|Skill Level Up - Raging Spell",
      "11|4|Common|0|Defense",
-     "11|5|Legend|0|Skill Level Up - Incandescent Blow",
-     "10|9|Common|0|Critical Hit Resist",
+     "11|5|Legend|1|Skill Level Up - Incandescent Blow",
+     "10|9|Common|1|Critical Hit Resist",
      "10|12|Common|0|Critical Hit",
      "12|7|Common|0|Attack",
      "12|9|Common|0|Max HP",
@@ -35186,7 +35186,7 @@
       "id": 18010000,
       "name": "Onslaught",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -35196,7 +35196,7 @@
       "id": 18040000,
       "name": "Incandescent Blow",
       "needLevel": 1,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -35216,7 +35216,7 @@
       "id": 18060000,
       "name": "Impactful Crush",
       "needLevel": 3,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -35226,7 +35226,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -35286,7 +35286,7 @@
       "id": 18290000,
       "name": "Spinning Strike",
       "needLevel": 14,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -35356,7 +35356,7 @@
       "id": 18760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 10
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -37399,8 +37399,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 04:35 UTC",
+ "updated": "2026-11-17 05:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 05:04",
+   "n": "YasuoMain4",
+   "x": "new Avenger Staff +0"
+  },
+  {
+   "t": "2026-11-17 05:04",
+   "n": "YasuoMain4",
+   "x": "new Avenger Guard +0"
+  },
+  {
+   "t": "2026-11-17 05:04",
+   "n": "YasuoMain4",
+   "x": "4 new titles"
+  },
+  {
+   "t": "2026-11-17 05:04",
+   "n": "YasuoMain4",
+   "x": "opened 18 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-17 05:04",
+   "n": "YasuoMain4",
+   "x": "skills up: Onslaught 13, Incandescent Blow 12, Impactful Crush 12, Dark Crush 13 and 2 more"
+  },
   {
    "t": "2026-11-17 04:34",
    "n": "YasuoMain4",
@@ -38875,31 +38900,6 @@
    "t": "2026-11-12 22:32",
    "n": "DeathRunner",
    "x": "skills up: Savage Fang 9"
-  },
-  {
-   "t": "2026-11-12 22:04",
-   "n": "uTril",
-   "x": "new Enraged Kromede Ring +10"
-  },
-  {
-   "t": "2026-11-12 22:03",
-   "n": "iLen",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-12 22:03",
-   "n": "iLen",
-   "x": "skills up: Power of the Storm 15"
-  },
-  {
-   "t": "2026-11-12 22:02",
-   "n": "DeathRunner",
-   "x": "Nuakum Cloak +12 → +13"
-  },
-  {
-   "t": "2026-11-12 16:34",
-   "n": "CuteCatty",
-   "x": "1 new title"
   }
  ]
 }

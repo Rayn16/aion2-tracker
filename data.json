@@ -15736,14 +15736,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 159429,
+     "cp": 158329,
      "il": 2815
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 159429,
+   "cp": 158329,
    "il": 2815,
    "gear": [
     {
@@ -30323,14 +30323,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 119879,
+     "cp": 120082,
      "il": 2627
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 119879,
+   "cp": 120082,
    "il": 2627,
    "gear": [
     {
@@ -32407,7 +32407,7 @@
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 6
      }
     ]
    },
@@ -37399,8 +37399,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 01:05 UTC",
+ "updated": "2026-11-17 01:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 01:34",
+   "n": "uTril",
+   "x": "skills up: Noble Aura 6"
+  },
   {
    "t": "2026-11-16 19:35",
    "n": "YasuoMain4",
@@ -38895,11 +38900,6 @@
    "t": "2026-11-12 07:34",
    "n": "uTril",
    "x": "skills up: Earth's Grace 15, Summon Resurrection 2"
-  },
-  {
-   "t": "2026-11-12 06:34",
-   "n": "uTril",
-   "x": "new Nuakum Guard +10"
   }
  ]
 }

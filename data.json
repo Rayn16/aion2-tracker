@@ -34766,7 +34766,7 @@
     }
    ],
    "title": {
-    "ownedCount": 89,
+    "ownedCount": 93,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34784,8 +34784,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 34,
-      "ownedPercent": 32,
+      "ownedCount": 37,
+      "ownedPercent": 35,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -34809,8 +34809,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 31,
-      "ownedPercent": 31,
+      "ownedCount": 32,
+      "ownedPercent": 32,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -37399,8 +37399,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 07:35 UTC",
+ "updated": "2026-11-17 08:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 08:04",
+   "n": "YasuoMain4",
+   "x": "4 new titles"
+  },
   {
    "t": "2026-11-17 06:05",
    "n": "YasuoMain4",
@@ -38895,11 +38900,6 @@
    "t": "2026-11-13 01:32",
    "n": "DeathRunner",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-13 00:06",
-   "n": "DeathRunner",
-   "x": "Parchment of Vigor +3 → +4"
   }
  ]
 }

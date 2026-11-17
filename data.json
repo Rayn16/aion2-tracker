@@ -34356,14 +34356,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 59708,
+     "cp": 61938,
      "il": 1113
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 59708,
+   "cp": 61938,
    "il": 1113,
    "gear": [
     {
@@ -34858,8 +34858,33 @@
     }
    ],
    "title": {
-    "ownedCount": 146,
+    "ownedCount": 156,
     "titleList": [
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "Cooldown Reduction +3%"
+       },
+       {
+        "desc": "HP +900"
+       },
+       {
+        "desc": "Stamina +225"
+       }
+      ],
+      "grade": "Unique",
+      "id": 22010061,
+      "name": "Through Hell and Back",
+      "ownedCount": 49,
+      "ownedPercent": 48,
+      "statList": [
+       {
+        "desc": "Block +10"
+       }
+      ],
+      "totalCount": 102
+     },
      {
       "equipCategory": "Attack",
       "equipStatList": [
@@ -34876,8 +34901,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 52,
-      "ownedPercent": 49,
+      "ownedCount": 55,
+      "ownedPercent": 52,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -34901,33 +34926,14 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 50,
-      "ownedPercent": 51,
+      "ownedCount": 52,
+      "ownedPercent": 53,
       "statList": [
        {
         "desc": "Move Speed +1%"
        }
       ],
       "totalCount": 99
-     },
-     {
-      "equipCategory": "Etc",
-      "equipStatList": [
-       {
-        "desc": "Combat Speed +1.9%"
-       }
-      ],
-      "grade": "Rare",
-      "id": 23050007,
-      "name": "Fashionista",
-      "ownedCount": 44,
-      "ownedPercent": 43,
-      "statList": [
-       {
-        "desc": "Critical Hit +5"
-       }
-      ],
-      "totalCount": 102
      }
     ],
     "totalCount": 307
@@ -36061,9 +36067,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingD_003.png",
-     "id": 40400300,
-     "name": "Radiant Love Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
+     "id": 40200100,
+     "name": "Ultimate Daeva Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -37920,8 +37926,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 19:05 UTC",
+ "updated": "2026-11-17 19:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 19:34",
+   "n": "YasuoMain4",
+   "x": "10 new titles"
+  },
   {
    "t": "2026-11-17 19:04",
    "n": "YasuoMain4",
@@ -39416,11 +39427,6 @@
    "t": "2026-11-14 09:35",
    "n": "YasuoMain8",
    "x": "skills up: Grapple 5, Battlefield Banner 2"
-  },
-  {
-   "t": "2026-11-14 09:05",
-   "n": "YasuoMain8",
-   "x": "reached level 32"
   }
  ]
 }

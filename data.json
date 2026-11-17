@@ -34356,14 +34356,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 40046,
+     "cp": 40084,
      "il": 653
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 38,
-   "cp": 40046,
+   "cp": 40084,
    "il": 653,
    "gear": [
     {
@@ -34766,7 +34766,7 @@
     }
    ],
    "title": {
-    "ownedCount": 86,
+    "ownedCount": 89,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34784,8 +34784,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 31,
-      "ownedPercent": 29,
+      "ownedCount": 34,
+      "ownedPercent": 32,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -37399,8 +37399,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 05:35 UTC",
+ "updated": "2026-11-17 06:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 06:05",
+   "n": "YasuoMain4",
+   "x": "3 new titles"
+  },
   {
    "t": "2026-11-17 05:35",
    "n": "YasuoMain4",
@@ -38895,11 +38900,6 @@
    "t": "2026-11-13 00:06",
    "n": "DeathRunner",
    "x": "Parchment of Vigor +3 → +4"
-  },
-  {
-   "t": "2026-11-13 00:06",
-   "n": "DeathRunner",
-   "x": "skills up: Heart Gore 20"
   }
  ]
 }

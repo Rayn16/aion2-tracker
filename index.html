@@ -286,8 +286,8 @@ table.skills .meter { min-width: 80px; }
 .dboards.look-tiles .dgrid i.path { opacity: 1; border-color: color-mix(in srgb, var(--gold) 60%, transparent); background: linear-gradient(135deg, color-mix(in srgb, var(--gold) 35%, var(--g, var(--raised))), color-mix(in srgb, var(--gold) 25%, #000)); box-shadow: 0 0 8px color-mix(in srgb, var(--g, var(--muted)) 60%, transparent); }
 .dboards.look-tiles .dgrid i.stop { transform: rotate(45deg) scale(0.95); background: linear-gradient(135deg, color-mix(in srgb, var(--gold) 60%, #fff), var(--gold) 45%, color-mix(in srgb, var(--gold) 60%, #000)); box-shadow: 0 0 12px color-mix(in srgb, var(--gold) 70%, transparent); }
 .dboards.look-tiles .dgrid i.stop.skill { transform: scale(0.95); }
-/* lit skill nodes in their own grade's colour, bright, so a lit blue one doesn't read as closed */
-.dboards.look-tiles .dgrid i.path.skill:not(.stop) { border-color: color-mix(in srgb, var(--g) 60%, #fff); background: radial-gradient(circle at 35% 35%, color-mix(in srgb, var(--g) 65%, #fff), var(--g) 75%); }
+/* lit nodes all one colour, not their grade's, so only the green and yellow numbers stand out (as on Game8's maps) */
+.dboards.look-tiles .dgrid i.path:not(.stop) { --g: var(--muted) !important; }  /* !important: beats the inline grade colour */
 /* Game8's maps: green numbers for its priority nodes, yellow for its secondary ones */
 .pri { --tone: #3ddc6a; }
 .sec { --tone: #ffd23f; }
@@ -1059,7 +1059,9 @@ function guidePath(rows, b, stats) {
     if (!best) break;
     for (let n = best.n; !n.open; n = n.prev) { n.open = true; n.path = true; }
     best.n.pts = best.s[2];
-    best.n.num = stops.push(best.n);
+    best.n.tone = best.s[0] ? 'sec' : 'pri';  // drawn like Game8's maps: green for skills and big nodes, yellow for small ones
+    stops.push(best.n);
+    best.n.num = stops.filter(n => n.tone === best.n.tone).length;
   }
   nodes.forEach(n => { n.open = n.grade === 'Start'; });  // drawn as a fresh board: the start lit, the path outlined
   return { nodes, stops };
@@ -1194,7 +1196,6 @@ function classes() {
 let CLASS_BOARDS = null;
 const loadClassBoards = () => loadClassBoards.p ||= fetch('boards.json', { cache: 'no-store' }).then(r => r.json())
   .then(d => { CLASS_BOARDS = d.classes; }, () => { CLASS_BOARDS = false; }).then(() => location.hash.startsWith('#/classes/') && route());
-const GUIDE_KEY = `<p class="legend"><span><i class="dk goal"></i>Numbered: open in this order</span><span><i class="dk on"></i>On the way</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Skip for now</span></p>`;
 const G8_KEY = `<p class="legend"><span><i class="dk pri"></i>Green: priority, open first in order</span><span><i class="dk sec"></i>Yellow: secondary, after the green ones</span><span><i class="dk on"></i>On the way</span><span><i class="dk skill"></i>Skill node</span><span><i class="dk"></i>Not in the build</span></p>`;
 function classGuide(name, which) {
   loadClassBoards();
@@ -1216,7 +1217,7 @@ function classGuide(name, which) {
         ${b.stigma.map(([n, t], i) => row(i + 1, n, 'Stigma', 'Lv ' + t)).join('')}</table>
       <p class="hint">Active skills to their goal first, two at a time; passives level together; stigmas step up in the order shown.</p></section>
     <section class="panel"><h2 class="ph">Daevanion boards</h2>
-      <p class="hint">${b.g8?.maps ? 'Open the green numbers first, in order, then the yellow ones. The lit nodes are the rest of Game8’s build.' : 'Open the numbered nodes in order; the lit ones on the way lead there.'} Click a board to see it bigger.</p>
+      <p class="hint">Open the green numbers first, in order, then the yellow ones. ${b.g8?.maps ? 'The lit nodes are the rest of Game8’s build.' : 'The lit ones on the way lead there.'} Click a board to see it bigger.</p>
       ${CLASS_BOARDS ? `<div class="dboards big look-tiles">${Object.entries(CLASS_BOARDS[b.cls] || {}).map(([deity, rows]) => {
         const map = b.g8?.maps?.[deity], stats = SIDE_BOARDS[deity] || b.stats, name = deity + (deity === 'Ariel' ? ' · PvE' : deity === 'Azphel' ? ' · PvP' : '');
         const end = prio => `<p class="sub"><b>Node priority</b></p>${order(prio)}</figure>`;
@@ -1227,11 +1228,12 @@ function classGuide(name, which) {
         }
         const { nodes, stops } = guidePath(rows, b, stats);
         const prio = [...new Set(stops.map(n => n.name.replace(/^Skill Level Up - /, '')))].slice(0, 5);  // in the path's order
-        return boardGrid({ board: { name, note: `${stops.length} stops · ${stops.reduce((s, n) => s + n.pts, 0)} pts` }, nodes }).replace(/<\/figure>$/, end(prio));
-      }).join('')}</div>${b.g8?.maps ? G8_KEY : GUIDE_KEY}`
+        const green = stops.filter(n => n.tone === 'pri').length;
+        return boardGrid({ board: { name, note: `${green} green · ${stops.length - green} yellow · ${stops.reduce((s, n) => s + n.pts, 0)} pts` }, nodes }).replace(/<\/figure>$/, end(prio));
+      }).join('')}</div>${G8_KEY}`
         : `<p class="hint">${CLASS_BOARDS === null ? 'Loading the boards…' : 'Couldn’t load the boards. Try again later.'}</p>`}
       <p class="hint">${b.g8?.maps ? `The four main boards are <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a> maps, node for node${adds ? ', plus the cheapest nodes that join numbers Game8’s pictures leave cut off' : ''}. Ariel and Azphel have no Game8 map, so their numbered path is ours.`
-        : b.g8 ? `Node priority on the four main boards from <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a>; the numbered path opens those nodes in that order, big ones first, each the cheapest way.` : `The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above and the big nodes for ${esc(b.stats.slice(0, 3).join(', '))} and the rest, in that order, then the small ones; each reached the cheapest way.`} Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}. ${PTS}</p></section>
+        : b.g8 ? `Node priority on the four main boards from <a href="${b.g8.url}" target="_blank" rel="noopener">Game8's ${b.cls} guide</a>; the numbered path opens those nodes in that order, big ones first, each the cheapest way.` : `The path is ours, worked out from this guide: the Skill Level Up nodes for the skills above and the big nodes for ${esc(b.stats.slice(0, 3).join(', '))} and the rest, in that order (green), then the small ones (yellow); each reached the cheapest way.`} Ariel favours ${esc(SIDE_BOARDS.Ariel.slice(0, 2).join(' and '))}, Azphel ${esc(SIDE_BOARDS.Azphel.slice(0, 2).join(' and '))}. ${PTS}</p></section>
     ${chars.length ? `<section class="panel"><h2 class="ph">Gear of the legion’s best ${b.cls} <a class="hint" href="${memberLink(chars[0].name)}">${esc(chars[0].name)}</a></h2>${gearGrid(chars[0].gear)}</section>
     <section class="panel"><h2 class="ph">${b.cls}s in the legion <span class="hint">open one for its own next points</span></h2><div class="cards">${chars.map(charCard).join('')}</div></section>`
       : `<section class="panel"><p class="hint">Nobody in the legion plays ${b.cls} yet. When someone does, their gear and next points show here.</p></section>`}`;

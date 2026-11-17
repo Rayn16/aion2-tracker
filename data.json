@@ -12348,15 +12348,15 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 91366,
-     "il": 1825
+     "cp": 91380,
+     "il": 1827
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91366,
-   "il": 1825,
+   "cp": 91380,
+   "il": 1827,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -13155,7 +13155,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1825
+     "value": 1827
     }
    ],
    "title": {
@@ -13294,7 +13294,7 @@
       "id": 46,
       "name": "Azphel",
       "open": 1,
-      "openNodeCount": 4,
+      "openNodeCount": 5,
       "openPercent": 3,
       "totalNodeCount": 152
      }
@@ -13893,7 +13893,7 @@
      "4|13|Common|0|PvP Critical Hit Resist",
      "4|11|Common|0|PvP Attack",
      "5|11|Common|0|PvP Evasion",
-     "5|10|Rare|0|PvP Attack, PvP Defense",
+     "5|10|Rare|1|PvP Attack, PvP Defense",
      "5|9|Common|0|PvP Critical Hit Resist",
      "5|8|Legend|0|Status Effect Chance",
      "5|7|Common|0|PvP Defense",
@@ -17922,15 +17922,15 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 124365,
-     "il": 2560
+     "cp": 124386,
+     "il": 2561
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 124365,
-   "il": 2560,
+   "cp": 124386,
+   "il": 2561,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -18800,7 +18800,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2560
+     "value": 2561
     }
    ],
    "title": {
@@ -18921,7 +18921,7 @@
       "id": 64,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 68,
+      "openNodeCount": 69,
       "openPercent": 59,
       "totalNodeCount": 116
      },
@@ -19221,7 +19221,7 @@
     ],
     "64": [
      "2|9|Common|0|Defense",
-     "2|12|Common|0|Defense",
+     "2|12|Common|1|Defense",
      "2|14|Unique|0|Multi-Hit Resist",
      "2|13|Common|0|Max HP",
      "2|2|Unique|0|Multi-Hit Resist",
@@ -30323,14 +30323,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 121022,
+     "cp": 121024,
      "il": 2627
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 121022,
+   "cp": 121024,
    "il": 2627,
    "gear": [
     {
@@ -31212,7 +31212,7 @@
     }
    ],
    "title": {
-    "ownedCount": 195,
+    "ownedCount": 196,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31280,8 +31280,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 66,
-      "ownedPercent": 62,
+      "ownedCount": 67,
+      "ownedPercent": 63,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -37926,8 +37926,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 22:35 UTC",
+ "updated": "2026-11-17 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 23:04",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-17 23:02",
+   "n": "IBrook",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-17 23:02",
+   "n": "Darya",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-17 21:04",
    "n": "uTril",
@@ -39412,21 +39427,6 @@
    "t": "2026-11-14 17:03",
    "n": "Yorichi",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-14 13:34",
-   "n": "uTril",
-   "x": "skills up: Prayer of Amplification 7, Summon Resurrection 1"
-  },
-  {
-   "t": "2026-11-14 13:03",
-   "n": "uTril",
-   "x": "skills up: Earth Punishment 13, Noble Aura 3"
-  },
-  {
-   "t": "2026-11-14 09:35",
-   "n": "YasuoMain8",
-   "x": "reached level 33"
   }
  ]
 }

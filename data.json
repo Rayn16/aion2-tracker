@@ -119,13 +119,13 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 141081,
+     "cp": 141481,
      "il": 2683
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 141081,
+   "cp": 141481,
    "il": 2683,
    "gear": [
     {
@@ -32505,14 +32505,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 73638,
+     "cp": 74238,
      "il": 1356
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 73638,
+   "cp": 74238,
    "il": 1356,
    "gear": [
     {
@@ -34356,15 +34356,15 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 40084,
-     "il": 653
+     "cp": 41849,
+     "il": 708
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 38,
-   "cp": 40084,
-   "il": 653,
+   "cp": 41849,
+   "il": 708,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34398,10 +34398,10 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Avenger Breastplate",
+     "name": "Liberator Breastplate",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0040_T04_Torso.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Torso.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -34518,21 +34518,23 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Old Mercenary Commander Necklace",
-     "grade": "Common",
+     "name": "Silent Necklace",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0014.png",
-     "max": 5,
-     "slots": 1,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0020.png",
+     "max": 10,
+     "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
+      "Reward Chest",
+      "Expedition",
       "Quest"
      ]
     },
     {
-     "slotPosName": "Earring1",
+     "slotPosName": "Earring2",
      "name": "Avenger Earrings",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -34547,13 +34549,13 @@
      ]
     },
     {
-     "slotPosName": "Earring2",
-     "name": "Old Mercenary Commander Earrings",
-     "grade": "Common",
+     "slotPosName": "Earring1",
+     "name": "Outsider Earrings",
+     "grade": "Rare",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0014.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0011.png",
      "max": 5,
-     "slots": 1,
+     "slots": 2,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -34593,6 +34595,21 @@
     },
     {
      "slotPosName": "Bracelet1",
+     "name": "Outsider Bracelet",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0011.png",
+     "max": 5,
+     "slots": 2,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Quest"
+     ]
+    },
+    {
+     "slotPosName": "Bracelet2",
      "name": "Old Mercenary Commander Bracelet",
      "grade": "Common",
      "enchantLevel": 0,
@@ -34762,11 +34779,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 653
+     "value": 708
     }
    ],
    "title": {
-    "ownedCount": 93,
+    "ownedCount": 96,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34784,8 +34801,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 37,
-      "ownedPercent": 35,
+      "ownedCount": 38,
+      "ownedPercent": 36,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -34828,8 +34845,8 @@
       "grade": "Rare",
       "id": 23050007,
       "name": "Fashionista",
-      "ownedCount": 24,
-      "ownedPercent": 24,
+      "ownedCount": 26,
+      "ownedPercent": 25,
       "statList": [
        {
         "desc": "Critical Hit +5"
@@ -35286,7 +35303,7 @@
       "id": 18290000,
       "name": "Spinning Strike",
       "needLevel": 14,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -35336,7 +35353,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 9
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -35366,7 +35383,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -35539,10 +35556,10 @@
     },
     "wing": {
      "enchantLevel": 0,
-     "grade": "Common",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_006A.png",
-     "id": 40200601,
-     "name": "Lesser Daeva Wings"
+     "grade": "Legend",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_007.png",
+     "id": 40200700,
+     "name": "Superior Daeva Wings"
     },
     "wingSkin": {
      "enchantLevel": null,
@@ -35579,14 +35596,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 68780,
+     "cp": 69116,
      "il": 1280
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 68780,
+   "cp": 69116,
    "il": 1280,
    "gear": [
     {
@@ -37399,8 +37416,48 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 08:05 UTC",
+ "updated": "2026-11-17 08:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 08:35",
+   "n": "YasuoMain4",
+   "x": "new Liberator Breastplate +0"
+  },
+  {
+   "t": "2026-11-17 08:35",
+   "n": "YasuoMain4",
+   "x": "new Silent Necklace +0"
+  },
+  {
+   "t": "2026-11-17 08:35",
+   "n": "YasuoMain4",
+   "x": "new Avenger Earrings +0"
+  },
+  {
+   "t": "2026-11-17 08:35",
+   "n": "YasuoMain4",
+   "x": "new Outsider Earrings +0"
+  },
+  {
+   "t": "2026-11-17 08:35",
+   "n": "YasuoMain4",
+   "x": "new Outsider Bracelet +0"
+  },
+  {
+   "t": "2026-11-17 08:35",
+   "n": "YasuoMain4",
+   "x": "new Old Mercenary Commander Bracelet +0"
+  },
+  {
+   "t": "2026-11-17 08:35",
+   "n": "YasuoMain4",
+   "x": "3 new titles"
+  },
+  {
+   "t": "2026-11-17 08:35",
+   "n": "YasuoMain4",
+   "x": "skills up: Spinning Strike 13, Inspiring Spell 10, Raging Spell 4"
+  },
   {
    "t": "2026-11-17 08:04",
    "n": "YasuoMain4",
@@ -38860,46 +38917,6 @@
    "t": "2026-11-13 02:34",
    "n": "uTril",
    "x": "skills up: Lightning Strike Scattershot 14, Condemnation 16, Healing Enhancement 15, Prayer of Concentration 16 and 2 more"
-  },
-  {
-   "t": "2026-11-13 02:32",
-   "n": "DeathRunner",
-   "x": "Compass of Vigor +2 → +3"
-  },
-  {
-   "t": "2026-11-13 02:32",
-   "n": "DeathRunner",
-   "x": "skills up: Ambush 7, Storm Rampage 13, Infiltrate 15"
-  },
-  {
-   "t": "2026-11-13 02:04",
-   "n": "uTril",
-   "x": "new Bell of Vigor +0"
-  },
-  {
-   "t": "2026-11-13 02:04",
-   "n": "uTril",
-   "x": "skills up: Warm Benediction 17, Immortal Veil 15"
-  },
-  {
-   "t": "2026-11-13 02:02",
-   "n": "DeathRunner",
-   "x": "Compass of Vigor +0 → +2"
-  },
-  {
-   "t": "2026-11-13 02:02",
-   "n": "DeathRunner",
-   "x": "skills up: Savage Roar 16, Defiance 4"
-  },
-  {
-   "t": "2026-11-13 01:33",
-   "n": "uTril",
-   "x": "Enraged Kromede Earrings +0 → +10"
-  },
-  {
-   "t": "2026-11-13 01:32",
-   "n": "DeathRunner",
-   "x": "opened 1 Daevanion nodes"
   }
  ]
 }

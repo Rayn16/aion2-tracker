@@ -4519,15 +4519,15 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 85741,
-     "il": 1893
+     "cp": 85841,
+     "il": 1910
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 85741,
-   "il": 1893,
+   "cp": 85841,
+   "il": 1910,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4645,32 +4645,32 @@
     },
     {
      "slotPosName": "Pants",
-     "name": "Bakarma Greaves",
+     "name": "Vakron Greaves",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Pants.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Pants.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Critical Hit Resist",
-       "+7",
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Defense",
+       "+30",
        "Rare"
       ],
       [
        "Critical Hit",
-       "+5",
-       "Common"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
+       "+7",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -5362,7 +5362,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1893
+     "value": 1910
     }
    ],
    "title": {
@@ -37853,8 +37853,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 15:35 UTC",
+ "updated": "2026-11-17 16:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 16:04",
+   "n": "CuteCatty",
+   "x": "new Vakron Greaves +10"
+  },
   {
    "t": "2026-11-17 15:35",
    "n": "YasuoMain4",
@@ -39349,11 +39354,6 @@
    "t": "2026-11-13 23:35",
    "n": "YasuoMain8",
    "x": "3 new titles"
-  },
-  {
-   "t": "2026-11-13 20:03",
-   "n": "iLen",
-   "x": "new Aulamus Earrings +10"
   }
  ]
 }

@@ -30323,14 +30323,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 120993,
+     "cp": 121022,
      "il": 2627
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 120993,
+   "cp": 121022,
    "il": 2627,
    "gear": [
     {
@@ -31144,11 +31144,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +4.2%",
-      "Regeneration +4.2%"
+      "HP increase +4.4%",
+      "Regeneration +4.4%"
      ],
      "type": "Life",
-     "value": 42
+     "value": 44
     },
     {
      "name": "Time [Siel]",
@@ -31189,11 +31189,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +2.3%",
-      "Endurance +2.3%"
+      "MP increase +2.5%",
+      "Endurance +2.5%"
      ],
      "type": "Destiny",
-     "value": 23
+     "value": 25
     },
     {
      "name": "Space [Israphel]",
@@ -31212,7 +31212,7 @@
     }
    ],
    "title": {
-    "ownedCount": 193,
+    "ownedCount": 195,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31255,8 +31255,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 63,
-      "ownedPercent": 64,
+      "ownedCount": 65,
+      "ownedPercent": 66,
       "statList": [
        {
         "desc": "MP +20"
@@ -37926,8 +37926,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 20:34 UTC",
+ "updated": "2026-11-17 21:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 21:04",
+   "n": "uTril",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-11-17 20:33",
    "n": "uTril",
@@ -39422,11 +39427,6 @@
    "t": "2026-11-14 09:35",
    "n": "YasuoMain8",
    "x": "reached level 33"
-  },
-  {
-   "t": "2026-11-14 09:35",
-   "n": "YasuoMain8",
-   "x": "4 new titles"
   }
  ]
 }

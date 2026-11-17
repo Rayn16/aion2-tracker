@@ -34356,15 +34356,15 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 59269,
-     "il": 1093
+     "cp": 59444,
+     "il": 1103
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 59269,
-   "il": 1093,
+   "cp": 59444,
+   "il": 1103,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34584,10 +34584,10 @@
     },
     {
      "slotPosName": "Ring1",
-     "name": "Avenger Ring",
+     "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0017.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
      "max": 10,
      "slots": 3,
      "stones": [],
@@ -34854,11 +34854,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1093
+     "value": 1103
     }
    ],
    "title": {
-    "ownedCount": 140,
+    "ownedCount": 141,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34876,8 +34876,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 48,
-      "ownedPercent": 45,
+      "ownedCount": 49,
+      "ownedPercent": 46,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -37920,8 +37920,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 17:05 UTC",
+ "updated": "2026-11-17 17:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 17:34",
+   "n": "YasuoMain4",
+   "x": "new Liberator Ring +0"
+  },
+  {
+   "t": "2026-11-17 17:34",
+   "n": "YasuoMain4",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-17 17:05",
    "n": "YasuoMain4",
@@ -39411,16 +39421,6 @@
    "t": "2026-11-14 09:05",
    "n": "YasuoMain8",
    "x": "skills up: Pummel 13, Shield Smite 11, Judgment 13, Warding Strike 10 and 11 more"
-  },
-  {
-   "t": "2026-11-14 05:33",
-   "n": "uTril",
-   "x": "skills up: Divine Aura 5, Condemnation 19"
-  },
-  {
-   "t": "2026-11-14 02:33",
-   "n": "uTril",
-   "x": "opened 1 Daevanion nodes"
   }
  ]
 }

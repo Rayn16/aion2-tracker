@@ -34356,14 +34356,14 @@
     },
     {
      "date": "2026-11-17",
-     "cp": 59444,
+     "cp": 59454,
      "il": 1103
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 59444,
+   "cp": 59454,
    "il": 1103,
    "gear": [
     {
@@ -34858,7 +34858,7 @@
     }
    ],
    "title": {
-    "ownedCount": 141,
+    "ownedCount": 142,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -34876,8 +34876,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 49,
-      "ownedPercent": 46,
+      "ownedCount": 50,
+      "ownedPercent": 47,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -37920,8 +37920,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 17:34 UTC",
+ "updated": "2026-11-17 18:02 UTC",
  "feed": [
+  {
+   "t": "2026-11-17 18:02",
+   "n": "YasuoMain4",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-17 17:34",
    "n": "YasuoMain4",
@@ -39416,11 +39421,6 @@
    "t": "2026-11-14 09:05",
    "n": "YasuoMain8",
    "x": "opened 29 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-14 09:05",
-   "n": "YasuoMain8",
-   "x": "skills up: Pummel 13, Shield Smite 11, Judgment 13, Warding Strike 10 and 11 more"
   }
  ]
 }

@@ -124,13 +124,13 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 142735,
+     "cp": 145003,
      "il": 2703
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 142735,
+   "cp": 145003,
    "il": 2703,
    "gear": [
     {
@@ -6720,15 +6720,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 132588,
-     "il": 2681
+     "cp": 132828,
+     "il": 2684
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 132588,
-   "il": 2681,
+   "cp": 132828,
+   "il": 2684,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7589,7 +7589,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2681
+     "value": 2684
     }
    ],
    "title": {
@@ -8132,7 +8132,7 @@
      "1|13|Common|0|PvE Evasion",
      "1|14|Common|0|PvE Attack",
      "1|15|Unique|0|PvE Damage Tolerance",
-     "1|8|Unique|0|PvE Damage Boost",
+     "1|8|Unique|1|PvE Damage Boost",
      "1|9|Common|0|Max HP",
      "1|11|Rare|0|PvE Accuracy, PvE Evasion",
      "1|7|Common|1|PvE Accuracy",
@@ -8217,7 +8217,7 @@
      "8|10|Common|0|PvE Accuracy",
      "10|6|Common|0|Boss Attack",
      "10|7|Rare|0|Boss Attack, Boss Defense",
-     "10|8|Common|1|Max MP",
+     "10|8|Common|0|Max MP",
      "10|2|Common|0|Boss Attack",
      "10|4|Common|0|PvE Attack",
      "9|12|Rare|0|Boss Attack, Boss Defense",
@@ -15781,14 +15781,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 159522,
+     "cp": 159156,
      "il": 2817
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 159522,
+   "cp": 159156,
    "il": 2817,
    "gear": [
     {
@@ -17883,9 +17883,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
-     "id": 40201900,
-     "name": "Dark Veil Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -38037,7 +38037,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 02:05 UTC",
+ "updated": "2026-11-18 02:35 UTC",
  "feed": [
   {
    "t": "2026-11-18 02:04",

@@ -124,14 +124,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 146585,
-     "il": 2708
+     "cp": 146894,
+     "il": 2725
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 146585,
-   "il": 2708,
+   "cp": 146894,
+   "il": 2725,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -893,11 +893,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2.5%",
-      "Critical Hit increase +2.5%"
+      "Accuracy increase +2.6%",
+      "Critical Hit increase +2.6%"
      ],
      "type": "AGI",
-     "value": 25
+     "value": 26
     },
     {
      "name": "Willpower",
@@ -1001,7 +1001,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2708
+     "value": 2725
     }
    ],
    "title": {
@@ -3082,11 +3082,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.1%",
-      "Critical Hit increase +0.1%"
+      "Accuracy increase +0.2%",
+      "Critical Hit increase +0.2%"
      ],
      "type": "AGI",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Willpower",
@@ -15781,15 +15781,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 160131,
-     "il": 2826
+     "cp": 160068,
+     "il": 2792
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 160131,
-   "il": 2826,
+   "cp": 160068,
+   "il": 2792,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15875,7 +15875,7 @@
      "slotPosName": "Torso",
      "name": "Nuakum Breastplate",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
@@ -15989,7 +15989,7 @@
      "slotPosName": "Shoulder",
      "name": "Nuakum Pauldrons",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
@@ -16670,7 +16670,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2826
+     "value": 2792
     }
    ],
    "title": {
@@ -16809,8 +16809,8 @@
       "id": 46,
       "name": "Azphel",
       "open": 1,
-      "openNodeCount": 23,
-      "openPercent": 15,
+      "openNodeCount": 0,
+      "openPercent": 0,
       "totalNodeCount": 152
      }
     ]
@@ -17450,41 +17450,41 @@
      "9|4|Common|0|Max HP",
      "9|3|Rare|0|PvP Accuracy, PvP Evasion",
      "9|1|Common|0|PvP Evasion",
-     "8|15|Unique|1|PvP Damage Boost",
-     "9|15|Common|1|PvP Critical Hit",
-     "9|11|Common|1|PvP Attack",
-     "9|10|Common|1|PvP Evasion",
-     "9|9|Rare|1|PvP Critical Hit, PvP Critical Hit Resist",
-     "9|8|Common|1|Max MP",
+     "8|15|Unique|0|PvP Damage Boost",
+     "9|15|Common|0|PvP Critical Hit",
+     "9|11|Common|0|PvP Attack",
+     "9|10|Common|0|PvP Evasion",
+     "9|9|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
+     "9|8|Common|0|Max MP",
      "10|6|Common|0|PvP Accuracy",
      "10|3|Common|0|PvP Critical Hit",
      "10|2|Common|0|PvP Accuracy",
      "10|1|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
-     "10|15|Common|1|PvP Critical Hit Resist",
-     "10|13|Rare|1|PvP Attack, PvP Defense",
-     "10|12|Common|1|PvP Accuracy",
-     "10|11|Common|1|PvP Critical Hit",
+     "10|15|Common|0|PvP Critical Hit Resist",
+     "10|13|Rare|0|PvP Attack, PvP Defense",
+     "10|12|Common|0|PvP Accuracy",
+     "10|11|Common|0|PvP Critical Hit",
      "10|9|Common|0|PvP Accuracy",
-     "11|9|Common|1|PvP Defense",
+     "11|9|Common|0|PvP Defense",
      "11|8|Legend|0|Status Effect Chance",
      "11|7|Common|0|PvP Critical Hit Resist",
      "11|6|Rare|0|PvP Attack, PvP Defense",
      "11|5|Common|0|PvP Evasion",
      "11|4|Common|0|PvP Defense",
      "11|3|Legend|0|Status Effect Resist",
-     "11|15|Legend|1|Status Effect Chance",
-     "11|14|Common|1|PvP Attack",
-     "11|13|Common|1|PvP Evasion",
-     "11|11|Legend|1|Status Effect Resist",
-     "11|10|Common|1|PvP Critical Hit Resist",
-     "12|9|Common|1|PvP Critical Hit",
+     "11|15|Legend|0|Status Effect Chance",
+     "11|14|Common|0|PvP Attack",
+     "11|13|Common|0|PvP Evasion",
+     "11|11|Legend|0|Status Effect Resist",
+     "11|10|Common|0|PvP Critical Hit Resist",
+     "12|9|Common|0|PvP Critical Hit",
      "12|7|Common|0|PvP Evasion",
      "12|5|Common|0|PvP Attack",
      "12|3|Common|0|PvP Critical Hit Resist",
      "13|3|Rare|0|PvP Accuracy, PvP Evasion",
      "13|2|Common|0|PvP Critical Hit",
      "13|1|Rare|0|PvP Attack, PvP Defense",
-     "12|13|Common|1|PvP Defense",
+     "12|13|Common|0|PvP Defense",
      "13|10|Common|0|PvP Critical Hit Resist",
      "13|9|Rare|0|PvP Accuracy, PvP Evasion",
      "13|8|Common|0|Max HP",
@@ -17494,9 +17494,9 @@
      "13|4|Common|0|Max MP",
      "14|3|Common|0|PvP Defense",
      "14|1|Common|0|PvP Accuracy",
-     "13|15|Rare|1|PvP Accuracy, PvP Evasion",
-     "13|14|Common|1|PvP Critical Hit Resist",
-     "13|13|Common|1|PvP Accuracy",
+     "13|15|Rare|0|PvP Accuracy, PvP Evasion",
+     "13|14|Common|0|PvP Critical Hit Resist",
+     "13|13|Common|0|PvP Accuracy",
      "13|12|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
      "14|12|Common|0|PvP Evasion",
      "14|11|Common|0|PvP Attack",
@@ -17508,14 +17508,14 @@
      "15|3|Common|0|PvP Critical Hit Resist",
      "15|2|Common|0|PvP Attack",
      "15|1|Unique|0|PvP Damage Boost",
-     "14|15|Common|1|PvP Critical Hit",
+     "14|15|Common|0|PvP Critical Hit",
      "15|13|Common|0|PvP Defense",
      "15|12|Legend|0|Status Effect Chance",
      "15|10|Rare|0|PvP Attack, PvP Defense",
      "15|9|Common|0|PvP Accuracy",
      "15|8|Unique|0|PvP Damage Tolerance",
      "15|6|Rare|0|PvP Critical Hit, PvP Critical Hit Resist",
-     "15|15|Unique|1|PvP Damage Tolerance",
+     "15|15|Unique|0|PvP Damage Tolerance",
      "15|14|Common|0|PvP Attack"
     ]
    },
@@ -33097,11 +33097,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2.4%",
-      "Critical Hit increase +2.4%"
+      "Accuracy increase +2.5%",
+      "Critical Hit increase +2.5%"
      ],
      "type": "AGI",
-     "value": 24
+     "value": 25
     },
     {
      "name": "Willpower",
@@ -34852,11 +34852,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.1%",
-      "Critical Hit increase +0.1%"
+      "Accuracy increase +0.2%",
+      "Critical Hit increase +0.2%"
      ],
      "type": "AGI",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Willpower",
@@ -36700,11 +36700,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.1%",
-      "Critical Hit increase +0.1%"
+      "Accuracy increase +0.2%",
+      "Critical Hit increase +0.2%"
      ],
      "type": "AGI",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Willpower",
@@ -38037,8 +38037,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 04:34 UTC",
+ "updated": "2026-11-18 05:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 05:02",
+   "n": "DeathRunner",
+   "x": "Nuakum Breastplate +13 → +14"
+  },
+  {
+   "t": "2026-11-18 05:02",
+   "n": "DeathRunner",
+   "x": "Nuakum Pauldrons +13 → +14"
+  },
   {
    "t": "2026-11-18 04:32",
    "n": "DeathRunner",
@@ -39528,16 +39538,6 @@
    "t": "2026-11-15 04:04",
    "n": "uTril",
    "x": "skills up: Earth Punishment 14, Noble Aura 2"
-  },
-  {
-   "t": "2026-11-15 03:32",
-   "n": "DeathRunner",
-   "x": "opened 3 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-15 03:32",
-   "n": "DeathRunner",
-   "x": "skills up: Impact Hit 16, Determination 18"
   }
  ]
 }

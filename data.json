@@ -124,14 +124,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 147895,
-     "il": 2729
+     "cp": 148620,
+     "il": 2740
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 147895,
-   "il": 2729,
+   "cp": 148620,
+   "il": 2740,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -893,11 +893,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2.7%",
-      "Critical Hit increase +2.7%"
+      "Accuracy increase +0.8%",
+      "Critical Hit increase +0.8%"
      ],
      "type": "AGI",
-     "value": 27
+     "value": 8
     },
     {
      "name": "Willpower",
@@ -1001,7 +1001,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2729
+     "value": 2740
     }
    ],
    "title": {
@@ -1131,8 +1131,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 14,
-      "openPercent": 9,
+      "openNodeCount": 19,
+      "openPercent": 13,
       "totalNodeCount": 152
      },
      {
@@ -1967,12 +1967,12 @@
      "6|10|Common|0|Boss Attack",
      "7|1|Common|0|Max MP",
      "6|14|Common|0|Boss Attack",
-     "7|4|Rare|0|PvE Attack, PvE Defense",
-     "7|5|Common|0|Boss Defense",
+     "7|4|Rare|1|PvE Attack, PvE Defense",
+     "7|5|Common|1|Boss Defense",
      "7|2|Rare|0|Boss Attack, Boss Defense",
      "7|3|Common|0|PvE Accuracy",
      "7|8|Common|0|PvE Attack",
-     "7|6|Common|0|Boss Attack",
+     "7|6|Common|1|Boss Attack",
      "7|12|Common|0|PvE Evasion",
      "7|13|Common|0|PvE Defense",
      "7|10|Common|0|Boss Defense",
@@ -1980,11 +1980,11 @@
      "8|1|Unique|0|PvE Damage Tolerance",
      "7|14|Rare|0|PvE Accuracy, PvE Evasion",
      "7|15|Common|0|PvE Attack",
-     "8|6|Common|0|PvE Accuracy",
+     "8|6|Common|1|PvE Accuracy",
      "8|3|Common|0|Max HP",
      "8|9|Common|1|PvE Defense",
      "8|10|Common|1|PvE Accuracy",
-     "8|7|Common|0|PvE Defense",
+     "8|7|Common|1|PvE Defense",
      "8|8|Start|1|Ariel - Start",
      "8|13|Common|0|Max MP",
      "9|2|Rare|0|PvE Accuracy, PvE Evasion",
@@ -5245,12 +5245,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.5%",
-      "Block increase +1.5%",
-      "Critical Hit Resist increase +1.5%"
+      "Evasion increase +1.6%",
+      "Block increase +1.6%",
+      "Critical Hit Resist increase +1.6%"
      ],
      "type": "DEX",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Intelligence",
@@ -6720,14 +6720,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 134472,
+     "cp": 134517,
      "il": 2684
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 134472,
+   "cp": 134517,
    "il": 2684,
    "gear": [
     {
@@ -7457,12 +7457,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.7%",
-      "Block increase +1.7%",
-      "Critical Hit Resist increase +1.7%"
+      "Evasion increase +1.8%",
+      "Block increase +1.8%",
+      "Critical Hit Resist increase +1.8%"
      ],
      "type": "DEX",
-     "value": 17
+     "value": 18
     },
     {
      "name": "Intelligence",
@@ -30419,14 +30419,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 121475,
+     "cp": 121470,
      "il": 2627
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 121475,
+   "cp": 121470,
    "il": 2627,
    "gear": [
     {
@@ -31339,23 +31339,23 @@
       "equipCategory": "Defense",
       "equipStatList": [
        {
-        "desc": "Defense Bonus +300"
+        "desc": "Defense Bonus +320"
        },
        {
-        "desc": "Damage Tolerance +3%"
+        "desc": "Back Attack Damage Tolerance +3%"
        },
        {
-        "desc": "Block +100"
+        "desc": "Boss Damage Tolerance +4%"
        }
       ],
       "grade": "Unique",
-      "id": 22030003,
-      "name": "Saint of Altgard",
+      "id": 23010025,
+      "name": "Rule All Creation",
       "ownedCount": 66,
       "ownedPercent": 67,
       "statList": [
        {
-        "desc": "MP +20"
+        "desc": "Move Speed +1%"
        }
       ],
       "totalCount": 99
@@ -38037,8 +38037,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 12:05 UTC",
+ "updated": "2026-11-18 12:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 12:31",
+   "n": "YasuoMain",
+   "x": "opened 5 Daevanion nodes"
+  },
   {
    "t": "2026-11-18 12:04",
    "n": "uTril",
@@ -39533,11 +39538,6 @@
    "t": "2026-11-15 14:01",
    "n": "YasuoMain16",
    "x": "new Aulamus Earrings +10"
-  },
-  {
-   "t": "2026-11-15 14:01",
-   "n": "YasuoMain16",
-   "x": "new Aulamus Ring +10"
   }
  ]
 }

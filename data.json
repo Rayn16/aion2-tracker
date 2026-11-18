@@ -15781,15 +15781,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 162651,
-     "il": 2828
+     "cp": 161151,
+     "il": 2829
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 162651,
-   "il": 2828,
+   "cp": 161151,
+   "il": 2829,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16670,7 +16670,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2828
+     "value": 2829
     }
    ],
    "title": {
@@ -16800,7 +16800,7 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 21,
+      "openNodeCount": 22,
       "openPercent": 14,
       "totalNodeCount": 152
      },
@@ -17231,7 +17231,7 @@
      "6|9|Rare|0|PvE Attack, PvE Defense",
      "6|10|Common|0|Boss Attack",
      "6|7|Common|0|PvE Evasion",
-     "6|8|Common|0|Max HP",
+     "6|8|Common|1|Max HP",
      "6|6|Legend|0|Critical Hit",
      "7|4|Rare|0|PvE Attack, PvE Defense",
      "7|5|Common|0|Boss Defense",
@@ -17883,9 +17883,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -38037,8 +38037,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 22:05 UTC",
+ "updated": "2026-11-18 22:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 22:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-18 21:32",
    "n": "DeathRunner",
@@ -39533,11 +39538,6 @@
    "t": "2026-11-15 15:05",
    "n": "YasuoMain8",
    "x": "reached level 36"
-  },
-  {
-   "t": "2026-11-15 15:05",
-   "n": "YasuoMain8",
-   "x": "new Faith Breastplate +0"
   }
  ]
 }

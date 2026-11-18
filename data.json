@@ -124,13 +124,13 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 145487,
+     "cp": 146317,
      "il": 2703
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 145487,
+   "cp": 146317,
    "il": 2703,
    "gear": [
     {
@@ -1206,7 +1206,7 @@
       "id": 11280000,
       "name": "Sword Aura Rampage",
       "needLevel": 5,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -15781,15 +15781,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 159645,
-     "il": 2822
+     "cp": 160008,
+     "il": 2825
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 159645,
-   "il": 2822,
+   "cp": 160008,
+   "il": 2825,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16670,7 +16670,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2822
+     "value": 2825
     }
    ],
    "title": {
@@ -16800,8 +16800,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 17,
-      "openPercent": 11,
+      "openNodeCount": 20,
+      "openPercent": 13,
       "totalNodeCount": 152
      },
      {
@@ -17284,10 +17284,10 @@
      "11|2|Legend|0|Boss Damage Boost",
      "11|3|Common|0|Boss Defense",
      "12|2|Common|0|PvE Evasion",
-     "11|14|Common|0|Boss Defense",
+     "11|14|Common|1|Boss Defense",
      "11|15|Rare|0|PvE Accuracy, PvE Evasion",
      "11|12|Legend|1|Boss Damage Tolerance",
-     "11|13|Common|0|Boss Attack",
+     "11|13|Common|1|Boss Attack",
      "12|9|Rare|1|PvE Accuracy, PvE Evasion",
      "12|10|Common|1|Boss Defense",
      "12|6|Legend|0|Critical Hit Resist",
@@ -17295,7 +17295,7 @@
      "13|2|Common|0|PvE Accuracy",
      "13|3|Common|0|PvE Defense",
      "13|1|Rare|0|Boss Attack, Boss Defense",
-     "12|14|Common|0|PvE Attack",
+     "12|14|Common|1|PvE Attack",
      "12|11|Common|1|PvE Attack",
      "12|12|Common|1|PvE Accuracy",
      "13|8|Common|0|PvE Evasion",
@@ -30419,14 +30419,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 121077,
+     "cp": 120977,
      "il": 2627
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 121077,
+   "cp": 120977,
    "il": 2627,
    "gear": [
     {
@@ -38037,8 +38037,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 03:35 UTC",
+ "updated": "2026-11-18 04:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 04:02",
+   "n": "DeathRunner",
+   "x": "opened 3 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-18 04:01",
+   "n": "YasuoMain",
+   "x": "skills up: Sword Aura Rampage 16"
+  },
   {
    "t": "2026-11-18 03:32",
    "n": "DeathRunner",
@@ -39528,16 +39538,6 @@
    "t": "2026-11-15 02:01",
    "n": "YasuoMain",
    "x": "Bell of Vigor +2 → +3"
-  },
-  {
-   "t": "2026-11-15 02:01",
-   "n": "YasuoMain",
-   "x": "skills up: Attack Preparation 18"
-  },
-  {
-   "t": "2026-11-15 00:31",
-   "n": "DeathRunner",
-   "x": "opened 2 Daevanion nodes"
   }
  ]
 }

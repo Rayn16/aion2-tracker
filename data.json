@@ -124,14 +124,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 149321,
-     "il": 2749
+     "cp": 149427,
+     "il": 2754
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 149321,
-   "il": 2749,
+   "cp": 149427,
+   "il": 2754,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1001,7 +1001,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2749
+     "value": 2754
     }
    ],
    "title": {
@@ -1131,8 +1131,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 19,
-      "openPercent": 13,
+      "openNodeCount": 23,
+      "openPercent": 15,
       "totalNodeCount": 152
      },
      {
@@ -1921,7 +1921,7 @@
      "2|3|Common|0|Boss Defense",
      "2|4|Common|0|PvE Evasion",
      "2|1|Common|0|PvE Accuracy",
-     "2|7|Common|0|PvE Attack",
+     "2|7|Common|1|PvE Attack",
      "2|5|Common|0|PvE Defense",
      "2|6|Legend|0|Critical Hit Resist",
      "2|11|Common|0|Boss Attack",
@@ -1933,7 +1933,7 @@
      "3|2|Legend|0|Boss Damage Boost",
      "3|8|Common|0|PvE Evasion",
      "3|9|Common|0|PvE Accuracy",
-     "3|7|Common|0|Boss Attack",
+     "3|7|Common|1|Boss Attack",
      "3|12|Common|0|PvE Evasion",
      "3|13|Common|0|PvE Defense",
      "3|10|Common|0|Boss Defense",
@@ -1945,13 +1945,13 @@
      "4|6|Common|0|Boss Defense",
      "4|4|Common|0|PvE Accuracy",
      "4|10|Legend|0|Critical Hit Resist",
-     "4|7|Rare|0|PvE Accuracy, PvE Evasion",
+     "4|7|Rare|1|PvE Accuracy, PvE Evasion",
      "4|14|Common|0|PvE Evasion",
      "4|12|Rare|0|Boss Attack, Boss Defense",
      "5|2|Common|0|Boss Defense",
      "5|3|Common|0|Boss Attack",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
-     "5|7|Common|0|PvE Defense",
+     "5|7|Common|1|PvE Defense",
      "5|4|Legend|0|Boss Damage Tolerance",
      "5|10|Common|0|PvE Defense",
      "5|14|Legend|0|Boss Damage Boost",
@@ -2355,14 +2355,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 88522,
-     "il": 1931
+     "cp": 91491,
+     "il": 2016
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 88522,
-   "il": 1931,
+   "cp": 91491,
+   "il": 2016,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2999,7 +2999,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 2,
+     "enchantLevel": 7,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -3013,9 +3013,22 @@
     {
      "slotPosName": "Arcana1",
      "name": "Chalice of Magic",
-     "grade": "Common",
+     "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_DefenceSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
+     "slotPosName": "Arcana2",
+     "name": "Parchment of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 2,
      "slots": 0,
      "stones": [],
@@ -3043,6 +3056,19 @@
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
      "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
+     "slotPosName": "Arcana5",
+     "name": "Mirror of Magic",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_DefenceSet2.png",
+     "max": 3,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -3126,11 +3152,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.5%",
-      "Regeneration +1.5%"
+      "HP increase +2.3%",
+      "Regeneration +2.3%"
      ],
      "type": "Life",
-     "value": 15
+     "value": 23
     },
     {
      "name": "Time [Siel]",
@@ -3162,11 +3188,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -1.1%",
-      "Double Chance +1.1%"
+      "MP Cost -2.3%",
+      "Double Chance +2.3%"
      ],
      "type": "Wisdom",
-     "value": 11
+     "value": 23
     },
     {
      "name": "Destiny [Marchutan]",
@@ -3180,17 +3206,17 @@
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +4.4%",
-      "Block increase +4.4%"
+      "Move Speed +4.8%",
+      "Block increase +4.8%"
      ],
      "type": "Space",
-     "value": 44
+     "value": 48
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1931
+     "value": 2016
     }
    ],
    "title": {
@@ -3385,7 +3411,7 @@
       "id": 12240000,
       "name": "Judgment",
       "needLevel": 4,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -3405,7 +3431,7 @@
       "id": 12270000,
       "name": "Debilitating Smash",
       "needLevel": 7,
-      "skillLevel": 15
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -3475,7 +3501,7 @@
       "id": 12720000,
       "name": "Warding Shield",
       "needLevel": 6,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -3515,7 +3541,7 @@
       "id": 12760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -3545,7 +3571,7 @@
       "id": 12790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -38037,8 +38063,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 22:34 UTC",
+ "updated": "2026-11-18 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 23:01",
+   "n": "YasuoMain16",
+   "x": "Revelation Amulet +2 → +7"
+  },
+  {
+   "t": "2026-11-18 23:01",
+   "n": "YasuoMain16",
+   "x": "new Parchment of Vigor +0"
+  },
+  {
+   "t": "2026-11-18 23:01",
+   "n": "YasuoMain16",
+   "x": "new Mirror of Magic +0"
+  },
+  {
+   "t": "2026-11-18 23:01",
+   "n": "YasuoMain16",
+   "x": "skills up: Judgment 16, Debilitating Smash 17, Impact Hit 14, Survival Willpower 16"
+  },
+  {
+   "t": "2026-11-18 23:01",
+   "n": "YasuoMain",
+   "x": "opened 4 Daevanion nodes"
+  },
   {
    "t": "2026-11-18 22:32",
    "n": "DeathRunner",
@@ -39513,31 +39564,6 @@
    "t": "2026-11-15 21:05",
    "n": "YasuoMain8",
    "x": "skills up: Debilitating Smash 2, Insulting Roar 10, Survival Willpower 3"
-  },
-  {
-   "t": "2026-11-15 20:01",
-   "n": "Carmella",
-   "x": "Ascension Bracelet +6 → +7"
-  },
-  {
-   "t": "2026-11-15 20:01",
-   "n": "Carmella",
-   "x": "skills up: Griffon Arrow 6"
-  },
-  {
-   "t": "2026-11-15 19:34",
-   "n": "CuteCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-15 16:04",
-   "n": "CuteCatty",
-   "x": "skills up: Yustiel's Power 10"
-  },
-  {
-   "t": "2026-11-15 15:05",
-   "n": "YasuoMain8",
-   "x": "reached level 36"
   }
  ]
 }

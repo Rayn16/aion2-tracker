@@ -124,14 +124,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 146317,
-     "il": 2703
+     "cp": 146585,
+     "il": 2708
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 146317,
-   "il": 2703,
+   "cp": 146585,
+   "il": 2708,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1001,11 +1001,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2703
+     "value": 2708
     }
    ],
    "title": {
-    "ownedCount": 208,
+    "ownedCount": 209,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -1048,8 +1048,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 68,
-      "ownedPercent": 64,
+      "ownedCount": 69,
+      "ownedPercent": 65,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -1131,8 +1131,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 10,
-      "openPercent": 7,
+      "openNodeCount": 13,
+      "openPercent": 9,
       "totalNodeCount": 152
      },
      {
@@ -2036,8 +2036,8 @@
      "13|5|Common|0|PvE Attack",
      "13|8|Common|0|PvE Evasion",
      "13|9|Common|0|Boss Attack",
-     "13|14|Legend|0|Boss Damage Boost",
-     "13|15|Common|0|PvE Defense",
+     "13|14|Legend|1|Boss Damage Boost",
+     "13|15|Common|1|PvE Defense",
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "14|3|Legend|0|Critical Hit",
      "14|1|Common|0|Boss Attack",
@@ -2047,7 +2047,7 @@
      "14|12|Common|0|PvE Evasion",
      "14|9|Common|0|PvE Attack",
      "14|10|Legend|0|Critical Hit Resist",
-     "14|15|Common|0|PvE Accuracy",
+     "14|15|Common|1|PvE Accuracy",
      "15|1|Unique|0|PvE Damage Tolerance",
      "14|13|Common|0|Boss Defense",
      "15|4|Common|0|Boss Defense",
@@ -10946,20 +10946,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.2%"
+      "Attack increase +4.3%"
      ],
      "type": "STR",
-     "value": 42
+     "value": 43
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.6%",
-      "Block increase +1.6%",
-      "Critical Hit Resist increase +1.6%"
+      "Evasion increase +1.7%",
+      "Block increase +1.7%",
+      "Critical Hit Resist increase +1.7%"
      ],
      "type": "DEX",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Intelligence",
@@ -10970,10 +10970,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1%"
+      "HP increase +1.1%"
      ],
      "type": "CON",
-     "value": 10
+     "value": 11
     },
     {
      "name": "Precision",
@@ -14779,20 +14779,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3%"
+      "Attack increase +3.1%"
      ],
      "type": "STR",
-     "value": 30
+     "value": 31
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.6%",
-      "Block increase +1.6%",
-      "Critical Hit Resist increase +1.6%"
+      "Evasion increase +1.7%",
+      "Block increase +1.7%",
+      "Critical Hit Resist increase +1.7%"
      ],
      "type": "DEX",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Intelligence",
@@ -14803,10 +14803,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1%"
+      "HP increase +1.1%"
      ],
      "type": "CON",
-     "value": 10
+     "value": 11
     },
     {
      "name": "Precision",
@@ -15781,15 +15781,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 160008,
-     "il": 2825
+     "cp": 160131,
+     "il": 2826
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 160008,
-   "il": 2825,
+   "cp": 160131,
+   "il": 2826,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16528,20 +16528,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +7.3%"
+      "Attack increase +7.4%"
      ],
      "type": "STR",
-     "value": 73
+     "value": 74
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +3.7%",
-      "Block increase +3.7%",
-      "Critical Hit Resist increase +3.7%"
+      "Evasion increase +3.8%",
+      "Block increase +3.8%",
+      "Critical Hit Resist increase +3.8%"
      ],
      "type": "DEX",
-     "value": 37
+     "value": 38
     },
     {
      "name": "Intelligence",
@@ -16554,10 +16554,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +3.1%"
+      "HP increase +3.2%"
      ],
      "type": "CON",
-     "value": 31
+     "value": 32
     },
     {
      "name": "Precision",
@@ -16670,7 +16670,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2825
+     "value": 2826
     }
    ],
    "title": {
@@ -16800,8 +16800,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 20,
-      "openPercent": 13,
+      "openNodeCount": 21,
+      "openPercent": 14,
       "totalNodeCount": 152
      },
      {
@@ -17243,7 +17243,7 @@
      "7|13|Common|0|PvE Defense",
      "7|10|Common|0|Boss Defense",
      "7|11|Legend|0|Boss Damage Tolerance",
-     "7|8|Common|0|PvE Attack",
+     "7|8|Common|1|PvE Attack",
      "7|6|Common|0|Boss Attack",
      "8|6|Common|0|PvE Accuracy",
      "8|3|Common|0|Max HP",
@@ -17875,10 +17875,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Jellofi_01.png",
-     "id": 1219,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Lufilini_01.png",
+     "id": 1201,
      "level": 3,
-     "name": "Zelophi"
+     "name": "Modified Lupyllini"
     },
     "wing": {
      "enchantLevel": 0,
@@ -38037,8 +38037,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 04:05 UTC",
+ "updated": "2026-11-18 04:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 04:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-18 04:31",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-18 04:31",
+   "n": "YasuoMain",
+   "x": "opened 3 Daevanion nodes"
+  },
   {
    "t": "2026-11-18 04:02",
    "n": "DeathRunner",
@@ -39523,21 +39538,6 @@
    "t": "2026-11-15 03:32",
    "n": "DeathRunner",
    "x": "skills up: Impact Hit 16, Determination 18"
-  },
-  {
-   "t": "2026-11-15 02:32",
-   "n": "DeathRunner",
-   "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-15 02:31",
-   "n": "YasuoMain",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-15 02:01",
-   "n": "YasuoMain",
-   "x": "Bell of Vigor +2 → +3"
   }
  ]
 }

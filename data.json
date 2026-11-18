@@ -124,14 +124,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 148628,
-     "il": 2740
+     "cp": 149193,
+     "il": 2748
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 148628,
-   "il": 2740,
+   "cp": 149193,
+   "il": 2748,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -570,7 +570,7 @@
      "slotPosName": "Earring1",
      "name": "Enraged Kromede Earrings",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
      "max": 15,
      "slots": 4,
@@ -1001,7 +1001,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2740
+     "value": 2748
     }
    ],
    "title": {
@@ -1306,7 +1306,7 @@
       "id": 11740000,
       "name": "Identify Weakness",
       "needLevel": 11,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -6720,14 +6720,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 134517,
+     "cp": 135343,
      "il": 2684
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 134517,
+   "cp": 135343,
    "il": 2684,
    "gear": [
     {
@@ -38037,8 +38037,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 20:35 UTC",
+ "updated": "2026-11-18 21:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 21:01",
+   "n": "YasuoMain",
+   "x": "Enraged Kromede Earrings +12 → +15"
+  },
+  {
+   "t": "2026-11-18 21:01",
+   "n": "YasuoMain",
+   "x": "skills up: Identify Weakness 16"
+  },
   {
    "t": "2026-11-18 20:32",
    "n": "DeathRunner",
@@ -39528,16 +39538,6 @@
    "t": "2026-11-15 15:05",
    "n": "YasuoMain8",
    "x": "new Faith Boots +0"
-  },
-  {
-   "t": "2026-11-15 15:05",
-   "n": "YasuoMain8",
-   "x": "new Intruder Cloak +0"
-  },
-  {
-   "t": "2026-11-15 15:05",
-   "n": "YasuoMain8",
-   "x": "skills up: Punishment 11, Punishing Benediction 12, Impact Hit 11, Insulting Roar 9 and 1 more"
   }
  ]
 }

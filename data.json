@@ -10946,10 +10946,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.1%"
+      "Attack increase +4.2%"
      ],
      "type": "STR",
-     "value": 41
+     "value": 42
     },
     {
      "name": "Dexterity",
@@ -14779,10 +14779,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.9%"
+      "Attack increase +3%"
      ],
      "type": "STR",
-     "value": 29
+     "value": 30
     },
     {
      "name": "Dexterity",
@@ -15781,15 +15781,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 158781,
-     "il": 2821
+     "cp": 159645,
+     "il": 2822
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 158781,
-   "il": 2821,
+   "cp": 159645,
+   "il": 2822,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16103,7 +16103,7 @@
      "slotPosName": "Cape",
      "name": "Nuakum Cloak",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Cape.png",
      "max": 15,
      "slots": 4,
@@ -16528,10 +16528,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +7.2%"
+      "Attack increase +7.3%"
      ],
      "type": "STR",
-     "value": 72
+     "value": 73
     },
     {
      "name": "Dexterity",
@@ -16670,7 +16670,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2821
+     "value": 2822
     }
    ],
    "title": {
@@ -17784,7 +17784,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_022.png",
       "id": 13280000,
       "name": "Spiral Slice",
@@ -30419,14 +30419,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 121024,
+     "cp": 121077,
      "il": 2627
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 121024,
+   "cp": 121077,
    "il": 2627,
    "gear": [
     {
@@ -38037,8 +38037,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 03:05 UTC",
+ "updated": "2026-11-18 03:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 03:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Cloak +13 → +14"
+  },
   {
    "t": "2026-11-18 03:04",
    "n": "CutieCatty",
@@ -39533,11 +39538,6 @@
    "t": "2026-11-15 00:31",
    "n": "DeathRunner",
    "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-14 23:02",
-   "n": "DeathRunner",
-   "x": "skills up: Storm Rampage 14"
   }
  ]
 }

@@ -124,14 +124,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 140487,
-     "il": 2683
+     "cp": 142420,
+     "il": 2685
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 140487,
-   "il": 2683,
+   "cp": 142420,
+   "il": 2685,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -646,7 +646,7 @@
      "slotPosName": "Ring1",
      "name": "Enraged Kromede Ring",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0053.png",
      "max": 15,
      "slots": 4,
@@ -1001,7 +1001,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2683
+     "value": 2685
     }
    ],
    "title": {
@@ -1401,7 +1401,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -8663,7 +8663,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_022.png",
       "id": 18220000,
       "name": "Obliterate",
@@ -8753,7 +8753,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_025.png",
       "id": 18250000,
       "name": "Power of the Storm",
@@ -38037,8 +38037,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 01:04 UTC",
+ "updated": "2026-11-18 01:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 01:31",
+   "n": "YasuoMain",
+   "x": "Enraged Kromede Ring +13 → +15"
+  },
   {
    "t": "2026-11-18 00:34",
    "n": "CuteCatty",
@@ -39533,11 +39538,6 @@
    "t": "2026-11-14 18:04",
    "n": "RyBear",
    "x": "new Bakarma Greaves +10"
-  },
-  {
-   "t": "2026-11-14 18:04",
-   "n": "RyBear",
-   "x": "skills up: Survival Stance 15, Blood Absorption 14"
   }
  ]
 }

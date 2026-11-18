@@ -15781,15 +15781,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 159739,
-     "il": 2808
+     "cp": 161726,
+     "il": 2828
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 159739,
-   "il": 2808,
+   "cp": 161726,
+   "il": 2828,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16670,7 +16670,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2808
+     "value": 2828
     }
    ],
    "title": {
@@ -16764,8 +16764,8 @@
       "id": 41,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 59,
-      "openPercent": 67,
+      "openNodeCount": 67,
+      "openPercent": 76,
       "totalNodeCount": 88
      },
      {
@@ -16773,8 +16773,8 @@
       "id": 42,
       "name": "Zikel",
       "open": 1,
-      "openNodeCount": 60,
-      "openPercent": 68,
+      "openNodeCount": 67,
+      "openPercent": 76,
       "totalNodeCount": 88
      },
      {
@@ -16782,8 +16782,8 @@
       "id": 43,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 62,
-      "openPercent": 70,
+      "openNodeCount": 52,
+      "openPercent": 59,
       "totalNodeCount": 88
      },
      {
@@ -16818,12 +16818,12 @@
    "boards": {
     "41": [
      "8|13|Legend|1|Skill Level Up - Storm Rampage",
-     "8|10|Common|0|Attack",
+     "8|10|Common|1|Attack",
      "8|8|Start|1|Nezekan - Start",
      "9|6|Rare|1|Skill Level Up - Rear Smite",
      "9|7|Common|1|Critical Hit",
-     "9|4|Common|0|Critical Hit Resist",
-     "9|5|Common|0|Max HP",
+     "9|4|Common|1|Critical Hit Resist",
+     "9|5|Common|1|Max HP",
      "9|3|Common|1|Critical Hit",
      "9|12|Common|1|Defense",
      "9|13|Common|1|Max HP",
@@ -16836,11 +16836,11 @@
      "10|3|Common|1|Attack",
      "10|12|Common|1|Max MP",
      "10|9|Common|1|Critical Hit",
-     "11|8|Legend|0|Skill Level Up - Ambush",
+     "11|8|Legend|1|Skill Level Up - Ambush",
      "11|9|Common|0|Critical Hit Resist",
      "11|7|Common|1|Max MP",
      "11|4|Common|0|Max MP",
-     "11|5|Legend|0|Skill Level Up - Infiltrate",
+     "11|5|Legend|1|Skill Level Up - Infiltrate",
      "11|3|Rare|1|Skill Level Up - Assault Stance",
      "11|12|Common|1|Attack",
      "11|13|Rare|1|Skill Level Up - Exploit Weakness",
@@ -16881,7 +16881,7 @@
      "4|13|Common|1|Max MP",
      "4|11|Common|0|Critical Hit Resist",
      "5|11|Legend|1|Skill Level Up - Flash Slice",
-     "5|8|Legend|0|Skill Level Up - Shadowstrike",
+     "5|8|Legend|1|Skill Level Up - Shadowstrike",
      "5|9|Common|0|Max HP",
      "5|7|Common|1|Critical Hit",
      "5|4|Common|1|Defense",
@@ -16894,7 +16894,7 @@
      "6|7|Common|1|Critical Hit Resist",
      "7|4|Common|1|Attack",
      "7|5|Legend|1|Skill Level Up - Savage Roar",
-     "7|3|Common|0|Max MP",
+     "7|3|Common|1|Max MP",
      "6|13|Common|0|Defense",
      "7|12|Common|1|Critical Hit",
      "7|13|Common|0|Critical Hit Resist",
@@ -16905,34 +16905,34 @@
      "7|6|Common|0|Max HP",
      "7|7|Common|1|Max MP",
      "8|6|Common|0|Defense",
-     "8|3|Legend|0|Skill Level Up - Defiance"
+     "8|3|Legend|1|Skill Level Up - Defiance"
     ],
     "42": [
      "3|8|Common|1|Defense",
      "3|9|Rare|1|Skill Level Up - Impact Hit",
      "3|6|Common|0|Critical Hit Resist",
      "3|7|Legend|1|Skill Level Up - Storm Rampage",
-     "3|4|Common|0|Critical Hit",
+     "3|4|Common|1|Critical Hit",
      "3|5|Common|0|Max MP",
      "3|3|Unique|1|Damage Tolerance",
      "3|12|Common|1|Defense",
      "3|13|Unique|1|Damage Boost",
      "3|10|Common|1|Attack",
      "3|11|Legend|1|Skill Level Up - Insignia Explosion",
-     "4|10|Common|0|Max MP",
+     "4|10|Common|1|Max MP",
      "4|7|Common|0|Max HP",
      "4|5|Rare|1|Skill Level Up - Determination",
      "4|3|Common|1|Attack",
      "5|3|Legend|1|Skill Level Up - Quick Slice",
      "4|13|Common|1|Critical Hit",
-     "5|10|Common|0|Critical Hit Resist",
-     "5|11|Common|1|Max MP",
-     "5|8|Common|0|Max MP",
-     "5|9|Legend|0|Skill Level Up - Shadowstrike",
+     "5|10|Common|1|Critical Hit Resist",
+     "5|11|Common|0|Max MP",
+     "5|8|Common|1|Max MP",
+     "5|9|Legend|1|Skill Level Up - Shadowstrike",
      "5|7|Common|1|Attack",
      "5|4|Common|1|Max HP",
      "5|5|Common|1|Defense",
-     "6|3|Common|0|Critical Hit",
+     "6|3|Common|1|Critical Hit",
      "5|12|Rare|1|Skill Level Up - Revitalization Contract",
      "5|13|Common|1|Attack",
      "6|11|Common|1|Critical Hit",
@@ -16940,15 +16940,15 @@
      "6|7|Rare|1|Skill Level Up - Defense Break",
      "6|5|Common|1|Max MP",
      "6|6|Common|1|Critical Hit Resist",
-     "7|4|Common|0|Max HP",
-     "7|5|Legend|0|Skill Level Up - Ambush",
+     "7|4|Common|1|Max HP",
+     "7|5|Legend|1|Skill Level Up - Ambush",
      "7|3|Common|0|Defense",
      "6|13|Common|1|Critical Hit Resist",
      "7|12|Common|1|Attack",
      "7|13|Legend|1|Skill Level Up - Savage Roar",
      "7|10|Rare|1|Skill Level Up - Ambush Stance",
      "7|11|Common|1|Max HP",
-     "7|9|Common|1|Max MP",
+     "7|9|Common|0|Max MP",
      "7|7|Common|1|Critical Hit",
      "8|4|Common|0|Attack",
      "8|12|Common|0|Defense",
@@ -16959,11 +16959,11 @@
      "9|7|Common|1|Max HP",
      "9|4|Common|0|Defense",
      "9|5|Common|0|Max MP",
-     "9|3|Legend|0|Skill Level Up - Flash Slice",
+     "9|3|Legend|1|Skill Level Up - Flash Slice",
      "9|12|Common|0|Max MP",
      "9|13|Common|0|Attack",
      "9|11|Legend|0|Skill Level Up - Shadow Fall",
-     "9|9|Common|1|Critical Hit Resist",
+     "9|9|Common|0|Critical Hit Resist",
      "10|7|Common|1|Critical Hit Resist",
      "10|5|Common|0|Critical Hit Resist",
      "10|3|Common|1|Critical Hit",
@@ -16990,7 +16990,7 @@
      "13|10|Common|1|Critical Hit",
      "13|11|Common|1|Max HP",
      "13|8|Common|1|Attack",
-     "13|9|Legend|0|Skill Level Up - Defiance",
+     "13|9|Legend|1|Skill Level Up - Defiance",
      "13|6|Common|1|Defense",
      "13|7|Rare|1|Skill Level Up - Impact Hit",
      "13|4|Common|1|Attack",
@@ -17000,17 +17000,17 @@
     ],
     "43": [
      "6|12|Common|1|Critical Hit Resist",
-     "6|9|Rare|1|Skill Level Up - Defense Break",
+     "6|9|Rare|0|Skill Level Up - Defense Break",
      "6|7|Common|1|Critical Hit",
-     "7|4|Common|1|Max MP",
-     "7|5|Common|1|Defense",
-     "7|3|Common|1|Attack",
+     "7|4|Common|0|Max MP",
+     "7|5|Common|0|Defense",
+     "7|3|Common|0|Attack",
      "7|12|Common|1|Max HP",
      "7|13|Common|1|Critical Hit",
-     "7|10|Common|1|Defense",
+     "7|10|Common|0|Defense",
      "7|11|Legend|1|Skill Level Up - Heart Gore",
      "7|8|Common|1|Attack",
-     "7|9|Common|1|Critical Hit Resist",
+     "7|9|Common|0|Critical Hit Resist",
      "7|6|Rare|1|Skill Level Up - Revitalization Contract",
      "7|7|Common|1|Max HP",
      "8|6|Common|0|Max MP",
@@ -17022,7 +17022,7 @@
      "9|7|Common|1|Critical Hit",
      "9|4|Common|1|Max MP",
      "9|5|Legend|1|Skill Level Up - Insignia Explosion",
-     "9|3|Common|1|Critical Hit Resist",
+     "9|3|Common|0|Critical Hit Resist",
      "9|12|Common|1|Max HP",
      "9|13|Common|1|Defense",
      "9|10|Rare|1|Skill Level Up - Determination",
@@ -17036,7 +17036,7 @@
      "11|8|Common|0|Max MP",
      "11|9|Legend|1|Skill Level Up - Ambush",
      "11|6|Common|0|Critical Hit Resist",
-     "11|7|Common|1|Max HP",
+     "11|7|Common|0|Max HP",
      "11|4|Common|1|Defense",
      "11|5|Legend|1|Skill Level Up - Savage Roar",
      "11|3|Rare|1|Skill Level Up - Ambush Stance",
@@ -17045,7 +17045,7 @@
      "11|11|Common|0|Max MP",
      "12|9|Common|1|Max HP",
      "12|10|Common|0|Critical Hit Resist",
-     "12|7|Common|1|Attack",
+     "12|7|Common|0|Attack",
      "12|5|Common|1|Attack",
      "12|3|Common|1|Max HP",
      "13|3|Unique|0|Critical Damage Tolerance",
@@ -17062,7 +17062,7 @@
      "13|13|Unique|1|Critical Damage Boost",
      "3|8|Legend|0|Skill Level Up - Storm Rampage",
      "3|9|Common|0|Attack",
-     "3|7|Common|0|Critical Hit Resist",
+     "3|7|Common|1|Critical Hit Resist",
      "3|4|Common|1|Critical Hit Resist",
      "3|5|Rare|1|Skill Level Up - Heightened Sixth Sense",
      "3|3|Unique|1|Critical Damage Boost",
@@ -17071,21 +17071,21 @@
      "3|10|Rare|0|Skill Level Up - Apply Poison",
      "3|11|Common|0|Critical Hit Resist",
      "4|9|Common|0|Defense",
-     "4|7|Common|0|Max MP",
+     "4|7|Common|1|Max MP",
      "4|5|Common|1|Attack",
      "4|6|Common|1|Critical Hit",
      "4|3|Common|1|Critical Hit",
-     "5|3|Common|1|Defense",
+     "5|3|Common|0|Defense",
      "4|13|Common|0|Max MP",
      "4|11|Common|0|Defense",
      "5|10|Common|0|Max HP",
      "5|11|Legend|0|Skill Level Up - Flash Slice",
      "5|8|Common|1|Critical Hit",
-     "5|9|Common|1|Max MP",
-     "5|7|Legend|0|Skill Level Up - Shadow Fall",
-     "5|4|Legend|1|Skill Level Up - Shadowstrike",
+     "5|9|Common|0|Max MP",
+     "5|7|Legend|1|Skill Level Up - Shadow Fall",
+     "5|4|Legend|0|Skill Level Up - Shadowstrike",
      "5|5|Common|0|Max HP",
-     "6|4|Common|1|Critical Hit Resist",
+     "6|4|Common|0|Critical Hit Resist",
      "5|12|Common|1|Attack",
      "5|13|Rare|1|Skill Level Up - Assault Stance"
     ],
@@ -17549,7 +17549,7 @@
       "id": 13070000,
       "name": "Shadowstrike",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -17559,7 +17559,7 @@
       "id": 13060000,
       "name": "Ambush",
       "needLevel": 3,
-      "skillLevel": 7
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -17589,7 +17589,7 @@
       "id": 13210000,
       "name": "Whirlwind Slice",
       "needLevel": 7,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -17599,7 +17599,7 @@
       "id": 13050000,
       "name": "Flash Slice",
       "needLevel": 8,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -17609,7 +17609,7 @@
       "id": 13360000,
       "name": "Infiltrate",
       "needLevel": 10,
-      "skillLevel": 14
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -17619,7 +17619,7 @@
       "id": 13220000,
       "name": "Shadow Fall",
       "needLevel": 12,
-      "skillLevel": 3
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -17639,7 +17639,7 @@
       "id": 13260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 3
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -17719,7 +17719,7 @@
       "id": 13780000,
       "name": "Defense Break",
       "needLevel": 21,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -38037,8 +38037,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 05:35 UTC",
+ "updated": "2026-11-18 06:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 06:02",
+   "n": "DeathRunner",
+   "x": "opened 5 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-18 06:02",
+   "n": "DeathRunner",
+   "x": "skills up: Ambush 14, Whirlwind Slice 3, Flash Slice 12, Shadow Fall 4 and 1 more"
+  },
   {
    "t": "2026-11-18 05:32",
    "n": "DeathRunner",
@@ -39528,16 +39538,6 @@
    "t": "2026-11-15 14:01",
    "n": "YasuoMain16",
    "x": "skills up: Judgment 15, Debilitating Smash 15, Enhance Health 14, Insulting Roar 13"
-  },
-  {
-   "t": "2026-11-15 11:02",
-   "n": "Darya",
-   "x": "skills up: Triniel's Dagger 12"
-  },
-  {
-   "t": "2026-11-15 04:33",
-   "n": "uTril",
-   "x": "skills up: Empyrean Lords' Benediction 15"
   }
  ]
 }

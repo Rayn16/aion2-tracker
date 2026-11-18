@@ -124,13 +124,13 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 145003,
+     "cp": 145487,
      "il": 2703
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 145003,
+   "cp": 145487,
    "il": 2703,
    "gear": [
     {
@@ -6720,14 +6720,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 132828,
+     "cp": 134672,
      "il": 2684
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 132828,
+   "cp": 134672,
    "il": 2684,
    "gear": [
     {
@@ -7449,10 +7449,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.5%"
+      "Attack increase +7%"
      ],
      "type": "STR",
-     "value": 45
+     "value": 70
     },
     {
      "name": "Dexterity",
@@ -7483,11 +7483,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2.9%",
-      "Critical Hit increase +2.9%"
+      "Accuracy increase +0.4%",
+      "Critical Hit increase +0.4%"
      ],
      "type": "AGI",
-     "value": 29
+     "value": 4
     },
     {
      "name": "Willpower",
@@ -8568,7 +8568,7 @@
       "id": 18710000,
       "name": "Blessing of Life",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -10946,10 +10946,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4%"
+      "Attack increase +4.1%"
      ],
      "type": "STR",
-     "value": 40
+     "value": 41
     },
     {
      "name": "Dexterity",
@@ -14779,10 +14779,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.8%"
+      "Attack increase +2.9%"
      ],
      "type": "STR",
-     "value": 28
+     "value": 29
     },
     {
      "name": "Dexterity",
@@ -15781,15 +15781,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 159156,
-     "il": 2817
+     "cp": 158781,
+     "il": 2821
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 159156,
-   "il": 2817,
+   "cp": 158781,
+   "il": 2821,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16528,10 +16528,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +7.1%"
+      "Attack increase +7.2%"
      ],
      "type": "STR",
-     "value": 71
+     "value": 72
     },
     {
      "name": "Dexterity",
@@ -16597,11 +16597,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -4.6%",
-      "Endurance Penetration +4.6%"
+      "Cooldown -5%",
+      "Endurance Penetration +5%"
      ],
      "type": "Illusion",
-     "value": 46
+     "value": 50
     },
     {
      "name": "Life [Yustiel]",
@@ -16642,20 +16642,20 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -3%",
-      "Double Chance +3%"
+      "MP Cost -3.4%",
+      "Double Chance +3.4%"
      ],
      "type": "Wisdom",
-     "value": 30
+     "value": 34
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +2.3%",
-      "Endurance +2.3%"
+      "MP increase +2.7%",
+      "Endurance +2.7%"
      ],
      "type": "Destiny",
-     "value": 23
+     "value": 27
     },
     {
      "name": "Space [Israphel]",
@@ -16670,37 +16670,12 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2817
+     "value": 2821
     }
    ],
    "title": {
-    "ownedCount": 213,
+    "ownedCount": 214,
     "titleList": [
-     {
-      "equipCategory": "Etc",
-      "equipStatList": [
-       {
-        "desc": "Cooldown Reduction +3%"
-       },
-       {
-        "desc": "HP +900"
-       },
-       {
-        "desc": "Stamina +225"
-       }
-      ],
-      "grade": "Unique",
-      "id": 22010061,
-      "name": "Through Hell and Back",
-      "ownedCount": 72,
-      "ownedPercent": 71,
-      "statList": [
-       {
-        "desc": "Block +10"
-       }
-      ],
-      "totalCount": 102
-     },
      {
       "equipCategory": "Defense",
       "equipStatList": [
@@ -16750,6 +16725,31 @@
        }
       ],
       "totalCount": 106
+     },
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "Combat Speed +3%"
+       },
+       {
+        "desc": "Natural Stamina Regen +28"
+       },
+       {
+        "desc": "HP +900"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23051004,
+      "name": "Journey's Path",
+      "ownedCount": 73,
+      "ownedPercent": 72,
+      "statList": [
+       {
+        "desc": "Accuracy Bonus +10"
+       }
+      ],
+      "totalCount": 102
      }
     ],
     "totalCount": 307
@@ -16800,8 +16800,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 15,
-      "openPercent": 10,
+      "openNodeCount": 17,
+      "openPercent": 11,
       "totalNodeCount": 152
      },
      {
@@ -17243,7 +17243,7 @@
      "7|13|Common|0|PvE Defense",
      "7|10|Common|0|Boss Defense",
      "7|11|Legend|0|Boss Damage Tolerance",
-     "7|8|Common|1|PvE Attack",
+     "7|8|Common|0|PvE Attack",
      "7|6|Common|0|Boss Attack",
      "8|6|Common|0|PvE Accuracy",
      "8|3|Common|0|Max HP",
@@ -17267,7 +17267,7 @@
      "9|12|Rare|0|Boss Attack, Boss Defense",
      "9|13|Common|0|PvE Accuracy",
      "9|10|Common|1|Boss Attack",
-     "9|11|Common|1|Boss Defense",
+     "9|11|Common|0|Boss Defense",
      "9|8|Common|1|PvE Attack",
      "10|7|Rare|1|Boss Attack, Boss Defense",
      "10|8|Common|1|Max MP",
@@ -17286,18 +17286,18 @@
      "12|2|Common|0|PvE Evasion",
      "11|14|Common|0|Boss Defense",
      "11|15|Rare|0|PvE Accuracy, PvE Evasion",
-     "11|12|Legend|0|Boss Damage Tolerance",
+     "11|12|Legend|1|Boss Damage Tolerance",
      "11|13|Common|0|Boss Attack",
      "12|9|Rare|1|PvE Accuracy, PvE Evasion",
-     "12|10|Common|0|Boss Defense",
+     "12|10|Common|1|Boss Defense",
      "12|6|Legend|0|Critical Hit Resist",
      "12|4|Rare|0|PvE Attack, PvE Defense",
      "13|2|Common|0|PvE Accuracy",
      "13|3|Common|0|PvE Defense",
      "13|1|Rare|0|Boss Attack, Boss Defense",
      "12|14|Common|0|PvE Attack",
-     "12|11|Common|0|PvE Attack",
-     "12|12|Common|0|PvE Accuracy",
+     "12|11|Common|1|PvE Attack",
+     "12|12|Common|1|PvE Accuracy",
      "13|8|Common|0|PvE Evasion",
      "13|9|Common|1|Boss Attack",
      "13|6|Common|0|Boss Defense",
@@ -17883,9 +17883,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -38037,8 +38037,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 02:35 UTC",
+ "updated": "2026-11-18 03:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 03:04",
+   "n": "CutieCatty",
+   "x": "skills up: Blessing of Life 16"
+  },
+  {
+   "t": "2026-11-18 03:02",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-18 03:02",
+   "n": "DeathRunner",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-18 02:04",
    "n": "CutieCatty",
@@ -39523,21 +39538,6 @@
    "t": "2026-11-14 23:02",
    "n": "DeathRunner",
    "x": "skills up: Storm Rampage 14"
-  },
-  {
-   "t": "2026-11-14 20:53",
-   "n": "CuteCatty",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-14 19:04",
-   "n": "CuteCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-14 18:34",
-   "n": "YasuoMain8",
-   "x": "reached level 35"
   }
  ]
 }

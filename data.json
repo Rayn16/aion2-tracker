@@ -2355,13 +2355,13 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 88215,
+     "cp": 88221,
      "il": 1929
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 88215,
+   "cp": 88221,
    "il": 1929,
    "gear": [
     {
@@ -4534,15 +4534,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 85841,
-     "il": 1910
+     "cp": 86024,
+     "il": 1923
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 85841,
-   "il": 1910,
+   "cp": 86024,
+   "il": 1923,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4736,31 +4736,31 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Bakarma Pauldrons",
+     "name": "Vakron Pauldrons",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Shoulder.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Shoulder.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+60",
-       "Rare"
+       "Critical Hit",
+       "+5",
+       "Common"
       ],
       [
-       "MP",
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Defense",
        "+30",
-       "Rare"
-      ],
-      [
-       "Critical Hit Resist",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Evasion Bonus",
-       "+7",
        "Rare"
       ]
      ],
@@ -5263,10 +5263,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +4.7%"
+      "HP increase +3.3%"
      ],
      "type": "CON",
-     "value": 47
+     "value": 33
     },
     {
      "name": "Precision",
@@ -5377,7 +5377,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1910
+     "value": 1923
     }
    ],
    "title": {
@@ -6366,7 +6366,7 @@
       "id": 17720000,
       "name": "Empyrean Lords' Benediction",
       "needLevel": 6,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -6376,7 +6376,7 @@
       "id": 17730000,
       "name": "Empyrean Lord's Grace",
       "needLevel": 9,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -6406,7 +6406,7 @@
       "id": 17760000,
       "name": "Heal Block",
       "needLevel": 15,
-      "skillLevel": 9
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -17972,15 +17972,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 128073,
-     "il": 2616
+     "cp": 132456,
+     "il": 2632
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 128073,
-   "il": 2616,
+   "cp": 132456,
+   "il": 2632,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -18256,7 +18256,7 @@
      "slotPosName": "Boots",
      "name": "Vakron Boots",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Boots.png",
      "max": 15,
      "slots": 4,
@@ -18423,7 +18423,7 @@
      "slotPosName": "Earring1",
      "name": "Enraged Kromede Earrings",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
      "max": 15,
      "slots": 4,
@@ -18537,7 +18537,7 @@
      "slotPosName": "Bracelet1",
      "name": "Ascension Bracelet",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png",
      "max": 15,
      "slots": 4,
@@ -18663,10 +18663,10 @@
     },
     {
      "slotPosName": "Arcana2",
-     "name": "Parchment of Magic",
+     "name": "Parchment of Vigor",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 4,
      "slots": 0,
      "stones": [],
@@ -18719,10 +18719,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.1%"
+      "Attack increase +5.6%"
      ],
      "type": "STR",
-     "value": 31
+     "value": 56
     },
     {
      "name": "Dexterity",
@@ -18774,11 +18774,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +2.8%",
-      "Evasion increase +2.8%"
+      "Accuracy increase +3.8%",
+      "Evasion increase +3.8%"
      ],
      "type": "Freedom",
-     "value": 28
+     "value": 38
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -18792,11 +18792,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +1.9%",
-      "Regeneration +1.9%"
+      "HP increase +3.5%",
+      "Regeneration +3.5%"
      ],
      "type": "Life",
-     "value": 19
+     "value": 35
     },
     {
      "name": "Time [Siel]",
@@ -18837,56 +18837,31 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +2.7%",
-      "Endurance +2.7%"
+      "MP increase +1.1%",
+      "Endurance +1.1%"
      ],
      "type": "Destiny",
-     "value": 27
+     "value": 11
     },
     {
      "name": "Space [Israphel]",
      "statSecondList": [
-      "Move Speed +4.8%",
-      "Block increase +4.8%"
+      "Move Speed +3.8%",
+      "Block increase +3.8%"
      ],
      "type": "Space",
-     "value": 48
+     "value": 38
     },
     {
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2616
+     "value": 2632
     }
    ],
    "title": {
     "ownedCount": 198,
     "titleList": [
-     {
-      "equipCategory": "Etc",
-      "equipStatList": [
-       {
-        "desc": "Cooldown Reduction +3%"
-       },
-       {
-        "desc": "HP +900"
-       },
-       {
-        "desc": "Stamina +225"
-       }
-      ],
-      "grade": "Unique",
-      "id": 22010061,
-      "name": "Through Hell and Back",
-      "ownedCount": 66,
-      "ownedPercent": 65,
-      "statList": [
-       {
-        "desc": "Block +10"
-       }
-      ],
-      "totalCount": 102
-     },
      {
       "equipCategory": "Defense",
       "equipStatList": [
@@ -18911,6 +18886,31 @@
        }
       ],
       "totalCount": 99
+     },
+     {
+      "equipCategory": "Etc",
+      "equipStatList": [
+       {
+        "desc": "HP Potion Recovery +400"
+       },
+       {
+        "desc": "Move Speed +3%"
+       },
+       {
+        "desc": "HP +900"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010010,
+      "name": "Encountering Zikel's Core",
+      "ownedCount": 66,
+      "ownedPercent": 65,
+      "statList": [
+       {
+        "desc": "HP +120"
+       }
+      ],
+      "totalCount": 102
      },
      {
       "equipCategory": "Attack",
@@ -19560,7 +19560,7 @@
       "id": 15210000,
       "name": "Flame Arrow",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -19580,7 +19580,7 @@
       "id": 15040000,
       "name": "Firestorm",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -19600,7 +19600,7 @@
       "id": 15050000,
       "name": "Blaze",
       "needLevel": 4,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -19640,7 +19640,7 @@
       "id": 15220000,
       "name": "Frost Burst",
       "needLevel": 10,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -19700,7 +19700,7 @@
       "id": 15730000,
       "name": "Cold Snap",
       "needLevel": 9,
-      "skillLevel": 11
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -19760,7 +19760,7 @@
       "id": 15790000,
       "name": "Revitalization Contract",
       "needLevel": 23,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -38037,8 +38037,43 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 00:20 UTC",
+ "updated": "2026-11-18 00:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 00:34",
+   "n": "CuteCatty",
+   "x": "new Vakron Pauldrons +10"
+  },
+  {
+   "t": "2026-11-18 00:34",
+   "n": "CuteCatty",
+   "x": "skills up: Empyrean Lords' Benediction 7, Empyrean Lord's Grace 14"
+  },
+  {
+   "t": "2026-11-18 00:32",
+   "n": "IBrook",
+   "x": "Vakron Boots +10 → +11"
+  },
+  {
+   "t": "2026-11-18 00:32",
+   "n": "IBrook",
+   "x": "Enraged Kromede Earrings +10 → +11"
+  },
+  {
+   "t": "2026-11-18 00:32",
+   "n": "IBrook",
+   "x": "Ascension Bracelet +10 → +11"
+  },
+  {
+   "t": "2026-11-18 00:32",
+   "n": "IBrook",
+   "x": "new Parchment of Vigor +0"
+  },
+  {
+   "t": "2026-11-18 00:32",
+   "n": "IBrook",
+   "x": "skills up: Blaze 15, Revitalization Contract 5"
+  },
   {
    "t": "2026-11-18 00:07",
    "n": "IBrook",
@@ -39503,41 +39538,6 @@
    "t": "2026-11-14 18:04",
    "n": "RyBear",
    "x": "skills up: Survival Stance 15, Blood Absorption 14"
-  },
-  {
-   "t": "2026-11-14 17:35",
-   "n": "YasuoMain8",
-   "x": "reached level 34"
-  },
-  {
-   "t": "2026-11-14 17:35",
-   "n": "YasuoMain8",
-   "x": "3 new titles"
-  },
-  {
-   "t": "2026-11-14 17:34",
-   "n": "RyBear",
-   "x": "Anguish Breastplate +0 → +5"
-  },
-  {
-   "t": "2026-11-14 17:34",
-   "n": "RyBear",
-   "x": "Anguish Greaves +0 → +5"
-  },
-  {
-   "t": "2026-11-14 17:34",
-   "n": "RyBear",
-   "x": "new Bakarma Helm +10"
-  },
-  {
-   "t": "2026-11-14 17:34",
-   "n": "RyBear",
-   "x": "Liberator Pauldrons +0 → +5"
-  },
-  {
-   "t": "2026-11-14 17:34",
-   "n": "RyBear",
-   "x": "Anguish Boots +0 → +5"
   }
  ]
 }

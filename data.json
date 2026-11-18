@@ -15781,14 +15781,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 162540,
+     "cp": 162657,
      "il": 2828
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 162540,
+   "cp": 162657,
    "il": 2828,
    "gear": [
     {
@@ -16536,12 +16536,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +4%",
-      "Block increase +4%",
-      "Critical Hit Resist increase +4%"
+      "Evasion increase +7.9%",
+      "Block increase +7.9%",
+      "Critical Hit Resist increase +7.9%"
      ],
      "type": "DEX",
-     "value": 40
+     "value": 79
     },
     {
      "name": "Intelligence",
@@ -17679,7 +17679,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -17972,14 +17972,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 132456,
+     "cp": 132539,
      "il": 2632
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 132456,
+   "cp": 132539,
    "il": 2632,
    "gear": [
     {
@@ -18860,7 +18860,7 @@
     }
    ],
    "title": {
-    "ownedCount": 198,
+    "ownedCount": 199,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -18878,8 +18878,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 66,
-      "ownedPercent": 67,
+      "ownedCount": 67,
+      "ownedPercent": 68,
       "statList": [
        {
         "desc": "MP +20"
@@ -30419,14 +30419,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 121470,
+     "cp": 121485,
      "il": 2627
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 121470,
+   "cp": 121485,
    "il": 2627,
    "gear": [
     {
@@ -38037,8 +38037,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 13:05 UTC",
+ "updated": "2026-11-18 13:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 13:32",
+   "n": "IBrook",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-18 13:32",
+   "n": "DeathRunner",
+   "x": "skills up: Rear Smite 17"
+  },
   {
    "t": "2026-11-18 13:04",
    "n": "CuteCatty",
@@ -39528,16 +39538,6 @@
    "t": "2026-11-15 14:35",
    "n": "YasuoMain8",
    "x": "new Chaser Ring +0"
-  },
-  {
-   "t": "2026-11-15 14:35",
-   "n": "YasuoMain8",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-15 14:04",
-   "n": "CuteCatty",
-   "x": "Bakarma Cloak +0 → +10"
   }
  ]
 }

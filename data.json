@@ -2355,14 +2355,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 88402,
-     "il": 1929
+     "cp": 88522,
+     "il": 1931
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 88402,
-   "il": 1929,
+   "cp": 88522,
+   "il": 1931,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -2999,7 +2999,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 2,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -3190,7 +3190,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1929
+     "value": 1931
     }
    ],
    "title": {
@@ -38037,8 +38037,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 15:05 UTC",
+ "updated": "2026-11-18 15:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 15:31",
+   "n": "YasuoMain16",
+   "x": "Revelation Amulet +0 → +2"
+  },
   {
    "t": "2026-11-18 15:01",
    "n": "YasuoMain16",
@@ -39533,11 +39538,6 @@
    "t": "2026-11-15 14:35",
    "n": "YasuoMain8",
    "x": "new Chaser Helm +0"
-  },
-  {
-   "t": "2026-11-15 14:35",
-   "n": "YasuoMain8",
-   "x": "new Chaser Pauldrons +0"
   }
  ]
 }

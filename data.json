@@ -15781,14 +15781,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 163033,
+     "cp": 162651,
      "il": 2828
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 163033,
+   "cp": 162651,
    "il": 2828,
    "gear": [
     {
@@ -17883,9 +17883,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
-     "id": 40201900,
-     "name": "Dark Veil Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -38037,7 +38037,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 21:35 UTC",
+ "updated": "2026-11-18 22:05 UTC",
  "feed": [
   {
    "t": "2026-11-18 21:32",

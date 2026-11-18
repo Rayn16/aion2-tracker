@@ -2355,13 +2355,13 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 88221,
+     "cp": 88402,
      "il": 1929
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 88221,
+   "cp": 88402,
    "il": 1929,
    "gear": [
     {
@@ -3194,7 +3194,7 @@
     }
    ],
    "title": {
-    "ownedCount": 181,
+    "ownedCount": 182,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -3237,7 +3237,7 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 61,
+      "ownedCount": 62,
       "ownedPercent": 58,
       "statList": [
        {
@@ -38037,8 +38037,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 14:35 UTC",
+ "updated": "2026-11-18 15:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 15:01",
+   "n": "YasuoMain16",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-18 13:32",
    "n": "IBrook",
@@ -39533,11 +39538,6 @@
    "t": "2026-11-15 14:35",
    "n": "YasuoMain8",
    "x": "new Chaser Pauldrons +0"
-  },
-  {
-   "t": "2026-11-15 14:35",
-   "n": "YasuoMain8",
-   "x": "new Chaser Ring +0"
   }
  ]
 }

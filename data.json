@@ -4534,15 +4534,15 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 86024,
-     "il": 1923
+     "cp": 86135,
+     "il": 1924
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 86024,
-   "il": 1923,
+   "cp": 86135,
+   "il": 1924,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -5156,7 +5156,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -5377,7 +5377,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1923
+     "value": 1924
     }
    ],
    "title": {
@@ -10954,12 +10954,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.8%",
-      "Block increase +1.8%",
-      "Critical Hit Resist increase +1.8%"
+      "Evasion increase +1.9%",
+      "Block increase +1.9%",
+      "Critical Hit Resist increase +1.9%"
      ],
      "type": "DEX",
-     "value": 18
+     "value": 19
     },
     {
      "name": "Intelligence",
@@ -10970,19 +10970,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.1%"
+      "HP increase +1.2%"
      ],
      "type": "CON",
-     "value": 11
+     "value": 12
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.4%",
-      "Critical Hit increase +1.4%"
+      "Accuracy increase +1.5%",
+      "Critical Hit increase +1.5%"
      ],
      "type": "AGI",
-     "value": 14
+     "value": 15
     },
     {
      "name": "Willpower",
@@ -14787,12 +14787,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.8%",
-      "Block increase +1.8%",
-      "Critical Hit Resist increase +1.8%"
+      "Evasion increase +1.9%",
+      "Block increase +1.9%",
+      "Critical Hit Resist increase +1.9%"
      ],
      "type": "DEX",
-     "value": 18
+     "value": 19
     },
     {
      "name": "Intelligence",
@@ -14803,19 +14803,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.1%"
+      "HP increase +1.2%"
      ],
      "type": "CON",
-     "value": 11
+     "value": 12
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.4%",
-      "Critical Hit increase +1.4%"
+      "Accuracy increase +1.5%",
+      "Critical Hit increase +1.5%"
      ],
      "type": "AGI",
-     "value": 14
+     "value": 15
     },
     {
      "name": "Willpower",
@@ -15781,14 +15781,14 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 161736,
+     "cp": 162540,
      "il": 2828
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 161736,
+   "cp": 162540,
    "il": 2828,
    "gear": [
     {
@@ -16536,12 +16536,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +3.9%",
-      "Block increase +3.9%",
-      "Critical Hit Resist increase +3.9%"
+      "Evasion increase +4%",
+      "Block increase +4%",
+      "Critical Hit Resist increase +4%"
      ],
      "type": "DEX",
-     "value": 39
+     "value": 40
     },
     {
      "name": "Intelligence",
@@ -16554,19 +16554,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +3.2%"
+      "HP increase +3.3%"
      ],
      "type": "CON",
-     "value": 32
+     "value": 33
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.4%",
-      "Critical Hit increase +1.4%"
+      "Accuracy increase +1.5%",
+      "Critical Hit increase +1.5%"
      ],
      "type": "AGI",
-     "value": 14
+     "value": 15
     },
     {
      "name": "Willpower",
@@ -38037,8 +38037,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 12:35 UTC",
+ "updated": "2026-11-18 13:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 13:04",
+   "n": "CuteCatty",
+   "x": "Revelation Amulet +3 → +4"
+  },
   {
    "t": "2026-11-18 12:31",
    "n": "YasuoMain",
@@ -39533,11 +39538,6 @@
    "t": "2026-11-15 14:04",
    "n": "CuteCatty",
    "x": "Bakarma Cloak +0 → +10"
-  },
-  {
-   "t": "2026-11-15 14:01",
-   "n": "YasuoMain16",
-   "x": "new Aulamus Earrings +10"
   }
  ]
 }

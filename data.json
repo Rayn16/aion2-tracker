@@ -124,13 +124,13 @@
     },
     {
      "date": "2026-11-18",
-     "cp": 148620,
+     "cp": 148628,
      "il": 2740
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 148620,
+   "cp": 148628,
    "il": 2740,
    "gear": [
     {
@@ -1005,7 +1005,7 @@
     }
    ],
    "title": {
-    "ownedCount": 209,
+    "ownedCount": 210,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -1023,8 +1023,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 65,
-      "ownedPercent": 64,
+      "ownedCount": 66,
+      "ownedPercent": 65,
       "statList": [
        {
         "desc": "Block +10"
@@ -16674,7 +16674,7 @@
     }
    ],
    "title": {
-    "ownedCount": 214,
+    "ownedCount": 215,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -16742,8 +16742,8 @@
       "grade": "Unique",
       "id": 23051004,
       "name": "Journey's Path",
-      "ownedCount": 73,
-      "ownedPercent": 72,
+      "ownedCount": 74,
+      "ownedPercent": 73,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
@@ -38037,8 +38037,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 20:05 UTC",
+ "updated": "2026-11-18 20:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 20:32",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-18 20:31",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-18 20:04",
    "n": "CutieCatty",
@@ -39528,16 +39538,6 @@
    "t": "2026-11-15 15:05",
    "n": "YasuoMain8",
    "x": "skills up: Punishment 11, Punishing Benediction 12, Impact Hit 11, Insulting Roar 9 and 1 more"
-  },
-  {
-   "t": "2026-11-15 14:35",
-   "n": "YasuoMain8",
-   "x": "new Chaser Longsword +0"
-  },
-  {
-   "t": "2026-11-15 14:35",
-   "n": "YasuoMain8",
-   "x": "new Chaser Guard +0"
   }
  ]
 }

@@ -121,6 +121,11 @@
      "date": "2026-11-17",
      "cp": 141481,
      "il": 2683
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 141481,
+     "il": 2683
     }
    ],
    "server": "Tassin",
@@ -2347,6 +2352,11 @@
      "date": "2026-11-17",
      "cp": 88215,
      "il": 1929
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 88215,
+     "il": 1929
     }
    ],
    "server": "Tassin",
@@ -4519,6 +4529,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 85841,
+     "il": 1910
+    },
+    {
+     "date": "2026-11-18",
      "cp": 85841,
      "il": 1910
     }
@@ -6702,6 +6717,11 @@
      "date": "2026-11-17",
      "cp": 132419,
      "il": 2673
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 132419,
+     "il": 2673
     }
    ],
    "server": "Tassin",
@@ -8869,6 +8889,11 @@
      "date": "2026-11-17",
      "cp": 48995,
      "il": 1114
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 48995,
+     "il": 1114
     }
    ],
    "server": "Tassin",
@@ -10587,6 +10612,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 60301,
+     "il": 1136
+    },
+    {
+     "date": "2026-11-18",
      "cp": 60301,
      "il": 1136
     }
@@ -12348,6 +12378,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 91380,
+     "il": 1827
+    },
+    {
+     "date": "2026-11-18",
      "cp": 91380,
      "il": 1827
     }
@@ -14454,6 +14489,11 @@
      "date": "2026-11-17",
      "cp": 36746,
      "il": 647
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 36746,
+     "il": 647
     }
    ],
    "server": "Tassin",
@@ -15736,6 +15776,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 159522,
+     "il": 2817
+    },
+    {
+     "date": "2026-11-18",
      "cp": 159522,
      "il": 2817
     }
@@ -17924,13 +17969,18 @@
      "date": "2026-11-17",
      "cp": 124391,
      "il": 2561
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 128073,
+     "il": 2616
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 124391,
-   "il": 2561,
+   "cp": 128073,
+   "il": 2616,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17974,37 +18024,43 @@
     },
     {
      "slotPosName": "SubHand",
-     "name": "Spiritforged Guard",
+     "name": "Nuakum Guard",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png",
+     "enchantLevel": 15,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
      "stones": [
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Evasion Bonus",
-       "+5",
-       "Common"
-      ],
       [
        "Attack",
        "+1",
        "Common"
       ],
       [
-       "Accuracy Bonus",
-       "+5",
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+30",
        "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
       ]
      ],
      "godSlots": 1,
-     "god": [],
-     "src": []
+     "god": [
+      "Theostone: Sif's Knowledge"
+     ],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
     },
     {
      "slotPosName": "Torso",
@@ -18663,10 +18719,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.1%"
+      "Attack increase +3.1%"
      ],
      "type": "STR",
-     "value": 41
+     "value": 31
     },
     {
      "name": "Dexterity",
@@ -18800,7 +18856,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2561
+     "value": 2616
     }
    ],
    "title": {
@@ -19584,7 +19640,7 @@
       "id": 15220000,
       "name": "Frost Burst",
       "needLevel": 10,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -19604,7 +19660,7 @@
       "id": 15060000,
       "name": "Hellfire",
       "needLevel": 14,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -19942,6 +19998,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 23827,
+     "il": 496
+    },
+    {
+     "date": "2026-11-18",
      "cp": 23827,
      "il": 496
     }
@@ -21200,6 +21261,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 91749,
+     "il": 1861
+    },
+    {
+     "date": "2026-11-18",
      "cp": 91749,
      "il": 1861
     }
@@ -22975,6 +23041,11 @@
      "date": "2026-11-17",
      "cp": 25540,
      "il": 450
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 25540,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -24180,6 +24251,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 43540,
+     "il": 799
+    },
+    {
+     "date": "2026-11-18",
      "cp": 43540,
      "il": 799
     }
@@ -25865,6 +25941,11 @@
      "date": "2026-11-17",
      "cp": 18563,
      "il": 361
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 18563,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -27025,6 +27106,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 91325,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-18",
      "cp": 91325,
      "il": 1785
     }
@@ -29121,6 +29207,11 @@
      "date": "2026-11-17",
      "cp": 25763,
      "il": 472
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 25763,
+     "il": 472
     }
    ],
    "server": "Tassin",
@@ -30323,6 +30414,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 121024,
+     "il": 2627
+    },
+    {
+     "date": "2026-11-18",
      "cp": 121024,
      "il": 2627
     }
@@ -32507,6 +32603,11 @@
      "date": "2026-11-17",
      "cp": 74238,
      "il": 1356
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 74238,
+     "il": 1356
     }
    ],
    "server": "Tassin",
@@ -34358,6 +34459,11 @@
      "date": "2026-11-17",
      "cp": 61938,
      "il": 1113
+    },
+    {
+     "date": "2026-11-18",
+     "cp": 61938,
+     "il": 1113
     }
    ],
    "server": "Tassin",
@@ -36106,6 +36212,11 @@
     },
     {
      "date": "2026-11-17",
+     "cp": 69116,
+     "il": 1280
+    },
+    {
+     "date": "2026-11-18",
      "cp": 69116,
      "il": 1280
     }
@@ -37926,8 +38037,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-17 23:35 UTC",
+ "updated": "2026-11-18 00:20 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 00:07",
+   "n": "IBrook",
+   "x": "new Nuakum Guard +15"
+  },
+  {
+   "t": "2026-11-18 00:07",
+   "n": "IBrook",
+   "x": "skills up: Frost Burst 13, Hellfire 16"
+  },
   {
    "t": "2026-11-17 23:04",
    "n": "uTril",
@@ -39417,16 +39538,6 @@
    "t": "2026-11-14 17:34",
    "n": "RyBear",
    "x": "Anguish Boots +0 → +5"
-  },
-  {
-   "t": "2026-11-14 17:34",
-   "n": "RyBear",
-   "x": "Liberator Cloak +0 → +5"
-  },
-  {
-   "t": "2026-11-14 17:03",
-   "n": "Yorichi",
-   "x": "1 new title"
   }
  ]
 }

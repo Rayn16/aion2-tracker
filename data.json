@@ -7593,7 +7593,7 @@
     }
    ],
    "title": {
-    "ownedCount": 215,
+    "ownedCount": 216,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -7611,8 +7611,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 70,
-      "ownedPercent": 69,
+      "ownedCount": 71,
+      "ownedPercent": 70,
       "statList": [
        {
         "desc": "Block +10"
@@ -38037,8 +38037,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-18 19:35 UTC",
+ "updated": "2026-11-18 20:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-18 20:04",
+   "n": "CutieCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-18 15:31",
    "n": "YasuoMain16",
@@ -39533,11 +39538,6 @@
    "t": "2026-11-15 14:35",
    "n": "YasuoMain8",
    "x": "new Chaser Guard +0"
-  },
-  {
-   "t": "2026-11-15 14:35",
-   "n": "YasuoMain8",
-   "x": "new Chaser Helm +0"
   }
  ]
 }

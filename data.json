@@ -11010,12 +11010,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2%",
-      "Block increase +2%",
-      "Critical Hit Resist increase +2%"
+      "Evasion increase +2.1%",
+      "Block increase +2.1%",
+      "Critical Hit Resist increase +2.1%"
      ],
      "type": "DEX",
-     "value": 20
+     "value": 21
     },
     {
      "name": "Intelligence",
@@ -11026,19 +11026,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.2%"
+      "HP increase +1.3%"
      ],
      "type": "CON",
-     "value": 12
+     "value": 13
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.6%",
-      "Critical Hit increase +1.6%"
+      "Accuracy increase +1.7%",
+      "Critical Hit increase +1.7%"
      ],
      "type": "AGI",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Willpower",
@@ -14848,12 +14848,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2%",
-      "Block increase +2%",
-      "Critical Hit Resist increase +2%"
+      "Evasion increase +2.1%",
+      "Block increase +2.1%",
+      "Critical Hit Resist increase +2.1%"
      ],
      "type": "DEX",
-     "value": 20
+     "value": 21
     },
     {
      "name": "Intelligence",
@@ -14864,19 +14864,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.2%"
+      "HP increase +1.3%"
      ],
      "type": "CON",
-     "value": 12
+     "value": 13
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.6%",
-      "Critical Hit increase +1.6%"
+      "Accuracy increase +1.7%",
+      "Critical Hit increase +1.7%"
      ],
      "type": "AGI",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Willpower",
@@ -15847,14 +15847,14 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 161179,
+     "cp": 163170,
      "il": 2829
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 161179,
+   "cp": 163170,
    "il": 2829,
    "gear": [
     {
@@ -16602,12 +16602,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +8%",
-      "Block increase +8%",
-      "Critical Hit Resist increase +8%"
+      "Evasion increase +8.1%",
+      "Block increase +8.1%",
+      "Critical Hit Resist increase +8.1%"
      ],
      "type": "DEX",
-     "value": 80
+     "value": 81
     },
     {
      "name": "Intelligence",
@@ -16620,19 +16620,19 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +3.3%"
+      "HP increase +3.4%"
      ],
      "type": "CON",
-     "value": 33
+     "value": 34
     },
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.6%",
-      "Critical Hit increase +1.6%"
+      "Accuracy increase +1.7%",
+      "Critical Hit increase +1.7%"
      ],
      "type": "AGI",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Willpower",
@@ -38163,7 +38163,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 06:34 UTC",
+ "updated": "2026-11-19 07:04 UTC",
  "feed": [
   {
    "t": "2026-11-19 06:01",

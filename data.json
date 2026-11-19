@@ -1406,7 +1406,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -15847,15 +15847,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 164852,
-     "il": 2859
+     "cp": 163012,
+     "il": 2862
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 164852,
-   "il": 2859,
+   "cp": 163012,
+   "il": 2862,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16736,7 +16736,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2859
+     "value": 2862
     }
    ],
    "title": {
@@ -16866,8 +16866,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 32,
-      "openPercent": 21,
+      "openNodeCount": 34,
+      "openPercent": 22,
       "totalNodeCount": 152
      },
      {
@@ -17330,10 +17330,10 @@
      "9|1|Common|0|PvE Attack",
      "9|14|Rare|0|PvE Attack, PvE Defense",
      "9|15|Common|0|Max HP",
-     "9|12|Rare|0|Boss Attack, Boss Defense",
+     "9|12|Rare|1|Boss Attack, Boss Defense",
      "9|13|Common|0|PvE Accuracy",
      "9|10|Common|1|Boss Attack",
-     "9|11|Common|0|Boss Defense",
+     "9|11|Common|1|Boss Defense",
      "9|8|Common|1|PvE Attack",
      "10|7|Rare|1|Boss Attack, Boss Defense",
      "10|8|Common|1|Max MP",
@@ -17341,7 +17341,7 @@
      "10|4|Common|0|PvE Attack",
      "10|2|Common|0|Boss Attack",
      "10|15|Common|0|PvE Defense",
-     "10|12|Common|0|PvE Evasion",
+     "10|12|Common|1|PvE Evasion",
      "10|9|Common|1|PvE Evasion",
      "10|10|Legend|1|Critical Hit",
      "11|9|Common|1|PvE Defense",
@@ -17355,7 +17355,7 @@
      "11|12|Legend|1|Boss Damage Tolerance",
      "11|13|Common|1|Boss Attack",
      "12|9|Rare|1|PvE Accuracy, PvE Evasion",
-     "12|10|Common|1|Boss Defense",
+     "12|10|Common|0|Boss Defense",
      "12|6|Legend|0|Critical Hit Resist",
      "12|4|Rare|0|PvE Attack, PvE Defense",
      "13|2|Common|0|PvE Accuracy",
@@ -17949,9 +17949,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -38163,8 +38163,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 17:35 UTC",
+ "updated": "2026-11-19 18:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-19 18:02",
+   "n": "DeathRunner",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-19 17:32",
    "n": "DeathRunner",
@@ -39659,11 +39664,6 @@
    "t": "2026-11-15 22:05",
    "n": "YasuoMain8",
    "x": "new Chaser Earrings +0"
-  },
-  {
-   "t": "2026-11-15 22:05",
-   "n": "YasuoMain8",
-   "x": "new Outsider Bracelet +0"
   }
  ]
 }

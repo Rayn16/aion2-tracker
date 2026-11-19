@@ -129,14 +129,14 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 149463,
-     "il": 2755
+     "cp": 149731,
+     "il": 2759
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 149463,
-   "il": 2755,
+   "cp": 149731,
+   "il": 2759,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1006,7 +1006,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2755
+     "value": 2759
     }
    ],
    "title": {
@@ -1136,7 +1136,7 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 24,
+      "openNodeCount": 25,
       "openPercent": 16,
       "totalNodeCount": 152
      },
@@ -2070,7 +2070,7 @@
      "1|1|Unique|0|PvE Damage Boost",
      "1|7|Common|1|PvE Accuracy",
      "1|11|Rare|0|PvE Accuracy, PvE Evasion",
-     "1|8|Unique|0|PvE Damage Boost",
+     "1|8|Unique|1|PvE Damage Boost",
      "1|9|Common|0|Max HP",
      "1|14|Common|0|PvE Attack",
      "1|15|Unique|0|PvE Damage Tolerance",
@@ -15847,15 +15847,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 164822,
-     "il": 2856
+     "cp": 164852,
+     "il": 2859
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 164822,
-   "il": 2856,
+   "cp": 164852,
+   "il": 2859,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16736,7 +16736,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2856
+     "value": 2859
     }
    ],
    "title": {
@@ -16866,8 +16866,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 30,
-      "openPercent": 20,
+      "openNodeCount": 32,
+      "openPercent": 21,
       "totalNodeCount": 152
      },
      {
@@ -17367,14 +17367,14 @@
      "13|8|Common|0|PvE Evasion",
      "13|9|Common|1|Boss Attack",
      "13|6|Common|0|Boss Defense",
-     "13|7|Common|0|PvE Accuracy",
+     "13|7|Common|1|PvE Accuracy",
      "13|4|Common|0|PvE Evasion",
      "13|5|Common|0|PvE Attack",
      "14|3|Legend|0|Critical Hit",
      "14|1|Common|0|Boss Attack",
      "13|14|Legend|1|Boss Damage Boost",
      "13|15|Common|1|PvE Defense",
-     "13|12|Rare|0|PvE Attack, PvE Defense",
+     "13|12|Rare|1|PvE Attack, PvE Defense",
      "14|11|Common|0|PvE Defense",
      "14|12|Common|0|PvE Evasion",
      "14|9|Common|1|PvE Attack",
@@ -38163,8 +38163,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 17:04 UTC",
+ "updated": "2026-11-19 17:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-19 17:32",
+   "n": "DeathRunner",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-19 17:31",
+   "n": "YasuoMain",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-19 16:32",
    "n": "DeathRunner",
@@ -39654,16 +39664,6 @@
    "t": "2026-11-15 22:05",
    "n": "YasuoMain8",
    "x": "new Outsider Bracelet +0"
-  },
-  {
-   "t": "2026-11-15 22:05",
-   "n": "YasuoMain8",
-   "x": "new Chaser Bracelet +0"
-  },
-  {
-   "t": "2026-11-15 22:05",
-   "n": "YasuoMain8",
-   "x": "14 new titles"
   }
  ]
 }

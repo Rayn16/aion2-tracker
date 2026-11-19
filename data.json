@@ -15847,15 +15847,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 163012,
-     "il": 2862
+     "cp": 165741,
+     "il": 2868
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 163012,
-   "il": 2862,
+   "cp": 165741,
+   "il": 2868,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16055,7 +16055,7 @@
      "slotPosName": "Shoulder",
      "name": "Nuakum Pauldrons",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
@@ -16628,11 +16628,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.7%",
-      "Critical Hit increase +1.7%"
+      "Accuracy increase +4.2%",
+      "Critical Hit increase +4.2%"
      ],
      "type": "AGI",
-     "value": 17
+     "value": 42
     },
     {
      "name": "Willpower",
@@ -16736,7 +16736,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2862
+     "value": 2868
     }
    ],
    "title": {
@@ -34583,15 +34583,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 61938,
-     "il": 1113
+     "cp": 61830,
+     "il": 1116
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 61938,
-   "il": 1113,
+   "cp": 61830,
+   "il": 1116,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34793,24 +34793,22 @@
      ]
     },
     {
-     "slotPosName": "Ring2",
-     "name": "Anguish Ring",
+     "slotPosName": "Ring1",
+     "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
+      "Quest"
      ]
     },
     {
-     "slotPosName": "Ring1",
+     "slotPosName": "Ring2",
      "name": "Liberator Ring",
      "grade": "Legend",
      "enchantLevel": 0,
@@ -35081,11 +35079,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1113
+     "value": 1116
     }
    ],
    "title": {
-    "ownedCount": 156,
+    "ownedCount": 157,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -35128,8 +35126,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 55,
-      "ownedPercent": 52,
+      "ownedCount": 56,
+      "ownedPercent": 53,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -36000,7 +35998,7 @@
       "id": 18150000,
       "name": "Heat Wave Blow",
       "needLevel": 7,
-      "skillLevel": 3
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -38163,8 +38161,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 18:05 UTC",
+ "updated": "2026-11-19 18:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-19 18:34",
+   "n": "YasuoMain4",
+   "x": "new Liberator Ring +0"
+  },
+  {
+   "t": "2026-11-19 18:34",
+   "n": "YasuoMain4",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-19 18:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Pauldrons +14 → +15"
+  },
   {
    "t": "2026-11-19 18:02",
    "n": "DeathRunner",
@@ -39649,21 +39662,6 @@
    "t": "2026-11-15 22:35",
    "n": "YasuoMain8",
    "x": "new Liberator Breastplate +0"
-  },
-  {
-   "t": "2026-11-15 22:05",
-   "n": "YasuoMain8",
-   "x": "reached level 39"
-  },
-  {
-   "t": "2026-11-15 22:05",
-   "n": "YasuoMain8",
-   "x": "new Outsider Necklace +0"
-  },
-  {
-   "t": "2026-11-15 22:05",
-   "n": "YasuoMain8",
-   "x": "new Chaser Earrings +0"
   }
  ]
 }

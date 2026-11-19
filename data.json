@@ -11002,20 +11002,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.3%"
+      "Attack increase +4.4%"
      ],
      "type": "STR",
-     "value": 43
+     "value": 44
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2.1%",
-      "Block increase +2.1%",
-      "Critical Hit Resist increase +2.1%"
+      "Evasion increase +2.2%",
+      "Block increase +2.2%",
+      "Critical Hit Resist increase +2.2%"
      ],
      "type": "DEX",
-     "value": 21
+     "value": 22
     },
     {
      "name": "Intelligence",
@@ -14840,20 +14840,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.1%"
+      "Attack increase +3.2%"
      ],
      "type": "STR",
-     "value": 31
+     "value": 32
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2.1%",
-      "Block increase +2.1%",
-      "Critical Hit Resist increase +2.1%"
+      "Evasion increase +2.2%",
+      "Block increase +2.2%",
+      "Critical Hit Resist increase +2.2%"
      ],
      "type": "DEX",
-     "value": 21
+     "value": 22
     },
     {
      "name": "Intelligence",
@@ -15847,15 +15847,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 164345,
-     "il": 2849
+     "cp": 164813,
+     "il": 2856
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 164345,
-   "il": 2849,
+   "cp": 164813,
+   "il": 2856,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16594,20 +16594,20 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +7.4%"
+      "Attack increase +7.5%"
      ],
      "type": "STR",
-     "value": 74
+     "value": 75
     },
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +8.1%",
-      "Block increase +8.1%",
-      "Critical Hit Resist increase +8.1%"
+      "Evasion increase +6.1%",
+      "Block increase +6.1%",
+      "Critical Hit Resist increase +6.1%"
      ],
      "type": "DEX",
-     "value": 81
+     "value": 61
     },
     {
      "name": "Intelligence",
@@ -16620,10 +16620,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +3.6%"
+      "HP increase +4.7%"
      ],
      "type": "CON",
-     "value": 36
+     "value": 47
     },
     {
      "name": "Precision",
@@ -16637,10 +16637,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +2.4%"
+      "Status Effect Resist +4.1%"
      ],
      "type": "WIS",
-     "value": 24
+     "value": 41
     },
     {
      "name": "Justice [Nezekan]",
@@ -16736,11 +16736,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2849
+     "value": 2856
     }
    ],
    "title": {
-    "ownedCount": 215,
+    "ownedCount": 216,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -16783,8 +16783,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 71,
-      "ownedPercent": 67,
+      "ownedCount": 72,
+      "ownedPercent": 68,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -16866,8 +16866,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 29,
-      "openPercent": 19,
+      "openNodeCount": 30,
+      "openPercent": 20,
       "totalNodeCount": 152
      },
      {
@@ -17379,7 +17379,7 @@
      "14|12|Common|0|PvE Evasion",
      "14|9|Common|1|PvE Attack",
      "14|10|Legend|0|Critical Hit Resist",
-     "14|7|Rare|0|PvE Attack, PvE Defense",
+     "14|7|Rare|1|PvE Attack, PvE Defense",
      "14|5|Common|0|Boss Attack",
      "15|4|Common|0|Boss Defense",
      "15|5|Rare|0|PvE Accuracy, PvE Evasion",
@@ -17595,7 +17595,7 @@
       "id": 13010000,
       "name": "Quick Slice",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -38163,8 +38163,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 16:04 UTC",
+ "updated": "2026-11-19 16:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-19 16:32",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-19 16:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-19 16:32",
+   "n": "DeathRunner",
+   "x": "skills up: Quick Slice 17"
+  },
   {
    "t": "2026-11-19 16:02",
    "n": "DeathRunner",
@@ -39649,21 +39664,6 @@
    "t": "2026-11-15 22:05",
    "n": "YasuoMain8",
    "x": "14 new titles"
-  },
-  {
-   "t": "2026-11-15 22:05",
-   "n": "YasuoMain8",
-   "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-15 22:05",
-   "n": "YasuoMain8",
-   "x": "skills up: Poach 8, Shield Smite 12, Shield Rush 12, Impact Hit 13"
-  },
-  {
-   "t": "2026-11-15 22:04",
-   "n": "CutieCatty",
-   "x": "Nuakum Guard +14 → +15"
   }
  ]
 }

@@ -15855,14 +15855,14 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 166198,
+     "cp": 166228,
      "il": 2873
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 166198,
+   "cp": 166228,
    "il": 2873,
    "gear": [
     {
@@ -16748,7 +16748,7 @@
     }
    ],
    "title": {
-    "ownedCount": 221,
+    "ownedCount": 222,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -16816,8 +16816,8 @@
       "grade": "Unique",
       "id": 23051004,
       "name": "Journey's Path",
-      "ownedCount": 75,
-      "ownedPercent": 74,
+      "ownedCount": 76,
+      "ownedPercent": 75,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
@@ -30538,14 +30538,14 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 123459,
+     "cp": 123159,
      "il": 2636
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 123459,
+   "cp": 123159,
    "il": 2636,
    "gear": [
     {
@@ -31427,7 +31427,7 @@
     }
    ],
    "title": {
-    "ownedCount": 197,
+    "ownedCount": 199,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31470,8 +31470,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 66,
-      "ownedPercent": 67,
+      "ownedCount": 67,
+      "ownedPercent": 68,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31495,8 +31495,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 67,
-      "ownedPercent": 63,
+      "ownedCount": 68,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -34595,15 +34595,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 67048,
-     "il": 1160
+     "cp": 67251,
+     "il": 1162
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 67048,
-   "il": 1160,
+   "cp": 67251,
+   "il": 1162,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35093,11 +35093,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1160
+     "value": 1162
     }
    ],
    "title": {
-    "ownedCount": 171,
+    "ownedCount": 173,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -35115,8 +35115,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 53,
-      "ownedPercent": 52,
+      "ownedCount": 55,
+      "ownedPercent": 54,
       "statList": [
        {
         "desc": "Block +10"
@@ -35187,8 +35187,8 @@
       "id": 81,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 53,
-      "openPercent": 60,
+      "openNodeCount": 55,
+      "openPercent": 63,
       "totalNodeCount": 88
      },
      {
@@ -35294,7 +35294,7 @@
      "8|10|Common|1|Attack",
      "10|5|Common|0|Defense",
      "10|7|Common|0|Attack",
-     "10|3|Common|0|Attack",
+     "10|3|Common|1|Attack",
      "9|12|Common|1|Defense",
      "9|13|Common|1|Max HP",
      "9|8|Common|1|Defense",
@@ -35310,7 +35310,7 @@
      "10|9|Common|1|Critical Hit",
      "10|12|Common|1|Max MP",
      "12|7|Common|1|Max HP",
-     "12|9|Common|0|Attack",
+     "12|9|Common|1|Attack",
      "12|10|Common|0|Max HP",
      "12|3|Common|1|Max HP",
      "12|5|Common|1|Critical Hit",
@@ -36062,7 +36062,7 @@
       "id": 18200000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 4
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -36355,14 +36355,14 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 69116,
+     "cp": 69266,
      "il": 1280
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 69116,
+   "cp": 69266,
    "il": 1280,
    "gear": [
     {
@@ -38179,8 +38179,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 20:05 UTC",
+ "updated": "2026-11-19 20:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-19 20:34",
+   "n": "YasuoMain4",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-19 20:34",
+   "n": "YasuoMain4",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-19 20:34",
+   "n": "YasuoMain4",
+   "x": "skills up: Defiance 5"
+  },
+  {
+   "t": "2026-11-19 20:34",
+   "n": "uTril",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-19 20:32",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-19 20:04",
    "n": "YasuoMain4",
@@ -39655,31 +39680,6 @@
    "t": "2026-11-16 00:17",
    "n": "YasuoMain8",
    "x": "skills up: Enhance Health 11, Ironclad Defense 11, Guarding Seal 8, Survival Willpower 10 and 1 more"
-  },
-  {
-   "t": "2026-11-16 00:15",
-   "n": "CutieCatty",
-   "x": "Nuakum Breastplate +0 → +10"
-  },
-  {
-   "t": "2026-11-16 00:15",
-   "n": "CutieCatty",
-   "x": "new Chalice of Magic +3"
-  },
-  {
-   "t": "2026-11-16 00:15",
-   "n": "CutieCatty",
-   "x": "Parchment of Vigor +2 → +3"
-  },
-  {
-   "t": "2026-11-16 00:15",
-   "n": "CutieCatty",
-   "x": "Compass of Vigor +0 → +3"
-  },
-  {
-   "t": "2026-11-16 00:15",
-   "n": "CutieCatty",
-   "x": "Bell of Vigor +2 → +3"
   }
  ]
 }

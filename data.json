@@ -15855,15 +15855,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 166228,
-     "il": 2873
+     "cp": 167340,
+     "il": 2874
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 166228,
-   "il": 2873,
+   "cp": 167340,
+   "il": 2874,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16744,12 +16744,37 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2873
+     "value": 2874
     }
    ],
    "title": {
-    "ownedCount": 222,
+    "ownedCount": 224,
     "titleList": [
+     {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "PvE Damage Boost +4.5%"
+       },
+       {
+        "desc": "Attack Bonus +34"
+       },
+       {
+        "desc": "Critical Hit +68"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010021,
+      "name": "Unbound by Genus",
+      "ownedCount": 73,
+      "ownedPercent": 69,
+      "statList": [
+       {
+        "desc": "PvE Damage Boost +1%"
+       }
+      ],
+      "totalCount": 106
+     },
      {
       "equipCategory": "Defense",
       "equipStatList": [
@@ -16766,39 +16791,14 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 74,
-      "ownedPercent": 75,
+      "ownedCount": 75,
+      "ownedPercent": 76,
       "statList": [
        {
         "desc": "Move Speed +1%"
        }
       ],
       "totalCount": 99
-     },
-     {
-      "equipCategory": "Attack",
-      "equipStatList": [
-       {
-        "desc": "Critical Attack +45"
-       },
-       {
-        "desc": "Critical Damage Boost +3%"
-       },
-       {
-        "desc": "Accuracy Bonus +60"
-       }
-      ],
-      "grade": "Unique",
-      "id": 23050017,
-      "name": "Golden Glow",
-      "ownedCount": 72,
-      "ownedPercent": 68,
-      "statList": [
-       {
-        "desc": "Critical Attack +3"
-       }
-      ],
-      "totalCount": 106
      },
      {
       "equipCategory": "Etc",
@@ -16874,8 +16874,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 37,
-      "openPercent": 24,
+      "openNodeCount": 38,
+      "openPercent": 25,
       "totalNodeCount": 152
      },
      {
@@ -17327,7 +17327,7 @@
      "8|13|Common|0|Max MP",
      "8|9|Common|0|PvE Defense",
      "8|10|Common|0|PvE Accuracy",
-     "8|7|Common|0|PvE Defense",
+     "8|7|Common|1|PvE Defense",
      "8|8|Start|1|Ariel - Start",
      "9|6|Common|1|Boss Defense",
      "9|4|Common|0|PvE Evasion",
@@ -30538,15 +30538,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 123159,
-     "il": 2636
+     "cp": 123189,
+     "il": 2637
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 123159,
-   "il": 2636,
+   "cp": 123189,
+   "il": 2637,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31423,7 +31423,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2636
+     "value": 2637
     }
    ],
    "title": {
@@ -31553,8 +31553,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 11,
-      "openPercent": 7,
+      "openNodeCount": 12,
+      "openPercent": 8,
       "totalNodeCount": 152
      },
      {
@@ -32104,7 +32104,7 @@
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
      "4|6|Common|1|Boss Defense",
      "4|5|Common|1|PvE Attack",
-     "4|4|Common|0|PvE Accuracy",
+     "4|4|Common|1|PvE Accuracy",
      "4|10|Legend|0|Critical Hit Resist",
      "4|7|Rare|1|PvE Accuracy, PvE Evasion",
      "5|14|Legend|0|Boss Damage Boost",
@@ -38179,8 +38179,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 20:35 UTC",
+ "updated": "2026-11-19 21:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-19 21:03",
+   "n": "uTril",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-19 21:02",
+   "n": "DeathRunner",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-19 21:02",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-19 20:34",
    "n": "YasuoMain4",
@@ -39665,21 +39680,6 @@
    "t": "2026-11-16 00:17",
    "n": "YasuoMain8",
    "x": "new Liberator Helm +0"
-  },
-  {
-   "t": "2026-11-16 00:17",
-   "n": "YasuoMain8",
-   "x": "new Liberator Pauldrons +0"
-  },
-  {
-   "t": "2026-11-16 00:17",
-   "n": "YasuoMain8",
-   "x": "6 new titles"
-  },
-  {
-   "t": "2026-11-16 00:17",
-   "n": "YasuoMain8",
-   "x": "skills up: Enhance Health 11, Ironclad Defense 11, Guarding Seal 8, Survival Willpower 10 and 1 more"
   }
  ]
 }

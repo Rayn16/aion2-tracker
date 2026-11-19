@@ -877,9 +877,13 @@
     },
     {
      "name": "Dexterity",
-     "statSecondList": null,
+     "statSecondList": [
+      "Evasion increase +0.1%",
+      "Block increase +0.1%",
+      "Critical Hit Resist increase +0.1%"
+     ],
      "type": "DEX",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Intelligence",
@@ -3097,9 +3101,13 @@
     },
     {
      "name": "Dexterity",
-     "statSecondList": null,
+     "statSecondList": [
+      "Evasion increase +0.1%",
+      "Block increase +0.1%",
+      "Critical Hit Resist increase +0.1%"
+     ],
      "type": "DEX",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Intelligence",
@@ -15847,15 +15855,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 165983,
-     "il": 2870
+     "cp": 166198,
+     "il": 2873
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 165983,
-   "il": 2870,
+   "cp": 166198,
+   "il": 2873,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16736,11 +16744,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2870
+     "value": 2873
     }
    ],
    "title": {
-    "ownedCount": 218,
+    "ownedCount": 221,
     "titleList": [
      {
       "equipCategory": "Defense",
@@ -16758,8 +16766,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 72,
-      "ownedPercent": 73,
+      "ownedCount": 74,
+      "ownedPercent": 75,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -16808,8 +16816,8 @@
       "grade": "Unique",
       "id": 23051004,
       "name": "Journey's Path",
-      "ownedCount": 74,
-      "ownedPercent": 73,
+      "ownedCount": 75,
+      "ownedPercent": 74,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
@@ -16866,8 +16874,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 34,
-      "openPercent": 22,
+      "openNodeCount": 37,
+      "openPercent": 24,
       "totalNodeCount": 152
      },
      {
@@ -17286,7 +17294,7 @@
      "4|14|Common|0|PvE Evasion",
      "4|12|Rare|0|Boss Attack, Boss Defense",
      "5|10|Common|0|PvE Defense",
-     "5|7|Common|0|PvE Defense",
+     "5|7|Common|1|PvE Defense",
      "5|4|Legend|0|Boss Damage Tolerance",
      "6|4|Common|0|PvE Evasion",
      "6|1|Common|0|PvE Defense",
@@ -17296,8 +17304,8 @@
      "6|12|Common|0|PvE Attack",
      "6|9|Rare|0|PvE Attack, PvE Defense",
      "6|10|Common|0|Boss Attack",
-     "6|7|Common|0|PvE Evasion",
-     "6|8|Common|0|Max HP",
+     "6|7|Common|1|PvE Evasion",
+     "6|8|Common|1|Max HP",
      "6|6|Legend|0|Critical Hit",
      "7|4|Rare|0|PvE Attack, PvE Defense",
      "7|5|Common|0|Boss Defense",
@@ -30530,15 +30538,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 122788,
-     "il": 2627
+     "cp": 123459,
+     "il": 2636
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 122788,
-   "il": 2627,
+   "cp": 123459,
+   "il": 2636,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31415,7 +31423,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2627
+     "value": 2636
     }
    ],
    "title": {
@@ -31527,8 +31535,8 @@
       "id": 73,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 57,
-      "openPercent": 65,
+      "openNodeCount": 59,
+      "openPercent": 67,
       "totalNodeCount": 88
      },
      {
@@ -31545,8 +31553,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 8,
-      "openPercent": 5,
+      "openNodeCount": 11,
+      "openPercent": 7,
       "totalNodeCount": 152
      },
      {
@@ -31756,7 +31764,7 @@
      "10|7|Rare|0|Skill Level Up - Heal Block",
      "9|11|Common|1|Attack",
      "9|10|Rare|1|Skill Level Up - Radiant Benediction",
-     "9|9|Common|0|Max MP",
+     "9|9|Common|1|Max MP",
      "9|8|Common|1|Defense",
      "9|13|Common|0|Defense",
      "9|12|Common|1|Max HP",
@@ -31781,7 +31789,7 @@
      "13|6|Rare|1|Skill Level Up - Healing Enhancement",
      "13|5|Common|1|Critical Hit",
      "13|4|Common|1|Max MP",
-     "13|11|Rare|0|Skill Level Up - Empyrean Lords' Benediction",
+     "13|11|Rare|1|Skill Level Up - Empyrean Lords' Benediction",
      "13|9|Common|0|Critical Hit",
      "13|8|Legend|1|Skill Level Up - Defiance",
      "12|13|Common|1|Critical Hit Resist",
@@ -32057,7 +32065,7 @@
      "15|14|Common|0|Boss Attack",
      "1|11|Rare|0|PvE Accuracy, PvE Evasion",
      "1|9|Common|0|Max HP",
-     "1|8|Unique|0|PvE Damage Boost",
+     "1|8|Unique|1|PvE Damage Boost",
      "1|15|Unique|0|PvE Damage Tolerance",
      "1|14|Common|0|PvE Attack",
      "1|13|Common|0|PvE Evasion",
@@ -32094,8 +32102,8 @@
      "5|3|Common|0|Boss Attack",
      "5|2|Common|0|Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
-     "4|6|Common|0|Boss Defense",
-     "4|5|Common|0|PvE Attack",
+     "4|6|Common|1|Boss Defense",
+     "4|5|Common|1|PvE Attack",
      "4|4|Common|0|PvE Accuracy",
      "4|10|Legend|0|Critical Hit Resist",
      "4|7|Rare|1|PvE Accuracy, PvE Evasion",
@@ -32404,7 +32412,7 @@
       "id": 17720000,
       "name": "Empyrean Lords' Benediction",
       "needLevel": 6,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -32424,7 +32432,7 @@
       "id": 17740000,
       "name": "Healing Enhancement",
       "needLevel": 11,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -33190,9 +33198,13 @@
     },
     {
      "name": "Dexterity",
-     "statSecondList": null,
+     "statSecondList": [
+      "Evasion increase +0.1%",
+      "Block increase +0.1%",
+      "Critical Hit Resist increase +0.1%"
+     ],
      "type": "DEX",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Intelligence",
@@ -34583,15 +34595,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 62390,
-     "il": 1117
+     "cp": 67048,
+     "il": 1160
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 62390,
-   "il": 1117,
+   "cp": 67048,
+   "il": 1160,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -34747,18 +34759,16 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Silent Necklace",
+     "name": "Liberator Necklace",
      "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0020.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0071.png",
      "max": 10,
      "slots": 3,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Reward Chest",
-      "Expedition",
       "Quest"
      ]
     },
@@ -34894,7 +34904,7 @@
      "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 2,
+     "enchantLevel": 6,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -34910,7 +34920,7 @@
      "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 2,
+     "enchantLevel": 6,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -34950,9 +34960,13 @@
     },
     {
      "name": "Dexterity",
-     "statSecondList": null,
+     "statSecondList": [
+      "Evasion increase +0.1%",
+      "Block increase +0.1%",
+      "Critical Hit Resist increase +0.1%"
+     ],
      "type": "DEX",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Intelligence",
@@ -35079,11 +35093,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1117
+     "value": 1160
     }
    ],
    "title": {
-    "ownedCount": 159,
+    "ownedCount": 171,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -35101,8 +35115,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 50,
-      "ownedPercent": 49,
+      "ownedCount": 53,
+      "ownedPercent": 52,
       "statList": [
        {
         "desc": "Block +10"
@@ -35126,8 +35140,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 56,
-      "ownedPercent": 53,
+      "ownedCount": 59,
+      "ownedPercent": 56,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -35151,8 +35165,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 53,
-      "ownedPercent": 54,
+      "ownedCount": 59,
+      "ownedPercent": 60,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -35173,8 +35187,8 @@
       "id": 81,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 51,
-      "openPercent": 58,
+      "openNodeCount": 53,
+      "openPercent": 60,
       "totalNodeCount": 88
      },
      {
@@ -35191,8 +35205,8 @@
       "id": 83,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 37,
-      "openPercent": 42,
+      "openNodeCount": 44,
+      "openPercent": 50,
       "totalNodeCount": 88
      },
      {
@@ -35200,8 +35214,8 @@
       "id": 84,
       "name": "Triniel",
       "open": 1,
-      "openNodeCount": 46,
-      "openPercent": 40,
+      "openNodeCount": 54,
+      "openPercent": 47,
       "totalNodeCount": 116
      },
      {
@@ -35290,7 +35304,7 @@
      "11|7|Common|1|Max MP",
      "11|8|Legend|1|Skill Level Up - Impactful Crush",
      "11|9|Common|1|Critical Hit Resist",
-     "11|3|Rare|0|Skill Level Up - Attack Preparation",
+     "11|3|Rare|1|Skill Level Up - Attack Preparation",
      "11|4|Common|0|Max MP",
      "11|5|Legend|1|Skill Level Up - Tremor Crush",
      "10|9|Common|1|Critical Hit",
@@ -35298,7 +35312,7 @@
      "12|7|Common|1|Max HP",
      "12|9|Common|0|Attack",
      "12|10|Common|0|Max HP",
-     "12|3|Common|0|Max HP",
+     "12|3|Common|1|Max HP",
      "12|5|Common|1|Critical Hit",
      "12|6|Common|1|Attack",
      "11|11|Common|1|Max MP",
@@ -35412,8 +35426,8 @@
      "3|11|Common|0|Critical Hit Resist",
      "3|12|Common|0|Max HP",
      "3|13|Unique|0|Critical Damage Tolerance",
-     "3|7|Common|0|Critical Hit Resist",
-     "3|8|Legend|0|Skill Level Up - Gust Rampage",
+     "3|7|Common|1|Critical Hit Resist",
+     "3|8|Legend|1|Skill Level Up - Gust Rampage",
      "3|9|Common|0|Attack",
      "3|3|Unique|1|Critical Damage Boost",
      "3|4|Common|1|Critical Hit Resist",
@@ -35433,8 +35447,8 @@
      "5|9|Common|0|Max MP",
      "5|10|Common|0|Max HP",
      "5|11|Legend|0|Skill Level Up - Recuperation",
-     "5|4|Legend|0|Skill Level Up - Charging Smash",
-     "5|5|Common|0|Max HP",
+     "5|4|Legend|1|Skill Level Up - Charging Smash",
+     "5|5|Common|1|Max HP",
      "5|7|Legend|1|Skill Level Up - Wave Blow",
      "7|3|Common|0|Attack",
      "7|4|Common|0|Max MP",
@@ -35481,7 +35495,7 @@
      "12|9|Common|1|Max HP",
      "12|10|Common|1|Critical Hit Resist",
      "12|3|Common|0|Max HP",
-     "12|5|Common|0|Attack",
+     "12|5|Common|1|Attack",
      "11|11|Common|0|Max MP",
      "11|12|Legend|0|Skill Level Up - Tremor Crush",
      "11|13|Common|0|Attack",
@@ -35489,8 +35503,8 @@
      "13|9|Common|0|Critical Hit",
      "13|11|Rare|1|Skill Level Up - Crossguard",
      "13|4|Common|0|Max MP",
-     "13|5|Common|0|Critical Hit",
-     "13|6|Rare|0|Skill Level Up - Inspiring Spell",
+     "13|5|Common|1|Critical Hit",
+     "13|6|Rare|1|Skill Level Up - Inspiring Spell",
      "13|7|Common|0|Defense",
      "13|3|Unique|0|Critical Damage Tolerance",
      "12|11|Common|1|Defense",
@@ -35504,8 +35518,8 @@
      "14|7|Common|0|Attack",
      "14|8|Unique|0|Multi-Hit Resist",
      "14|2|Unique|1|Multi-Hit Chance",
-     "14|3|Common|0|Max MP",
-     "14|4|Common|0|Attack",
+     "14|3|Common|1|Max MP",
+     "14|4|Common|1|Attack",
      "13|12|Legend|1|Skill Level Up - Onslaught",
      "13|14|Common|0|Max HP",
      "14|13|Common|1|Defense",
@@ -35530,8 +35544,8 @@
      "3|2|Common|0|Max MP",
      "3|4|Legend|1|Skill Level Up - Impactful Crush",
      "3|5|Common|0|Max MP",
-     "5|2|Legend|0|Skill Level Up - Gust Rampage",
-     "5|3|Common|0|Critical Hit Resist",
+     "5|2|Legend|1|Skill Level Up - Gust Rampage",
+     "5|3|Common|1|Critical Hit Resist",
      "4|12|Common|1|Attack",
      "4|14|Common|0|Critical Hit Resist",
      "4|7|Common|0|Defense",
@@ -35541,7 +35555,7 @@
      "6|4|Common|1|Defense",
      "5|12|Common|1|Max HP",
      "5|13|Common|1|Max MP",
-     "5|14|Rare|0|Skill Level Up - Inspiring Spell",
+     "5|14|Rare|1|Skill Level Up - Inspiring Spell",
      "5|9|Common|0|Defense",
      "5|10|Legend|0|Skill Level Up - Tremor Crush",
      "5|11|Common|0|Critical Hit",
@@ -35552,7 +35566,7 @@
      "7|2|Common|0|Critical Hit Resist",
      "7|3|Common|0|Critical Hit",
      "7|4|Common|1|Max HP",
-     "7|5|Common|0|Attack",
+     "7|5|Common|1|Attack",
      "6|13|Common|1|Critical Hit Resist",
      "6|10|Common|0|Max HP",
      "6|6|Common|0|Critical Hit",
@@ -35564,7 +35578,7 @@
      "7|11|Common|0|Critical Hit",
      "7|12|Rare|0|Skill Level Up - Raging Spell",
      "7|13|Common|1|Defense",
-     "7|6|Legend|0|Skill Level Up - Recuperation",
+     "7|6|Legend|1|Skill Level Up - Recuperation",
      "7|7|Common|0|Max MP",
      "7|8|Common|0|Defense",
      "7|9|Common|0|Critical Hit Resist",
@@ -35609,7 +35623,7 @@
      "13|9|Rare|0|Skill Level Up - Survival Willpower",
      "13|10|Common|0|Max MP",
      "13|11|Common|0|Max HP",
-     "13|4|Legend|0|Skill Level Up - Charging Smash",
+     "13|4|Legend|1|Skill Level Up - Charging Smash",
      "13|5|Common|0|Critical Hit Resist",
      "13|6|Common|0|Max HP",
      "13|7|Rare|0|Skill Level Up - Earth's Promise",
@@ -35958,7 +35972,7 @@
       "id": 18090000,
       "name": "Rushing Smash",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -35988,7 +36002,7 @@
       "id": 18300000,
       "name": "Gust Rampage",
       "needLevel": 5,
-      "skillLevel": 12
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -36008,7 +36022,7 @@
       "id": 18120000,
       "name": "Recuperation",
       "needLevel": 8,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -36048,7 +36062,7 @@
       "id": 18200000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 1
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -36068,7 +36082,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36078,7 +36092,7 @@
       "id": 18730000,
       "name": "Protection Circle",
       "needLevel": 9,
-      "skillLevel": 11
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -36088,7 +36102,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 10
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -36098,7 +36112,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -36118,7 +36132,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 11
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -36168,7 +36182,7 @@
       "id": 18190000,
       "name": "Undefeated Mantra",
       "needLevel": 22,
-      "skillLevel": 6
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -36803,9 +36817,13 @@
     },
     {
      "name": "Dexterity",
-     "statSecondList": null,
+     "statSecondList": [
+      "Evasion increase +0.1%",
+      "Block increase +0.1%",
+      "Critical Hit Resist increase +0.1%"
+     ],
      "type": "DEX",
-     "value": 0
+     "value": 1
     },
     {
      "name": "Intelligence",
@@ -38161,8 +38179,58 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 19:35 UTC",
+ "updated": "2026-11-19 20:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-19 20:04",
+   "n": "YasuoMain4",
+   "x": "new Liberator Necklace +0"
+  },
+  {
+   "t": "2026-11-19 20:04",
+   "n": "YasuoMain4",
+   "x": "Clash Rune +2 → +6"
+  },
+  {
+   "t": "2026-11-19 20:04",
+   "n": "YasuoMain4",
+   "x": "Clash Rune +2 → +6"
+  },
+  {
+   "t": "2026-11-19 20:04",
+   "n": "YasuoMain4",
+   "x": "12 new titles"
+  },
+  {
+   "t": "2026-11-19 20:04",
+   "n": "YasuoMain4",
+   "x": "opened 17 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-19 20:04",
+   "n": "YasuoMain4",
+   "x": "skills up: Rushing Smash 14, Gust Rampage 14, Recuperation 11, Defiance 4 and 5 more"
+  },
+  {
+   "t": "2026-11-19 20:03",
+   "n": "uTril",
+   "x": "opened 5 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-19 20:03",
+   "n": "uTril",
+   "x": "skills up: Empyrean Lords' Benediction 16, Healing Enhancement 16"
+  },
+  {
+   "t": "2026-11-19 20:02",
+   "n": "DeathRunner",
+   "x": "3 new titles"
+  },
+  {
+   "t": "2026-11-19 20:02",
+   "n": "DeathRunner",
+   "x": "opened 3 Daevanion nodes"
+  },
   {
    "t": "2026-11-19 19:34",
    "n": "uTril",
@@ -39612,56 +39680,6 @@
    "t": "2026-11-16 00:15",
    "n": "CutieCatty",
    "x": "Bell of Vigor +2 → +3"
-  },
-  {
-   "t": "2026-11-16 00:15",
-   "n": "CutieCatty",
-   "x": "Mirror of Vigor +1 → +3"
-  },
-  {
-   "t": "2026-11-16 00:15",
-   "n": "CutieCatty",
-   "x": "skills up: Incandescent Blow 15, Rushing Smash 16, Impactful Crush 10, Tremor Crush 11 and 7 more"
-  },
-  {
-   "t": "2026-11-15 23:35",
-   "n": "YasuoMain8",
-   "x": "reached level 43"
-  },
-  {
-   "t": "2026-11-15 23:35",
-   "n": "YasuoMain8",
-   "x": "new Liberator Longsword +0"
-  },
-  {
-   "t": "2026-11-15 23:35",
-   "n": "YasuoMain8",
-   "x": "new Liberator Guard +0"
-  },
-  {
-   "t": "2026-11-15 23:35",
-   "n": "YasuoMain8",
-   "x": "new Liberator Gloves +0"
-  },
-  {
-   "t": "2026-11-15 23:35",
-   "n": "YasuoMain8",
-   "x": "new Liberator Boots +0"
-  },
-  {
-   "t": "2026-11-15 23:35",
-   "n": "YasuoMain8",
-   "x": "new Liberator Cloak +0"
-  },
-  {
-   "t": "2026-11-15 23:35",
-   "n": "YasuoMain8",
-   "x": "new Silent Necklace +0"
-  },
-  {
-   "t": "2026-11-15 23:35",
-   "n": "YasuoMain8",
-   "x": "new Liberator Earrings +0"
   }
  ]
 }

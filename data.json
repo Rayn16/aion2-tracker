@@ -15847,15 +15847,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 162873,
-     "il": 2831
+     "cp": 163929,
+     "il": 2835
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 162873,
-   "il": 2831,
+   "cp": 163929,
+   "il": 2835,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15979,7 +15979,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -16131,7 +16131,7 @@
      "slotPosName": "Boots",
      "name": "Nuakum Boots",
      "grade": "Unique",
-     "enchantLevel": 13,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Boots.png",
      "max": 15,
      "slots": 4,
@@ -16663,11 +16663,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -5%",
-      "Endurance Penetration +5%"
+      "Cooldown -5.3%",
+      "Endurance Penetration +5.3%"
      ],
      "type": "Illusion",
-     "value": 50
+     "value": 53
     },
     {
      "name": "Life [Yustiel]",
@@ -16708,11 +16708,11 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -3.4%",
-      "Double Chance +3.4%"
+      "MP Cost -3.7%",
+      "Double Chance +3.7%"
      ],
      "type": "Wisdom",
-     "value": 34
+     "value": 37
     },
     {
      "name": "Destiny [Marchutan]",
@@ -16736,7 +16736,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2831
+     "value": 2835
     }
    ],
    "title": {
@@ -16866,8 +16866,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 22,
-      "openPercent": 14,
+      "openNodeCount": 24,
+      "openPercent": 16,
       "totalNodeCount": 152
      },
      {
@@ -17373,7 +17373,7 @@
      "14|3|Legend|0|Critical Hit",
      "14|1|Common|0|Boss Attack",
      "13|14|Legend|1|Boss Damage Boost",
-     "13|15|Common|0|PvE Defense",
+     "13|15|Common|1|PvE Defense",
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "14|11|Common|0|PvE Defense",
      "14|12|Common|0|PvE Evasion",
@@ -17385,7 +17385,7 @@
      "15|5|Rare|0|PvE Accuracy, PvE Evasion",
      "15|2|Common|0|PvE Attack",
      "15|3|Common|0|PvE Evasion",
-     "14|15|Common|0|PvE Accuracy",
+     "14|15|Common|1|PvE Accuracy",
      "15|1|Unique|0|PvE Damage Tolerance",
      "14|13|Common|0|Boss Defense",
      "15|13|Rare|0|Boss Attack, Boss Defense",
@@ -17885,7 +17885,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 0,
@@ -17949,9 +17949,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
-     "id": 40101000,
-     "name": "Forest Spirit Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -38163,8 +38163,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 09:05 UTC",
+ "updated": "2026-11-19 09:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-19 09:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Greaves +13 → +14"
+  },
+  {
+   "t": "2026-11-19 09:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Boots +13 → +14"
+  },
+  {
+   "t": "2026-11-19 09:32",
+   "n": "DeathRunner",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-19 09:32",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 14"
+  },
   {
    "t": "2026-11-19 06:01",
    "n": "YasuoMain",
@@ -39644,26 +39664,6 @@
    "t": "2026-11-15 21:34",
    "n": "YasuoMain8",
    "x": "new Avenger Earrings +0"
-  },
-  {
-   "t": "2026-11-15 21:34",
-   "n": "YasuoMain8",
-   "x": "new Avenger Ring +0"
-  },
-  {
-   "t": "2026-11-15 21:34",
-   "n": "YasuoMain8",
-   "x": "new Chaser Ring +0"
-  },
-  {
-   "t": "2026-11-15 21:34",
-   "n": "YasuoMain8",
-   "x": "3 new titles"
-  },
-  {
-   "t": "2026-11-15 21:34",
-   "n": "YasuoMain8",
-   "x": "opened 29 Daevanion nodes"
   }
  ]
 }

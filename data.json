@@ -15847,15 +15847,15 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 163170,
-     "il": 2829
+     "cp": 162873,
+     "il": 2831
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 163170,
-   "il": 2829,
+   "cp": 162873,
+   "il": 2831,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16736,7 +16736,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2829
+     "value": 2831
     }
    ],
    "title": {
@@ -17297,7 +17297,7 @@
      "6|9|Rare|0|PvE Attack, PvE Defense",
      "6|10|Common|0|Boss Attack",
      "6|7|Common|0|PvE Evasion",
-     "6|8|Common|1|Max HP",
+     "6|8|Common|0|Max HP",
      "6|6|Legend|0|Critical Hit",
      "7|4|Rare|0|PvE Attack, PvE Defense",
      "7|5|Common|0|Boss Defense",
@@ -17372,7 +17372,7 @@
      "13|5|Common|0|PvE Attack",
      "14|3|Legend|0|Critical Hit",
      "14|1|Common|0|Boss Attack",
-     "13|14|Legend|0|Boss Damage Boost",
+     "13|14|Legend|1|Boss Damage Boost",
      "13|15|Common|0|PvE Defense",
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "14|11|Common|0|PvE Defense",
@@ -17949,9 +17949,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
-     "id": 40201900,
-     "name": "Dark Veil Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -38163,7 +38163,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 08:34 UTC",
+ "updated": "2026-11-19 09:05 UTC",
  "feed": [
   {
    "t": "2026-11-19 06:01",

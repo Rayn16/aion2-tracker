@@ -11010,12 +11010,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.9%",
-      "Block increase +1.9%",
-      "Critical Hit Resist increase +1.9%"
+      "Evasion increase +2%",
+      "Block increase +2%",
+      "Critical Hit Resist increase +2%"
      ],
      "type": "DEX",
-     "value": 19
+     "value": 20
     },
     {
      "name": "Intelligence",
@@ -11034,11 +11034,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.5%",
-      "Critical Hit increase +1.5%"
+      "Accuracy increase +1.6%",
+      "Critical Hit increase +1.6%"
      ],
      "type": "AGI",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Willpower",
@@ -14848,12 +14848,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.9%",
-      "Block increase +1.9%",
-      "Critical Hit Resist increase +1.9%"
+      "Evasion increase +2%",
+      "Block increase +2%",
+      "Critical Hit Resist increase +2%"
      ],
      "type": "DEX",
-     "value": 19
+     "value": 20
     },
     {
      "name": "Intelligence",
@@ -14872,11 +14872,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.5%",
-      "Critical Hit increase +1.5%"
+      "Accuracy increase +1.6%",
+      "Critical Hit increase +1.6%"
      ],
      "type": "AGI",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Willpower",
@@ -15847,14 +15847,14 @@
     },
     {
      "date": "2026-11-19",
-     "cp": 161151,
+     "cp": 161179,
      "il": 2829
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 161151,
+   "cp": 161179,
    "il": 2829,
    "gear": [
     {
@@ -16602,12 +16602,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +7.9%",
-      "Block increase +7.9%",
-      "Critical Hit Resist increase +7.9%"
+      "Evasion increase +8%",
+      "Block increase +8%",
+      "Critical Hit Resist increase +8%"
      ],
      "type": "DEX",
-     "value": 79
+     "value": 80
     },
     {
      "name": "Intelligence",
@@ -16628,11 +16628,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.5%",
-      "Critical Hit increase +1.5%"
+      "Accuracy increase +1.6%",
+      "Critical Hit increase +1.6%"
      ],
      "type": "AGI",
-     "value": 15
+     "value": 16
     },
     {
      "name": "Willpower",
@@ -38163,7 +38163,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 06:04 UTC",
+ "updated": "2026-11-19 06:34 UTC",
  "feed": [
   {
    "t": "2026-11-19 06:01",

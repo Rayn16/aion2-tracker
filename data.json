@@ -4576,14 +4576,14 @@
     {
      "date": "2026-11-19",
      "cp": 87620,
-     "il": 2004
+     "il": 2007
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
    "cp": 87620,
-   "il": 2004,
+   "il": 2007,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4931,7 +4931,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 3,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -5197,7 +5197,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 4,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -5418,7 +5418,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2004
+     "value": 2007
     }
    ],
    "title": {
@@ -38163,8 +38163,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-19 11:04 UTC",
+ "updated": "2026-11-19 11:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-19 11:34",
+   "n": "CuteCatty",
+   "x": "Noble Belt +3 → +5"
+  },
+  {
+   "t": "2026-11-19 11:34",
+   "n": "CuteCatty",
+   "x": "Revelation Amulet +4 → +5"
+  },
   {
    "t": "2026-11-19 09:32",
    "n": "DeathRunner",
@@ -39654,16 +39664,6 @@
    "t": "2026-11-15 21:34",
    "n": "YasuoMain8",
    "x": "new Avenger Longsword +0"
-  },
-  {
-   "t": "2026-11-15 21:34",
-   "n": "YasuoMain8",
-   "x": "new Avenger Helm +0"
-  },
-  {
-   "t": "2026-11-15 21:34",
-   "n": "YasuoMain8",
-   "x": "new Avenger Earrings +0"
   }
  ]
 }

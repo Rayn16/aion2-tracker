@@ -11040,10 +11040,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.5%"
+      "Attack increase +4.6%"
      ],
      "type": "STR",
-     "value": 45
+     "value": 46
     },
     {
      "name": "Dexterity",
@@ -14883,10 +14883,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.3%"
+      "Attack increase +3.4%"
      ],
      "type": "STR",
-     "value": 33
+     "value": 34
     },
     {
      "name": "Dexterity",
@@ -15895,15 +15895,15 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 165001,
-     "il": 2874
+     "cp": 170083,
+     "il": 2876
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 165001,
-   "il": 2874,
+   "cp": 170083,
+   "il": 2876,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16642,10 +16642,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +7.6%"
+      "Attack increase +7.7%"
      ],
      "type": "STR",
-     "value": 76
+     "value": 77
     },
     {
      "name": "Dexterity",
@@ -16784,11 +16784,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2874
+     "value": 2876
     }
    ],
    "title": {
-    "ownedCount": 224,
+    "ownedCount": 225,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16806,8 +16806,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 73,
-      "ownedPercent": 69,
+      "ownedCount": 74,
+      "ownedPercent": 70,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -16914,8 +16914,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 38,
-      "openPercent": 25,
+      "openNodeCount": 39,
+      "openPercent": 26,
       "totalNodeCount": 152
      },
      {
@@ -17324,7 +17324,7 @@
     ],
     "45": [
      "4|10|Legend|0|Critical Hit Resist",
-     "4|7|Rare|0|PvE Accuracy, PvE Evasion",
+     "4|7|Rare|1|PvE Accuracy, PvE Evasion",
      "4|5|Common|0|PvE Attack",
      "4|6|Common|0|Boss Defense",
      "4|4|Common|0|PvE Accuracy",
@@ -17367,7 +17367,7 @@
      "8|13|Common|0|Max MP",
      "8|9|Common|0|PvE Defense",
      "8|10|Common|0|PvE Accuracy",
-     "8|7|Common|1|PvE Defense",
+     "8|7|Common|0|PvE Defense",
      "8|8|Start|1|Ariel - Start",
      "9|6|Common|1|Boss Defense",
      "9|4|Common|0|PvE Evasion",
@@ -17466,7 +17466,7 @@
      "2|9|Rare|0|Boss Attack, Boss Defense",
      "3|8|Common|0|PvE Evasion",
      "3|9|Common|0|PvE Accuracy",
-     "3|7|Common|0|Boss Attack",
+     "3|7|Common|1|Boss Attack",
      "3|4|Rare|0|Boss Attack, Boss Defense",
      "3|2|Legend|0|Boss Damage Boost",
      "4|2|Common|0|PvE Attack",
@@ -17933,7 +17933,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 0,
@@ -18004,9 +18004,9 @@
     "wingSkin": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingE_002.png",
-     "id": 40500200,
-     "name": "Ancient Aullaeu Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingD_004.png",
+     "id": 40400400,
+     "name": "Blue Wave Wings"
     }
    },
    "pcId": 19,
@@ -38279,8 +38279,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 10:04 UTC",
+ "updated": "2026-11-20 10:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 10:32",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-20 10:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-20 10:32",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 15"
+  },
   {
    "t": "2026-11-19 21:03",
    "n": "uTril",
@@ -39765,21 +39780,6 @@
    "t": "2026-11-16 00:41",
    "n": "YasuoMain8",
    "x": "skills up: Judgment 14, Debilitating Smash 6, Shield Rush 13, Impact Hit 14 and 6 more"
-  },
-  {
-   "t": "2026-11-16 00:17",
-   "n": "YasuoMain8",
-   "x": "reached level 45"
-  },
-  {
-   "t": "2026-11-16 00:17",
-   "n": "YasuoMain8",
-   "x": "new Spiritforged Longsword +10"
-  },
-  {
-   "t": "2026-11-16 00:17",
-   "n": "YasuoMain8",
-   "x": "new Liberator Helm +0"
   }
  ]
 }

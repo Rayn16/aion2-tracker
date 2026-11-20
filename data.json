@@ -15895,15 +15895,15 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 171156,
-     "il": 2895
+     "cp": 167098,
+     "il": 2901
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 171156,
-   "il": 2895,
+   "cp": 167098,
+   "il": 2901,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16141,7 +16141,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -16784,7 +16784,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2895
+     "value": 2901
     }
    ],
    "title": {
@@ -38279,8 +38279,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 12:05 UTC",
+ "updated": "2026-11-20 12:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 12:32",
+   "n": "DeathRunner",
+   "x": "Nuakum Gloves +14 → +15"
+  },
   {
    "t": "2026-11-20 12:03",
    "n": "uTril",
@@ -39775,11 +39780,6 @@
    "t": "2026-11-16 02:04",
    "n": "uTril",
    "x": "skills up: Earth Punishment 15"
-  },
-  {
-   "t": "2026-11-16 01:35",
-   "n": "YasuoMain8",
-   "x": "new Anguish Ring +0"
   }
  ]
 }

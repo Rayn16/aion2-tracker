@@ -15895,14 +15895,14 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 170083,
+     "cp": 170118,
      "il": 2876
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 170083,
+   "cp": 170118,
    "il": 2876,
    "gear": [
     {
@@ -16788,7 +16788,7 @@
     }
    ],
    "title": {
-    "ownedCount": 225,
+    "ownedCount": 226,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16831,8 +16831,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 75,
-      "ownedPercent": 76,
+      "ownedCount": 76,
+      "ownedPercent": 77,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -30623,14 +30623,14 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 123189,
+     "cp": 123209,
      "il": 2637
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 123189,
+   "cp": 123209,
    "il": 2637,
    "gear": [
     {
@@ -31512,7 +31512,7 @@
     }
    ],
    "title": {
-    "ownedCount": 199,
+    "ownedCount": 200,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31580,8 +31580,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 68,
-      "ownedPercent": 64,
+      "ownedCount": 69,
+      "ownedPercent": 65,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -38279,8 +38279,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 10:35 UTC",
+ "updated": "2026-11-20 10:46 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 10:44",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-20 10:43",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-20 10:32",
    "n": "DeathRunner",
@@ -39770,16 +39780,6 @@
    "t": "2026-11-16 00:41",
    "n": "YasuoMain8",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-16 00:41",
-   "n": "YasuoMain8",
-   "x": "opened 22 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 00:41",
-   "n": "YasuoMain8",
-   "x": "skills up: Judgment 14, Debilitating Smash 6, Shield Rush 13, Impact Hit 14 and 6 more"
   }
  ]
 }

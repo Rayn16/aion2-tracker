@@ -15901,14 +15901,14 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 171943,
+     "cp": 172134,
      "il": 2907
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 171943,
+   "cp": 172134,
    "il": 2907,
    "gear": [
     {
@@ -16794,7 +16794,7 @@
     }
    ],
    "title": {
-    "ownedCount": 233,
+    "ownedCount": 241,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16812,8 +16812,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 79,
-      "ownedPercent": 75,
+      "ownedCount": 83,
+      "ownedPercent": 78,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -16837,8 +16837,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 77,
-      "ownedPercent": 78,
+      "ownedCount": 79,
+      "ownedPercent": 80,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -16862,8 +16862,8 @@
       "grade": "Unique",
       "id": 23051004,
       "name": "Journey's Path",
-      "ownedCount": 77,
-      "ownedPercent": 75,
+      "ownedCount": 79,
+      "ownedPercent": 77,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
@@ -38285,8 +38285,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 23:05 UTC",
+ "updated": "2026-11-20 23:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 23:32",
+   "n": "DeathRunner",
+   "x": "8 new titles"
+  },
   {
    "t": "2026-11-20 23:02",
    "n": "DeathRunner",
@@ -39781,11 +39786,6 @@
    "t": "2026-11-16 03:32",
    "n": "DeathRunner",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 03:02",
-   "n": "DeathRunner",
-   "x": "skills up: Triniel's Dagger 11"
   }
  ]
 }

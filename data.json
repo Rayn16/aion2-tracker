@@ -15895,14 +15895,14 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 171598,
+     "cp": 171735,
      "il": 2901
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 171598,
+   "cp": 171735,
    "il": 2901,
    "gear": [
     {
@@ -16788,7 +16788,7 @@
     }
    ],
    "title": {
-    "ownedCount": 227,
+    "ownedCount": 230,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16806,8 +16806,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 75,
-      "ownedPercent": 71,
+      "ownedCount": 76,
+      "ownedPercent": 72,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -16831,8 +16831,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 76,
-      "ownedPercent": 77,
+      "ownedCount": 77,
+      "ownedPercent": 78,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -16856,7 +16856,7 @@
       "grade": "Unique",
       "id": 23051004,
       "name": "Journey's Path",
-      "ownedCount": 76,
+      "ownedCount": 77,
       "ownedPercent": 75,
       "statList": [
        {
@@ -38279,8 +38279,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 16:34 UTC",
+ "updated": "2026-11-20 17:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 17:02",
+   "n": "DeathRunner",
+   "x": "3 new titles"
+  },
   {
    "t": "2026-11-20 12:32",
    "n": "DeathRunner",
@@ -39775,11 +39780,6 @@
    "t": "2026-11-16 02:05",
    "n": "YasuoMain8",
    "x": "skills up: Poach 9, Punishing Benediction 13"
-  },
-  {
-   "t": "2026-11-16 02:04",
-   "n": "uTril",
-   "x": "skills up: Earth Punishment 15"
   }
  ]
 }

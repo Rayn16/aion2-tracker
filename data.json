@@ -15901,15 +15901,15 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 171825,
-     "il": 2904
+     "cp": 171943,
+     "il": 2907
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 171825,
-   "il": 2904,
+   "cp": 171943,
+   "il": 2907,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16790,11 +16790,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2904
+     "value": 2907
     }
    ],
    "title": {
-    "ownedCount": 231,
+    "ownedCount": 233,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16812,8 +16812,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 77,
-      "ownedPercent": 73,
+      "ownedCount": 79,
+      "ownedPercent": 75,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -38285,8 +38285,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 22:35 UTC",
+ "updated": "2026-11-20 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 23:02",
+   "n": "DeathRunner",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-11-20 20:34",
    "n": "CutieCatty",
@@ -39781,11 +39786,6 @@
    "t": "2026-11-16 03:02",
    "n": "DeathRunner",
    "x": "skills up: Triniel's Dagger 11"
-  },
-  {
-   "t": "2026-11-16 02:35",
-   "n": "YasuoMain8",
-   "x": "new Bakarma Pauldrons +10"
   }
  ]
 }

@@ -30623,15 +30623,15 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 124419,
-     "il": 2644
+     "cp": 124483,
+     "il": 2646
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 124419,
-   "il": 2644,
+   "cp": 124483,
+   "il": 2646,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31508,11 +31508,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2644
+     "value": 2646
     }
    ],
    "title": {
-    "ownedCount": 200,
+    "ownedCount": 201,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31555,8 +31555,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 67,
-      "ownedPercent": 68,
+      "ownedCount": 68,
+      "ownedPercent": 69,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31638,7 +31638,7 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 17,
+      "openNodeCount": 16,
       "openPercent": 11,
       "totalNodeCount": 152
      },
@@ -32049,13 +32049,13 @@
     "75": [
      "7|1|Common|0|Max MP",
      "6|14|Common|0|Boss Attack",
-     "7|5|Common|0|Boss Defense",
-     "7|4|Rare|0|PvE Attack, PvE Defense",
+     "7|5|Common|1|Boss Defense",
+     "7|4|Rare|1|PvE Attack, PvE Defense",
      "7|3|Common|0|PvE Accuracy",
      "7|2|Rare|0|Boss Attack, Boss Defense",
      "6|8|Common|1|Max HP",
      "6|7|Common|1|PvE Evasion",
-     "6|6|Legend|0|Critical Hit",
+     "6|6|Legend|1|Critical Hit",
      "6|12|Common|0|PvE Attack",
      "6|10|Common|0|Boss Attack",
      "6|9|Rare|0|PvE Attack, PvE Defense",
@@ -32065,7 +32065,7 @@
      "8|6|Common|0|PvE Accuracy",
      "8|3|Common|0|Max HP",
      "7|8|Common|1|PvE Attack",
-     "7|6|Common|0|Boss Attack",
+     "7|6|Common|1|Boss Attack",
      "7|13|Common|0|PvE Defense",
      "7|12|Common|0|PvE Evasion",
      "7|11|Legend|0|Boss Damage Tolerance",
@@ -32089,7 +32089,7 @@
      "10|6|Common|0|Boss Attack",
      "9|11|Common|0|Boss Defense",
      "9|10|Common|0|Boss Attack",
-     "9|8|Common|1|PvE Attack",
+     "9|8|Common|0|PvE Attack",
      "9|15|Common|0|Max HP",
      "9|14|Rare|0|PvE Attack, PvE Defense",
      "9|13|Common|0|PvE Accuracy",
@@ -32174,7 +32174,7 @@
      "3|12|Common|0|PvE Evasion",
      "3|11|Common|0|PvE Attack",
      "3|10|Common|0|Boss Defense",
-     "4|2|Common|1|PvE Attack",
+     "4|2|Common|0|PvE Attack",
      "3|15|Rare|0|PvE Attack, PvE Defense",
      "3|14|Common|0|PvE Accuracy",
      "3|4|Rare|0|Boss Attack, Boss Defense",
@@ -32185,17 +32185,17 @@
      "4|14|Common|0|PvE Evasion",
      "4|12|Rare|0|Boss Attack, Boss Defense",
      "5|3|Common|1|Boss Attack",
-     "5|2|Common|1|Boss Defense",
+     "5|2|Common|0|Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
-     "4|6|Common|1|Boss Defense",
-     "4|5|Common|1|PvE Attack",
-     "4|4|Common|1|PvE Accuracy",
+     "4|6|Common|0|Boss Defense",
+     "4|5|Common|0|PvE Attack",
+     "4|4|Common|0|PvE Accuracy",
      "4|10|Legend|0|Critical Hit Resist",
      "4|7|Rare|1|PvE Accuracy, PvE Evasion",
      "5|14|Legend|0|Boss Damage Boost",
      "5|13|Common|0|Boss Defense",
      "5|12|Common|0|PvE Accuracy",
-     "6|4|Common|0|PvE Evasion",
+     "6|4|Common|1|PvE Evasion",
      "6|1|Common|0|PvE Defense",
      "5|7|Common|1|PvE Defense",
      "5|4|Legend|1|Boss Damage Tolerance",
@@ -38279,8 +38279,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 18:05 UTC",
+ "updated": "2026-11-20 18:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 18:33",
+   "n": "uTril",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-20 17:32",
    "n": "DeathRunner",
@@ -39775,11 +39780,6 @@
    "t": "2026-11-16 02:05",
    "n": "YasuoMain8",
    "x": "new Bakarma Helm +10"
-  },
-  {
-   "t": "2026-11-16 02:05",
-   "n": "YasuoMain8",
-   "x": "new Bakarma Boots +10"
   }
  ]
 }

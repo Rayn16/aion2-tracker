@@ -134,13 +134,13 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 152158,
+     "cp": 152219,
      "il": 2759
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152158,
+   "cp": 152219,
    "il": 2759,
    "gear": [
     {
@@ -875,10 +875,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.6%"
+      "Attack increase +1.7%"
      ],
      "type": "STR",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Dexterity",
@@ -3104,10 +3104,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +0.2%"
+      "Attack increase +0.3%"
      ],
      "type": "STR",
-     "value": 2
+     "value": 3
     },
     {
      "name": "Dexterity",
@@ -12480,12 +12480,17 @@
      "date": "2026-11-18",
      "cp": 91380,
      "il": 1827
+    },
+    {
+     "date": "2026-11-20",
+     "cp": 91391,
+     "il": 1827
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91380,
+   "cp": 91391,
    "il": 1827,
    "gear": [
     {
@@ -33282,10 +33287,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +1.2%"
+      "Attack increase +1.3%"
      ],
      "type": "STR",
-     "value": 12
+     "value": 13
     },
     {
      "name": "Dexterity",
@@ -35049,10 +35054,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.7%"
+      "Attack increase +2.8%"
      ],
      "type": "STR",
-     "value": 27
+     "value": 28
     },
     {
      "name": "Dexterity",
@@ -36911,10 +36916,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +2.7%"
+      "Attack increase +2.8%"
      ],
      "type": "STR",
-     "value": 27
+     "value": 28
     },
     {
      "name": "Dexterity",
@@ -38280,7 +38285,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 21:35 UTC",
+ "updated": "2026-11-20 22:05 UTC",
  "feed": [
   {
    "t": "2026-11-20 20:34",

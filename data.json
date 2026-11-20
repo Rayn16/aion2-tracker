@@ -883,12 +883,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.1%",
-      "Block increase +0.1%",
-      "Critical Hit Resist increase +0.1%"
+      "Evasion increase +0.2%",
+      "Block increase +0.2%",
+      "Critical Hit Resist increase +0.2%"
      ],
      "type": "DEX",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Intelligence",
@@ -3112,12 +3112,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.1%",
-      "Block increase +0.1%",
-      "Critical Hit Resist increase +0.1%"
+      "Evasion increase +0.2%",
+      "Block increase +0.2%",
+      "Critical Hit Resist increase +0.2%"
      ],
      "type": "DEX",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Intelligence",
@@ -33289,12 +33289,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.1%",
-      "Block increase +0.1%",
-      "Critical Hit Resist increase +0.1%"
+      "Evasion increase +0.2%",
+      "Block increase +0.2%",
+      "Critical Hit Resist increase +0.2%"
      ],
      "type": "DEX",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Intelligence",
@@ -35056,12 +35056,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.1%",
-      "Block increase +0.1%",
-      "Critical Hit Resist increase +0.1%"
+      "Evasion increase +0.2%",
+      "Block increase +0.2%",
+      "Critical Hit Resist increase +0.2%"
      ],
      "type": "DEX",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Intelligence",
@@ -36918,12 +36918,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +0.1%",
-      "Block increase +0.1%",
-      "Critical Hit Resist increase +0.1%"
+      "Evasion increase +0.2%",
+      "Block increase +0.2%",
+      "Critical Hit Resist increase +0.2%"
      ],
      "type": "DEX",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Intelligence",
@@ -38279,7 +38279,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 06:34 UTC",
+ "updated": "2026-11-20 07:05 UTC",
  "feed": [
   {
    "t": "2026-11-19 21:03",

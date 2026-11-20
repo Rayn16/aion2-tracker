@@ -6794,14 +6794,14 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 135343,
+     "cp": 135377,
      "il": 2684
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 135343,
+   "cp": 135377,
    "il": 2684,
    "gear": [
     {
@@ -7667,7 +7667,7 @@
     }
    ],
    "title": {
-    "ownedCount": 216,
+    "ownedCount": 218,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -7685,8 +7685,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 71,
-      "ownedPercent": 70,
+      "ownedCount": 72,
+      "ownedPercent": 71,
       "statList": [
        {
         "desc": "Block +10"
@@ -7710,8 +7710,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 70,
-      "ownedPercent": 66,
+      "ownedCount": 71,
+      "ownedPercent": 67,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -38279,8 +38279,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 19:04 UTC",
+ "updated": "2026-11-20 19:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 19:34",
+   "n": "CutieCatty",
+   "x": "2 new titles"
+  },
   {
    "t": "2026-11-20 18:33",
    "n": "uTril",
@@ -39775,11 +39780,6 @@
    "t": "2026-11-16 02:35",
    "n": "YasuoMain8",
    "x": "skills up: Punishing Benediction 14"
-  },
-  {
-   "t": "2026-11-16 02:05",
-   "n": "YasuoMain8",
-   "x": "new Bakarma Helm +10"
   }
  ]
 }

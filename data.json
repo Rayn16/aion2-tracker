@@ -15895,15 +15895,15 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 170491,
-     "il": 2882
+     "cp": 171156,
+     "il": 2895
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 170491,
-   "il": 2882,
+   "cp": 171156,
+   "il": 2895,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -15989,30 +15989,30 @@
      "slotPosName": "Torso",
      "name": "Nuakum Breastplate",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
-       "+7",
+       "Damage Boost",
+       "+10",
        "Rare"
       ],
       [
-       "HP",
-       "+60",
-       "Rare"
-      ],
-      [
-       "Accuracy Bonus",
+       "Attack",
        "+5",
-       "Common"
+       "Legend"
       ],
       [
-       "Critical Hit",
-       "+7",
+       "Defense",
+       "+30",
        "Rare"
+      ],
+      [
+       "MP",
+       "+50",
+       "Legend"
       ]
      ],
      "godSlots": 0,
@@ -16650,12 +16650,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +6.2%",
-      "Block increase +6.2%",
-      "Critical Hit Resist increase +6.2%"
+      "Evasion increase +4.3%",
+      "Block increase +4.3%",
+      "Critical Hit Resist increase +4.3%"
      ],
      "type": "DEX",
-     "value": 62
+     "value": 43
     },
     {
      "name": "Intelligence",
@@ -16668,10 +16668,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +4.7%"
+      "HP increase +3.6%"
      ],
      "type": "CON",
-     "value": 47
+     "value": 36
     },
     {
      "name": "Precision",
@@ -16784,7 +16784,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2882
+     "value": 2895
     }
    ],
    "title": {
@@ -16914,8 +16914,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 42,
-      "openPercent": 28,
+      "openNodeCount": 45,
+      "openPercent": 30,
       "totalNodeCount": 152
      },
      {
@@ -17325,9 +17325,9 @@
     "45": [
      "4|10|Legend|0|Critical Hit Resist",
      "4|7|Rare|1|PvE Accuracy, PvE Evasion",
-     "4|5|Common|0|PvE Attack",
-     "4|6|Common|0|Boss Defense",
-     "4|4|Common|0|PvE Accuracy",
+     "4|5|Common|1|PvE Attack",
+     "4|6|Common|1|Boss Defense",
+     "4|4|Common|1|PvE Accuracy",
      "5|2|Common|0|Boss Defense",
      "5|3|Common|0|Boss Attack",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
@@ -17773,7 +17773,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 23
+      "skillLevel": 22
      },
      {
       "acquired": 1,
@@ -17793,7 +17793,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -17803,7 +17803,7 @@
       "id": 13750000,
       "name": "Assault Stance",
       "needLevel": 13,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -17853,7 +17853,7 @@
       "id": 13800000,
       "name": "Determination",
       "needLevel": 25,
-      "skillLevel": 18
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -30623,15 +30623,15 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 123218,
-     "il": 2637
+     "cp": 124119,
+     "il": 2644
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 123218,
-   "il": 2637,
+   "cp": 124119,
+   "il": 2644,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31508,7 +31508,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2637
+     "value": 2644
     }
    ],
    "title": {
@@ -31638,8 +31638,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 12,
-      "openPercent": 8,
+      "openNodeCount": 17,
+      "openPercent": 11,
       "totalNodeCount": 152
      },
      {
@@ -32089,7 +32089,7 @@
      "10|6|Common|0|Boss Attack",
      "9|11|Common|0|Boss Defense",
      "9|10|Common|0|Boss Attack",
-     "9|8|Common|0|PvE Attack",
+     "9|8|Common|1|PvE Attack",
      "9|15|Common|0|Max HP",
      "9|14|Rare|0|PvE Attack, PvE Defense",
      "9|13|Common|0|PvE Accuracy",
@@ -32174,7 +32174,7 @@
      "3|12|Common|0|PvE Evasion",
      "3|11|Common|0|PvE Attack",
      "3|10|Common|0|Boss Defense",
-     "4|2|Common|0|PvE Attack",
+     "4|2|Common|1|PvE Attack",
      "3|15|Rare|0|PvE Attack, PvE Defense",
      "3|14|Common|0|PvE Accuracy",
      "3|4|Rare|0|Boss Attack, Boss Defense",
@@ -32184,8 +32184,8 @@
      "3|7|Common|1|Boss Attack",
      "4|14|Common|0|PvE Evasion",
      "4|12|Rare|0|Boss Attack, Boss Defense",
-     "5|3|Common|0|Boss Attack",
-     "5|2|Common|0|Boss Defense",
+     "5|3|Common|1|Boss Attack",
+     "5|2|Common|1|Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
      "4|6|Common|1|Boss Defense",
      "4|5|Common|1|PvE Attack",
@@ -32198,7 +32198,7 @@
      "6|4|Common|0|PvE Evasion",
      "6|1|Common|0|PvE Defense",
      "5|7|Common|1|PvE Defense",
-     "5|4|Legend|0|Boss Damage Tolerance",
+     "5|4|Legend|1|Boss Damage Tolerance",
      "5|10|Common|0|PvE Defense"
     ],
     "76": [
@@ -32427,7 +32427,7 @@
       "id": 17090000,
       "name": "Light of Regeneration",
       "needLevel": 7,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -32517,7 +32517,7 @@
       "id": 17740000,
       "name": "Healing Enhancement",
       "needLevel": 11,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -38279,8 +38279,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 11:35 UTC",
+ "updated": "2026-11-20 12:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 12:03",
+   "n": "uTril",
+   "x": "opened 5 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-20 12:03",
+   "n": "uTril",
+   "x": "skills up: Light of Regeneration 16"
+  },
+  {
+   "t": "2026-11-20 12:02",
+   "n": "DeathRunner",
+   "x": "Nuakum Breastplate +14 → +15"
+  },
+  {
+   "t": "2026-11-20 12:02",
+   "n": "DeathRunner",
+   "x": "opened 3 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-20 12:02",
+   "n": "DeathRunner",
+   "x": "skills up: Rear Smite 18, Assault Stance 18"
+  },
   {
    "t": "2026-11-20 11:32",
    "n": "DeathRunner",
@@ -39755,31 +39780,6 @@
    "t": "2026-11-16 01:35",
    "n": "YasuoMain8",
    "x": "new Anguish Ring +0"
-  },
-  {
-   "t": "2026-11-16 01:35",
-   "n": "YasuoMain8",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-16 01:05",
-   "n": "YasuoMain8",
-   "x": "new Anguish Guard +0"
-  },
-  {
-   "t": "2026-11-16 01:05",
-   "n": "YasuoMain8",
-   "x": "new Anguish Greaves +0"
-  },
-  {
-   "t": "2026-11-16 01:05",
-   "n": "YasuoMain8",
-   "x": "new Bakarma Gloves +10"
-  },
-  {
-   "t": "2026-11-16 00:41",
-   "n": "YasuoMain8",
-   "x": "new Anguish Breastplate +0"
   }
  ]
 }

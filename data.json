@@ -6794,14 +6794,14 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 135580,
+     "cp": 137783,
      "il": 2731
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 135580,
+   "cp": 137783,
    "il": 2731,
    "gear": [
     {
@@ -7668,7 +7668,7 @@
     }
    ],
    "title": {
-    "ownedCount": 218,
+    "ownedCount": 219,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -7686,8 +7686,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 72,
-      "ownedPercent": 71,
+      "ownedCount": 73,
+      "ownedPercent": 72,
       "statList": [
        {
         "desc": "Block +10"
@@ -38280,8 +38280,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 20:05 UTC",
+ "updated": "2026-11-20 20:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 20:34",
+   "n": "CutieCatty",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-20 20:04",
    "n": "CutieCatty",
@@ -39776,11 +39781,6 @@
    "t": "2026-11-16 02:35",
    "n": "YasuoMain8",
    "x": "new Bakarma Pauldrons +10"
-  },
-  {
-   "t": "2026-11-16 02:35",
-   "n": "YasuoMain8",
-   "x": "1 new title"
   }
  ]
 }

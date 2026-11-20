@@ -15895,15 +15895,15 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 170118,
-     "il": 2876
+     "cp": 169811,
+     "il": 2877
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 170118,
-   "il": 2876,
+   "cp": 169811,
+   "il": 2877,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16784,11 +16784,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2876
+     "value": 2877
     }
    ],
    "title": {
-    "ownedCount": 226,
+    "ownedCount": 227,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16806,8 +16806,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 74,
-      "ownedPercent": 70,
+      "ownedCount": 75,
+      "ownedPercent": 71,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -16914,7 +16914,7 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 39,
+      "openNodeCount": 40,
       "openPercent": 26,
       "totalNodeCount": 152
      },
@@ -17453,7 +17453,7 @@
      "1|11|Rare|0|PvE Accuracy, PvE Evasion",
      "1|8|Unique|0|PvE Damage Boost",
      "1|9|Common|0|Max HP",
-     "2|7|Common|0|PvE Attack",
+     "2|7|Common|1|PvE Attack",
      "2|5|Common|0|PvE Defense",
      "2|6|Legend|0|Critical Hit Resist",
      "2|3|Common|0|Boss Defense",
@@ -17997,9 +17997,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
-     "id": 40201900,
-     "name": "Dark Veil Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -38279,8 +38279,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 10:46 UTC",
+ "updated": "2026-11-20 11:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 11:02",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-20 11:02",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-20 10:44",
    "n": "uTril",
@@ -39770,16 +39780,6 @@
    "t": "2026-11-16 00:41",
    "n": "YasuoMain8",
    "x": "new Anguish Boots +0"
-  },
-  {
-   "t": "2026-11-16 00:41",
-   "n": "YasuoMain8",
-   "x": "new Saraswati Earrings +0"
-  },
-  {
-   "t": "2026-11-16 00:41",
-   "n": "YasuoMain8",
-   "x": "1 new title"
   }
  ]
 }

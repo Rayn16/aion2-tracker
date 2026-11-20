@@ -6794,15 +6794,15 @@
     },
     {
      "date": "2026-11-20",
-     "cp": 135377,
-     "il": 2684
+     "cp": 135580,
+     "il": 2731
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 135377,
-   "il": 2684,
+   "cp": 135580,
+   "il": 2731,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7076,39 +7076,40 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Spectral Boots",
+     "name": "Nuakum Boots",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0149_T03_Boots.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Boots.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Accuracy Bonus",
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
        "+5",
        "Common"
       ],
       [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "HP",
-       "+30",
+       "Attack",
+       "+1",
        "Common"
       ]
      ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Shugo Festival",
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -7663,7 +7664,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2684
+     "value": 2731
     }
    ],
    "title": {
@@ -8642,7 +8643,7 @@
       "id": 18710000,
       "name": "Blessing of Life",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -38279,8 +38280,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-20 19:34 UTC",
+ "updated": "2026-11-20 20:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-20 20:04",
+   "n": "CutieCatty",
+   "x": "new Nuakum Boots +10"
+  },
   {
    "t": "2026-11-20 19:34",
    "n": "CutieCatty",
@@ -39775,11 +39781,6 @@
    "t": "2026-11-16 02:35",
    "n": "YasuoMain8",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-16 02:35",
-   "n": "YasuoMain8",
-   "x": "skills up: Punishing Benediction 14"
   }
  ]
 }

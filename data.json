@@ -139,13 +139,13 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 152621,
+     "cp": 152624,
      "il": 2779
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152621,
+   "cp": 152624,
    "il": 2779,
    "gear": [
     {
@@ -1024,7 +1024,7 @@
     }
    ],
    "title": {
-    "ownedCount": 211,
+    "ownedCount": 212,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -1042,8 +1042,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 66,
-      "ownedPercent": 65,
+      "ownedCount": 67,
+      "ownedPercent": 66,
       "statList": [
        {
         "desc": "Block +10"
@@ -6814,14 +6814,14 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 144488,
+     "cp": 144491,
      "il": 2763
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 144488,
+   "cp": 144491,
    "il": 2763,
    "gear": [
     {
@@ -7688,7 +7688,7 @@
     }
    ],
    "title": {
-    "ownedCount": 220,
+    "ownedCount": 221,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -7706,8 +7706,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 73,
-      "ownedPercent": 72,
+      "ownedCount": 74,
+      "ownedPercent": 73,
       "statList": [
        {
         "desc": "Block +10"
@@ -38390,8 +38390,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 23:05 UTC",
+ "updated": "2026-11-21 23:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 23:34",
+   "n": "CutieCatty",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-21 23:31",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-21 23:04",
    "n": "CutieCatty",
@@ -39881,16 +39891,6 @@
    "t": "2026-11-16 11:34",
    "n": "CuteCatty",
    "x": "skills up: Debilitating Mark 14, Bolt 14, Defiance 2, Heal Block 9 and 2 more"
-  },
-  {
-   "t": "2026-11-16 11:05",
-   "n": "YasuoMain8",
-   "x": "new Liberator Ring +0"
-  },
-  {
-   "t": "2026-11-16 11:05",
-   "n": "YasuoMain8",
-   "x": "8 new titles"
   }
  ]
 }

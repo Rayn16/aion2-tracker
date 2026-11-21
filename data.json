@@ -6814,15 +6814,15 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 144044,
-     "il": 2747
+     "cp": 144163,
+     "il": 2751
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 144044,
-   "il": 2747,
+   "cp": 144163,
+   "il": 2751,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7684,7 +7684,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2747
+     "value": 2751
     }
    ],
    "title": {
@@ -7814,8 +7814,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 11,
-      "openPercent": 7,
+      "openNodeCount": 14,
+      "openPercent": 9,
       "totalNodeCount": 152
      },
      {
@@ -8256,7 +8256,7 @@
      "3|8|Common|0|PvE Evasion",
      "3|9|Common|0|PvE Accuracy",
      "3|2|Legend|0|Boss Damage Boost",
-     "3|4|Rare|0|Boss Attack, Boss Defense",
+     "3|4|Rare|1|Boss Attack, Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
      "5|2|Common|0|Boss Defense",
      "5|3|Common|0|Boss Attack",
@@ -8264,8 +8264,8 @@
      "4|14|Common|0|PvE Evasion",
      "4|7|Rare|1|PvE Accuracy, PvE Evasion",
      "4|10|Legend|0|Critical Hit Resist",
-     "4|4|Common|0|PvE Accuracy",
-     "4|5|Common|0|PvE Attack",
+     "4|4|Common|1|PvE Accuracy",
+     "4|5|Common|1|PvE Attack",
      "4|6|Common|1|Boss Defense",
      "6|1|Common|0|PvE Defense",
      "6|4|Common|0|PvE Evasion",
@@ -30719,15 +30719,15 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 124183,
-     "il": 2646
+     "cp": 124607,
+     "il": 2648
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 124183,
-   "il": 2646,
+   "cp": 124607,
+   "il": 2648,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31604,11 +31604,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2646
+     "value": 2648
     }
    ],
    "title": {
-    "ownedCount": 201,
+    "ownedCount": 203,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31676,8 +31676,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 69,
-      "ownedPercent": 65,
+      "ownedCount": 71,
+      "ownedPercent": 67,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -31734,8 +31734,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 16,
-      "openPercent": 11,
+      "openNodeCount": 18,
+      "openPercent": 12,
       "totalNodeCount": 152
      },
      {
@@ -32270,7 +32270,7 @@
      "3|12|Common|0|PvE Evasion",
      "3|11|Common|0|PvE Attack",
      "3|10|Common|0|Boss Defense",
-     "4|2|Common|0|PvE Attack",
+     "4|2|Common|1|PvE Attack",
      "3|15|Rare|0|PvE Attack, PvE Defense",
      "3|14|Common|0|PvE Accuracy",
      "3|4|Rare|0|Boss Attack, Boss Defense",
@@ -32281,7 +32281,7 @@
      "4|14|Common|0|PvE Evasion",
      "4|12|Rare|0|Boss Attack, Boss Defense",
      "5|3|Common|1|Boss Attack",
-     "5|2|Common|0|Boss Defense",
+     "5|2|Common|1|Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
      "4|6|Common|0|Boss Defense",
      "4|5|Common|0|PvE Attack",
@@ -38390,8 +38390,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 04:05 UTC",
+ "updated": "2026-11-21 04:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 04:34",
+   "n": "CutieCatty",
+   "x": "opened 3 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-21 04:34",
+   "n": "uTril",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-21 04:34",
+   "n": "uTril",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-21 04:04",
    "n": "CutieCatty",
@@ -39876,21 +39891,6 @@
    "t": "2026-11-16 07:35",
    "n": "YasuoMain4",
    "x": "new Old Mercenary Commander Staff +0"
-  },
-  {
-   "t": "2026-11-16 07:35",
-   "n": "YasuoMain4",
-   "x": "new Old Mercenary Commander Guard +0"
-  },
-  {
-   "t": "2026-11-16 07:35",
-   "n": "YasuoMain4",
-   "x": "new Outsider Boots +0"
-  },
-  {
-   "t": "2026-11-16 07:35",
-   "n": "YasuoMain4",
-   "x": "new Revelation Amulet +0"
   }
  ]
 }

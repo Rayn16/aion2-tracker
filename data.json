@@ -139,14 +139,14 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 152580,
-     "il": 2762
+     "cp": 152590,
+     "il": 2765
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152580,
-   "il": 2762,
+   "cp": 152590,
+   "il": 2765,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1020,7 +1020,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2762
+     "value": 2765
     }
    ],
    "title": {
@@ -1150,8 +1150,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 25,
-      "openPercent": 16,
+      "openNodeCount": 26,
+      "openPercent": 17,
       "totalNodeCount": 152
      },
      {
@@ -1942,7 +1942,7 @@
      "2|1|Common|0|PvE Accuracy",
      "2|7|Common|1|PvE Attack",
      "2|5|Common|0|PvE Defense",
-     "2|6|Legend|0|Critical Hit Resist",
+     "2|6|Legend|1|Critical Hit Resist",
      "2|11|Common|0|Boss Attack",
      "2|9|Rare|0|Boss Attack, Boss Defense",
      "2|15|Common|0|Boss Attack",
@@ -6814,15 +6814,15 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 144225,
-     "il": 2753
+     "cp": 144248,
+     "il": 2755
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 144225,
-   "il": 2753,
+   "cp": 144248,
+   "il": 2755,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7684,7 +7684,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2753
+     "value": 2755
     }
    ],
    "title": {
@@ -7814,8 +7814,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 15,
-      "openPercent": 10,
+      "openNodeCount": 16,
+      "openPercent": 11,
       "totalNodeCount": 152
      },
      {
@@ -8256,7 +8256,7 @@
      "3|8|Common|0|PvE Evasion",
      "3|9|Common|0|PvE Accuracy",
      "3|2|Legend|0|Boss Damage Boost",
-     "3|4|Rare|0|Boss Attack, Boss Defense",
+     "3|4|Rare|1|Boss Attack, Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
      "5|2|Common|0|Boss Defense",
      "5|3|Common|0|Boss Attack",
@@ -38390,8 +38390,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 12:05 UTC",
+ "updated": "2026-11-21 12:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 12:34",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-21 12:31",
+   "n": "YasuoMain",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-21 12:01",
    "n": "YasuoMain",
@@ -39881,16 +39891,6 @@
    "t": "2026-11-16 09:35",
    "n": "YasuoMain8",
    "x": "new Ascension Bracelet +0"
-  },
-  {
-   "t": "2026-11-16 09:35",
-   "n": "YasuoMain8",
-   "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-16 07:35",
-   "n": "YasuoMain8",
-   "x": "new Chaser Bracelet +0"
   }
  ]
 }

@@ -6814,15 +6814,15 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 144248,
-     "il": 2755
+     "cp": 144311,
+     "il": 2758
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 144248,
-   "il": 2755,
+   "cp": 144311,
+   "il": 2758,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7684,7 +7684,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2755
+     "value": 2758
     }
    ],
    "title": {
@@ -7814,8 +7814,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 16,
-      "openPercent": 11,
+      "openNodeCount": 19,
+      "openPercent": 13,
       "totalNodeCount": 152
      },
      {
@@ -8247,7 +8247,7 @@
      "2|4|Common|0|PvE Evasion",
      "3|14|Common|0|PvE Accuracy",
      "3|15|Rare|0|PvE Attack, PvE Defense",
-     "4|2|Common|0|PvE Attack",
+     "4|2|Common|1|PvE Attack",
      "3|10|Common|0|Boss Defense",
      "3|11|Common|0|PvE Attack",
      "3|12|Common|0|PvE Evasion",
@@ -8258,8 +8258,8 @@
      "3|2|Legend|0|Boss Damage Boost",
      "3|4|Rare|1|Boss Attack, Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
-     "5|2|Common|0|Boss Defense",
-     "5|3|Common|0|Boss Attack",
+     "5|2|Common|1|Boss Defense",
+     "5|3|Common|1|Boss Attack",
      "4|12|Rare|0|Boss Attack, Boss Defense",
      "4|14|Common|0|PvE Evasion",
      "4|7|Rare|1|PvE Accuracy, PvE Evasion",
@@ -38390,8 +38390,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 21:20 UTC",
+ "updated": "2026-11-21 21:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 21:34",
+   "n": "CutieCatty",
+   "x": "opened 3 Daevanion nodes"
+  },
   {
    "t": "2026-11-21 17:32",
    "n": "DeathRunner",
@@ -39886,11 +39891,6 @@
    "t": "2026-11-16 10:35",
    "n": "YasuoMain8",
    "x": "10 new titles"
-  },
-  {
-   "t": "2026-11-16 10:35",
-   "n": "YasuoMain8",
-   "x": "skills up: Debilitating Smash 8, Block Pain 13"
   }
  ]
 }

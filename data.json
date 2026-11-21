@@ -139,13 +139,13 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 152590,
+     "cp": 152650,
      "il": 2765
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152590,
+   "cp": 152650,
    "il": 2765,
    "gear": [
     {
@@ -1024,7 +1024,7 @@
     }
    ],
    "title": {
-    "ownedCount": 210,
+    "ownedCount": 211,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -1092,8 +1092,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 75,
-      "ownedPercent": 76,
+      "ownedCount": 76,
+      "ownedPercent": 77,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -38390,8 +38390,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 13:05 UTC",
+ "updated": "2026-11-21 13:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 13:31",
+   "n": "YasuoMain",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-21 12:34",
    "n": "CutieCatty",
@@ -39886,11 +39891,6 @@
    "t": "2026-11-16 09:35",
    "n": "YasuoMain8",
    "x": "new Liberator Necklace +0"
-  },
-  {
-   "t": "2026-11-16 09:35",
-   "n": "YasuoMain8",
-   "x": "new Ascension Bracelet +0"
   }
  ]
 }

@@ -15946,15 +15946,15 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 172025,
-     "il": 2907
+     "cp": 172214,
+     "il": 2910
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 172025,
-   "il": 2907,
+   "cp": 172214,
+   "il": 2910,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16579,7 +16579,7 @@
      "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 4,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -16595,7 +16595,7 @@
      "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 3,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -16835,7 +16835,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2907
+     "value": 2910
     }
    ],
    "title": {
@@ -38390,8 +38390,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 15:48 UTC",
+ "updated": "2026-11-21 16:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 16:02",
+   "n": "DeathRunner",
+   "x": "Clash Rune +4 → +5"
+  },
+  {
+   "t": "2026-11-21 16:02",
+   "n": "DeathRunner",
+   "x": "Clash Rune +3 → +5"
+  },
   {
    "t": "2026-11-21 15:34",
    "n": "uTril",
@@ -39881,16 +39891,6 @@
    "t": "2026-11-16 10:05",
    "n": "YasuoMain8",
    "x": "new Liberator Earrings +0"
-  },
-  {
-   "t": "2026-11-16 10:05",
-   "n": "YasuoMain8",
-   "x": "new Liberator Ring +0"
-  },
-  {
-   "t": "2026-11-16 10:05",
-   "n": "YasuoMain8",
-   "x": "new Avenger Bracelet +0"
   }
  ]
 }

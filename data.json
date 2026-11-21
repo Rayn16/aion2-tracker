@@ -15946,14 +15946,14 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 172881,
+     "cp": 172901,
      "il": 2911
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 172881,
+   "cp": 172901,
    "il": 2911,
    "gear": [
     {
@@ -16839,7 +16839,7 @@
     }
    ],
    "title": {
-    "ownedCount": 241,
+    "ownedCount": 242,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16907,8 +16907,8 @@
       "grade": "Unique",
       "id": 23051004,
       "name": "Journey's Path",
-      "ownedCount": 79,
-      "ownedPercent": 77,
+      "ownedCount": 80,
+      "ownedPercent": 78,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
@@ -38390,8 +38390,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 17:05 UTC",
+ "updated": "2026-11-21 17:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 17:32",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-21 16:32",
    "n": "DeathRunner",
@@ -39886,11 +39891,6 @@
    "t": "2026-11-16 10:35",
    "n": "YasuoMain8",
    "x": "skills up: Debilitating Smash 8, Block Pain 13"
-  },
-  {
-   "t": "2026-11-16 10:34",
-   "n": "CuteCatty",
-   "x": "Noble Belt +0 → +3"
   }
  ]
 }

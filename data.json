@@ -6814,15 +6814,15 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 144311,
-     "il": 2758
+     "cp": 144401,
+     "il": 2760
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 144311,
-   "il": 2758,
+   "cp": 144401,
+   "il": 2760,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7684,7 +7684,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2758
+     "value": 2760
     }
    ],
    "title": {
@@ -7814,7 +7814,7 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 19,
+      "openNodeCount": 20,
       "openPercent": 13,
       "totalNodeCount": 152
      },
@@ -8281,7 +8281,7 @@
      "7|5|Common|0|Boss Defense",
      "6|14|Common|0|Boss Attack",
      "7|1|Common|0|Max MP",
-     "6|9|Rare|0|PvE Attack, PvE Defense",
+     "6|9|Rare|1|PvE Attack, PvE Defense",
      "6|10|Common|0|Boss Attack",
      "6|12|Common|0|PvE Attack",
      "6|6|Legend|0|Critical Hit",
@@ -38390,8 +38390,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 21:35 UTC",
+ "updated": "2026-11-21 22:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 22:04",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-21 21:34",
    "n": "CutieCatty",
@@ -39886,11 +39891,6 @@
    "t": "2026-11-16 10:35",
    "n": "YasuoMain8",
    "x": "new Liberator Bracelet +0"
-  },
-  {
-   "t": "2026-11-16 10:35",
-   "n": "YasuoMain8",
-   "x": "10 new titles"
   }
  ]
 }

@@ -139,14 +139,14 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 152650,
-     "il": 2765
+     "cp": 152616,
+     "il": 2774
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152650,
-   "il": 2765,
+   "cp": 152616,
+   "il": 2774,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1020,7 +1020,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2765
+     "value": 2774
     }
    ],
    "title": {
@@ -1150,8 +1150,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 26,
-      "openPercent": 17,
+      "openNodeCount": 27,
+      "openPercent": 18,
       "totalNodeCount": 152
      },
      {
@@ -1941,7 +1941,7 @@
      "2|4|Common|0|PvE Evasion",
      "2|1|Common|0|PvE Accuracy",
      "2|7|Common|1|PvE Attack",
-     "2|5|Common|0|PvE Defense",
+     "2|5|Common|1|PvE Defense",
      "2|6|Legend|1|Critical Hit Resist",
      "2|11|Common|0|Boss Attack",
      "2|9|Rare|0|Boss Attack, Boss Defense",
@@ -38390,8 +38390,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 13:35 UTC",
+ "updated": "2026-11-21 14:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 14:01",
+   "n": "YasuoMain",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-21 13:31",
    "n": "YasuoMain",
@@ -39886,11 +39891,6 @@
    "t": "2026-11-16 09:35",
    "n": "YasuoMain8",
    "x": "new Spiritforged Guard +9"
-  },
-  {
-   "t": "2026-11-16 09:35",
-   "n": "YasuoMain8",
-   "x": "new Liberator Necklace +0"
   }
  ]
 }

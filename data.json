@@ -8758,7 +8758,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_022.png",
       "id": 18220000,
       "name": "Obliterate",
@@ -8858,7 +8858,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_042.png",
       "id": 18420000,
       "name": "Guardian Blessing",
@@ -38390,7 +38390,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 21:05 UTC",
+ "updated": "2026-11-21 21:20 UTC",
  "feed": [
   {
    "t": "2026-11-21 17:32",

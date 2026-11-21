@@ -139,13 +139,13 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 152694,
+     "cp": 152782,
      "il": 2779
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152694,
+   "cp": 152782,
    "il": 2779,
    "gear": [
     {
@@ -30719,15 +30719,15 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 124462,
-     "il": 2648
+     "cp": 124360,
+     "il": 2652
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 124462,
-   "il": 2648,
+   "cp": 124360,
+   "il": 2652,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31604,7 +31604,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2648
+     "value": 2652
     }
    ],
    "title": {
@@ -31734,8 +31734,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 18,
-      "openPercent": 12,
+      "openNodeCount": 20,
+      "openPercent": 13,
       "totalNodeCount": 152
      },
      {
@@ -32257,7 +32257,7 @@
      "1|7|Common|1|PvE Accuracy",
      "2|11|Common|0|Boss Attack",
      "2|9|Rare|0|Boss Attack, Boss Defense",
-     "3|1|Common|0|PvE Defense",
+     "3|1|Common|1|PvE Defense",
      "2|15|Common|0|Boss Attack",
      "2|13|Legend|0|Critical Hit",
      "2|4|Common|0|PvE Evasion",
@@ -32274,7 +32274,7 @@
      "3|15|Rare|0|PvE Attack, PvE Defense",
      "3|14|Common|0|PvE Accuracy",
      "3|4|Rare|0|Boss Attack, Boss Defense",
-     "3|2|Legend|0|Boss Damage Boost",
+     "3|2|Legend|1|Boss Damage Boost",
      "3|9|Common|0|PvE Accuracy",
      "3|8|Common|0|PvE Evasion",
      "3|7|Common|1|Boss Attack",
@@ -32643,7 +32643,7 @@
       "id": 17770000,
       "name": "Prayer of Concentration",
       "needLevel": 17,
-      "skillLevel": 18
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -32723,7 +32723,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -32798,12 +32798,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      }
     ]
    },
@@ -38390,8 +38390,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 14:35 UTC",
+ "updated": "2026-11-21 15:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 15:04",
+   "n": "uTril",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-21 15:04",
+   "n": "uTril",
+   "x": "skills up: Noble Aura 5"
+  },
   {
    "t": "2026-11-21 14:31",
    "n": "YasuoMain",
@@ -39881,16 +39891,6 @@
    "t": "2026-11-16 10:05",
    "n": "YasuoMain8",
    "x": "new Clash Rune +2"
-  },
-  {
-   "t": "2026-11-16 10:05",
-   "n": "YasuoMain8",
-   "x": "new Clash Rune +2"
-  },
-  {
-   "t": "2026-11-16 10:05",
-   "n": "YasuoMain8",
-   "x": "11 new titles"
   }
  ]
 }

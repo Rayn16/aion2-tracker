@@ -26490,11 +26490,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2.4%",
-      "Critical Hit increase +2.4%"
+      "Accuracy increase +2.5%",
+      "Critical Hit increase +2.5%"
      ],
      "type": "AGI",
-     "value": 24
+     "value": 25
     },
     {
      "name": "Willpower",
@@ -28073,11 +28073,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +0.9%",
-      "Critical Hit increase +0.9%"
+      "Accuracy increase +1%",
+      "Critical Hit increase +1%"
      ],
      "type": "AGI",
-     "value": 9
+     "value": 10
     },
     {
      "name": "Willpower",
@@ -38390,7 +38390,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 17:35 UTC",
+ "updated": "2026-11-21 18:05 UTC",
  "feed": [
   {
    "t": "2026-11-21 17:32",

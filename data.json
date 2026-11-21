@@ -6814,15 +6814,15 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 144401,
-     "il": 2760
+     "cp": 144488,
+     "il": 2763
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 144401,
-   "il": 2760,
+   "cp": 144488,
+   "il": 2763,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7684,7 +7684,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2760
+     "value": 2763
     }
    ],
    "title": {
@@ -7814,8 +7814,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 20,
-      "openPercent": 13,
+      "openNodeCount": 21,
+      "openPercent": 14,
       "totalNodeCount": 152
      },
      {
@@ -8255,7 +8255,7 @@
      "3|7|Common|1|Boss Attack",
      "3|8|Common|0|PvE Evasion",
      "3|9|Common|0|PvE Accuracy",
-     "3|2|Legend|0|Boss Damage Boost",
+     "3|2|Legend|1|Boss Damage Boost",
      "3|4|Rare|1|Boss Attack, Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
      "5|2|Common|1|Boss Defense",
@@ -38390,8 +38390,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 22:35 UTC",
+ "updated": "2026-11-21 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 23:04",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-21 22:32",
    "n": "DeathRunner",
@@ -39886,11 +39891,6 @@
    "t": "2026-11-16 11:05",
    "n": "YasuoMain8",
    "x": "8 new titles"
-  },
-  {
-   "t": "2026-11-16 11:05",
-   "n": "YasuoMain8",
-   "x": "skills up: Debilitating Smash 12, Warding Shield 7"
   }
  ]
 }

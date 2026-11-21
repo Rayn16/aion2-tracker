@@ -139,14 +139,14 @@
     },
     {
      "date": "2026-11-21",
-     "cp": 152219,
-     "il": 2759
+     "cp": 152580,
+     "il": 2762
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152219,
-   "il": 2759,
+   "cp": 152580,
+   "il": 2762,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -342,7 +342,7 @@
      "slotPosName": "Shoulder",
      "name": "Nuakum Pauldrons",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
@@ -1020,7 +1020,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2759
+     "value": 2762
     }
    ],
    "title": {
@@ -1315,7 +1315,7 @@
       "id": 11730000,
       "name": "Blood Absorption",
       "needLevel": 9,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -8758,7 +8758,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_022.png",
       "id": 18220000,
       "name": "Obliterate",
@@ -8858,7 +8858,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_042.png",
       "id": 18420000,
       "name": "Guardian Blessing",
@@ -38390,8 +38390,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-21 11:35 UTC",
+ "updated": "2026-11-21 12:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-21 12:01",
+   "n": "YasuoMain",
+   "x": "Nuakum Pauldrons +12 → +15"
+  },
   {
    "t": "2026-11-21 05:04",
    "n": "CutieCatty",
@@ -39886,11 +39891,6 @@
    "t": "2026-11-16 07:35",
    "n": "YasuoMain8",
    "x": "new Chaser Bracelet +0"
-  },
-  {
-   "t": "2026-11-16 07:35",
-   "n": "YasuoMain8",
-   "x": "2 new titles"
   }
  ]
 }

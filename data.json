@@ -33016,15 +33016,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 74250,
-     "il": 1356
+     "cp": 74710,
+     "il": 1365
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 74250,
-   "il": 1356,
+   "cp": 74710,
+   "il": 1365,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -33100,12 +33100,12 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Anguish Breastplate",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Torso.png",
-     "max": 10,
-     "slots": 3,
+     "name": "Bakarma Breastplate",
+     "grade": "Unique",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
@@ -33591,20 +33591,20 @@
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -0.9%",
-      "Double Chance +0.9%"
+      "MP Cost -1.1%",
+      "Double Chance +1.1%"
      ],
      "type": "Wisdom",
-     "value": 9
+     "value": 11
     },
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +0.9%",
-      "Endurance +0.9%"
+      "MP increase +1.1%",
+      "Endurance +1.1%"
      ],
      "type": "Destiny",
-     "value": 9
+     "value": 11
     },
     {
      "name": "Space [Israphel]",
@@ -33619,7 +33619,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1356
+     "value": 1365
     }
    ],
    "title": {
@@ -34608,7 +34608,7 @@
       "id": 11720000,
       "name": "Protection Armor",
       "needLevel": 6,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -34658,7 +34658,7 @@
       "id": 11770000,
       "name": "Destructive Impulse",
       "needLevel": 17,
-      "skillLevel": 12
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -36671,15 +36671,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 69725,
-     "il": 1304
+     "cp": 70742,
+     "il": 1351
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 69725,
-   "il": 1304,
+   "cp": 70742,
+   "il": 1351,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -36955,16 +36955,16 @@
     {
      "slotPosName": "Belt",
      "name": "Noble Belt",
-     "grade": "Rare",
-     "enchantLevel": 8,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_018.png",
+     "grade": "Legend",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_021.png",
      "max": 10,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Substance Morph"
      ]
     },
     {
@@ -37013,7 +37013,7 @@
      ]
     },
     {
-     "slotPosName": "Ring1",
+     "slotPosName": "Ring2",
      "name": "Berk Ring",
      "grade": "Unique",
      "enchantLevel": 0,
@@ -37030,18 +37030,20 @@
      ]
     },
     {
-     "slotPosName": "Ring2",
-     "name": "Liberator Ring",
-     "grade": "Legend",
+     "slotPosName": "Ring1",
+     "name": "Berk Ring",
+     "grade": "Unique",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
-     "max": 10,
-     "slots": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0066.png",
+     "max": 15,
+     "slots": 4,
      "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -37110,9 +37112,9 @@
     {
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
-     "grade": "Legend",
-     "enchantLevel": 8,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv4_01.png",
+     "grade": "Unique",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
      "stones": [],
@@ -37268,11 +37270,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1304
+     "value": 1351
     }
    ],
    "title": {
-    "ownedCount": 172,
+    "ownedCount": 174,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -37290,8 +37292,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 54,
-      "ownedPercent": 53,
+      "ownedCount": 55,
+      "ownedPercent": 54,
       "statList": [
        {
         "desc": "Block +10"
@@ -37315,8 +37317,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 58,
-      "ownedPercent": 55,
+      "ownedCount": 59,
+      "ownedPercent": 56,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -38227,7 +38229,7 @@
       "id": 12090000,
       "name": "Punishment",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -38497,8 +38499,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 21:05 UTC",
+ "updated": "2026-11-22 21:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 21:35",
+   "n": "YasuoMain8",
+   "x": "Noble Belt +8 → +0"
+  },
+  {
+   "t": "2026-11-22 21:35",
+   "n": "YasuoMain8",
+   "x": "new Berk Ring +0"
+  },
+  {
+   "t": "2026-11-22 21:35",
+   "n": "YasuoMain8",
+   "x": "Revelation Amulet +8 → +0"
+  },
+  {
+   "t": "2026-11-22 21:35",
+   "n": "YasuoMain8",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-22 21:35",
+   "n": "YasuoMain8",
+   "x": "skills up: Punishment 15"
+  },
+  {
+   "t": "2026-11-22 21:34",
+   "n": "RyBear",
+   "x": "new Bakarma Breastplate +0"
+  },
   {
    "t": "2026-11-22 21:05",
    "n": "YasuoMain8",
@@ -39968,36 +40000,6 @@
    "t": "2026-11-16 15:05",
    "n": "YasuoMain4",
    "x": "6 new titles"
-  },
-  {
-   "t": "2026-11-16 15:05",
-   "n": "YasuoMain4",
-   "x": "opened 10 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 15:05",
-   "n": "YasuoMain4",
-   "x": "skills up: Onslaught 12, Impactful Crush 11, Dark Crush 11, Gust Rampage 12 and 4 more"
-  },
-  {
-   "t": "2026-11-16 14:34",
-   "n": "YasuoMain4",
-   "x": "reached level 28"
-  },
-  {
-   "t": "2026-11-16 14:34",
-   "n": "YasuoMain4",
-   "x": "new Chaser Pauldrons +0"
-  },
-  {
-   "t": "2026-11-16 14:34",
-   "n": "YasuoMain4",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-16 14:05",
-   "n": "YasuoMain4",
-   "x": "reached level 27"
   }
  ]
 }

@@ -6834,15 +6834,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 145869,
-     "il": 2766
+     "cp": 148133,
+     "il": 2781
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 145869,
-   "il": 2766,
+   "cp": 148133,
+   "il": 2781,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7247,30 +7247,30 @@
      "slotPosName": "Earring1",
      "name": "Enraged Kromede Earrings",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "Evasion Bonus",
+       "Critical Hit",
+       "+9",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+23",
+       "Common"
+      ],
+      [
+       "Critical Hit",
        "+6",
        "Common"
       ],
       [
-       "HP",
-       "+130",
-       "Legend"
-      ],
-      [
-       "Block",
-       "+9",
+       "Evasion Bonus",
+       "+6",
        "Common"
-      ],
-      [
-       "Defense",
-       "+40",
-       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -7399,29 +7399,29 @@
      "slotPosName": "Bracelet1",
      "name": "Ascension Bracelet",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "Block",
+       "Critical Hit Resist",
        "+7",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+5",
        "Common"
       ],
       [
-       "Block",
+       "Critical Hit",
        "+7",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+15",
        "Common"
       ]
      ],
@@ -7704,7 +7704,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2766
+     "value": 2781
     }
    ],
    "title": {
@@ -7834,8 +7834,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 23,
-      "openPercent": 15,
+      "openNodeCount": 24,
+      "openPercent": 16,
       "totalNodeCount": 152
      },
      {
@@ -8251,23 +8251,23 @@
      "1|9|Common|0|Max HP",
      "1|11|Rare|0|PvE Accuracy, PvE Evasion",
      "1|7|Common|1|PvE Accuracy",
-     "1|1|Unique|0|PvE Damage Boost",
-     "1|2|Common|0|Boss Attack",
-     "1|3|Rare|0|PvE Attack, PvE Defense",
+     "1|1|Unique|1|PvE Damage Boost",
+     "1|2|Common|1|Boss Attack",
+     "1|3|Rare|1|PvE Attack, PvE Defense",
      "2|13|Legend|0|Critical Hit",
      "2|15|Common|0|Boss Attack",
-     "3|1|Common|1|PvE Defense",
+     "3|1|Common|0|PvE Defense",
      "2|9|Rare|0|Boss Attack, Boss Defense",
      "2|11|Common|0|Boss Attack",
-     "2|5|Common|0|PvE Defense",
-     "2|6|Legend|0|Critical Hit Resist",
+     "2|5|Common|1|PvE Defense",
+     "2|6|Legend|1|Critical Hit Resist",
      "2|7|Common|1|PvE Attack",
-     "2|1|Common|1|PvE Accuracy",
-     "2|3|Common|0|Boss Defense",
-     "2|4|Common|0|PvE Evasion",
+     "2|1|Common|0|PvE Accuracy",
+     "2|3|Common|1|Boss Defense",
+     "2|4|Common|1|PvE Evasion",
      "3|14|Common|0|PvE Accuracy",
      "3|15|Rare|0|PvE Attack, PvE Defense",
-     "4|2|Common|1|PvE Attack",
+     "4|2|Common|0|PvE Attack",
      "3|10|Common|0|Boss Defense",
      "3|11|Common|0|PvE Attack",
      "3|12|Common|0|PvE Evasion",
@@ -8275,25 +8275,25 @@
      "3|7|Common|1|Boss Attack",
      "3|8|Common|0|PvE Evasion",
      "3|9|Common|0|PvE Accuracy",
-     "3|2|Legend|1|Boss Damage Boost",
-     "3|4|Rare|1|Boss Attack, Boss Defense",
+     "3|2|Legend|0|Boss Damage Boost",
+     "3|4|Rare|0|Boss Attack, Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
-     "5|2|Common|1|Boss Defense",
-     "5|3|Common|1|Boss Attack",
+     "5|2|Common|0|Boss Defense",
+     "5|3|Common|0|Boss Attack",
      "4|12|Rare|0|Boss Attack, Boss Defense",
      "4|14|Common|0|PvE Evasion",
      "4|7|Rare|1|PvE Accuracy, PvE Evasion",
      "4|10|Legend|0|Critical Hit Resist",
-     "4|4|Common|1|PvE Accuracy",
-     "4|5|Common|1|PvE Attack",
-     "4|6|Common|1|Boss Defense",
+     "4|4|Common|0|PvE Accuracy",
+     "4|5|Common|0|PvE Attack",
+     "4|6|Common|0|Boss Defense",
      "6|1|Common|0|PvE Defense",
      "6|4|Common|0|PvE Evasion",
      "5|12|Common|0|PvE Accuracy",
      "5|13|Common|0|Boss Defense",
      "5|14|Legend|0|Boss Damage Boost",
      "5|10|Common|0|PvE Defense",
-     "5|4|Legend|1|Boss Damage Tolerance",
+     "5|4|Legend|0|Boss Damage Tolerance",
      "5|7|Common|1|PvE Defense",
      "7|2|Rare|0|Boss Attack, Boss Defense",
      "7|3|Common|0|PvE Accuracy",
@@ -8301,7 +8301,7 @@
      "7|5|Common|0|Boss Defense",
      "6|14|Common|0|Boss Attack",
      "7|1|Common|0|Max MP",
-     "6|9|Rare|1|PvE Attack, PvE Defense",
+     "6|9|Rare|0|PvE Attack, PvE Defense",
      "6|10|Common|0|Boss Attack",
      "6|12|Common|0|PvE Attack",
      "6|6|Legend|0|Critical Hit",
@@ -8343,15 +8343,15 @@
      "9|10|Common|0|Boss Attack",
      "9|11|Common|0|Boss Defense",
      "11|6|Common|0|PvE Defense",
-     "11|9|Common|0|PvE Defense",
+     "11|9|Common|1|PvE Defense",
      "11|2|Legend|0|Boss Damage Boost",
      "11|3|Common|0|Boss Defense",
      "11|4|Common|0|PvE Accuracy",
      "10|15|Common|0|PvE Defense",
-     "10|9|Common|0|PvE Evasion",
+     "10|9|Common|1|PvE Evasion",
      "10|10|Legend|0|Critical Hit",
      "10|12|Common|0|PvE Evasion",
-     "12|9|Rare|0|PvE Accuracy, PvE Evasion",
+     "12|9|Rare|1|PvE Accuracy, PvE Evasion",
      "12|10|Common|0|Boss Defense",
      "12|4|Rare|0|PvE Attack, PvE Defense",
      "12|6|Legend|0|Critical Hit Resist",
@@ -8361,7 +8361,7 @@
      "11|12|Legend|0|Boss Damage Tolerance",
      "11|13|Common|0|Boss Attack",
      "13|8|Common|0|PvE Evasion",
-     "13|9|Common|0|Boss Attack",
+     "13|9|Common|1|Boss Attack",
      "13|4|Common|0|PvE Evasion",
      "13|5|Common|0|PvE Attack",
      "13|6|Common|0|Boss Defense",
@@ -8372,7 +8372,7 @@
      "12|11|Common|0|PvE Attack",
      "12|12|Common|0|PvE Accuracy",
      "12|14|Common|0|PvE Attack",
-     "14|9|Common|0|PvE Attack",
+     "14|9|Common|1|PvE Attack",
      "14|10|Legend|0|Critical Hit Resist",
      "14|11|Common|0|PvE Defense",
      "14|12|Common|0|PvE Evasion",
@@ -8386,7 +8386,7 @@
      "15|13|Rare|0|Boss Attack, Boss Defense",
      "15|7|Common|0|Max MP",
      "15|8|Unique|0|PvE Damage Boost",
-     "15|9|Common|0|PvE Accuracy",
+     "15|9|Common|1|PvE Accuracy",
      "15|2|Common|0|PvE Attack",
      "15|3|Common|0|PvE Evasion",
      "15|4|Common|0|Boss Defense",
@@ -8693,7 +8693,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -8723,7 +8723,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 18
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -8878,7 +8878,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_042.png",
       "id": 18420000,
       "name": "Guardian Blessing",
@@ -30809,14 +30809,14 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 125011,
+     "cp": 125057,
      "il": 2654
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 125011,
+   "cp": 125057,
    "il": 2654,
    "gear": [
     {
@@ -38495,8 +38495,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 12:35 UTC",
+ "updated": "2026-11-22 13:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 13:04",
+   "n": "CutieCatty",
+   "x": "Enraged Kromede Earrings +10 → +15"
+  },
+  {
+   "t": "2026-11-22 13:04",
+   "n": "CutieCatty",
+   "x": "Ascension Bracelet +12 → +15"
+  },
+  {
+   "t": "2026-11-22 13:04",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-22 13:04",
+   "n": "CutieCatty",
+   "x": "skills up: Crossguard 17"
+  },
   {
    "t": "2026-11-22 07:32",
    "n": "DeathRunner",
@@ -39976,26 +39996,6 @@
    "t": "2026-11-16 13:05",
    "n": "YasuoMain4",
    "x": "new Outsider Gloves +0"
-  },
-  {
-   "t": "2026-11-16 13:05",
-   "n": "YasuoMain4",
-   "x": "new Outsider Cloak +0"
-  },
-  {
-   "t": "2026-11-16 13:05",
-   "n": "YasuoMain4",
-   "x": "opened 10 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 13:05",
-   "n": "YasuoMain4",
-   "x": "skills up: Onslaught 10, Incandescent Blow 10, Rushing Smash 11, Impactful Crush 10 and 8 more"
-  },
-  {
-   "t": "2026-11-16 13:04",
-   "n": "uTril",
-   "x": "opened 2 Daevanion nodes"
   }
  ]
 }

@@ -15991,14 +15991,14 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 173480,
+     "cp": 174490,
      "il": 2913
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 173480,
+   "cp": 174490,
    "il": 2913,
    "gear": [
     {
@@ -16884,7 +16884,7 @@
     }
    ],
    "title": {
-    "ownedCount": 246,
+    "ownedCount": 247,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16927,8 +16927,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 79,
-      "ownedPercent": 80,
+      "ownedCount": 80,
+      "ownedPercent": 81,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -18029,7 +18029,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 4
+      "skillLevel": 7
      },
      {
       "acquired": 0,
@@ -34896,14 +34896,14 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 66923,
+     "cp": 66940,
      "il": 1162
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 66923,
+   "cp": 66940,
    "il": 1162,
    "gear": [
     {
@@ -36671,15 +36671,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 69219,
-     "il": 1290
+     "cp": 69426,
+     "il": 1293
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 69219,
-   "il": 1290,
+   "cp": 69426,
+   "il": 1293,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -36721,7 +36721,7 @@
      "slotPosName": "SubHand",
      "name": "Spiritforged Guard",
      "grade": "Unique",
-     "enchantLevel": 9,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png",
      "max": 15,
      "slots": 4,
@@ -37109,7 +37109,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Legend",
-     "enchantLevel": 6,
+     "enchantLevel": 8,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv4_01.png",
      "max": 10,
      "slots": 0,
@@ -37266,11 +37266,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1290
+     "value": 1293
     }
    ],
    "title": {
-    "ownedCount": 171,
+    "ownedCount": 172,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -37338,8 +37338,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 59,
-      "ownedPercent": 60,
+      "ownedCount": 60,
+      "ownedPercent": 61,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -38495,8 +38495,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 20:05 UTC",
+ "updated": "2026-11-22 20:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 20:34",
+   "n": "YasuoMain8",
+   "x": "Spiritforged Guard +9 → +10"
+  },
+  {
+   "t": "2026-11-22 20:34",
+   "n": "YasuoMain8",
+   "x": "Revelation Amulet +6 → +8"
+  },
+  {
+   "t": "2026-11-22 20:34",
+   "n": "YasuoMain8",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-22 20:32",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-22 20:32",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 7"
+  },
   {
    "t": "2026-11-22 20:02",
    "n": "DeathRunner",
@@ -39971,31 +39996,6 @@
    "t": "2026-11-16 13:35",
    "n": "YasuoMain4",
    "x": "reached level 26"
-  },
-  {
-   "t": "2026-11-16 13:35",
-   "n": "YasuoMain4",
-   "x": "new Faded Agate Staff +0"
-  },
-  {
-   "t": "2026-11-16 13:35",
-   "n": "YasuoMain4",
-   "x": "new Chaser Breastplate +0"
-  },
-  {
-   "t": "2026-11-16 13:35",
-   "n": "YasuoMain4",
-   "x": "new Chaser Greaves +0"
-  },
-  {
-   "t": "2026-11-16 13:35",
-   "n": "YasuoMain4",
-   "x": "new Chaser Gloves +0"
-  },
-  {
-   "t": "2026-11-16 13:35",
-   "n": "YasuoMain4",
-   "x": "new Chaser Boots +0"
   }
  ]
 }

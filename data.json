@@ -6834,14 +6834,14 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 145130,
+     "cp": 145869,
      "il": 2766
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 145130,
+   "cp": 145869,
    "il": 2766,
    "gear": [
     {
@@ -8778,7 +8778,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_022.png",
       "id": 18220000,
       "name": "Obliterate",
@@ -38495,7 +38495,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 12:05 UTC",
+ "updated": "2026-11-22 12:35 UTC",
  "feed": [
   {
    "t": "2026-11-22 07:32",

@@ -15991,15 +15991,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 172934,
-     "il": 2911
+     "cp": 169168,
+     "il": 2913
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 172934,
-   "il": 2911,
+   "cp": 169168,
+   "il": 2913,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16624,7 +16624,7 @@
      "slotPosName": "Rune2",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 5,
+     "enchantLevel": 6,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -16640,7 +16640,7 @@
      "slotPosName": "Rune1",
      "name": "Clash Rune",
      "grade": "Special",
-     "enchantLevel": 5,
+     "enchantLevel": 6,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Rune_R_002.png",
      "max": 10,
      "slots": 0,
@@ -16880,11 +16880,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2911
+     "value": 2913
     }
    ],
    "title": {
-    "ownedCount": 244,
+    "ownedCount": 245,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16952,8 +16952,8 @@
       "grade": "Unique",
       "id": 23051004,
       "name": "Journey's Path",
-      "ownedCount": 81,
-      "ownedPercent": 79,
+      "ownedCount": 82,
+      "ownedPercent": 80,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
@@ -38495,8 +38495,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 07:05 UTC",
+ "updated": "2026-11-22 07:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 07:32",
+   "n": "DeathRunner",
+   "x": "Clash Rune +5 → +6"
+  },
+  {
+   "t": "2026-11-22 07:32",
+   "n": "DeathRunner",
+   "x": "Clash Rune +5 → +6"
+  },
+  {
+   "t": "2026-11-22 07:32",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-22 03:34",
    "n": "uTril",
@@ -39981,21 +39996,6 @@
    "t": "2026-11-16 13:04",
    "n": "uTril",
    "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 13:02",
-   "n": "DeathRunner",
-   "x": "Enraged Kromede Ring +14 → +15"
-  },
-  {
-   "t": "2026-11-16 13:02",
-   "n": "DeathRunner",
-   "x": "Mirror of Vigor +3 → +4"
-  },
-  {
-   "t": "2026-11-16 13:02",
-   "n": "DeathRunner",
-   "x": "skills up: Savage Roar 17, Defiance 3, Apply Poison 17, Impact Hit 17"
   }
  ]
 }

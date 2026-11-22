@@ -15991,14 +15991,14 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 394698,
+     "cp": 173480,
      "il": 2913
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 394698,
+   "cp": 173480,
    "il": 2913,
    "gear": [
     {
@@ -16884,7 +16884,7 @@
     }
    ],
    "title": {
-    "ownedCount": 245,
+    "ownedCount": 246,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16902,8 +16902,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 84,
-      "ownedPercent": 79,
+      "ownedCount": 85,
+      "ownedPercent": 80,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -38495,8 +38495,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 19:35 UTC",
+ "updated": "2026-11-22 20:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 20:02",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-22 19:04",
    "n": "uTril",
@@ -39991,11 +39996,6 @@
    "t": "2026-11-16 13:35",
    "n": "YasuoMain4",
    "x": "new Chaser Boots +0"
-  },
-  {
-   "t": "2026-11-16 13:35",
-   "n": "YasuoMain4",
-   "x": "new Chaser Cloak +0"
   }
  ]
 }

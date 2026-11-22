@@ -6834,14 +6834,14 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 144491,
+     "cp": 144497,
      "il": 2764
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 144491,
+   "cp": 144497,
    "il": 2764,
    "gear": [
     {
@@ -15991,14 +15991,14 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 172931,
+     "cp": 172934,
      "il": 2911
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 172931,
+   "cp": 172934,
    "il": 2911,
    "gear": [
     {
@@ -16884,7 +16884,7 @@
     }
    ],
    "title": {
-    "ownedCount": 243,
+    "ownedCount": 244,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16902,8 +16902,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 83,
-      "ownedPercent": 78,
+      "ownedCount": 84,
+      "ownedPercent": 79,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -38495,8 +38495,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 01:05 UTC",
+ "updated": "2026-11-22 01:31 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 01:28",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-22 01:04",
    "n": "CutieCatty",
@@ -39991,11 +39996,6 @@
    "t": "2026-11-16 11:35",
    "n": "YasuoMain8",
    "x": "skills up: Vicious Strike 13, Pummel 14, Punishment 14, Punishing Benediction 15 and 3 more"
-  },
-  {
-   "t": "2026-11-16 11:34",
-   "n": "CuteCatty",
-   "x": "opened 13 Daevanion nodes"
   }
  ]
 }

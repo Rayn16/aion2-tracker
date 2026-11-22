@@ -6834,14 +6834,14 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 149235,
+     "cp": 149071,
      "il": 2790
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 149235,
+   "cp": 149071,
    "il": 2790,
    "gear": [
     {
@@ -8693,7 +8693,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -38495,7 +38495,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 14:35 UTC",
+ "updated": "2026-11-22 15:04 UTC",
  "feed": [
   {
    "t": "2026-11-22 14:04",

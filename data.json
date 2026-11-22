@@ -33016,15 +33016,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 74710,
-     "il": 1365
+     "cp": 76231,
+     "il": 1459
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 74710,
-   "il": 1365,
+   "cp": 76231,
+   "il": 1459,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -33102,11 +33102,32 @@
      "slotPosName": "Torso",
      "name": "Bakarma Breastplate",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -33246,13 +33267,34 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Anguish Boots",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Boots.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Boots",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Boots.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Block",
+       "+10",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -33263,17 +33305,40 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Liberator Cloak",
-     "grade": "Legend",
-     "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Cape.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [],
+     "name": "Bakarma Cloak",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Quest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -33503,10 +33568,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +0.9%"
+      "HP increase +0.1%"
      ],
      "type": "CON",
-     "value": 9
+     "value": 1
     },
     {
      "name": "Precision",
@@ -33619,11 +33684,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1365
+     "value": 1459
     }
    ],
    "title": {
-    "ownedCount": 172,
+    "ownedCount": 173,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -33641,8 +33706,8 @@
       "grade": "Unique",
       "id": 23010010,
       "name": "Encountering Zikel's Core",
-      "ownedCount": 54,
-      "ownedPercent": 53,
+      "ownedCount": 55,
+      "ownedPercent": 54,
       "statList": [
        {
         "desc": "HP +120"
@@ -34648,7 +34713,7 @@
       "id": 11760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -34668,7 +34733,7 @@
       "id": 11780000,
       "name": "Experienced Counterstrike",
       "needLevel": 21,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -38499,8 +38564,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 21:35 UTC",
+ "updated": "2026-11-22 22:00 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 22:00",
+   "n": "RyBear",
+   "x": "Bakarma Breastplate +0 → +10"
+  },
+  {
+   "t": "2026-11-22 22:00",
+   "n": "RyBear",
+   "x": "new Bakarma Boots +10"
+  },
+  {
+   "t": "2026-11-22 22:00",
+   "n": "RyBear",
+   "x": "new Bakarma Cloak +10"
+  },
+  {
+   "t": "2026-11-22 22:00",
+   "n": "RyBear",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-22 22:00",
+   "n": "RyBear",
+   "x": "skills up: Experienced Counterstrike 14"
+  },
   {
    "t": "2026-11-22 21:35",
    "n": "YasuoMain8",
@@ -39975,31 +40065,6 @@
    "t": "2026-11-16 15:34",
    "n": "YasuoMain4",
    "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 15:34",
-   "n": "YasuoMain4",
-   "x": "skills up: Attack Preparation 7, Impact Hit 8, Wind's Promise 12"
-  },
-  {
-   "t": "2026-11-16 15:05",
-   "n": "YasuoMain4",
-   "x": "new Chaser Guard +0"
-  },
-  {
-   "t": "2026-11-16 15:05",
-   "n": "YasuoMain4",
-   "x": "new Chaser Helm +0"
-  },
-  {
-   "t": "2026-11-16 15:05",
-   "n": "YasuoMain4",
-   "x": "new Chaser Ring +0"
-  },
-  {
-   "t": "2026-11-16 15:05",
-   "n": "YasuoMain4",
-   "x": "6 new titles"
   }
  ]
 }

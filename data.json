@@ -6834,15 +6834,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 148213,
-     "il": 2785
+     "cp": 149235,
+     "il": 2790
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 148213,
-   "il": 2785,
+   "cp": 149235,
+   "il": 2790,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7285,7 +7285,7 @@
      "slotPosName": "Earring2",
      "name": "Enraged Kromede Earrings",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0053.png",
      "max": 15,
      "slots": 4,
@@ -7564,10 +7564,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +7%"
+      "Attack increase +7.3%"
      ],
      "type": "STR",
-     "value": 70
+     "value": 73
     },
     {
      "name": "Dexterity",
@@ -7704,7 +7704,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2785
+     "value": 2790
     }
    ],
    "title": {
@@ -38495,8 +38495,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 13:35 UTC",
+ "updated": "2026-11-22 14:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 14:04",
+   "n": "CutieCatty",
+   "x": "Enraged Kromede Earrings +10 → +15"
+  },
   {
    "t": "2026-11-22 13:34",
    "n": "CutieCatty",
@@ -39991,11 +39996,6 @@
    "t": "2026-11-16 13:05",
    "n": "YasuoMain4",
    "x": "new Outsider Helm +0"
-  },
-  {
-   "t": "2026-11-16 13:05",
-   "n": "YasuoMain4",
-   "x": "new Outsider Pauldrons +0"
   }
  ]
 }

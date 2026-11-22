@@ -30809,15 +30809,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 124960,
-     "il": 2652
+     "cp": 125011,
+     "il": 2654
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 124960,
-   "il": 2652,
+   "cp": 125011,
+   "il": 2654,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31694,7 +31694,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2652
+     "value": 2654
     }
    ],
    "title": {
@@ -31806,8 +31806,8 @@
       "id": 73,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 59,
-      "openPercent": 67,
+      "openNodeCount": 61,
+      "openPercent": 69,
       "totalNodeCount": 88
      },
      {
@@ -32047,7 +32047,7 @@
      "11|7|Common|0|Max HP",
      "11|6|Common|0|Critical Hit Resist",
      "10|12|Common|1|Critical Hit",
-     "10|9|Common|0|Critical Hit Resist",
+     "10|9|Common|1|Critical Hit Resist",
      "12|5|Common|1|Attack",
      "12|3|Common|0|Max HP",
      "12|10|Common|0|Critical Hit Resist",
@@ -32075,7 +32075,7 @@
      "3|5|Rare|1|Skill Level Up - Warm Benediction",
      "3|4|Common|0|Critical Hit Resist",
      "3|3|Unique|1|Critical Damage Boost",
-     "3|9|Common|0|Attack",
+     "3|9|Common|1|Attack",
      "3|8|Legend|0|Skill Level Up - Lightning Strike Scattershot",
      "3|7|Common|0|Critical Hit Resist",
      "4|13|Common|1|Max MP",
@@ -38495,8 +38495,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 03:05 UTC",
+ "updated": "2026-11-22 03:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 03:34",
+   "n": "uTril",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-22 02:34",
    "n": "CutieCatty",
@@ -39991,11 +39996,6 @@
    "t": "2026-11-16 13:02",
    "n": "DeathRunner",
    "x": "skills up: Savage Roar 17, Defiance 3, Apply Poison 17, Impact Hit 17"
-  },
-  {
-   "t": "2026-11-16 12:34",
-   "n": "uTril",
-   "x": "skills up: Summon Resurrection 1"
   }
  ]
 }

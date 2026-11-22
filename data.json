@@ -6835,14 +6835,14 @@
     {
      "date": "2026-11-22",
      "cp": 144491,
-     "il": 2763
+     "il": 2764
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
    "cp": 144491,
-   "il": 2763,
+   "il": 2764,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7704,7 +7704,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2763
+     "value": 2764
     }
    ],
    "title": {
@@ -7834,7 +7834,7 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 21,
+      "openNodeCount": 22,
       "openPercent": 14,
       "totalNodeCount": 152
      },
@@ -8256,7 +8256,7 @@
      "1|3|Rare|0|PvE Attack, PvE Defense",
      "2|13|Legend|0|Critical Hit",
      "2|15|Common|0|Boss Attack",
-     "3|1|Common|0|PvE Defense",
+     "3|1|Common|1|PvE Defense",
      "2|9|Rare|0|Boss Attack, Boss Defense",
      "2|11|Common|0|Boss Attack",
      "2|5|Common|0|PvE Defense",
@@ -38495,8 +38495,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 00:36 UTC",
+ "updated": "2026-11-22 01:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 01:04",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-21 23:34",
    "n": "CutieCatty",
@@ -39991,11 +39996,6 @@
    "t": "2026-11-16 11:34",
    "n": "CuteCatty",
    "x": "opened 13 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 11:34",
-   "n": "CuteCatty",
-   "x": "skills up: Debilitating Mark 14, Bolt 14, Defiance 2, Heal Block 9 and 2 more"
   }
  ]
 }

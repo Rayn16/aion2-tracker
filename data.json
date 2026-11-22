@@ -17959,7 +17959,7 @@
       "id": 13270000,
       "name": "Savage Fang",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 20
      },
      {
       "acquired": 1,
@@ -18029,7 +18029,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 4
      },
      {
       "acquired": 0,
@@ -30809,15 +30809,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 125057,
-     "il": 2654
+     "cp": 125089,
+     "il": 2655
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 125057,
-   "il": 2654,
+   "cp": 125089,
+   "il": 2655,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31694,7 +31694,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2654
+     "value": 2655
     }
    ],
    "title": {
@@ -31824,8 +31824,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 20,
-      "openPercent": 13,
+      "openNodeCount": 21,
+      "openPercent": 14,
       "totalNodeCount": 152
      },
      {
@@ -32352,7 +32352,7 @@
      "2|13|Legend|0|Critical Hit",
      "2|4|Common|0|PvE Evasion",
      "2|3|Common|0|Boss Defense",
-     "2|1|Common|0|PvE Accuracy",
+     "2|1|Common|1|PvE Accuracy",
      "2|7|Common|1|PvE Attack",
      "2|6|Legend|0|Critical Hit Resist",
      "2|5|Common|0|PvE Defense",
@@ -32813,7 +32813,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -32888,12 +32888,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      }
     ]
    },
@@ -38495,8 +38495,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 18:34 UTC",
+ "updated": "2026-11-22 19:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 19:04",
+   "n": "uTril",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-22 19:04",
+   "n": "uTril",
+   "x": "skills up: Summon Resurrection 5"
+  },
+  {
+   "t": "2026-11-22 19:02",
+   "n": "DeathRunner",
+   "x": "skills up: Savage Fang 20"
+  },
   {
    "t": "2026-11-22 17:34",
    "n": "YasuoMain8",
@@ -39981,21 +39996,6 @@
    "t": "2026-11-16 13:35",
    "n": "YasuoMain4",
    "x": "new Chaser Cloak +0"
-  },
-  {
-   "t": "2026-11-16 13:35",
-   "n": "YasuoMain4",
-   "x": "opened 11 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 13:35",
-   "n": "YasuoMain4",
-   "x": "skills up: Incandescent Blow 11, Rushing Smash 12, Dark Crush 10, Tremor Crush 3 and 6 more"
-  },
-  {
-   "t": "2026-11-16 13:34",
-   "n": "uTril",
-   "x": "Revelation Amulet +6 → +8"
   }
  ]
 }

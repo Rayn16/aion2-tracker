@@ -6834,15 +6834,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 144497,
-     "il": 2764
+     "cp": 144527,
+     "il": 2765
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 144497,
-   "il": 2764,
+   "cp": 144527,
+   "il": 2765,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7704,7 +7704,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2764
+     "value": 2765
     }
    ],
    "title": {
@@ -7834,8 +7834,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 22,
-      "openPercent": 14,
+      "openNodeCount": 23,
+      "openPercent": 15,
       "totalNodeCount": 152
      },
      {
@@ -8262,7 +8262,7 @@
      "2|5|Common|0|PvE Defense",
      "2|6|Legend|0|Critical Hit Resist",
      "2|7|Common|1|PvE Attack",
-     "2|1|Common|0|PvE Accuracy",
+     "2|1|Common|1|PvE Accuracy",
      "2|3|Common|0|Boss Defense",
      "2|4|Common|0|PvE Evasion",
      "3|14|Common|0|PvE Accuracy",
@@ -38495,8 +38495,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 01:31 UTC",
+ "updated": "2026-11-22 02:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 02:04",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-22 01:28",
    "n": "DeathRunner",
@@ -39991,11 +39996,6 @@
    "t": "2026-11-16 11:35",
    "n": "YasuoMain8",
    "x": "opened 23 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 11:35",
-   "n": "YasuoMain8",
-   "x": "skills up: Vicious Strike 13, Pummel 14, Punishment 14, Punishing Benediction 15 and 3 more"
   }
  ]
 }

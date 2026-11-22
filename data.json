@@ -6834,15 +6834,15 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 148133,
-     "il": 2781
+     "cp": 148213,
+     "il": 2785
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 148133,
-   "il": 2781,
+   "cp": 148213,
+   "il": 2785,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7704,7 +7704,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2781
+     "value": 2785
     }
    ],
    "title": {
@@ -7834,7 +7834,7 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 24,
+      "openNodeCount": 25,
       "openPercent": 16,
       "totalNodeCount": 152
      },
@@ -8385,7 +8385,7 @@
      "13|15|Common|0|PvE Defense",
      "15|13|Rare|0|Boss Attack, Boss Defense",
      "15|7|Common|0|Max MP",
-     "15|8|Unique|0|PvE Damage Boost",
+     "15|8|Unique|1|PvE Damage Boost",
      "15|9|Common|1|PvE Accuracy",
      "15|2|Common|0|PvE Attack",
      "15|3|Common|0|PvE Evasion",
@@ -38495,8 +38495,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 13:05 UTC",
+ "updated": "2026-11-22 13:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 13:34",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-22 13:04",
    "n": "CutieCatty",
@@ -39991,11 +39996,6 @@
    "t": "2026-11-16 13:05",
    "n": "YasuoMain4",
    "x": "new Outsider Pauldrons +0"
-  },
-  {
-   "t": "2026-11-16 13:05",
-   "n": "YasuoMain4",
-   "x": "new Outsider Gloves +0"
   }
  ]
 }

@@ -144,13 +144,13 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 152902,
+     "cp": 152913,
      "il": 2783
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152902,
+   "cp": 152913,
    "il": 2783,
    "gear": [
     {
@@ -36671,14 +36671,14 @@
     },
     {
      "date": "2026-11-22",
-     "cp": 69119,
+     "cp": 69219,
      "il": 1290
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 69119,
+   "cp": 69219,
    "il": 1290,
    "gear": [
     {
@@ -38255,7 +38255,7 @@
       "id": 12720000,
       "name": "Warding Shield",
       "needLevel": 6,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -38495,8 +38495,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 17:05 UTC",
+ "updated": "2026-11-22 17:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-22 17:34",
+   "n": "YasuoMain8",
+   "x": "skills up: Warding Shield 8"
+  },
   {
    "t": "2026-11-22 17:05",
    "n": "YasuoMain8",
@@ -39991,11 +39996,6 @@
    "t": "2026-11-16 13:34",
    "n": "uTril",
    "x": "Revelation Amulet +6 → +8"
-  },
-  {
-   "t": "2026-11-16 13:34",
-   "n": "uTril",
-   "x": "skills up: Noble Aura 5"
   }
  ]
 }

@@ -149,14 +149,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 152995,
-     "il": 2783
+     "cp": 153085,
+     "il": 2788
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152995,
-   "il": 2783,
+   "cp": 153085,
+   "il": 2788,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -390,7 +390,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 12,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -931,10 +931,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +1.4%"
+      "Status Effect Resist +2.6%"
      ],
      "type": "WIS",
-     "value": 14
+     "value": 26
     },
     {
      "name": "Justice [Nezekan]",
@@ -1030,7 +1030,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2783
+     "value": 2788
     }
    ],
    "title": {
@@ -1160,8 +1160,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 32,
-      "openPercent": 21,
+      "openNodeCount": 34,
+      "openPercent": 22,
       "totalNodeCount": 152
      },
      {
@@ -1365,7 +1365,7 @@
       "id": 11770000,
       "name": "Destructive Impulse",
       "needLevel": 17,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -2066,7 +2066,7 @@
      "13|8|Common|0|PvE Evasion",
      "13|9|Common|1|Boss Attack",
      "13|14|Legend|0|Boss Damage Boost",
-     "13|15|Common|0|PvE Defense",
+     "13|15|Common|1|PvE Defense",
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "14|3|Legend|0|Critical Hit",
      "14|1|Common|0|Boss Attack",
@@ -2076,7 +2076,7 @@
      "14|12|Common|1|PvE Evasion",
      "14|9|Common|1|PvE Attack",
      "14|10|Legend|1|Critical Hit Resist",
-     "14|15|Common|0|PvE Accuracy",
+     "14|15|Common|1|PvE Accuracy",
      "15|1|Unique|0|PvE Damage Tolerance",
      "14|13|Common|1|Boss Defense",
      "15|4|Common|0|Boss Defense",
@@ -6812,14 +6812,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 149321,
+     "cp": 149329,
      "il": 2793
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 149321,
+   "cp": 149329,
    "il": 2793,
    "gear": [
     {
@@ -38743,8 +38743,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 22:35 UTC",
+ "updated": "2026-11-23 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 23:01",
+   "n": "YasuoMain",
+   "x": "Nuakum Gloves +12 → +15"
+  },
+  {
+   "t": "2026-11-23 23:01",
+   "n": "YasuoMain",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-23 23:01",
+   "n": "YasuoMain",
+   "x": "skills up: Destructive Impulse 17"
+  },
   {
    "t": "2026-11-23 22:33",
    "n": "uTril",
@@ -40229,21 +40244,6 @@
    "t": "2026-11-17 08:35",
    "n": "YasuoMain4",
    "x": "new Old Mercenary Commander Bracelet +0"
-  },
-  {
-   "t": "2026-11-17 08:35",
-   "n": "YasuoMain4",
-   "x": "3 new titles"
-  },
-  {
-   "t": "2026-11-17 08:35",
-   "n": "YasuoMain4",
-   "x": "skills up: Spinning Strike 13, Inspiring Spell 10, Raging Spell 4"
-  },
-  {
-   "t": "2026-11-17 08:04",
-   "n": "YasuoMain4",
-   "x": "4 new titles"
   }
  ]
 }

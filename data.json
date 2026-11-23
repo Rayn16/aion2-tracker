@@ -27502,14 +27502,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 91364,
+     "cp": 91373,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91364,
+   "cp": 91373,
    "il": 1785,
    "gear": [
     {
@@ -29504,10 +29504,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Ferk_01.png",
-     "id": 1191,
-     "level": 1,
-     "name": "Furious Feruk"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Varg_03.png",
+     "id": 1018,
+     "level": 3,
+     "name": "Varg Berserker"
     },
     "wing": {
      "enchantLevel": 0,
@@ -38743,7 +38743,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 20:34 UTC",
+ "updated": "2026-11-23 21:05 UTC",
  "feed": [
   {
    "t": "2026-11-23 20:04",

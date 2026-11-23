@@ -16039,14 +16039,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 173017,
+     "cp": 394698,
      "il": 2913
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 173017,
+   "cp": 394698,
    "il": 2913,
    "gear": [
     {
@@ -30902,15 +30902,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 124923,
-     "il": 2655
+     "cp": 393117,
+     "il": 2664
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 124923,
-   "il": 2655,
+   "cp": 393117,
+   "il": 2664,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31673,10 +31673,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +0.1%"
+      "HP increase +0.2%"
      ],
      "type": "CON",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Precision",
@@ -31787,11 +31787,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2655
+     "value": 2664
     }
    ],
    "title": {
-    "ownedCount": 203,
+    "ownedCount": 204,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31834,8 +31834,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 68,
-      "ownedPercent": 69,
+      "ownedCount": 69,
+      "ownedPercent": 70,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -31899,8 +31899,8 @@
       "id": 73,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 61,
-      "openPercent": 69,
+      "openNodeCount": 63,
+      "openPercent": 72,
       "totalNodeCount": 88
      },
      {
@@ -31917,8 +31917,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 21,
-      "openPercent": 14,
+      "openNodeCount": 23,
+      "openPercent": 15,
       "totalNodeCount": 152
      },
      {
@@ -32169,7 +32169,7 @@
      "3|4|Common|0|Critical Hit Resist",
      "3|3|Unique|1|Critical Damage Boost",
      "3|9|Common|1|Attack",
-     "3|8|Legend|0|Skill Level Up - Lightning Strike Scattershot",
+     "3|8|Legend|1|Skill Level Up - Lightning Strike Scattershot",
      "3|7|Common|0|Critical Hit Resist",
      "4|13|Common|1|Max MP",
      "4|11|Common|1|Defense",
@@ -32201,7 +32201,7 @@
      "7|8|Common|1|Attack",
      "7|7|Common|1|Max HP",
      "7|6|Rare|1|Skill Level Up - Survival Willpower",
-     "7|13|Common|0|Critical Hit",
+     "7|13|Common|1|Critical Hit",
      "7|12|Common|1|Max HP",
      "7|11|Legend|1|Skill Level Up - Chain of Torment",
      "7|10|Common|1|Defense"
@@ -32368,7 +32368,7 @@
      "10|6|Common|0|Boss Attack",
      "9|11|Common|0|Boss Defense",
      "9|10|Common|0|Boss Attack",
-     "9|8|Common|0|PvE Attack",
+     "9|8|Common|1|PvE Attack",
      "9|15|Common|0|Max HP",
      "9|14|Rare|0|PvE Attack, PvE Defense",
      "9|13|Common|0|PvE Accuracy",
@@ -32436,7 +32436,7 @@
      "1|12|Common|0|Boss Defense",
      "1|3|Rare|0|PvE Attack, PvE Defense",
      "1|2|Common|0|Boss Attack",
-     "1|1|Unique|0|PvE Damage Boost",
+     "1|1|Unique|1|PvE Damage Boost",
      "1|7|Common|1|PvE Accuracy",
      "2|11|Common|0|Boss Attack",
      "2|9|Rare|0|Boss Attack, Boss Defense",
@@ -32696,7 +32696,7 @@
       "id": 17370000,
       "name": "Lightning Strike Scattershot",
       "needLevel": 5,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -38785,8 +38785,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 15:04 UTC",
+ "updated": "2026-11-23 15:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 15:34",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-23 15:34",
+   "n": "uTril",
+   "x": "opened 4 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-23 15:34",
+   "n": "uTril",
+   "x": "skills up: Lightning Strike Scattershot 15"
+  },
   {
    "t": "2026-11-23 14:32",
    "n": "DeathRunner",
@@ -40271,21 +40286,6 @@
    "t": "2026-11-16 18:34",
    "n": "YasuoMain4",
    "x": "reached level 33"
-  },
-  {
-   "t": "2026-11-16 18:04",
-   "n": "YasuoMain4",
-   "x": "new Avenger Greaves +0"
-  },
-  {
-   "t": "2026-11-16 18:04",
-   "n": "YasuoMain4",
-   "x": "new Avenger Gloves +0"
-  },
-  {
-   "t": "2026-11-16 18:04",
-   "n": "YasuoMain4",
-   "x": "new Avenger Cloak +0"
   }
  ]
 }

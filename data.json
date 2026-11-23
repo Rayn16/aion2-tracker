@@ -2409,14 +2409,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 91912,
-     "il": 2056
+     "cp": 92137,
+     "il": 2081
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 91912,
-   "il": 2056,
+   "cp": 92137,
+   "il": 2081,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -3093,7 +3093,7 @@
     {
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
-     "grade": "Common",
+     "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 2,
@@ -3192,11 +3192,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +3.6%",
-      "Evasion increase +3.6%"
+      "Accuracy increase +4%",
+      "Evasion increase +4%"
      ],
      "type": "Freedom",
-     "value": 36
+     "value": 40
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -3274,11 +3274,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2056
+     "value": 2081
     }
    ],
    "title": {
-    "ownedCount": 182,
+    "ownedCount": 184,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -3346,8 +3346,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 61,
-      "ownedPercent": 62,
+      "ownedCount": 63,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -3459,7 +3459,7 @@
       "id": 12100000,
       "name": "Shield Smite",
       "needLevel": 3,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -4643,15 +4643,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 87719,
-     "il": 2007
+     "cp": 88064,
+     "il": 2013
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 87719,
-   "il": 2007,
+   "cp": 88064,
+   "il": 2013,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4999,7 +4999,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 5,
+     "enchantLevel": 6,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -5265,7 +5265,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 5,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -5486,7 +5486,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2007
+     "value": 2013
     }
    ],
    "title": {
@@ -6855,14 +6855,14 @@
     {
      "date": "2026-11-23",
      "cp": 149084,
-     "il": 2790
+     "il": 2793
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
    "cp": 149084,
-   "il": 2790,
+   "il": 2793,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7724,7 +7724,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2790
+     "value": 2793
     }
    ],
    "title": {
@@ -7854,8 +7854,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 25,
-      "openPercent": 16,
+      "openNodeCount": 26,
+      "openPercent": 17,
       "totalNodeCount": 152
      },
      {
@@ -8393,7 +8393,7 @@
      "12|12|Common|0|PvE Accuracy",
      "12|14|Common|0|PvE Attack",
      "14|9|Common|1|PvE Attack",
-     "14|10|Legend|0|Critical Hit Resist",
+     "14|10|Legend|1|Critical Hit Resist",
      "14|11|Common|0|PvE Defense",
      "14|12|Common|0|PvE Evasion",
      "14|5|Common|0|Boss Attack",
@@ -30902,14 +30902,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 393117,
+     "cp": 126960,
      "il": 2664
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 393117,
+   "cp": 126960,
    "il": 2664,
    "gear": [
     {
@@ -32906,7 +32906,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -32916,7 +32916,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 18
+      "skillLevel": 19
      },
      {
       "acquired": 0,
@@ -32981,12 +32981,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      }
     ]
    },
@@ -38785,8 +38785,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 16:34 UTC",
+ "updated": "2026-11-23 17:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 17:04",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-23 17:04",
+   "n": "CuteCatty",
+   "x": "Noble Belt +5 → +6"
+  },
+  {
+   "t": "2026-11-23 17:04",
+   "n": "CuteCatty",
+   "x": "Revelation Amulet +5 → +10"
+  },
+  {
+   "t": "2026-11-23 17:04",
+   "n": "uTril",
+   "x": "skills up: Earth Punishment 19, Noble Aura 5"
+  },
+  {
+   "t": "2026-11-23 17:01",
+   "n": "YasuoMain16",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-23 17:01",
+   "n": "YasuoMain16",
+   "x": "skills up: Shield Smite 13"
+  },
   {
    "t": "2026-11-23 15:34",
    "n": "uTril",
@@ -40256,36 +40286,6 @@
    "t": "2026-11-16 19:35",
    "n": "YasuoMain4",
    "x": "new Old Mercenary Commander Necklace +0"
-  },
-  {
-   "t": "2026-11-16 19:35",
-   "n": "YasuoMain4",
-   "x": "new Old Mercenary Commander Earrings +0"
-  },
-  {
-   "t": "2026-11-16 19:35",
-   "n": "YasuoMain4",
-   "x": "new Old Mercenary Commander Earrings +0"
-  },
-  {
-   "t": "2026-11-16 19:35",
-   "n": "YasuoMain4",
-   "x": "new Old Mercenary Commander Bracelet +0"
-  },
-  {
-   "t": "2026-11-16 19:35",
-   "n": "YasuoMain4",
-   "x": "7 new titles"
-  },
-  {
-   "t": "2026-11-16 19:35",
-   "n": "YasuoMain4",
-   "x": "skills up: Dark Crush 12, Spinning Strike 10, Inspiring Spell 7, Attack Preparation 8 and 1 more"
-  },
-  {
-   "t": "2026-11-16 18:34",
-   "n": "YasuoMain4",
-   "x": "reached level 33"
   }
  ]
 }

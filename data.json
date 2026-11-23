@@ -34838,7 +34838,7 @@
      {
       "acquired": 1,
       "category": "Active",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_015.png",
       "id": 11300000,
       "name": "Aerial Snare",
@@ -34968,12 +34968,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_007.png",
       "id": 11240000,
       "name": "Wrath Wave",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -34998,12 +34998,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -38784,8 +38784,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 08:35 UTC",
+ "updated": "2026-11-23 09:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 09:04",
+   "n": "RyBear",
+   "x": "skills up: Focused Block 5"
+  },
   {
    "t": "2026-11-23 05:34",
    "n": "uTril",
@@ -40280,11 +40285,6 @@
    "t": "2026-11-16 16:02",
    "n": "DeathRunner",
    "x": "skills up: Triniel's Dagger 12"
-  },
-  {
-   "t": "2026-11-16 15:34",
-   "n": "YasuoMain4",
-   "x": "reached level 31"
   }
  ]
 }

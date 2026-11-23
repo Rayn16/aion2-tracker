@@ -2409,14 +2409,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 92137,
-     "il": 2081
+     "cp": 92184,
+     "il": 2079
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 92137,
-   "il": 2081,
+   "cp": 92184,
+   "il": 2079,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -3274,7 +3274,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2081
+     "value": 2079
     }
    ],
    "title": {
@@ -3386,8 +3386,8 @@
       "id": 23,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 51,
-      "openPercent": 58,
+      "openNodeCount": 50,
+      "openPercent": 57,
       "totalNodeCount": 88
      },
      {
@@ -3429,7 +3429,7 @@
       "id": 12010000,
       "name": "Vicious Strike",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -3987,9 +3987,9 @@
      "3|9|Common|1|Attack",
      "3|8|Legend|1|Skill Level Up - Flash Rampage",
      "3|7|Common|1|Critical Hit Resist",
-     "3|13|Unique|1|Critical Damage Tolerance",
-     "3|12|Common|1|Max HP",
-     "3|11|Common|1|Critical Hit Resist",
+     "3|13|Unique|0|Critical Damage Tolerance",
+     "3|12|Common|0|Max HP",
+     "3|11|Common|0|Critical Hit Resist",
      "3|10|Rare|1|Skill Level Up - Punishing Benediction",
      "4|6|Common|1|Critical Hit",
      "4|5|Common|1|Attack",
@@ -3997,7 +3997,7 @@
      "4|9|Common|0|Defense",
      "4|7|Common|1|Max MP",
      "4|13|Common|0|Max MP",
-     "4|11|Common|1|Defense",
+     "4|11|Common|0|Defense",
      "5|3|Common|0|Defense",
      "5|7|Legend|1|Skill Level Up - Annihilate",
      "5|5|Common|0|Max HP",
@@ -4019,15 +4019,15 @@
      "7|8|Common|1|Attack",
      "7|7|Common|1|Max HP",
      "7|6|Rare|0|Skill Level Up - Survival Willpower",
-     "7|13|Common|0|Critical Hit",
-     "7|12|Common|0|Max HP",
+     "7|13|Common|1|Critical Hit",
+     "7|12|Common|1|Max HP",
      "7|11|Legend|1|Skill Level Up - Judgment",
      "7|10|Common|1|Defense",
      "8|6|Common|0|Max MP",
      "8|3|Legend|1|Skill Level Up - Debilitating Smash",
      "8|10|Common|0|Max HP",
      "8|8|Start|1|Vaizel - Start",
-     "8|13|Legend|0|Skill Level Up - Vicious Strike",
+     "8|13|Legend|1|Skill Level Up - Vicious Strike",
      "9|3|Common|1|Critical Hit Resist",
      "9|7|Common|1|Critical Hit",
      "9|6|Common|1|Attack",
@@ -16039,14 +16039,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 173017,
+     "cp": 176117,
      "il": 2913
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 173017,
+   "cp": 176117,
    "il": 2913,
    "gear": [
     {
@@ -18077,7 +18077,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 7
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -30902,14 +30902,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 126960,
+     "cp": 127020,
      "il": 2664
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 126960,
+   "cp": 127020,
    "il": 2664,
    "gear": [
     {
@@ -31791,7 +31791,7 @@
     }
    ],
    "title": {
-    "ownedCount": 204,
+    "ownedCount": 205,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31809,8 +31809,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 64,
-      "ownedPercent": 63,
+      "ownedCount": 65,
+      "ownedPercent": 64,
       "statList": [
        {
         "desc": "Block +10"
@@ -38785,8 +38785,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 17:05 UTC",
+ "updated": "2026-11-23 17:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 17:33",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-23 17:32",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 10"
+  },
+  {
+   "t": "2026-11-23 17:31",
+   "n": "YasuoMain16",
+   "x": "skills up: Vicious Strike 14"
+  },
   {
    "t": "2026-11-23 17:04",
    "n": "CutieCatty",
@@ -40271,21 +40286,6 @@
    "t": "2026-11-17 04:34",
    "n": "YasuoMain4",
    "x": "skills up: Attack Preparation 9"
-  },
-  {
-   "t": "2026-11-17 02:02",
-   "n": "DeathRunner",
-   "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-17 01:34",
-   "n": "uTril",
-   "x": "skills up: Noble Aura 6"
-  },
-  {
-   "t": "2026-11-16 19:35",
-   "n": "YasuoMain4",
-   "x": "new Old Mercenary Commander Necklace +0"
   }
  ]
 }

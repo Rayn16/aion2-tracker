@@ -30902,14 +30902,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 124723,
+     "cp": 124923,
      "il": 2655
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 124723,
+   "cp": 124923,
    "il": 2655,
    "gear": [
     {
@@ -32981,7 +32981,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
@@ -38785,7 +38785,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 14:35 UTC",
+ "updated": "2026-11-23 15:04 UTC",
  "feed": [
   {
    "t": "2026-11-23 14:32",

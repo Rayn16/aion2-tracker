@@ -6812,15 +6812,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 149329,
-     "il": 2793
+     "cp": 149445,
+     "il": 2799
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 149329,
-   "il": 2793,
+   "cp": 149445,
+   "il": 2799,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7682,11 +7682,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2793
+     "value": 2799
     }
    ],
    "title": {
-    "ownedCount": 222,
+    "ownedCount": 223,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -7754,8 +7754,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 75,
-      "ownedPercent": 76,
+      "ownedCount": 76,
+      "ownedPercent": 77,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -7812,8 +7812,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 26,
-      "openPercent": 17,
+      "openNodeCount": 31,
+      "openPercent": 20,
       "totalNodeCount": 152
      },
      {
@@ -8352,8 +8352,8 @@
      "12|14|Common|0|PvE Attack",
      "14|9|Common|1|PvE Attack",
      "14|10|Legend|1|Critical Hit Resist",
-     "14|11|Common|0|PvE Defense",
-     "14|12|Common|0|PvE Evasion",
+     "14|11|Common|1|PvE Defense",
+     "14|12|Common|1|PvE Evasion",
      "14|5|Common|0|Boss Attack",
      "14|7|Rare|0|PvE Attack, PvE Defense",
      "14|1|Common|0|Boss Attack",
@@ -8361,7 +8361,7 @@
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "13|14|Legend|0|Boss Damage Boost",
      "13|15|Common|0|PvE Defense",
-     "15|13|Rare|0|Boss Attack, Boss Defense",
+     "15|13|Rare|1|Boss Attack, Boss Defense",
      "15|7|Common|0|Max MP",
      "15|8|Unique|1|PvE Damage Boost",
      "15|9|Common|1|PvE Accuracy",
@@ -8369,10 +8369,10 @@
      "15|3|Common|0|PvE Evasion",
      "15|4|Common|0|Boss Defense",
      "15|5|Rare|0|PvE Accuracy, PvE Evasion",
-     "14|13|Common|0|Boss Defense",
+     "14|13|Common|1|Boss Defense",
      "14|15|Common|0|PvE Accuracy",
      "15|1|Unique|0|PvE Damage Tolerance",
-     "15|14|Common|0|Boss Attack",
+     "15|14|Common|1|Boss Attack",
      "15|15|Unique|0|PvE Damage Boost"
     ],
     "86": [
@@ -30860,15 +30860,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 127363,
-     "il": 2666
+     "cp": 130393,
+     "il": 2677
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 127363,
-   "il": 2666,
+   "cp": 130393,
+   "il": 2677,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -30914,7 +30914,7 @@
      "slotPosName": "SubHand",
      "name": "Nuakum Guard",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 14,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
@@ -31525,7 +31525,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 8,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -31639,11 +31639,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.2%",
-      "Critical Hit increase +1.2%"
+      "Accuracy increase +2.9%",
+      "Critical Hit increase +2.9%"
      ],
      "type": "AGI",
-     "value": 12
+     "value": 29
     },
     {
      "name": "Willpower",
@@ -31745,7 +31745,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2666
+     "value": 2677
     }
    ],
    "title": {
@@ -31875,8 +31875,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 25,
-      "openPercent": 16,
+      "openNodeCount": 29,
+      "openPercent": 19,
       "totalNodeCount": 152
      },
      {
@@ -32334,7 +32334,7 @@
      "11|4|Common|0|PvE Accuracy",
      "11|3|Common|0|Boss Defense",
      "11|2|Legend|0|Boss Damage Boost",
-     "11|9|Common|0|PvE Defense",
+     "11|9|Common|1|PvE Defense",
      "11|6|Common|0|PvE Defense",
      "10|12|Common|0|PvE Evasion",
      "10|10|Legend|0|Critical Hit",
@@ -32343,7 +32343,7 @@
      "12|6|Legend|0|Critical Hit Resist",
      "12|4|Rare|0|PvE Attack, PvE Defense",
      "12|10|Common|0|Boss Defense",
-     "12|9|Rare|0|PvE Accuracy, PvE Evasion",
+     "12|9|Rare|1|PvE Accuracy, PvE Evasion",
      "11|13|Common|0|Boss Attack",
      "11|12|Legend|0|Boss Damage Tolerance",
      "12|2|Common|0|PvE Evasion",
@@ -32353,7 +32353,7 @@
      "13|6|Common|0|Boss Defense",
      "13|5|Common|0|PvE Attack",
      "13|4|Common|0|PvE Evasion",
-     "13|9|Common|0|Boss Attack",
+     "13|9|Common|1|Boss Attack",
      "13|8|Common|0|PvE Evasion",
      "12|14|Common|0|PvE Attack",
      "12|12|Common|0|PvE Accuracy",
@@ -32366,7 +32366,7 @@
      "14|12|Common|0|PvE Evasion",
      "14|11|Common|0|PvE Defense",
      "14|10|Legend|0|Critical Hit Resist",
-     "14|9|Common|0|PvE Attack",
+     "14|9|Common|1|PvE Attack",
      "13|15|Common|0|PvE Defense",
      "13|14|Legend|0|Boss Damage Boost",
      "13|12|Rare|0|PvE Attack, PvE Defense",
@@ -32634,7 +32634,7 @@
       "id": 17150000,
       "name": "Divine Aura",
       "needLevel": 3,
-      "skillLevel": 5
+      "skillLevel": 4
      },
      {
       "acquired": 1,
@@ -32644,7 +32644,7 @@
       "id": 17070000,
       "name": "Chain of Torment",
       "needLevel": 4,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -32674,7 +32674,7 @@
       "id": 17350000,
       "name": "Condemnation",
       "needLevel": 8,
-      "skillLevel": 19
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -38743,8 +38743,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 23:05 UTC",
+ "updated": "2026-11-23 23:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 23:34",
+   "n": "CutieCatty",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-23 23:34",
+   "n": "CutieCatty",
+   "x": "opened 5 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-23 23:34",
+   "n": "uTril",
+   "x": "Nuakum Guard +10 → +14"
+  },
+  {
+   "t": "2026-11-23 23:34",
+   "n": "uTril",
+   "x": "Revelation Amulet +8 → +10"
+  },
+  {
+   "t": "2026-11-23 23:34",
+   "n": "uTril",
+   "x": "opened 4 Daevanion nodes"
+  },
   {
    "t": "2026-11-23 23:01",
    "n": "YasuoMain",
@@ -40219,31 +40244,6 @@
    "t": "2026-11-17 08:35",
    "n": "YasuoMain4",
    "x": "new Liberator Breastplate +0"
-  },
-  {
-   "t": "2026-11-17 08:35",
-   "n": "YasuoMain4",
-   "x": "new Silent Necklace +0"
-  },
-  {
-   "t": "2026-11-17 08:35",
-   "n": "YasuoMain4",
-   "x": "new Avenger Earrings +0"
-  },
-  {
-   "t": "2026-11-17 08:35",
-   "n": "YasuoMain4",
-   "x": "new Outsider Earrings +0"
-  },
-  {
-   "t": "2026-11-17 08:35",
-   "n": "YasuoMain4",
-   "x": "new Outsider Bracelet +0"
-  },
-  {
-   "t": "2026-11-17 08:35",
-   "n": "YasuoMain4",
-   "x": "new Old Mercenary Commander Bracelet +0"
   }
  ]
 }

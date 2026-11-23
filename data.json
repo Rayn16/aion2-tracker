@@ -33114,15 +33114,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 76231,
-     "il": 1459
+     "cp": 76833,
+     "il": 1493
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 76231,
-   "il": 1459,
+   "cp": 76833,
+   "il": 1493,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -33472,12 +33472,12 @@
     },
     {
      "slotPosName": "Necklace",
-     "name": "Division Necklace",
-     "grade": "Legend",
+     "name": "Aulamus Necklace",
+     "grade": "Unique",
      "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0065.png",
-     "max": 10,
-     "slots": 3,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0072.png",
+     "max": 15,
+     "slots": 4,
      "stones": [
       [
        "Attack",
@@ -33486,12 +33486,17 @@
       ],
       [
        "Critical Hit",
-       "+7",
+       "+5",
+       "Common"
+      ],
+      [
+       "Defense",
+       "+30",
        "Rare"
       ],
       [
-       "HP",
-       "+60",
+       "Defense",
+       "+30",
        "Rare"
       ]
      ],
@@ -33566,28 +33571,28 @@
      ]
     },
     {
-     "slotPosName": "Ring2",
-     "name": "Anguish Ring",
+     "slotPosName": "Ring1",
+     "name": "Divine Canyon Ring",
      "grade": "Legend",
      "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0019.png",
      "max": 10,
      "slots": 3,
      "stones": [
       [
-       "Attack",
-       "+1",
+       "Critical Hit",
+       "+5",
        "Common"
       ],
       [
        "Critical Hit Resist",
-       "+7",
-       "Rare"
+       "+5",
+       "Common"
       ],
       [
-       "HP",
-       "+60",
-       "Rare"
+       "Critical Hit",
+       "+5",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -33599,36 +33604,34 @@
      ]
     },
     {
-     "slotPosName": "Ring1",
-     "name": "Anguish Ring",
+     "slotPosName": "Ring2",
+     "name": "Wind Forest Ring",
      "grade": "Legend",
      "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0027.png",
      "max": 10,
      "slots": 3,
      "stones": [
       [
-       "MP",
-       "+15",
+       "Block",
+       "+7",
        "Common"
       ],
       [
-       "Attack",
-       "+1",
-       "Common"
+       "Defense",
+       "+30",
+       "Rare"
       ],
       [
-       "MP",
-       "+15",
+       "Critical Hit Resist",
+       "+5",
        "Common"
       ]
      ],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
+      "Expedition"
      ]
     },
     {
@@ -33769,11 +33772,9 @@
     },
     {
      "name": "Intelligence",
-     "statSecondList": [
-      "Status Effect Chance +1%"
-     ],
+     "statSecondList": null,
      "type": "INT",
-     "value": 10
+     "value": 0
     },
     {
      "name": "Constitution",
@@ -33894,11 +33895,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1459
+     "value": 1493
     }
    ],
    "title": {
-    "ownedCount": 173,
+    "ownedCount": 175,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -33916,8 +33917,8 @@
       "grade": "Unique",
       "id": 23010010,
       "name": "Encountering Zikel's Core",
-      "ownedCount": 55,
-      "ownedPercent": 54,
+      "ownedCount": 56,
+      "ownedPercent": 55,
       "statList": [
        {
         "desc": "HP +120"
@@ -33941,8 +33942,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 58,
-      "ownedPercent": 55,
+      "ownedCount": 59,
+      "ownedPercent": 56,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -34763,7 +34764,7 @@
       "id": 11010000,
       "name": "Rending Blow",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -34773,7 +34774,7 @@
       "id": 11190000,
       "name": "Leaping Slam",
       "needLevel": 1,
-      "skillLevel": 11
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -34813,7 +34814,7 @@
       "id": 11200000,
       "name": "Ankle Slice",
       "needLevel": 7,
-      "skillLevel": 2
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -34853,7 +34854,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -34873,7 +34874,7 @@
       "id": 11710000,
       "name": "Survival Stance",
       "needLevel": 1,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -34943,7 +34944,7 @@
       "id": 11780000,
       "name": "Experienced Counterstrike",
       "needLevel": 21,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -38784,8 +38785,33 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 09:04 UTC",
+ "updated": "2026-11-23 09:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 09:34",
+   "n": "RyBear",
+   "x": "new Aulamus Necklace +5"
+  },
+  {
+   "t": "2026-11-23 09:34",
+   "n": "RyBear",
+   "x": "new Divine Canyon Ring +5"
+  },
+  {
+   "t": "2026-11-23 09:34",
+   "n": "RyBear",
+   "x": "new Wind Forest Ring +5"
+  },
+  {
+   "t": "2026-11-23 09:34",
+   "n": "RyBear",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-23 09:34",
+   "n": "RyBear",
+   "x": "skills up: Rending Blow 15, Ankle Slice 3, Ruinous Blow 15, Experienced Counterstrike 15"
+  },
   {
    "t": "2026-11-23 09:04",
    "n": "RyBear",
@@ -40260,31 +40286,6 @@
    "t": "2026-11-16 17:34",
    "n": "CuteCatty",
    "x": "new Aulamus Earrings +10"
-  },
-  {
-   "t": "2026-11-16 17:34",
-   "n": "CuteCatty",
-   "x": "skills up: Debilitating Mark 15, Immortal Veil 15"
-  },
-  {
-   "t": "2026-11-16 17:04",
-   "n": "CuteCatty",
-   "x": "new Aulamus Mace +0"
-  },
-  {
-   "t": "2026-11-16 17:04",
-   "n": "CuteCatty",
-   "x": "skills up: Bolt 15"
-  },
-  {
-   "t": "2026-11-16 16:32",
-   "n": "DeathRunner",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-16 16:02",
-   "n": "DeathRunner",
-   "x": "skills up: Triniel's Dagger 12"
   }
  ]
 }

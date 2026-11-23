@@ -30860,14 +30860,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 393117,
+     "cp": 127226,
      "il": 2664
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 393117,
+   "cp": 127226,
    "il": 2664,
    "gear": [
     {
@@ -32854,7 +32854,7 @@
       "id": 17430000,
       "name": "Prayer of Amplification",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 6
      },
      {
       "acquired": 1,
@@ -32864,7 +32864,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -32939,12 +32939,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      }
     ]
    },
@@ -38743,8 +38743,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 19:35 UTC",
+ "updated": "2026-11-23 20:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 20:04",
+   "n": "uTril",
+   "x": "skills up: Prayer of Amplification 6, Summon Resurrection 5"
+  },
   {
    "t": "2026-11-23 19:34",
    "n": "CuteCatty",
@@ -40239,11 +40244,6 @@
    "t": "2026-11-17 05:35",
    "n": "YasuoMain4",
    "x": "new Avenger Helm +0"
-  },
-  {
-   "t": "2026-11-17 05:35",
-   "n": "YasuoMain4",
-   "x": "new Avenger Pauldrons +0"
   }
  ]
 }

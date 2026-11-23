@@ -27502,14 +27502,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 91373,
+     "cp": 91411,
      "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91373,
+   "cp": 91411,
    "il": 1785,
    "gear": [
     {
@@ -28306,7 +28306,7 @@
     }
    ],
    "title": {
-    "ownedCount": 199,
+    "ownedCount": 200,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -28324,8 +28324,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 69,
-      "ownedPercent": 68,
+      "ownedCount": 70,
+      "ownedPercent": 69,
       "statList": [
        {
         "desc": "Block +10"
@@ -29504,10 +29504,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Varg_03.png",
-     "id": 1018,
-     "level": 3,
-     "name": "Varg Berserker"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Ferk_01.png",
+     "id": 1191,
+     "level": 1,
+     "name": "Furious Feruk"
     },
     "wing": {
      "enchantLevel": 0,
@@ -38743,8 +38743,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 21:05 UTC",
+ "updated": "2026-11-23 21:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 21:33",
+   "n": "iLen",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-23 20:04",
    "n": "uTril",
@@ -40239,11 +40244,6 @@
    "t": "2026-11-17 05:35",
    "n": "YasuoMain4",
    "x": "reached level 38"
-  },
-  {
-   "t": "2026-11-17 05:35",
-   "n": "YasuoMain4",
-   "x": "new Avenger Helm +0"
   }
  ]
 }

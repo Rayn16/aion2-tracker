@@ -149,13 +149,13 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 152931,
+     "cp": 152995,
      "il": 2783
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 152931,
+   "cp": 152995,
    "il": 2783,
    "gear": [
     {
@@ -1295,7 +1295,7 @@
       "id": 11260000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 6
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -16039,14 +16039,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 174504,
+     "cp": 173017,
      "il": 2913
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 174504,
+   "cp": 173017,
    "il": 2913,
    "gear": [
     {
@@ -16932,7 +16932,7 @@
     }
    ],
    "title": {
-    "ownedCount": 247,
+    "ownedCount": 249,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16975,8 +16975,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 80,
-      "ownedPercent": 81,
+      "ownedCount": 82,
+      "ownedPercent": 83,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -38785,8 +38785,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 14:05 UTC",
+ "updated": "2026-11-23 14:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 14:32",
+   "n": "DeathRunner",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-23 14:31",
+   "n": "YasuoMain",
+   "x": "skills up: Defiance 7"
+  },
   {
    "t": "2026-11-23 13:05",
    "n": "YasuoMain8",
@@ -40276,16 +40286,6 @@
    "t": "2026-11-16 18:04",
    "n": "YasuoMain4",
    "x": "new Avenger Cloak +0"
-  },
-  {
-   "t": "2026-11-16 17:35",
-   "n": "YasuoMain4",
-   "x": "reached level 32"
-  },
-  {
-   "t": "2026-11-16 17:34",
-   "n": "CuteCatty",
-   "x": "Aulamus Mace +0 → +10"
   }
  ]
 }

@@ -30902,14 +30902,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 125123,
+     "cp": 124723,
      "il": 2655
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 125123,
+   "cp": 124723,
    "il": 2655,
    "gear": [
     {
@@ -32896,7 +32896,7 @@
       "id": 17430000,
       "name": "Prayer of Amplification",
       "needLevel": 22,
-      "skillLevel": 6
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -32906,7 +32906,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -32916,7 +32916,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 0,
@@ -32986,7 +32986,7 @@
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      }
     ]
    },
@@ -38784,8 +38784,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 05:05 UTC",
+ "updated": "2026-11-23 05:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 05:34",
+   "n": "uTril",
+   "x": "skills up: Summon Resurrection 2, Earth Punishment 18"
+  },
   {
    "t": "2026-11-23 05:04",
    "n": "uTril",
@@ -40280,11 +40285,6 @@
    "t": "2026-11-16 15:34",
    "n": "YasuoMain4",
    "x": "reached level 31"
-  },
-  {
-   "t": "2026-11-16 15:34",
-   "n": "YasuoMain4",
-   "x": "new Chaser Staff +0"
   }
  ]
 }

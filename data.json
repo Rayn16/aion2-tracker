@@ -146,6 +146,11 @@
      "date": "2026-11-22",
      "cp": 152913,
      "il": 2783
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 152913,
+     "il": 2783
     }
    ],
    "server": "Tassin",
@@ -2401,6 +2406,11 @@
      "date": "2026-11-22",
      "cp": 91912,
      "il": 2056
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 91912,
+     "il": 2056
     }
    ],
    "server": "Tassin",
@@ -4630,6 +4640,11 @@
      "date": "2026-11-22",
      "cp": 87719,
      "il": 2007
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 87719,
+     "il": 2007
     }
    ],
    "server": "Tassin",
@@ -6836,6 +6851,11 @@
      "date": "2026-11-22",
      "cp": 149071,
      "il": 2790
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 149071,
+     "il": 2790
     }
    ],
    "server": "Tassin",
@@ -9029,6 +9049,11 @@
      "date": "2026-11-22",
      "cp": 48995,
      "il": 1114
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 48995,
+     "il": 1114
     }
    ],
    "server": "Tassin",
@@ -10772,6 +10797,11 @@
     },
     {
      "date": "2026-11-22",
+     "cp": 60301,
+     "il": 1136
+    },
+    {
+     "date": "2026-11-23",
      "cp": 60301,
      "il": 1136
     }
@@ -14684,6 +14714,11 @@
      "date": "2026-11-22",
      "cp": 38044,
      "il": 647
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 38044,
+     "il": 647
     }
    ],
    "server": "Tassin",
@@ -15991,6 +16026,11 @@
     },
     {
      "date": "2026-11-22",
+     "cp": 174490,
+     "il": 2913
+    },
+    {
+     "date": "2026-11-23",
      "cp": 174490,
      "il": 2913
     }
@@ -18204,6 +18244,11 @@
      "date": "2026-11-22",
      "cp": 132539,
      "il": 2632
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 132539,
+     "il": 2632
     }
    ],
    "server": "Tassin",
@@ -20255,6 +20300,11 @@
      "date": "2026-11-22",
      "cp": 23827,
      "il": 496
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 23827,
+     "il": 496
     }
    ],
    "server": "Tassin",
@@ -21536,6 +21586,11 @@
     },
     {
      "date": "2026-11-22",
+     "cp": 91749,
+     "il": 1861
+    },
+    {
+     "date": "2026-11-23",
      "cp": 91749,
      "il": 1861
     }
@@ -23336,6 +23391,11 @@
      "date": "2026-11-22",
      "cp": 25540,
      "il": 450
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 25540,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -24566,6 +24626,11 @@
     },
     {
      "date": "2026-11-22",
+     "cp": 43540,
+     "il": 799
+    },
+    {
+     "date": "2026-11-23",
      "cp": 43540,
      "il": 799
     }
@@ -26276,6 +26341,11 @@
      "date": "2026-11-22",
      "cp": 18563,
      "il": 361
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 18563,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -26565,11 +26635,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2.8%",
-      "Critical Hit increase +2.8%"
+      "Accuracy increase +2.9%",
+      "Critical Hit increase +2.9%"
      ],
      "type": "AGI",
-     "value": 28
+     "value": 29
     },
     {
      "name": "Willpower",
@@ -27463,12 +27533,17 @@
      "date": "2026-11-22",
      "cp": 91325,
      "il": 1785
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 91364,
+     "il": 1785
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91325,
+   "cp": 91364,
    "il": 1785,
    "gear": [
     {
@@ -28153,11 +28228,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +1.3%",
-      "Critical Hit increase +1.3%"
+      "Accuracy increase +1.4%",
+      "Critical Hit increase +1.4%"
      ],
      "type": "AGI",
-     "value": 13
+     "value": 14
     },
     {
      "name": "Willpower",
@@ -29471,16 +29546,16 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingE_002.png",
-     "id": 40500200,
-     "name": "Ancient Aullaeu Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingD_003.png",
+     "id": 40400300,
+     "name": "Radiant Love Wings"
     },
     "wingSkin": {
-     "enchantLevel": 0,
-     "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_001.png",
-     "id": 40200100,
-     "name": "Ultimate Daeva Wings"
+     "enchantLevel": null,
+     "grade": null,
+     "icon": null,
+     "id": null,
+     "name": null
     }
    },
    "pcId": 36,
@@ -29580,6 +29655,11 @@
     },
     {
      "date": "2026-11-22",
+     "cp": 25763,
+     "il": 472
+    },
+    {
+     "date": "2026-11-23",
      "cp": 25763,
      "il": 472
     }
@@ -30809,6 +30889,11 @@
     },
     {
      "date": "2026-11-22",
+     "cp": 125123,
+     "il": 2655
+    },
+    {
+     "date": "2026-11-23",
      "cp": 125123,
      "il": 2655
     }
@@ -33018,6 +33103,11 @@
      "date": "2026-11-22",
      "cp": 76231,
      "il": 1459
+    },
+    {
+     "date": "2026-11-23",
+     "cp": 76231,
+     "il": 1459
     }
    ],
    "server": "Tassin",
@@ -33220,7 +33310,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Shoulder.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Defense",
+       "+30",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -33364,7 +33470,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0065.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -33381,7 +33503,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0037.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Block",
+       "+10",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -33396,7 +33534,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -33411,7 +33565,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Critical Hit Resist",
+       "+7",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -33428,7 +33598,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0037.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -33481,7 +33667,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Bracelet_0071.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -34961,6 +35163,11 @@
     },
     {
      "date": "2026-11-22",
+     "cp": 66940,
+     "il": 1162
+    },
+    {
+     "date": "2026-11-23",
      "cp": 66940,
      "il": 1162
     }
@@ -36736,6 +36943,11 @@
     },
     {
      "date": "2026-11-22",
+     "cp": 70742,
+     "il": 1351
+    },
+    {
+     "date": "2026-11-23",
      "cp": 70742,
      "il": 1351
     }
@@ -38564,7 +38776,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-22 23:34 UTC",
+ "updated": "2026-11-23 00:19 UTC",
  "feed": [
   {
    "t": "2026-11-22 22:00",

@@ -10802,14 +10802,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 60301,
+     "cp": 62112,
      "il": 1136
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 60301,
+   "cp": 62112,
    "il": 1136,
    "gear": [
     {
@@ -11273,30 +11273,8 @@
     }
    ],
    "title": {
-    "ownedCount": 99,
+    "ownedCount": 106,
     "titleList": [
-     {
-      "equipCategory": "Attack",
-      "equipStatList": [
-       {
-        "desc": "Critical Attack +30"
-       },
-       {
-        "desc": "Block Penetration +40"
-       }
-      ],
-      "grade": "Legend",
-      "id": 21020038,
-      "name": "Celebrity",
-      "ownedCount": 33,
-      "ownedPercent": 31,
-      "statList": [
-       {
-        "desc": "Penetration +20"
-       }
-      ],
-      "totalCount": 106
-     },
      {
       "equipCategory": "Etc",
       "equipStatList": [
@@ -11313,14 +11291,39 @@
       "grade": "Unique",
       "id": 23010010,
       "name": "Encountering Zikel's Core",
-      "ownedCount": 33,
-      "ownedPercent": 32,
+      "ownedCount": 35,
+      "ownedPercent": 34,
       "statList": [
        {
         "desc": "HP +120"
        }
       ],
       "totalCount": 102
+     },
+     {
+      "equipCategory": "Attack",
+      "equipStatList": [
+       {
+        "desc": "PvE Damage Boost +4.5%"
+       },
+       {
+        "desc": "Attack Bonus +34"
+       },
+       {
+        "desc": "Critical Hit +68"
+       }
+      ],
+      "grade": "Unique",
+      "id": 23010021,
+      "name": "Unbound by Genus",
+      "ownedCount": 34,
+      "ownedPercent": 32,
+      "statList": [
+       {
+        "desc": "PvE Damage Boost +1%"
+       }
+      ],
+      "totalCount": 106
      },
      {
       "equipCategory": "Defense",
@@ -11338,8 +11341,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 33,
-      "ownedPercent": 33,
+      "ownedCount": 37,
+      "ownedPercent": 37,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -32903,7 +32906,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -32978,12 +32981,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      }
     ]
    },
@@ -38781,8 +38784,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 04:34 UTC",
+ "updated": "2026-11-23 05:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 05:04",
+   "n": "uTril",
+   "x": "skills up: Noble Aura 5"
+  },
+  {
+   "t": "2026-11-23 05:01",
+   "n": "Carmella",
+   "x": "7 new titles"
+  },
   {
    "t": "2026-11-22 22:00",
    "n": "RyBear",
@@ -40272,16 +40285,6 @@
    "t": "2026-11-16 15:34",
    "n": "YasuoMain4",
    "x": "new Chaser Staff +0"
-  },
-  {
-   "t": "2026-11-16 15:34",
-   "n": "YasuoMain4",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-16 15:34",
-   "n": "YasuoMain4",
-   "x": "opened 2 Daevanion nodes"
   }
  ]
 }

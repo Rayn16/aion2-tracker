@@ -4643,14 +4643,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 89017,
+     "cp": 89116,
      "il": 2035
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 89017,
+   "cp": 89116,
    "il": 2035,
    "gear": [
     {
@@ -4731,34 +4731,13 @@
     },
     {
      "slotPosName": "Torso",
-     "name": "Bakarma Breastplate",
+     "name": "Vakron Breastplate",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Torso.png",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Critical Hit Resist",
-       "+7",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Critical Hit Resist",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -5388,9 +5367,11 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Resist +1%"
+     ],
      "type": "WIS",
-     "value": 0
+     "value": 10
     },
     {
      "name": "Justice [Nezekan]",
@@ -6465,7 +6446,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -6485,7 +6466,7 @@
       "id": 17730000,
       "name": "Empyrean Lord's Grace",
       "needLevel": 9,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -6515,7 +6496,7 @@
       "id": 17760000,
       "name": "Heal Block",
       "needLevel": 15,
-      "skillLevel": 8
+      "skillLevel": 9
      },
      {
       "acquired": 1,
@@ -16039,14 +16020,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 176349,
+     "cp": 174869,
      "il": 2919
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 176349,
+   "cp": 174869,
    "il": 2919,
    "gear": [
     {
@@ -16932,7 +16913,7 @@
     }
    ],
    "title": {
-    "ownedCount": 249,
+    "ownedCount": 250,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -16950,8 +16931,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 85,
-      "ownedPercent": 80,
+      "ownedCount": 86,
+      "ownedPercent": 81,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -38785,8 +38766,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 18:05 UTC",
+ "updated": "2026-11-23 18:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 18:34",
+   "n": "CuteCatty",
+   "x": "new Vakron Breastplate +0"
+  },
+  {
+   "t": "2026-11-23 18:34",
+   "n": "CuteCatty",
+   "x": "skills up: Empyrean Lord's Grace 16, Heal Block 9"
+  },
+  {
+   "t": "2026-11-23 18:32",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-23 18:04",
    "n": "CuteCatty",
@@ -40271,21 +40267,6 @@
    "t": "2026-11-17 05:04",
    "n": "YasuoMain4",
    "x": "new Avenger Guard +0"
-  },
-  {
-   "t": "2026-11-17 05:04",
-   "n": "YasuoMain4",
-   "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-17 05:04",
-   "n": "YasuoMain4",
-   "x": "opened 18 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-17 05:04",
-   "n": "YasuoMain4",
-   "x": "skills up: Onslaught 13, Incandescent Blow 12, Impactful Crush 12, Dark Crush 13 and 2 more"
   }
  ]
 }

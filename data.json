@@ -4643,15 +4643,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 89116,
-     "il": 2035
+     "cp": 89063,
+     "il": 2057
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 89116,
-   "il": 2035,
+   "cp": 89063,
+   "il": 2057,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4733,7 +4733,7 @@
      "slotPosName": "Torso",
      "name": "Vakron Breastplate",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Torso.png",
      "max": 15,
      "slots": 4,
@@ -4938,34 +4938,13 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Bakarma Cloak",
+     "name": "Vakron Cloak",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Cape.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Critical Hit",
-       "+5",
-       "Common"
-      ],
-      [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+1",
-       "Common"
-      ],
-      [
-       "Block",
-       "+7",
-       "Common"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -5367,11 +5346,9 @@
     },
     {
      "name": "Willpower",
-     "statSecondList": [
-      "Status Effect Resist +1%"
-     ],
+     "statSecondList": null,
      "type": "WIS",
-     "value": 10
+     "value": 0
     },
     {
      "name": "Justice [Nezekan]",
@@ -5467,7 +5444,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2035
+     "value": 2057
     }
    ],
    "title": {
@@ -6446,7 +6423,7 @@
       "id": 17710000,
       "name": "Warm Benediction",
       "needLevel": 1,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -6466,7 +6443,7 @@
       "id": 17730000,
       "name": "Empyrean Lord's Grace",
       "needLevel": 9,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -6496,7 +6473,7 @@
       "id": 17760000,
       "name": "Heal Block",
       "needLevel": 15,
-      "skillLevel": 9
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -16020,15 +15997,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 174869,
-     "il": 2919
+     "cp": 178442,
+     "il": 2920
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 174869,
-   "il": 2919,
+   "cp": 178442,
+   "il": 2920,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16775,12 +16752,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +5.4%",
-      "Block increase +5.4%",
-      "Critical Hit Resist increase +5.4%"
+      "Evasion increase +4.3%",
+      "Block increase +4.3%",
+      "Critical Hit Resist increase +4.3%"
      ],
      "type": "DEX",
-     "value": 54
+     "value": 43
     },
     {
      "name": "Intelligence",
@@ -16909,7 +16886,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2919
+     "value": 2920
     }
    ],
    "title": {
@@ -17938,7 +17915,7 @@
       "id": 13760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -17968,7 +17945,7 @@
       "id": 13790000,
       "name": "Revitalization Contract",
       "needLevel": 23,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -30883,14 +30860,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 127020,
+     "cp": 393117,
      "il": 2664
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 127020,
+   "cp": 393117,
    "il": 2664,
    "gear": [
     {
@@ -31638,12 +31615,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.6%",
-      "Block increase +1.6%",
-      "Critical Hit Resist increase +1.6%"
+      "Evasion increase +1.7%",
+      "Block increase +1.7%",
+      "Critical Hit Resist increase +1.7%"
      ],
      "type": "DEX",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Intelligence",
@@ -38766,8 +38743,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 18:35 UTC",
+ "updated": "2026-11-23 19:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 19:04",
+   "n": "CuteCatty",
+   "x": "Vakron Breastplate +0 → +10"
+  },
+  {
+   "t": "2026-11-23 19:04",
+   "n": "CuteCatty",
+   "x": "new Vakron Cloak +10"
+  },
+  {
+   "t": "2026-11-23 19:04",
+   "n": "CuteCatty",
+   "x": "skills up: Warm Benediction 12"
+  },
+  {
+   "t": "2026-11-23 19:02",
+   "n": "DeathRunner",
+   "x": "skills up: Impact Hit 18, Revitalization Contract 15"
+  },
   {
    "t": "2026-11-23 18:34",
    "n": "CuteCatty",
@@ -40247,26 +40244,6 @@
    "t": "2026-11-17 05:35",
    "n": "YasuoMain4",
    "x": "7 new titles"
-  },
-  {
-   "t": "2026-11-17 05:35",
-   "n": "YasuoMain4",
-   "x": "opened 15 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-17 05:35",
-   "n": "YasuoMain4",
-   "x": "skills up: Wave Blow 3, Spinning Strike 12, Blessing of Life 2, Crossguard 2 and 4 more"
-  },
-  {
-   "t": "2026-11-17 05:04",
-   "n": "YasuoMain4",
-   "x": "new Avenger Staff +0"
-  },
-  {
-   "t": "2026-11-17 05:04",
-   "n": "YasuoMain4",
-   "x": "new Avenger Guard +0"
   }
  ]
 }

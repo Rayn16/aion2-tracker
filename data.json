@@ -2409,14 +2409,14 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 92184,
-     "il": 2079
+     "cp": 92360,
+     "il": 2099
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 92184,
-   "il": 2079,
+   "cp": 92360,
+   "il": 2099,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -3092,11 +3092,11 @@
     },
     {
      "slotPosName": "Arcana3",
-     "name": "Compass of Vigor",
-     "grade": "Rare",
+     "name": "Compass of Magic",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
-     "max": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -3192,11 +3192,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +4%",
-      "Evasion increase +4%"
+      "Accuracy increase +2.8%",
+      "Evasion increase +2.8%"
      ],
      "type": "Freedom",
-     "value": 40
+     "value": 28
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -3237,11 +3237,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +4.6%",
-      "Regeneration Penetration +4.6%"
+      "Critical Hit increase +6.2%",
+      "Regeneration Penetration +6.2%"
      ],
      "type": "Death",
-     "value": 46
+     "value": 62
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -3274,7 +3274,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2079
+     "value": 2099
     }
    ],
    "title": {
@@ -3459,7 +3459,7 @@
       "id": 12100000,
       "name": "Shield Smite",
       "needLevel": 3,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -3499,7 +3499,7 @@
       "id": 12350000,
       "name": "Warding Strike",
       "needLevel": 8,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -3509,7 +3509,7 @@
       "id": 12430000,
       "name": "Shield Rush",
       "needLevel": 10,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -4643,15 +4643,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 88064,
-     "il": 2013
+     "cp": 89017,
+     "il": 2035
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 88064,
-   "il": 2013,
+   "cp": 89017,
+   "il": 2035,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4999,7 +4999,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 6,
+     "enchantLevel": 8,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -5305,7 +5305,7 @@
     {
      "slotPosName": "Arcana3",
      "name": "Compass of Vigor",
-     "grade": "Common",
+     "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_PveSet2.png",
      "max": 2,
@@ -5404,11 +5404,11 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +3.6%",
-      "Evasion increase +3.6%"
+      "Accuracy increase +4%",
+      "Evasion increase +4%"
      ],
      "type": "Freedom",
-     "value": 36
+     "value": 40
     },
     {
      "name": "Illusion [Kaisinel]",
@@ -5486,7 +5486,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2013
+     "value": 2035
     }
    ],
    "title": {
@@ -6355,7 +6355,7 @@
       "id": 17040000,
       "name": "Judgment Thunder",
       "needLevel": 1,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -6395,7 +6395,7 @@
       "id": 17370000,
       "name": "Lightning Strike Scattershot",
       "needLevel": 5,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -6425,7 +6425,7 @@
       "id": 17100000,
       "name": "Healing Light",
       "needLevel": 10,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -16039,15 +16039,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 176117,
-     "il": 2913
+     "cp": 176349,
+     "il": 2919
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 176117,
-   "il": 2913,
+   "cp": 176349,
+   "il": 2919,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16171,7 +16171,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -16928,7 +16928,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2913
+     "value": 2919
     }
    ],
    "title": {
@@ -17787,7 +17787,7 @@
       "id": 13010000,
       "name": "Quick Slice",
       "needLevel": 1,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -17877,7 +17877,7 @@
       "id": 13220000,
       "name": "Shadow Fall",
       "needLevel": 12,
-      "skillLevel": 6
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -38785,8 +38785,38 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 17:35 UTC",
+ "updated": "2026-11-23 18:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 18:04",
+   "n": "CuteCatty",
+   "x": "Noble Belt +6 → +8"
+  },
+  {
+   "t": "2026-11-23 18:04",
+   "n": "CuteCatty",
+   "x": "skills up: Lightning Strike Scattershot 11, Healing Light 16"
+  },
+  {
+   "t": "2026-11-23 18:02",
+   "n": "DeathRunner",
+   "x": "Nuakum Greaves +14 → +15"
+  },
+  {
+   "t": "2026-11-23 18:02",
+   "n": "DeathRunner",
+   "x": "skills up: Quick Slice 17"
+  },
+  {
+   "t": "2026-11-23 18:01",
+   "n": "YasuoMain16",
+   "x": "new Compass of Magic +0"
+  },
+  {
+   "t": "2026-11-23 18:01",
+   "n": "YasuoMain16",
+   "x": "skills up: Warding Strike 13, Shield Rush 13"
+  },
   {
    "t": "2026-11-23 17:33",
    "n": "uTril",
@@ -40256,36 +40286,6 @@
    "t": "2026-11-17 05:04",
    "n": "YasuoMain4",
    "x": "skills up: Onslaught 13, Incandescent Blow 12, Impactful Crush 12, Dark Crush 13 and 2 more"
-  },
-  {
-   "t": "2026-11-17 04:34",
-   "n": "YasuoMain4",
-   "x": "reached level 34"
-  },
-  {
-   "t": "2026-11-17 04:34",
-   "n": "YasuoMain4",
-   "x": "new Avenger Breastplate +0"
-  },
-  {
-   "t": "2026-11-17 04:34",
-   "n": "YasuoMain4",
-   "x": "new Avenger Earrings +0"
-  },
-  {
-   "t": "2026-11-17 04:34",
-   "n": "YasuoMain4",
-   "x": "new Avenger Ring +0"
-  },
-  {
-   "t": "2026-11-17 04:34",
-   "n": "YasuoMain4",
-   "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-17 04:34",
-   "n": "YasuoMain4",
-   "x": "skills up: Attack Preparation 9"
   }
  ]
 }

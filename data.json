@@ -4643,15 +4643,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 89063,
-     "il": 2057
+     "cp": 89136,
+     "il": 2094
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 89063,
-   "il": 2057,
+   "cp": 89136,
+   "il": 2094,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4900,32 +4900,32 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Bakarma Boots",
+     "name": "Vakron Boots",
      "grade": "Unique",
      "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Boots.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Boots.png",
      "max": 15,
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+30",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+30",
-       "Rare"
-      ],
-      [
-       "HP",
-       "+30",
+       "Defense",
+       "+10",
        "Common"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
       ],
       [
        "Evasion Bonus",
-       "+5",
-       "Common"
+       "+7",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -4957,7 +4957,7 @@
      "slotPosName": "Belt",
      "name": "Noble Belt",
      "grade": "Unique",
-     "enchantLevel": 8,
+     "enchantLevel": 9,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Belt_C_022.png",
      "max": 10,
      "slots": 0,
@@ -5444,7 +5444,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2057
+     "value": 2094
     }
    ],
    "title": {
@@ -6503,7 +6503,7 @@
       "id": 17790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 18
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -6513,7 +6513,7 @@
       "id": 17800000,
       "name": "Radiant Benediction",
       "needLevel": 25,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -15997,15 +15997,15 @@
     },
     {
      "date": "2026-11-23",
-     "cp": 178442,
-     "il": 2920
+     "cp": 178514,
+     "il": 2919
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 178442,
-   "il": 2920,
+   "cp": 178514,
+   "il": 2919,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16886,7 +16886,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2920
+     "value": 2919
     }
    ],
    "title": {
@@ -38743,8 +38743,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-23 19:05 UTC",
+ "updated": "2026-11-23 19:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-23 19:34",
+   "n": "CuteCatty",
+   "x": "new Vakron Boots +10"
+  },
+  {
+   "t": "2026-11-23 19:34",
+   "n": "CuteCatty",
+   "x": "Noble Belt +8 → +9"
+  },
   {
    "t": "2026-11-23 19:04",
    "n": "CuteCatty",
@@ -40234,16 +40244,6 @@
    "t": "2026-11-17 05:35",
    "n": "YasuoMain4",
    "x": "new Avenger Pauldrons +0"
-  },
-  {
-   "t": "2026-11-17 05:35",
-   "n": "YasuoMain4",
-   "x": "new Avenger Boots +0"
-  },
-  {
-   "t": "2026-11-17 05:35",
-   "n": "YasuoMain4",
-   "x": "7 new titles"
   }
  ]
 }

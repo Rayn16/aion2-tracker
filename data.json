@@ -16127,15 +16127,15 @@
     },
     {
      "date": "2026-11-24",
-     "cp": 180054,
-     "il": 2919
+     "cp": 180093,
+     "il": 2920
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 180054,
-   "il": 2919,
+   "cp": 180093,
+   "il": 2920,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16807,7 +16807,7 @@
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
      "grade": "Unique",
-     "enchantLevel": 4,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -16961,11 +16961,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +7.5%",
-      "Double Resist +7.5%"
+      "Combat Speed +7.6%",
+      "Double Resist +7.6%"
      ],
      "type": "Time",
-     "value": 75
+     "value": 76
     },
     {
      "name": "Destruction [Zikel]",
@@ -17016,7 +17016,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2919
+     "value": 2920
     }
    ],
    "title": {
@@ -18005,7 +18005,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 22
+      "skillLevel": 20
      },
      {
       "acquired": 1,
@@ -18025,7 +18025,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 18
+      "skillLevel": 20
      },
      {
       "acquired": 1,
@@ -18085,7 +18085,7 @@
       "id": 13800000,
       "name": "Determination",
       "needLevel": 25,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -38933,8 +38933,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-24 08:35 UTC",
+ "updated": "2026-11-24 09:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-24 09:02",
+   "n": "DeathRunner",
+   "x": "Chalice of Vigor +4 → +5"
+  },
+  {
+   "t": "2026-11-24 09:02",
+   "n": "DeathRunner",
+   "x": "skills up: Rear Smite 20, Determination 18"
+  },
   {
    "t": "2026-11-24 08:03",
    "n": "uTril",
@@ -40424,16 +40434,6 @@
    "t": "2026-11-17 09:05",
    "n": "YasuoMain4",
    "x": "opened 16 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-17 09:05",
-   "n": "YasuoMain4",
-   "x": "skills up: Onslaught 14, Dark Crush 14, Recuperation 8, Attack Preparation 11 and 4 more"
-  },
-  {
-   "t": "2026-11-17 08:43",
-   "n": "YasuoMain4",
-   "x": "new Liberator Greaves +0"
   }
  ]
 }

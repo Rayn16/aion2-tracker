@@ -31035,14 +31035,14 @@
     },
     {
      "date": "2026-11-24",
-     "cp": 130393,
+     "cp": 393117,
      "il": 2677
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 130393,
+   "cp": 393117,
    "il": 2677,
    "gear": [
     {
@@ -33039,7 +33039,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -33114,12 +33114,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      }
     ]
    },
@@ -38933,8 +38933,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-24 05:35 UTC",
+ "updated": "2026-11-24 06:04 UTC",
  "feed": [
+  {
+   "t": "2026-11-24 06:03",
+   "n": "uTril",
+   "x": "skills up: Noble Aura 5"
+  },
   {
    "t": "2026-11-23 23:34",
    "n": "CutieCatty",
@@ -40429,11 +40434,6 @@
    "t": "2026-11-17 08:43",
    "n": "YasuoMain4",
    "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-17 08:35",
-   "n": "YasuoMain4",
-   "x": "new Liberator Breastplate +0"
   }
  ]
 }

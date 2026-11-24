@@ -16127,14 +16127,14 @@
     },
     {
      "date": "2026-11-24",
-     "cp": 179059,
+     "cp": 179459,
      "il": 2920
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 179059,
+   "cp": 179459,
    "il": 2920,
    "gear": [
     {
@@ -17020,7 +17020,7 @@
     }
    ],
    "title": {
-    "ownedCount": 250,
+    "ownedCount": 251,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -17038,8 +17038,8 @@
       "grade": "Unique",
       "id": 23010021,
       "name": "Unbound by Genus",
-      "ownedCount": 86,
-      "ownedPercent": 81,
+      "ownedCount": 87,
+      "ownedPercent": 82,
       "statList": [
        {
         "desc": "PvE Damage Boost +1%"
@@ -38933,8 +38933,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-24 18:35 UTC",
+ "updated": "2026-11-24 19:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-24 19:02",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-24 14:04",
    "n": "CutieCatty",
@@ -40429,11 +40434,6 @@
    "t": "2026-11-17 09:05",
    "n": "YasuoMain4",
    "x": "reached level 41"
-  },
-  {
-   "t": "2026-11-17 09:05",
-   "n": "YasuoMain4",
-   "x": "new Liberator Gloves +0"
   }
  ]
 }

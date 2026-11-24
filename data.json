@@ -31040,15 +31040,15 @@
     },
     {
      "date": "2026-11-24",
-     "cp": 133493,
-     "il": 2677
+     "cp": 134342,
+     "il": 2678
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 133493,
-   "il": 2677,
+   "cp": 134342,
+   "il": 2678,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31925,11 +31925,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2677
+     "value": 2678
     }
    ],
    "title": {
-    "ownedCount": 205,
+    "ownedCount": 207,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -31972,8 +31972,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 69,
-      "ownedPercent": 70,
+      "ownedCount": 71,
+      "ownedPercent": 72,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -32055,8 +32055,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 29,
-      "openPercent": 19,
+      "openNodeCount": 30,
+      "openPercent": 20,
       "totalNodeCount": 152
      },
      {
@@ -32552,7 +32552,7 @@
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "14|3|Legend|0|Critical Hit",
      "14|1|Common|0|Boss Attack",
-     "15|9|Common|0|PvE Accuracy",
+     "15|9|Common|1|PvE Accuracy",
      "15|8|Unique|0|PvE Damage Boost",
      "15|7|Common|0|Max MP",
      "15|13|Rare|0|Boss Attack, Boss Defense",
@@ -38938,8 +38938,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-24 22:35 UTC",
+ "updated": "2026-11-24 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-24 23:04",
+   "n": "uTril",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-24 23:04",
+   "n": "uTril",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-24 19:32",
    "n": "DeathRunner",
@@ -40429,16 +40439,6 @@
    "t": "2026-11-17 09:35",
    "n": "YasuoMain4",
    "x": "new Liberator Cloak +0"
-  },
-  {
-   "t": "2026-11-17 09:35",
-   "n": "YasuoMain4",
-   "x": "new Liberator Earrings +0"
-  },
-  {
-   "t": "2026-11-17 09:35",
-   "n": "YasuoMain4",
-   "x": "4 new titles"
   }
  ]
 }

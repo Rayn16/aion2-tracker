@@ -6922,15 +6922,15 @@
     },
     {
      "date": "2026-11-24",
-     "cp": 149445,
-     "il": 2799
+     "cp": 149721,
+     "il": 2803
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 149445,
-   "il": 2799,
+   "cp": 149721,
+   "il": 2803,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7792,7 +7792,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2799
+     "value": 2803
     }
    ],
    "title": {
@@ -7922,8 +7922,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 31,
-      "openPercent": 20,
+      "openNodeCount": 32,
+      "openPercent": 21,
       "totalNodeCount": 152
      },
      {
@@ -8483,7 +8483,7 @@
      "14|15|Common|0|PvE Accuracy",
      "15|1|Unique|0|PvE Damage Tolerance",
      "15|14|Common|1|Boss Attack",
-     "15|15|Unique|0|PvE Damage Boost"
+     "15|15|Unique|1|PvE Damage Boost"
     ],
     "86": [
      "12|7|Common|0|PvP Evasion",
@@ -38933,8 +38933,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-24 13:35 UTC",
+ "updated": "2026-11-24 14:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-24 14:04",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-24 10:02",
    "n": "DeathRunner",
@@ -40429,11 +40434,6 @@
    "t": "2026-11-17 09:05",
    "n": "YasuoMain4",
    "x": "new Liberator Gloves +0"
-  },
-  {
-   "t": "2026-11-17 09:05",
-   "n": "YasuoMain4",
-   "x": "3 new titles"
   }
  ]
 }

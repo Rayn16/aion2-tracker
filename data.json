@@ -16132,14 +16132,14 @@
     },
     {
      "date": "2026-11-24",
-     "cp": 181238,
+     "cp": 179747,
      "il": 2920
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 181238,
+   "cp": 179747,
    "il": 2920,
    "gear": [
     {
@@ -31040,15 +31040,15 @@
     },
     {
      "date": "2026-11-24",
-     "cp": 134342,
-     "il": 2678
+     "cp": 134407,
+     "il": 2680
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 134342,
-   "il": 2678,
+   "cp": 134407,
+   "il": 2680,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31925,7 +31925,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2678
+     "value": 2680
     }
    ],
    "title": {
@@ -32037,8 +32037,8 @@
       "id": 73,
       "name": "Vaizel",
       "open": 1,
-      "openNodeCount": 63,
-      "openPercent": 72,
+      "openNodeCount": 65,
+      "openPercent": 74,
       "totalNodeCount": 88
      },
      {
@@ -32255,8 +32255,8 @@
     ],
     "73": [
      "9|3|Common|1|Critical Hit Resist",
-     "9|7|Common|0|Critical Hit",
-     "9|6|Common|0|Attack",
+     "9|7|Common|1|Critical Hit",
+     "9|6|Common|1|Attack",
      "9|5|Legend|1|Skill Level Up - Bolt",
      "9|4|Common|1|Max MP",
      "8|10|Common|1|Max HP",
@@ -38938,8 +38938,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-24 23:05 UTC",
+ "updated": "2026-11-24 23:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-24 23:34",
+   "n": "uTril",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-24 23:04",
    "n": "uTril",
@@ -40434,11 +40439,6 @@
    "t": "2026-11-17 09:35",
    "n": "YasuoMain4",
    "x": "new Liberator Pauldrons +0"
-  },
-  {
-   "t": "2026-11-17 09:35",
-   "n": "YasuoMain4",
-   "x": "new Liberator Cloak +0"
   }
  ]
 }

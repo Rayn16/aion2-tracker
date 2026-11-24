@@ -31035,14 +31035,14 @@
     },
     {
      "date": "2026-11-24",
-     "cp": 128893,
+     "cp": 133493,
      "il": 2677
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 128893,
+   "cp": 133493,
    "il": 2677,
    "gear": [
     {
@@ -32994,12 +32994,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -33029,7 +33029,7 @@
       "id": 17430000,
       "name": "Prayer of Amplification",
       "needLevel": 22,
-      "skillLevel": 6
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -33049,7 +33049,7 @@
       "id": 17400000,
       "name": "Earth Punishment",
       "needLevel": 22,
-      "skillLevel": 19
+      "skillLevel": 20
      },
      {
       "acquired": 0,
@@ -33114,12 +33114,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      }
     ]
    },
@@ -38933,8 +38933,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-24 07:05 UTC",
+ "updated": "2026-11-24 07:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-24 07:33",
+   "n": "uTril",
+   "x": "skills up: Power Burst 5, Prayer of Amplification 10, Earth Punishment 20"
+  },
   {
    "t": "2026-11-24 06:03",
    "n": "uTril",
@@ -40429,11 +40434,6 @@
    "t": "2026-11-17 08:43",
    "n": "YasuoMain4",
    "x": "new Liberator Boots +0"
-  },
-  {
-   "t": "2026-11-17 08:43",
-   "n": "YasuoMain4",
-   "x": "2 new titles"
   }
  ]
 }

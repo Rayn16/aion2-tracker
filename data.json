@@ -11217,12 +11217,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2.3%",
-      "Block increase +2.3%",
-      "Critical Hit Resist increase +2.3%"
+      "Evasion increase +2.4%",
+      "Block increase +2.4%",
+      "Critical Hit Resist increase +2.4%"
      ],
      "type": "DEX",
-     "value": 23
+     "value": 24
     },
     {
      "name": "Intelligence",
@@ -15103,12 +15103,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2.3%",
-      "Block increase +2.3%",
-      "Critical Hit Resist increase +2.3%"
+      "Evasion increase +2.4%",
+      "Block increase +2.4%",
+      "Critical Hit Resist increase +2.4%"
      ],
      "type": "DEX",
-     "value": 23
+     "value": 24
     },
     {
      "name": "Intelligence",
@@ -16127,14 +16127,14 @@
     },
     {
      "date": "2026-11-24",
-     "cp": 179053,
+     "cp": 179059,
      "il": 2920
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 179053,
+   "cp": 179059,
    "il": 2920,
    "gear": [
     {
@@ -16882,12 +16882,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +4.3%",
-      "Block increase +4.3%",
-      "Critical Hit Resist increase +4.3%"
+      "Evasion increase +4.4%",
+      "Block increase +4.4%",
+      "Critical Hit Resist increase +4.4%"
      ],
      "type": "DEX",
-     "value": 43
+     "value": 44
     },
     {
      "name": "Intelligence",
@@ -38933,7 +38933,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-24 18:03 UTC",
+ "updated": "2026-11-24 18:35 UTC",
  "feed": [
   {
    "t": "2026-11-24 14:04",

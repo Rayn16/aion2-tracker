@@ -16177,14 +16177,14 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 189103,
+     "cp": 190915,
      "il": 2930
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 189103,
+   "cp": 190915,
    "il": 2930,
    "gear": [
     {
@@ -18245,7 +18245,7 @@
       "id": 13370000,
       "name": "Evasion Contract",
       "needLevel": 22,
-      "skillLevel": 8
+      "skillLevel": 10
      },
      {
       "acquired": 0,
@@ -31130,15 +31130,15 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 134010,
-     "il": 2680
+     "cp": 139885,
+     "il": 2681
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 134010,
-   "il": 2680,
+   "cp": 139885,
+   "il": 2681,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31184,7 +31184,7 @@
      "slotPosName": "SubHand",
      "name": "Nuakum Guard",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_012.png",
      "max": 15,
      "slots": 4,
@@ -31924,11 +31924,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +6.1%",
-      "Perfect Chance +6.1%"
+      "Defense increase +7.1%",
+      "Perfect Chance +7.1%"
      ],
      "type": "Justice",
-     "value": 61
+     "value": 71
     },
     {
      "name": "Freedom [Vaizel]",
@@ -31960,20 +31960,20 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +4.1%",
-      "Double Resist +4.1%"
+      "Combat Speed +5.1%",
+      "Double Resist +5.1%"
      ],
      "type": "Time",
-     "value": 41
+     "value": 51
     },
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.6%",
-      "Perfect Resist +0.6%"
+      "Attack increase +5.1%",
+      "Perfect Resist +5.1%"
      ],
      "type": "Destruction",
-     "value": 6
+     "value": 51
     },
     {
      "name": "Death [Triniel]",
@@ -32015,7 +32015,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2680
+     "value": 2681
     }
    ],
    "title": {
@@ -33097,14 +33097,14 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
       "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_028.png",
       "id": 17290000,
       "name": "Absolution",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 20
      },
      {
       "acquired": 0,
@@ -33124,7 +33124,7 @@
       "id": 17430000,
       "name": "Prayer of Amplification",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -33134,7 +33134,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -33157,7 +33157,7 @@
       "skillLevel": 0
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
       "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_019.png",
@@ -33169,12 +33169,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_041.png",
       "id": 17410000,
       "name": "Light of Protection",
       "needLevel": 22,
-      "skillLevel": 20
+      "skillLevel": 0
      },
      {
       "acquired": 0,
@@ -33209,12 +33209,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_046.png",
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      }
     ]
    },
@@ -39043,8 +39043,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 18:35 UTC",
+ "updated": "2026-11-25 19:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-25 19:04",
+   "n": "uTril",
+   "x": "Nuakum Guard +14 → +15"
+  },
+  {
+   "t": "2026-11-25 19:04",
+   "n": "uTril",
+   "x": "skills up: Absolution 20, Prayer of Amplification 15, Noble Aura 5"
+  },
+  {
+   "t": "2026-11-25 19:02",
+   "n": "DeathRunner",
+   "x": "skills up: Evasion Contract 10"
+  },
   {
    "t": "2026-11-25 17:32",
    "n": "DeathRunner",
@@ -40529,21 +40544,6 @@
    "t": "2026-11-17 14:05",
    "n": "YasuoMain4",
    "x": "5 new titles"
-  },
-  {
-   "t": "2026-11-17 13:34",
-   "n": "YasuoMain4",
-   "x": "14 new titles"
-  },
-  {
-   "t": "2026-11-17 10:05",
-   "n": "YasuoMain4",
-   "x": "new Spiritforged Staff +0"
-  },
-  {
-   "t": "2026-11-17 10:05",
-   "n": "YasuoMain4",
-   "x": "new Anguish Gloves +0"
   }
  ]
 }

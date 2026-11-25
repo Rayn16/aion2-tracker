@@ -16177,15 +16177,15 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 186147,
-     "il": 2921
+     "cp": 188560,
+     "il": 2922
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 186147,
-   "il": 2921,
+   "cp": 188560,
+   "il": 2922,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16896,7 +16896,7 @@
      "slotPosName": "Arcana4",
      "name": "Bell of Vigor",
      "grade": "Unique",
-     "enchantLevel": 3,
+     "enchantLevel": 4,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -16958,28 +16958,28 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +4.3%",
-      "Critical Hit increase +4.3%"
+      "Accuracy increase +1.8%",
+      "Critical Hit increase +1.8%"
      ],
      "type": "AGI",
-     "value": 43
+     "value": 18
     },
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +4.1%"
+      "Status Effect Resist +4.5%"
      ],
      "type": "WIS",
-     "value": 41
+     "value": 45
     },
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +7.4%",
-      "Perfect Chance +7.4%"
+      "Defense increase +7.5%",
+      "Perfect Chance +7.5%"
      ],
      "type": "Justice",
-     "value": 74
+     "value": 75
     },
     {
      "name": "Freedom [Vaizel]",
@@ -17066,7 +17066,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2921
+     "value": 2922
     }
    ],
    "title": {
@@ -17965,7 +17965,7 @@
       "id": 13350000,
       "name": "Heart Gore",
       "needLevel": 4,
-      "skillLevel": 19
+      "skillLevel": 20
      },
      {
       "acquired": 1,
@@ -18055,7 +18055,7 @@
       "id": 13720000,
       "name": "Exploit Weakness",
       "needLevel": 6,
-      "skillLevel": 20
+      "skillLevel": 21
      },
      {
       "acquired": 1,
@@ -18065,7 +18065,7 @@
       "id": 13730000,
       "name": "Apply Poison",
       "needLevel": 9,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -39043,8 +39043,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 17:05 UTC",
+ "updated": "2026-11-25 17:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-25 17:32",
+   "n": "DeathRunner",
+   "x": "Bell of Vigor +3 → +4"
+  },
+  {
+   "t": "2026-11-25 17:32",
+   "n": "DeathRunner",
+   "x": "skills up: Heart Gore 20, Exploit Weakness 21, Apply Poison 16"
+  },
   {
    "t": "2026-11-25 16:32",
    "n": "DeathRunner",
@@ -40534,16 +40544,6 @@
    "t": "2026-11-17 10:05",
    "n": "YasuoMain4",
    "x": "new Anguish Gloves +0"
-  },
-  {
-   "t": "2026-11-17 10:05",
-   "n": "YasuoMain4",
-   "x": "new Anguish Boots +0"
-  },
-  {
-   "t": "2026-11-17 10:05",
-   "n": "YasuoMain4",
-   "x": "new Anguish Ring +0"
   }
  ]
 }

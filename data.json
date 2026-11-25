@@ -6942,15 +6942,15 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 149829,
-     "il": 2803
+     "cp": 149960,
+     "il": 2808
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 149829,
-   "il": 2803,
+   "cp": 149960,
+   "il": 2808,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7812,7 +7812,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2803
+     "value": 2808
     }
    ],
    "title": {
@@ -7942,8 +7942,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 32,
-      "openPercent": 21,
+      "openNodeCount": 35,
+      "openPercent": 23,
       "totalNodeCount": 152
      },
      {
@@ -8364,13 +8364,13 @@
      "1|3|Rare|1|PvE Attack, PvE Defense",
      "2|13|Legend|0|Critical Hit",
      "2|15|Common|0|Boss Attack",
-     "3|1|Common|0|PvE Defense",
+     "3|1|Common|1|PvE Defense",
      "2|9|Rare|0|Boss Attack, Boss Defense",
      "2|11|Common|0|Boss Attack",
      "2|5|Common|1|PvE Defense",
      "2|6|Legend|1|Critical Hit Resist",
      "2|7|Common|1|PvE Attack",
-     "2|1|Common|0|PvE Accuracy",
+     "2|1|Common|1|PvE Accuracy",
      "2|3|Common|1|Boss Defense",
      "2|4|Common|1|PvE Evasion",
      "3|14|Common|0|PvE Accuracy",
@@ -8383,7 +8383,7 @@
      "3|7|Common|1|Boss Attack",
      "3|8|Common|0|PvE Evasion",
      "3|9|Common|0|PvE Accuracy",
-     "3|2|Legend|0|Boss Damage Boost",
+     "3|2|Legend|1|Boss Damage Boost",
      "3|4|Rare|0|Boss Attack, Boss Defense",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
      "5|2|Common|0|Boss Defense",
@@ -16177,15 +16177,15 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 192285,
-     "il": 2930
+     "cp": 407198,
+     "il": 2935
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 192285,
-   "il": 2930,
+   "cp": 407198,
+   "il": 2935,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17066,11 +17066,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2930
+     "value": 2935
     }
    ],
    "title": {
-    "ownedCount": 252,
+    "ownedCount": 253,
     "titleList": [
      {
       "equipCategory": "Attack",
@@ -17138,8 +17138,8 @@
       "grade": "Unique",
       "id": 23051004,
       "name": "Journey's Path",
-      "ownedCount": 82,
-      "ownedPercent": 80,
+      "ownedCount": 83,
+      "ownedPercent": 81,
       "statList": [
        {
         "desc": "Accuracy Bonus +10"
@@ -17196,8 +17196,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 46,
-      "openPercent": 30,
+      "openNodeCount": 48,
+      "openPercent": 32,
       "totalNodeCount": 152
      },
      {
@@ -17610,8 +17610,8 @@
      "4|5|Common|1|PvE Attack",
      "4|6|Common|1|Boss Defense",
      "4|4|Common|1|PvE Accuracy",
-     "5|2|Common|0|Boss Defense",
-     "5|3|Common|0|Boss Attack",
+     "5|2|Common|1|Boss Defense",
+     "5|3|Common|1|Boss Attack",
      "5|1|Rare|0|PvE Accuracy, PvE Evasion",
      "4|14|Common|0|PvE Evasion",
      "4|12|Rare|0|Boss Attack, Boss Defense",
@@ -17651,7 +17651,7 @@
      "8|10|Common|0|PvE Accuracy",
      "8|7|Common|0|PvE Defense",
      "8|8|Start|1|Ariel - Start",
-     "9|6|Common|1|Boss Defense",
+     "9|6|Common|0|Boss Defense",
      "9|4|Common|0|PvE Evasion",
      "9|5|Legend|0|Boss Damage Tolerance",
      "9|2|Rare|0|PvE Accuracy, PvE Evasion",
@@ -17692,24 +17692,24 @@
      "13|3|Common|0|PvE Defense",
      "13|1|Rare|0|Boss Attack, Boss Defense",
      "12|14|Common|1|PvE Attack",
-     "12|11|Common|1|PvE Attack",
+     "12|11|Common|0|PvE Attack",
      "12|12|Common|1|PvE Accuracy",
      "13|8|Common|0|PvE Evasion",
      "13|9|Common|1|Boss Attack",
      "13|6|Common|0|Boss Defense",
-     "13|7|Common|1|PvE Accuracy",
+     "13|7|Common|0|PvE Accuracy",
      "13|4|Common|0|PvE Evasion",
      "13|5|Common|0|PvE Attack",
      "14|3|Legend|0|Critical Hit",
      "14|1|Common|0|Boss Attack",
      "13|14|Legend|1|Boss Damage Boost",
      "13|15|Common|1|PvE Defense",
-     "13|12|Rare|1|PvE Attack, PvE Defense",
+     "13|12|Rare|0|PvE Attack, PvE Defense",
      "14|11|Common|0|PvE Defense",
      "14|12|Common|0|PvE Evasion",
      "14|9|Common|1|PvE Attack",
      "14|10|Legend|0|Critical Hit Resist",
-     "14|7|Rare|1|PvE Attack, PvE Defense",
+     "14|7|Rare|0|PvE Attack, PvE Defense",
      "14|5|Common|0|Boss Attack",
      "15|4|Common|0|Boss Defense",
      "15|5|Rare|0|PvE Accuracy, PvE Evasion",
@@ -17727,7 +17727,7 @@
      "1|7|Common|1|PvE Accuracy",
      "1|2|Common|0|Boss Attack",
      "1|3|Rare|0|PvE Attack, PvE Defense",
-     "1|1|Unique|0|PvE Damage Boost",
+     "1|1|Unique|1|PvE Damage Boost",
      "1|14|Common|0|PvE Attack",
      "1|15|Unique|0|PvE Damage Tolerance",
      "1|12|Common|0|Boss Defense",
@@ -17740,9 +17740,9 @@
      "2|6|Legend|0|Critical Hit Resist",
      "2|3|Common|0|Boss Defense",
      "2|4|Common|0|PvE Evasion",
-     "2|1|Common|0|PvE Accuracy",
+     "2|1|Common|1|PvE Accuracy",
      "2|15|Common|0|Boss Attack",
-     "3|1|Common|0|PvE Defense",
+     "3|1|Common|1|PvE Defense",
      "2|13|Legend|0|Critical Hit",
      "2|11|Common|0|Boss Attack",
      "2|9|Rare|0|Boss Attack, Boss Defense",
@@ -17750,8 +17750,8 @@
      "3|9|Common|0|PvE Accuracy",
      "3|7|Common|1|Boss Attack",
      "3|4|Rare|0|Boss Attack, Boss Defense",
-     "3|2|Legend|0|Boss Damage Boost",
-     "4|2|Common|0|PvE Attack",
+     "3|2|Legend|1|Boss Damage Boost",
+     "4|2|Common|1|PvE Attack",
      "3|14|Common|0|PvE Accuracy",
      "3|15|Rare|0|PvE Attack, PvE Defense",
      "3|12|Common|0|PvE Evasion",
@@ -39043,8 +39043,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 21:35 UTC",
+ "updated": "2026-11-25 22:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-25 22:04",
+   "n": "CutieCatty",
+   "x": "opened 3 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-25 22:02",
+   "n": "DeathRunner",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-25 22:02",
+   "n": "DeathRunner",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-25 20:04",
    "n": "uTril",
@@ -40529,21 +40544,6 @@
    "t": "2026-11-17 16:35",
    "n": "YasuoMain4",
    "x": "6 new titles"
-  },
-  {
-   "t": "2026-11-17 16:04",
-   "n": "CuteCatty",
-   "x": "new Vakron Greaves +10"
-  },
-  {
-   "t": "2026-11-17 15:35",
-   "n": "YasuoMain4",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-17 15:34",
-   "n": "CuteCatty",
-   "x": "1 new title"
   }
  ]
 }

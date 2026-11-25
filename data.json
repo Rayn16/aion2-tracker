@@ -31130,15 +31130,15 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 139889,
-     "il": 2682
+     "cp": 140246,
+     "il": 2686
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 139889,
-   "il": 2682,
+   "cp": 140246,
+   "il": 2686,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -32015,7 +32015,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2682
+     "value": 2686
     }
    ],
    "title": {
@@ -32145,8 +32145,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 31,
-      "openPercent": 20,
+      "openNodeCount": 32,
+      "openPercent": 21,
       "totalNodeCount": 152
      },
      {
@@ -32643,7 +32643,7 @@
      "14|3|Legend|0|Critical Hit",
      "14|1|Common|0|Boss Attack",
      "15|9|Common|1|PvE Accuracy",
-     "15|8|Unique|0|PvE Damage Boost",
+     "15|8|Unique|1|PvE Damage Boost",
      "15|7|Common|0|Max MP",
      "15|13|Rare|0|Boss Attack, Boss Defense",
      "15|1|Unique|0|PvE Damage Tolerance",
@@ -39043,8 +39043,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 19:35 UTC",
+ "updated": "2026-11-25 20:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-25 20:04",
+   "n": "uTril",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-25 19:34",
    "n": "uTril",
@@ -40538,11 +40543,6 @@
   {
    "t": "2026-11-17 15:34",
    "n": "CuteCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-17 15:05",
-   "n": "YasuoMain4",
    "x": "1 new title"
   }
  ]

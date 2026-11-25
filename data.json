@@ -16177,14 +16177,14 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 190915,
+     "cp": 192247,
      "il": 2930
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 190915,
+   "cp": 192247,
    "il": 2930,
    "gear": [
     {
@@ -18095,7 +18095,7 @@
       "id": 13760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 18
+      "skillLevel": 19
      },
      {
       "acquired": 1,
@@ -31130,15 +31130,15 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 139885,
-     "il": 2681
+     "cp": 139889,
+     "il": 2682
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 139885,
-   "il": 2681,
+   "cp": 139889,
+   "il": 2682,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -32015,7 +32015,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2681
+     "value": 2682
     }
    ],
    "title": {
@@ -32145,7 +32145,7 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 30,
+      "openNodeCount": 31,
       "openPercent": 20,
       "totalNodeCount": 152
      },
@@ -32624,7 +32624,7 @@
      "13|5|Common|0|PvE Attack",
      "13|4|Common|0|PvE Evasion",
      "13|9|Common|1|Boss Attack",
-     "13|8|Common|0|PvE Evasion",
+     "13|8|Common|1|PvE Evasion",
      "12|14|Common|0|PvE Attack",
      "12|12|Common|0|PvE Accuracy",
      "12|11|Common|0|PvE Attack",
@@ -33104,7 +33104,7 @@
       "id": 17290000,
       "name": "Absolution",
       "needLevel": 22,
-      "skillLevel": 20
+      "skillLevel": 0
      },
      {
       "acquired": 0,
@@ -33169,12 +33169,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_041.png",
       "id": 17410000,
       "name": "Light of Protection",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 20
      },
      {
       "acquired": 0,
@@ -39043,8 +39043,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 19:05 UTC",
+ "updated": "2026-11-25 19:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-25 19:34",
+   "n": "uTril",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-25 19:34",
+   "n": "uTril",
+   "x": "skills up: Light of Protection 20"
+  },
+  {
+   "t": "2026-11-25 19:32",
+   "n": "DeathRunner",
+   "x": "skills up: Impact Hit 19"
+  },
   {
    "t": "2026-11-25 19:04",
    "n": "uTril",
@@ -40529,21 +40544,6 @@
    "t": "2026-11-17 15:05",
    "n": "YasuoMain4",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-17 14:34",
-   "n": "YasuoMain4",
-   "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-17 14:34",
-   "n": "CutieCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-17 14:05",
-   "n": "YasuoMain4",
-   "x": "5 new titles"
   }
  ]
 }

@@ -159,13 +159,13 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 153085,
+     "cp": 155885,
      "il": 2788
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 153085,
+   "cp": 155885,
    "il": 2788,
    "gear": [
     {
@@ -1440,7 +1440,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -39043,7 +39043,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 12:35 UTC",
+ "updated": "2026-11-25 13:05 UTC",
  "feed": [
   {
    "t": "2026-11-25 06:32",

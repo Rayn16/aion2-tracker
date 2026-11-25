@@ -16177,15 +16177,15 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 185373,
-     "il": 2920
+     "cp": 186147,
+     "il": 2921
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 185373,
-   "il": 2920,
+   "cp": 186147,
+   "il": 2921,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16909,7 +16909,7 @@
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
      "grade": "Unique",
-     "enchantLevel": 4,
+     "enchantLevel": 5,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 5,
      "slots": 0,
@@ -16993,11 +16993,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -5.3%",
-      "Endurance Penetration +5.3%"
+      "Cooldown -5.4%",
+      "Endurance Penetration +5.4%"
      ],
      "type": "Illusion",
-     "value": 53
+     "value": 54
     },
     {
      "name": "Life [Yustiel]",
@@ -17066,7 +17066,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2920
+     "value": 2921
     }
    ],
    "title": {
@@ -18075,7 +18075,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 20
+      "skillLevel": 21
      },
      {
       "acquired": 1,
@@ -18245,7 +18245,7 @@
       "id": 13370000,
       "name": "Evasion Contract",
       "needLevel": 22,
-      "skillLevel": 6
+      "skillLevel": 8
      },
      {
       "acquired": 0,
@@ -39043,8 +39043,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 15:35 UTC",
+ "updated": "2026-11-25 16:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-25 16:32",
+   "n": "DeathRunner",
+   "x": "Mirror of Vigor +4 → +5"
+  },
+  {
+   "t": "2026-11-25 16:32",
+   "n": "DeathRunner",
+   "x": "skills up: Rear Smite 21, Evasion Contract 8"
+  },
   {
    "t": "2026-11-25 15:01",
    "n": "YasuoMain",
@@ -40534,16 +40544,6 @@
    "t": "2026-11-17 10:05",
    "n": "YasuoMain4",
    "x": "new Anguish Ring +0"
-  },
-  {
-   "t": "2026-11-17 10:05",
-   "n": "YasuoMain4",
-   "x": "skills up: Heat Wave Blow 3, Blessing of Life 11, Crossguard 3, Protection Circle 7 and 3 more"
-  },
-  {
-   "t": "2026-11-17 09:35",
-   "n": "YasuoMain4",
-   "x": "reached level 45"
   }
  ]
 }

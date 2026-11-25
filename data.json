@@ -16177,14 +16177,14 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 181864,
+     "cp": 407198,
      "il": 2920
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 181864,
+   "cp": 407198,
    "il": 2920,
    "gear": [
     {
@@ -18215,7 +18215,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 13
+      "skillLevel": 15
      },
      {
       "acquired": 0,
@@ -18238,14 +18238,14 @@
       "skillLevel": 20
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_039.png",
       "id": 13370000,
       "name": "Evasion Contract",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 6
      },
      {
       "acquired": 0,
@@ -39043,8 +39043,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 14:05 UTC",
+ "updated": "2026-11-25 14:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-25 14:32",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 15, Evasion Contract 6"
+  },
   {
    "t": "2026-11-25 06:32",
    "n": "DeathRunner",
@@ -40539,11 +40544,6 @@
    "t": "2026-11-17 09:35",
    "n": "YasuoMain4",
    "x": "new Liberator Staff +0"
-  },
-  {
-   "t": "2026-11-17 09:35",
-   "n": "YasuoMain4",
-   "x": "new Liberator Guard +0"
   }
  ]
 }

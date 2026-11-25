@@ -159,13 +159,13 @@
     },
     {
      "date": "2026-11-25",
-     "cp": 158601,
+     "cp": 158769,
      "il": 2788
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 158601,
+   "cp": 158769,
    "il": 2788,
    "gear": [
     {
@@ -1295,7 +1295,7 @@
       "id": 11100000,
       "name": "Ruinous Blow",
       "needLevel": 14,
-      "skillLevel": 18
+      "skillLevel": 19
      },
      {
       "acquired": 1,
@@ -39043,8 +39043,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 14:35 UTC",
+ "updated": "2026-11-25 15:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-25 15:01",
+   "n": "YasuoMain",
+   "x": "skills up: Ruinous Blow 19"
+  },
   {
    "t": "2026-11-25 14:32",
    "n": "DeathRunner",
@@ -40539,11 +40544,6 @@
    "t": "2026-11-17 09:35",
    "n": "YasuoMain4",
    "x": "reached level 45"
-  },
-  {
-   "t": "2026-11-17 09:35",
-   "n": "YasuoMain4",
-   "x": "new Liberator Staff +0"
   }
  ]
 }

@@ -16222,15 +16222,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 198048,
-     "il": 2947
+     "cp": 198083,
+     "il": 2950
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 198048,
-   "il": 2947,
+   "cp": 198083,
+   "il": 2950,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17111,7 +17111,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2947
+     "value": 2950
     }
    ],
    "title": {
@@ -17241,8 +17241,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 56,
-      "openPercent": 37,
+      "openNodeCount": 58,
+      "openPercent": 38,
       "totalNodeCount": 152
      },
      {
@@ -17790,9 +17790,9 @@
      "3|1|Common|1|PvE Defense",
      "2|13|Legend|0|Critical Hit",
      "2|11|Common|0|Boss Attack",
-     "2|9|Rare|0|Boss Attack, Boss Defense",
+     "2|9|Rare|1|Boss Attack, Boss Defense",
      "3|8|Common|0|PvE Evasion",
-     "3|9|Common|0|PvE Accuracy",
+     "3|9|Common|1|PvE Accuracy",
      "3|7|Common|1|Boss Attack",
      "3|4|Rare|1|Boss Attack, Boss Defense",
      "3|2|Legend|1|Boss Damage Boost",
@@ -39148,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 18:35 UTC",
+ "updated": "2026-11-26 19:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 19:02",
+   "n": "DeathRunner",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-26 18:32",
    "n": "DeathRunner",
@@ -40644,11 +40649,6 @@
    "t": "2026-11-18 02:01",
    "n": "YasuoMain",
    "x": "Ascension Bracelet +10 → +15"
-  },
-  {
-   "t": "2026-11-18 02:01",
-   "n": "YasuoMain",
-   "x": "opened 4 Daevanion nodes"
   }
  ]
 }

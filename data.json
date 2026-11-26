@@ -16222,14 +16222,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 407198,
+     "cp": 198225,
      "il": 2956
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 407198,
+   "cp": 198225,
    "il": 2956,
    "gear": [
     {
@@ -31220,14 +31220,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 405617,
+     "cp": 143740,
      "il": 2716
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 405617,
+   "cp": 143740,
    "il": 2716,
    "gear": [
     {
@@ -35525,21 +35525,21 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 67752,
-     "il": 1172
+     "cp": 67947,
+     "il": 1175
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 67752,
-   "il": 1172,
+   "cp": 67947,
+   "il": 1175,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Spiritforged Staff",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 13,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0078_T05.png",
      "max": 15,
      "slots": 4,
@@ -36023,7 +36023,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1172
+     "value": 1175
     }
    ],
    "title": {
@@ -39148,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 22:35 UTC",
+ "updated": "2026-11-26 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 23:04",
+   "n": "YasuoMain4",
+   "x": "Spiritforged Staff +10 → +13"
+  },
   {
    "t": "2026-11-26 22:02",
    "n": "DeathRunner",
@@ -40644,11 +40649,6 @@
    "t": "2026-11-18 05:02",
    "n": "DeathRunner",
    "x": "Nuakum Pauldrons +13 → +14"
-  },
-  {
-   "t": "2026-11-18 04:32",
-   "n": "DeathRunner",
-   "x": "opened 1 Daevanion nodes"
   }
  ]
 }

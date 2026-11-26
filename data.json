@@ -16222,14 +16222,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 192627,
+     "cp": 194124,
      "il": 2935
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 192627,
+   "cp": 194124,
    "il": 2935,
    "gear": [
     {
@@ -18120,7 +18120,7 @@
       "id": 13740000,
       "name": "Rear Smite",
       "needLevel": 11,
-      "skillLevel": 21
+      "skillLevel": 22
      },
      {
       "acquired": 1,
@@ -39148,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 03:35 UTC",
+ "updated": "2026-11-26 04:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 04:02",
+   "n": "DeathRunner",
+   "x": "skills up: Rear Smite 22"
+  },
   {
    "t": "2026-11-26 01:05",
    "n": "YasuoMain4",
@@ -40644,11 +40649,6 @@
    "t": "2026-11-17 16:35",
    "n": "YasuoMain4",
    "x": "new Liberator Bracelet +0"
-  },
-  {
-   "t": "2026-11-17 16:35",
-   "n": "YasuoMain4",
-   "x": "new Clash Rune +1"
   }
  ]
 }

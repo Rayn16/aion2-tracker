@@ -16222,14 +16222,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 193600,
+     "cp": 195538,
      "il": 2941
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 193600,
+   "cp": 195538,
    "il": 2941,
    "gear": [
     {
@@ -18290,7 +18290,7 @@
       "id": 13370000,
       "name": "Evasion Contract",
       "needLevel": 22,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 0,
@@ -31220,14 +31220,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 143187,
+     "cp": 143287,
      "il": 2710
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 143187,
+   "cp": 143287,
    "il": 2710,
    "gear": [
     {
@@ -33304,7 +33304,7 @@
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 7
      }
     ]
    },
@@ -39148,8 +39148,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 16:35 UTC",
+ "updated": "2026-11-26 17:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 17:04",
+   "n": "uTril",
+   "x": "skills up: Noble Aura 7"
+  },
+  {
+   "t": "2026-11-26 17:02",
+   "n": "DeathRunner",
+   "x": "skills up: Evasion Contract 13"
+  },
   {
    "t": "2026-11-26 13:34",
    "n": "uTril",
@@ -40639,16 +40649,6 @@
    "t": "2026-11-18 00:34",
    "n": "CuteCatty",
    "x": "skills up: Empyrean Lords' Benediction 7, Empyrean Lord's Grace 14"
-  },
-  {
-   "t": "2026-11-18 00:32",
-   "n": "IBrook",
-   "x": "Vakron Boots +10 → +11"
-  },
-  {
-   "t": "2026-11-18 00:32",
-   "n": "IBrook",
-   "x": "Enraged Kromede Earrings +10 → +11"
   }
  ]
 }

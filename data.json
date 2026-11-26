@@ -16222,15 +16222,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 194570,
-     "il": 2936
+     "cp": 194504,
+     "il": 2939
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 194570,
-   "il": 2936,
+   "cp": 194504,
+   "il": 2939,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17012,10 +17012,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +4.5%"
+      "Status Effect Resist +2.8%"
      ],
      "type": "WIS",
-     "value": 45
+     "value": 28
     },
     {
      "name": "Justice [Nezekan]",
@@ -17111,7 +17111,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2936
+     "value": 2939
     }
    ],
    "title": {
@@ -17241,8 +17241,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 49,
-      "openPercent": 32,
+      "openNodeCount": 51,
+      "openPercent": 34,
       "totalNodeCount": 152
      },
      {
@@ -17742,7 +17742,7 @@
      "13|8|Common|0|PvE Evasion",
      "13|9|Common|1|Boss Attack",
      "13|6|Common|0|Boss Defense",
-     "13|7|Common|0|PvE Accuracy",
+     "13|7|Common|1|PvE Accuracy",
      "13|4|Common|0|PvE Evasion",
      "13|5|Common|0|PvE Attack",
      "14|3|Legend|0|Critical Hit",
@@ -17754,7 +17754,7 @@
      "14|12|Common|0|PvE Evasion",
      "14|9|Common|1|PvE Attack",
      "14|10|Legend|0|Critical Hit Resist",
-     "14|7|Rare|0|PvE Attack, PvE Defense",
+     "14|7|Rare|1|PvE Attack, PvE Defense",
      "14|5|Common|0|Boss Attack",
      "15|4|Common|0|Boss Defense",
      "15|5|Rare|0|PvE Accuracy, PvE Evasion",
@@ -18140,7 +18140,7 @@
       "id": 13760000,
       "name": "Impact Hit",
       "needLevel": 15,
-      "skillLevel": 19
+      "skillLevel": 20
      },
      {
       "acquired": 1,
@@ -31220,14 +31220,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 140246,
+     "cp": 140327,
      "il": 2686
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 140246,
+   "cp": 140327,
    "il": 2686,
    "gear": [
     {
@@ -32109,7 +32109,7 @@
     }
    ],
    "title": {
-    "ownedCount": 207,
+    "ownedCount": 208,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -32177,8 +32177,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 71,
-      "ownedPercent": 67,
+      "ownedCount": 72,
+      "ownedPercent": 68,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -33318,9 +33318,9 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
-     "id": 40201900,
-     "name": "Dark Veil Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_010.png",
+     "id": 40101000,
+     "name": "Forest Spirit Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
@@ -39148,8 +39148,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 04:35 UTC",
+ "updated": "2026-11-26 05:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 05:04",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-26 05:02",
+   "n": "DeathRunner",
+   "x": "opened 2 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-26 05:02",
+   "n": "DeathRunner",
+   "x": "skills up: Impact Hit 20"
+  },
   {
    "t": "2026-11-26 04:32",
    "n": "DeathRunner",
@@ -40634,21 +40649,6 @@
    "t": "2026-11-17 17:05",
    "n": "YasuoMain4",
    "x": "Liberator Bracelet +0 → +10"
-  },
-  {
-   "t": "2026-11-17 17:05",
-   "n": "YasuoMain4",
-   "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-17 17:05",
-   "n": "YasuoMain4",
-   "x": "opened 43 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-17 17:05",
-   "n": "YasuoMain4",
-   "x": "skills up: Incandescent Blow 14, Impactful Crush 14, Spinning Strike 14, Crossguard 11 and 6 more"
   }
  ]
 }

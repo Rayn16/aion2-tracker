@@ -1445,7 +1445,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -1475,7 +1475,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_038.png",
       "id": 11380000,
       "name": "Tenaciousness",
@@ -2439,14 +2439,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 92362,
-     "il": 2099
+     "cp": 92431,
+     "il": 2100
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 92362,
-   "il": 2099,
+   "cp": 92431,
+   "il": 2100,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -3099,7 +3099,7 @@
      "slotPosName": "Amulet",
      "name": "Revelation Amulet",
      "grade": "Unique",
-     "enchantLevel": 7,
+     "enchantLevel": 8,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Item_Craft_Conversion_Crystal_L_lv5_01.png",
      "max": 10,
      "slots": 0,
@@ -3320,7 +3320,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2099
+     "value": 2100
     }
    ],
    "title": {
@@ -4704,15 +4704,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 89154,
-     "il": 2094
+     "cp": 89345,
+     "il": 2097
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 89154,
-   "il": 2094,
+   "cp": 89345,
+   "il": 2097,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4756,7 +4756,7 @@
      "slotPosName": "SubHand",
      "name": "Vakron Guard",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_U_003.png",
      "max": 15,
      "slots": 4,
@@ -5258,7 +5258,7 @@
      "slotPosName": "Bracelet1",
      "name": "Ascension Bracelet",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Acc_Bracelet_R_027.png",
      "max": 15,
      "slots": 4,
@@ -5579,7 +5579,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2094
+     "value": 2097
     }
    ],
    "title": {
@@ -31220,14 +31220,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 405617,
+     "cp": 143740,
      "il": 2716
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 405617,
+   "cp": 143740,
    "il": 2716,
    "gear": [
     {
@@ -35525,14 +35525,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 67742,
+     "cp": 67752,
      "il": 1172
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 67742,
+   "cp": 67752,
    "il": 1172,
    "gear": [
     {
@@ -36027,7 +36027,7 @@
     }
    ],
    "title": {
-    "ownedCount": 174,
+    "ownedCount": 175,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -36095,8 +36095,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 60,
-      "ownedPercent": 61,
+      "ownedCount": 61,
+      "ownedPercent": 62,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -39148,8 +39148,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 20:35 UTC",
+ "updated": "2026-11-26 20:44 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 20:43",
+   "n": "YasuoMain4",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-26 20:43",
+   "n": "CuteCatty",
+   "x": "Vakron Guard +10 → +11"
+  },
+  {
+   "t": "2026-11-26 20:43",
+   "n": "CuteCatty",
+   "x": "Ascension Bracelet +10 → +12"
+  },
+  {
+   "t": "2026-11-26 20:40",
+   "n": "YasuoMain16",
+   "x": "Revelation Amulet +7 → +8"
+  },
   {
    "t": "2026-11-26 20:31",
    "n": "YasuoMain",
@@ -40629,26 +40649,6 @@
    "t": "2026-11-18 03:32",
    "n": "DeathRunner",
    "x": "Nuakum Cloak +13 → +14"
-  },
-  {
-   "t": "2026-11-18 03:04",
-   "n": "CutieCatty",
-   "x": "skills up: Blessing of Life 16"
-  },
-  {
-   "t": "2026-11-18 03:02",
-   "n": "DeathRunner",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-18 03:02",
-   "n": "DeathRunner",
-   "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-18 02:04",
-   "n": "CutieCatty",
-   "x": "opened 7 Daevanion nodes"
   }
  ]
 }

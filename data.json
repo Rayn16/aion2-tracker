@@ -31220,15 +31220,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 143069,
-     "il": 2707
+     "cp": 143187,
+     "il": 2710
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 143069,
-   "il": 2707,
+   "cp": 143187,
+   "il": 2710,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -32105,7 +32105,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2707
+     "value": 2710
     }
    ],
    "title": {
@@ -32235,7 +32235,7 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 42,
+      "openNodeCount": 43,
       "openPercent": 28,
       "totalNodeCount": 152
      },
@@ -32693,7 +32693,7 @@
      "9|12|Rare|0|Boss Attack, Boss Defense",
      "11|4|Common|0|PvE Accuracy",
      "11|3|Common|0|Boss Defense",
-     "11|2|Legend|0|Boss Damage Boost",
+     "11|2|Legend|1|Boss Damage Boost",
      "11|9|Common|1|PvE Defense",
      "11|6|Common|0|PvE Defense",
      "10|12|Common|0|PvE Evasion",
@@ -39148,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 13:05 UTC",
+ "updated": "2026-11-26 13:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 13:34",
+   "n": "uTril",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-26 13:04",
    "n": "uTril",
@@ -40644,11 +40649,6 @@
    "t": "2026-11-18 00:32",
    "n": "IBrook",
    "x": "Enraged Kromede Earrings +10 → +11"
-  },
-  {
-   "t": "2026-11-18 00:32",
-   "n": "IBrook",
-   "x": "Ascension Bracelet +10 → +11"
   }
  ]
 }

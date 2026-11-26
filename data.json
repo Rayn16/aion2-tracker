@@ -11269,10 +11269,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +4.7%"
+      "Attack increase +4.8%"
      ],
      "type": "STR",
-     "value": 47
+     "value": 48
     },
     {
      "name": "Dexterity",
@@ -15180,10 +15180,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +3.5%"
+      "Attack increase +3.6%"
      ],
      "type": "STR",
-     "value": 35
+     "value": 36
     },
     {
      "name": "Dexterity",
@@ -16222,14 +16222,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 195029,
+     "cp": 195100,
      "il": 2941
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 195029,
+   "cp": 195100,
    "il": 2941,
    "gear": [
     {
@@ -16969,10 +16969,10 @@
     {
      "name": "Might",
      "statSecondList": [
-      "Attack increase +7.8%"
+      "Attack increase +7.9%"
      ],
      "type": "STR",
-     "value": 78
+     "value": 79
     },
     {
      "name": "Dexterity",
@@ -31220,15 +31220,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 140256,
-     "il": 2686
+     "cp": 140111,
+     "il": 2687
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 140256,
-   "il": 2686,
+   "cp": 140111,
+   "il": 2687,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31999,11 +31999,11 @@
     {
      "name": "Precision",
      "statSecondList": [
-      "Accuracy increase +2.9%",
-      "Critical Hit increase +2.9%"
+      "Accuracy increase +1.2%",
+      "Critical Hit increase +1.2%"
      ],
      "type": "AGI",
-     "value": 29
+     "value": 12
     },
     {
      "name": "Willpower",
@@ -32105,7 +32105,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2686
+     "value": 2687
     }
    ],
    "title": {
@@ -32235,8 +32235,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 32,
-      "openPercent": 21,
+      "openNodeCount": 33,
+      "openPercent": 22,
       "totalNodeCount": 152
      },
      {
@@ -32709,7 +32709,7 @@
      "12|2|Common|0|PvE Evasion",
      "11|15|Rare|0|PvE Accuracy, PvE Evasion",
      "11|14|Common|0|Boss Defense",
-     "13|7|Common|0|PvE Accuracy",
+     "13|7|Common|1|PvE Accuracy",
      "13|6|Common|0|Boss Defense",
      "13|5|Common|0|PvE Attack",
      "13|4|Common|0|PvE Evasion",
@@ -33179,7 +33179,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CL_SKILL_027.png",
       "id": 17280000,
       "name": "Power Burst",
@@ -33224,7 +33224,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 2
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -39148,8 +39148,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 05:35 UTC",
+ "updated": "2026-11-26 06:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 06:04",
+   "n": "uTril",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-26 06:04",
+   "n": "uTril",
+   "x": "skills up: Summon Resurrection 5"
+  },
   {
    "t": "2026-11-26 05:34",
    "n": "uTril",
@@ -40637,16 +40647,6 @@
   },
   {
    "t": "2026-11-17 18:02",
-   "n": "YasuoMain4",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-17 17:34",
-   "n": "YasuoMain4",
-   "x": "new Liberator Ring +0"
-  },
-  {
-   "t": "2026-11-17 17:34",
    "n": "YasuoMain4",
    "x": "1 new title"
   }

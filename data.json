@@ -164,14 +164,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 158919,
-     "il": 2795
+     "cp": 158942,
+     "il": 2800
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 158919,
-   "il": 2795,
+   "cp": 158942,
+   "il": 2800,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1045,7 +1045,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2795
+     "value": 2800
     }
    ],
    "title": {
@@ -1175,8 +1175,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 37,
-      "openPercent": 24,
+      "openNodeCount": 38,
+      "openPercent": 25,
       "totalNodeCount": 152
      },
      {
@@ -1973,7 +1973,7 @@
      "2|15|Common|0|Boss Attack",
      "3|1|Common|1|PvE Defense",
      "2|13|Legend|0|Critical Hit",
-     "3|4|Rare|0|Boss Attack, Boss Defense",
+     "3|4|Rare|1|Boss Attack, Boss Defense",
      "3|2|Legend|0|Boss Damage Boost",
      "3|8|Common|0|PvE Evasion",
      "3|9|Common|0|PvE Accuracy",
@@ -4704,15 +4704,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 89464,
-     "il": 2099
+     "cp": 89471,
+     "il": 2100
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 89464,
-   "il": 2099,
+   "cp": 89471,
+   "il": 2100,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -4870,7 +4870,7 @@
      "slotPosName": "Helmet",
      "name": "Vakron Helm",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Helmet.png",
      "max": 15,
      "slots": 4,
@@ -5579,7 +5579,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2099
+     "value": 2100
     }
    ],
    "title": {
@@ -6962,14 +6962,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 150005,
+     "cp": 150007,
      "il": 2810
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 150005,
+   "cp": 150007,
    "il": 2810,
    "gear": [
     {
@@ -39148,8 +39148,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 21:05 UTC",
+ "updated": "2026-11-26 21:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 21:34",
+   "n": "CuteCatty",
+   "x": "Vakron Helm +10 → +11"
+  },
+  {
+   "t": "2026-11-26 21:31",
+   "n": "YasuoMain",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-26 21:04",
    "n": "CuteCatty",
@@ -40639,16 +40649,6 @@
    "t": "2026-11-18 04:31",
    "n": "YasuoMain",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-18 04:31",
-   "n": "YasuoMain",
-   "x": "opened 3 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-18 04:02",
-   "n": "DeathRunner",
-   "x": "opened 3 Daevanion nodes"
   }
  ]
 }

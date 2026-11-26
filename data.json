@@ -31220,15 +31220,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 143287,
-     "il": 2710
+     "cp": 143428,
+     "il": 2716
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 143287,
-   "il": 2710,
+   "cp": 143428,
+   "il": 2716,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -32105,7 +32105,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2710
+     "value": 2716
     }
    ],
    "title": {
@@ -32235,8 +32235,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 43,
-      "openPercent": 28,
+      "openNodeCount": 48,
+      "openPercent": 32,
       "totalNodeCount": 152
      },
      {
@@ -32668,8 +32668,8 @@
      "7|11|Legend|0|Boss Damage Tolerance",
      "7|10|Common|0|Boss Defense",
      "9|3|Common|0|PvE Defense",
-     "9|2|Rare|0|PvE Accuracy, PvE Evasion",
-     "9|1|Common|0|PvE Attack",
+     "9|2|Rare|1|PvE Accuracy, PvE Evasion",
+     "9|1|Common|1|PvE Attack",
      "8|15|Unique|0|PvE Damage Tolerance",
      "9|6|Common|0|Boss Defense",
      "9|5|Legend|0|Boss Damage Tolerance",
@@ -32680,7 +32680,7 @@
      "8|7|Common|0|PvE Defense",
      "8|13|Common|0|Max MP",
      "10|4|Common|0|PvE Attack",
-     "10|2|Common|0|Boss Attack",
+     "10|2|Common|1|Boss Attack",
      "10|8|Common|1|Max MP",
      "10|7|Rare|0|Boss Attack, Boss Defense",
      "10|6|Common|0|Boss Attack",
@@ -32702,7 +32702,7 @@
      "10|15|Common|0|PvE Defense",
      "12|6|Legend|0|Critical Hit Resist",
      "12|4|Rare|0|PvE Attack, PvE Defense",
-     "12|10|Common|0|Boss Defense",
+     "12|10|Common|1|Boss Defense",
      "12|9|Rare|1|PvE Accuracy, PvE Evasion",
      "11|13|Common|0|Boss Attack",
      "11|12|Legend|0|Boss Damage Tolerance",
@@ -32717,7 +32717,7 @@
      "13|8|Common|1|PvE Evasion",
      "12|14|Common|0|PvE Attack",
      "12|12|Common|0|PvE Accuracy",
-     "12|11|Common|0|PvE Attack",
+     "12|11|Common|1|PvE Attack",
      "13|3|Common|1|PvE Defense",
      "13|2|Common|1|PvE Accuracy",
      "13|1|Rare|1|Boss Attack, Boss Defense",
@@ -33104,7 +33104,7 @@
       "id": 17730000,
       "name": "Empyrean Lord's Grace",
       "needLevel": 9,
-      "skillLevel": 16
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -39148,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 17:05 UTC",
+ "updated": "2026-11-26 17:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 17:34",
+   "n": "uTril",
+   "x": "opened 5 Daevanion nodes"
+  },
   {
    "t": "2026-11-26 17:04",
    "n": "uTril",
@@ -40644,11 +40649,6 @@
    "t": "2026-11-18 00:34",
    "n": "CuteCatty",
    "x": "new Vakron Pauldrons +10"
-  },
-  {
-   "t": "2026-11-18 00:34",
-   "n": "CuteCatty",
-   "x": "skills up: Empyrean Lords' Benediction 7, Empyrean Lord's Grace 14"
   }
  ]
 }

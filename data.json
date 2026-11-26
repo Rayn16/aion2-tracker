@@ -16222,15 +16222,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 407198,
-     "il": 2950
+     "cp": 198225,
+     "il": 2956
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 407198,
-   "il": 2950,
+   "cp": 198225,
+   "il": 2956,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -16506,7 +16506,7 @@
      "slotPosName": "Boots",
      "name": "Nuakum Boots",
      "grade": "Unique",
-     "enchantLevel": 14,
+     "enchantLevel": 15,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Boots.png",
      "max": 15,
      "slots": 4,
@@ -17111,7 +17111,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2950
+     "value": 2956
     }
    ],
    "title": {
@@ -39148,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 21:35 UTC",
+ "updated": "2026-11-26 22:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 22:02",
+   "n": "DeathRunner",
+   "x": "Nuakum Boots +14 → +15"
+  },
   {
    "t": "2026-11-26 21:34",
    "n": "CuteCatty",
@@ -40644,11 +40649,6 @@
    "t": "2026-11-18 04:32",
    "n": "DeathRunner",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-18 04:31",
-   "n": "YasuoMain",
-   "x": "1 new title"
   }
  ]
 }

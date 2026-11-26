@@ -16222,15 +16222,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 194504,
-     "il": 2939
+     "cp": 195029,
+     "il": 2941
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 194504,
-   "il": 2939,
+   "cp": 195029,
+   "il": 2941,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17111,7 +17111,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2939
+     "value": 2941
     }
    ],
    "title": {
@@ -17241,7 +17241,7 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 51,
+      "openNodeCount": 52,
       "openPercent": 34,
       "totalNodeCount": 152
      },
@@ -17749,7 +17749,7 @@
      "14|1|Common|0|Boss Attack",
      "13|14|Legend|1|Boss Damage Boost",
      "13|15|Common|1|PvE Defense",
-     "13|12|Rare|0|PvE Attack, PvE Defense",
+     "13|12|Rare|1|PvE Attack, PvE Defense",
      "14|11|Common|0|PvE Defense",
      "14|12|Common|0|PvE Evasion",
      "14|9|Common|1|PvE Attack",
@@ -18290,7 +18290,7 @@
       "id": 13370000,
       "name": "Evasion Contract",
       "needLevel": 22,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 0,
@@ -31220,14 +31220,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 140327,
+     "cp": 140256,
      "il": 2686
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 140327,
+   "cp": 140256,
    "il": 2686,
    "gear": [
     {
@@ -33224,7 +33224,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -39148,8 +39148,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 05:05 UTC",
+ "updated": "2026-11-26 05:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 05:34",
+   "n": "uTril",
+   "x": "skills up: Summon Resurrection 2"
+  },
+  {
+   "t": "2026-11-26 05:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-26 05:32",
+   "n": "DeathRunner",
+   "x": "skills up: Evasion Contract 12"
+  },
   {
    "t": "2026-11-26 05:04",
    "n": "uTril",
@@ -40634,21 +40649,6 @@
    "t": "2026-11-17 17:34",
    "n": "YasuoMain4",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-17 17:05",
-   "n": "YasuoMain4",
-   "x": "new Spiritforged Guard +0"
-  },
-  {
-   "t": "2026-11-17 17:05",
-   "n": "YasuoMain4",
-   "x": "new Ascension Bracelet +10"
-  },
-  {
-   "t": "2026-11-17 17:05",
-   "n": "YasuoMain4",
-   "x": "Liberator Bracelet +0 → +10"
   }
  ]
 }

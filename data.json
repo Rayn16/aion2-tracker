@@ -164,14 +164,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 158141,
-     "il": 2790
+     "cp": 158271,
+     "il": 2794
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 158141,
-   "il": 2790,
+   "cp": 158271,
+   "il": 2794,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -1045,7 +1045,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2790
+     "value": 2794
     }
    ],
    "title": {
@@ -1175,8 +1175,8 @@
       "id": 15,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 34,
-      "openPercent": 22,
+      "openNodeCount": 36,
+      "openPercent": 24,
       "totalNodeCount": 152
      },
      {
@@ -1964,7 +1964,7 @@
     "15": [
      "2|3|Common|1|Boss Defense",
      "2|4|Common|1|PvE Evasion",
-     "2|1|Common|0|PvE Accuracy",
+     "2|1|Common|1|PvE Accuracy",
      "2|7|Common|1|PvE Attack",
      "2|5|Common|1|PvE Defense",
      "2|6|Legend|1|Critical Hit Resist",
@@ -2080,7 +2080,7 @@
      "13|5|Common|0|PvE Attack",
      "13|8|Common|0|PvE Evasion",
      "13|9|Common|1|Boss Attack",
-     "13|14|Legend|0|Boss Damage Boost",
+     "13|14|Legend|1|Boss Damage Boost",
      "13|15|Common|1|PvE Defense",
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "14|3|Legend|0|Critical Hit",
@@ -31220,15 +31220,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 142184,
-     "il": 2697
+     "cp": 142553,
+     "il": 2703
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 142184,
-   "il": 2697,
+   "cp": 142553,
+   "il": 2703,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -32023,29 +32023,29 @@
     {
      "name": "Freedom [Vaizel]",
      "statSecondList": [
-      "Accuracy increase +5.6%",
-      "Evasion increase +5.6%"
+      "Accuracy increase +4.8%",
+      "Evasion increase +4.8%"
      ],
      "type": "Freedom",
-     "value": 56
+     "value": 48
     },
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -3.1%",
-      "Endurance Penetration +3.1%"
+      "Cooldown -3.5%",
+      "Endurance Penetration +3.5%"
      ],
      "type": "Illusion",
-     "value": 31
+     "value": 35
     },
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +4.4%",
-      "Regeneration +4.4%"
+      "HP increase +4.8%",
+      "Regeneration +4.8%"
      ],
      "type": "Life",
-     "value": 44
+     "value": 48
     },
     {
      "name": "Time [Siel]",
@@ -32068,20 +32068,20 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +3.8%",
-      "Regeneration Penetration +3.8%"
+      "Critical Hit increase +4.6%",
+      "Regeneration Penetration +4.6%"
      ],
      "type": "Death",
-     "value": 38
+     "value": 46
     },
     {
      "name": "Wisdom [Lumiel]",
      "statSecondList": [
-      "MP Cost -1.9%",
-      "Double Chance +1.9%"
+      "MP Cost -2.3%",
+      "Double Chance +2.3%"
      ],
      "type": "Wisdom",
-     "value": 19
+     "value": 23
     },
     {
      "name": "Destiny [Marchutan]",
@@ -32105,11 +32105,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2697
+     "value": 2703
     }
    ],
    "title": {
-    "ownedCount": 209,
+    "ownedCount": 210,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -32152,8 +32152,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 71,
-      "ownedPercent": 72,
+      "ownedCount": 72,
+      "ownedPercent": 73,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -32235,8 +32235,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 36,
-      "openPercent": 24,
+      "openNodeCount": 41,
+      "openPercent": 27,
       "totalNodeCount": 152
      },
      {
@@ -32706,7 +32706,7 @@
      "12|9|Rare|1|PvE Accuracy, PvE Evasion",
      "11|13|Common|0|Boss Attack",
      "11|12|Legend|0|Boss Damage Tolerance",
-     "12|2|Common|0|PvE Evasion",
+     "12|2|Common|1|PvE Evasion",
      "11|15|Rare|0|PvE Accuracy, PvE Evasion",
      "11|14|Common|0|Boss Defense",
      "13|7|Common|1|PvE Accuracy",
@@ -32718,9 +32718,9 @@
      "12|14|Common|0|PvE Attack",
      "12|12|Common|0|PvE Accuracy",
      "12|11|Common|0|PvE Attack",
-     "13|3|Common|0|PvE Defense",
-     "13|2|Common|0|PvE Accuracy",
-     "13|1|Rare|0|Boss Attack, Boss Defense",
+     "13|3|Common|1|PvE Defense",
+     "13|2|Common|1|PvE Accuracy",
+     "13|1|Rare|1|Boss Attack, Boss Defense",
      "14|7|Rare|0|PvE Attack, PvE Defense",
      "14|5|Common|0|Boss Attack",
      "14|12|Common|0|PvE Evasion",
@@ -32731,7 +32731,7 @@
      "13|14|Legend|0|Boss Damage Boost",
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "14|3|Legend|0|Critical Hit",
-     "14|1|Common|0|Boss Attack",
+     "14|1|Common|1|Boss Attack",
      "15|9|Common|1|PvE Accuracy",
      "15|8|Unique|1|PvE Damage Boost",
      "15|7|Common|0|Max MP",
@@ -33104,7 +33104,7 @@
       "id": 17730000,
       "name": "Empyrean Lord's Grace",
       "needLevel": 9,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -39148,8 +39148,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 12:05 UTC",
+ "updated": "2026-11-26 12:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 12:34",
+   "n": "uTril",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-26 12:34",
+   "n": "uTril",
+   "x": "opened 5 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-26 12:34",
+   "n": "uTril",
+   "x": "skills up: Empyrean Lord's Grace 16"
+  },
+  {
+   "t": "2026-11-26 12:31",
+   "n": "YasuoMain",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-26 11:51",
    "n": "uTril",
@@ -40629,26 +40649,6 @@
    "t": "2026-11-18 00:32",
    "n": "IBrook",
    "x": "new Parchment of Vigor +0"
-  },
-  {
-   "t": "2026-11-18 00:32",
-   "n": "IBrook",
-   "x": "skills up: Blaze 15, Revitalization Contract 5"
-  },
-  {
-   "t": "2026-11-18 00:07",
-   "n": "IBrook",
-   "x": "new Nuakum Guard +15"
-  },
-  {
-   "t": "2026-11-18 00:07",
-   "n": "IBrook",
-   "x": "skills up: Frost Burst 13, Hellfire 16"
-  },
-  {
-   "t": "2026-11-17 23:04",
-   "n": "uTril",
-   "x": "1 new title"
   }
  ]
 }

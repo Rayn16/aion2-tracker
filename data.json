@@ -161,11 +161,16 @@
      "date": "2026-11-25",
      "cp": 158741,
      "il": 2790
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 158241,
+     "il": 2790
     }
    ],
    "server": "Tassin",
    "level": 45,
-   "cp": 158741,
+   "cp": 158241,
    "il": 2790,
    "gear": [
     {
@@ -254,23 +259,23 @@
      "slots": 4,
      "stones": [
       [
-       "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "Accuracy Bonus",
-       "+5",
-       "Common"
-      ],
-      [
-       "Critical Hit",
-       "+7",
+       "MP",
+       "+30",
        "Rare"
       ],
       [
-       "Defense",
+       "HP",
        "+30",
+       "Common"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
        "Rare"
       ]
      ],
@@ -292,24 +297,24 @@
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+15",
+       "Block",
+       "+7",
        "Common"
       ],
       [
        "Attack",
-       "+1",
-       "Common"
+       "+3",
+       "Rare"
       ],
       [
-       "Critical Hit",
+       "Critical Hit Resist",
        "+5",
        "Common"
       ],
       [
-       "MP",
-       "+15",
-       "Common"
+       "HP",
+       "+60",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -1440,7 +1445,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -2429,6 +2434,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 92360,
+     "il": 2099
+    },
+    {
+     "date": "2026-11-26",
      "cp": 92360,
      "il": 2099
     }
@@ -4691,6 +4701,11 @@
      "date": "2026-11-25",
      "cp": 89154,
      "il": 2094
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 89154,
+     "il": 2094
     }
    ],
    "server": "Tassin",
@@ -6944,13 +6959,18 @@
      "date": "2026-11-25",
      "cp": 149960,
      "il": 2808
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 150005,
+     "il": 2810
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 149960,
-   "il": 2808,
+   "cp": 150005,
+   "il": 2810,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7812,7 +7832,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2808
+     "value": 2810
     }
    ],
    "title": {
@@ -7942,8 +7962,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 35,
-      "openPercent": 23,
+      "openNodeCount": 37,
+      "openPercent": 24,
       "totalNodeCount": 152
      },
      {
@@ -8490,7 +8510,7 @@
      "14|3|Legend|0|Critical Hit",
      "13|12|Rare|0|PvE Attack, PvE Defense",
      "13|14|Legend|0|Boss Damage Boost",
-     "13|15|Common|0|PvE Defense",
+     "13|15|Common|1|PvE Defense",
      "15|13|Rare|1|Boss Attack, Boss Defense",
      "15|7|Common|0|Max MP",
      "15|8|Unique|1|PvE Damage Boost",
@@ -8500,7 +8520,7 @@
      "15|4|Common|0|Boss Defense",
      "15|5|Rare|0|PvE Accuracy, PvE Evasion",
      "14|13|Common|1|Boss Defense",
-     "14|15|Common|0|PvE Accuracy",
+     "14|15|Common|1|PvE Accuracy",
      "15|1|Unique|0|PvE Damage Tolerance",
      "15|14|Common|1|Boss Attack",
      "15|15|Unique|1|PvE Damage Boost"
@@ -9150,6 +9170,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 48995,
+     "il": 1114
+    },
+    {
+     "date": "2026-11-26",
      "cp": 48995,
      "il": 1114
     }
@@ -10910,6 +10935,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 62155,
+     "il": 1136
+    },
+    {
+     "date": "2026-11-26",
      "cp": 62155,
      "il": 1136
     }
@@ -12709,6 +12739,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 91391,
+     "il": 1827
+    },
+    {
+     "date": "2026-11-26",
      "cp": 91391,
      "il": 1827
     }
@@ -14855,6 +14890,11 @@
      "date": "2026-11-25",
      "cp": 39732,
      "il": 647
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 39732,
+     "il": 647
     }
    ],
    "server": "Tassin",
@@ -16179,6 +16219,11 @@
      "date": "2026-11-25",
      "cp": 192627,
      "il": 2935
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 192627,
+     "il": 2935
     }
    ],
    "server": "Tassin",
@@ -16353,24 +16398,24 @@
      "slots": 4,
      "stones": [
       [
-       "Critical Hit",
-       "+5",
-       "Common"
-      ],
-      [
        "Evasion Bonus",
-       "+5",
-       "Common"
+       "+13",
+       "Legend"
       ],
       [
-       "Critical Hit Resist",
-       "+5",
+       "Accuracy Bonus",
+       "+9",
+       "Rare"
+      ],
+      [
+       "Defense",
+       "+20",
        "Common"
       ],
       [
        "Attack",
-       "+3",
-       "Rare"
+       "+2",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -16468,23 +16513,23 @@
      "stones": [
       [
        "Critical Hit",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Accuracy Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+30",
-       "Rare"
-      ],
-      [
-       "HP",
-       "+30",
+       "+6",
        "Common"
+      ],
+      [
+       "Critical Hit Resist",
+       "+13",
+       "Legend"
+      ],
+      [
+       "Critical Hit Resist",
+       "+9",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+4",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -16596,24 +16641,24 @@
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+23",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+2",
-       "Common"
-      ],
-      [
-       "HP",
-       "+45",
-       "Common"
+       "Critical Hit",
+       "+7",
+       "Rare"
       ],
       [
        "Accuracy Bonus",
-       "+13",
+       "+15",
+       "Unique"
+      ],
+      [
+       "Block",
+       "+15",
        "Legend"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
       ]
      ],
      "godSlots": 0,
@@ -18403,6 +18448,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 132539,
+     "il": 2632
+    },
+    {
+     "date": "2026-11-26",
      "cp": 132539,
      "il": 2632
     }
@@ -20471,6 +20521,11 @@
      "date": "2026-11-25",
      "cp": 23827,
      "il": 496
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 23827,
+     "il": 496
     }
    ],
    "server": "Tassin",
@@ -21767,6 +21822,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 91749,
+     "il": 1861
+    },
+    {
+     "date": "2026-11-26",
      "cp": 91749,
      "il": 1861
     }
@@ -23582,6 +23642,11 @@
      "date": "2026-11-25",
      "cp": 25540,
      "il": 450
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 25540,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -24827,6 +24892,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 43540,
+     "il": 799
+    },
+    {
+     "date": "2026-11-26",
      "cp": 43540,
      "il": 799
     }
@@ -26552,6 +26622,11 @@
      "date": "2026-11-25",
      "cp": 19213,
      "il": 361
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 19213,
+     "il": 361
     }
    ],
    "server": "Tassin",
@@ -27752,6 +27827,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 91411,
+     "il": 1785
+    },
+    {
+     "date": "2026-11-26",
      "cp": 91411,
      "il": 1785
     }
@@ -29888,6 +29968,11 @@
      "date": "2026-11-25",
      "cp": 25763,
      "il": 472
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 25763,
+     "il": 472
     }
    ],
    "server": "Tassin",
@@ -31130,6 +31215,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 140246,
+     "il": 2686
+    },
+    {
+     "date": "2026-11-26",
      "cp": 140246,
      "il": 2686
     }
@@ -33354,6 +33444,11 @@
      "date": "2026-11-25",
      "cp": 76833,
      "il": 1493
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 76833,
+     "il": 1493
     }
    ],
    "server": "Tassin",
@@ -35427,6 +35522,11 @@
      "date": "2026-11-25",
      "cp": 67049,
      "il": 1162
+    },
+    {
+     "date": "2026-11-26",
+     "cp": 67049,
+     "il": 1162
     }
    ],
    "server": "Tassin",
@@ -37215,6 +37315,11 @@
     },
     {
      "date": "2026-11-25",
+     "cp": 70980,
+     "il": 1351
+    },
+    {
+     "date": "2026-11-26",
      "cp": 70980,
      "il": 1351
     }
@@ -39043,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-25 23:35 UTC",
+ "updated": "2026-11-26 00:20 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 00:16",
+   "n": "CutieCatty",
+   "x": "opened 2 Daevanion nodes"
+  },
   {
    "t": "2026-11-25 22:04",
    "n": "CutieCatty",
@@ -40539,11 +40649,6 @@
    "t": "2026-11-17 16:35",
    "n": "YasuoMain4",
    "x": "new Clash Rune +2"
-  },
-  {
-   "t": "2026-11-17 16:35",
-   "n": "YasuoMain4",
-   "x": "6 new titles"
   }
  ]
 }

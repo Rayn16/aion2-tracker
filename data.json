@@ -31220,14 +31220,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 141868,
+     "cp": 142184,
      "il": 2697
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 141868,
+   "cp": 142184,
    "il": 2697,
    "gear": [
     {
@@ -32109,7 +32109,7 @@
     }
    ],
    "title": {
-    "ownedCount": 208,
+    "ownedCount": 209,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -32177,8 +32177,8 @@
       "grade": "Unique",
       "id": 23050017,
       "name": "Golden Glow",
-      "ownedCount": 72,
-      "ownedPercent": 68,
+      "ownedCount": 73,
+      "ownedPercent": 69,
       "statList": [
        {
         "desc": "Critical Attack +3"
@@ -39148,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 11:35 UTC",
+ "updated": "2026-11-26 11:52 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 11:51",
+   "n": "uTril",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-26 06:34",
    "n": "uTril",
@@ -40644,11 +40649,6 @@
    "t": "2026-11-17 23:04",
    "n": "uTril",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-17 23:02",
-   "n": "IBrook",
-   "x": "opened 1 Daevanion nodes"
   }
  ]
 }

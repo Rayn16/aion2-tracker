@@ -33447,14 +33447,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 76833,
+     "cp": 76843,
      "il": 1493
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 76833,
+   "cp": 76843,
    "il": 1493,
    "gear": [
     {
@@ -35525,21 +35525,21 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 67049,
-     "il": 1162
+     "cp": 67734,
+     "il": 1172
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 67049,
-   "il": 1162,
+   "cp": 67734,
+   "il": 1172,
    "gear": [
     {
      "slotPosName": "MainHand",
      "name": "Spiritforged Staff",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0078_T05.png",
      "max": 15,
      "slots": 4,
@@ -36023,7 +36023,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1162
+     "value": 1172
     }
    ],
    "title": {
@@ -39148,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 00:35 UTC",
+ "updated": "2026-11-26 01:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 01:05",
+   "n": "YasuoMain4",
+   "x": "Spiritforged Staff +0 → +10"
+  },
   {
    "t": "2026-11-26 00:16",
    "n": "CutieCatty",
@@ -40644,11 +40649,6 @@
    "t": "2026-11-17 16:35",
    "n": "YasuoMain4",
    "x": "new Clash Rune +1"
-  },
-  {
-   "t": "2026-11-17 16:35",
-   "n": "YasuoMain4",
-   "x": "new Clash Rune +2"
   }
  ]
 }

@@ -16222,14 +16222,14 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 195646,
+     "cp": 198048,
      "il": 2947
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 195646,
+   "cp": 198048,
    "il": 2947,
    "gear": [
     {
@@ -18290,7 +18290,7 @@
       "id": 13370000,
       "name": "Evasion Contract",
       "needLevel": 22,
-      "skillLevel": 13
+      "skillLevel": 15
      },
      {
       "acquired": 0,
@@ -39148,8 +39148,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 18:05 UTC",
+ "updated": "2026-11-26 18:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 18:32",
+   "n": "DeathRunner",
+   "x": "skills up: Evasion Contract 15"
+  },
   {
    "t": "2026-11-26 18:02",
    "n": "DeathRunner",
@@ -40644,11 +40649,6 @@
    "t": "2026-11-18 02:01",
    "n": "YasuoMain",
    "x": "opened 4 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-18 01:31",
-   "n": "YasuoMain",
-   "x": "Enraged Kromede Ring +13 → +15"
   }
  ]
 }

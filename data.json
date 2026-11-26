@@ -31220,15 +31220,15 @@
     },
     {
      "date": "2026-11-26",
-     "cp": 140111,
-     "il": 2687
+     "cp": 141868,
+     "il": 2697
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 140111,
-   "il": 2687,
+   "cp": 141868,
+   "il": 2697,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -31314,7 +31314,7 @@
      "slotPosName": "Torso",
      "name": "Nuakum Breastplate",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Torso.png",
      "max": 15,
      "slots": 4,
@@ -31352,7 +31352,7 @@
      "slotPosName": "Pants",
      "name": "Nuakum Greaves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Pants.png",
      "max": 15,
      "slots": 4,
@@ -31390,7 +31390,7 @@
      "slotPosName": "Helmet",
      "name": "Nuakum Helm",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 12,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Helmet.png",
      "max": 15,
      "slots": 4,
@@ -31428,7 +31428,7 @@
      "slotPosName": "Shoulder",
      "name": "Nuakum Pauldrons",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Shoulder.png",
      "max": 15,
      "slots": 4,
@@ -31466,7 +31466,7 @@
      "slotPosName": "Gloves",
      "name": "Nuakum Gloves",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Gloves.png",
      "max": 15,
      "slots": 4,
@@ -31504,7 +31504,7 @@
      "slotPosName": "Boots",
      "name": "Nuakum Boots",
      "grade": "Unique",
-     "enchantLevel": 10,
+     "enchantLevel": 11,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_Idris_01_Boots.png",
      "max": 15,
      "slots": 4,
@@ -32105,7 +32105,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2687
+     "value": 2697
     }
    ],
    "title": {
@@ -32235,8 +32235,8 @@
       "id": 75,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 33,
-      "openPercent": 22,
+      "openNodeCount": 36,
+      "openPercent": 24,
       "totalNodeCount": 152
      },
      {
@@ -32710,9 +32710,9 @@
      "11|15|Rare|0|PvE Accuracy, PvE Evasion",
      "11|14|Common|0|Boss Defense",
      "13|7|Common|1|PvE Accuracy",
-     "13|6|Common|0|Boss Defense",
-     "13|5|Common|0|PvE Attack",
-     "13|4|Common|0|PvE Evasion",
+     "13|6|Common|1|Boss Defense",
+     "13|5|Common|1|PvE Attack",
+     "13|4|Common|1|PvE Evasion",
      "13|9|Common|1|Boss Attack",
      "13|8|Common|1|PvE Evasion",
      "12|14|Common|0|PvE Attack",
@@ -39148,8 +39148,43 @@
    "race": 2
   }
  },
- "updated": "2026-11-26 06:05 UTC",
+ "updated": "2026-11-26 06:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-26 06:34",
+   "n": "uTril",
+   "x": "Nuakum Breastplate +10 → +11"
+  },
+  {
+   "t": "2026-11-26 06:34",
+   "n": "uTril",
+   "x": "Nuakum Greaves +10 → +11"
+  },
+  {
+   "t": "2026-11-26 06:34",
+   "n": "uTril",
+   "x": "Nuakum Helm +10 → +12"
+  },
+  {
+   "t": "2026-11-26 06:34",
+   "n": "uTril",
+   "x": "Nuakum Pauldrons +10 → +11"
+  },
+  {
+   "t": "2026-11-26 06:34",
+   "n": "uTril",
+   "x": "Nuakum Gloves +10 → +11"
+  },
+  {
+   "t": "2026-11-26 06:34",
+   "n": "uTril",
+   "x": "Nuakum Boots +10 → +11"
+  },
+  {
+   "t": "2026-11-26 06:34",
+   "n": "uTril",
+   "x": "opened 3 Daevanion nodes"
+  },
   {
    "t": "2026-11-26 06:04",
    "n": "uTril",
@@ -40614,41 +40649,6 @@
    "t": "2026-11-17 23:02",
    "n": "IBrook",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-17 23:02",
-   "n": "Darya",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-17 21:04",
-   "n": "uTril",
-   "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-17 20:33",
-   "n": "uTril",
-   "x": "skills up: Prayer of Amplification 6"
-  },
-  {
-   "t": "2026-11-17 19:34",
-   "n": "YasuoMain4",
-   "x": "10 new titles"
-  },
-  {
-   "t": "2026-11-17 19:04",
-   "n": "YasuoMain4",
-   "x": "new Liberator Earrings +0"
-  },
-  {
-   "t": "2026-11-17 19:04",
-   "n": "YasuoMain4",
-   "x": "4 new titles"
-  },
-  {
-   "t": "2026-11-17 18:02",
-   "n": "YasuoMain4",
-   "x": "1 new title"
   }
  ]
 }

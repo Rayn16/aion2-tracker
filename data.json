@@ -16269,14 +16269,14 @@
     },
     {
      "date": "2026-11-27",
-     "cp": 198390,
+     "cp": 199192,
      "il": 2962
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 198390,
+   "cp": 199192,
    "il": 2962,
    "gear": [
     {
@@ -18307,7 +18307,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 0,
@@ -39280,8 +39280,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 15:05 UTC",
+ "updated": "2026-11-27 15:34 UTC",
  "feed": [
+  {
+   "t": "2026-11-27 15:32",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 16"
+  },
   {
    "t": "2026-11-27 13:35",
    "n": "YasuoMain4",
@@ -40776,11 +40781,6 @@
    "t": "2026-11-18 13:32",
    "n": "IBrook",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-18 13:32",
-   "n": "DeathRunner",
-   "x": "skills up: Rear Smite 17"
   }
  ]
 }

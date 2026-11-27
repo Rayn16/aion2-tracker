@@ -1452,7 +1452,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_011.png",
       "id": 11110000,
       "name": "Focused Block",
@@ -1482,7 +1482,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_GL_SKILL_038.png",
       "id": 11380000,
       "name": "Tenaciousness",
@@ -39280,7 +39280,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 17:04 UTC",
+ "updated": "2026-11-27 17:35 UTC",
  "feed": [
   {
    "t": "2026-11-27 15:32",

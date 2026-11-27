@@ -27914,15 +27914,15 @@
     },
     {
      "date": "2026-11-27",
-     "cp": 94471,
-     "il": 1905
+     "cp": 95341,
+     "il": 1985
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 94471,
-   "il": 1905,
+   "cp": 95341,
+   "il": 1985,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28571,7 +28571,7 @@
     {
      "slotPosName": "Arcana1",
      "name": "Chalice of Vigor",
-     "grade": "Common",
+     "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
      "max": 2,
@@ -28609,11 +28609,11 @@
     },
     {
      "slotPosName": "Arcana4",
-     "name": "Bell of Vigor",
-     "grade": "Common",
+     "name": "Bell of Magic",
+     "grade": "Legend",
      "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
-     "max": 2,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
+     "max": 4,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28623,7 +28623,7 @@
     {
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
-     "grade": "Common",
+     "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
      "max": 2,
@@ -28688,11 +28688,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4.9%",
-      "Perfect Chance +4.9%"
+      "Defense increase +4.1%",
+      "Perfect Chance +4.1%"
      ],
      "type": "Justice",
-     "value": 49
+     "value": 41
     },
     {
      "name": "Freedom [Vaizel]",
@@ -28706,11 +28706,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -1.5%",
-      "Endurance Penetration +1.5%"
+      "Cooldown -1.9%",
+      "Endurance Penetration +1.9%"
      ],
      "type": "Illusion",
-     "value": 15
+     "value": 19
     },
     {
      "name": "Life [Yustiel]",
@@ -28724,20 +28724,20 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +4.9%",
-      "Double Resist +4.9%"
+      "Combat Speed +5.3%",
+      "Double Resist +5.3%"
      ],
      "type": "Time",
-     "value": 49
+     "value": 53
     },
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +0.6%",
-      "Perfect Resist +0.6%"
+      "Attack increase +2.2%",
+      "Perfect Resist +2.2%"
      ],
      "type": "Destruction",
-     "value": 6
+     "value": 22
     },
     {
      "name": "Death [Triniel]",
@@ -28779,7 +28779,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1905
+     "value": 1985
     }
    ],
    "title": {
@@ -29675,7 +29675,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -29695,7 +29695,7 @@
       "id": 18150000,
       "name": "Heat Wave Blow",
       "needLevel": 7,
-      "skillLevel": 10
+      "skillLevel": 11
      },
      {
       "acquired": 1,
@@ -29755,7 +29755,7 @@
       "id": 18710000,
       "name": "Blessing of Life",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -29775,7 +29775,7 @@
       "id": 18730000,
       "name": "Protection Circle",
       "needLevel": 9,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -29785,7 +29785,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -29835,7 +29835,7 @@
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -33341,7 +33341,7 @@
       "id": 17280000,
       "name": "Power Burst",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 1,
@@ -33381,7 +33381,7 @@
       "id": 17390000,
       "name": "Summon Resurrection",
       "needLevel": 22,
-      "skillLevel": 5
+      "skillLevel": 0
      },
      {
       "acquired": 1,
@@ -39345,8 +39345,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 22:35 UTC",
+ "updated": "2026-11-27 23:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-27 23:04",
+   "n": "uTril",
+   "x": "skills up: Power Burst 5"
+  },
+  {
+   "t": "2026-11-27 23:03",
+   "n": "iLen",
+   "x": "new Bell of Magic +0"
+  },
+  {
+   "t": "2026-11-27 23:03",
+   "n": "iLen",
+   "x": "skills up: Heat Wave Blow 11, Blessing of Life 14, Protection Circle 13, Inspiring Spell 14 and 1 more"
+  },
   {
    "t": "2026-11-27 22:33",
    "n": "iLen",
@@ -40831,21 +40846,6 @@
    "t": "2026-11-18 23:01",
    "n": "YasuoMain16",
    "x": "new Mirror of Magic +0"
-  },
-  {
-   "t": "2026-11-18 23:01",
-   "n": "YasuoMain16",
-   "x": "skills up: Judgment 16, Debilitating Smash 17, Impact Hit 14, Survival Willpower 16"
-  },
-  {
-   "t": "2026-11-18 23:01",
-   "n": "YasuoMain",
-   "x": "opened 4 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-18 22:32",
-   "n": "DeathRunner",
-   "x": "opened 1 Daevanion nodes"
   }
  ]
 }

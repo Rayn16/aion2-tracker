@@ -35627,15 +35627,15 @@
     },
     {
      "date": "2026-11-27",
-     "cp": 69373,
-     "il": 1210
+     "cp": 70335,
+     "il": 1268
     }
    ],
    "server": "Tassin",
    "owner": "Rayan1000RR#KING",
    "level": 45,
-   "cp": 69373,
-   "il": 1210,
+   "cp": 70335,
+   "il": 1268,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -35795,11 +35795,32 @@
      "slotPosName": "Necklace",
      "name": "Berk Necklace",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 6,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_NL_0066.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -36129,7 +36150,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1210
+     "value": 1268
     }
    ],
    "title": {
@@ -39259,8 +39280,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 13:05 UTC",
+ "updated": "2026-11-27 13:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-27 13:35",
+   "n": "YasuoMain4",
+   "x": "Berk Necklace +0 → +6"
+  },
   {
    "t": "2026-11-27 12:56",
    "n": "YasuoMain4",
@@ -40755,11 +40781,6 @@
    "t": "2026-11-18 13:32",
    "n": "DeathRunner",
    "x": "skills up: Rear Smite 17"
-  },
-  {
-   "t": "2026-11-18 13:04",
-   "n": "CuteCatty",
-   "x": "Revelation Amulet +3 → +4"
   }
  ]
 }

@@ -26969,12 +26969,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1%",
-      "Block increase +1%",
-      "Critical Hit Resist increase +1%"
+      "Evasion increase +1.2%",
+      "Block increase +1.2%",
+      "Critical Hit Resist increase +1.2%"
      ],
      "type": "DEX",
-     "value": 10
+     "value": 12
     },
     {
      "name": "Intelligence",
@@ -27914,14 +27914,14 @@
     },
     {
      "date": "2026-11-27",
-     "cp": 93635,
+     "cp": 94471,
      "il": 1905
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 93635,
+   "cp": 94471,
    "il": 1905,
    "gear": [
     {
@@ -28647,12 +28647,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +1.9%",
-      "Block increase +1.9%",
-      "Critical Hit Resist increase +1.9%"
+      "Evasion increase +2.1%",
+      "Block increase +2.1%",
+      "Critical Hit Resist increase +2.1%"
      ],
      "type": "DEX",
-     "value": 19
+     "value": 21
     },
     {
      "name": "Intelligence",
@@ -28783,7 +28783,7 @@
     }
    ],
    "title": {
-    "ownedCount": 200,
+    "ownedCount": 201,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -28801,8 +28801,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 70,
-      "ownedPercent": 69,
+      "ownedCount": 71,
+      "ownedPercent": 70,
       "statList": [
        {
         "desc": "Block +10"
@@ -29905,7 +29905,7 @@
       "id": 18330000,
       "name": "Marchutan's Wrath",
       "needLevel": 22,
-      "skillLevel": 11
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -39345,8 +39345,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 22:05 UTC",
+ "updated": "2026-11-27 22:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-27 22:33",
+   "n": "iLen",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-27 22:33",
+   "n": "iLen",
+   "x": "skills up: Marchutan's Wrath 13"
+  },
   {
    "t": "2026-11-27 22:03",
    "n": "iLen",
@@ -40836,16 +40846,6 @@
    "t": "2026-11-18 22:32",
    "n": "DeathRunner",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-18 21:32",
-   "n": "DeathRunner",
-   "x": "skills up: Triniel's Dagger 13"
-  },
-  {
-   "t": "2026-11-18 21:01",
-   "n": "YasuoMain",
-   "x": "Enraged Kromede Earrings +12 → +15"
   }
  ]
 }

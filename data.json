@@ -27914,15 +27914,15 @@
     },
     {
      "date": "2026-11-27",
-     "cp": 92189,
-     "il": 1825
+     "cp": 93635,
+     "il": 1905
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 92189,
-   "il": 1825,
+   "cp": 93635,
+   "il": 1905,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28582,6 +28582,45 @@
      "src": []
     },
     {
+     "slotPosName": "Arcana2",
+     "name": "Parchment of Magic",
+     "grade": "Rare",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
+     "max": 3,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
+     "slotPosName": "Arcana3",
+     "name": "Compass of Magic",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Compass_u_DefenceSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
+     "slotPosName": "Arcana4",
+     "name": "Bell of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
      "slotPosName": "Arcana5",
      "name": "Mirror of Vigor",
      "grade": "Common",
@@ -28649,11 +28688,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +4.1%",
-      "Perfect Chance +4.1%"
+      "Defense increase +4.9%",
+      "Perfect Chance +4.9%"
      ],
      "type": "Justice",
-     "value": 41
+     "value": 49
     },
     {
      "name": "Freedom [Vaizel]",
@@ -28703,11 +28742,11 @@
     {
      "name": "Death [Triniel]",
      "statSecondList": [
-      "Critical Hit increase +3.8%",
-      "Regeneration Penetration +3.8%"
+      "Critical Hit increase +4.6%",
+      "Regeneration Penetration +4.6%"
      ],
      "type": "Death",
-     "value": 38
+     "value": 46
     },
     {
      "name": "Wisdom [Lumiel]",
@@ -28721,11 +28760,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +1.1%",
-      "Endurance +1.1%"
+      "MP increase +2.3%",
+      "Endurance +2.3%"
      ],
      "type": "Destiny",
-     "value": 11
+     "value": 23
     },
     {
      "name": "Space [Israphel]",
@@ -28740,7 +28779,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1825
+     "value": 1905
     }
    ],
    "title": {
@@ -29606,7 +29645,7 @@
       "id": 18040000,
       "name": "Incandescent Blow",
       "needLevel": 1,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -29636,7 +29675,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 15
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -29686,7 +29725,7 @@
       "id": 18080000,
       "name": "Wave Blow",
       "needLevel": 12,
-      "skillLevel": 1
+      "skillLevel": 2
      },
      {
       "acquired": 1,
@@ -29706,7 +29745,7 @@
       "id": 18200000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -29776,7 +29815,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -39306,8 +39345,28 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 21:47 UTC",
+ "updated": "2026-11-27 22:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-27 22:03",
+   "n": "iLen",
+   "x": "new Parchment of Magic +0"
+  },
+  {
+   "t": "2026-11-27 22:03",
+   "n": "iLen",
+   "x": "new Compass of Magic +0"
+  },
+  {
+   "t": "2026-11-27 22:03",
+   "n": "iLen",
+   "x": "new Bell of Vigor +0"
+  },
+  {
+   "t": "2026-11-27 22:03",
+   "n": "iLen",
+   "x": "skills up: Dark Crush 17, Wave Blow 2, Defiance 8, Raging Spell 13"
+  },
   {
    "t": "2026-11-27 21:46",
    "n": "iLen",
@@ -40787,26 +40846,6 @@
    "t": "2026-11-18 21:01",
    "n": "YasuoMain",
    "x": "Enraged Kromede Earrings +12 → +15"
-  },
-  {
-   "t": "2026-11-18 21:01",
-   "n": "YasuoMain",
-   "x": "skills up: Identify Weakness 16"
-  },
-  {
-   "t": "2026-11-18 20:32",
-   "n": "DeathRunner",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-18 20:31",
-   "n": "YasuoMain",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-18 20:04",
-   "n": "CutieCatty",
-   "x": "1 new title"
   }
  ]
 }

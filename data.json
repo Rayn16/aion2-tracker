@@ -18250,7 +18250,7 @@
       "skillLevel": 20
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
       "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_AS_SKILL_023.png",
@@ -18340,7 +18340,7 @@
       "skillLevel": 15
      },
      {
-      "acquired": 0,
+      "acquired": 1,
       "category": "Dp",
       "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CO_SKILL_003.png",
@@ -18363,10 +18363,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Lufilini_01.png",
-     "id": 1201,
-     "level": 3,
-     "name": "Modified Lupyllini"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Guardit_03.png",
+     "id": 1206,
+     "level": 1,
+     "name": "Elite Guardite"
     },
     "wing": {
      "enchantLevel": 0,
@@ -39255,7 +39255,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 06:05 UTC",
+ "updated": "2026-11-27 06:35 UTC",
  "feed": [
   {
    "t": "2026-11-26 23:04",

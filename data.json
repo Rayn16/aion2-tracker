@@ -936,10 +936,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +0.1%"
+      "HP increase +0.2%"
      ],
      "type": "CON",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Precision",
@@ -3216,10 +3216,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +3.1%"
+      "HP increase +3.2%"
      ],
      "type": "CON",
-     "value": 31
+     "value": 32
     },
     {
      "name": "Precision",
@@ -34209,10 +34209,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +0.1%"
+      "HP increase +0.2%"
      ],
      "type": "CON",
-     "value": 1
+     "value": 2
     },
     {
      "name": "Precision",
@@ -36009,10 +36009,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1%"
+      "HP increase +1.1%"
      ],
      "type": "CON",
-     "value": 10
+     "value": 11
     },
     {
      "name": "Precision",
@@ -37910,10 +37910,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +1.6%"
+      "HP increase +1.7%"
      ],
      "type": "CON",
-     "value": 16
+     "value": 17
     },
     {
      "name": "Precision",
@@ -39255,7 +39255,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 11:35 UTC",
+ "updated": "2026-11-27 12:05 UTC",
  "feed": [
   {
    "t": "2026-11-27 08:02",

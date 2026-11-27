@@ -16269,15 +16269,15 @@
     },
     {
      "date": "2026-11-27",
-     "cp": 196439,
-     "il": 2960
+     "cp": 196584,
+     "il": 2962
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 196439,
-   "il": 2960,
+   "cp": 196584,
+   "il": 2962,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17158,7 +17158,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2960
+     "value": 2962
     }
    ],
    "title": {
@@ -17288,8 +17288,8 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 61,
-      "openPercent": 40,
+      "openNodeCount": 62,
+      "openPercent": 41,
       "totalNodeCount": 152
      },
      {
@@ -39255,8 +39255,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 07:35 UTC",
+ "updated": "2026-11-27 08:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-27 08:02",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-27 07:32",
    "n": "DeathRunner",
@@ -40751,11 +40756,6 @@
    "t": "2026-11-18 05:31",
    "n": "YasuoMain",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-18 05:02",
-   "n": "DeathRunner",
-   "x": "Nuakum Breastplate +13 → +14"
   }
  ]
 }

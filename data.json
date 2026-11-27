@@ -27914,15 +27914,15 @@
     },
     {
      "date": "2026-11-27",
-     "cp": 91425,
-     "il": 1785
+     "cp": 92189,
+     "il": 1825
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 91425,
-   "il": 1785,
+   "cp": 92189,
+   "il": 1825,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28567,6 +28567,32 @@
      "src": [
       "Substance Morph"
      ]
+    },
+    {
+     "slotPosName": "Arcana1",
+     "name": "Chalice of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
+    },
+    {
+     "slotPosName": "Arcana5",
+     "name": "Mirror of Vigor",
+     "grade": "Common",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
+     "max": 2,
+     "slots": 0,
+     "stones": [],
+     "godSlots": 0,
+     "god": [],
+     "src": []
     }
    ],
    "pic": "https://profileimg.plaync.com/game_profile_images/aion2global/images?gameServerKey=2323&charKey=653866370898960190",
@@ -28641,11 +28667,11 @@
     {
      "name": "Illusion [Kaisinel]",
      "statSecondList": [
-      "Cooldown -0.7%",
-      "Endurance Penetration +0.7%"
+      "Cooldown -1.5%",
+      "Endurance Penetration +1.5%"
      ],
      "type": "Illusion",
-     "value": 7
+     "value": 15
     },
     {
      "name": "Life [Yustiel]",
@@ -28659,11 +28685,11 @@
     {
      "name": "Time [Siel]",
      "statSecondList": [
-      "Combat Speed +4.1%",
-      "Double Resist +4.1%"
+      "Combat Speed +4.9%",
+      "Double Resist +4.9%"
      ],
      "type": "Time",
-     "value": 41
+     "value": 49
     },
     {
      "name": "Destruction [Zikel]",
@@ -28714,7 +28740,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1785
+     "value": 1825
     }
    ],
    "title": {
@@ -29580,7 +29606,7 @@
       "id": 18040000,
       "name": "Incandescent Blow",
       "needLevel": 1,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -29780,7 +29806,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 14
+      "skillLevel": 15
      },
      {
       "acquired": 1,
@@ -29918,7 +29944,7 @@
     "pet": {
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Ferk_01.png",
      "id": 1191,
-     "level": 1,
+     "level": 2,
      "name": "Furious Feruk"
     },
     "wing": {
@@ -39280,8 +39306,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 21:35 UTC",
+ "updated": "2026-11-27 21:47 UTC",
  "feed": [
+  {
+   "t": "2026-11-27 21:46",
+   "n": "iLen",
+   "x": "new Chalice of Vigor +0"
+  },
+  {
+   "t": "2026-11-27 21:46",
+   "n": "iLen",
+   "x": "new Mirror of Vigor +0"
+  },
+  {
+   "t": "2026-11-27 21:46",
+   "n": "iLen",
+   "x": "skills up: Incandescent Blow 13, Wind's Promise 15"
+  },
   {
    "t": "2026-11-27 15:32",
    "n": "DeathRunner",
@@ -40765,21 +40806,6 @@
   {
    "t": "2026-11-18 20:04",
    "n": "CutieCatty",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-18 15:31",
-   "n": "YasuoMain16",
-   "x": "Revelation Amulet +0 → +2"
-  },
-  {
-   "t": "2026-11-18 15:01",
-   "n": "YasuoMain16",
-   "x": "1 new title"
-  },
-  {
-   "t": "2026-11-18 13:32",
-   "n": "IBrook",
    "x": "1 new title"
   }
  ]

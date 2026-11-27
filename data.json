@@ -6984,14 +6984,14 @@
     },
     {
      "date": "2026-11-27",
-     "cp": 150007,
+     "cp": 151031,
      "il": 2810
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 150007,
+   "cp": 151031,
    "il": 2810,
    "gear": [
     {
@@ -9067,16 +9067,16 @@
     "wing": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingA_012.png",
-     "id": 40101200,
-     "name": "Black Fragment Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingB_019.png",
+     "id": 40201900,
+     "name": "Dark Veil Wings"
     },
     "wingSkin": {
      "enchantLevel": 0,
      "grade": "Unique",
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingE_002.png",
-     "id": 40500200,
-     "name": "Ancient Aullaeu Wings"
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WingD_003.png",
+     "id": 40400300,
+     "name": "Radiant Love Wings"
     }
    },
    "pcId": 36,
@@ -27914,15 +27914,15 @@
     },
     {
      "date": "2026-11-27",
-     "cp": 95341,
-     "il": 1985
+     "cp": 101609,
+     "il": 1993
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 95341,
-   "il": 1985,
+   "cp": 101609,
+   "il": 1993,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28378,44 +28378,6 @@
      ]
     },
     {
-     "slotPosName": "Ring1",
-     "name": "Aulamus Ring",
-     "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
-     "max": 15,
-     "slots": 4,
-     "stones": [
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+1",
-       "Common"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
-    },
-    {
      "slotPosName": "Ring2",
      "name": "Aulamus Ring",
      "grade": "Unique",
@@ -28442,6 +28404,44 @@
       [
        "MP",
        "+15",
+       "Common"
+      ]
+     ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
+     "slotPosName": "Ring1",
+     "name": "Aulamus Ring",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0072.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
        "Common"
       ]
      ],
@@ -28656,9 +28656,11 @@
     },
     {
      "name": "Intelligence",
-     "statSecondList": null,
+     "statSecondList": [
+      "Status Effect Chance +1.7%"
+     ],
      "type": "INT",
-     "value": 0
+     "value": 17
     },
     {
      "name": "Constitution",
@@ -28779,7 +28781,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1985
+     "value": 1993
     }
    ],
    "title": {
@@ -29675,7 +29677,7 @@
       "id": 18100000,
       "name": "Dark Crush",
       "needLevel": 4,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -29835,7 +29837,7 @@
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -29865,7 +29867,7 @@
       "id": 18190000,
       "name": "Undefeated Mantra",
       "needLevel": 22,
-      "skillLevel": 10
+      "skillLevel": 20
      },
      {
       "acquired": 0,
@@ -29880,12 +29882,12 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_016.png",
       "id": 18160000,
       "name": "Sprint Mantra",
       "needLevel": 22,
-      "skillLevel": 0
+      "skillLevel": 5
      },
      {
       "acquired": 0,
@@ -29905,7 +29907,7 @@
       "id": 18330000,
       "name": "Marchutan's Wrath",
       "needLevel": 22,
-      "skillLevel": 13
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -29945,7 +29947,7 @@
       "id": 18250000,
       "name": "Power of the Storm",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -39345,8 +39347,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 23:05 UTC",
+ "updated": "2026-11-27 23:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-27 23:33",
+   "n": "iLen",
+   "x": "skills up: Dark Crush 17, Survival Willpower 14, Undefeated Mantra 20, Sprint Mantra 5"
+  },
   {
    "t": "2026-11-27 23:04",
    "n": "uTril",
@@ -40841,11 +40848,6 @@
    "t": "2026-11-18 23:01",
    "n": "YasuoMain16",
    "x": "new Parchment of Vigor +0"
-  },
-  {
-   "t": "2026-11-18 23:01",
-   "n": "YasuoMain16",
-   "x": "new Mirror of Magic +0"
   }
  ]
 }

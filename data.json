@@ -27995,14 +27995,14 @@
     {
      "date": "2026-11-28",
      "cp": 104072,
-     "il": 2100
+     "il": 1928
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
    "cp": 104072,
-   "il": 2100,
+   "il": 1928,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28301,82 +28301,6 @@
        "HP",
        "+60",
        "Rare"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
-    },
-    {
-     "slotPosName": "Earring1",
-     "name": "Aulamus Earrings",
-     "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
-     "max": 15,
-     "slots": 4,
-     "stones": [
-      [
-       "Attack",
-       "+1",
-       "Common"
-      ],
-      [
-       "Critical Hit",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Defense",
-       "+30",
-       "Rare"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Reward Chest",
-      "Expedition",
-      "Sanctuary"
-     ]
-    },
-    {
-     "slotPosName": "Earring2",
-     "name": "Aulamus Earrings",
-     "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
-     "max": 15,
-     "slots": 4,
-     "stones": [
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Accuracy Bonus",
-       "+7",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+30",
-       "Rare"
-      ],
-      [
-       "Defense",
-       "+10",
-       "Common"
       ]
      ],
      "godSlots": 0,
@@ -28791,7 +28715,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2100
+     "value": 1928
     }
    ],
    "title": {
@@ -29847,7 +29771,7 @@
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -29857,7 +29781,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -39584,7 +39508,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 10:35 UTC",
+ "updated": "2026-11-28 11:05 UTC",
  "feed": [
   {
    "t": "2026-11-28 10:03",

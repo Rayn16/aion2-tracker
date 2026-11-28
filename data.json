@@ -27994,15 +27994,15 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 105797,
-     "il": 2127
+     "cp": 105897,
+     "il": 2130
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 105797,
-   "il": 2127,
+   "cp": 105897,
+   "il": 2130,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28770,7 +28770,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2127
+     "value": 2130
     }
    ],
    "title": {
@@ -28861,8 +28861,8 @@
       "id": 81,
       "name": "Nezekan",
       "open": 1,
-      "openNodeCount": 70,
-      "openPercent": 80,
+      "openNodeCount": 71,
+      "openPercent": 81,
       "totalNodeCount": 88
      },
      {
@@ -28948,7 +28948,7 @@
      "6|9|Common|1|Defense",
      "6|11|Common|1|Attack",
      "6|7|Common|1|Critical Hit Resist",
-     "8|3|Legend|0|Skill Level Up - Defiance",
+     "8|3|Legend|1|Skill Level Up - Defiance",
      "8|6|Common|1|Defense",
      "7|10|Rare|1|Skill Level Up - Attack Preparation",
      "7|11|Common|1|Max MP",
@@ -29736,7 +29736,7 @@
       "id": 18200000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 7
+      "skillLevel": 8
      },
      {
       "acquired": 1,
@@ -29972,10 +29972,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Ferk_01.png",
-     "id": 1191,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_FireGuard_01.png",
+     "id": 1091,
      "level": 2,
-     "name": "Furious Feruk"
+     "name": "Red Spark Ignus"
     },
     "wing": {
      "enchantLevel": 0,
@@ -39563,8 +39563,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 11:35 UTC",
+ "updated": "2026-11-28 12:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-28 12:03",
+   "n": "iLen",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-28 12:03",
+   "n": "iLen",
+   "x": "skills up: Defiance 8"
+  },
   {
    "t": "2026-11-28 11:33",
    "n": "iLen",
@@ -41054,16 +41064,6 @@
    "t": "2026-11-19 19:02",
    "n": "DeathRunner",
    "x": "2 new titles"
-  },
-  {
-   "t": "2026-11-19 19:02",
-   "n": "DeathRunner",
-   "x": "skills up: Exploit Weakness 23"
-  },
-  {
-   "t": "2026-11-19 18:34",
-   "n": "YasuoMain4",
-   "x": "new Liberator Ring +0"
   }
  ]
 }

@@ -27994,14 +27994,14 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 89443,
+     "cp": 104045,
      "il": 2100
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 89443,
+   "cp": 104045,
    "il": 2100,
    "gear": [
     {
@@ -28795,7 +28795,7 @@
     }
    ],
    "title": {
-    "ownedCount": 202,
+    "ownedCount": 203,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -28838,8 +28838,8 @@
       "grade": "Unique",
       "id": 23010025,
       "name": "Rule All Creation",
-      "ownedCount": 66,
-      "ownedPercent": 67,
+      "ownedCount": 67,
+      "ownedPercent": 68,
       "statList": [
        {
         "desc": "Move Speed +1%"
@@ -29993,10 +29993,10 @@
    },
    "petwing": {
     "pet": {
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_Guardit_02.png",
-     "id": 1197,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/UT_Vehicle_Portrait_FireEle_01.png",
+     "id": 1213,
      "level": 2,
-     "name": "Watcher Guardite"
+     "name": "Lesser Fire Spirit"
     },
     "wing": {
      "enchantLevel": 0,
@@ -39584,8 +39584,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 09:35 UTC",
+ "updated": "2026-11-28 10:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-28 10:03",
+   "n": "iLen",
+   "x": "1 new title"
+  },
   {
    "t": "2026-11-28 09:03",
    "n": "iLen",
@@ -41080,11 +41085,6 @@
    "t": "2026-11-19 17:31",
    "n": "YasuoMain",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-19 16:32",
-   "n": "DeathRunner",
-   "x": "1 new title"
   }
  ]
 }

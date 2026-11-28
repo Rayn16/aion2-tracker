@@ -7004,14 +7004,14 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 405617,
+     "cp": 154998,
      "il": 2818
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 405617,
+   "cp": 154998,
    "il": 2818,
    "gear": [
     {
@@ -16314,14 +16314,14 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 407198,
+     "cp": 199998,
      "il": 2963
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 407198,
+   "cp": 199998,
    "il": 2963,
    "gear": [
     {
@@ -18352,7 +18352,7 @@
       "id": 13300000,
       "name": "Triniel's Dagger",
       "needLevel": 22,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 0,
@@ -27994,15 +27994,15 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 102997,
-     "il": 2044
+     "cp": 103051,
+     "il": 2027
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 102997,
-   "il": 2044,
+   "cp": 103051,
+   "il": 2027,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28171,38 +28171,19 @@
     },
     {
      "slotPosName": "Shoulder",
-     "name": "Gartua Pauldrons",
+     "name": "Vakron Pauldrons",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0007_T05_Shoulder.png",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Shoulder.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "Defense",
-       "+30",
-       "Rare"
-      ],
-      [
-       "MP",
-       "+30",
-       "Rare"
-      ],
-      [
-       "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "Attack",
-       "+3",
-       "Rare"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
-      "Reward Chest"
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
      ]
     },
     {
@@ -28748,10 +28729,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +3.8%"
+      "Status Effect Resist +1.1%"
      ],
      "type": "WIS",
-     "value": 38
+     "value": 11
     },
     {
      "name": "Justice [Nezekan]",
@@ -28847,7 +28828,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2044
+     "value": 2027
     }
    ],
    "title": {
@@ -29833,7 +29814,7 @@
       "id": 18720000,
       "name": "Crossguard",
       "needLevel": 6,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -29883,7 +29864,7 @@
       "id": 18770000,
       "name": "Raging Spell",
       "needLevel": 17,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -39640,8 +39621,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 04:05 UTC",
+ "updated": "2026-11-28 04:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-28 04:33",
+   "n": "iLen",
+   "x": "new Vakron Pauldrons +0"
+  },
+  {
+   "t": "2026-11-28 04:33",
+   "n": "iLen",
+   "x": "skills up: Crossguard 12, Raging Spell 14"
+  },
+  {
+   "t": "2026-11-28 04:32",
+   "n": "DeathRunner",
+   "x": "skills up: Triniel's Dagger 17"
+  },
   {
    "t": "2026-11-28 01:03",
    "n": "iLen",
@@ -41126,21 +41122,6 @@
    "t": "2026-11-19 00:33",
    "n": "uTril",
    "x": "skills up: Summon Resurrection 2, Earth Punishment 16"
-  },
-  {
-   "t": "2026-11-18 23:30",
-   "n": "CuteCatty",
-   "x": "new Chalice of Magic +0"
-  },
-  {
-   "t": "2026-11-18 23:30",
-   "n": "CuteCatty",
-   "x": "new Parchment of Magic +0"
-  },
-  {
-   "t": "2026-11-18 23:30",
-   "n": "CuteCatty",
-   "x": "new Bell of Magic +0"
   }
  ]
 }

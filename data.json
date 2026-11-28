@@ -171,6 +171,11 @@
      "date": "2026-11-27",
      "cp": 158945,
      "il": 2800
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 158945,
+     "il": 2800
     }
    ],
    "server": "Tassin",
@@ -2453,6 +2458,11 @@
      "date": "2026-11-27",
      "cp": 92431,
      "il": 2100
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 92431,
+     "il": 2100
     }
    ],
    "server": "Tassin",
@@ -4723,6 +4733,11 @@
      "date": "2026-11-27",
      "cp": 89471,
      "il": 2100
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 89471,
+     "il": 2100
     }
    ],
    "server": "Tassin",
@@ -6986,13 +7001,18 @@
      "date": "2026-11-27",
      "cp": 151031,
      "il": 2810
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 151573,
+     "il": 2818
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 151031,
-   "il": 2810,
+   "cp": 151573,
+   "il": 2818,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -7854,7 +7874,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2810
+     "value": 2818
     }
    ],
    "title": {
@@ -7984,8 +8004,8 @@
       "id": 85,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 37,
-      "openPercent": 24,
+      "openNodeCount": 38,
+      "openPercent": 25,
       "totalNodeCount": 152
      },
      {
@@ -8531,7 +8551,7 @@
      "14|1|Common|0|Boss Attack",
      "14|3|Legend|0|Critical Hit",
      "13|12|Rare|0|PvE Attack, PvE Defense",
-     "13|14|Legend|0|Boss Damage Boost",
+     "13|14|Legend|1|Boss Damage Boost",
      "13|15|Common|1|PvE Defense",
      "15|13|Rare|1|Boss Attack, Boss Defense",
      "15|7|Common|0|Max MP",
@@ -9202,6 +9222,11 @@
     },
     {
      "date": "2026-11-27",
+     "cp": 48995,
+     "il": 1114
+    },
+    {
+     "date": "2026-11-28",
      "cp": 48995,
      "il": 1114
     }
@@ -10972,6 +10997,11 @@
     },
     {
      "date": "2026-11-27",
+     "cp": 62155,
+     "il": 1136
+    },
+    {
+     "date": "2026-11-28",
      "cp": 62155,
      "il": 1136
     }
@@ -14937,6 +14967,11 @@
      "date": "2026-11-27",
      "cp": 39732,
      "il": 647
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 39732,
+     "il": 647
     }
    ],
    "server": "Tassin",
@@ -16269,6 +16304,11 @@
     },
     {
      "date": "2026-11-27",
+     "cp": 199192,
+     "il": 2962
+    },
+    {
+     "date": "2026-11-28",
      "cp": 199192,
      "il": 2962
     }
@@ -18507,6 +18547,11 @@
      "date": "2026-11-27",
      "cp": 132539,
      "il": 2632
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 132539,
+     "il": 2632
     }
    ],
    "server": "Tassin",
@@ -20583,6 +20628,11 @@
      "date": "2026-11-27",
      "cp": 23827,
      "il": 496
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 23827,
+     "il": 496
     }
    ],
    "server": "Tassin",
@@ -21889,6 +21939,11 @@
     },
     {
      "date": "2026-11-27",
+     "cp": 91749,
+     "il": 1861
+    },
+    {
+     "date": "2026-11-28",
      "cp": 91749,
      "il": 1861
     }
@@ -23714,6 +23769,11 @@
      "date": "2026-11-27",
      "cp": 25540,
      "il": 450
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 25540,
+     "il": 450
     }
    ],
    "server": "Tassin",
@@ -24969,6 +25029,11 @@
     },
     {
      "date": "2026-11-27",
+     "cp": 43620,
+     "il": 799
+    },
+    {
+     "date": "2026-11-28",
      "cp": 43620,
      "il": 799
     }
@@ -26704,12 +26769,17 @@
      "date": "2026-11-27",
      "cp": 19236,
      "il": 361
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 19266,
+     "il": 361
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 22,
-   "cp": 19236,
+   "cp": 19266,
    "il": 361,
    "gear": [
     {
@@ -27916,13 +27986,18 @@
      "date": "2026-11-27",
      "cp": 101609,
      "il": 1993
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 102277,
+     "il": 2016
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 101609,
-   "il": 1993,
+   "cp": 102277,
+   "il": 2016,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28280,17 +28355,12 @@
      "slots": 4,
      "stones": [
       [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
        "Critical Hit",
-       "+5",
-       "Common"
+       "+7",
+       "Rare"
       ],
       [
-       "Critical Hit Resist",
+       "Evasion Bonus",
        "+5",
        "Common"
       ],
@@ -28298,8 +28368,30 @@
        "Critical Hit Resist",
        "+7",
        "Rare"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
       ]
      ],
+     "godSlots": 0,
+     "god": [],
+     "src": [
+      "Reward Chest",
+      "Expedition",
+      "Sanctuary"
+     ]
+    },
+    {
+     "slotPosName": "Earring1",
+     "name": "Aulamus Earrings",
+     "grade": "Unique",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0072.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -28318,24 +28410,24 @@
      "slots": 4,
      "stones": [
       [
-       "Critical Hit",
-       "+5",
+       "MP",
+       "+15",
        "Common"
       ],
       [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "Evasion Bonus",
-       "+5",
-       "Common"
+       "Accuracy Bonus",
+       "+7",
+       "Rare"
       ],
       [
        "MP",
        "+30",
        "Rare"
+      ],
+      [
+       "Defense",
+       "+10",
+       "Common"
       ]
      ],
      "godSlots": 0,
@@ -28344,37 +28436,6 @@
       "Reward Chest",
       "Expedition",
       "Sanctuary"
-     ]
-    },
-    {
-     "slotPosName": "Earring1",
-     "name": "Liberator Earrings",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [
-      [
-       "Defense",
-       "+10",
-       "Common"
-      ],
-      [
-       "Critical Hit Resist",
-       "+7",
-       "Rare"
-      ],
-      [
-       "Accuracy Bonus",
-       "+5",
-       "Common"
-      ]
-     ],
-     "godSlots": 0,
-     "god": [],
-     "src": [
-      "Quest"
      ]
     },
     {
@@ -28387,23 +28448,23 @@
      "slots": 4,
      "stones": [
       [
-       "Critical Hit",
-       "+5",
+       "HP",
+       "+30",
        "Common"
       ],
       [
-       "MP",
-       "+30",
+       "Block",
+       "+10",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+10",
        "Rare"
       ],
       [
        "Evasion Bonus",
        "+5",
-       "Common"
-      ],
-      [
-       "MP",
-       "+15",
        "Common"
       ]
      ],
@@ -28425,23 +28486,23 @@
      "slots": 4,
      "stones": [
       [
-       "MP",
-       "+15",
+       "Critical Hit Resist",
+       "+5",
        "Common"
       ],
       [
-       "MP",
-       "+15",
-       "Common"
+       "Critical Hit",
+       "+7",
+       "Rare"
       ],
       [
-       "Defense",
-       "+10",
-       "Common"
+       "HP",
+       "+60",
+       "Rare"
       ],
       [
-       "Attack",
-       "+1",
+       "Block",
+       "+7",
        "Common"
       ]
      ],
@@ -28463,9 +28524,9 @@
      "slots": 4,
      "stones": [
       [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
+       "Block",
+       "+10",
+       "Rare"
       ],
       [
        "Evasion Bonus",
@@ -28473,13 +28534,13 @@
        "Rare"
       ],
       [
-       "MP",
-       "+15",
-       "Common"
+       "Block",
+       "+10",
+       "Rare"
       ],
       [
-       "Critical Hit",
-       "+5",
+       "HP",
+       "+30",
        "Common"
       ]
      ],
@@ -28574,7 +28635,7 @@
      "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Grail_u_PveSet2.png",
-     "max": 2,
+     "max": 3,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28626,7 +28687,7 @@
      "grade": "Rare",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Mirror_u_PveSet2.png",
-     "max": 2,
+     "max": 3,
      "slots": 0,
      "stones": [],
      "godSlots": 0,
@@ -28781,7 +28842,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 1993
+     "value": 2016
     }
    ],
    "title": {
@@ -29667,7 +29728,7 @@
       "id": 18060000,
       "name": "Impactful Crush",
       "needLevel": 3,
-      "skillLevel": 12
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -29747,7 +29808,7 @@
       "id": 18200000,
       "name": "Defiance",
       "needLevel": 16,
-      "skillLevel": 8
+      "skillLevel": 7
      },
      {
       "acquired": 1,
@@ -29847,7 +29908,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -30125,6 +30186,11 @@
     },
     {
      "date": "2026-11-27",
+     "cp": 25763,
+     "il": 472
+    },
+    {
+     "date": "2026-11-28",
      "cp": 25763,
      "il": 472
     }
@@ -31379,6 +31445,11 @@
     },
     {
      "date": "2026-11-27",
+     "cp": 143740,
+     "il": 2716
+    },
+    {
+     "date": "2026-11-28",
      "cp": 143740,
      "il": 2716
     }
@@ -33613,6 +33684,11 @@
      "date": "2026-11-27",
      "cp": 76843,
      "il": 1493
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 76843,
+     "il": 1493
     }
    ],
    "server": "Tassin",
@@ -35696,6 +35772,11 @@
      "date": "2026-11-27",
      "cp": 70335,
      "il": 1268
+    },
+    {
+     "date": "2026-11-28",
+     "cp": 70335,
+     "il": 1268
     }
    ],
    "server": "Tassin",
@@ -35712,7 +35793,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_WP_ST_0078_T05.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 1,
      "god": [],
      "src": [
@@ -35727,7 +35829,28 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Weapon_Guarder_L_001.png",
      "max": 15,
      "slots": 4,
-     "stones": [],
+     "stones": [
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ]
+     ],
      "godSlots": 1,
      "god": [],
      "src": []
@@ -35740,7 +35863,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Torso.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Block",
+       "+10",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35755,7 +35894,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0139_T05_Pants.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "MP",
+       "+30",
+       "Rare"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35772,7 +35927,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Helmet.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Defense",
+       "+10",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35787,7 +35958,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0019_T04_Shoulder.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Critical Hit",
+       "+7",
+       "Rare"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35802,7 +35989,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Gloves.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "Attack",
+       "+3",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+10",
+       "Rare"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35819,7 +36022,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0032_T05_Boots.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "HP",
+       "+60",
+       "Rare"
+      ],
+      [
+       "Block",
+       "+7",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35904,7 +36123,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ],
+      [
+       "HP",
+       "+30",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35919,7 +36154,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_ER_0071.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Critical Hit",
+       "+5",
+       "Common"
+      ],
+      [
+       "Critical Hit Resist",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35934,7 +36185,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "HP",
+       "+30",
+       "Common"
+      ],
+      [
+       "Evasion Bonus",
+       "+5",
+       "Common"
+      ],
+      [
+       "MP",
+       "+15",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -35949,7 +36216,23 @@
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_ACC_Ring_0071.png",
      "max": 10,
      "slots": 3,
-     "stones": [],
+     "stones": [
+      [
+       "Defense",
+       "+30",
+       "Rare"
+      ],
+      [
+       "Attack",
+       "+1",
+       "Common"
+      ],
+      [
+       "Accuracy Bonus",
+       "+5",
+       "Common"
+      ]
+     ],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -36002,13 +36285,13 @@
      "slots": 3,
      "stones": [
       [
-       "MP",
-       "+15",
+       "Attack",
+       "+1",
        "Common"
       ],
       [
-       "Attack",
-       "+1",
+       "MP",
+       "+15",
        "Common"
       ],
       [
@@ -37519,6 +37802,11 @@
     },
     {
      "date": "2026-11-27",
+     "cp": 70980,
+     "il": 1351
+    },
+    {
+     "date": "2026-11-28",
      "cp": 70980,
      "il": 1351
     }
@@ -39347,8 +39635,23 @@
    "race": 2
   }
  },
- "updated": "2026-11-27 23:35 UTC",
+ "updated": "2026-11-28 00:19 UTC",
  "feed": [
+  {
+   "t": "2026-11-28 00:15",
+   "n": "CutieCatty",
+   "x": "opened 1 Daevanion nodes"
+  },
+  {
+   "t": "2026-11-28 00:11",
+   "n": "iLen",
+   "x": "new Aulamus Earrings +0"
+  },
+  {
+   "t": "2026-11-28 00:11",
+   "n": "iLen",
+   "x": "skills up: Impactful Crush 13, Wind's Promise 16"
+  },
   {
    "t": "2026-11-27 23:33",
    "n": "iLen",
@@ -40833,21 +41136,6 @@
    "t": "2026-11-18 23:27",
    "n": "YasuoMain16",
    "x": "new Bell of Magic +0"
-  },
-  {
-   "t": "2026-11-18 23:27",
-   "n": "YasuoMain16",
-   "x": "skills up: Vicious Strike 13, Pummel 15, Judgment 17, Fury 15"
-  },
-  {
-   "t": "2026-11-18 23:01",
-   "n": "YasuoMain16",
-   "x": "Revelation Amulet +2 → +7"
-  },
-  {
-   "t": "2026-11-18 23:01",
-   "n": "YasuoMain16",
-   "x": "new Parchment of Vigor +0"
   }
  ]
 }

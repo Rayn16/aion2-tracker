@@ -27994,14 +27994,14 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 103513,
+     "cp": 103516,
      "il": 2080
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 103513,
+   "cp": 103516,
    "il": 2080,
    "gear": [
     {
@@ -31399,14 +31399,14 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 143740,
+     "cp": 144216,
      "il": 2716
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 143740,
+   "cp": 144216,
    "il": 2716,
    "gear": [
     {
@@ -32288,7 +32288,7 @@
     }
    ],
    "title": {
-    "ownedCount": 210,
+    "ownedCount": 212,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -32306,8 +32306,8 @@
       "grade": "Unique",
       "id": 22010061,
       "name": "Through Hell and Back",
-      "ownedCount": 65,
-      "ownedPercent": 64,
+      "ownedCount": 67,
+      "ownedPercent": 66,
       "statList": [
        {
         "desc": "Block +10"
@@ -33393,7 +33393,7 @@
       "id": 17430000,
       "name": "Prayer of Amplification",
       "needLevel": 22,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -33483,7 +33483,7 @@
       "id": 17440000,
       "name": "Noble Aura",
       "needLevel": 22,
-      "skillLevel": 7
+      "skillLevel": 5
      }
     ]
    },
@@ -39584,8 +39584,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 08:04 UTC",
+ "updated": "2026-11-28 08:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-28 08:34",
+   "n": "uTril",
+   "x": "2 new titles"
+  },
+  {
+   "t": "2026-11-28 08:34",
+   "n": "uTril",
+   "x": "skills up: Prayer of Amplification 16"
+  },
   {
    "t": "2026-11-28 05:33",
    "n": "iLen",
@@ -41075,16 +41085,6 @@
    "t": "2026-11-19 16:32",
    "n": "DeathRunner",
    "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-19 16:32",
-   "n": "DeathRunner",
-   "x": "skills up: Quick Slice 17"
-  },
-  {
-   "t": "2026-11-19 16:02",
-   "n": "DeathRunner",
-   "x": "opened 2 Daevanion nodes"
   }
  ]
 }

@@ -27060,10 +27060,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +0.7%"
+      "HP increase +0.8%"
      ],
      "type": "CON",
-     "value": 7
+     "value": 8
     },
     {
      "name": "Precision",
@@ -27994,14 +27994,14 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 104034,
+     "cp": 89443,
      "il": 2100
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 104034,
+   "cp": 89443,
    "il": 2100,
    "gear": [
     {
@@ -28675,10 +28675,10 @@
     {
      "name": "Constitution",
      "statSecondList": [
-      "HP increase +0.7%"
+      "HP increase +0.8%"
      ],
      "type": "CON",
-     "value": 7
+     "value": 8
     },
     {
      "name": "Precision",
@@ -39584,7 +39584,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 09:05 UTC",
+ "updated": "2026-11-28 09:35 UTC",
  "feed": [
   {
    "t": "2026-11-28 09:03",

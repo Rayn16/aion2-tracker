@@ -7004,14 +7004,14 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 151573,
+     "cp": 154973,
      "il": 2818
     }
    ],
    "server": "Tassin",
    "owner": "CutieCatty#meo",
    "level": 45,
-   "cp": 151573,
+   "cp": 154973,
    "il": 2818,
    "gear": [
     {
@@ -8948,7 +8948,7 @@
      {
       "acquired": 1,
       "category": "Dp",
-      "equip": 1,
+      "equip": 0,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_022.png",
       "id": 18220000,
       "name": "Obliterate",
@@ -9048,7 +9048,7 @@
      {
       "acquired": 0,
       "category": "Dp",
-      "equip": 0,
+      "equip": 1,
       "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/ICON_CH_SKILL_042.png",
       "id": 18420000,
       "name": "Guardian Blessing",
@@ -16309,15 +16309,15 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 199192,
-     "il": 2962
+     "cp": 199198,
+     "il": 2963
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 199192,
-   "il": 2962,
+   "cp": 199198,
+   "il": 2963,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -17198,7 +17198,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2962
+     "value": 2963
     }
    ],
    "title": {
@@ -17328,7 +17328,7 @@
       "id": 45,
       "name": "Ariel",
       "open": 1,
-      "openNodeCount": 62,
+      "openNodeCount": 63,
       "openPercent": 41,
       "totalNodeCount": 152
      },
@@ -17751,7 +17751,7 @@
      "5|7|Common|1|PvE Defense",
      "5|4|Legend|1|Boss Damage Tolerance",
      "6|4|Common|0|PvE Evasion",
-     "6|1|Common|0|PvE Defense",
+     "6|1|Common|1|PvE Defense",
      "5|14|Legend|0|Boss Damage Boost",
      "5|12|Common|0|PvE Accuracy",
      "5|13|Common|0|Boss Defense",
@@ -39635,8 +39635,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 00:19 UTC",
+ "updated": "2026-11-28 00:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-28 00:32",
+   "n": "DeathRunner",
+   "x": "opened 1 Daevanion nodes"
+  },
   {
    "t": "2026-11-28 00:15",
    "n": "CutieCatty",
@@ -41131,11 +41136,6 @@
    "t": "2026-11-18 23:30",
    "n": "CuteCatty",
    "x": "skills up: Chain of Torment 15, Radiant Recovery 14, Empyrean Lords' Benediction 8, Empyrean Lord's Grace 15 and 3 more"
-  },
-  {
-   "t": "2026-11-18 23:27",
-   "n": "YasuoMain16",
-   "x": "new Bell of Magic +0"
   }
  ]
 }

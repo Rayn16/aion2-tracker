@@ -16314,14 +16314,14 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 199998,
+     "cp": 200403,
      "il": 2963
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 199998,
+   "cp": 200403,
    "il": 2963,
    "gear": [
     {
@@ -17005,10 +17005,10 @@
     },
     {
      "slotPosName": "Arcana2",
-     "name": "Parchment of Magic",
+     "name": "Parchment of Vigor",
      "grade": "Unique",
      "enchantLevel": 5,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_PveSet2.png",
      "max": 5,
      "slots": 0,
      "stones": [],
@@ -17031,10 +17031,10 @@
     },
     {
      "slotPosName": "Arcana4",
-     "name": "Bell of Vigor",
+     "name": "Bell of Magic",
      "grade": "Unique",
      "enchantLevel": 4,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_PveSet2.png",
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Bell_u_DefenceSet2.png",
      "max": 5,
      "slots": 0,
      "stones": [],
@@ -17112,11 +17112,11 @@
     {
      "name": "Justice [Nezekan]",
      "statSecondList": [
-      "Defense increase +7.5%",
-      "Perfect Chance +7.5%"
+      "Defense increase +5.1%",
+      "Perfect Chance +5.1%"
      ],
      "type": "Justice",
-     "value": 75
+     "value": 51
     },
     {
      "name": "Freedom [Vaizel]",
@@ -17139,11 +17139,11 @@
     {
      "name": "Life [Yustiel]",
      "statSecondList": [
-      "HP increase +2.7%",
-      "Regeneration +2.7%"
+      "HP increase +5.2%",
+      "Regeneration +5.2%"
      ],
      "type": "Life",
-     "value": 27
+     "value": 52
     },
     {
      "name": "Time [Siel]",
@@ -17157,11 +17157,11 @@
     {
      "name": "Destruction [Zikel]",
      "statSecondList": [
-      "Attack increase +5.1%",
-      "Perfect Resist +5.1%"
+      "Attack increase +7.5%",
+      "Perfect Resist +7.5%"
      ],
      "type": "Destruction",
-     "value": 51
+     "value": 75
     },
     {
      "name": "Death [Triniel]",
@@ -17184,11 +17184,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +5.2%",
-      "Endurance +5.2%"
+      "MP increase +2.7%",
+      "Endurance +2.7%"
      ],
      "type": "Destiny",
-     "value": 52
+     "value": 27
     },
     {
      "name": "Space [Israphel]",
@@ -18062,7 +18062,7 @@
       "id": 13010000,
       "name": "Quick Slice",
       "needLevel": 1,
-      "skillLevel": 17
+      "skillLevel": 18
      },
      {
       "acquired": 1,
@@ -18082,7 +18082,7 @@
       "id": 13070000,
       "name": "Shadowstrike",
       "needLevel": 1,
-      "skillLevel": 7
+      "skillLevel": 10
      },
      {
       "acquired": 1,
@@ -18102,7 +18102,7 @@
       "id": 13350000,
       "name": "Heart Gore",
       "needLevel": 4,
-      "skillLevel": 20
+      "skillLevel": 19
      },
      {
       "acquired": 1,
@@ -18152,7 +18152,7 @@
       "id": 13220000,
       "name": "Shadow Fall",
       "needLevel": 12,
-      "skillLevel": 5
+      "skillLevel": 3
      },
      {
       "acquired": 1,
@@ -18162,7 +18162,7 @@
       "id": 13130000,
       "name": "Insignia Explosion",
       "needLevel": 14,
-      "skillLevel": 17
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -18202,7 +18202,7 @@
       "id": 13730000,
       "name": "Apply Poison",
       "needLevel": 9,
-      "skillLevel": 16
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -18222,7 +18222,7 @@
       "id": 13750000,
       "name": "Assault Stance",
       "needLevel": 13,
-      "skillLevel": 18
+      "skillLevel": 21
      },
      {
       "acquired": 1,
@@ -18262,7 +18262,7 @@
       "id": 13790000,
       "name": "Revitalization Contract",
       "needLevel": 23,
-      "skillLevel": 15
+      "skillLevel": 16
      },
      {
       "acquired": 1,
@@ -27994,15 +27994,15 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 103051,
-     "il": 2027
+     "cp": 103606,
+     "il": 2081
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 103051,
-   "il": 2027,
+   "cp": 103606,
+   "il": 2081,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28156,7 +28156,7 @@
      "slotPosName": "Helmet",
      "name": "Vakron Helm",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Helmet.png",
      "max": 15,
      "slots": 4,
@@ -28173,7 +28173,7 @@
      "slotPosName": "Shoulder",
      "name": "Vakron Pauldrons",
      "grade": "Unique",
-     "enchantLevel": 0,
+     "enchantLevel": 10,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Shoulder.png",
      "max": 15,
      "slots": 4,
@@ -28226,29 +28226,13 @@
     },
     {
      "slotPosName": "Boots",
-     "name": "Divine Canyon Boots",
-     "grade": "Legend",
-     "enchantLevel": 0,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0072_T05_Boots.png",
-     "max": 10,
-     "slots": 3,
-     "stones": [
-      [
-       "Block",
-       "+10",
-       "Rare"
-      ],
-      [
-       "HP",
-       "+30",
-       "Common"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ]
-     ],
+     "name": "Vakron Boots",
+     "grade": "Unique",
+     "enchantLevel": 10,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Boots.png",
+     "max": 15,
+     "slots": 4,
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -28828,11 +28812,11 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2027
+     "value": 2081
     }
    ],
    "title": {
-    "ownedCount": 201,
+    "ownedCount": 202,
     "titleList": [
      {
       "equipCategory": "Etc",
@@ -28875,8 +28859,8 @@
       "grade": "Unique",
       "id": 22030003,
       "name": "Saint of Altgard",
-      "ownedCount": 65,
-      "ownedPercent": 66,
+      "ownedCount": 66,
+      "ownedPercent": 67,
       "statList": [
        {
         "desc": "MP +20"
@@ -29824,7 +29808,7 @@
       "id": 18730000,
       "name": "Protection Circle",
       "needLevel": 9,
-      "skillLevel": 13
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -29834,7 +29818,7 @@
       "id": 18740000,
       "name": "Inspiring Spell",
       "needLevel": 11,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -29844,7 +29828,7 @@
       "id": 18750000,
       "name": "Attack Preparation",
       "needLevel": 13,
-      "skillLevel": 15
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -39621,8 +39605,43 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 04:35 UTC",
+ "updated": "2026-11-28 05:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-28 05:03",
+   "n": "iLen",
+   "x": "Vakron Helm +0 → +10"
+  },
+  {
+   "t": "2026-11-28 05:03",
+   "n": "iLen",
+   "x": "Vakron Pauldrons +0 → +10"
+  },
+  {
+   "t": "2026-11-28 05:03",
+   "n": "iLen",
+   "x": "new Vakron Boots +10"
+  },
+  {
+   "t": "2026-11-28 05:03",
+   "n": "iLen",
+   "x": "1 new title"
+  },
+  {
+   "t": "2026-11-28 05:02",
+   "n": "DeathRunner",
+   "x": "new Parchment of Vigor +5"
+  },
+  {
+   "t": "2026-11-28 05:02",
+   "n": "DeathRunner",
+   "x": "new Bell of Magic +4"
+  },
+  {
+   "t": "2026-11-28 05:02",
+   "n": "DeathRunner",
+   "x": "skills up: Quick Slice 18, Shadowstrike 10, Assault Stance 21, Revitalization Contract 16"
+  },
   {
    "t": "2026-11-28 04:33",
    "n": "iLen",
@@ -41087,41 +41106,6 @@
    "t": "2026-11-19 11:34",
    "n": "CuteCatty",
    "x": "Noble Belt +3 → +5"
-  },
-  {
-   "t": "2026-11-19 11:34",
-   "n": "CuteCatty",
-   "x": "Revelation Amulet +4 → +5"
-  },
-  {
-   "t": "2026-11-19 09:32",
-   "n": "DeathRunner",
-   "x": "Nuakum Greaves +13 → +14"
-  },
-  {
-   "t": "2026-11-19 09:32",
-   "n": "DeathRunner",
-   "x": "Nuakum Boots +13 → +14"
-  },
-  {
-   "t": "2026-11-19 09:32",
-   "n": "DeathRunner",
-   "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-19 09:32",
-   "n": "DeathRunner",
-   "x": "skills up: Triniel's Dagger 14"
-  },
-  {
-   "t": "2026-11-19 06:01",
-   "n": "YasuoMain",
-   "x": "opened 1 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-19 00:33",
-   "n": "uTril",
-   "x": "skills up: Summon Resurrection 2, Earth Punishment 16"
   }
  ]
 }

@@ -27994,14 +27994,14 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 103533,
+     "cp": 103513,
      "il": 2080
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 103533,
+   "cp": 103513,
    "il": 2080,
    "gear": [
     {
@@ -28826,23 +28826,23 @@
       "equipCategory": "Defense",
       "equipStatList": [
        {
-        "desc": "Defense Bonus +300"
+        "desc": "Defense Bonus +320"
        },
        {
-        "desc": "Damage Tolerance +3%"
+        "desc": "Back Attack Damage Tolerance +3%"
        },
        {
-        "desc": "Block +100"
+        "desc": "Boss Damage Tolerance +4%"
        }
       ],
       "grade": "Unique",
-      "id": 22030003,
-      "name": "Saint of Altgard",
+      "id": 23010025,
+      "name": "Rule All Creation",
       "ownedCount": 66,
       "ownedPercent": 67,
       "statList": [
        {
-        "desc": "MP +20"
+        "desc": "Move Speed +1%"
        }
       ],
       "totalCount": 99
@@ -39584,7 +39584,7 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 05:35 UTC",
+ "updated": "2026-11-28 06:04 UTC",
  "feed": [
   {
    "t": "2026-11-28 05:33",

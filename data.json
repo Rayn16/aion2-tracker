@@ -27994,15 +27994,15 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 103516,
-     "il": 2080
+     "cp": 104034,
+     "il": 2100
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 103516,
-   "il": 2080,
+   "cp": 104034,
+   "il": 2100,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28594,7 +28594,7 @@
     {
      "slotPosName": "Arcana2",
      "name": "Parchment of Magic",
-     "grade": "Rare",
+     "grade": "Legend",
      "enchantLevel": 0,
      "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Arcana_Card_Parchment_u_DefenceSet2.png",
      "max": 3,
@@ -28772,11 +28772,11 @@
     {
      "name": "Destiny [Marchutan]",
      "statSecondList": [
-      "MP increase +2.3%",
-      "Endurance +2.3%"
+      "MP increase +2.7%",
+      "Endurance +2.7%"
      ],
      "type": "Destiny",
-     "value": 23
+     "value": 27
     },
     {
      "name": "Space [Israphel]",
@@ -28791,7 +28791,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2080
+     "value": 2100
     }
    ],
    "title": {
@@ -29707,7 +29707,7 @@
       "id": 18150000,
       "name": "Heat Wave Blow",
       "needLevel": 7,
-      "skillLevel": 11
+      "skillLevel": 12
      },
      {
       "acquired": 1,
@@ -29737,7 +29737,7 @@
       "id": 18080000,
       "name": "Wave Blow",
       "needLevel": 12,
-      "skillLevel": 2
+      "skillLevel": 1
      },
      {
       "acquired": 1,
@@ -29747,7 +29747,7 @@
       "id": 18290000,
       "name": "Spinning Strike",
       "needLevel": 14,
-      "skillLevel": 13
+      "skillLevel": 14
      },
      {
       "acquired": 1,
@@ -39584,8 +39584,13 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 08:35 UTC",
+ "updated": "2026-11-28 09:05 UTC",
  "feed": [
+  {
+   "t": "2026-11-28 09:03",
+   "n": "iLen",
+   "x": "skills up: Heat Wave Blow 12, Spinning Strike 14"
+  },
   {
    "t": "2026-11-28 08:34",
    "n": "uTril",
@@ -41080,11 +41085,6 @@
    "t": "2026-11-19 16:32",
    "n": "DeathRunner",
    "x": "1 new title"
-  },
-  {
-   "t": "2026-11-19 16:32",
-   "n": "DeathRunner",
-   "x": "opened 1 Daevanion nodes"
   }
  ]
 }

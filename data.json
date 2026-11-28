@@ -27994,15 +27994,15 @@
     },
     {
      "date": "2026-11-28",
-     "cp": 103606,
-     "il": 2081
+     "cp": 103533,
+     "il": 2080
     }
    ],
    "server": "Tassin",
    "owner": "",
    "level": 45,
-   "cp": 103606,
-   "il": 2081,
+   "cp": 103533,
+   "il": 2080,
    "gear": [
     {
      "slotPosName": "MainHand",
@@ -28243,34 +28243,13 @@
     },
     {
      "slotPosName": "Cape",
-     "name": "Bakarma Cloak",
+     "name": "Vakron Cloak",
      "grade": "Unique",
-     "enchantLevel": 10,
-     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_GM_0059_T05_Cape.png",
+     "enchantLevel": 0,
+     "icon": "https://assets.playnccdn.com/static-aion2-gamedata/resources/Icon_Equip_AR_L_0028_T05_Cape.png",
      "max": 15,
      "slots": 4,
-     "stones": [
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ],
-      [
-       "Critical Hit Resist",
-       "+5",
-       "Common"
-      ],
-      [
-       "MP",
-       "+15",
-       "Common"
-      ]
-     ],
+     "stones": [],
      "godSlots": 0,
      "god": [],
      "src": [
@@ -28678,12 +28657,12 @@
     {
      "name": "Dexterity",
      "statSecondList": [
-      "Evasion increase +2.1%",
-      "Block increase +2.1%",
-      "Critical Hit Resist increase +2.1%"
+      "Evasion increase +3.6%",
+      "Block increase +3.6%",
+      "Critical Hit Resist increase +3.6%"
      ],
      "type": "DEX",
-     "value": 21
+     "value": 36
     },
     {
      "name": "Intelligence",
@@ -28713,10 +28692,10 @@
     {
      "name": "Willpower",
      "statSecondList": [
-      "Status Effect Resist +1.1%"
+      "Status Effect Resist +2.7%"
      ],
      "type": "WIS",
-     "value": 11
+     "value": 27
     },
     {
      "name": "Justice [Nezekan]",
@@ -28812,7 +28791,7 @@
      "name": "아이템레벨",
      "statSecondList": null,
      "type": "ItemLevel",
-     "value": 2081
+     "value": 2080
     }
    ],
    "title": {
@@ -29868,7 +29847,7 @@
       "id": 18790000,
       "name": "Survival Willpower",
       "needLevel": 23,
-      "skillLevel": 14
+      "skillLevel": 13
      },
      {
       "acquired": 1,
@@ -29878,7 +29857,7 @@
       "id": 18800000,
       "name": "Wind's Promise",
       "needLevel": 25,
-      "skillLevel": 16
+      "skillLevel": 17
      },
      {
       "acquired": 1,
@@ -39605,8 +39584,18 @@
    "race": 2
   }
  },
- "updated": "2026-11-28 05:05 UTC",
+ "updated": "2026-11-28 05:35 UTC",
  "feed": [
+  {
+   "t": "2026-11-28 05:33",
+   "n": "iLen",
+   "x": "new Vakron Cloak +0"
+  },
+  {
+   "t": "2026-11-28 05:33",
+   "n": "iLen",
+   "x": "skills up: Wind's Promise 17"
+  },
   {
    "t": "2026-11-28 05:03",
    "n": "iLen",
@@ -41096,16 +41085,6 @@
    "t": "2026-11-19 16:02",
    "n": "DeathRunner",
    "x": "opened 2 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-19 15:32",
-   "n": "DeathRunner",
-   "x": "opened 3 Daevanion nodes"
-  },
-  {
-   "t": "2026-11-19 11:34",
-   "n": "CuteCatty",
-   "x": "Noble Belt +3 → +5"
   }
  ]
 }
